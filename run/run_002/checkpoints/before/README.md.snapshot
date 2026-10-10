@@ -1,0 +1,20 @@
+# SMALL-PUNCH
+AI FOR SP TEST
+
+## 研究目标
+
+基于小冲杆试验的实验力–位移曲线，研究 Hollomon 弹塑性参数反演。当前识别参数为 sigma_y、n，E 暂为已知输入并保留扩展能力。
+
+当前为 Stage 1：基础架构与只读审计。尚未运行 FE 求解、优化或训练。
+
+- [项目状态](status/PROJECT_STATUS.md)
+- [研究概述](docs/Research_Overview.md)
+- [研究架构](docs/Research_Architecture.md)
+- [本构技术契约](docs/Constitutive_Model.md)
+- [数据管理](docs/Data_Management.md)
+- [Agent 通信与 Run 协议](docs/Agent_File_Communication_Protocol.md)
+- [Run 索引](run/README.md)
+
+CAE/ 保存模型和脚本，experiments/ 保存经明确导入的研究数据，inverse/ 为未来反演模块。run/ 保存过程和结果索引。私有原始资料区不随 Git 分发，不得作为运行目录。
+
+以已核验外部解释器运行 `tests/validate_foundation.py` 可执行轻量检查。完整性检查需要本地私有资料及其清单；普通 clone 不具备这些证据。环境探针和验证脚本均不执行求解。

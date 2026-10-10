@@ -1,0 +1,243 @@
+{
+  "checked_at": "2026-10-10T10:21:31.004690+00:00",
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "files_utf8",
+      "status": "PASS",
+      "detail": [
+        "README.md",
+        "README.zh-CN.md"
+      ]
+    },
+    {
+      "check": "language_switch",
+      "status": "PASS",
+      "detail": "Reciprocal top links"
+    },
+    {
+      "check": "bilingual_sections",
+      "status": "PASS",
+      "detail": {
+        "count": 16,
+        "mapping": [
+          [
+            "Project Overview",
+            "\u9879\u76ee\u6982\u8ff0"
+          ],
+          [
+            "Physical Problem: Small Punch Test",
+            "\u7269\u7406\u95ee\u9898\uff1a\u5c0f\u51b2\u6746\u8bd5\u9a8c"
+          ],
+          [
+            "Research Objectives",
+            "\u7814\u7a76\u76ee\u6807"
+          ],
+          [
+            "Proposed Research Architecture",
+            "\u62df\u8bae\u7814\u7a76\u67b6\u6784"
+          ],
+          [
+            "Constitutive Model",
+            "\u672c\u6784\u6a21\u578b"
+          ],
+          [
+            "Inverse Identification Formulation",
+            "\u672c\u6784\u53c2\u6570\u53cd\u6f14\u6570\u5b66\u5f62\u5f0f"
+          ],
+          [
+            "Role of Reinforcement Learning",
+            "\u5f3a\u5316\u5b66\u4e60\u5728\u9879\u76ee\u4e2d\u7684\u89d2\u8272"
+          ],
+          [
+            "MDP Formulation",
+            "MDP \u6570\u5b66\u5b9a\u4e49"
+          ],
+          [
+            "Research Questions",
+            "\u7814\u7a76\u95ee\u9898"
+          ],
+          [
+            "Research Roadmap",
+            "\u7814\u7a76\u8def\u7ebf\u56fe"
+          ],
+          [
+            "Repository Structure",
+            "\u4ed3\u5e93\u7ed3\u6784"
+          ],
+          [
+            "Computing Environment",
+            "\u8ba1\u7b97\u73af\u5883"
+          ],
+          [
+            "Current Project Status",
+            "\u5f53\u524d\u9879\u76ee\u72b6\u6001"
+          ],
+          [
+            "Reproducibility and Data Policy",
+            "\u53ef\u590d\u73b0\u6027\u4e0e\u6570\u636e\u653f\u7b56"
+          ],
+          [
+            "Limitations and Research Boundaries",
+            "\u7814\u7a76\u5c40\u9650\u4e0e\u8fb9\u754c"
+          ],
+          [
+            "Citation and Contact",
+            "\u5f15\u7528\u4e0e\u8054\u7cfb"
+          ]
+        ]
+      }
+    },
+    {
+      "check": "heading_and_fence_structure",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "check": "identical_display_equations",
+      "status": "PASS",
+      "detail": "Eight matching blocks: forward model, constitutive laws, parameters, objective, MDP state/action/reward"
+    },
+    {
+      "check": "latex_braces",
+      "status": "PASS",
+      "detail": "Delimiter check only; not a MathJax rendering test"
+    },
+    {
+      "check": "mermaid_subset_syntax",
+      "status": "PASS",
+      "detail": "Architecture: 5 layers/9 nodes/10 edges; RL: 8 nodes/9 edges, training updates dashed"
+    },
+    {
+      "check": "identical_mermaid_topology",
+      "status": "PASS",
+      "detail": "Both diagrams have identical English source in both README files"
+    },
+    {
+      "check": "relative_links",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "check": "shared_spt_image_path",
+      "status": "PASS",
+      "detail": "Both language versions reference the same existing local SVG"
+    },
+    {
+      "check": "svg_self_contained",
+      "status": "PASS",
+      "detail": "Whitelisted vector/text elements; no scripts, events, external resources, raster image, or external font"
+    },
+    {
+      "check": "svg_labels_and_theme",
+      "status": "PASS",
+      "detail": "English physical labels and explicit white background; visual review recorded separately"
+    },
+    {
+      "check": "public_readme_privacy",
+      "status": "PASS",
+      "detail": "No absolute machine paths or links to private evidence; private source area not opened"
+    },
+    {
+      "check": "shared_factual_markers",
+      "status": "PASS",
+      "detail": [
+        "run_001 = WARNING",
+        "17",
+        "2026-10-10",
+        "3.11.13",
+        "3.10.5",
+        "Abaqus 2024",
+        "PPO",
+        "SAC",
+        "RQ1",
+        "RQ2",
+        "RQ3"
+      ]
+    },
+    {
+      "check": "roadmap_status_parity",
+      "status": "PASS",
+      "detail": [
+        [
+          [
+            "In Progress",
+            "Completed",
+            "Blocked"
+          ],
+          [
+            "Planned"
+          ],
+          [
+            "Planned"
+          ],
+          [
+            "Planned"
+          ]
+        ],
+        [
+          [
+            "In Progress",
+            "Completed",
+            "Blocked"
+          ],
+          [
+            "Planned"
+          ],
+          [
+            "Planned"
+          ],
+          [
+            "Planned"
+          ]
+        ]
+      ]
+    },
+    {
+      "check": "unsupported_claim_screen",
+      "status": "PASS",
+      "detail": {
+        "matches": [],
+        "limit": "Heuristic screen; semantic review is recorded separately"
+      }
+    },
+    {
+      "check": "prior_work_preserved",
+      "status": "PASS",
+      "detail": {
+        "unexpected_changes": [],
+        "approved_updates": [
+          "README.md",
+          "docs/Research_Overview.md",
+          "run/README.md",
+          "status/PROJECT_STATUS.md"
+        ]
+      }
+    },
+    {
+      "check": "pre_edit_snapshots",
+      "status": "PASS",
+      "detail": "Exact original bytes for four shared files"
+    },
+    {
+      "check": "git_head_and_index",
+      "status": "PASS",
+      "detail": "No commit or staging; baseline retained"
+    },
+    {
+      "check": "private_ignore_rules",
+      "status": "PASS",
+      "detail": [
+        "references_private/probe.dat",
+        "materials/probe.dat",
+        "Materials/probe.dat",
+        "run/run_002/artifacts/private/probe.json"
+      ]
+    }
+  ],
+  "limitations": [
+    "Mermaid checked against the used syntax subset, not rendered by GitHub.",
+    "LaTeX delimiters and bilingual identity checked, not rendered by MathJax.",
+    "Semantic equivalence and scientific claims also require the recorded manual review."
+  ]
+}

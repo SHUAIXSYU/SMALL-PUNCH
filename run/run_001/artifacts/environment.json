@@ -1,0 +1,53 @@
+{
+  "checked_at": "2026-10-10T09:52:10.206852+00:00",
+  "python": "3.11.13",
+  "interpreter_ref": "run/run_001/run.json#python_interpreter",
+  "packages": {
+    "NumPy": {
+      "version": "2.1.2",
+      "import_ok": true
+    },
+    "SciPy": {
+      "version": "1.16.1",
+      "import_ok": true
+    },
+    "Pandas": {
+      "version": "2.3.1",
+      "import_ok": true
+    },
+    "Matplotlib": {
+      "version": "3.10.5",
+      "import_ok": true
+    },
+    "PyTorch": {
+      "version": "2.6.0+cu124",
+      "import_ok": true
+    },
+    "Gymnasium": {
+      "version": "1.2.3",
+      "import_ok": true
+    },
+    "Stable-Baselines3": {
+      "version": "2.8.0",
+      "import_ok": true
+    },
+    "scikit-learn": {
+      "version": "1.7.1",
+      "import_ok": true
+    }
+  },
+  "abaqus": {
+    "release": "2024",
+    "python": "3.10.5",
+    "release_query": "PASS",
+    "python_query": "PASS",
+    "solver": "NOT_TESTED",
+    "cae": "NOT_TESTED",
+    "license": "NOT_TESTED"
+  },
+  "notes": [
+    "No installation or upgrade; imports only, no CUDA initialization or training.",
+    "Initial exact name matching missed normalized Stable-Baselines3; metadata.version and actual import confirm 2.8.0.",
+    "Bundled Python used only for read-only workbook ZIP/XML inspection."
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_002",
+  "stage": "Stage 1",
+  "objective": "Create aligned English/Chinese SP-InvOpt research homepages with physical inverse formulation, RL/MDP, roadmap, original SPT SVG and two Mermaid diagrams; preserve scientific and Git provenance.",
+  "status": "WARNING",
+  "start_time": "2026-10-10T18:08:08+08:00",
+  "end_time": "2026-10-10T18:22:32.087114+08:00",
+  "time_notes": "Start is first observed tool clock; end is actual finalization observation.",
+  "python_interpreter": "D:\\XianLab\\envs\\conda\\torch-gpu\\python.exe",
+  "git_head": "f8fbdbe8d3ccd484eb5b23567084c45c66baab62",
+  "git_branch": "main",
+  "inputs": [
+    {
+      "path": ".gitignore",
+      "role": "public_baseline",
+      "sha256": "6f0cab4acfcec6f96a2aa9a2f55f93f9c1ea62f642da8910f08def4c8a968d96"
+    },
+    {
+      "path": "AGENTS.md",
+      "role": "public_baseline",
+      "sha256": "13ad1d2940b674df0c21dcff0d37a200583067b5ef40d05fc4a2d0add0ade6b3"
+    },
+    {
+      "path": "README.md",
+      "role": "public_baseline",
+      "sha256": "094fac67c06c98a95da89e5408e9a9308e6f74efc8eeeefb992fcf31ed2934d7",
+      "snapshot": "run/run_002/checkpoints/before/README.md.snapshot"
+    },
+    {
+      "path": "docs/Agent_File_Communication_Protocol.md",
+      "role": "public_baseline",
+      "sha256": "3babb83b14be49fa5e0065612c4f3a621daffba9bd280a0262153f399a811ba5"
+    },
+    {
+      "path": "docs/Constitutive_Model.md",
+      "role": "public_baseline",
+      "sha256": "2396db5caabf2e226ce3d33c9debc3ffb1941d4c49a06eb296d9b708de5363e2"
+    },
+    {
+      "path": "docs/Data_Management.md",
+      "role": "public_baseline",
+      "sha256": "d7bc2cbe2c9d06ac5fea49602d690bc71b2a149d214402f9262b90a309a9d6cc"
+    },
+    {
+      "path": "docs/Research_Architecture.md",
+      "role": "public_baseline",
+      "sha256": "74dc3f50e96d43c9683175380001996c44ad9a452a0f6ace2a85a4fc422ef1ec"
+    },
+    {
+      "path": "docs/Research_Overview.md",
+      "role": "public_baseline",
+      "sha256": "88ad557d96c1b66cdd2631c42dac0abb93dbe9cafd77ad1dbad80feef7ac4534",
+      "snapshot": "run/run_002/checkpoints/before/docs/Research_Overview.md.snapshot"
+    },
+    {
+      "path": "run/README.md",
+      "role": "public_baseline",
+      "sha256": "6239a1c7e83f9369e8c029fd09e24a176a7bcc2f4c38fbafb6ce7087ebcd83e3",
+      "snapshot": "run/run_002/checkpoints/before/run/README.md.snapshot"
+    },
+    {
+      "path": "run/run_001/run.json",
+      "role": "public_baseline",
+      "sha256": "0aa865a6dc742fc5813a2e11e4b976b6f91cc24012039e4226bf726f5ca7bc2a"
+    },
+    {
+      "path": "run/run_001/summary.md",
+      "role": "public_baseline",
+      "sha256": "c6726ceca65834e42e6e5e5c219f24d5b1f4c80cd894b4cccd4cada8575d3bfd"
+    },
+    {
+      "path": "status/PROJECT_STATUS.md",
+      "role": "public_baseline",
+      "sha256": "db541cb94d7545050b6354db52b92ce0eef299cb635bdfa0ffb55fae213980f1",
+      "snapshot": "run/run_002/checkpoints/before/status/PROJECT_STATUS.md.snapshot"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "README.md",
+      "role": "run_002_deliverable_or_evidence"
+    },
+    {
+      "path": "README.zh-CN.md",
+      "role": "run_002_deliverable_or_evidence"
+    },
+    {
+      "path": "docs/Research_Overview.md",
+      "role": "run_002_deliverable_or_evidence"
+    },
+    {
+      "path": "docs/figures/README.md",
+      "role": "run_002_deliverable_or_evidence"
+    },
+    {
+      "path": "docs/figures/spt_setup.svg",
+      "role": "run_002_deliverable_or_evidence"
+    },
+    {
+      "path": "run/README.md",
+      "role": "run_002_deliverable_or_evidence"
+    },
+    {
+      "path": "run/run_002/artifacts/Editorial_Review.md",
+      "role": "run_002_deliverable_or_evidence"
+    },
+    {
+      "path": "run/run_002/artifacts/manifest.json",
+      "role": "run_002_deliverable_or_evidence"
+    },
+    {
+      "path": "run/run_002/artifacts/spt_setup_preview.png",
+      "role": "run_002_deliverable_or_evidence"
+    },
+    {
+      "path": "run/run_002/artifacts/svg_render.json",
+      "role": "run_002_deliverable_or_evidence"
+    },
+    {
+      "path": "run/run_002/artifacts/validate_readme.py",
+      "role": "run_002_deliverable_or_evidence"
+    },
+    {
+      "path": "run/run_002/artifacts/validation.json",
+      "role": "run_002_deliverable_or_evidence"
+    },
+    {
+      "path": "run/run_002/checkpoints/before/README.md.snapshot",
+      "role": "run_002_deliverable_or_evidence"
+    },
+    {
+      "path": "run/run_002/checkpoints/before/docs/Research_Overview.md.snapshot",
+      "role": "run_002_deliverable_or_evidence"
+    },
+    {
+      "path": "run/run_002/checkpoints/before/run/README.md.snapshot",
+      "role": "run_002_deliverable_or_evidence"
+    },
+    {
+      "path": "run/run_002/checkpoints/before/status/PROJECT_STATUS.md.snapshot",
+      "role": "run_002_deliverable_or_evidence"
+    },
+    {
+      "path": "run/run_002/checkpoints/final_state.json",
+      "role": "run_002_deliverable_or_evidence"
+    },
+    {
+      "path": "run/run_002/checkpoints/initial_state.json",
+      "role": "run_002_deliverable_or_evidence"
+    },
+    {
+      "path": "run/run_002/checkpoints/validation_attempt_01.json",
+      "role": "run_002_deliverable_or_evidence"
+    },
+    {
+      "path": "run/run_002/run.json",
+      "role": "run_002_deliverable_or_evidence"
+    },
+    {
+      "path": "run/run_002/summary.md",
+      "role": "run_002_deliverable_or_evidence"
+    },
+    {
+      "path": "status/PROJECT_STATUS.md",
+      "role": "run_002_deliverable_or_evidence"
+    }
+  ],
+  "validation": [
+    {
+      "check": "documentation_checks",
+      "status": "PASS",
+      "evidence": "run/run_002/artifacts/validation.json",
+      "scope": "20 standard-library checks; no private source reads"
+    },
+    {
+      "check": "bilingual_semantics_and_scientific_boundaries",
+      "status": "PASS",
+      "evidence": "run/run_002/artifacts/Editorial_Review.md",
+      "scope": "Manual 16-section review, same equations/diagrams and honest status"
+    },
+    {
+      "check": "original_svg_render_and_visual_review",
+      "status": "PASS",
+      "evidence": "run/run_002/artifacts/svg_render.json",
+      "scope": "1120x650 local SVG rendering and actual visual inspection; not live GitHub render"
+    },
+    {
+      "check": "mermaid_math_github_render",
+      "status": "NOT_TESTED",
+      "evidence": "run/run_002/artifacts/Editorial_Review.md",
+      "scope": "Used-syntax and delimiter checks only; no renderer installation or publishing"
+    }
+  ],
+  "errors": [
+    {
+      "code": "MIXED_UNCOMMITTED_BASELINE",
+      "severity": "WARNING",
+      "message": "run_001 uncommitted baseline overlaps four updated documents; no staging, commit or push.",
+      "evidence": "run/run_002/checkpoints/initial_state.json",
+      "resolution": "Review and separate baseline before any future authorised commit."
+    },
+    {
+      "code": "MERMAID_MATH_RENDER_NOT_EXECUTED",
+      "severity": "WARNING",
+      "message": "Native Mermaid and KaTeX modules unavailable; strict used-syntax checks and manual review completed, without GitHub rendering. SVG was separately rendered and viewed.",
+      "evidence": "run/run_002/artifacts/Editorial_Review.md",
+      "resolution": "Future GitHub preview; no dependencies installed."
+    },
+    {
+      "code": "INHERITED_RESEARCH_OPEN_QUESTIONS",
+      "severity": "INFO",
+      "message": "Model, experimental curve and constitutive definition remain unverified; documentation does not resolve scientific validation.",
+      "evidence": "status/PROJECT_STATUS.md",
+      "resolution": "Future explicitly authorised research task."
+    },
+    {
+      "code": "DOC_CHECK_PATH_FALSE_POSITIVE",
+      "severity": "RESOLVED",
+      "message": "Initial drive-path regex matched s:/ inside HTTPS; word boundary added.",
+      "evidence": "run/run_002/checkpoints/validation_attempt_01.json",
+      "resolution": "Corrected checker passes actual README content."
+    },
+    {
+      "code": "PIPE_OUTPUT_ENCODING",
+      "severity": "RESOLVED",
+      "message": "Initial Windows pipe transcoding damaged Chinese diagnostic strings; output now uses ASCII JSON escapes.",
+      "evidence": "run/run_002/artifacts/validation.json",
+      "resolution": "Final JSON has no replacement characters."
+    }
+  ],
+  "git_action": {
+    "staged": false,
+    "commit_created": false,
+    "push_performed": false,
+    "reason": "Mixed run_001 baseline; user rule forbids automatic commit in this case."
+  },
+  "non_actions": [
+    "No private source content read",
+    "No solver or CAE",
+    "No algorithm development or inverse experiment",
+    "No dependency installation",
+    "No external project modification",
+    "No automatic run_003"
+  ]
+}

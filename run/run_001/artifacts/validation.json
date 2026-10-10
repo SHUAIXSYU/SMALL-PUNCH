@@ -1,0 +1,144 @@
+{
+  "checked_at": "2026-10-10T10:01:14.175799+00:00",
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "required_files",
+      "status": "PASS",
+      "detail": [
+        "AGENTS.md",
+        "README.md",
+        ".gitignore",
+        "docs/Research_Overview.md",
+        "docs/Research_Architecture.md",
+        "docs/Constitutive_Model.md",
+        "docs/Agent_File_Communication_Protocol.md",
+        "docs/Data_Management.md",
+        "docs/CAE_Model_Audit.md",
+        "status/PROJECT_STATUS.md",
+        "run/README.md",
+        "run/run_001/run.json",
+        "run/run_001/summary.md",
+        "run/run_001/artifacts/manifest.json",
+        "run/run_001/checkpoints/initial_state.json"
+      ]
+    },
+    {
+      "check": "required_directories",
+      "status": "PASS",
+      "detail": [
+        "CAE/Models",
+        "CAE/Scripts",
+        "experiments",
+        "inverse",
+        "tests",
+        "run/run_001/artifacts",
+        "run/run_001/checkpoints",
+        "references_private"
+      ]
+    },
+    {
+      "check": "run_fields",
+      "status": "PASS",
+      "detail": [
+        "schema_version",
+        "run_id",
+        "stage",
+        "objective",
+        "status",
+        "start_time",
+        "end_time",
+        "python_interpreter",
+        "git_head",
+        "inputs",
+        "outputs",
+        "validation",
+        "errors"
+      ]
+    },
+    {
+      "check": "time_order",
+      "status": "PASS",
+      "detail": "Both actual observed timestamps include timezone"
+    },
+    {
+      "check": "git_head_unchanged",
+      "status": "PASS",
+      "detail": "f8fbdbe8d3ccd484eb5b23567084c45c66baab62"
+    },
+    {
+      "check": "index_unchanged",
+      "status": "PASS",
+      "detail": "No staged changes"
+    },
+    {
+      "check": "original_readme_preserved",
+      "status": "PASS",
+      "detail": "Original byte prefix retained; additions only"
+    },
+    {
+      "check": "source_filenames",
+      "status": "PASS",
+      "detail": {
+        "expected": 5,
+        "actual": 5
+      }
+    },
+    {
+      "check": "source_sha256",
+      "status": "PASS",
+      "detail": "All original files checked, no raw hashes disclosed"
+    },
+    {
+      "check": "source_directories",
+      "status": "PASS",
+      "detail": "Original relative directory structure"
+    },
+    {
+      "check": "legacy_directory_absent",
+      "status": "PASS",
+      "detail": "Materials/ renamed"
+    },
+    {
+      "check": "ignore_rules",
+      "status": "PASS",
+      "detail": [
+        "references_private/test.dat",
+        "materials/test.dat",
+        "Materials/test.dat",
+        "run/run_001/artifacts/private/test.json",
+        "CAE/Jobs/run_002/job/test.inp",
+        "CAE/Models/test.odb",
+        "CAE/Models/test.ODB",
+        "CAE/Models/test.sim",
+        "CAE/Models/test.lck"
+      ]
+    },
+    {
+      "check": "source_not_tracked",
+      "status": "PASS",
+      "detail": "No private sources in Git index"
+    },
+    {
+      "check": "artifact_paths",
+      "status": "PASS",
+      "detail": "All declared artifacts exist and resolve inside repository"
+    },
+    {
+      "check": "markdown_local_checks",
+      "status": "PASS",
+      "detail": "UTF-8, fences and local links only; no remote-link test"
+    },
+    {
+      "check": "readme_privacy",
+      "status": "PASS",
+      "detail": "No absolute local paths or original filenames"
+    },
+    {
+      "check": "whitespace_diff",
+      "status": "PASS",
+      "detail": "Tracked diff whitespace"
+    }
+  ],
+  "scope": "Local filesystem, original-file hashes, Git, run metadata, ignore rules and Markdown only"
+}

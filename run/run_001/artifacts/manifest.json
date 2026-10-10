@@ -1,0 +1,189 @@
+{
+  "schema_version": "1.0",
+  "path_base": "repository_root",
+  "note": "No hashes for self or records still being finalized. Private evidence is not distributed through Git.",
+  "artifacts": [
+    {
+      "path": ".gitignore",
+      "visibility": "git_eligible",
+      "role": "foundation_document_or_audit",
+      "sha256": "6f0cab4acfcec6f96a2aa9a2f55f93f9c1ea62f642da8910f08def4c8a968d96"
+    },
+    {
+      "path": "AGENTS.md",
+      "visibility": "git_eligible",
+      "role": "foundation_document_or_audit",
+      "sha256": "13ad1d2940b674df0c21dcff0d37a200583067b5ef40d05fc4a2d0add0ade6b3"
+    },
+    {
+      "path": "CAE/Models/.gitkeep",
+      "visibility": "git_eligible",
+      "role": "foundation_document_or_audit",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "CAE/Scripts/.gitkeep",
+      "visibility": "git_eligible",
+      "role": "foundation_document_or_audit",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "README.md",
+      "visibility": "git_eligible",
+      "role": "foundation_document_or_audit",
+      "sha256": "094fac67c06c98a95da89e5408e9a9308e6f74efc8eeeefb992fcf31ed2934d7"
+    },
+    {
+      "path": "docs/Agent_File_Communication_Protocol.md",
+      "visibility": "git_eligible",
+      "role": "foundation_document_or_audit",
+      "sha256": "3babb83b14be49fa5e0065612c4f3a621daffba9bd280a0262153f399a811ba5"
+    },
+    {
+      "path": "docs/CAE_Model_Audit.md",
+      "visibility": "git_eligible",
+      "role": "foundation_document_or_audit",
+      "sha256": "7cc30803f3152ea7ddabee4f914ebc6cd672897b68284d228131b5a942d7d620"
+    },
+    {
+      "path": "docs/Constitutive_Model.md",
+      "visibility": "git_eligible",
+      "role": "foundation_document_or_audit",
+      "sha256": "2396db5caabf2e226ce3d33c9debc3ffb1941d4c49a06eb296d9b708de5363e2"
+    },
+    {
+      "path": "docs/Data_Management.md",
+      "visibility": "git_eligible",
+      "role": "foundation_document_or_audit",
+      "sha256": "d7bc2cbe2c9d06ac5fea49602d690bc71b2a149d214402f9262b90a309a9d6cc"
+    },
+    {
+      "path": "docs/Research_Architecture.md",
+      "visibility": "git_eligible",
+      "role": "foundation_document_or_audit",
+      "sha256": "74dc3f50e96d43c9683175380001996c44ad9a452a0f6ace2a85a4fc422ef1ec"
+    },
+    {
+      "path": "docs/Research_Overview.md",
+      "visibility": "git_eligible",
+      "role": "foundation_document_or_audit",
+      "sha256": "88ad557d96c1b66cdd2631c42dac0abb93dbe9cafd77ad1dbad80feef7ac4534"
+    },
+    {
+      "path": "experiments/.gitkeep",
+      "visibility": "git_eligible",
+      "role": "foundation_document_or_audit",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "inverse/.gitkeep",
+      "visibility": "git_eligible",
+      "role": "foundation_document_or_audit",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "run/README.md",
+      "visibility": "git_eligible",
+      "role": "foundation_document_or_audit",
+      "sha256": "6239a1c7e83f9369e8c029fd09e24a176a7bcc2f4c38fbafb6ce7087ebcd83e3"
+    },
+    {
+      "path": "run/run_001/artifacts/environment.json",
+      "visibility": "git_eligible",
+      "role": "foundation_document_or_audit",
+      "sha256": "e12bb989e1413f3b09d86dae257a5104de3e04b5b60e0bd752fd6f4fb4a7eb7b"
+    },
+    {
+      "path": "run/run_001/artifacts/manifest.json",
+      "visibility": "git_eligible",
+      "role": "foundation_document_or_audit"
+    },
+    {
+      "path": "run/run_001/artifacts/probe_environment.py",
+      "visibility": "git_eligible",
+      "role": "foundation_document_or_audit",
+      "sha256": "e768e92d7ce2c5f2857956a600cd34426977b3c02935115ef68169556a0bb85a"
+    },
+    {
+      "path": "run/run_001/artifacts/validation.json",
+      "visibility": "git_eligible",
+      "role": "foundation_document_or_audit"
+    },
+    {
+      "path": "run/run_001/checkpoints/final_state.json",
+      "visibility": "git_eligible",
+      "role": "foundation_document_or_audit"
+    },
+    {
+      "path": "run/run_001/checkpoints/initial_state.json",
+      "visibility": "git_eligible",
+      "role": "foundation_document_or_audit",
+      "sha256": "a254aac468dc4825c06ecaafcfdddb2e5d423e4eb3b7015acc476967944ddde5"
+    },
+    {
+      "path": "run/run_001/run.json",
+      "visibility": "git_eligible",
+      "role": "foundation_document_or_audit"
+    },
+    {
+      "path": "run/run_001/summary.md",
+      "visibility": "git_eligible",
+      "role": "foundation_document_or_audit",
+      "sha256": "c6726ceca65834e42e6e5e5c219f24d5b1f4c80cd894b4cccd4cada8575d3bfd"
+    },
+    {
+      "path": "status/PROJECT_STATUS.md",
+      "visibility": "git_eligible",
+      "role": "foundation_document_or_audit",
+      "sha256": "db541cb94d7545050b6354db52b92ce0eef299cb635bdfa0ffb55fae213980f1"
+    },
+    {
+      "path": "tests/validate_foundation.py",
+      "visibility": "git_eligible",
+      "role": "foundation_document_or_audit",
+      "sha256": "a5e8393181b03edd7457c29c30214f8969d5691b26c4be22ed4f826e6434936f"
+    },
+    {
+      "path": "run/run_001/artifacts/private/migration_before.json",
+      "visibility": "local_ignored",
+      "role": "private_evidence",
+      "sha256": "cc4a4d16c14ca73d8e7d377bf4a78237d0455fca71f362c446a6c1274131712e"
+    },
+    {
+      "path": "run/run_001/artifacts/private/migration_after.json",
+      "visibility": "local_ignored",
+      "role": "private_evidence",
+      "sha256": "dfad77ec9bd11352d7d7ade44a80dc1fd72a21529bdffab35279af3b375d5507"
+    },
+    {
+      "path": "run/run_001/artifacts/private/python_environment.json",
+      "visibility": "local_ignored",
+      "role": "private_evidence",
+      "sha256": "4632bdd036ea8333e251c275107fcbf65d3263d462d78f20a312656236444b1f"
+    },
+    {
+      "path": "run/run_001/artifacts/private/abaqus_release.txt",
+      "visibility": "local_ignored",
+      "role": "private_evidence",
+      "sha256": "4995ba7f95261ee0fb66bc3bfbf1838b23cfffcc1ec4e1559d228399547fd058"
+    },
+    {
+      "path": "run/run_001/artifacts/private/abaqus_python.txt",
+      "visibility": "local_ignored",
+      "role": "private_evidence",
+      "sha256": "c9fd8e04fd1840ecea8565193afa423f51f21f4771a802b98a1d99730c9cf031"
+    },
+    {
+      "path": "run/run_001/artifacts/private/workbook_audit.json",
+      "visibility": "local_ignored",
+      "role": "private_evidence",
+      "sha256": "48d8bbe3f0bdd9c04a75483a7ece4c779e9ea8bbccddc8f61d4a05ba9e8e5b41"
+    },
+    {
+      "path": "run/run_001/artifacts/private/Source_Audit.md",
+      "visibility": "local_ignored",
+      "role": "private_evidence",
+      "sha256": "19bc5d0e750ace8ba69f4c9e8acc90090b13cb2cd1b64f9b17e522a1ea990081"
+    }
+  ]
+}

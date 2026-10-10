@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.0",
+  "path_base": "repository_root",
+  "artifacts": [
+    {
+      "path": "README.md",
+      "role": "research_document_or_run_evidence",
+      "sha256": "6e514ed888a8a0f5dbd7c01e178e86750523d39a4b576229ca41180a24db1474"
+    },
+    {
+      "path": "README.zh-CN.md",
+      "role": "research_document_or_run_evidence",
+      "sha256": "27f6c4a86da4d1c87c742e27a07c9d91c0254f3690b0e530a4f5740f8187d65e"
+    },
+    {
+      "path": "docs/Research_Overview.md",
+      "role": "research_document_or_run_evidence",
+      "sha256": "29dc9744261b0ff0e080e1a46de363a4ce2b34e2d051f41badac5be01c9b5ff9"
+    },
+    {
+      "path": "docs/figures/README.md",
+      "role": "research_document_or_run_evidence",
+      "sha256": "5afc0e79b61dae0fbffa608ed3cd9416d199eec4eb0de6158a355bbffb083f07"
+    },
+    {
+      "path": "docs/figures/spt_setup.svg",
+      "role": "research_document_or_run_evidence",
+      "sha256": "8c0667cce6b29e4b628665bfbdb3b26712122414974f92b294f3a021cd809eab"
+    },
+    {
+      "path": "run/README.md",
+      "role": "research_document_or_run_evidence",
+      "sha256": "b96eb8f431429db385ddeb69e28b064e8a9f1f1289dd5a4dfd36bade9af824fb"
+    },
+    {
+      "path": "run/run_002/artifacts/Editorial_Review.md",
+      "role": "research_document_or_run_evidence",
+      "sha256": "89bc507806e20db2564c5058c8e2312c35a7821723e18dad01f64b7dc33f193a"
+    },
+    {
+      "path": "run/run_002/artifacts/spt_setup_preview.png",
+      "role": "research_document_or_run_evidence",
+      "sha256": "7696c260d26f53323febf1b00245e1bf10beef487d6ef11ce35e18ba89c075af"
+    },
+    {
+      "path": "run/run_002/artifacts/svg_render.json",
+      "role": "research_document_or_run_evidence",
+      "sha256": "b4d4bb009d0a38ac9216344b18962cee7064062a8d797d9ef342a1cfb2cc21dc"
+    },
+    {
+      "path": "run/run_002/artifacts/validate_readme.py",
+      "role": "research_document_or_run_evidence",
+      "sha256": "e7d2288ed38eea5ca4beb3130e1fee5c6814679d8ef839051fcdfcd095008442"
+    },
+    {
+      "path": "run/run_002/artifacts/validation.json",
+      "role": "research_document_or_run_evidence",
+      "sha256": "f6ff0e6187a47f646807ebc2d0d0de991d7c15ca44666540025bca89db95f139"
+    },
+    {
+      "path": "run/run_002/checkpoints/before/README.md.snapshot",
+      "role": "research_document_or_run_evidence",
+      "sha256": "094fac67c06c98a95da89e5408e9a9308e6f74efc8eeeefb992fcf31ed2934d7"
+    },
+    {
+      "path": "run/run_002/checkpoints/before/docs/Research_Overview.md.snapshot",
+      "role": "research_document_or_run_evidence",
+      "sha256": "88ad557d96c1b66cdd2631c42dac0abb93dbe9cafd77ad1dbad80feef7ac4534"
+    },
+    {
+      "path": "run/run_002/checkpoints/before/run/README.md.snapshot",
+      "role": "research_document_or_run_evidence",
+      "sha256": "6239a1c7e83f9369e8c029fd09e24a176a7bcc2f4c38fbafb6ce7087ebcd83e3"
+    },
+    {
+      "path": "run/run_002/checkpoints/before/status/PROJECT_STATUS.md.snapshot",
+      "role": "research_document_or_run_evidence",
+      "sha256": "db541cb94d7545050b6354db52b92ce0eef299cb635bdfa0ffb55fae213980f1"
+    },
+    {
+      "path": "run/run_002/checkpoints/initial_state.json",
+      "role": "research_document_or_run_evidence",
+      "sha256": "c2c64cf3b464a6f073e512b1fba0600f0ceea6d5bef9980031bd5a7b83290693"
+    },
+    {
+      "path": "run/run_002/checkpoints/validation_attempt_01.json",
+      "role": "research_document_or_run_evidence",
+      "sha256": "1ce63761c7fd72212f0bbf94bc9e73be08dd978991629d336301f7bbde8d0989"
+    },
+    {
+      "path": "run/run_002/summary.md",
+      "role": "research_document_or_run_evidence",
+      "sha256": "56453aa0b6fc0149d51e09ab4402f87490d514c8a0969f84c17c952183663c21"
+    },
+    {
+      "path": "status/PROJECT_STATUS.md",
+      "role": "research_document_or_run_evidence",
+      "sha256": "dc5b0d1402fe2111dd1f804d32fb7566edb895f4b5cd99e15da5dc4a1f09e56e"
+    },
+    {
+      "path": "run/run_002/artifacts/manifest.json",
+      "role": "final_metadata",
+      "sha256": null,
+      "hash_note": "Self/finalization records excluded from circular hashing"
+    },
+    {
+      "path": "run/run_002/checkpoints/final_state.json",
+      "role": "final_metadata",
+      "sha256": null,
+      "hash_note": "Self/finalization records excluded from circular hashing"
+    },
+    {
+      "path": "run/run_002/run.json",
+      "role": "final_metadata",
+      "sha256": null,
+      "hash_note": "Self/finalization records excluded from circular hashing"
+    }
+  ],
+  "private_contents_included": false
+}

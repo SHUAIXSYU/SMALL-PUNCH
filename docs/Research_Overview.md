@@ -1,0 +1,15 @@
+# 研究概述
+
+研究项目名为 SP-InvOpt（Small Punch Inverse Optimisation），Git 仓库名保持 SMALL-PUNCH。目标是从实验力–位移曲线识别小冲杆试验材料的弹塑性本构参数，并建立可复现、可审计、可扩展的研究流程。
+
+流程：实验力–位移数据 → 参数化 Abaqus 模型 → FE 仿真 → 曲线比较 → 优化 → 参数识别。
+
+初始模型为 Hollomon 弹塑性模型。初始待识别参数为屈服强度 `sigma_y` 和硬化指数 `n`。Young's modulus `E` 暂为已知输入，但仍作为有名称、单位、来源和角色的参数保存，以便未来改为待识别参数。已知不等于已确定数值：目前项目尚未批准 E 的正式取值。
+
+未来依次考虑 Grid Search、Differential Evolution、Bayesian Optimisation 和 Reinforcement Learning。比较时需共享实验版本、材料定义、参数边界、FE 预算、随机种子和误差定义，同时报告失败次数与时间成本。以上均为研究计划，尚无实现或性能结论。
+
+Stage 1/run_001 建立目录、数据边界、环境记录、文件通信协议和只读资料审计。run_002 按研究命名要求采用 SP-InvOpt，并编写同步的中英文研究主页；没有重命名仓库。两次 Run 均不运行求解、不生成材料参数表、不实现优化器、不训练 surrogate 或 RL。
+
+后续必须先解决本构应变定义、可审计 FE 模型、实验曲线来源及单位，再开展反演。材料、摩擦、几何及设备柔度可能共同影响曲线；不能在尚未核验时将其影响全归于 sigma_y 或 n。
+
+当前状态见 [项目状态](../status/PROJECT_STATUS.md)，证据见 [run_001](../run/run_001/summary.md)。

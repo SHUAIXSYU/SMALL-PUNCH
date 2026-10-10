@@ -1,0 +1,18 @@
+# SMALL-PUNCH 项目状态
+
+截至 2026-10-10（Asia/Shanghai），当前为 Stage 1 / run_001。
+
+**状态：WARNING。基础架构已建立，研究输入和本构语义尚未核验完毕。未宣告无条件 PASS。**
+
+- 已建立 Agent 工作契约、研究概述、架构、本构契约、数据边界、文件通信与 Run 协议。
+- 17 项轻量检查全部通过，包括原始资料完整性、目录/Run 协议、忽略规则、Markdown 本地链接及 Git 状态约束；研究未决项仍保留 WARNING。
+- 5 个原始文件由 Materials/ 迁入 references_private/，迁移前后 SHA-256 一致，内容未修改；完整清单仅在忽略的本地审计区。
+- 指定外部 Python 3.11.13 可用，8 个指定包均可导入。Abaqus 2024 release 查询及内置 Python 3.10.5 查询成功。
+- 未安装依赖、未运行 Solver、未打开/修改 CAE、未训练或优化、未 commit/push。
+- 当前只有公式/参考资料，无可审计 CAE/INP/ODB，也没有已确认实验力–位移数据。
+- Excel 固定屈服应变偏移与通常的当前弹性应变扣除存在待澄清差异；文献与应变测度未确定。正式材料表生成和反演研究暂缓。
+- Abaqus 许可证、CAE 启动和求解能力未测试；AbqJobPilot 六个接口全部 PLANNED / UNVERIFIED。
+
+环境和文件协议可进入下一项明确授权的准备任务，但现有证据不足以开展已验证的 FE 反演。下一 Run 建议：补齐可审计模型与实验来源，确认本构列定义、应变测度及 E/单位，先批准导入与材料转换契约。不会自动执行 run_002。
+
+详见 [run_001 总结](../run/run_001/summary.md) 和 [CAE 审计](../docs/CAE_Model_Audit.md)。
