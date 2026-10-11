@@ -1,0 +1,94 @@
+{
+  "path_base": "repository_root",
+  "artifacts": [
+    {
+      "path": "README.md",
+      "sha256": "b091f13c32c4844db481f4bc05ce78d4ccc5c1589398934994dc5dbb7f658009"
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "fd2ab2573a14650c6f906c6d67e7bbf581003b30699e166590aaad94c0d88de6"
+    },
+    {
+      "path": "docs/Inverse_Identification.md",
+      "sha256": "bc6434615d39201e4df59e7b71eb687e47ab1fe3f9f7e16aa2ecc2ceb3302f40"
+    },
+    {
+      "path": "docs/Inverse_Identification.zh-CN.md",
+      "sha256": "a4b39926aa8f994ac5f629633a9e17066b2e893641b85a7765a367a5ac9eb2e5"
+    },
+    {
+      "path": "run/README.md",
+      "sha256": "6c8238ac2dd14e9ba6d4f7bf6e62a2cd9998c5387318cbd3a47e1fd0fd3a8639"
+    },
+    {
+      "path": "run/run_003/artifacts/manifest.json",
+      "sha256": null
+    },
+    {
+      "path": "run/run_003/artifacts/preview_readme.mjs",
+      "sha256": "0e13869c4246811f366e8d30a66d56ba28ff4a4f7d0bf1ee0531f1604a576748"
+    },
+    {
+      "path": "run/run_003/artifacts/preview_scope.json",
+      "sha256": "2f4853f382228034c03400044fcb34eb7de6679578ba7cc8347e5faea7586502"
+    },
+    {
+      "path": "run/run_003/artifacts/readme_en_preview.png",
+      "sha256": "48657e9b99864c0f0ec13590e2256caabf468dcf30a3c54023dd4586b00375dc"
+    },
+    {
+      "path": "run/run_003/artifacts/readme_zh_preview.png",
+      "sha256": "156a3d9532d97a1e8e714b7acd2a5702108c93d9bfc8208c5c149cbcc0522e69"
+    },
+    {
+      "path": "run/run_003/artifacts/validate_docs.py",
+      "sha256": "344c6964c4fbca473ab41e72731b09ad3da29ec7c14360f9977eddf24f8abd3d"
+    },
+    {
+      "path": "run/run_003/artifacts/validation.json",
+      "sha256": "02191c2ef2969556d4519d3bcf8d1f243d09bcdcbad9cf8c18805dc6abf556ac"
+    },
+    {
+      "path": "run/run_003/checkpoints/before/README.md.snapshot",
+      "sha256": "6e514ed888a8a0f5dbd7c01e178e86750523d39a4b576229ca41180a24db1474"
+    },
+    {
+      "path": "run/run_003/checkpoints/before/README.zh-CN.md.snapshot",
+      "sha256": "27f6c4a86da4d1c87c742e27a07c9d91c0254f3690b0e530a4f5740f8187d65e"
+    },
+    {
+      "path": "run/run_003/checkpoints/before/run/README.md.snapshot",
+      "sha256": "b96eb8f431429db385ddeb69e28b064e8a9f1f1289dd5a4dfd36bade9af824fb"
+    },
+    {
+      "path": "run/run_003/checkpoints/before/status/PROJECT_STATUS.md.snapshot",
+      "sha256": "dc5b0d1402fe2111dd1f804d32fb7566edb895f4b5cd99e15da5dc4a1f09e56e"
+    },
+    {
+      "path": "run/run_003/checkpoints/final_state.json",
+      "sha256": null
+    },
+    {
+      "path": "run/run_003/checkpoints/initial_state.json",
+      "sha256": "c00c2e1b9eb27bfb14674abe90f1d7b9a1953baff894e8668880ed53b7a9b2c0"
+    },
+    {
+      "path": "run/run_003/checkpoints/validation_attempt_01.json",
+      "sha256": "2fc2c52dde08ab76bb6393239a6652914903406f1e2de2e08f37f70f78774257"
+    },
+    {
+      "path": "run/run_003/run.json",
+      "sha256": null
+    },
+    {
+      "path": "run/run_003/summary.md",
+      "sha256": "a06119f68d0dd82ad97690f3bd91bbe2645e9f58decd4509a4f16f54b5602bb7"
+    },
+    {
+      "path": "status/PROJECT_STATUS.md",
+      "sha256": "456cc860beb32bfc63562d703c61f2bfda2695bd344983b2de4d3079e4f77558"
+    }
+  ],
+  "notes": "Self/finalizing metadata hashes excluded. No private browser profile or source data included."
+}

@@ -1,8 +1,12 @@
 # SMALL-PUNCH 项目状态
 
-截至 2026-10-10（Asia/Shanghai），当前为 Stage 1 / run_002。研究项目名为 SP-InvOpt，仓库名保持 SMALL-PUNCH。
+截至 2026-10-11（Asia/Shanghai），当前为 Stage 1 / run_003。研究项目名为 SP-InvOpt，仓库名保持 SMALL-PUNCH。
 
 **状态：WARNING。基础架构已建立，研究输入和本构语义尚未核验完毕。未宣告无条件 PASS。**
+
+run_003 根据用户提供的项目启动文档和 README 设计备忘录重构双语主页：各约 200 行，首屏聚焦研究问题与真实状态，保留原创 SPT SVG 和两张 Mermaid 图，将完整本构/RL/MDP 定义移入双语 docs/Inverse_Identification 文档。增加文档导航、可执行轻量文档检查、防数据泄漏及独立验证说明。16 项文档检查通过；未进行真实 GitHub Mermaid/MathJax 渲染，科研阻塞不变。
+
+本次发现 run_001/002 之后已有提交 `afdb19a4428b4e108204ebf35065dae3f2daeed7`（updated run 002）；开始时仅用户新加的启动文档未跟踪。启动文档中“run_002 尚无完成回报”是旧快照，以已存在的 run_002 完成记录为准。下述未提交/未推送描述仅指各历史 Run 当时的执行行为。run_003 未 commit/push，未修改用户启动文档或仓库外备忘录。
 
 run_002 已编写实质一致的英文 README 与中文版，包含五层 Mermaid 架构、反演目标函数、RL 预算约束序贯搜索与 MDP、三个研究问题和四阶段路线图。没有实现算法、运行仿真或提出新实验结论。由于 run_001 遗留未提交改动与共享文档修改混合，本次不自动 commit，未 push；文档检查证据见 run_002。以下 run_001 事实保持有效，文件/环境检查不等于 CAE 合理性验证。
 
@@ -17,6 +21,6 @@ run_002 已编写实质一致的英文 README 与中文版，包含五层 Mermai
 - Excel 固定屈服应变偏移与通常的当前弹性应变扣除存在待澄清差异；文献与应变测度未确定。正式材料表生成和反演研究暂缓。
 - Abaqus 许可证、CAE 启动和求解能力未测试；AbqJobPilot 六个接口全部 PLANNED / UNVERIFIED。
 
-环境、文件协议与研究主页可供下一项明确授权的准备任务使用，但现有证据不足以开展已验证的 FE 反演。Stage 1 整体仍为 In Progress，基准 CAE 验证与曲线提取受阻；Stage 2–4 为 Planned。下一 Run 建议：补齐可审计模型与实验来源，确认本构列定义、应变测度及 E/单位，先批准导入与材料转换契约。不会自动执行 run_003。
+环境、文件协议与研究主页可供下一项明确授权的准备任务使用，但现有证据不足以开展已验证的 FE 反演。Stage 1 整体仍为 In Progress，基准 CAE 验证与曲线提取受阻；Stage 2–4 为 Planned。下一 Run 建议：补齐可审计模型与实验来源，确认本构列定义、应变测度及 E/单位，先批准导入与材料转换契约。不会自动执行 run_004。
 
-详见 [run_001 总结](../run/run_001/summary.md)、[run_002 总结](../run/run_002/summary.md) 和 [CAE 审计](../docs/CAE_Model_Audit.md)。
+详见 [run_001 总结](../run/run_001/summary.md)、[run_002 总结](../run/run_002/summary.md)、[run_003 总结](../run/run_003/summary.md) 和 [CAE 审计](../docs/CAE_Model_Audit.md)。

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "method": "Existing Edge headless + marked; local inline SVG, network requests blocked",
+  "scope": "First-screen typography only. Not GitHub, Mermaid or MathJax rendering.",
+  "previews": [
+    "run/run_003/artifacts/readme_en_preview.png",
+    "run/run_003/artifacts/readme_zh_preview.png"
+  ]
+}

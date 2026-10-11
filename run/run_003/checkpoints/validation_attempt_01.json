@@ -1,0 +1,146 @@
+{
+  "status": "FAIL",
+  "checks": [
+    {
+      "check": "utf8",
+      "status": "PASS",
+      "detail": [
+        "README.md",
+        "README.zh-CN.md",
+        "docs/Inverse_Identification.md",
+        "docs/Inverse_Identification.zh-CN.md"
+      ]
+    },
+    {
+      "check": "relative_links_images_anchors",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "check": "html_tags",
+      "status": "FAIL",
+      "detail": [
+        "README.md",
+        "README.zh-CN.md"
+      ]
+    },
+    {
+      "check": "code_math_fences",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "check": "heading_levels",
+      "status": "PASS",
+      "detail": [
+        [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        [
+          1,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        [
+          1,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "check": "bilingual_home_structure",
+      "status": "FAIL",
+      "detail": "10 corresponding homepage sections, plus matching language navigation"
+    },
+    {
+      "check": "language_navigation",
+      "status": "PASS",
+      "detail": "Reciprocal language links"
+    },
+    {
+      "check": "concise_homepages",
+      "status": "PASS",
+      "detail": {
+        "README.md": 202,
+        "README.zh-CN.md": 202
+      }
+    },
+    {
+      "check": "bilingual_equations",
+      "status": "PASS",
+      "detail": "Homepage and detailed guide formula pairs identical"
+    },
+    {
+      "check": "detailed_math_preserved",
+      "status": "PASS",
+      "detail": "All seven constitutive/inverse/MDP display formulas preserved"
+    },
+    {
+      "check": "mermaid_subset_and_parity",
+      "status": "PASS",
+      "detail": "Two matching English diagrams; existing subset parser, not a full renderer"
+    },
+    {
+      "check": "shared_original_svg",
+      "status": "PASS",
+      "detail": "docs/figures/spt_setup.svg"
+    },
+    {
+      "check": "public_path_privacy",
+      "status": "PASS",
+      "detail": "No machine paths or private evidence links"
+    },
+    {
+      "check": "honest_scope_markers",
+      "status": "PASS",
+      "detail": "Status/algorithm markers; semantic review still required"
+    },
+    {
+      "check": "unrelated_tracked_files_preserved",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "check": "user_kickoff_preserved",
+      "status": "PASS",
+      "detail": "User-provided source remains unmodified"
+    }
+  ],
+  "limits": "Local structural checks; no live GitHub Mermaid/MathJax rendering or scientific validation."
+}
