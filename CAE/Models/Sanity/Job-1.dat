@@ -1,0 +1,303 @@
+1
+
+   Abaqus 2024                                  Date 12-10ÔÂ-2026   Time 18:17:12
+   For use by Supplied by Team-SolidSQUAD under license from Dassault Systemes or its subsidiary.
+
+
+
+                         The Abaqus Software is a product of:
+
+                           Dassault Systemes SIMULIA Corp.
+                           1301 Atwood Avenue, Suite 101W
+                              Johnston, RI 02919, USA
+ 
+
+
+                   The Abaqus Software is available only under license
+                   from Dassault Systemes or its subsidiary and may be
+                   used or reproduced only in accordance with the terms
+                   of such license.
+ 
+                          On machine Boltzmann 
+                          you are authorized to run
+                          Abaqus/Standard until 31-Dec-2055
+
+                          Your site id is:  
+
+
+ 
+                    For assistance or any other information you may
+                    obtain contact information for your local office
+                    from the world wide web at:
+
+                      https://www.3ds.com/products-services/simulia/services-support/
+
+ 
+                * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+                *                                                         * 
+                *                   *****************                     * 
+                *                   *  N O T I C E  *                     * 
+                *                   *****************                     * 
+                *                                                         * 
+                *                                                         * 
+                *                       Abaqus 2024                       * 
+                *                                                         * 
+                *       BUILD ID: 2023_09_21-20.55.25 RELr426 190762      * 
+                *                                                         * 
+                *                                                         * 
+                *  Please make sure you are using                         * 
+                *  release Abaqus 2024 manuals                            * 
+                *  plus the notes accompanying this release.              * 
+                *                                                         * 
+                *                                                         * 
+                *                                                         * 
+                *                                                         * 
+                * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+
+
+ 
+
+
+
+     PROCESSING PART, INSTANCE, AND ASSEMBLY INFORMATION
+   *******************************************************
+
+
+     END PROCESSING PART, INSTANCE, AND ASSEMBLY INFORMATION
+   ***********************************************************
+
+
+
+
+     OPTIONS BEING PROCESSED
+   ***************************
+
+
+  *Heading
+  *Element, type=CAX4
+  *Elset, elset=ASSEMBLY_ASM_SPT-1_SET_SPECIMEN_ALL
+  *Elset, elset=ASSEMBLY_ASM_SPT-1_SET_SPECIMEN_CLAMPED
+  *Elset, elset=ASSEMBLY_ASM_SPT-1_SET_SPECIMEN_CLAMPED_BOT
+  *Elset, elset=ASSEMBLY_ASM_SPT-1_SET_SPECIMEN_CLAMPED_TOP
+  *Elset, elset=ASSEMBLY_ASM_SPT-1_SET_SPECIMEN_CONTACT
+  *Elset, elset=ASSEMBLY_ASM_SPT-1__SURF_SPECIMEN_CLAMPED_BOT_S2
+  *Elset, elset=ASSEMBLY_ASM_SPT-1__SURF_SPECIMEN_CLAMPED_TOP_S4
+  *Elset, elset=ASSEMBLY_ASM_SPT-1__SURF_SPECIMEN_CONTACT_BOT_S4
+  *Elset, elset=ASSEMBLY_ASM_SPT-1__SURF_SPECIMEN_CONTACT_TOP_S2
+  *Elset, elset=ASSEMBLY_ASM_SPT-1__SURF_SPECIMEN_TOP_S2
+  *Elset, elset=ASSEMBLY_ASM_SPT-1__SURF_SPECIMEN_TOP_S4
+  *material, name=Q200N01
+  *elastic
+  *plastic
+  *solidsection, elset=ASSEMBLY_ASM_SPT-1_SET_SPECIMEN_ALL, material=Q200N01
+  *solidsection, elset=ASSEMBLY_ASM_SPT-1_SET_SPECIMEN_ALL, material=Q200N01
+  *rigidbody, refnode=ASSEMBLY_ASM_SPT_ASM_SPT-REFPT_, analyticalsurface=ASSEMBLY_ASM_SPT_SURF_PUNCH_CONTACT
+  *contactpair, interaction=PROP_PUNCH_SPECIMEN_CONTACT, type=SURFACETOSURFACE
+  *rigidbody, refnode=ASSEMBLY_ASM_SPT_ASM_SPT-REFPT_, analyticalsurface=ASSEMBLY_ASM_SPT_SURF_PUNCH_CONTACT
+  *rigidbody, refnode=ASSEMBLY_ASM_SPT_ASM_SPT-REFPT_, analyticalsurface=ASSEMBLY_ASM_SPT_SURF_PUNCH_CONTACT
+  *rigidbody, refnode=ASSEMBLY_ASM_SPT_ASM_SPT-REFPT_, analyticalsurface=ASSEMBLY_ASM_SPT_SURF_PUNCH_CONTACT
+  *contactpair, interaction=PROP_PUNCH_SPECIMEN_CONTACT, type=SURFACETOSURFACE
+  *surface, type=SEGMENTS, name=ASSEMBLY_ASM_SPT_SURF_PUNCH_CONTACT
+  *surface, type=ELEMENT, name=ASSEMBLY_ASM_SPT-1_SURF_SPECIMEN_CLAMPED_TOP
+  *surface, type=ELEMENT, name=ASSEMBLY_ASM_SPT-1_SURF_SPECIMEN_CLAMPED_BOT
+  *surface, type=ELEMENT, name=ASSEMBLY_ASM_SPT-1_SURF_SPECIMEN_CONTACT_TOP
+  *surface, type=ELEMENT, name=ASSEMBLY_ASM_SPT-1_SURF_SPECIMEN_CONTACT_BOT
+  *surface, type=ELEMENT, name=ASSEMBLY_ASM_SPT-1_SURF_SPECIMEN_TOP
+  *surface, type=SEGMENTS, name=ASSEMBLY_ASM_SPT_SURF_PUNCH_CONTACT
+  *surface, type=ELEMENT, name=ASSEMBLY_ASM_SPT-1_SURF_SPECIMEN_CLAMPED_TOP
+  *surface, type=ELEMENT, name=ASSEMBLY_ASM_SPT-1_SURF_SPECIMEN_CLAMPED_BOT
+  *surface, type=ELEMENT, name=ASSEMBLY_ASM_SPT-1_SURF_SPECIMEN_CONTACT_TOP
+  *surface, type=ELEMENT, name=ASSEMBLY_ASM_SPT-1_SURF_SPECIMEN_CONTACT_BOT
+  *surface, type=ELEMENT, name=ASSEMBLY_ASM_SPT-1_SURF_SPECIMEN_TOP
+  *contactpair, interaction=PROP_PUNCH_SPECIMEN_CONTACT, type=SURFACETOSURFACE
+  *surfaceinteraction, name=PROP_PUNCH_SPECIMEN_CONTACT
+  *surfacebehavior, pressure-overclosure=HARD
+  *contactpair, interaction=PROP_PUNCH_SPECIMEN_CONTACT, type=SURFACETOSURFACE
+  *contactpair, interaction=PROP_PUNCH_SPECIMEN_CONTACT, type=SURFACETOSURFACE
+  *rigidbody, refnode=ASSEMBLY_ASM_SPT_ASM_SPT-REFPT_, analyticalsurface=ASSEMBLY_ASM_SPT_SURF_PUNCH_CONTACT
+  *surfaceinteraction, name=PROP_PUNCH_SPECIMEN_CONTACT
+  *friction, sliptolerance=0.005
+  *surfacebehavior, pressure-overclosure=HARD
+  *surfaceinteraction, name=PROP_PUNCH_SPECIMEN_CONTACT
+  *rigidbody, refnode=ASSEMBLY_ASM_SPT_ASM_SPT-REFPT_, analyticalsurface=ASSEMBLY_ASM_SPT_SURF_PUNCH_CONTACT
+  *rigidbody, refnode=ASSEMBLY_ASM_SPT_ASM_SPT-REFPT_, analyticalsurface=ASSEMBLY_ASM_SPT_SURF_PUNCH_CONTACT
+  *boundary
+  *boundary
+  *boundary
+  *boundary
+  *boundary
+  *boundary
+  *contactpair, interaction=PROP_PUNCH_SPECIMEN_CONTACT, type=SURFACETOSURFACE
+
+ ***WARNING: PATH BASED TRACKING IS DEFINED IN CONTACT PAIR 
+             (ASSEMBLY_ASM_SPT-1_SURF_SPECIMEN_TOP,ASSEMBLY_ASM_SPT_SURF_PUNCH_C
+             ONTACT). PATH BASED TRACKING CANNOT BE USED WITH ANALYTICAL RIGID 
+             MAIN SURFACES, THE STATE BASED TRACKING ALGORITHM WILL BE USED 
+             INSTEAD.
+ 
+   TRACKING LOAD BALANCE
+       ASSEMBLY_ASM_SPT-1_SURF_SPECIMEN_TOP / ASSEMBLY_ASM_SPT_SURF_PUNCH_CONTACT
+      THREAD 1:  5 FACETS
+      THREAD 2:  5 FACETS
+      THREAD 3:  5 FACETS
+      THREAD 4:  5 FACETS
+      THREAD 5:  5 FACETS
+      THREAD 6:  4 FACETS
+      THREAD 7:  4 FACETS
+      THREAD 8:  5 FACETS
+      THREAD 9:  4 FACETS
+      THREAD 10:  4 FACETS
+      THREAD 11:  4 FACETS
+      THREAD 12:  6 FACETS
+      THREAD 13:  6 FACETS
+      THREAD 14:  4 FACETS
+ 
+  *surfaceinteraction, name=PROP_PUNCH_SPECIMEN_CONTACT
+  *contactpair, interaction=PROP_PUNCH_SPECIMEN_CONTACT, type=SURFACETOSURFACE
+  *rigidbody, refnode=ASSEMBLY_ASM_SPT_ASM_SPT-REFPT_, analyticalsurface=ASSEMBLY_ASM_SPT_SURF_PUNCH_CONTACT
+  *surface, type=SEGMENTS, name=ASSEMBLY_ASM_SPT_SURF_PUNCH_CONTACT
+  *surface, type=ELEMENT, name=ASSEMBLY_ASM_SPT-1_SURF_SPECIMEN_CLAMPED_TOP
+  *surface, type=ELEMENT, name=ASSEMBLY_ASM_SPT-1_SURF_SPECIMEN_CLAMPED_BOT
+  *surface, type=ELEMENT, name=ASSEMBLY_ASM_SPT-1_SURF_SPECIMEN_CONTACT_TOP
+  *surface, type=ELEMENT, name=ASSEMBLY_ASM_SPT-1_SURF_SPECIMEN_CONTACT_BOT
+  *surface, type=ELEMENT, name=ASSEMBLY_ASM_SPT-1_SURF_SPECIMEN_TOP
+  *output, field
+  *output, history
+  *elementoutput, directions=YES
+  *output, field
+  *output, history
+  *elementoutput, directions=YES
+  *output, field
+  *output, history
+  *elementoutput, directions=YES
+ 
+      ELEMENT CONSTRUCTION EXECUTED IN PARALLEL USING 14 THREADS
+ 
+      ELEMENT GEOMETRY CALCULATIONS EXECUTED IN PARALLEL USING 14 THREADS
+  *Step, name=Step_Punch_Displacement, nlgeom=YES, inc=999999
+  *output, field
+  *output, history
+  *Step, name=Step_Punch_Displacement, nlgeom=YES, inc=999999
+  *Step, name=Step_Punch_Displacement, nlgeom=YES, inc=999999
+  *static
+  *boundary
+  *output, field
+  *nodeoutput
+  *elementoutput, directions=YES
+  *contactoutput
+  *output, history
+  *energyoutput
+  *nodeoutput, nset=ASSEMBLY_ASM_SPT_SET_PUNCH_RP
+  *endstep
+  *boundary
+  *boundary
+  *Step, name=Step_Punch_Displacement, nlgeom=YES, inc=999999
+  *static
+  *boundary
+  *endstep
+
+
+
+                            P R O B L E M   S I Z E
+
+
+          NUMBER OF ELEMENTS IS                                   727
+          NUMBER OF ELEMENTS DEFINED BY THE USER AND *TIE         594
+          NUMBER OF INTERNAL ELEMENTS GENERATED FOR CONTACT       132
+          NUMBER OF NODES IS                                      935
+          NUMBER OF NODES DEFINED BY THE USER                     671
+          NUMBER OF INTERNAL NODES GENERATED BY THE PROGRAM       264
+          TOTAL NUMBER OF VARIABLES IN THE MODEL                 1607
+          (DEGREES OF FREEDOM PLUS MAX NO. OF ANY LAGRANGE MULTIPLIER
+           VARIABLES. INCLUDE *PRINT,SOLVE=YES TO GET THE ACTUAL NUMBER.)
+
+
+
+                              END OF USER INPUT PROCESSING
+
+
+
+     JOB TIME SUMMARY
+       USER TIME (SEC)      =     0.10    
+       SYSTEM TIME (SEC)    =     0.10    
+       TOTAL CPU TIME (SEC) =     0.20    
+       WALLCLOCK TIME (SEC) =            1
+1
+
+   Abaqus 2024                                  Date 12-10ÔÂ-2026   Time 18:17:22
+   For use by Supplied by Team-SolidSQUAD under license from Dassault Systemes or its subsidiary.
+
+                                                                                               STEP    1  INCREMENT    1
+                                                                                          TIME COMPLETED IN THIS STEP   0.00    
+
+
+                        S T E P       1     S T A T I C   A N A L Y S I S
+
+
+                                                                                          
+
+     AUTOMATIC TIME CONTROL WITH -
+          A SUGGESTED INITIAL TIME INCREMENT OF                1.000E-02
+          AND A TOTAL TIME PERIOD OF                            1.00    
+          THE MINIMUM TIME INCREMENT ALLOWED IS                1.000E-12
+          THE MAXIMUM TIME INCREMENT ALLOWED IS                0.100    
+
+     LINEAR EQUATION SOLVER TYPE         DIRECT SPARSE
+
+          LARGE DISPLACEMENT THEORY WILL BE USED
+  
+                   M E M O R Y   E S T I M A T E
+  
+ PROCESS      FLOATING PT       MINIMUM MEMORY        MEMORY TO
+              OPERATIONS           REQUIRED          MINIMIZE I/O
+             PER ITERATION           (MB)               (MB)
+  
+     1          1.46E+06               17                 25
+  
+ NOTE:
+      (1) SINCE ABAQUS DOES NOT PRE-ALLOCATE MEMORY AND ONLY ALLOCATES MEMORY AS NEEDED DURING THE ANALYSIS,
+          THE MEMORY REQUIREMENT PRINTED HERE CAN ONLY BE VIEWED AS A GENERAL GUIDELINE BASED ON THE BEST
+          KNOWLEDGE AVAILABLE AT THE BEGINNING OF A STEP BEFORE THE SOLUTION PROCESS HAS BEGUN.
+      (2) THE ESTIMATE IS NORMALLY UPDATED AT THE BEGINNING OF EVERY STEP. IT IS THE MAXIMUM VALUE OF THE
+          ESTIMATE FROM THE CURRENT STEP TO THE LAST STEP OF THE ANALYSIS, WITH UNSYMMETRIC SOLUTION TAKEN
+          INTO ACCOUNT IF APPLICABLE. 
+      (3) SINCE THE ESTIMATE IS BASED ON THE ACTIVE DEGREES OF FREEDOM IN THE FIRST ITERATION OF THE 
+          CURRENT STEP, THE MEMORY ESTIMATE MIGHT BE SIGNIFICANTLY DIFFERENT THAN ACTUAL USAGE FOR 
+          PROBLEMS WITH SUBSTANTIAL CHANGES IN ACTIVE DEGREES OF FREEDOM BETWEEN STEPS (OR EVEN WITHIN
+          THE SAME STEP). EXAMPLES ARE: PROBLEMS WITH SIGNIFICANT CONTACT CHANGES, PROBLEMS WITH MODEL
+          CHANGE, PROBLEMS WITH BOTH STATIC STEP AND STEADY STATE DYNAMIC PROCEDURES WHERE ACOUSTIC 
+          ELEMENTS WILL ONLY BE ACTIVATED IN THE STEADY STATE DYNAMIC STEPS.
+      (4) FOR MULTI-PROCESS EXECUTION, THE ESTIMATED VALUE OF FLOATING POINT OPERATIONS FOR EACH PROCESS
+          IS BASED ON AN INITIAL SCHEDULING OF OPERATIONS AND MIGHT NOT REFLECT THE ACTUAL FLOATING 
+          POINT OPERATIONS COMPLETED ON EACH PROCESS. OPERATIONS ARE DYNAMICALLY BALANCED DURING EXECUTION, 
+          SO THE ACTUAL BALANCE OF OPERATIONS BETWEEN PROCESSES IS EXPECTED TO BE BETTER THAN THE ESTIMATE
+          PRINTED HERE.
+      (5) THE UPPER LIMIT OF MEMORY THAT CAN BE ALLOCATED BY ABAQUS WILL IN GENERAL DEPEND ON THE VALUE OF
+          THE "MEMORY" PARAMETER AND THE AMOUNT OF PHYSICAL MEMORY AVAILABLE ON THE MACHINE. PLEASE SEE
+          THE "ABAQUS ANALYSIS USER'S MANUAL" FOR MORE DETAILS. THE ACTUAL USAGE OF MEMORY AND OF DISK
+          SPACE FOR SCRATCH DATA WILL DEPEND ON THIS UPPER LIMIT AS WELL AS THE MEMORY REQUIRED TO MINIMIZE
+          I/O. IF THE MEMORY UPPER LIMIT IS GREATER THAN THE MEMORY REQUIRED TO MINIMIZE I/O, THEN THE ACTUAL
+          MEMORY USAGE WILL BE CLOSE TO THE ESTIMATED "MEMORY TO MINIMIZE I/O" VALUE, AND THE SCRATCH DISK
+          USAGE WILL BE CLOSE-TO-ZERO; OTHERWISE, THE ACTUAL MEMORY USED WILL BE CLOSE TO THE PREVIOUSLY
+          MENTIONED MEMORY LIMIT, AND THE SCRATCH DISK USAGE WILL BE ROUGHLY PROPORTIONAL TO THE DIFFERENCE
+          BETWEEN THE ESTIMATED "MEMORY TO MINIMIZE I/O" AND THE MEMORY UPPER LIMIT. HOWEVER ACCURATE
+          ESTIMATE OF THE SCRATCH DISK SPACE IS NOT POSSIBLE.
+      (6) USING "*RESTART, WRITE" CAN GENERATE A LARGE AMOUNT OF DATA WRITTEN IN THE WORK DIRECTORY.
+
+
+          THE ANALYSIS HAS BEEN COMPLETED
+
+
+
+                              ANALYSIS COMPLETE
+                              WITH      1 WARNING MESSAGES ON THE DAT FILE
+                              AND      51 WARNING MESSAGES ON THE MSG FILE
+                                        4 WARNINGS ARE FOR NEGATIVE EIGENVALUES
+
+
+
+     JOB TIME SUMMARY
+       USER TIME (SEC)      =     4.53E+02
+       SYSTEM TIME (SEC)    =      33.    
+       TOTAL CPU TIME (SEC) =     4.86E+02
+       WALLCLOCK TIME (SEC) =          181

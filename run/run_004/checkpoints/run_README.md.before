@@ -1,0 +1,11 @@
+# Run 索引
+
+Run 用于记录独立研究任务的过程、证据路径与结果，不集中存储大型工程文件。
+
+| Run | 阶段 | 目标 | 状态 | 总结 |
+| --- | --- | --- | --- | --- |
+| run_001 | Stage 1 | 基础架构、环境与资料审计 | WARNING | [summary](run_001/summary.md) |
+| run_002 | Stage 1 | SP-InvOpt 中英文研究主页、RL/MDP 与路线图 | WARNING | [summary](run_002/summary.md) |
+| run_003 | Stage 1 | 按启动文档与设计备忘录重构双语主页和详细研究导航 | WARNING | [summary](run_003/summary.md) |
+
+每个 Run 必须包含 run.json、summary.md、artifacts/、checkpoints/；详见 [通信协议](../docs/Agent_File_Communication_Protocol.md)。私有证据目录不会随 Git 共享。编号建议不构成执行授权，run_003 完成后停止，不自动进入 run_004。

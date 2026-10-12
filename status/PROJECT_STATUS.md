@@ -1,8 +1,20 @@
 # SMALL-PUNCH 项目状态
 
-截至 2026-10-11（Asia/Shanghai），当前为 Stage 1 / run_003。研究项目名为 SP-InvOpt，仓库名保持 SMALL-PUNCH。
+截至 2026-10-12（Asia/Shanghai），当前为 run_005 / Stage 2 准入只读审计；正式参数化求解尚未准入。研究项目名为 SP-InvOpt，仓库名保持 SMALL-PUNCH。
 
-**状态：WARNING。基础架构已建立，研究输入和本构语义尚未核验完毕。未宣告无条件 PASS。**
+**状态：WARNING。现有 ODB 的真实 Punch RP 曲线提取已验证，模型物理输入与数值充分性仍未核验完毕。未宣告整体 PASS。**
+
+run_005 已用 Abaqus 2024 自带 Python 3.10.5 只读打开 Sanity Job-1.odb，实际提取 `ASM_SPT.1` 的181点 U2/RF2；与同节点 Field 输出逐点一致。INP/ODB 网格、Step、RP链路和同目录日志相符，Job 正常结束。按向下压入取 d=−U2、F=−RF2，无插值、绝对值或2π附加系数；末点约0.0012和755.893，物理单位未确认，图与CSV使用模型单位。
+
+Journal 已作文本顺序审计，确认初始自由UR3后来改为0，当前INP与ODB支持转动约束。JNL中的求解消息属于凌晨旧Job，不能代表晚间Job的完整操作历史；保存CAE与最终INP一致性仍NOT VERIFIED。TempTry作为独立历史比较：与Sanity输入哈希相同、ODB创建时间及哈希不同，U2/RF2及8项能量历史逐点一致；没有混用两组结果。
+
+分层判定：**Level 1 Model Evidence WARNING；Level 2 ODB Extraction PASS（限模型单位内的读取与定向变换）；Level 3 Forward Reproducibility WARNING（有限历史重复证据）**。材料Plastic表的应变定义/单位、轴线U1约束、网格/增量敏感性和完整接触能量仍待确认。45次失败尝试中出现负特征值与畸变警告，最终收敛不解除这些风险；曲线局部陡增尚需解释。未运行新Solver、datacheck、Job、Journal replay、参数化、优化或RL；未修改模型或环境，未commit/push。完整交付见 [run_005总结](../run/run_005/summary.md)、[准入报告](../run/run_005/artifacts/forward_model_readiness.md) 和 [真实曲线](../run/run_005/artifacts/force_displacement.png)。下文为历史Run记录，旧“无模型/ODB”结论已被本次发现更新。
+
+run_004 按用户指令确认默认研究 Python 仍为 `D:\XianLab\envs\conda\torch-gpu\python.exe`，与 AGENTS、启动文档及历史 Run 一致。普通 Python、NumPy/SciPy、Force–Displacement 绘图、DE/BO 与 RL 开发优先使用此解释器，所有 Python 执行命令须显式指定解释器。Abaqus CAE/ODB API 使用 Abaqus 2024 自带 Python，禁止用 Torch-GPU 导入 `odbAccess`；两类进程通过 JSON/CSV 交接。未创建或覆盖任何 IDE/项目环境配置，未改变已有解释器约定。
+
+本轮实测 Python 3.11.13、8 个历史研究包和 SciPy DE API 可导入；`pip check` 返回 1：`pytest 9.1.1 requires iniconfig, which is not installed.` 已报告，未修复或安装依赖。BoTorch、GPyTorch、scikit-optimize、Optuna、bayesian-optimization 的分发元数据未检出；BO 具体工具选型及完整运行能力为 UNKNOWN。导入成功不代表 GPU、训练、优化或绘图端到端验证。默认解释器不可用时仍须 BLOCKED，不自动切换、创建环境或安装/升级/降级依赖。
+
+本轮基线为 main / `a52be779f3b6ae9f830573764d5eed439df70b3b`，已有未跟踪目录 `CAE/Models/Sanity/`、`CAE/Models/TempTry/` 保留且未核验内容。因此下文 run_001 的模型可用性描述仅为历史审计，不据此判断当前目录中的模型。未调用 Abaqus、Solver、优化或 RL 训练，未 commit/push；本次仅记录并核验解释器选择。证据见 [run_004 总结](../run/run_004/summary.md) 和 [环境报告](../run/run_004/artifacts/environment.json)。
 
 run_003 根据用户提供的项目启动文档和 README 设计备忘录重构双语主页：各约 200 行，首屏聚焦研究问题与真实状态，保留原创 SPT SVG 和两张 Mermaid 图，将完整本构/RL/MDP 定义移入双语 docs/Inverse_Identification 文档。增加文档导航、可执行轻量文档检查、防数据泄漏及独立验证说明。16 项文档检查通过；未进行真实 GitHub Mermaid/MathJax 渲染，科研阻塞不变。
 
@@ -17,10 +29,17 @@ run_002 已编写实质一致的英文 README 与中文版，包含五层 Mermai
 - 5 个原始文件由 Materials/ 迁入 references_private/，迁移前后 SHA-256 一致，内容未修改；完整清单仅在忽略的本地审计区。
 - 指定外部 Python 3.11.13 可用，8 个指定包均可导入。Abaqus 2024 release 查询及内置 Python 3.10.5 查询成功。
 - 未安装依赖、未运行 Solver、未打开/修改 CAE、未训练或优化、未 commit/push。
-- 当前只有公式/参考资料，无可审计 CAE/INP/ODB，也没有已确认实验力–位移数据。
+- run_001 审计时只有公式/参考资料，无可审计 CAE/INP/ODB；run_005 已核验现有 INP/ODB，实验力–位移数据仍未确认。
 - Excel 固定屈服应变偏移与通常的当前弹性应变扣除存在待澄清差异；文献与应变测度未确定。正式材料表生成和反演研究暂缓。
 - Abaqus 许可证、CAE 启动和求解能力未测试；AbqJobPilot 六个接口全部 PLANNED / UNVERIFIED。
 
-环境、文件协议与研究主页可供下一项明确授权的准备任务使用，但现有证据不足以开展已验证的 FE 反演。Stage 1 整体仍为 In Progress，基准 CAE 验证与曲线提取受阻；Stage 2–4 为 Planned。下一 Run 建议：补齐可审计模型与实验来源，确认本构列定义、应变测度及 E/单位，先批准导入与材料转换契约。不会自动执行 run_004。
+现有证据已支持基准 ODB 曲线提取，但不足以直接进入正式参数化求解或已验证的 FE 反演。Stage 2 准入审计已完成；参数化及后续优化/RL仍未启动。下一步先确认材料应变与单位、保存模型一致性和轴线/夹持意图，再另行授权独立工作目录中的受控重复计算及网格/增量敏感性验证。run_004的依赖缺失仍保留，未安装修复。本轮完成后停止，不自动执行run_006。
 
 详见 [run_001 总结](../run/run_001/summary.md)、[run_002 总结](../run/run_002/summary.md)、[run_003 总结](../run/run_003/summary.md) 和 [CAE 审计](../docs/CAE_Model_Audit.md)。
+
+
+## 最新更新 — run_006（2026-10-12，Asia/Shanghai）
+
+当前最新 Run 为 **run_006 / Hollomon 数学与材料定义审计，WARNING**。本段更新此前 run_005 最新状态的历史快照。全部工作簿参数组的应力公式已通过独立数值核验，与文献塑性段一致；但在真总应变解释下，固定屈服应变偏移并不等于标准塑性应变转换。现有 INP 忠实保留派生列及其非恒定应力缩放，近屈服采样也造成独立插值偏差。三项差异已分别量化，模型未修改。
+
+完整截图上下文、应力/应变测度和材料有效范围仍需确认。数学检查 PASS 不代表物理模型准入 PASS；正式材料参数化仍待明确契约。独立 A/B/C 诊断曲线、比较图和报告已保存在新 Run 私有审计区，不是已获准的生产材料表。源文件完整性验证通过；未调用 Abaqus、Solver、Job、优化、RL 或 commit/push，未变更解释器和依赖。参见 [run_006 总结](../run/run_006/summary.md)。本轮完成后停止，不自动进入下一 Run。

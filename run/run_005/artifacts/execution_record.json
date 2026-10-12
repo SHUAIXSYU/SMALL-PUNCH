@@ -1,0 +1,52 @@
+{
+  "observed_at": "2026-10-12T18:53:47.795093+08:00",
+  "research_python": "D:\\XianLab\\envs\\conda\\torch-gpu\\python.exe",
+  "abaqus_python": "D:\\ABAQUS2024\\product\\win_b64\\code\\bin\\SMAPython.exe",
+  "abaqus_launcher": "D:\\ABAQUS2024\\commands\\abq2024.bat",
+  "method": "Abaqus launcher python (not cae/analysis/datacheck), separate processes, readOnly=True, source hashes before and after.",
+  "attempts": [
+    {
+      "attempt": "Sanity 01",
+      "status": "FAILED",
+      "reason": "JSON serialization: float32 not serializable; source ODB read-only, closed in finally",
+      "wrapper_returncode": 0,
+      "evidence": "run/run_005/artifacts/private/odb_extract_console.txt"
+    },
+    {
+      "attempt": "Sanity 02",
+      "status": "PASS",
+      "reason": "Explicit numeric scalar conversion",
+      "evidence": "run/run_005/artifacts/private/odb_extract_attempt02.json"
+    },
+    {
+      "attempt": "Sanity 03",
+      "status": "PASS",
+      "reason": "Added requested RP UR3/RM3 and separate valid COPEN diagnostics",
+      "evidence": "run/run_005/artifacts/private/odb_extract_attempt03.json"
+    },
+    {
+      "attempt": "TempTry comparison",
+      "status": "PASS",
+      "reason": "Separate historical same-INP comparison; no mixed histories",
+      "evidence": "run/run_005/artifacts/private/odb_temtry_comparison.json"
+    }
+  ],
+  "other_errors": [
+    {
+      "code": "POWERSHELL_JNL_HASH_SHARING",
+      "resolution": "PowerShell reported sharing violation; Python read-only hash recheck matched baseline, no forced unlock."
+    },
+    {
+      "code": "DOCS_2024_HTTP_403",
+      "resolution": "Generic conventions cited from vendor-authored university mirror; not claimed as 2024 runtime tests."
+    }
+  ],
+  "forbidden_actions_performed": [],
+  "solver_invoked": false,
+  "datacheck_invoked": false,
+  "journal_replayed": false,
+  "model_modified": false,
+  "training_or_optimization": false,
+  "dependencies_changed": false,
+  "commit_or_push": false
+}

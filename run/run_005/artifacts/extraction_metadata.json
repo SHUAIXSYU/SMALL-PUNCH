@@ -1,0 +1,10 @@
+{
+  "selected_step": "Step_Punch_Displacement",
+  "selected_history_region": "Node ASM_SPT.1",
+  "samples": 181,
+  "sign_convention": "Downward-positive punch displacement = -U2; downward applied compressive force = -RF2. No absolute value, no baseline shift, no 2*pi factor.",
+  "units": "Model length/force/time units; no explicit physical unit declaration found. m-N-Pa interpretation plausible but NOT VERIFIED.",
+  "interpolation": "None: U2/RF2/energy time arrays exactly identical. Fields checked by frame order with time tolerance 1e-7 for single precision history.",
+  "history_field_U2_max_error": 0.0,
+  "history_field_RF2_max_error": 0.0
+}

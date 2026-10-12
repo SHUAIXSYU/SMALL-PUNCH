@@ -1,0 +1,288 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_005",
+  "stage": "Stage 2 entry audit",
+  "status": "WARNING",
+  "objective": "Read-only existing ODB extraction and Journal/INP audit; no solver, model changes, optimization or training.",
+  "start_time": "2026-10-12T18:31:41.656183+08:00",
+  "end_time": "2026-10-12T18:53:47.901255+08:00",
+  "time_notes": "First observed clock after initial reads; exact earlier start unknown.",
+  "python_interpreter": "D:\\XianLab\\envs\\conda\\torch-gpu\\python.exe",
+  "git_head": "a52be779f3b6ae9f830573764d5eed439df70b3b",
+  "git_branch": "main",
+  "inputs": [
+    {
+      "path": "run/run_005/artifacts/private/file_inventory.json",
+      "role": "source identities and SHA-256"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_005/artifacts/analyze_extraction.py",
+      "role": "audit_evidence_or_report"
+    },
+    {
+      "path": "run/run_005/artifacts/audit_text_sources.py",
+      "role": "audit_evidence_or_report"
+    },
+    {
+      "path": "run/run_005/artifacts/energy_diagnostics.png",
+      "role": "audit_evidence_or_report"
+    },
+    {
+      "path": "run/run_005/artifacts/energy_history.csv",
+      "role": "audit_evidence_or_report"
+    },
+    {
+      "path": "run/run_005/artifacts/execution_record.json",
+      "role": "audit_evidence_or_report"
+    },
+    {
+      "path": "run/run_005/artifacts/extract_odb_readonly.py",
+      "role": "audit_evidence_or_report"
+    },
+    {
+      "path": "run/run_005/artifacts/extraction_metadata.json",
+      "role": "audit_evidence_or_report"
+    },
+    {
+      "path": "run/run_005/artifacts/field_diagnostics.csv",
+      "role": "audit_evidence_or_report"
+    },
+    {
+      "path": "run/run_005/artifacts/file_inventory.json",
+      "role": "audit_evidence_or_report"
+    },
+    {
+      "path": "run/run_005/artifacts/finalize_audit.py",
+      "role": "audit_evidence_or_report"
+    },
+    {
+      "path": "run/run_005/artifacts/force_displacement.png",
+      "role": "audit_evidence_or_report"
+    },
+    {
+      "path": "run/run_005/artifacts/forward_model_readiness.md",
+      "role": "audit_evidence_or_report"
+    },
+    {
+      "path": "run/run_005/artifacts/initialize_audit.py",
+      "role": "audit_evidence_or_report"
+    },
+    {
+      "path": "run/run_005/artifacts/input_geometry_audit.png",
+      "role": "audit_evidence_or_report"
+    },
+    {
+      "path": "run/run_005/artifacts/jnl_model_audit.md",
+      "role": "audit_evidence_or_report"
+    },
+    {
+      "path": "run/run_005/artifacts/manifest.json",
+      "role": "audit_evidence_or_report"
+    },
+    {
+      "path": "run/run_005/artifacts/numerical_sanity.json",
+      "role": "audit_evidence_or_report"
+    },
+    {
+      "path": "run/run_005/artifacts/odb_audit.md",
+      "role": "audit_evidence_or_report"
+    },
+    {
+      "path": "run/run_005/artifacts/private/analysis_console.txt",
+      "role": "audit_evidence_or_report"
+    },
+    {
+      "path": "run/run_005/artifacts/private/file_inventory.json",
+      "role": "audit_evidence_or_report"
+    },
+    {
+      "path": "run/run_005/artifacts/private/initial_files.json",
+      "role": "audit_evidence_or_report"
+    },
+    {
+      "path": "run/run_005/artifacts/private/inp_blocks.json",
+      "role": "audit_evidence_or_report"
+    },
+    {
+      "path": "run/run_005/artifacts/private/inp_model.json",
+      "role": "audit_evidence_or_report"
+    },
+    {
+      "path": "run/run_005/artifacts/private/journal_operations.json",
+      "role": "audit_evidence_or_report"
+    },
+    {
+      "path": "run/run_005/artifacts/private/log_analysis.json",
+      "role": "audit_evidence_or_report"
+    },
+    {
+      "path": "run/run_005/artifacts/private/odb_extract_attempt02.json",
+      "role": "audit_evidence_or_report"
+    },
+    {
+      "path": "run/run_005/artifacts/private/odb_extract_attempt03.json",
+      "role": "audit_evidence_or_report"
+    },
+    {
+      "path": "run/run_005/artifacts/private/odb_extract_console.txt",
+      "role": "audit_evidence_or_report"
+    },
+    {
+      "path": "run/run_005/artifacts/private/odb_extract_console_attempt02.txt",
+      "role": "audit_evidence_or_report"
+    },
+    {
+      "path": "run/run_005/artifacts/private/odb_extract_console_attempt03.txt",
+      "role": "audit_evidence_or_report"
+    },
+    {
+      "path": "run/run_005/artifacts/private/odb_temtry_comparison.json",
+      "role": "audit_evidence_or_report"
+    },
+    {
+      "path": "run/run_005/artifacts/private/odb_temtry_console.txt",
+      "role": "audit_evidence_or_report"
+    },
+    {
+      "path": "run/run_005/artifacts/private/source_integrity_final.json",
+      "role": "audit_evidence_or_report"
+    },
+    {
+      "path": "run/run_005/artifacts/punch_force_displacement.csv",
+      "role": "audit_evidence_or_report"
+    },
+    {
+      "path": "run/run_005/artifacts/punch_rf2_time.png",
+      "role": "audit_evidence_or_report"
+    },
+    {
+      "path": "run/run_005/artifacts/punch_rp_history_raw.csv",
+      "role": "audit_evidence_or_report"
+    },
+    {
+      "path": "run/run_005/artifacts/punch_u2_time.png",
+      "role": "audit_evidence_or_report"
+    },
+    {
+      "path": "run/run_005/artifacts/stage2_recommendations.md",
+      "role": "audit_evidence_or_report"
+    },
+    {
+      "path": "run/run_005/checkpoints/extract_odb_attempt01.py",
+      "role": "audit_evidence_or_report"
+    },
+    {
+      "path": "run/run_005/checkpoints/extract_odb_attempt02.py",
+      "role": "audit_evidence_or_report"
+    },
+    {
+      "path": "run/run_005/checkpoints/final_state.json",
+      "role": "audit_evidence_or_report"
+    },
+    {
+      "path": "run/run_005/checkpoints/initial_state.json",
+      "role": "audit_evidence_or_report"
+    },
+    {
+      "path": "run/run_005/checkpoints/PROJECT_STATUS.md.before",
+      "role": "audit_evidence_or_report"
+    },
+    {
+      "path": "run/run_005/checkpoints/run.running.json",
+      "role": "audit_evidence_or_report"
+    },
+    {
+      "path": "run/run_005/checkpoints/run_README.md.before",
+      "role": "audit_evidence_or_report"
+    },
+    {
+      "path": "run/run_005/run.json",
+      "role": "audit_evidence_or_report"
+    },
+    {
+      "path": "run/run_005/summary.md",
+      "role": "audit_evidence_or_report"
+    },
+    {
+      "path": "run/README.md",
+      "role": "run_index_or_project_status"
+    },
+    {
+      "path": "status/PROJECT_STATUS.md",
+      "role": "run_index_or_project_status"
+    }
+  ],
+  "validation": [
+    {
+      "check": "read_only_odb_extraction",
+      "status": "PASS",
+      "evidence": "run/run_005/artifacts/execution_record.json",
+      "scope": "Sanity and separate TempTry comparison opened readOnly; source bytes preserved"
+    },
+    {
+      "check": "rp_history_and_transform",
+      "status": "PASS",
+      "evidence": "run/run_005/artifacts/numerical_sanity.json",
+      "scope": "181 synchronized same-node samples, field agreement, signed conversion, no interpolation or 2pi"
+    },
+    {
+      "check": "historical_input_repeat_agreement",
+      "status": "PASS",
+      "evidence": "run/run_005/artifacts/numerical_sanity.json",
+      "scope": "Two existing same-input histories match exactly; no new controlled rerun or model-validity claim"
+    },
+    {
+      "check": "model_numerical_readiness",
+      "status": "WARNING",
+      "evidence": "run/run_005/artifacts/forward_model_readiness.md",
+      "scope": "Material/units/axis/mesh/contact concerns unresolved"
+    },
+    {
+      "check": "preservation_delivery_and_hashes",
+      "status": "PASS",
+      "evidence": "run/run_005/checkpoints/final_state.json",
+      "scope": "24 sources and older public runs preserved, Git metadata, CSV readback, links, PNG review, 46 static hashes"
+    }
+  ],
+  "errors": [
+    {
+      "code": "NUMERICAL_AND_MODEL_PREREQUISITES",
+      "severity": "WARNING",
+      "message": "Material semantics and units, axis BC, local curve changes and mesh/increment sensitivity remain unresolved.",
+      "evidence": "run/run_005/artifacts/forward_model_readiness.md"
+    },
+    {
+      "code": "ODB_SERIALIZATION_ATTEMPT01",
+      "severity": "RESOLVED",
+      "message": "Abaqus float32 serialization failed despite wrapper return code 0; logs retained; numeric conversion repaired.",
+      "evidence": "run/run_005/artifacts/execution_record.json"
+    },
+    {
+      "code": "JNL_HASH_SHARING",
+      "severity": "RESOLVED",
+      "message": "PowerShell read-sharing failure; subsequent non-mutating Python SHA-256 matches baseline.",
+      "evidence": "run/run_005/artifacts/execution_record.json"
+    },
+    {
+      "code": "DOCS_2024_HTTP_403",
+      "severity": "RESOLVED_WITH_LIMITATION",
+      "message": "Vendor manual mirror used for general conventions; release-specific runtime claims rely on actual ODB/API.",
+      "evidence": "run/run_005/artifacts/odb_audit.md"
+    }
+  ],
+  "abaqus_python_interpreter": "D:\\ABAQUS2024\\product\\win_b64\\code\\bin\\SMAPython.exe",
+  "readiness": {
+    "level_1_model_evidence": "WARNING",
+    "level_2_odb_extraction": "PASS",
+    "level_3_forward_reproducibility": "WARNING",
+    "formal_parameterized_solve_ready": false
+  },
+  "commit_performed": false,
+  "push_performed": false,
+  "solver_invoked": false,
+  "datacheck_invoked": false,
+  "journal_replayed": false,
+  "model_modified": false
+}

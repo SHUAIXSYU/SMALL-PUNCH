@@ -1,0 +1,186 @@
+{
+  "checked_at": "2026-10-12T18:27:02.320965+08:00",
+  "executable": "D:\\XianLab\\envs\\conda\\torch-gpu\\python.exe",
+  "python": "3.11.13 | packaged by Anaconda, Inc. | (main, Jun  5 2025, 13:03:15) [MSC v.1929 64 bit (AMD64)]",
+  "executable_sha256": "124cbe6203f939ff138c0ce68e26c12e4ca5836562286572ed040173daf0b787",
+  "packages": {
+    "numpy": {
+      "version": "2.1.2",
+      "import_ok": true
+    },
+    "scipy": {
+      "version": "1.16.1",
+      "import_ok": true
+    },
+    "pandas": {
+      "version": "2.3.1",
+      "import_ok": true
+    },
+    "matplotlib": {
+      "version": "3.10.5",
+      "import_ok": true
+    },
+    "scikit-learn": {
+      "version": "1.7.1",
+      "import_ok": true
+    },
+    "torch": {
+      "version": "2.6.0+cu124",
+      "import_ok": true
+    },
+    "gymnasium": {
+      "version": "1.2.3",
+      "import_ok": true
+    },
+    "stable-baselines3": {
+      "version": "2.8.0",
+      "import_ok": true
+    }
+  },
+  "optional_bo_metadata": {
+    "botorch": null,
+    "gpytorch": null,
+    "scikit-optimize": null,
+    "optuna": null,
+    "bayesian-optimization": null
+  },
+  "commands": [
+    {
+      "command": [
+        "D:\\XianLab\\envs\\conda\\torch-gpu\\python.exe",
+        "-B",
+        "-c",
+        "import importlib,json; m=importlib.import_module('numpy'); print(json.dumps({'version':getattr(m,'__version__',None)}))"
+      ],
+      "started_at": "2026-10-12T18:27:02.337380+08:00",
+      "ended_at": "2026-10-12T18:27:03.174602+08:00",
+      "returncode": 0,
+      "stdout": "{\"version\": \"2.1.2\"}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "D:\\XianLab\\envs\\conda\\torch-gpu\\python.exe",
+        "-B",
+        "-c",
+        "import importlib,json; m=importlib.import_module('scipy'); print(json.dumps({'version':getattr(m,'__version__',None)}))"
+      ],
+      "started_at": "2026-10-12T18:27:03.195948+08:00",
+      "ended_at": "2026-10-12T18:27:03.347992+08:00",
+      "returncode": 0,
+      "stdout": "{\"version\": \"1.16.1\"}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "D:\\XianLab\\envs\\conda\\torch-gpu\\python.exe",
+        "-B",
+        "-c",
+        "import importlib,json; m=importlib.import_module('pandas'); print(json.dumps({'version':getattr(m,'__version__',None)}))"
+      ],
+      "started_at": "2026-10-12T18:27:03.367723+08:00",
+      "ended_at": "2026-10-12T18:27:04.828874+08:00",
+      "returncode": 0,
+      "stdout": "{\"version\": \"2.3.1\"}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "D:\\XianLab\\envs\\conda\\torch-gpu\\python.exe",
+        "-B",
+        "-c",
+        "import importlib,json; m=importlib.import_module('matplotlib'); print(json.dumps({'version':getattr(m,'__version__',None)}))"
+      ],
+      "started_at": "2026-10-12T18:27:04.846032+08:00",
+      "ended_at": "2026-10-12T18:27:05.307226+08:00",
+      "returncode": 0,
+      "stdout": "{\"version\": \"3.10.5\"}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "D:\\XianLab\\envs\\conda\\torch-gpu\\python.exe",
+        "-B",
+        "-c",
+        "import importlib,json; m=importlib.import_module('sklearn'); print(json.dumps({'version':getattr(m,'__version__',None)}))"
+      ],
+      "started_at": "2026-10-12T18:27:05.323513+08:00",
+      "ended_at": "2026-10-12T18:27:09.809307+08:00",
+      "returncode": 0,
+      "stdout": "{\"version\": \"1.7.1\"}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "D:\\XianLab\\envs\\conda\\torch-gpu\\python.exe",
+        "-B",
+        "-c",
+        "import importlib,json; m=importlib.import_module('torch'); print(json.dumps({'version':getattr(m,'__version__',None)}))"
+      ],
+      "started_at": "2026-10-12T18:27:09.830587+08:00",
+      "ended_at": "2026-10-12T18:27:17.495443+08:00",
+      "returncode": 0,
+      "stdout": "{\"version\": \"2.6.0+cu124\"}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "D:\\XianLab\\envs\\conda\\torch-gpu\\python.exe",
+        "-B",
+        "-c",
+        "import importlib,json; m=importlib.import_module('gymnasium'); print(json.dumps({'version':getattr(m,'__version__',None)}))"
+      ],
+      "started_at": "2026-10-12T18:27:17.523189+08:00",
+      "ended_at": "2026-10-12T18:27:17.759407+08:00",
+      "returncode": 0,
+      "stdout": "{\"version\": \"1.2.3\"}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "D:\\XianLab\\envs\\conda\\torch-gpu\\python.exe",
+        "-B",
+        "-c",
+        "import importlib,json; m=importlib.import_module('stable_baselines3'); print(json.dumps({'version':getattr(m,'__version__',None)}))"
+      ],
+      "started_at": "2026-10-12T18:27:17.773466+08:00",
+      "ended_at": "2026-10-12T18:27:23.323207+08:00",
+      "returncode": 0,
+      "stdout": "{\"version\": \"2.8.0\"}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "D:\\XianLab\\envs\\conda\\torch-gpu\\python.exe",
+        "-B",
+        "-c",
+        "from scipy.optimize import differential_evolution; print('DE API import OK; optimizer not executed')"
+      ],
+      "started_at": "2026-10-12T18:27:23.333407+08:00",
+      "ended_at": "2026-10-12T18:27:23.832647+08:00",
+      "returncode": 0,
+      "stdout": "DE API import OK; optimizer not executed\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "D:\\XianLab\\envs\\conda\\torch-gpu\\python.exe",
+        "-B",
+        "-m",
+        "pip",
+        "--disable-pip-version-check",
+        "check"
+      ],
+      "started_at": "2026-10-12T18:27:23.832647+08:00",
+      "ended_at": "2026-10-12T18:27:26.709662+08:00",
+      "returncode": 1,
+      "stdout": "pytest 9.1.1 requires iniconfig, which is not installed.\n",
+      "stderr": ""
+    }
+  ],
+  "scope": "Package imports, SciPy DE API import, installed metadata and pip check only; no numerical, CUDA, solver, optimization or training validation.",
+  "scipy_de_api_import_ok": true,
+  "pip_check_ok": false,
+  "finished_at": "2026-10-12T18:27:26.709662+08:00",
+  "status": "WARNING"
+}

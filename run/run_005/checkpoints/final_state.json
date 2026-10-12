@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "observed_at": "2026-10-12T18:53:47.892637+08:00",
+  "checks": {
+    "baseline_files_preserved_except_two_status_docs": true,
+    "unchanged_file_count": 95,
+    "all_24_model_job_sources_unchanged": true,
+    "old_public_runs_unchanged": true,
+    "git_head_unchanged": true,
+    "git_branch_unchanged": true,
+    "git_index_unchanged": true,
+    "git_diff_check": {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "warning: in the working copy of 'run/README.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'status/PROJECT_STATUS.md', LF will be replaced by CRLF the next time Git touches it\n"
+    },
+    "raw_csv_exactly_matches_odb": true,
+    "positive_csv_exact_signed_transform": true,
+    "odb_is_readonly_and_successful": true,
+    "same_rp_history_field_consistency": true,
+    "inp_odb_mesh_identity": true,
+    "png_signatures_valid": true,
+    "image_visual_review": "All five figures inspected; geometry legend/title overlap corrected and re-inspected.",
+    "no_new_source_job_files": true,
+    "local_document_links_valid": true,
+    "link_errors": [],
+    "public_json_parse": true,
+    "static_manifest_hashes_verified": 46
+  },
+  "failures": [],
+  "working_tree": {
+    "command": [
+      "git",
+      "status",
+      "--short"
+    ],
+    "returncode": 0,
+    "stdout": " M run/README.md\n M status/PROJECT_STATUS.md\n?? CAE/Models/Sanity/\n?? CAE/Models/TempTry/\n?? run/run_004/\n?? run/run_005/\n",
+    "stderr": ""
+  },
+  "preservation_scope": "97 baseline files outside original references, private prior audits and Git internals; 24 model/job source files hashed before/after. Only two existing status docs edited."
+}

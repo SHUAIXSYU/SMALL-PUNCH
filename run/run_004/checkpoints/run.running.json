@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_004",
+  "stage": "Stage 1",
+  "objective": "Record and verify the selected research Python without solving, optimization or training.",
+  "status": "RUNNING",
+  "start_time": "2026-10-12T18:24:54.6079879+08:00",
+  "end_time": null,
+  "time_notes": "Start is the first observed clock after initial reads; probe timestamps are actual +08:00 observations.",
+  "python_interpreter": "D:\\XianLab\\envs\\conda\\torch-gpu\\python.exe",
+  "git_head": "a52be779f3b6ae9f830573764d5eed439df70b3b",
+  "git_branch": "main",
+  "inputs": [],
+  "outputs": [],
+  "validation": [],
+  "errors": []
+}

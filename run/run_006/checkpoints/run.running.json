@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_006",
+  "stage": "Hollomon mathematical and material-input audit",
+  "status": "RUNNING",
+  "objective": "Read-only literature/Excel/INP consistency; independent numerical comparisons; no solver or model edits",
+  "start_time": "2026-10-12T19:46:27.698493+08:00",
+  "end_time": null,
+  "time_notes": "Start is first persisted clock observation after initial read-only inspection.",
+  "python_interpreter": "D:\\XianLab\\envs\\conda\\torch-gpu\\python.exe",
+  "git_head": "a52be779f3b6ae9f830573764d5eed439df70b3b",
+  "git_branch": "main",
+  "inputs": [
+    {
+      "path": "run/run_006/artifacts/private/initial_state.json",
+      "role": "private source identities and SHA-256"
+    }
+  ],
+  "outputs": [],
+  "validation": [],
+  "errors": []
+}

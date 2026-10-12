@@ -1,0 +1,32 @@
+# SMALL-PUNCH 项目状态
+
+截至 2026-10-12（Asia/Shanghai），当前为 Stage 1 / run_004。研究项目名为 SP-InvOpt，仓库名保持 SMALL-PUNCH。
+
+**状态：WARNING。基础架构已建立，研究输入和本构语义尚未核验完毕。未宣告无条件 PASS。**
+
+run_004 按用户指令确认默认研究 Python 仍为 `D:\XianLab\envs\conda\torch-gpu\python.exe`，与 AGENTS、启动文档及历史 Run 一致。普通 Python、NumPy/SciPy、Force–Displacement 绘图、DE/BO 与 RL 开发优先使用此解释器，所有 Python 执行命令须显式指定解释器。Abaqus CAE/ODB API 使用 Abaqus 2024 自带 Python，禁止用 Torch-GPU 导入 `odbAccess`；两类进程通过 JSON/CSV 交接。未创建或覆盖任何 IDE/项目环境配置，未改变已有解释器约定。
+
+本轮实测 Python 3.11.13、8 个历史研究包和 SciPy DE API 可导入；`pip check` 返回 1：`pytest 9.1.1 requires iniconfig, which is not installed.` 已报告，未修复或安装依赖。BoTorch、GPyTorch、scikit-optimize、Optuna、bayesian-optimization 的分发元数据未检出；BO 具体工具选型及完整运行能力为 UNKNOWN。导入成功不代表 GPU、训练、优化或绘图端到端验证。默认解释器不可用时仍须 BLOCKED，不自动切换、创建环境或安装/升级/降级依赖。
+
+本轮基线为 main / `a52be779f3b6ae9f830573764d5eed439df70b3b`，已有未跟踪目录 `CAE/Models/Sanity/`、`CAE/Models/TempTry/` 保留且未核验内容。因此下文 run_001 的模型可用性描述仅为历史审计，不据此判断当前目录中的模型。未调用 Abaqus、Solver、优化或 RL 训练，未 commit/push；本次仅记录并核验解释器选择。证据见 [run_004 总结](../run/run_004/summary.md) 和 [环境报告](../run/run_004/artifacts/environment.json)。
+
+run_003 根据用户提供的项目启动文档和 README 设计备忘录重构双语主页：各约 200 行，首屏聚焦研究问题与真实状态，保留原创 SPT SVG 和两张 Mermaid 图，将完整本构/RL/MDP 定义移入双语 docs/Inverse_Identification 文档。增加文档导航、可执行轻量文档检查、防数据泄漏及独立验证说明。16 项文档检查通过；未进行真实 GitHub Mermaid/MathJax 渲染，科研阻塞不变。
+
+本次发现 run_001/002 之后已有提交 `afdb19a4428b4e108204ebf35065dae3f2daeed7`（updated run 002）；开始时仅用户新加的启动文档未跟踪。启动文档中“run_002 尚无完成回报”是旧快照，以已存在的 run_002 完成记录为准。下述未提交/未推送描述仅指各历史 Run 当时的执行行为。run_003 未 commit/push，未修改用户启动文档或仓库外备忘录。
+
+run_002 已编写实质一致的英文 README 与中文版，包含五层 Mermaid 架构、反演目标函数、RL 预算约束序贯搜索与 MDP、三个研究问题和四阶段路线图。没有实现算法、运行仿真或提出新实验结论。由于 run_001 遗留未提交改动与共享文档修改混合，本次不自动 commit，未 push；文档检查证据见 run_002。以下 run_001 事实保持有效，文件/环境检查不等于 CAE 合理性验证。
+
+按补充要求新增 docs/figures 下原创 SPT 轴对称 SVG，已渲染并目视检查，双语主页共用；另加入 RL–Abaqus–奖励–策略更新 Mermaid 闭环，训练更新与部署推理分开。所有图为英文标注，不包含实验数据或已核验几何的暗示。
+
+- 已建立 Agent 工作契约、研究概述、架构、本构契约、数据边界、文件通信与 Run 协议。
+- 17 项轻量检查全部通过，包括原始资料完整性、目录/Run 协议、忽略规则、Markdown 本地链接及 Git 状态约束；研究未决项仍保留 WARNING。
+- 5 个原始文件由 Materials/ 迁入 references_private/，迁移前后 SHA-256 一致，内容未修改；完整清单仅在忽略的本地审计区。
+- 指定外部 Python 3.11.13 可用，8 个指定包均可导入。Abaqus 2024 release 查询及内置 Python 3.10.5 查询成功。
+- 未安装依赖、未运行 Solver、未打开/修改 CAE、未训练或优化、未 commit/push。
+- 当前只有公式/参考资料，无可审计 CAE/INP/ODB，也没有已确认实验力–位移数据。
+- Excel 固定屈服应变偏移与通常的当前弹性应变扣除存在待澄清差异；文献与应变测度未确定。正式材料表生成和反演研究暂缓。
+- Abaqus 许可证、CAE 启动和求解能力未测试；AbqJobPilot 六个接口全部 PLANNED / UNVERIFIED。
+
+环境、文件协议与研究主页可供下一项明确授权的准备任务使用，但现有证据不足以开展已验证的 FE 反演。Stage 1 整体仍为 In Progress，基准 CAE 验证与曲线提取受阻；Stage 2–4 为 Planned。后续建议：先处理已报告依赖缺失（需用户另行授权），再按明确任务补齐可审计模型与实验来源，确认本构列定义、应变测度及 E/单位和导入与材料转换契约。不会自动执行 run_005。
+
+详见 [run_001 总结](../run/run_001/summary.md)、[run_002 总结](../run/run_002/summary.md)、[run_003 总结](../run/run_003/summary.md) 和 [CAE 审计](../docs/CAE_Model_Audit.md)。

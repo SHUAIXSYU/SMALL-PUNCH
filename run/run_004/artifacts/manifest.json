@@ -1,0 +1,82 @@
+{
+  "generated_at": "2026-10-12T18:31:04.035409+08:00",
+  "exclusions": [
+    "run/run_004/run.json",
+    "run/run_004/artifacts/manifest.json",
+    "run/run_004/artifacts/private/"
+  ],
+  "files": [
+    {
+      "path": "run/run_004/artifacts/environment.json",
+      "sha256": "050279974dab8d17430d8aa80b0b39050cc47fef3bb9e7eaf856832b64d0f356",
+      "visibility": "public",
+      "role": "environment_audit_or_documentation"
+    },
+    {
+      "path": "run/run_004/artifacts/package_inventory.json",
+      "sha256": "f20d2c26f02f317090f28550453aef29e19ae21c6047cf710e20378dc30c0713",
+      "visibility": "public",
+      "role": "environment_audit_or_documentation"
+    },
+    {
+      "path": "run/run_004/artifacts/probe_environment.py",
+      "sha256": "87fefdb21e102afe44e7327a857eb7e71b698e734bac76508972662cd28754c5",
+      "visibility": "public",
+      "role": "environment_audit_or_documentation"
+    },
+    {
+      "path": "run/run_004/checkpoints/AGENTS.md.before",
+      "sha256": "13ad1d2940b674df0c21dcff0d37a200583067b5ef40d05fc4a2d0add0ade6b3",
+      "visibility": "public",
+      "role": "environment_audit_or_documentation"
+    },
+    {
+      "path": "run/run_004/checkpoints/final_state.json",
+      "sha256": "7fa787947b27c455e80000dd84e5cfc30169a4cb70904ddb95cffaf79419fb55",
+      "visibility": "public",
+      "role": "environment_audit_or_documentation"
+    },
+    {
+      "path": "run/run_004/checkpoints/initial_state.json",
+      "sha256": "87fb7c1b0313291fb5c6fcb3495e68b92024f0aeaad1c7b092915c381eedbdd5",
+      "visibility": "public",
+      "role": "environment_audit_or_documentation"
+    },
+    {
+      "path": "run/run_004/checkpoints/PROJECT_STATUS.md.before",
+      "sha256": "456cc860beb32bfc63562d703c61f2bfda2695bd344983b2de4d3079e4f77558",
+      "visibility": "public",
+      "role": "environment_audit_or_documentation"
+    },
+    {
+      "path": "run/run_004/checkpoints/run.running.json",
+      "sha256": "379dce46c37e06eeece89518a480f14986fc59aa56d7e16bd6407858bb847936",
+      "visibility": "public",
+      "role": "environment_audit_or_documentation"
+    },
+    {
+      "path": "run/run_004/checkpoints/run_README.md.before",
+      "sha256": "6c8238ac2dd14e9ba6d4f7bf6e62a2cd9998c5387318cbd3a47e1fd0fd3a8639",
+      "visibility": "public",
+      "role": "environment_audit_or_documentation"
+    },
+    {
+      "path": "run/run_004/summary.md",
+      "sha256": "997901f84811e80d310efdd2db9b756f9c0de6e75830b9359a4d75509386fc0a",
+      "visibility": "public",
+      "role": "environment_audit_or_documentation"
+    },
+    {
+      "path": "run/README.md",
+      "sha256": "5df1074717b3298b65850c5809298beb5c58013b7e23c67488776eab7cd39e4f",
+      "visibility": "public",
+      "role": "environment_audit_or_documentation"
+    },
+    {
+      "path": "status/PROJECT_STATUS.md",
+      "sha256": "c0b871f37d0606a1e2562886de168d721b04a65ed0e23d89ebaeee63d86e354f",
+      "visibility": "public",
+      "role": "environment_audit_or_documentation"
+    }
+  ]
+}

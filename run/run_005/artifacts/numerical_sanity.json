@@ -1,0 +1,298 @@
+{
+  "observed_at": "2026-10-12T18:52:01.646348+08:00",
+  "status": "WARNING",
+  "extraction_status": "PASS",
+  "selected_step": "Step_Punch_Displacement",
+  "selected_history_region": "Node ASM_SPT.1",
+  "samples": 181,
+  "frame_count": 181,
+  "step_time_period": 1.0,
+  "step_start_total_time": 0.0,
+  "time_range": [
+    0.0,
+    1.0
+  ],
+  "raw_U2_range": [
+    -0.0012000000569969416,
+    0.0
+  ],
+  "raw_RF2_range": [
+    -755.8928833007812,
+    -0.0
+  ],
+  "displacement_end": 0.0012000000569969416,
+  "force_end": 755.8928833007812,
+  "peak_force": 755.8928833007812,
+  "sign_convention": "Downward-positive punch displacement = -U2; downward applied compressive force = -RF2. No absolute value, no baseline shift, no 2*pi factor.",
+  "units": "Model length/force/time units; no explicit physical unit declaration found. m-N-Pa interpretation plausible but NOT VERIFIED.",
+  "interpolation": "None: U2/RF2/energy time arrays exactly identical. Fields checked by frame order with time tolerance 1e-7 for single precision history.",
+  "history_field_U2_max_error": 0.0,
+  "history_field_RF2_max_error": 0.0,
+  "linear_loading_max_error": 5.923211573999332e-11,
+  "displacement_monotonic": true,
+  "negative_force_increments": 0,
+  "largest_force_increment": {
+    "value": 38.31573486328125,
+    "times": [
+      0.927147388458252,
+      0.9808158278465271
+    ],
+    "displacement_increment": 6.440223660320044e-05
+  },
+  "minimum_force_increment": {
+    "value": 0.7113800048828125,
+    "times": [
+      0.1563122570514679,
+      0.15720400214195251
+    ]
+  },
+  "RP_U1_max_abs": 5.993413608833421e-34,
+  "RP_UR3_max_abs": 3.8390276574991305e-35,
+  "RP_RM3_final": -0.8979364633560181,
+  "RP_RF1_final": 599.3731689453125,
+  "axial_force_balance_max_abs": 0.06693584471940994,
+  "axial_force_balance_max_over_peak": 8.855202396815682e-05,
+  "axis_U1_max_abs": 8.314777488749314e-08,
+  "axis_radial_bc_present": false,
+  "first_positive_pressure_time": 0.0024999999441206455,
+  "first_positive_pressure_value": 929366656.0,
+  "CPRESS_final_max": 496203712.0,
+  "COPEN_final": {
+    "description": "Contact opening ",
+    "type": "SCALAR",
+    "components": [],
+    "value_count": 67,
+    "minimum": [
+      -3.4028234663852886e+38
+    ],
+    "maximum": [
+      -3.4735534448770977e-09
+    ],
+    "valid_minimum": [
+      -2.3888640399150063e-08
+    ],
+    "valid_maximum": [
+      -3.4735534448770977e-09
+    ],
+    "excluded_huge_or_nonfinite_count": 25,
+    "filtering": "Separate diagnostic excludes abs(value)>1e30 or nonfinite; raw min/max preserved."
+  },
+  "PEEQ_final_max": 0.6885696053504944,
+  "energy_final": {
+    "ALLAE": 0.0,
+    "ALLFD": 0.008961477316915989,
+    "ALLIE": 0.535500705242157,
+    "ALLPD": 0.5331779718399048,
+    "ALLSD": 0.0,
+    "ALLSE": 0.002322755055502057,
+    "ALLWK": 0.546329140663147,
+    "ETOTAL": -4.9005047912942246e-05
+  },
+  "RP_work_trapezoid": 0.5463292070242268,
+  "RP_work_vs_ALLWK_abs_error": 6.636107985347195e-08,
+  "ETOTAL_max_abs_over_final_ALLWK": 9.019686547171279e-05,
+  "incomplete_energy_residual": -0.0018669581040740013,
+  "full_energy_reconstruction": "NOT VERIFIED: ALLCCE/ALLCCDW and other full-balance terms absent; partial sum is not ETOTAL.",
+  "inp_odb_topology_match": true,
+  "inp_odb_coordinate_max_error": 4.994902495086828e-12,
+  "historical_comparison": {
+    "independent_source_group": "TempTry; never merged into Sanity curve",
+    "input_sha256_equal": true,
+    "odb_sha256_equal": false,
+    "status": "JOB_STATUS_COMPLETED_SUCCESSFULLY",
+    "sanity_created": "Mon Oct 12 18:17:12 GMT+08:00 2026",
+    "other_created": "Mon Oct 12 00:54:03 GMT+08:00 2026",
+    "times_exactly_equal": true,
+    "max_U2_difference": 0.0,
+    "max_RF2_difference": 0.0,
+    "energies_exactly_equal": true,
+    "limit": "Historical same-input agreement only; no newly controlled rerun, no CAE-to-INP regeneration or mesh/material validity proof."
+  },
+  "warning_counts": {
+    "negative_eigenvalues": 4,
+    "large_strain_increment": 38,
+    "plasticity_not_attempted": 3,
+    "excessive_distortion_warning": 4,
+    "zero_moment": 2,
+    "element_distortion_lines": 86,
+    "all_warning_headers": 51,
+    "error_headers": 0
+  },
+  "unsuccessful_attempts": 45,
+  "flagged_attempts": [
+    {
+      "msg_line": 275,
+      "increment": 1,
+      "attempt": 1,
+      "sta_unsuccessful": true,
+      "prior_accepted_step_time": 0.0,
+      "warning": "***WARNING: THE SYSTEM MATRIX HAS 3 NEGATIVE EIGENVALUES.  NEGATIVE EIGENVALUES MEAN THAT THE SYSTEM MATRIX IS NOT POSITIVE DEFINITE: FOR EXAMPLE, A BIFURCATION (BUCKLING) LOAD MAY HAVE BEEN EXCEEDED."
+    },
+    {
+      "msg_line": 356,
+      "increment": 1,
+      "attempt": 1,
+      "sta_unsuccessful": true,
+      "prior_accepted_step_time": 0.0,
+      "warning": "***WARNING: EXCESSIVE DISTORTION AT A TOTAL OF 69 INTEGRATION POINTS IN SOLID (CONTINUUM) ELEMENTS   ***NOTE: ELEMENTS ARE DISTORTING EXCESSIVELY. CONVERGENCE IS JUDGED UNLIKELY."
+    },
+    {
+      "msg_line": 19782,
+      "increment": 114,
+      "attempt": 1,
+      "sta_unsuccessful": true,
+      "prior_accepted_step_time": 0.335,
+      "warning": "***WARNING: THE SYSTEM MATRIX HAS 1 NEGATIVE EIGENVALUES. EXPLANATIONS ARE SUGGESTED AFTER THE FIRST OCCURRENCE OF THIS MESSAGE. ELEMENT ASM_SPT-1.180 IS DISTORTING EXCESSIVELY. ELEMENT ASM_SPT-1.180 IS DISTORTING EXCESSIVELY. ELEMENT ASM_SPT-1.180 IS DISTORTING EXCESSIVELY."
+    },
+    {
+      "msg_line": 19796,
+      "increment": 114,
+      "attempt": 1,
+      "sta_unsuccessful": true,
+      "prior_accepted_step_time": 0.335,
+      "warning": "***WARNING: EXCESSIVE DISTORTION AT A TOTAL OF 5 INTEGRATION POINTS IN SOLID (CONTINUUM) ELEMENTS   ***NOTE: ELEMENTS ARE DISTORTING EXCESSIVELY. CONVERGENCE IS JUDGED UNLIKELY."
+    },
+    {
+      "msg_line": 20946,
+      "increment": 123,
+      "attempt": 1,
+      "sta_unsuccessful": true,
+      "prior_accepted_step_time": 0.379,
+      "warning": "***WARNING: THE SYSTEM MATRIX HAS 2 NEGATIVE EIGENVALUES. EXPLANATIONS ARE SUGGESTED AFTER THE FIRST OCCURRENCE OF THIS MESSAGE.  ***WARNING: THE STRAIN INCREMENT HAS EXCEEDED FIFTY TIMES THE STRAIN TO CAUSE FIRST YIELD AT 55 POINTS"
+    },
+    {
+      "msg_line": 27035,
+      "increment": 160,
+      "attempt": 1,
+      "sta_unsuccessful": true,
+      "prior_accepted_step_time": 0.643,
+      "warning": "***WARNING: EXCESSIVE DISTORTION AT A TOTAL OF 10 INTEGRATION POINTS IN SOLID (CONTINUUM) ELEMENTS   ***NOTE: ELEMENTS ARE DISTORTING EXCESSIVELY. CONVERGENCE IS JUDGED UNLIKELY."
+    },
+    {
+      "msg_line": 27197,
+      "increment": 160,
+      "attempt": 2,
+      "sta_unsuccessful": true,
+      "prior_accepted_step_time": 0.643,
+      "warning": "***WARNING: THE SYSTEM MATRIX HAS 2 NEGATIVE EIGENVALUES. EXPLANATIONS ARE SUGGESTED AFTER THE FIRST OCCURRENCE OF THIS MESSAGE. ELEMENT ASM_SPT-1.108 IS DISTORTING EXCESSIVELY. ELEMENT ASM_SPT-1.108 IS DISTORTING EXCESSIVELY. "
+    },
+    {
+      "msg_line": 27208,
+      "increment": 160,
+      "attempt": 2,
+      "sta_unsuccessful": true,
+      "prior_accepted_step_time": 0.643,
+      "warning": "***WARNING: EXCESSIVE DISTORTION AT A TOTAL OF 2 INTEGRATION POINTS IN SOLID (CONTINUUM) ELEMENTS   ***NOTE: ELEMENTS ARE DISTORTING EXCESSIVELY. CONVERGENCE IS JUDGED UNLIKELY."
+    }
+  ],
+  "assembly_node_sets": [
+    " ALL NODES",
+    "REFERENCE_POINT_ASM_SPT        1"
+  ],
+  "assembly_element_sets": [
+    " ALL ELEMENTS"
+  ],
+  "field_variables": [
+    "AC YIELD",
+    "COPEN    ASSEMBLY_ASM_SPT-1_SURF_SPECIMEN_TOP/ASSEMBLY_ASM_SPT_SURF_PUNCH_CONTACT",
+    "CPRESS   ASSEMBLY_ASM_SPT-1_SURF_SPECIMEN_TOP/ASSEMBLY_ASM_SPT_SURF_PUNCH_CONTACT",
+    "CSHEAR1  ASSEMBLY_ASM_SPT-1_SURF_SPECIMEN_TOP/ASSEMBLY_ASM_SPT_SURF_PUNCH_CONTACT",
+    "CSLIP1   ASSEMBLY_ASM_SPT-1_SURF_SPECIMEN_TOP/ASSEMBLY_ASM_SPT_SURF_PUNCH_CONTACT",
+    "LE",
+    "PE",
+    "PEEQ",
+    "RF",
+    "RM3",
+    "S",
+    "U",
+    "UR3"
+  ],
+  "history_variables": {
+    "Assembly ASSEMBLY": [
+      "ALLAE",
+      "ALLFD",
+      "ALLIE",
+      "ALLPD",
+      "ALLSD",
+      "ALLSE",
+      "ALLWK",
+      "ETOTAL"
+    ],
+    "Node ASM_SPT.1": [
+      "RF2",
+      "U2"
+    ]
+  },
+  "force_curve_slope_review": {
+    "method": "Adjacent secant slope dF/dd; descriptive only, no acceptance threshold or smoothing",
+    "median": 688599.7567755842,
+    "maximum": 7854694.547760375,
+    "highest_five": [
+      {
+        "index": 5,
+        "time_interval": [
+          0.016875000670552254,
+          0.017402343451976776
+        ],
+        "displacement_interval": [
+          2.0249999579391442e-05,
+          2.088281325995922e-05
+        ],
+        "force_increment": 4.970558166503906,
+        "slope": 7854694.547760375
+      },
+      {
+        "index": 2,
+        "time_interval": [
+          0.004999999888241291,
+          0.007499999832361937
+        ],
+        "displacement_interval": [
+          6.000000212225132e-06,
+          9.000000318337698e-06
+        ],
+        "force_increment": 16.3521785736084,
+        "slope": 5450725.998405959
+      },
+      {
+        "index": 159,
+        "time_interval": [
+          0.6428578495979309,
+          0.6448187828063965
+        ],
+        "displacement_interval": [
+          0.0007714293897151947,
+          0.0007737825508229434
+        ],
+        "force_increment": 11.6865234375,
+        "slope": 4966308.256165434
+      },
+      {
+        "index": 1,
+        "time_interval": [
+          0.0024999999441206455,
+          0.004999999888241291
+        ],
+        "displacement_interval": [
+          3.000000106112566e-06,
+          6.000000212225132e-06
+        ],
+        "force_increment": 14.87121295928955,
+        "slope": 4957070.811094016
+      },
+      {
+        "index": 9,
+        "time_interval": [
+          0.021159667521715164,
+          0.021827086806297302
+        ],
+        "displacement_interval": [
+          2.5391602321178652e-05,
+          2.6192505174549296e-05
+        ],
+        "force_increment": 3.407196044921875,
+        "slope": 4254193.914508484
+      }
+    ]
+  }
+}

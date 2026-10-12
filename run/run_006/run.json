@@ -1,0 +1,183 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_006",
+  "stage": "Hollomon mathematical and material-input audit",
+  "status": "WARNING",
+  "objective": "Read-only literature/Excel/INP consistency; independent numerical comparisons; no solver or model edits",
+  "start_time": "2026-10-12T19:46:27.698493+08:00",
+  "end_time": "2026-10-12T19:54:21.049404+08:00",
+  "time_notes": "Start is first persisted clock observation after initial read-only inspection.",
+  "python_interpreter": "D:\\XianLab\\envs\\conda\\torch-gpu\\python.exe",
+  "git_head": "a52be779f3b6ae9f830573764d5eed439df70b3b",
+  "git_branch": "main",
+  "inputs": [
+    {
+      "path": "run/run_006/artifacts/private/initial_state.json",
+      "role": "private source identities and SHA-256"
+    },
+    {
+      "path": "docs/Constitutive_Model.md",
+      "role": "existing unresolved model contract"
+    },
+    {
+      "path": "AGENTS.md",
+      "role": "execution rules"
+    },
+    {
+      "path": "docs/Agent_File_Communication_Protocol.md",
+      "role": "Run rules"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_006/artifacts/manifest.json",
+      "role": "audit_output"
+    },
+    {
+      "path": "run/run_006/artifacts/private/A_literature_total_curve.csv",
+      "role": "audit_output"
+    },
+    {
+      "path": "run/run_006/artifacts/private/all_25_groups.csv",
+      "role": "audit_output"
+    },
+    {
+      "path": "run/run_006/artifacts/private/all_25_groups.json",
+      "role": "audit_output"
+    },
+    {
+      "path": "run/run_006/artifacts/private/audit_hollomon.py",
+      "role": "audit_output"
+    },
+    {
+      "path": "run/run_006/artifacts/private/B_excel_and_C_same_grid.csv",
+      "role": "audit_output"
+    },
+    {
+      "path": "run/run_006/artifacts/private/C_true_total_conversion_DIAGNOSTIC.csv",
+      "role": "audit_output"
+    },
+    {
+      "path": "run/run_006/artifacts/private/execution_attempt01.txt",
+      "role": "audit_output"
+    },
+    {
+      "path": "run/run_006/artifacts/private/final_state_private.json",
+      "role": "audit_output"
+    },
+    {
+      "path": "run/run_006/artifacts/private/finalize_audit.py",
+      "role": "audit_output"
+    },
+    {
+      "path": "run/run_006/artifacts/private/hollomon_comparison.png",
+      "role": "audit_output"
+    },
+    {
+      "path": "run/run_006/artifacts/private/hollomon_consistency_report.md",
+      "role": "audit_output"
+    },
+    {
+      "path": "run/run_006/artifacts/private/initial_state.json",
+      "role": "audit_output"
+    },
+    {
+      "path": "run/run_006/artifacts/private/near_yield_interpolation_separation.csv",
+      "role": "audit_output"
+    },
+    {
+      "path": "run/run_006/artifacts/private/numerical_audit.json",
+      "role": "audit_output"
+    },
+    {
+      "path": "run/run_006/artifacts/private/selected_comparisons.csv",
+      "role": "audit_output"
+    },
+    {
+      "path": "run/run_006/checkpoints/final_state.json",
+      "role": "audit_output"
+    },
+    {
+      "path": "run/run_006/checkpoints/run.running.json",
+      "role": "audit_output"
+    },
+    {
+      "path": "run/run_006/checkpoints/run_README.md.before",
+      "role": "audit_output"
+    },
+    {
+      "path": "run/run_006/checkpoints/status_PROJECT_STATUS.md.before",
+      "role": "audit_output"
+    },
+    {
+      "path": "run/run_006/run.json",
+      "role": "audit_output"
+    },
+    {
+      "path": "run/run_006/summary.md",
+      "role": "audit_output"
+    },
+    {
+      "path": "run/README.md",
+      "role": "run_index_or_project_status"
+    },
+    {
+      "path": "status/PROJECT_STATUS.md",
+      "role": "run_index_or_project_status"
+    }
+  ],
+  "validation": [
+    {
+      "check": "all_formula_and_25_group_independent_math",
+      "status": "PASS",
+      "evidence": "run/run_006/artifacts/private/numerical_audit.json",
+      "scope": "6250 cached formula values; all stress rows; yield anchors and off-grid values; numerical equivalence only"
+    },
+    {
+      "check": "INP_excel_row_correspondence",
+      "status": "PASS",
+      "evidence": "run/run_006/artifacts/private/numerical_audit.json",
+      "scope": "all 1250 derived rows match 6-significant-digit INP printing plus separate yield row; not physical validation"
+    },
+    {
+      "check": "A_B_C_diagnostic_curves",
+      "status": "PASS",
+      "evidence": "run/run_006/artifacts/private/numerical_audit.json",
+      "scope": "independent curves, monotonicity and reconstruction, separate strain/unit/interpolation effects; no solver"
+    },
+    {
+      "check": "material_contract_readiness",
+      "status": "WARNING",
+      "evidence": "run/run_006/artifacts/private/hollomon_consistency_report.md",
+      "scope": "full source context, true/engineering measure, alternate hardening intent, valid strain range remain unconfirmed"
+    },
+    {
+      "check": "source_integrity_git_and_delivery",
+      "status": "PASS",
+      "evidence": "run/run_006/checkpoints/final_state.json",
+      "scope": "seven source files hashes preserved, Git HEAD/branch/remote/index preserved; CSV readback, ignored privacy path, image visually reviewed"
+    }
+  ],
+  "errors": [
+    {
+      "code": "MATERIAL_CONTRACT_UNCONFIRMED",
+      "severity": "WARNING",
+      "message": "Full literature definitions, alternative hardening intent and valid range require confirmation.",
+      "evidence": "run/run_006/artifacts/private/hollomon_consistency_report.md"
+    },
+    {
+      "code": "EXISTING_ENVIRONMENT_WARNING",
+      "severity": "WARNING",
+      "message": "Prior run_004 reported missing iniconfig for pytest; no installation or repair; pytest not used.",
+      "evidence": "run/run_004/summary.md"
+    }
+  ],
+  "solver_invoked": false,
+  "job_submitted": false,
+  "CAE_opened": false,
+  "model_modified": false,
+  "excel_modified": false,
+  "RL_trained": false,
+  "commit_performed": false,
+  "push_performed": false
+}

@@ -1,0 +1,124 @@
+{
+  "created_at": "2026-10-12T19:54:21.049404+08:00",
+  "entries": [
+    {
+      "path": "run/run_006/artifacts/private/A_literature_total_curve.csv",
+      "sha256": "763bb1642dd291995894ade31f2ba1d40f694c9c9cf7f2d19be22e6dbb234593",
+      "visibility": "private_ignored",
+      "role": "audit_result_script_or_checkpoint"
+    },
+    {
+      "path": "run/run_006/artifacts/private/all_25_groups.csv",
+      "sha256": "55cd23ac741f854dbe279c46a96b9e26455b066d99a115ab5a06a591e81a5c5e",
+      "visibility": "private_ignored",
+      "role": "audit_result_script_or_checkpoint"
+    },
+    {
+      "path": "run/run_006/artifacts/private/all_25_groups.json",
+      "sha256": "89b71549427c05884d629dcb41eae02c9d6de26045fdd4a738e25018d862ee60",
+      "visibility": "private_ignored",
+      "role": "audit_result_script_or_checkpoint"
+    },
+    {
+      "path": "run/run_006/artifacts/private/audit_hollomon.py",
+      "sha256": "aa87b15bf2a046d1da7f36030877c2e28ac495df053a5c07e5f0a0e2435c233c",
+      "visibility": "private_ignored",
+      "role": "audit_result_script_or_checkpoint"
+    },
+    {
+      "path": "run/run_006/artifacts/private/B_excel_and_C_same_grid.csv",
+      "sha256": "b2cd5b13f9a95f5c87010ba29dc7f02d1ff9d75366192aa0df72246aab779f35",
+      "visibility": "private_ignored",
+      "role": "audit_result_script_or_checkpoint"
+    },
+    {
+      "path": "run/run_006/artifacts/private/C_true_total_conversion_DIAGNOSTIC.csv",
+      "sha256": "48f8d1f2a5d508b828b88626b589b0012850a537943cee358479deb8053fb450",
+      "visibility": "private_ignored",
+      "role": "audit_result_script_or_checkpoint"
+    },
+    {
+      "path": "run/run_006/artifacts/private/execution_attempt01.txt",
+      "sha256": "099697a71fa8444d690e084abe1196d72b5891e0e5e7cbc78745576e1891ff7b",
+      "visibility": "private_ignored",
+      "role": "audit_result_script_or_checkpoint"
+    },
+    {
+      "path": "run/run_006/artifacts/private/final_state_private.json",
+      "sha256": "a80256f89929b9f183f6e82f5d485bba086fd2400e537081c8fdb21f99e857e5",
+      "visibility": "private_ignored",
+      "role": "audit_result_script_or_checkpoint"
+    },
+    {
+      "path": "run/run_006/artifacts/private/finalize_audit.py",
+      "sha256": "618ab2978f3d592b1d9b0a103c18b8c34bedc866217f43120e936bc3c8a13059",
+      "visibility": "private_ignored",
+      "role": "audit_result_script_or_checkpoint"
+    },
+    {
+      "path": "run/run_006/artifacts/private/hollomon_comparison.png",
+      "sha256": "2a8bf1624c76c1ca3d6f2ed5709f2342439004f142a7e756f22c9f4e913ab6e1",
+      "visibility": "private_ignored",
+      "role": "audit_result_script_or_checkpoint"
+    },
+    {
+      "path": "run/run_006/artifacts/private/hollomon_consistency_report.md",
+      "sha256": "9b285349f0f9312c5d9972731a788234bf0dd58bb3bce7d0080443e487fa8fd5",
+      "visibility": "private_ignored",
+      "role": "audit_result_script_or_checkpoint"
+    },
+    {
+      "path": "run/run_006/artifacts/private/initial_state.json",
+      "sha256": "9fa407f3a8870f2141efac488d132b69c2187d624877cdd04ff394ba8c2ac35e",
+      "visibility": "private_ignored",
+      "role": "audit_result_script_or_checkpoint"
+    },
+    {
+      "path": "run/run_006/artifacts/private/near_yield_interpolation_separation.csv",
+      "sha256": "2c878e864b76b7b60b824fb374bec159d832f8c24138beb574c4764e7220b02e",
+      "visibility": "private_ignored",
+      "role": "audit_result_script_or_checkpoint"
+    },
+    {
+      "path": "run/run_006/artifacts/private/numerical_audit.json",
+      "sha256": "da71c9718907a6c17654d7431704f6e454eed9f6af48efd2e9cda888bb912f32",
+      "visibility": "private_ignored",
+      "role": "audit_result_script_or_checkpoint"
+    },
+    {
+      "path": "run/run_006/artifacts/private/selected_comparisons.csv",
+      "sha256": "fe2ae8bdd6f6cc1ec5e426a02569f7faff1026858b9b60b311098e952259415b",
+      "visibility": "private_ignored",
+      "role": "audit_result_script_or_checkpoint"
+    },
+    {
+      "path": "run/run_006/checkpoints/final_state.json",
+      "sha256": "70947fd0dc109cfd489eaa6ffdcc53f9a5b6125b4f7334d5ab435bebca161175",
+      "visibility": "repository",
+      "role": "audit_result_script_or_checkpoint"
+    },
+    {
+      "path": "run/run_006/checkpoints/run_README.md.before",
+      "sha256": "910bcd0c0c38a6c496b9a60c8b1717415fca27f324fcaf57dd293d60f05b2e9a",
+      "visibility": "repository",
+      "role": "audit_result_script_or_checkpoint"
+    },
+    {
+      "path": "run/run_006/checkpoints/status_PROJECT_STATUS.md.before",
+      "sha256": "320bbeb9949c8210f7d17b213d0f31baeccdb1573a4fc748bcf022d707891169",
+      "visibility": "repository",
+      "role": "audit_result_script_or_checkpoint"
+    },
+    {
+      "path": "run/run_006/summary.md",
+      "sha256": "50cda1a8f9dbfca75cfdcd3e97d2fbf3d7ddbdd76d97881d2d586118a6879f34",
+      "visibility": "repository",
+      "role": "audit_result_script_or_checkpoint"
+    }
+  ],
+  "exclusions": [
+    "run.json",
+    "manifest.json"
+  ],
+  "notes": "No source files copied. Private provenance and raw numeric results remain ignored."
+}

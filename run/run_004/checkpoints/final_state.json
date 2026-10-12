@@ -1,0 +1,37 @@
+{
+  "observed_at": "2026-10-12T18:31:04.003438+08:00",
+  "checks": {
+    "only_authorized_tracked_files_changed": true,
+    "unexpected_tracked_changes": [],
+    "tracked_changes": [
+      "run/README.md",
+      "status/PROJECT_STATUS.md"
+    ],
+    "unchanged_tracked_files_count": 59,
+    "head_unchanged": true,
+    "index_unchanged": true,
+    "branch_unchanged": true,
+    "git_diff_check": {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "warning: in the working copy of 'run/README.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'status/PROJECT_STATUS.md', LF will be replaced by CRLF the next time Git touches it\n"
+    },
+    "all_existing_public_json_parsed": true
+  },
+  "working_tree": {
+    "command": [
+      "git",
+      "status",
+      "--short"
+    ],
+    "returncode": 0,
+    "stdout": " M run/README.md\n M status/PROJECT_STATUS.md\n?? CAE/Models/Sanity/\n?? CAE/Models/TempTry/\n?? run/run_004/\n",
+    "stderr": ""
+  },
+  "scope": "Tracked file integrity and Git metadata; pre-existing untracked CAE contents were not read or edited."
+}

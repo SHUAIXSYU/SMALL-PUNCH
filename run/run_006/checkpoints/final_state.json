@@ -1,0 +1,16 @@
+{
+  "observed_at": "2026-10-12T19:54:21.049404+08:00",
+  "source_count": 7,
+  "source_hashes_preserved": true,
+  "git_head_branch_remote_index_preserved": true,
+  "csv_readback": "PASS",
+  "figure_visual_review": "PASS",
+  "private_path_ignored": true,
+  "solver_invoked": false,
+  "CAE_opened": false,
+  "model_modified": false,
+  "excel_modified": false,
+  "commit_performed": false,
+  "push_performed": false,
+  "details": "run/run_006/artifacts/private/final_state_private.json"
+}

@@ -1,0 +1,11 @@
+{
+  "observed_at": "2026-10-12T18:32:54.876237+08:00",
+  "source_file_count": 24,
+  "group_count": 2,
+  "details": "run/run_005/artifacts/private/file_inventory.json",
+  "selected_group": "Sanity",
+  "identity_status": "PASS within ODB/INP/log consistency scope; final saved CAE state NOT VERIFIED",
+  "privacy": "Source paths and full provenance retained in ignored private audit.",
+  "comparison_group": "TempTry (separate historical comparison)",
+  "all_source_paths_sizes_times_sha256": "run/run_005/artifacts/private/file_inventory.json"
+}
