@@ -1,0 +1,8 @@
+test_abq_project_queue_and_run_boundary (__main__.CandidateContract.test_abq_project_queue_and_run_boundary) ... ok
+test_historical_odb_is_interface_only_and_unchanged (__main__.CandidateContract.test_historical_odb_is_interface_only_and_unchanged) ... ok
+test_unique_candidate_material_and_provenance (__main__.CandidateContract.test_unique_candidate_material_and_provenance) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.015s
+
+OK

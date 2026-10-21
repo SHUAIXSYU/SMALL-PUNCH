@@ -1,0 +1,551 @@
+{
+  "observed_at": "2026-10-21T22:17:29.760644+08:00",
+  "checks": {
+    "DATACHECK_RUNNING": {
+      "state": "CONFIRMED_EXITED",
+      "reason": "tracked launcher and observed solver candidate exited",
+      "launcher": {
+        "state": "CONFIRMED_EXITED",
+        "pid": 25728
+      },
+      "children": [
+        {
+          "role": "descendant",
+          "state": "CONFIRMED_EXITED",
+          "pid": 10520
+        },
+        {
+          "role": "descendant",
+          "state": "CONFIRMED_EXITED",
+          "pid": 7156
+        },
+        {
+          "role": "descendant",
+          "state": "CONFIRMED_EXITED",
+          "pid": 9204
+        },
+        {
+          "role": "descendant",
+          "state": "CONFIRMED_EXITED",
+          "pid": 3284
+        },
+        {
+          "role": "descendant",
+          "state": "CONFIRMED_EXITED",
+          "pid": 22532
+        },
+        {
+          "role": "descendant",
+          "state": "CONFIRMED_EXITED",
+          "pid": 12748
+        },
+        {
+          "role": "descendant",
+          "state": "CONFIRMED_EXITED",
+          "pid": 19808
+        },
+        {
+          "role": "descendant",
+          "state": "CONFIRMED_EXITED",
+          "pid": 28224
+        },
+        {
+          "role": "descendant",
+          "state": "CONFIRMED_EXITED",
+          "pid": 3956
+        },
+        {
+          "role": "solver_candidate",
+          "state": "CONFIRMED_EXITED",
+          "pid": 25344
+        },
+        {
+          "role": "solver_candidate",
+          "state": "CONFIRMED_EXITED",
+          "pid": 10572
+        }
+      ]
+    },
+    "FULL_RUNNING": {
+      "state": "UNCONFIRMED",
+      "reason": "solver candidate has no executable identity"
+    }
+  },
+  "native_record": {
+    "schema_version": "1.0",
+    "source": "native_runner",
+    "queue_id": "q_4c0358a918a7447d807d2f547d22c7b8",
+    "phases": {
+      "DATACHECK_RUNNING": {
+        "identity_strength": {
+          "launcher": "VERIFIED",
+          "lineage": "VERIFIED",
+          "solver_candidate": "VERIFIED"
+        },
+        "process_identity": {
+          "schema_version": "1.0",
+          "runtime_dir": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime",
+          "queue_id": "q_4c0358a918a7447d807d2f547d22c7b8",
+          "phase": "DATACHECK_RUNNING",
+          "launcher": {
+            "pid": 25728,
+            "creation_time_100ns": 134370656292341992,
+            "executable_path": "C:\\Windows\\System32\\cmd.exe",
+            "identity_status": "CONFIRMED",
+            "identity_source": "windows_openprocess_getprocesstimes"
+          },
+          "command_sha256": "fde4bed62ce6ff5a7c0418fed22853d69e75cad6c9232c3fca6009399770a32a",
+          "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_014\\artifacts\\solver\\SPIO_R014_Q200_N010",
+          "job_name": "SPIO_R014_Q200_N010",
+          "launched_at": "2026-10-21T22:13:49",
+          "last_verified_at": "2026-10-21T22:14:25",
+          "observed_children": [
+            {
+              "pid": 10520,
+              "creation_time_100ns": 134370656292440728,
+              "executable_path": "C:\\Windows\\System32\\conhost.exe",
+              "identity_status": "CONFIRMED",
+              "identity_source": "windows_openprocess_getprocesstimes",
+              "parent_pid": 25728,
+              "observed_parent_creation_time_100ns": 134370656292341992,
+              "role": "descendant",
+              "relationship_source": "windows_toolhelp32_snapshot",
+              "relationship_status": "VERIFIED",
+              "first_observed_at": "2026-10-21T22:13:49",
+              "last_observed_at": "2026-10-21T22:14:24",
+              "exit_verification": {
+                "state": "CONFIRMED_EXITED",
+                "pid": 10520
+              }
+            },
+            {
+              "pid": 7156,
+              "creation_time_100ns": 134370656297594125,
+              "executable_path": "C:\\Windows\\System32\\cmd.exe",
+              "identity_status": "CONFIRMED",
+              "identity_source": "windows_openprocess_getprocesstimes",
+              "parent_pid": 25728,
+              "observed_parent_creation_time_100ns": 134370656292341992,
+              "role": "descendant",
+              "relationship_source": "windows_toolhelp32_snapshot",
+              "relationship_status": "VERIFIED",
+              "first_observed_at": "2026-10-21T22:13:49",
+              "last_observed_at": "2026-10-21T22:13:49",
+              "exit_verification": {
+                "state": "CONFIRMED_EXITED",
+                "pid": 7156
+              }
+            },
+            {
+              "pid": 9204,
+              "creation_time_100ns": 134370656302706172,
+              "executable_path": "C:\\Windows\\System32\\cmd.exe",
+              "identity_status": "CONFIRMED",
+              "identity_source": "windows_openprocess_getprocesstimes",
+              "parent_pid": 25728,
+              "observed_parent_creation_time_100ns": 134370656292341992,
+              "role": "descendant",
+              "relationship_source": "windows_toolhelp32_snapshot",
+              "relationship_status": "VERIFIED",
+              "first_observed_at": "2026-10-21T22:13:50",
+              "last_observed_at": "2026-10-21T22:13:50",
+              "exit_verification": {
+                "state": "CONFIRMED_EXITED",
+                "pid": 9204
+              }
+            },
+            {
+              "pid": 3284,
+              "creation_time_100ns": 134370656307499055,
+              "executable_path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+              "identity_status": "CONFIRMED",
+              "identity_source": "windows_openprocess_getprocesstimes",
+              "parent_pid": 25728,
+              "observed_parent_creation_time_100ns": 134370656292341992,
+              "role": "descendant",
+              "relationship_source": "windows_toolhelp32_snapshot",
+              "relationship_status": "VERIFIED",
+              "first_observed_at": "2026-10-21T22:13:50",
+              "last_observed_at": "2026-10-21T22:13:50",
+              "exit_verification": {
+                "state": "CONFIRMED_EXITED",
+                "pid": 3284
+              }
+            },
+            {
+              "pid": 22532,
+              "creation_time_100ns": 134370656308102071,
+              "executable_path": "D:\\ABAQUS2024\\product\\win_b64\\code\\bin\\SMALauncher.exe",
+              "identity_status": "CONFIRMED",
+              "identity_source": "windows_openprocess_getprocesstimes",
+              "parent_pid": 25728,
+              "observed_parent_creation_time_100ns": 134370656292341992,
+              "role": "descendant",
+              "relationship_source": "windows_toolhelp32_snapshot",
+              "relationship_status": "VERIFIED",
+              "first_observed_at": "2026-10-21T22:13:51",
+              "last_observed_at": "2026-10-21T22:14:24",
+              "exit_verification": {
+                "state": "CONFIRMED_EXITED",
+                "pid": 22532
+              }
+            },
+            {
+              "pid": 12748,
+              "creation_time_100ns": 134370656308706700,
+              "executable_path": "D:\\ABAQUS2024\\product\\win_b64\\code\\bin\\SMAPython.exe",
+              "identity_status": "CONFIRMED",
+              "identity_source": "windows_openprocess_getprocesstimes",
+              "parent_pid": 22532,
+              "observed_parent_creation_time_100ns": 134370656308102071,
+              "role": "descendant",
+              "relationship_source": "windows_toolhelp32_snapshot",
+              "relationship_status": "VERIFIED",
+              "first_observed_at": "2026-10-21T22:13:51",
+              "last_observed_at": "2026-10-21T22:14:24",
+              "exit_verification": {
+                "state": "CONFIRMED_EXITED",
+                "pid": 12748
+              }
+            },
+            {
+              "pid": 19808,
+              "creation_time_100ns": 134370656353657616,
+              "executable_path": "D:\\ABAQUS2024\\product\\win_b64\\code\\bin\\findIPAddress.exe",
+              "identity_status": "CONFIRMED",
+              "identity_source": "windows_openprocess_getprocesstimes",
+              "parent_pid": 12748,
+              "observed_parent_creation_time_100ns": 134370656308706700,
+              "role": "descendant",
+              "relationship_source": "windows_toolhelp32_snapshot",
+              "relationship_status": "VERIFIED",
+              "first_observed_at": "2026-10-21T22:13:55",
+              "last_observed_at": "2026-10-21T22:13:55",
+              "exit_verification": {
+                "state": "CONFIRMED_EXITED",
+                "pid": 19808
+              }
+            },
+            {
+              "pid": 28224,
+              "creation_time_100ns": 134370656463536499,
+              "executable_path": "D:\\ABAQUS2024\\product\\win_b64\\code\\bin\\SMAPython.exe",
+              "identity_status": "CONFIRMED",
+              "identity_source": "windows_openprocess_getprocesstimes",
+              "parent_pid": 12748,
+              "observed_parent_creation_time_100ns": 134370656308706700,
+              "role": "descendant",
+              "relationship_source": "windows_toolhelp32_snapshot",
+              "relationship_status": "VERIFIED",
+              "first_observed_at": "2026-10-21T22:14:06",
+              "last_observed_at": "2026-10-21T22:14:24",
+              "exit_verification": {
+                "state": "CONFIRMED_EXITED",
+                "pid": 28224
+              }
+            },
+            {
+              "pid": 3956,
+              "creation_time_100ns": 134370656467497946,
+              "executable_path": "D:\\ABAQUS2024\\product\\win_b64\\code\\bin\\eliT_DriverLM.exe",
+              "identity_status": "CONFIRMED",
+              "identity_source": "windows_openprocess_getprocesstimes",
+              "parent_pid": 28224,
+              "observed_parent_creation_time_100ns": 134370656463536499,
+              "role": "descendant",
+              "relationship_source": "windows_toolhelp32_snapshot",
+              "relationship_status": "VERIFIED",
+              "first_observed_at": "2026-10-21T22:14:07",
+              "last_observed_at": "2026-10-21T22:14:24",
+              "exit_verification": {
+                "state": "CONFIRMED_EXITED",
+                "pid": 3956
+              }
+            },
+            {
+              "pid": 25344,
+              "creation_time_100ns": 134370656468770084,
+              "executable_path": "D:\\ABAQUS2024\\product\\win_b64\\code\\bin\\pre.exe",
+              "identity_status": "CONFIRMED",
+              "identity_source": "windows_openprocess_getprocesstimes",
+              "parent_pid": 28224,
+              "observed_parent_creation_time_100ns": 134370656463536499,
+              "role": "solver_candidate",
+              "relationship_source": "windows_toolhelp32_snapshot",
+              "relationship_status": "VERIFIED",
+              "first_observed_at": "2026-10-21T22:14:07",
+              "last_observed_at": "2026-10-21T22:14:15",
+              "exit_verification": {
+                "state": "CONFIRMED_EXITED",
+                "pid": 25344
+              }
+            },
+            {
+              "pid": 10572,
+              "creation_time_100ns": 134370656556994845,
+              "executable_path": "D:\\ABAQUS2024\\product\\win_b64\\code\\bin\\standard.exe",
+              "identity_status": "CONFIRMED",
+              "identity_source": "windows_openprocess_getprocesstimes",
+              "parent_pid": 28224,
+              "observed_parent_creation_time_100ns": 134370656463536499,
+              "role": "solver_candidate",
+              "relationship_source": "windows_toolhelp32_snapshot",
+              "relationship_status": "VERIFIED",
+              "first_observed_at": "2026-10-21T22:14:15",
+              "last_observed_at": "2026-10-21T22:14:23",
+              "exit_verification": {
+                "state": "CONFIRMED_EXITED",
+                "pid": 10572
+              }
+            }
+          ],
+          "child_scan_status": "OK",
+          "launcher_exit_observed": true,
+          "launcher_exit_verification": {
+            "state": "CONFIRMED_EXITED",
+            "pid": 25728
+          }
+        },
+        "command_exit": {
+          "return_code": 0,
+          "observed_at": "2026-10-21T22:14:25"
+        }
+      },
+      "FULL_RUNNING": {
+        "identity_strength": {
+          "launcher": "VERIFIED",
+          "lineage": "VERIFIED",
+          "solver_candidate": "VERIFIED"
+        },
+        "process_identity": {
+          "schema_version": "1.0",
+          "runtime_dir": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime",
+          "queue_id": "q_4c0358a918a7447d807d2f547d22c7b8",
+          "phase": "FULL_RUNNING",
+          "launcher": {
+            "pid": 2004,
+            "creation_time_100ns": 134370656654912629,
+            "executable_path": "C:\\Windows\\System32\\cmd.exe",
+            "identity_status": "CONFIRMED",
+            "identity_source": "windows_openprocess_getprocesstimes"
+          },
+          "command_sha256": "aa5c75c2ac00137cbc12afbf30eac98643403f604a5c64a973818fefceb401e7",
+          "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_014\\artifacts\\solver\\SPIO_R014_Q200_N010",
+          "job_name": "SPIO_R014_Q200_N010",
+          "launched_at": "2026-10-21T22:14:25",
+          "last_verified_at": "2026-10-21T22:16:33",
+          "observed_children": [
+            {
+              "pid": 27096,
+              "creation_time_100ns": 134370656654999716,
+              "executable_path": "C:\\Windows\\System32\\conhost.exe",
+              "identity_status": "CONFIRMED",
+              "identity_source": "windows_openprocess_getprocesstimes",
+              "parent_pid": 2004,
+              "observed_parent_creation_time_100ns": 134370656654912629,
+              "role": "descendant",
+              "relationship_source": "windows_toolhelp32_snapshot",
+              "relationship_status": "VERIFIED",
+              "first_observed_at": "2026-10-21T22:14:25",
+              "last_observed_at": "2026-10-21T22:16:33",
+              "exit_verification": {
+                "state": "CONFIRMED_EXITED",
+                "pid": 27096
+              }
+            },
+            {
+              "pid": 22748,
+              "creation_time_100ns": 134370656660094895,
+              "executable_path": "C:\\Windows\\System32\\cmd.exe",
+              "identity_status": "CONFIRMED",
+              "identity_source": "windows_openprocess_getprocesstimes",
+              "parent_pid": 2004,
+              "observed_parent_creation_time_100ns": 134370656654912629,
+              "role": "descendant",
+              "relationship_source": "windows_toolhelp32_snapshot",
+              "relationship_status": "VERIFIED",
+              "first_observed_at": "2026-10-21T22:14:26",
+              "last_observed_at": "2026-10-21T22:14:26",
+              "exit_verification": {
+                "state": "CONFIRMED_EXITED",
+                "pid": 22748
+              }
+            },
+            {
+              "pid": 12884,
+              "creation_time_100ns": 134370656663869380,
+              "executable_path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+              "identity_status": "CONFIRMED",
+              "identity_source": "windows_openprocess_getprocesstimes",
+              "parent_pid": 2004,
+              "observed_parent_creation_time_100ns": 134370656654912629,
+              "role": "descendant",
+              "relationship_source": "windows_toolhelp32_snapshot",
+              "relationship_status": "VERIFIED",
+              "first_observed_at": "2026-10-21T22:14:26",
+              "last_observed_at": "2026-10-21T22:14:26",
+              "exit_verification": {
+                "state": "CONFIRMED_EXITED",
+                "pid": 12884
+              }
+            },
+            {
+              "pid": 7844,
+              "creation_time_100ns": 134370656667106733,
+              "executable_path": "D:\\ABAQUS2024\\product\\win_b64\\code\\bin\\SMALauncher.exe",
+              "identity_status": "CONFIRMED",
+              "identity_source": "windows_openprocess_getprocesstimes",
+              "parent_pid": 2004,
+              "observed_parent_creation_time_100ns": 134370656654912629,
+              "role": "descendant",
+              "relationship_source": "windows_toolhelp32_snapshot",
+              "relationship_status": "VERIFIED",
+              "first_observed_at": "2026-10-21T22:14:27",
+              "last_observed_at": "2026-10-21T22:16:33",
+              "exit_verification": {
+                "state": "CONFIRMED_EXITED",
+                "pid": 7844
+              }
+            },
+            {
+              "pid": 21032,
+              "creation_time_100ns": 134370656667288409,
+              "executable_path": "D:\\ABAQUS2024\\product\\win_b64\\code\\bin\\SMAPython.exe",
+              "identity_status": "CONFIRMED",
+              "identity_source": "windows_openprocess_getprocesstimes",
+              "parent_pid": 7844,
+              "observed_parent_creation_time_100ns": 134370656667106733,
+              "role": "descendant",
+              "relationship_source": "windows_toolhelp32_snapshot",
+              "relationship_status": "VERIFIED",
+              "first_observed_at": "2026-10-21T22:14:27",
+              "last_observed_at": "2026-10-21T22:16:33",
+              "exit_verification": {
+                "state": "CONFIRMED_EXITED",
+                "pid": 21032
+              }
+            },
+            {
+              "pid": 14320,
+              "identity_status": "UNCONFIRMED",
+              "identity_source": "windows_openprocess",
+              "reason": "process absent",
+              "parent_pid": 21032,
+              "observed_parent_creation_time_100ns": 134370656667288409,
+              "role": "solver_candidate",
+              "relationship_source": "windows_toolhelp32_snapshot",
+              "relationship_status": "UNVERIFIED",
+              "first_observed_at": "2026-10-21T22:14:28",
+              "last_observed_at": "2026-10-21T22:14:28",
+              "exit_verification": {
+                "state": "UNCONFIRMED",
+                "reason": "incomplete process identity"
+              }
+            },
+            {
+              "pid": 8672,
+              "creation_time_100ns": 134370656788752889,
+              "executable_path": "D:\\ABAQUS2024\\product\\win_b64\\code\\bin\\SMAPython.exe",
+              "identity_status": "CONFIRMED",
+              "identity_source": "windows_openprocess_getprocesstimes",
+              "parent_pid": 21032,
+              "observed_parent_creation_time_100ns": 134370656667288409,
+              "role": "descendant",
+              "relationship_source": "windows_toolhelp32_snapshot",
+              "relationship_status": "VERIFIED",
+              "first_observed_at": "2026-10-21T22:14:39",
+              "last_observed_at": "2026-10-21T22:16:33",
+              "exit_verification": {
+                "state": "CONFIRMED_EXITED",
+                "pid": 8672
+              }
+            },
+            {
+              "pid": 28740,
+              "creation_time_100ns": 134370656790646041,
+              "executable_path": "D:\\ABAQUS2024\\product\\win_b64\\code\\bin\\eliT_DriverLM.exe",
+              "identity_status": "CONFIRMED",
+              "identity_source": "windows_openprocess_getprocesstimes",
+              "parent_pid": 8672,
+              "observed_parent_creation_time_100ns": 134370656788752889,
+              "role": "descendant",
+              "relationship_source": "windows_toolhelp32_snapshot",
+              "relationship_status": "VERIFIED",
+              "first_observed_at": "2026-10-21T22:14:39",
+              "last_observed_at": "2026-10-21T22:16:33",
+              "exit_verification": {
+                "state": "CONFIRMED_EXITED",
+                "pid": 28740
+              }
+            },
+            {
+              "pid": 30140,
+              "creation_time_100ns": 134370656791269548,
+              "executable_path": "D:\\ABAQUS2024\\product\\win_b64\\code\\bin\\pre.exe",
+              "identity_status": "CONFIRMED",
+              "identity_source": "windows_openprocess_getprocesstimes",
+              "parent_pid": 8672,
+              "observed_parent_creation_time_100ns": 134370656788752889,
+              "role": "solver_candidate",
+              "relationship_source": "windows_toolhelp32_snapshot",
+              "relationship_status": "VERIFIED",
+              "first_observed_at": "2026-10-21T22:14:39",
+              "last_observed_at": "2026-10-21T22:14:45",
+              "exit_verification": {
+                "state": "CONFIRMED_EXITED",
+                "pid": 30140
+              }
+            },
+            {
+              "pid": 22964,
+              "creation_time_100ns": 134370656864041023,
+              "executable_path": "D:\\ABAQUS2024\\product\\win_b64\\code\\bin\\standard.exe",
+              "identity_status": "CONFIRMED",
+              "identity_source": "windows_openprocess_getprocesstimes",
+              "parent_pid": 8672,
+              "observed_parent_creation_time_100ns": 134370656788752889,
+              "role": "solver_candidate",
+              "relationship_source": "windows_toolhelp32_snapshot",
+              "relationship_status": "VERIFIED",
+              "first_observed_at": "2026-10-21T22:14:46",
+              "last_observed_at": "2026-10-21T22:16:32",
+              "exit_verification": {
+                "state": "CONFIRMED_EXITED",
+                "pid": 22964
+              }
+            },
+            {
+              "pid": 28116,
+              "creation_time_100ns": 134370656932113826,
+              "executable_path": "D:\\ABAQUS2024\\product\\win_b64\\code\\bin\\SMAEqsDirSolverSymmetric.exe",
+              "identity_status": "CONFIRMED",
+              "identity_source": "windows_openprocess_getprocesstimes",
+              "parent_pid": 22964,
+              "observed_parent_creation_time_100ns": 134370656864041023,
+              "role": "descendant",
+              "relationship_source": "windows_toolhelp32_snapshot",
+              "relationship_status": "VERIFIED",
+              "first_observed_at": "2026-10-21T22:14:53",
+              "last_observed_at": "2026-10-21T22:16:31",
+              "exit_verification": {
+                "state": "CONFIRMED_EXITED",
+                "pid": 28116
+              }
+            }
+          ],
+          "child_scan_status": "OK",
+          "launcher_exit_observed": true,
+          "launcher_exit_verification": {
+            "state": "CONFIRMED_EXITED",
+            "pid": 2004
+          }
+        },
+        "command_exit": {
+          "return_code": 0,
+          "observed_at": "2026-10-21T22:16:33"
+        }
+      }
+    },
+    "updated_at": "2026-10-21T22:16:33"
+  }
+}

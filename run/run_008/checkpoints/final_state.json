@@ -1,0 +1,63 @@
+{
+  "observed_at": "2026-10-21T15:50:53.153712+08:00",
+  "main_git": {
+    "branch": "main",
+    "head": "e87aadc9f7074fc4bc127c9ae03afbe9081dabae",
+    "same_head_as_start": true,
+    "status": [
+      "## main...origin/main",
+      " M .gitignore",
+      " M CAE/Models/Sanity/SP_InvOpt_Sanity_model.cae",
+      " D CAE/Models/Sanity/SP_InvOpt_Sanity_model.rec",
+      " M README.md",
+      " M README.zh-CN.md",
+      " M docs/Agent_File_Communication_Protocol.md",
+      " M docs/Research_Architecture.md",
+      " M run/README.md",
+      " M status/PROJECT_STATUS.md",
+      "?? agenthub_sp_invopt/",
+      "?? docs/Hollomon_Material_Generator.md",
+      "?? inverse/hollomon.py",
+      "?? run/run_007/",
+      "?? run/run_008/",
+      "?? run/run_009/",
+      "?? tests/test_hollomon.py"
+    ]
+  },
+  "preexisting_dirty_inputs": {
+    "CAE/Models/Sanity/SP_InvOpt_Sanity_model.cae": "remained pre-existing modified; not opened or written during run_008; no clean baseline hash existed",
+    "CAE/Models/Sanity/SP_InvOpt_Sanity_model.rec": "remained pre-existing deleted; not restored or written during run_008"
+  },
+  "historical_job_inp_sha256": "b2aac48af9529db28873c19f047f479c63ed247884f9bdc5fd7bccd5763305cc",
+  "historical_job_inp_matches_generation_source": true,
+  "historical_odb_sha256_after": "612bdc14d02642bf66982a4cb00f8c85a08c98b069fb230f5d430cb8709b3d8f",
+  "historical_odb_matches_before_after": true,
+  "abqjobpilot_source": {
+    "branch": "main",
+    "head": "0dfdb22205535c88d3ef068d895c15b6a1ab051b",
+    "same_head_as_start": true,
+    "status": [
+      "## main...origin/main"
+    ]
+  },
+  "abqjobpilot_queue": {
+    "sha256": "7858c86b0fb9951d2e597e9db75bbbb6636790c77da481833be53060c0e3c787",
+    "same_before_after_mcp": true,
+    "empty": true
+  },
+  "stage5_agenthub": "No production database/Project/source writes or enqueue calls made; only selected docs and Python source were read.",
+  "parallel_run009_unowned_content": {
+    "exists": true,
+    "artifacts_directory_nonempty": true,
+    "checkpoints_directory_nonempty": true,
+    "appeared_during_run008": true,
+    "content_inspected": false,
+    "action": "preserved; not reused, modified, or included in this Run"
+  },
+  "solver_invoked": false,
+  "datacheck_invoked": false,
+  "queue_write_performed": false,
+  "recovery_or_retry_performed": false,
+  "commit_performed": false,
+  "push_performed": false
+}

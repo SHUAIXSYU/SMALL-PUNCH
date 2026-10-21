@@ -1,0 +1,13 @@
+{
+  "task_id": "a4b4805f-4989-4168-a54a-3bbf435b52a6",
+  "from_agent_id": "CAE:cae-codex-20261021-632ffd48",
+  "event": "CAE_LEASE_EXPIRED_BEFORE_ARTIFACT_REGISTRATION",
+  "execution_state_observed": "CLAIMED",
+  "artifact_registration": "NOT_PERFORMED",
+  "task_finish": "NOT_PERFORMED",
+  "static_verification": "PASS_STATIC_INP_VERIFICATION",
+  "verification_report": "run/run_010/artifacts/cae/verification.json",
+  "verification_report_sha256": "9f5904278e44696dad337646fa1ee6b486b0e7a43965dbde46086e6c9c7293e7",
+  "diagnosis": "heartbeat returned LEASE_INVALID after 30-second lease expired while preparing evidence; no completion was claimed",
+  "required_next_step": "MAIN-led recovery under AgentHub protocol after confirming this worker stopped; then a fresh claim and artifact registration"
+}

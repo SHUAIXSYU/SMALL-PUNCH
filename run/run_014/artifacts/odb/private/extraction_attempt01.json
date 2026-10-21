@@ -1,0 +1,33 @@
+{
+  "started_at": "2026-10-21T14:20:14.439984+00:00",
+  "interpreter": "D:\\ABAQUS2024\\product\\win_b64\\code\\bin\\SMAPython.exe",
+  "python_version": "3.10.5 (main, Aug 12 2023, 02:39:57) [MSC v.1934 64 bit (AMD64)]",
+  "source": "E:\\Projects\\SMALL-PUNCH\\run\\run_014\\artifacts\\solver\\SPIO_R014_Q200_N010\\SPIO_R014_Q200_N010.odb",
+  "source_sha256_before": "1ed3ecb6b2e3e2bfcfc806eb7edfab706b4acc90ec387ac641a81f529d9dd4fd",
+  "read_only_requested": true,
+  "status": "FAILED",
+  "odb": {
+    "name": "E:/Projects/SMALL-PUNCH/run/run_014/artifacts/solver/SPIO_R014_Q200_N010/SPIO_R014_Q200_N010.odb",
+    "isReadOnly": true,
+    "analysisTitle": "",
+    "description": "DDB object"
+  },
+  "job_data": {
+    "name": "E:/Projects/SMALL-PUNCH/run/run_014/artifacts/solver/SPIO_R014_Q200_N010/SPIO_R014_Q200_N010.odb",
+    "version": "Abaqus/Standard 2024",
+    "analysisCode": "ABAQUS_STANDARD",
+    "creationTime": "Wed Oct 21 22:14:45 GMT+08:00 2026",
+    "modificationTime": "Wed Oct 21 22:14:46 GMT+08:00 2026",
+    "precision": "SINGLE_PRECISION"
+  },
+  "diagnostic_data": {
+    "jobStatus": "JOB_STATUS_COMPLETED_SUCCESSFULLY",
+    "numberOfAnalysisErrors": 0,
+    "numberOfAnalysisWarnings": 6,
+    "numberOfSteps": 1
+  },
+  "steps": {},
+  "error": "Traceback (most recent call last):\n  File \"E:\\Projects\\SMALL-PUNCH\\run\\run_014\\artifacts\\odb\\extract_readonly.py\", line 87, in main\n    field = frame.fieldOutputs.get(\"PEEQ\")\nAttributeError: 'Repository' object has no attribute 'get'\n",
+  "finished_at": "2026-10-21T14:20:14.571073+00:00",
+  "source_sha256_after": "1ed3ecb6b2e3e2bfcfc806eb7edfab706b4acc90ec387ac641a81f529d9dd4fd"
+}

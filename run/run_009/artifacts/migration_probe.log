@@ -1,0 +1,10 @@
+{
+  "scope": "COPY_ONLY",
+  "source": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\runtime\\sp_invopt.sqlite3",
+  "copy": "E:\\Projects\\SMALL-PUNCH\\run\\run_009\\artifacts\\private\\run008_migration_probe.sqlite3",
+  "version_column": true,
+  "failures_table": true,
+  "existing_artifacts": 6,
+  "existing_events": 39,
+  "audit_hash_chain_valid": true
+}

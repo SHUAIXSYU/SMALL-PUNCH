@@ -1,0 +1,52 @@
+{
+  "task_id": "a4b4805f-4989-4168-a54a-3bbf435b52a6",
+  "observed_at": "2026-10-21T16:05:35.368206+08:00",
+  "status": "PASS_STATIC_INP_VERIFICATION",
+  "scope": "Read-only static file/material/structural comparison; no Abaqus datacheck or solver",
+  "source_relative_path": "CAE/Models/Sanity/Job-1.inp",
+  "source_sha256": "b2aac48af9529db28873c19f047f479c63ed247884f9bdc5fd7bccd5763305cc",
+  "candidate_relative_path": "run/run_008/artifacts/candidate_inp/SPIO_R008_Q200_N010_Candidate/SPIO_R008_Q200_N010_Candidate.inp",
+  "candidate_sha256": "fa2de5d73a28536c1c07cd22072d2a24c1ae988c569127d728931c583457f05a",
+  "generator_relative_path": "inverse/hollomon.py",
+  "generator_sha256": "d937664f7fc7f845a9ed7a75a004275bf38d11a1b3f68975a05961adb9b16363",
+  "generator_model_id": "candidate-true-total-hollomon-v1",
+  "parameters": {
+    "E_Pa": 210000000000.0,
+    "nu": 0.3,
+    "sigma_y_MPa": 200.0,
+    "n": 0.1,
+    "max_plastic_strain": 0.9
+  },
+  "elastic": [
+    210000000000.0,
+    0.3
+  ],
+  "plastic_row_count": 35,
+  "plastic_first_row": [
+    200000000.0,
+    0.0
+  ],
+  "plastic_last_row": [
+    396884628.83723634,
+    0.9
+  ],
+  "checks": {
+    "source_sha256_matches_run008": true,
+    "candidate_sha256_matches_task_and_run008": true,
+    "path_and_job_basename_match": true,
+    "elastic_matches_E_210GPa_nu_0p3": true,
+    "plastic_rows_match_generator_exactly": true,
+    "plastic_first_row_is_yield_at_zero": true,
+    "plastic_row_count_35": true,
+    "plastic_endpoint_p_0p9": true,
+    "plastic_stress_and_strain_strictly_increase": true,
+    "entire_inp_reconstructs_from_source_plus_generator_block": true,
+    "nonplastic_prefix_and_suffix_unchanged": true
+  },
+  "prior_abaqus_parser_evidence": "run/run_008/artifacts/candidate_inp_parse.json",
+  "limitations": [
+    "Historical Job-1 INP may differ from currently edited CAE database",
+    "No fresh Abaqus parser, datacheck, solver, or physical validation",
+    "INP header retains historical Job-1/Model-1 comments; unique job identity is the output path/basename"
+  ]
+}

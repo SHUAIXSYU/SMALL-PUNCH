@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "status": "PERSISTED",
+  "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+  "project_path": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project",
+  "runtime_dir": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime",
+  "settings_file": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime\\settings.json",
+  "persisted": true,
+  "exists": true,
+  "settings": {
+    "abaqus_cmd": "D:\\ABAQUS2024\\Commands\\abq2024.bat",
+    "default_cpus": 14,
+    "use_gpu": false,
+    "default_gpus": 0,
+    "run_datacheck": true,
+    "run_full": true,
+    "auto_shutdown_enabled": false,
+    "auto_shutdown_idle_minutes": 5
+  },
+  "effective_settings": {
+    "abaqus_cmd": "D:\\ABAQUS2024\\Commands\\abq2024.bat",
+    "default_cpus": 14,
+    "use_gpu": false,
+    "default_gpus": 0,
+    "run_datacheck": true,
+    "run_full": true,
+    "auto_shutdown_enabled": false,
+    "auto_shutdown_idle_minutes": 5
+  },
+  "defaulted_fields": [],
+  "errors": [],
+  "warnings": [],
+  "error_details": []
+}

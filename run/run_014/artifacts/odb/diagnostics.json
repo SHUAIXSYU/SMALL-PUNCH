@@ -1,0 +1,163 @@
+{
+  "observed_at": "2026-10-21T22:21:32.458155+08:00",
+  "task_id": "35b07ba1-22ad-48a7-b859-2d99199ed419",
+  "execution_status": "COMPLETED_WITH_WARNINGS",
+  "extraction_status": "PASS",
+  "science_status": "NOT_EVALUATED",
+  "job_status_odb": {
+    "jobStatus": "JOB_STATUS_COMPLETED_SUCCESSFULLY",
+    "numberOfAnalysisErrors": 0,
+    "numberOfAnalysisWarnings": 6,
+    "numberOfSteps": 1
+  },
+  "sample_count": 170,
+  "frame_count": 170,
+  "time_range_model": [
+    0.0,
+    1.0
+  ],
+  "raw_U2_end": -0.0012000000569969416,
+  "raw_RF2_end": -755.8150634765625,
+  "positive_displacement_end": 0.0012000000569969416,
+  "positive_force_end": 755.8150634765625,
+  "sign_rule": "d=-U2, F=-RF2; no abs, no baseline shift, no 2*pi",
+  "units": "Unverified model length/force/time units",
+  "history_field_U2_max_abs_error": 0.0,
+  "history_field_RF2_max_abs_error": 0.0,
+  "history_time_axes_identical": true,
+  "rp_identity_evidence": "Candidate INP ASM_SPT.set_punch_rp, rigid-body ref node, and ODB Node ASM_SPT.1; RP field output matches history",
+  "peeq": {
+    "quantity": "PEEQ at saved-frame field values; not PE11 or total strain",
+    "final_max": 0.6938983201980591,
+    "all_saved_frames_max": 0.6938983201980591,
+    "candidate_table_pmax": 0.9,
+    "pmax_minus_observed_max": 0.20610167980194094,
+    "within_candidate_table_range": true,
+    "available_each_frame": true,
+    "final_value_count": 2376
+  },
+  "energy": {
+    "final": {
+      "ALLAE": 0.0,
+      "ALLFD": 0.008958475664258003,
+      "ALLIE": 0.5383126139640808,
+      "ALLPD": 0.53600013256073,
+      "ALLSD": 0.0,
+      "ALLSE": 0.0023124332074075937,
+      "ALLWK": 0.5490814447402954,
+      "ETOTAL": -5.822117600473575e-05
+    },
+    "time_axis_matches_rp": true,
+    "integral_F_dd_trapezoid": 0.549081503022827,
+    "integral_vs_ALLWK_abs_difference": 5.8282531578690566e-08,
+    "ETOTAL_max_abs": 5.822117600473575e-05,
+    "full_contact_energy_balance": "NOT_VERIFIED: contact-specific terms not available"
+  },
+  "convergence": {
+    "sta_completed": true,
+    "log_completed": true,
+    "accepted_increments": 169,
+    "rejected_attempts": 39,
+    "msg_warning_counts": {
+      "negative_eigenvalue_headers": 4,
+      "large_strain_increment_headers": 25,
+      "plasticity_not_attempted_headers": 2,
+      "excessive_distortion_headers": 2,
+      "zero_moment_headers": 2,
+      "element_distortion_lines": 286,
+      "all_msg_warning_headers": 35,
+      "msg_error_headers": 0
+    },
+    "negative_eigenvalue_or_distortion_events": [
+      {
+        "line": 272,
+        "text": "***WARNING: THE SYSTEM MATRIX HAS 4 NEGATIVE EIGENVALUES.",
+        "attempt": {
+          "increment": 1,
+          "attempt": 1
+        },
+        "sta_unsuccessful": true
+      },
+      {
+        "line": 333,
+        "text": "***WARNING: EXCESSIVE DISTORTION AT A TOTAL OF 49 INTEGRATION POINTS IN SOLID",
+        "attempt": {
+          "increment": 1,
+          "attempt": 1
+        },
+        "sta_unsuccessful": true
+      },
+      {
+        "line": 16345,
+        "text": "***WARNING: THE SYSTEM MATRIX HAS 1 NEGATIVE EIGENVALUES.",
+        "attempt": {
+          "increment": 96,
+          "attempt": 1
+        },
+        "sta_unsuccessful": true
+      },
+      {
+        "line": 24649,
+        "text": "***WARNING: THE SYSTEM MATRIX HAS 5 NEGATIVE EIGENVALUES.",
+        "attempt": {
+          "increment": 147,
+          "attempt": 2
+        },
+        "sta_unsuccessful": true
+      },
+      {
+        "line": 24694,
+        "text": "***WARNING: THE SYSTEM MATRIX HAS 7 NEGATIVE EIGENVALUES.",
+        "attempt": {
+          "increment": 147,
+          "attempt": 2
+        },
+        "sta_unsuccessful": true
+      },
+      {
+        "line": 24940,
+        "text": "***WARNING: EXCESSIVE DISTORTION AT A TOTAL OF 237 INTEGRATION POINTS IN SOLID",
+        "attempt": {
+          "increment": 147,
+          "attempt": 2
+        },
+        "sta_unsuccessful": true
+      }
+    ],
+    "note": "STA U attempts are rejected trial increments; warning context does not prove accepted final mesh quality."
+  },
+  "comparison": {
+    "reference": "Historical Sanity Job-1 model F-D, run_005; not experimental data",
+    "historical_csv": "run/run_005/artifacts/punch_force_displacement.csv",
+    "historical_csv_sha256": "42acf8ccf72a86a178a55ea3b27917367385cd4a730c20741d19bc87528f6670",
+    "historical_odb": "CAE/Models/Sanity/Job-1.odb",
+    "historical_odb_sha256": "612bdc14d02642bf66982a4cb00f8c85a08c98b069fb230f5d430cb8709b3d8f",
+    "new_odb_sha256": "1ed3ecb6b2e3e2bfcfc806eb7edfab706b4acc90ec387ac641a81f529d9dd4fd",
+    "method": "Linear interpolation of historical model force onto each new model displacement; common displacement endpoints; no smoothing, baseline shift, abs or 2*pi; descriptive model-to-model difference only.",
+    "new_samples": 170,
+    "historical_samples": 181,
+    "new_end_force": 755.8150634765625,
+    "historical_end_force": 755.8928833007812,
+    "end_force_new_minus_historical": -0.07781982421875,
+    "new_peak_force": 755.8150634765625,
+    "historical_peak_force": 755.8928833007812,
+    "peak_force_new_minus_historical": -0.07781982421875,
+    "max_abs_curve_difference": 13.592201672286876,
+    "max_abs_curve_difference_displacement": 0.00016081480134744197,
+    "rms_curve_difference": 6.133786225366114,
+    "new_area_force_displacement": 0.549081503022827,
+    "historical_area_force_displacement": 0.5463292070242268
+  },
+  "source_sha256": {
+    "extraction_json": "26123d0b41bbac84227797e1c834b1751de5bf6315bfedac86d6e23ccfe6627c",
+    "new_odb": "1ed3ecb6b2e3e2bfcfc806eb7edfab706b4acc90ec387ac641a81f529d9dd4fd",
+    "new_inp": "fa2de5d73a28536c1c07cd22072d2a24c1ae988c569127d728931c583457f05a",
+    "historical_csv": "42acf8ccf72a86a178a55ea3b27917367385cd4a730c20741d19bc87528f6670"
+  },
+  "limitations": [
+    "Historical Sanity curve is a model comparator, not experimental Loss.",
+    "Stress/length/force unit declaration remains unverified.",
+    "No mesh or increment sensitivity study; material physical validity not established.",
+    "Runner Full process aggregation retained UNCONFIRMED for transient PID14320; current read-safety evidence supports read-only open."
+  ]
+}

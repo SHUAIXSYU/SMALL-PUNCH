@@ -1,0 +1,102 @@
+{
+  "observed_at": "2026-10-21T16:05:55.781057+08:00",
+  "task_id": "a4b4805f-4989-4168-a54a-3bbf435b52a6",
+  "main_identity": {
+    "agent_id": "MAIN:codex-01a15d5d-c7b5-7f92-8211-56647eb48cbb-run010",
+    "session_id": "ee127927-9be4-4297-8fc9-86e8fe34907d",
+    "role": "MAIN"
+  },
+  "expected_cae_codex_thread_id": "01a15d5e-a3ad-75f1-b53c-ac6a12c21c48",
+  "task": {
+    "task_id": "a4b4805f-4989-4168-a54a-3bbf435b52a6",
+    "created_by": "MAIN:codex-01a15d5d-c7b5-7f92-8211-56647eb48cbb-run010",
+    "assigned_role": "CAE",
+    "kind": "verify_inp",
+    "payload": "{\"allowed\":[\"read existing INP and generator\",\"validate materials, path, hash and structural consistency\",\"write CAE evidence under run/run_010/artifacts/cae\",\"register artifacts and finish task in existing Hub\"],\"coordination\":\"MAIN audits AbqJobPilot actual Settings and runs public preflight/dry-run only if fully verified. CAE independently verifies INP and reports evidence; no guessing resource settings.\",\"expected_codex_thread_id\":\"01a15d5e-a3ad-75f1-b53c-ac6a12c21c48\",\"expected_sha256\":\"fa2de5d73a28536c1c07cd22072d2a24c1ae988c569127d728931c583457f05a\",\"forbidden\":[\"solver\",\"datacheck\",\"enqueue\",\"modify original models\",\"simulate CAE worker\",\"commit\",\"push\"],\"inp\":\"run/run_008/artifacts/candidate_inp/SPIO_R008_Q200_N010_Candidate/SPIO_R008_Q200_N010_Candidate.inp\",\"objective\":\"Verify existing candidate Hollomon INP in the real CAE Codex session\",\"parameters\":{\"E_GPa\":210,\"max_plastic_strain\":0.9,\"n\":0.1,\"nu\":0.3,\"sigma_y_MPa\":200},\"run_id\":\"run_010\",\"science_status\":\"candidate true-total-strain interpretation; not experimentally validated\"}",
+    "idempotency_key": "run010-real-cae-verify-r008-v1",
+    "execution_state": "CLAIMED",
+    "evidence_state": "NONE",
+    "science_state": "NOT_EVALUATED",
+    "revision": 4,
+    "lease_agent": "CAE:cae-codex-20261021-632ffd48",
+    "lease_session": "aa78d383-febb-4b7e-99d5-2a9665e9ab6c",
+    "lease_until": 1792569965.1704779,
+    "generation": 1,
+    "result": null
+  },
+  "artifacts": [],
+  "received_cae_messages": [],
+  "task_events": [
+    {
+      "seq": 45,
+      "task_id": "a4b4805f-4989-4168-a54a-3bbf435b52a6",
+      "actor": "MAIN:codex-01a15d5d-c7b5-7f92-8211-56647eb48cbb-run010",
+      "event": "TASK_CREATED",
+      "data": "{\"depends\":[],\"key\":\"run010-real-cae-verify-r008-v1\",\"kind\":\"verify_inp\",\"role\":\"CAE\"}",
+      "at": 1792569767.0906672,
+      "prev_hash": "e4dccf8f9f7b12a919eec25f33e3c539465a1bc7b44fc8e104a7d05f4b1f7ecb",
+      "hash": "10d6adee6ddcdfa32cab52129edaa51c7f247988a8de0274de90a98976d1cd71",
+      "at_iso": "2026-10-21T08:02:47.090667+00:00"
+    },
+    {
+      "seq": 46,
+      "task_id": "a4b4805f-4989-4168-a54a-3bbf435b52a6",
+      "actor": "MAIN:codex-01a15d5d-c7b5-7f92-8211-56647eb48cbb-run010",
+      "event": "TASK_APPROVAL",
+      "data": "{\"action\":\"verify_inp\"}",
+      "at": 1792569767.1027174,
+      "prev_hash": "10d6adee6ddcdfa32cab52129edaa51c7f247988a8de0274de90a98976d1cd71",
+      "hash": "2a927fbc4c521005ae101a9205d096697bcf2124c844fc2bfb9083f8564421ed",
+      "at_iso": "2026-10-21T08:02:47.102717+00:00"
+    },
+    {
+      "seq": 47,
+      "task_id": "a4b4805f-4989-4168-a54a-3bbf435b52a6",
+      "actor": "MAIN:codex-01a15d5d-c7b5-7f92-8211-56647eb48cbb-run010",
+      "event": "MESSAGE_PERSISTED",
+      "data": "{\"inbox_id\":\"481dc853-4301-4c56-a31f-e64d5635ad65\",\"key\":\"run010-main-cae-assignment-v1\",\"outbox_id\":\"43d1105a-d7d8-4351-bb33-fa0373e681e5\",\"to\":\"CAE\"}",
+      "at": 1792569767.1167583,
+      "prev_hash": "2a927fbc4c521005ae101a9205d096697bcf2124c844fc2bfb9083f8564421ed",
+      "hash": "929a258bb1be1beb60b63e29811e896f09c69d6b8888941c3441e71ca21d0635",
+      "at_iso": "2026-10-21T08:02:47.116758+00:00"
+    },
+    {
+      "seq": 48,
+      "task_id": "a4b4805f-4989-4168-a54a-3bbf435b52a6",
+      "actor": "CAE:cae-codex-20261021-632ffd48",
+      "event": "TASK_CLAIMED",
+      "data": "{\"generation\":1,\"idempotency_key\":\"run010-cae-codex-632ffd48-attempt1\",\"session\":\"aa78d383-febb-4b7e-99d5-2a9665e9ab6c\"}",
+      "at": 1792569895.246784,
+      "prev_hash": "929a258bb1be1beb60b63e29811e896f09c69d6b8888941c3441e71ca21d0635",
+      "hash": "d761d2e20ca5001ebeef09aac17c8cc6fc0f2a35f672a604959043f655337a92",
+      "at_iso": "2026-10-21T08:04:55.246783+00:00"
+    },
+    {
+      "seq": 49,
+      "task_id": "a4b4805f-4989-4168-a54a-3bbf435b52a6",
+      "actor": "CAE:cae-codex-20261021-632ffd48",
+      "event": "HEARTBEAT",
+      "data": "{\"until\":1792569943.884514}",
+      "at": 1792569913.884514,
+      "prev_hash": "d761d2e20ca5001ebeef09aac17c8cc6fc0f2a35f672a604959043f655337a92",
+      "hash": "95ebf85cbb1d3707506036cb372fe77331e3e69a36b4fc1caa59cde126243fce",
+      "at_iso": "2026-10-21T08:05:13.884514+00:00"
+    },
+    {
+      "seq": 50,
+      "task_id": "a4b4805f-4989-4168-a54a-3bbf435b52a6",
+      "actor": "CAE:cae-codex-20261021-632ffd48",
+      "event": "HEARTBEAT",
+      "data": "{\"until\":1792569965.1704779}",
+      "at": 1792569935.1704779,
+      "prev_hash": "95ebf85cbb1d3707506036cb372fe77331e3e69a36b4fc1caa59cde126243fce",
+      "hash": "a77575724ba2f6baca5ccd785ab30573425388efb105134be5b935d2057e6b0b",
+      "at_iso": "2026-10-21T08:05:35.170477+00:00"
+    }
+  ],
+  "audit_hash_chain_valid": true,
+  "execution_complete": false,
+  "artifact_hashes_valid": false,
+  "main_received_task_message": false,
+  "scientific_validation": "NOT_EVALUATED"
+}

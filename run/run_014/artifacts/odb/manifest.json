@@ -1,0 +1,110 @@
+{
+  "created_at": "2026-10-21T22:22:50.790917+08:00",
+  "task_id": "35b07ba1-22ad-48a7-b859-2d99199ed419",
+  "files": [
+    {
+      "path": "run/run_014/artifacts/odb/preflight_read.py",
+      "sha256": "71ec4da050cfad0b2b85f062aea742335e166d0c8bad208df37f561424ea51c2",
+      "size": 3878,
+      "private": false
+    },
+    {
+      "path": "run/run_014/artifacts/odb/preflight_read.json",
+      "sha256": "5d1f827af1f43fbf926dd14b800641c40e7b4a2ea475bc92d2468ddbfd6573dc",
+      "size": 37059,
+      "private": false
+    },
+    {
+      "path": "run/run_014/artifacts/odb/extract_readonly.py",
+      "sha256": "39ac38be817aa2281e6f8d282cd71c8610050aebf0dd708a2bf1feefa9075ff3",
+      "size": 5616,
+      "private": false
+    },
+    {
+      "path": "run/run_014/artifacts/odb/analyze_results.py",
+      "sha256": "29bc9663d3210979d96e15676bcd76bb9f150643f97eb4fe157dc078783e8c57",
+      "size": 12375,
+      "private": false
+    },
+    {
+      "path": "run/run_014/artifacts/odb/punch_history_raw.csv",
+      "sha256": "5c93d923d98a1c8d9b42c7685270df23635f1e03468f37e1624f3463e5fcc06f",
+      "size": 14782,
+      "private": false
+    },
+    {
+      "path": "run/run_014/artifacts/odb/punch_force_displacement.csv",
+      "sha256": "6af133606aab305f2d6b9cdb3c49efb4fd33c01cb45d7444dbd384f640a323f0",
+      "size": 14448,
+      "private": false
+    },
+    {
+      "path": "run/run_014/artifacts/odb/historical_comparison.csv",
+      "sha256": "9c8b881ba43eb75b1b1c66106ca8b83acf209cdc630bc568d30035883647c019",
+      "size": 13367,
+      "private": false
+    },
+    {
+      "path": "run/run_014/artifacts/odb/energy_history.csv",
+      "sha256": "01cf9620a69336bf78905f4a7c0a424c84c8adb2f48a74d111d885b6ac00bbe9",
+      "size": 25717,
+      "private": false
+    },
+    {
+      "path": "run/run_014/artifacts/odb/peeq_saved_frames.csv",
+      "sha256": "0e35d7b89d6c30cca77ffa99c5111561cb35059451a1d72bac181d5bae71eeb3",
+      "size": 8263,
+      "private": false
+    },
+    {
+      "path": "run/run_014/artifacts/odb/diagnostics.json",
+      "sha256": "d921bba3be977c07a2711e4253b79f7f7fb87a88d1309a31a24d903eb0dbb82d",
+      "size": 6382,
+      "private": false
+    },
+    {
+      "path": "run/run_014/artifacts/odb/warning_events.json",
+      "sha256": "8d5622d737699d0eff070a6152a6393c0b63864d92df9977c6617a19976865aa",
+      "size": 43149,
+      "private": false
+    },
+    {
+      "path": "run/run_014/artifacts/odb/force_displacement_comparison.png",
+      "sha256": "ae6c32f3b4559b586b46fb70bb7e68a3969dab8de7593b467e5001f493ccb860",
+      "size": 91079,
+      "private": false
+    },
+    {
+      "path": "run/run_014/artifacts/odb/report.md",
+      "sha256": "4d9e5e8a1e281e2b086664a27d5af9ecc9283c5f56eff3a027f1056ab3f04b71",
+      "size": 5549,
+      "private": false
+    },
+    {
+      "path": "run/run_014/artifacts/odb/private/extraction_attempt01.json",
+      "sha256": "1650de71ea8cfef2deb488ddcff5b3b1dbe8c05f3f6b64ac25444c52a55ca20c",
+      "size": 1696,
+      "private": true
+    },
+    {
+      "path": "run/run_014/artifacts/odb/private/extraction_attempt02.json",
+      "sha256": "26123d0b41bbac84227797e1c834b1751de5bf6315bfedac86d6e23ccfe6627c",
+      "size": 281648,
+      "private": true
+    },
+    {
+      "path": "run/run_014/artifacts/odb/finalize_odb.py",
+      "sha256": "ebc33b9c63f3a440aecaaa6b66de7679caf0fabda460231bcb8868a3e472133f",
+      "size": 4859,
+      "private": false
+    },
+    {
+      "path": "run/run_014/artifacts/odb/result.json",
+      "sha256": "692cbb8ab1a1468298aa7139030f7af822653cf12cde3116e86a87b8e91a465b",
+      "size": 1755,
+      "private": false
+    }
+  ],
+  "source_odb_sha256": "1ed3ecb6b2e3e2bfcfc806eb7edfab706b4acc90ec387ac641a81f529d9dd4fd",
+  "source_inp_sha256": "fa2de5d73a28536c1c07cd22072d2a24c1ae988c569127d728931c583457f05a"
+}

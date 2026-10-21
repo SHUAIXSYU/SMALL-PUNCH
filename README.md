@@ -37,7 +37,7 @@ The repository is named **SMALL-PUNCH**; **SP-InvOpt** is the research project n
 | Computing environment | Recorded Python imports and Abaqus version queries | Licence, solver and forward-model checks |
 | Research figures | Original SPT SVG and proposed workflow diagrams | Verification against the actual test setup |
 | Inverse optimisation | Mathematical contract and evaluation questions | Parameterisation, objective and Grid/DE/BO implementation |
-| Agentic CAE, surrogate and RL | Proposed interfaces and research designs | Implementation and controlled validation |
+| Agentic CAE, surrogate and RL | Run_008 project-local MAIN/CAE/ODB AgentHub; candidate INP and read-only AbqJobPilot/ODB checks | Verified Settings, an authorized Solver validation, then optimisation and RL |
 
 The run_001 foundation and run_002 documentation records remain **WARNING**. Their file/environment checks are not CAE or physical validation. See [current status](status/PROJECT_STATUS.md) and the [run index](run/README.md) for evidence; no benchmark improvement or validated material result is claimed.
 
@@ -61,7 +61,7 @@ External research Python and Abaqus Python stay in separate processes with struc
 
 ## Research workflow
 
-**Proposed architecture — computational integration is not implemented.**
+**Research workflow — the Solver/optimisation pipeline is not implemented. Run_008 adds a project-local role coordination bootstrap.**
 
 ```mermaid
 flowchart TB
@@ -96,7 +96,7 @@ flowchart TB
     VALID --> OUT
 ```
 
-Agentic CAE is the reliable execution layer: parameter updates, preflight, scheduling, monitoring, ODB extraction, failure diagnostics and provenance. It prioritises reproducible models and structured interfaces over direct LLM control of the GUI. [AbqJobPilot](https://github.com/BrunelXian/AbqJobPilot) is a potential external runtime; no adapter or integration is verified. The [architecture contract](docs/Research_Architecture.md) separates proposed interfaces from implemented capability.
+Agentic CAE is intended to provide parameter updates, preflight, scheduling, monitoring, ODB extraction, failure diagnostics and provenance. Run_008 implemented an isolated MAIN/CAE/ODB SQLite Hub, generated and parsed one candidate INP, and connected to the stable AbqJobPilot v0.2.2 read-only MCP tools. Its Queue and History remained empty. Preflight and dry-run were not invoked because local Project Settings are missing; no Solver or datacheck ran. This bootstrap does not implement a validated forward/inverse pipeline. See the [run_008 record](run/run_008/summary.md) and [architecture contract](docs/Research_Architecture.md).
 
 The initial objective compares experimental and simulated forces on a common displacement coordinate:
 

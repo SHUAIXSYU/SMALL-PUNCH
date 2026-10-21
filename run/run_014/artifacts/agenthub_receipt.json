@@ -1,0 +1,116 @@
+{
+  "task_id": "93322987-9489-47c1-908a-dd43e0736339",
+  "queue_id": "q_4c0358a918a7447d807d2f547d22c7b8",
+  "identity": {
+    "agent_id": "MAIN:codex-main-run014-once",
+    "session_id": "0344fe68-79d7-4b52-a11c-5fa69145afe5",
+    "role": "MAIN"
+  },
+  "task_execution": "COMPLETED_ENQUEUE_COORDINATION_ONLY",
+  "artifacts": [
+    {
+      "artifact_id": "f2481950-48ad-4f89-b73c-7a814c49901e",
+      "task_id": "93322987-9489-47c1-908a-dd43e0736339",
+      "producer": "MAIN:codex-main-run014-once",
+      "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_014\\artifacts\\admission.json",
+      "sha256": "758652280f2d9901bc1e0197df053b73f6e5bb752815e651534e574a094fcbf8",
+      "provenance": "{\"method\": \"public enqueue-only API; user GUI start pending\", \"project_id\": \"b87d2cd6-8519-4ac3-bae6-7eb989fb2dae\", \"queue_id\": \"q_4c0358a918a7447d807d2f547d22c7b8\", \"run_id\": \"run_014\", \"source_head\": \"7012133e7cc0176bb3e56fc24d7154ee3b90bb81\"}",
+      "created": 1792591968.5809424,
+      "version": "run014-v1"
+    },
+    {
+      "artifact_id": "f4361a9f-9dff-44da-a6c5-af9e9b09927d",
+      "task_id": "93322987-9489-47c1-908a-dd43e0736339",
+      "producer": "MAIN:codex-main-run014-once",
+      "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_014\\artifacts\\admission_before_enqueue.json",
+      "sha256": "eb86d365652c698adaa4969cb701d0ec4435080d38166bfb41886bf971544068",
+      "provenance": "{\"method\": \"public enqueue-only API; user GUI start pending\", \"project_id\": \"b87d2cd6-8519-4ac3-bae6-7eb989fb2dae\", \"queue_id\": \"q_4c0358a918a7447d807d2f547d22c7b8\", \"run_id\": \"run_014\", \"source_head\": \"7012133e7cc0176bb3e56fc24d7154ee3b90bb81\"}",
+      "created": 1792591968.5923195,
+      "version": "run014-v1"
+    },
+    {
+      "artifact_id": "bd949c2a-ad51-44b0-a77c-36a4a950e332",
+      "task_id": "93322987-9489-47c1-908a-dd43e0736339",
+      "producer": "MAIN:codex-main-run014-once",
+      "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_014\\artifacts\\authorization.json",
+      "sha256": "0b8861a12ba14feda5cf0500afd1d812b0144df0a436d594914371c345280427",
+      "provenance": "{\"method\": \"public enqueue-only API; user GUI start pending\", \"project_id\": \"b87d2cd6-8519-4ac3-bae6-7eb989fb2dae\", \"queue_id\": \"q_4c0358a918a7447d807d2f547d22c7b8\", \"run_id\": \"run_014\", \"source_head\": \"7012133e7cc0176bb3e56fc24d7154ee3b90bb81\"}",
+      "created": 1792591968.6047237,
+      "version": "run014-v1"
+    },
+    {
+      "artifact_id": "175f1e24-bb15-4e36-b800-44da6d6e3323",
+      "task_id": "93322987-9489-47c1-908a-dd43e0736339",
+      "producer": "MAIN:codex-main-run014-once",
+      "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_014\\artifacts\\request.json",
+      "sha256": "b511adc9c53637f8b8a47e4d44a071c1f08535085993874b96fdf69117a315b9",
+      "provenance": "{\"method\": \"public enqueue-only API; user GUI start pending\", \"project_id\": \"b87d2cd6-8519-4ac3-bae6-7eb989fb2dae\", \"queue_id\": \"q_4c0358a918a7447d807d2f547d22c7b8\", \"run_id\": \"run_014\", \"source_head\": \"7012133e7cc0176bb3e56fc24d7154ee3b90bb81\"}",
+      "created": 1792591968.6165376,
+      "version": "run014-v1"
+    },
+    {
+      "artifact_id": "25027480-08d6-4048-8f86-adcb7c85cabe",
+      "task_id": "93322987-9489-47c1-908a-dd43e0736339",
+      "producer": "MAIN:codex-main-run014-once",
+      "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_014\\artifacts\\enqueue_response.json",
+      "sha256": "a18066cd88add0cf3a23989a067e866d6f1343ef2a4a59302867bdf05f250923",
+      "provenance": "{\"method\": \"public enqueue-only API; user GUI start pending\", \"project_id\": \"b87d2cd6-8519-4ac3-bae6-7eb989fb2dae\", \"queue_id\": \"q_4c0358a918a7447d807d2f547d22c7b8\", \"run_id\": \"run_014\", \"source_head\": \"7012133e7cc0176bb3e56fc24d7154ee3b90bb81\"}",
+      "created": 1792591968.6289473,
+      "version": "run014-v1"
+    },
+    {
+      "artifact_id": "6b5f2e35-9fff-4f96-814d-5f2fc136edf3",
+      "task_id": "93322987-9489-47c1-908a-dd43e0736339",
+      "producer": "MAIN:codex-main-run014-once",
+      "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_014\\artifacts\\queue_after_enqueue.json",
+      "sha256": "0f857d4103b151b5494e36a2747a42696ecdf3b61e59bb8539a40e6ca9b2a878",
+      "provenance": "{\"method\": \"public enqueue-only API; user GUI start pending\", \"project_id\": \"b87d2cd6-8519-4ac3-bae6-7eb989fb2dae\", \"queue_id\": \"q_4c0358a918a7447d807d2f547d22c7b8\", \"run_id\": \"run_014\", \"source_head\": \"7012133e7cc0176bb3e56fc24d7154ee3b90bb81\"}",
+      "created": 1792591968.6407483,
+      "version": "run014-v1"
+    },
+    {
+      "artifact_id": "bdb5e96c-31cf-49e0-9cfe-602f638e9312",
+      "task_id": "93322987-9489-47c1-908a-dd43e0736339",
+      "producer": "MAIN:codex-main-run014-once",
+      "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_014\\artifacts\\status_after_enqueue.json",
+      "sha256": "d17bd02cb2ac3b52ca0653832e8bc813a6a87328f5470bb495c059f5910808fe",
+      "provenance": "{\"method\": \"public enqueue-only API; user GUI start pending\", \"project_id\": \"b87d2cd6-8519-4ac3-bae6-7eb989fb2dae\", \"queue_id\": \"q_4c0358a918a7447d807d2f547d22c7b8\", \"run_id\": \"run_014\", \"source_head\": \"7012133e7cc0176bb3e56fc24d7154ee3b90bb81\"}",
+      "created": 1792591968.6530516,
+      "version": "run014-v1"
+    },
+    {
+      "artifact_id": "1e76f3b9-881f-4c4c-ac79-e9adf1b3dfb1",
+      "task_id": "93322987-9489-47c1-908a-dd43e0736339",
+      "producer": "MAIN:codex-main-run014-once",
+      "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_014\\artifacts\\outputs_after_enqueue.json",
+      "sha256": "35848ee8cdcfebff6e0bb25daefb37ec7e14e18a7269a5f46fafea5aa64ac25c",
+      "provenance": "{\"method\": \"public enqueue-only API; user GUI start pending\", \"project_id\": \"b87d2cd6-8519-4ac3-bae6-7eb989fb2dae\", \"queue_id\": \"q_4c0358a918a7447d807d2f547d22c7b8\", \"run_id\": \"run_014\", \"source_head\": \"7012133e7cc0176bb3e56fc24d7154ee3b90bb81\"}",
+      "created": 1792591968.665099,
+      "version": "run014-v1"
+    },
+    {
+      "artifact_id": "8e8e95ae-910f-450a-b9f6-9e1c0335ddf8",
+      "task_id": "93322987-9489-47c1-908a-dd43e0736339",
+      "producer": "MAIN:codex-main-run014-once",
+      "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_014\\artifacts\\enqueue_result.json",
+      "sha256": "5867dab5c4d8525776831f0b52c2a85f89f618d59c92483f191e68b66e3ef78d",
+      "provenance": "{\"method\": \"public enqueue-only API; user GUI start pending\", \"project_id\": \"b87d2cd6-8519-4ac3-bae6-7eb989fb2dae\", \"queue_id\": \"q_4c0358a918a7447d807d2f547d22c7b8\", \"run_id\": \"run_014\", \"source_head\": \"7012133e7cc0176bb3e56fc24d7154ee3b90bb81\"}",
+      "created": 1792591968.6770856,
+      "version": "run014-v1"
+    }
+  ],
+  "message_id": "52ef051f-dc92-4d18-89c1-98de0eca0679",
+  "inbox": [
+    {
+      "message_id": "b17f46fa-bfd7-4576-8556-92e637d9fd20",
+      "task_id": "93322987-9489-47c1-908a-dd43e0736339",
+      "sender": "MAIN:codex-main-run014-once",
+      "recipient_role": "MAIN",
+      "direction": "INBOX",
+      "idempotency_key": "run014-enqueued-awaiting-gui-v1",
+      "body": "{\"auto_retries\":0,\"datacheck\":\"NOT_STARTED\",\"duration_sec\":null,\"execution_state\":\"QUEUED / AWAITING_GUI_START\",\"full_analysis\":\"NOT_STARTED\",\"inp_sha256\":\"fa2de5d73a28536c1c07cd22072d2a24c1ae988c569127d728931c583457f05a\",\"job_name\":\"SPIO_R014_Q200_N010\",\"max_attempts\":1,\"new_authorization_required_for_this_job\":false,\"observed_at\":\"2026-10-21T22:12:48.572147+08:00\",\"odb_agent\":\"NOT_DISPATCHED_PENDING_FULL_ANALYSIS\",\"odb_exists\":false,\"odb_valid\":\"NOT_EVALUATED\",\"protected_files_unchanged\":true,\"queue_id\":\"q_4c0358a918a7447d807d2f547d22c7b8\",\"science_state\":\"NOT_EVALUATED\",\"status\":\"WARNING\",\"task_id\":\"93322987-9489-47c1-908a-dd43e0736339\"}",
+      "created": 1792591968.7007291
+    }
+  ],
+  "audit_hash_chain_valid": true
+}

@@ -1,0 +1,20 @@
+{
+  "observed_at": "2026-10-21T22:12:48.572147+08:00",
+  "status": "WARNING",
+  "execution_state": "QUEUED / AWAITING_GUI_START",
+  "task_id": "93322987-9489-47c1-908a-dd43e0736339",
+  "queue_id": "q_4c0358a918a7447d807d2f547d22c7b8",
+  "job_name": "SPIO_R014_Q200_N010",
+  "inp_sha256": "fa2de5d73a28536c1c07cd22072d2a24c1ae988c569127d728931c583457f05a",
+  "datacheck": "NOT_STARTED",
+  "full_analysis": "NOT_STARTED",
+  "odb_exists": false,
+  "odb_valid": "NOT_EVALUATED",
+  "odb_agent": "NOT_DISPATCHED_PENDING_FULL_ANALYSIS",
+  "duration_sec": null,
+  "protected_files_unchanged": true,
+  "max_attempts": 1,
+  "auto_retries": 0,
+  "science_state": "NOT_EVALUATED",
+  "new_authorization_required_for_this_job": false
+}

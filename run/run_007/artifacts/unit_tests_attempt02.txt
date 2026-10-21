@@ -1,0 +1,16 @@
+test_absolute_tolerance_and_point_budget (test_hollomon.HollomonTests.test_absolute_tolerance_and_point_budget) ... ok
+test_adaptive_near_yield_and_tighter_tolerance (test_hollomon.HollomonTests.test_adaptive_near_yield_and_tighter_tolerance) ... ok
+test_coverage_requires_positive_observation (test_hollomon.HollomonTests.test_coverage_requires_positive_observation) ... ok
+test_dense_interpolation_against_closed_form (test_hollomon.HollomonTests.test_dense_interpolation_against_closed_form) ... ok
+test_fixed_offset_is_not_used (test_hollomon.HollomonTests.test_fixed_offset_is_not_used) ... ok
+test_illegal_parameters (test_hollomon.HollomonTests.test_illegal_parameters) ... ok
+test_no_silent_extrapolation (test_hollomon.HollomonTests.test_no_silent_extrapolation) ... ok
+test_reconstruction_all_generated_points (test_hollomon.HollomonTests.test_reconstruction_all_generated_points) ... ok
+test_serialization_roundtrip_and_no_job (test_hollomon.HollomonTests.test_serialization_roundtrip_and_no_job) ... ok
+test_sqrt_hardening_closed_form_oracle (test_hollomon.HollomonTests.test_sqrt_hardening_closed_form_oracle) ... ok
+test_yield_anchor_units_and_elastic_continuity (test_hollomon.HollomonTests.test_yield_anchor_units_and_elastic_continuity) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.024s
+
+OK

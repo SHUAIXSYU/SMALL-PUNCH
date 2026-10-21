@@ -1,0 +1,1995 @@
+{
+  "warning_events": [
+    {
+      "line": 176,
+      "text": "***WARNING: THERE IS ZERO MOMENT EVERYWHERE IN THE MODEL BASED ON THE DEFAULT",
+      "attempt": {
+        "increment": 1,
+        "attempt": 1
+      },
+      "sta_unsuccessful": true
+    },
+    {
+      "line": 189,
+      "text": "***WARNING: THE STRAIN INCREMENT HAS EXCEEDED FIFTY TIMES THE STRAIN TO CAUSE",
+      "attempt": {
+        "increment": 1,
+        "attempt": 1
+      },
+      "sta_unsuccessful": true
+    },
+    {
+      "line": 229,
+      "text": "***WARNING: THE STRAIN INCREMENT HAS EXCEEDED FIFTY TIMES THE STRAIN TO CAUSE",
+      "attempt": {
+        "increment": 1,
+        "attempt": 1
+      },
+      "sta_unsuccessful": true
+    },
+    {
+      "line": 272,
+      "text": "***WARNING: THE SYSTEM MATRIX HAS 4 NEGATIVE EIGENVALUES.",
+      "attempt": {
+        "increment": 1,
+        "attempt": 1
+      },
+      "sta_unsuccessful": true
+    },
+    {
+      "line": 327,
+      "text": "***WARNING: THE STRAIN INCREMENT HAS EXCEEDED FIFTY TIMES THE STRAIN TO CAUSE",
+      "attempt": {
+        "increment": 1,
+        "attempt": 1
+      },
+      "sta_unsuccessful": true
+    },
+    {
+      "line": 330,
+      "text": "***WARNING: THE STRAIN INCREMENT IS SO LARGE THAT THE PROGRAM WILL NOT ATTEMPT",
+      "attempt": {
+        "increment": 1,
+        "attempt": 1
+      },
+      "sta_unsuccessful": true
+    },
+    {
+      "line": 333,
+      "text": "***WARNING: EXCESSIVE DISTORTION AT A TOTAL OF 49 INTEGRATION POINTS IN SOLID",
+      "attempt": {
+        "increment": 1,
+        "attempt": 1
+      },
+      "sta_unsuccessful": true
+    },
+    {
+      "line": 384,
+      "text": "***WARNING: THERE IS ZERO MOMENT EVERYWHERE IN THE MODEL BASED ON THE DEFAULT",
+      "attempt": {
+        "increment": 1,
+        "attempt": 2
+      },
+      "sta_unsuccessful": false
+    },
+    {
+      "line": 706,
+      "text": "***WARNING: THE STRAIN INCREMENT HAS EXCEEDED FIFTY TIMES THE STRAIN TO CAUSE",
+      "attempt": {
+        "increment": 2,
+        "attempt": 1
+      },
+      "sta_unsuccessful": false
+    },
+    {
+      "line": 2327,
+      "text": "***WARNING: THE STRAIN INCREMENT HAS EXCEEDED FIFTY TIMES THE STRAIN TO CAUSE",
+      "attempt": {
+        "increment": 9,
+        "attempt": 1
+      },
+      "sta_unsuccessful": true
+    },
+    {
+      "line": 3857,
+      "text": "***WARNING: THE STRAIN INCREMENT HAS EXCEEDED FIFTY TIMES THE STRAIN TO CAUSE",
+      "attempt": {
+        "increment": 17,
+        "attempt": 1
+      },
+      "sta_unsuccessful": true
+    },
+    {
+      "line": 7182,
+      "text": "***WARNING: THE STRAIN INCREMENT HAS EXCEEDED FIFTY TIMES THE STRAIN TO CAUSE",
+      "attempt": {
+        "increment": 40,
+        "attempt": 1
+      },
+      "sta_unsuccessful": true
+    },
+    {
+      "line": 7646,
+      "text": "***WARNING: THE STRAIN INCREMENT HAS EXCEEDED FIFTY TIMES THE STRAIN TO CAUSE",
+      "attempt": {
+        "increment": 41,
+        "attempt": 2
+      },
+      "sta_unsuccessful": true
+    },
+    {
+      "line": 12155,
+      "text": "***WARNING: THE STRAIN INCREMENT HAS EXCEEDED FIFTY TIMES THE STRAIN TO CAUSE",
+      "attempt": {
+        "increment": 68,
+        "attempt": 1
+      },
+      "sta_unsuccessful": true
+    },
+    {
+      "line": 13084,
+      "text": "***WARNING: THE STRAIN INCREMENT HAS EXCEEDED FIFTY TIMES THE STRAIN TO CAUSE",
+      "attempt": {
+        "increment": 74,
+        "attempt": 1
+      },
+      "sta_unsuccessful": true
+    },
+    {
+      "line": 15047,
+      "text": "***WARNING: THE STRAIN INCREMENT HAS EXCEEDED FIFTY TIMES THE STRAIN TO CAUSE",
+      "attempt": {
+        "increment": 87,
+        "attempt": 1
+      },
+      "sta_unsuccessful": true
+    },
+    {
+      "line": 15236,
+      "text": "***WARNING: THE STRAIN INCREMENT HAS EXCEEDED FIFTY TIMES THE STRAIN TO CAUSE",
+      "attempt": {
+        "increment": 87,
+        "attempt": 2
+      },
+      "sta_unsuccessful": true
+    },
+    {
+      "line": 16225,
+      "text": "***WARNING: THE STRAIN INCREMENT HAS EXCEEDED FIFTY TIMES THE STRAIN TO CAUSE",
+      "attempt": {
+        "increment": 96,
+        "attempt": 1
+      },
+      "sta_unsuccessful": true
+    },
+    {
+      "line": 16303,
+      "text": "***WARNING: THE STRAIN INCREMENT HAS EXCEEDED FIFTY TIMES THE STRAIN TO CAUSE",
+      "attempt": {
+        "increment": 96,
+        "attempt": 1
+      },
+      "sta_unsuccessful": true
+    },
+    {
+      "line": 16345,
+      "text": "***WARNING: THE SYSTEM MATRIX HAS 1 NEGATIVE EIGENVALUES.",
+      "attempt": {
+        "increment": 96,
+        "attempt": 1
+      },
+      "sta_unsuccessful": true
+    },
+    {
+      "line": 16348,
+      "text": "***WARNING: THE STRAIN INCREMENT HAS EXCEEDED FIFTY TIMES THE STRAIN TO CAUSE",
+      "attempt": {
+        "increment": 96,
+        "attempt": 1
+      },
+      "sta_unsuccessful": true
+    },
+    {
+      "line": 17454,
+      "text": "***WARNING: THE STRAIN INCREMENT HAS EXCEEDED FIFTY TIMES THE STRAIN TO CAUSE",
+      "attempt": {
+        "increment": 103,
+        "attempt": 1
+      },
+      "sta_unsuccessful": true
+    },
+    {
+      "line": 18650,
+      "text": "***WARNING: THE STRAIN INCREMENT HAS EXCEEDED FIFTY TIMES THE STRAIN TO CAUSE",
+      "attempt": {
+        "increment": 110,
+        "attempt": 1
+      },
+      "sta_unsuccessful": true
+    },
+    {
+      "line": 20107,
+      "text": "***WARNING: THE STRAIN INCREMENT HAS EXCEEDED FIFTY TIMES THE STRAIN TO CAUSE",
+      "attempt": {
+        "increment": 121,
+        "attempt": 1
+      },
+      "sta_unsuccessful": true
+    },
+    {
+      "line": 20185,
+      "text": "***WARNING: THE STRAIN INCREMENT HAS EXCEEDED FIFTY TIMES THE STRAIN TO CAUSE",
+      "attempt": {
+        "increment": 121,
+        "attempt": 1
+      },
+      "sta_unsuccessful": true
+    },
+    {
+      "line": 21588,
+      "text": "***WARNING: THE STRAIN INCREMENT HAS EXCEEDED FIFTY TIMES THE STRAIN TO CAUSE",
+      "attempt": {
+        "increment": 128,
+        "attempt": 2
+      },
+      "sta_unsuccessful": true
+    },
+    {
+      "line": 24421,
+      "text": "***WARNING: THE STRAIN INCREMENT HAS EXCEEDED FIFTY TIMES THE STRAIN TO CAUSE",
+      "attempt": {
+        "increment": 147,
+        "attempt": 1
+      },
+      "sta_unsuccessful": true
+    },
+    {
+      "line": 24608,
+      "text": "***WARNING: THE STRAIN INCREMENT HAS EXCEEDED FIFTY TIMES THE STRAIN TO CAUSE",
+      "attempt": {
+        "increment": 147,
+        "attempt": 2
+      },
+      "sta_unsuccessful": true
+    },
+    {
+      "line": 24649,
+      "text": "***WARNING: THE SYSTEM MATRIX HAS 5 NEGATIVE EIGENVALUES.",
+      "attempt": {
+        "increment": 147,
+        "attempt": 2
+      },
+      "sta_unsuccessful": true
+    },
+    {
+      "line": 24652,
+      "text": "***WARNING: THE STRAIN INCREMENT HAS EXCEEDED FIFTY TIMES THE STRAIN TO CAUSE",
+      "attempt": {
+        "increment": 147,
+        "attempt": 2
+      },
+      "sta_unsuccessful": true
+    },
+    {
+      "line": 24694,
+      "text": "***WARNING: THE SYSTEM MATRIX HAS 7 NEGATIVE EIGENVALUES.",
+      "attempt": {
+        "increment": 147,
+        "attempt": 2
+      },
+      "sta_unsuccessful": true
+    },
+    {
+      "line": 24934,
+      "text": "***WARNING: THE STRAIN INCREMENT HAS EXCEEDED FIFTY TIMES THE STRAIN TO CAUSE",
+      "attempt": {
+        "increment": 147,
+        "attempt": 2
+      },
+      "sta_unsuccessful": true
+    },
+    {
+      "line": 24937,
+      "text": "***WARNING: THE STRAIN INCREMENT IS SO LARGE THAT THE PROGRAM WILL NOT ATTEMPT",
+      "attempt": {
+        "increment": 147,
+        "attempt": 2
+      },
+      "sta_unsuccessful": true
+    },
+    {
+      "line": 24940,
+      "text": "***WARNING: EXCESSIVE DISTORTION AT A TOTAL OF 237 INTEGRATION POINTS IN SOLID",
+      "attempt": {
+        "increment": 147,
+        "attempt": 2
+      },
+      "sta_unsuccessful": true
+    },
+    {
+      "line": 26381,
+      "text": "***WARNING: THE STRAIN INCREMENT HAS EXCEEDED FIFTY TIMES THE STRAIN TO CAUSE",
+      "attempt": {
+        "increment": 156,
+        "attempt": 1
+      },
+      "sta_unsuccessful": true
+    }
+  ],
+  "counts": {
+    "negative_eigenvalue_headers": 4,
+    "large_strain_increment_headers": 25,
+    "plasticity_not_attempted_headers": 2,
+    "excessive_distortion_headers": 2,
+    "zero_moment_headers": 2,
+    "element_distortion_lines": 286,
+    "all_msg_warning_headers": 35,
+    "msg_error_headers": 0
+  },
+  "sta_attempts": [
+    {
+      "step": 1,
+      "increment": 1,
+      "attempt_token": "1U",
+      "unsuccessful": true,
+      "step_time": 0.0,
+      "dt": 0.01
+    },
+    {
+      "step": 1,
+      "increment": 1,
+      "attempt_token": "2",
+      "unsuccessful": false,
+      "step_time": 0.0025,
+      "dt": 0.0025
+    },
+    {
+      "step": 1,
+      "increment": 2,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.005,
+      "dt": 0.0025
+    },
+    {
+      "step": 1,
+      "increment": 3,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.0075,
+      "dt": 0.0025
+    },
+    {
+      "step": 1,
+      "increment": 4,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.01,
+      "dt": 0.0025
+    },
+    {
+      "step": 1,
+      "increment": 5,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.0125,
+      "dt": 0.0025
+    },
+    {
+      "step": 1,
+      "increment": 6,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.015,
+      "dt": 0.0025
+    },
+    {
+      "step": 1,
+      "increment": 7,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.0175,
+      "dt": 0.0025
+    },
+    {
+      "step": 1,
+      "increment": 8,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.0213,
+      "dt": 0.00375
+    },
+    {
+      "step": 1,
+      "increment": 9,
+      "attempt_token": "1U",
+      "unsuccessful": true,
+      "step_time": 0.0213,
+      "dt": 0.005625
+    },
+    {
+      "step": 1,
+      "increment": 9,
+      "attempt_token": "2",
+      "unsuccessful": false,
+      "step_time": 0.0227,
+      "dt": 0.001406
+    },
+    {
+      "step": 1,
+      "increment": 10,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.0241,
+      "dt": 0.001406
+    },
+    {
+      "step": 1,
+      "increment": 11,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.0255,
+      "dt": 0.001406
+    },
+    {
+      "step": 1,
+      "increment": 12,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.0276,
+      "dt": 0.002109
+    },
+    {
+      "step": 1,
+      "increment": 13,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.0297,
+      "dt": 0.002109
+    },
+    {
+      "step": 1,
+      "increment": 14,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.0318,
+      "dt": 0.002109
+    },
+    {
+      "step": 1,
+      "increment": 15,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.035,
+      "dt": 0.003164
+    },
+    {
+      "step": 1,
+      "increment": 16,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.0381,
+      "dt": 0.003164
+    },
+    {
+      "step": 1,
+      "increment": 17,
+      "attempt_token": "1U",
+      "unsuccessful": true,
+      "step_time": 0.0381,
+      "dt": 0.003164
+    },
+    {
+      "step": 1,
+      "increment": 17,
+      "attempt_token": "2",
+      "unsuccessful": false,
+      "step_time": 0.0389,
+      "dt": 0.000791
+    },
+    {
+      "step": 1,
+      "increment": 18,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.0397,
+      "dt": 0.000791
+    },
+    {
+      "step": 1,
+      "increment": 19,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.0405,
+      "dt": 0.000791
+    },
+    {
+      "step": 1,
+      "increment": 20,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.0417,
+      "dt": 0.001187
+    },
+    {
+      "step": 1,
+      "increment": 21,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.0435,
+      "dt": 0.00178
+    },
+    {
+      "step": 1,
+      "increment": 22,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.0461,
+      "dt": 0.00267
+    },
+    {
+      "step": 1,
+      "increment": 23,
+      "attempt_token": "1U",
+      "unsuccessful": true,
+      "step_time": 0.0461,
+      "dt": 0.004005
+    },
+    {
+      "step": 1,
+      "increment": 23,
+      "attempt_token": "2",
+      "unsuccessful": false,
+      "step_time": 0.0471,
+      "dt": 0.001001
+    },
+    {
+      "step": 1,
+      "increment": 24,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.0481,
+      "dt": 0.001001
+    },
+    {
+      "step": 1,
+      "increment": 25,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.0491,
+      "dt": 0.001001
+    },
+    {
+      "step": 1,
+      "increment": 26,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.0506,
+      "dt": 0.001502
+    },
+    {
+      "step": 1,
+      "increment": 27,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.0529,
+      "dt": 0.002253
+    },
+    {
+      "step": 1,
+      "increment": 28,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.0563,
+      "dt": 0.003379
+    },
+    {
+      "step": 1,
+      "increment": 29,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.0613,
+      "dt": 0.005068
+    },
+    {
+      "step": 1,
+      "increment": 30,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.0664,
+      "dt": 0.005068
+    },
+    {
+      "step": 1,
+      "increment": 31,
+      "attempt_token": "1U",
+      "unsuccessful": true,
+      "step_time": 0.0664,
+      "dt": 0.005068
+    },
+    {
+      "step": 1,
+      "increment": 31,
+      "attempt_token": "2U",
+      "unsuccessful": true,
+      "step_time": 0.0664,
+      "dt": 0.001267
+    },
+    {
+      "step": 1,
+      "increment": 31,
+      "attempt_token": "3",
+      "unsuccessful": false,
+      "step_time": 0.0667,
+      "dt": 0.0003168
+    },
+    {
+      "step": 1,
+      "increment": 32,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.0672,
+      "dt": 0.0004751
+    },
+    {
+      "step": 1,
+      "increment": 33,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.0679,
+      "dt": 0.0007127
+    },
+    {
+      "step": 1,
+      "increment": 34,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.069,
+      "dt": 0.001069
+    },
+    {
+      "step": 1,
+      "increment": 35,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.0706,
+      "dt": 0.001604
+    },
+    {
+      "step": 1,
+      "increment": 36,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.073,
+      "dt": 0.002405
+    },
+    {
+      "step": 1,
+      "increment": 37,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.0766,
+      "dt": 0.003608
+    },
+    {
+      "step": 1,
+      "increment": 38,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.082,
+      "dt": 0.005412
+    },
+    {
+      "step": 1,
+      "increment": 39,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.0901,
+      "dt": 0.008118
+    },
+    {
+      "step": 1,
+      "increment": 40,
+      "attempt_token": "1U",
+      "unsuccessful": true,
+      "step_time": 0.0901,
+      "dt": 0.01218
+    },
+    {
+      "step": 1,
+      "increment": 40,
+      "attempt_token": "2",
+      "unsuccessful": false,
+      "step_time": 0.0932,
+      "dt": 0.003044
+    },
+    {
+      "step": 1,
+      "increment": 41,
+      "attempt_token": "1U",
+      "unsuccessful": true,
+      "step_time": 0.0932,
+      "dt": 0.004567
+    },
+    {
+      "step": 1,
+      "increment": 41,
+      "attempt_token": "2U",
+      "unsuccessful": true,
+      "step_time": 0.0932,
+      "dt": 0.001142
+    },
+    {
+      "step": 1,
+      "increment": 41,
+      "attempt_token": "3",
+      "unsuccessful": false,
+      "step_time": 0.0935,
+      "dt": 0.0002854
+    },
+    {
+      "step": 1,
+      "increment": 42,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.0939,
+      "dt": 0.0004281
+    },
+    {
+      "step": 1,
+      "increment": 43,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.0945,
+      "dt": 0.0006422
+    },
+    {
+      "step": 1,
+      "increment": 44,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.0955,
+      "dt": 0.0009633
+    },
+    {
+      "step": 1,
+      "increment": 45,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.0969,
+      "dt": 0.001445
+    },
+    {
+      "step": 1,
+      "increment": 46,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.0991,
+      "dt": 0.002167
+    },
+    {
+      "step": 1,
+      "increment": 47,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.102,
+      "dt": 0.003251
+    },
+    {
+      "step": 1,
+      "increment": 48,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.107,
+      "dt": 0.004876
+    },
+    {
+      "step": 1,
+      "increment": 49,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.115,
+      "dt": 0.007315
+    },
+    {
+      "step": 1,
+      "increment": 50,
+      "attempt_token": "1U",
+      "unsuccessful": true,
+      "step_time": 0.115,
+      "dt": 0.01097
+    },
+    {
+      "step": 1,
+      "increment": 50,
+      "attempt_token": "2",
+      "unsuccessful": false,
+      "step_time": 0.117,
+      "dt": 0.002743
+    },
+    {
+      "step": 1,
+      "increment": 51,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.121,
+      "dt": 0.004115
+    },
+    {
+      "step": 1,
+      "increment": 52,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.128,
+      "dt": 0.006172
+    },
+    {
+      "step": 1,
+      "increment": 53,
+      "attempt_token": "1U",
+      "unsuccessful": true,
+      "step_time": 0.128,
+      "dt": 0.009258
+    },
+    {
+      "step": 1,
+      "increment": 53,
+      "attempt_token": "2",
+      "unsuccessful": false,
+      "step_time": 0.13,
+      "dt": 0.002314
+    },
+    {
+      "step": 1,
+      "increment": 54,
+      "attempt_token": "1U",
+      "unsuccessful": true,
+      "step_time": 0.13,
+      "dt": 0.003472
+    },
+    {
+      "step": 1,
+      "increment": 54,
+      "attempt_token": "2",
+      "unsuccessful": false,
+      "step_time": 0.131,
+      "dt": 0.0008679
+    },
+    {
+      "step": 1,
+      "increment": 55,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.132,
+      "dt": 0.001302
+    },
+    {
+      "step": 1,
+      "increment": 56,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.134,
+      "dt": 0.001953
+    },
+    {
+      "step": 1,
+      "increment": 57,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.137,
+      "dt": 0.002929
+    },
+    {
+      "step": 1,
+      "increment": 58,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.141,
+      "dt": 0.004394
+    },
+    {
+      "step": 1,
+      "increment": 59,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.148,
+      "dt": 0.006591
+    },
+    {
+      "step": 1,
+      "increment": 60,
+      "attempt_token": "1U",
+      "unsuccessful": true,
+      "step_time": 0.148,
+      "dt": 0.009886
+    },
+    {
+      "step": 1,
+      "increment": 60,
+      "attempt_token": "2",
+      "unsuccessful": false,
+      "step_time": 0.15,
+      "dt": 0.002472
+    },
+    {
+      "step": 1,
+      "increment": 61,
+      "attempt_token": "1U",
+      "unsuccessful": true,
+      "step_time": 0.15,
+      "dt": 0.003707
+    },
+    {
+      "step": 1,
+      "increment": 61,
+      "attempt_token": "2",
+      "unsuccessful": false,
+      "step_time": 0.151,
+      "dt": 0.0009268
+    },
+    {
+      "step": 1,
+      "increment": 62,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.153,
+      "dt": 0.00139
+    },
+    {
+      "step": 1,
+      "increment": 63,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.155,
+      "dt": 0.002085
+    },
+    {
+      "step": 1,
+      "increment": 64,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.158,
+      "dt": 0.003128
+    },
+    {
+      "step": 1,
+      "increment": 65,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.163,
+      "dt": 0.004692
+    },
+    {
+      "step": 1,
+      "increment": 66,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.17,
+      "dt": 0.007038
+    },
+    {
+      "step": 1,
+      "increment": 67,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.18,
+      "dt": 0.01056
+    },
+    {
+      "step": 1,
+      "increment": 68,
+      "attempt_token": "1U",
+      "unsuccessful": true,
+      "step_time": 0.18,
+      "dt": 0.01584
+    },
+    {
+      "step": 1,
+      "increment": 68,
+      "attempt_token": "2U",
+      "unsuccessful": true,
+      "step_time": 0.18,
+      "dt": 0.003959
+    },
+    {
+      "step": 1,
+      "increment": 68,
+      "attempt_token": "3",
+      "unsuccessful": false,
+      "step_time": 0.181,
+      "dt": 0.0009897
+    },
+    {
+      "step": 1,
+      "increment": 69,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.183,
+      "dt": 0.001485
+    },
+    {
+      "step": 1,
+      "increment": 70,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.185,
+      "dt": 0.002227
+    },
+    {
+      "step": 1,
+      "increment": 71,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.188,
+      "dt": 0.00334
+    },
+    {
+      "step": 1,
+      "increment": 72,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.193,
+      "dt": 0.00501
+    },
+    {
+      "step": 1,
+      "increment": 73,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.201,
+      "dt": 0.007516
+    },
+    {
+      "step": 1,
+      "increment": 74,
+      "attempt_token": "1U",
+      "unsuccessful": true,
+      "step_time": 0.201,
+      "dt": 0.01127
+    },
+    {
+      "step": 1,
+      "increment": 74,
+      "attempt_token": "2U",
+      "unsuccessful": true,
+      "step_time": 0.201,
+      "dt": 0.002818
+    },
+    {
+      "step": 1,
+      "increment": 74,
+      "attempt_token": "3",
+      "unsuccessful": false,
+      "step_time": 0.201,
+      "dt": 0.0007046
+    },
+    {
+      "step": 1,
+      "increment": 75,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.203,
+      "dt": 0.001057
+    },
+    {
+      "step": 1,
+      "increment": 76,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.204,
+      "dt": 0.001585
+    },
+    {
+      "step": 1,
+      "increment": 77,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.207,
+      "dt": 0.002378
+    },
+    {
+      "step": 1,
+      "increment": 78,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.21,
+      "dt": 0.003567
+    },
+    {
+      "step": 1,
+      "increment": 79,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.215,
+      "dt": 0.005351
+    },
+    {
+      "step": 1,
+      "increment": 80,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.223,
+      "dt": 0.008026
+    },
+    {
+      "step": 1,
+      "increment": 81,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.235,
+      "dt": 0.01204
+    },
+    {
+      "step": 1,
+      "increment": 82,
+      "attempt_token": "1U",
+      "unsuccessful": true,
+      "step_time": 0.235,
+      "dt": 0.01204
+    },
+    {
+      "step": 1,
+      "increment": 82,
+      "attempt_token": "2",
+      "unsuccessful": false,
+      "step_time": 0.238,
+      "dt": 0.00301
+    },
+    {
+      "step": 1,
+      "increment": 83,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.242,
+      "dt": 0.00301
+    },
+    {
+      "step": 1,
+      "increment": 84,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.246,
+      "dt": 0.004514
+    },
+    {
+      "step": 1,
+      "increment": 85,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.253,
+      "dt": 0.006772
+    },
+    {
+      "step": 1,
+      "increment": 86,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.263,
+      "dt": 0.01016
+    },
+    {
+      "step": 1,
+      "increment": 87,
+      "attempt_token": "1U",
+      "unsuccessful": true,
+      "step_time": 0.263,
+      "dt": 0.01524
+    },
+    {
+      "step": 1,
+      "increment": 87,
+      "attempt_token": "2U",
+      "unsuccessful": true,
+      "step_time": 0.263,
+      "dt": 0.003809
+    },
+    {
+      "step": 1,
+      "increment": 87,
+      "attempt_token": "3",
+      "unsuccessful": false,
+      "step_time": 0.264,
+      "dt": 0.0009523
+    },
+    {
+      "step": 1,
+      "increment": 88,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.265,
+      "dt": 0.0009523
+    },
+    {
+      "step": 1,
+      "increment": 89,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.266,
+      "dt": 0.0009523
+    },
+    {
+      "step": 1,
+      "increment": 90,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.267,
+      "dt": 0.001428
+    },
+    {
+      "step": 1,
+      "increment": 91,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.269,
+      "dt": 0.002143
+    },
+    {
+      "step": 1,
+      "increment": 92,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.273,
+      "dt": 0.003214
+    },
+    {
+      "step": 1,
+      "increment": 93,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.277,
+      "dt": 0.004821
+    },
+    {
+      "step": 1,
+      "increment": 94,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.285,
+      "dt": 0.007231
+    },
+    {
+      "step": 1,
+      "increment": 95,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.295,
+      "dt": 0.01085
+    },
+    {
+      "step": 1,
+      "increment": 96,
+      "attempt_token": "1U",
+      "unsuccessful": true,
+      "step_time": 0.295,
+      "dt": 0.01627
+    },
+    {
+      "step": 1,
+      "increment": 96,
+      "attempt_token": "2U",
+      "unsuccessful": true,
+      "step_time": 0.295,
+      "dt": 0.004068
+    },
+    {
+      "step": 1,
+      "increment": 96,
+      "attempt_token": "3",
+      "unsuccessful": false,
+      "step_time": 0.297,
+      "dt": 0.001017
+    },
+    {
+      "step": 1,
+      "increment": 97,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.298,
+      "dt": 0.001525
+    },
+    {
+      "step": 1,
+      "increment": 98,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.3,
+      "dt": 0.002288
+    },
+    {
+      "step": 1,
+      "increment": 99,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.304,
+      "dt": 0.003432
+    },
+    {
+      "step": 1,
+      "increment": 100,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.309,
+      "dt": 0.005148
+    },
+    {
+      "step": 1,
+      "increment": 101,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.317,
+      "dt": 0.007722
+    },
+    {
+      "step": 1,
+      "increment": 102,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.328,
+      "dt": 0.01158
+    },
+    {
+      "step": 1,
+      "increment": 103,
+      "attempt_token": "1U",
+      "unsuccessful": true,
+      "step_time": 0.328,
+      "dt": 0.01737
+    },
+    {
+      "step": 1,
+      "increment": 103,
+      "attempt_token": "2",
+      "unsuccessful": false,
+      "step_time": 0.333,
+      "dt": 0.004344
+    },
+    {
+      "step": 1,
+      "increment": 104,
+      "attempt_token": "1U",
+      "unsuccessful": true,
+      "step_time": 0.333,
+      "dt": 0.006516
+    },
+    {
+      "step": 1,
+      "increment": 104,
+      "attempt_token": "2",
+      "unsuccessful": false,
+      "step_time": 0.334,
+      "dt": 0.001629
+    },
+    {
+      "step": 1,
+      "increment": 105,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.337,
+      "dt": 0.002443
+    },
+    {
+      "step": 1,
+      "increment": 106,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.34,
+      "dt": 0.003665
+    },
+    {
+      "step": 1,
+      "increment": 107,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.346,
+      "dt": 0.005498
+    },
+    {
+      "step": 1,
+      "increment": 108,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.354,
+      "dt": 0.008246
+    },
+    {
+      "step": 1,
+      "increment": 109,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.366,
+      "dt": 0.01237
+    },
+    {
+      "step": 1,
+      "increment": 110,
+      "attempt_token": "1U",
+      "unsuccessful": true,
+      "step_time": 0.366,
+      "dt": 0.01855
+    },
+    {
+      "step": 1,
+      "increment": 110,
+      "attempt_token": "2",
+      "unsuccessful": false,
+      "step_time": 0.371,
+      "dt": 0.004639
+    },
+    {
+      "step": 1,
+      "increment": 111,
+      "attempt_token": "1U",
+      "unsuccessful": true,
+      "step_time": 0.371,
+      "dt": 0.006958
+    },
+    {
+      "step": 1,
+      "increment": 111,
+      "attempt_token": "2U",
+      "unsuccessful": true,
+      "step_time": 0.371,
+      "dt": 0.001739
+    },
+    {
+      "step": 1,
+      "increment": 111,
+      "attempt_token": "3",
+      "unsuccessful": false,
+      "step_time": 0.371,
+      "dt": 0.0004349
+    },
+    {
+      "step": 1,
+      "increment": 112,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.372,
+      "dt": 0.0006523
+    },
+    {
+      "step": 1,
+      "increment": 113,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.373,
+      "dt": 0.0009784
+    },
+    {
+      "step": 1,
+      "increment": 114,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.375,
+      "dt": 0.001468
+    },
+    {
+      "step": 1,
+      "increment": 115,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.377,
+      "dt": 0.002201
+    },
+    {
+      "step": 1,
+      "increment": 116,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.38,
+      "dt": 0.003302
+    },
+    {
+      "step": 1,
+      "increment": 117,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.385,
+      "dt": 0.004953
+    },
+    {
+      "step": 1,
+      "increment": 118,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.392,
+      "dt": 0.00743
+    },
+    {
+      "step": 1,
+      "increment": 119,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.404,
+      "dt": 0.01115
+    },
+    {
+      "step": 1,
+      "increment": 120,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.42,
+      "dt": 0.01672
+    },
+    {
+      "step": 1,
+      "increment": 121,
+      "attempt_token": "1U",
+      "unsuccessful": true,
+      "step_time": 0.42,
+      "dt": 0.02508
+    },
+    {
+      "step": 1,
+      "increment": 121,
+      "attempt_token": "2U",
+      "unsuccessful": true,
+      "step_time": 0.42,
+      "dt": 0.006269
+    },
+    {
+      "step": 1,
+      "increment": 121,
+      "attempt_token": "3",
+      "unsuccessful": false,
+      "step_time": 0.422,
+      "dt": 0.001567
+    },
+    {
+      "step": 1,
+      "increment": 122,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.424,
+      "dt": 0.002351
+    },
+    {
+      "step": 1,
+      "increment": 123,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.428,
+      "dt": 0.003526
+    },
+    {
+      "step": 1,
+      "increment": 124,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.433,
+      "dt": 0.00529
+    },
+    {
+      "step": 1,
+      "increment": 125,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.441,
+      "dt": 0.007934
+    },
+    {
+      "step": 1,
+      "increment": 126,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.453,
+      "dt": 0.0119
+    },
+    {
+      "step": 1,
+      "increment": 127,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.471,
+      "dt": 0.01785
+    },
+    {
+      "step": 1,
+      "increment": 128,
+      "attempt_token": "1U",
+      "unsuccessful": true,
+      "step_time": 0.471,
+      "dt": 0.02678
+    },
+    {
+      "step": 1,
+      "increment": 128,
+      "attempt_token": "2U",
+      "unsuccessful": true,
+      "step_time": 0.471,
+      "dt": 0.006695
+    },
+    {
+      "step": 1,
+      "increment": 128,
+      "attempt_token": "3",
+      "unsuccessful": false,
+      "step_time": 0.472,
+      "dt": 0.001674
+    },
+    {
+      "step": 1,
+      "increment": 129,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.475,
+      "dt": 0.00251
+    },
+    {
+      "step": 1,
+      "increment": 130,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.479,
+      "dt": 0.003766
+    },
+    {
+      "step": 1,
+      "increment": 131,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.484,
+      "dt": 0.005649
+    },
+    {
+      "step": 1,
+      "increment": 132,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.493,
+      "dt": 0.008473
+    },
+    {
+      "step": 1,
+      "increment": 133,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.506,
+      "dt": 0.01271
+    },
+    {
+      "step": 1,
+      "increment": 134,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.525,
+      "dt": 0.01906
+    },
+    {
+      "step": 1,
+      "increment": 135,
+      "attempt_token": "1U",
+      "unsuccessful": true,
+      "step_time": 0.525,
+      "dt": 0.0286
+    },
+    {
+      "step": 1,
+      "increment": 135,
+      "attempt_token": "2U",
+      "unsuccessful": true,
+      "step_time": 0.525,
+      "dt": 0.007149
+    },
+    {
+      "step": 1,
+      "increment": 135,
+      "attempt_token": "3",
+      "unsuccessful": false,
+      "step_time": 0.526,
+      "dt": 0.001787
+    },
+    {
+      "step": 1,
+      "increment": 136,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.528,
+      "dt": 0.001787
+    },
+    {
+      "step": 1,
+      "increment": 137,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.53,
+      "dt": 0.001787
+    },
+    {
+      "step": 1,
+      "increment": 138,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.533,
+      "dt": 0.002681
+    },
+    {
+      "step": 1,
+      "increment": 139,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.537,
+      "dt": 0.004021
+    },
+    {
+      "step": 1,
+      "increment": 140,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.543,
+      "dt": 0.006032
+    },
+    {
+      "step": 1,
+      "increment": 141,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.552,
+      "dt": 0.009048
+    },
+    {
+      "step": 1,
+      "increment": 142,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.565,
+      "dt": 0.01357
+    },
+    {
+      "step": 1,
+      "increment": 143,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.586,
+      "dt": 0.02036
+    },
+    {
+      "step": 1,
+      "increment": 144,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.606,
+      "dt": 0.02036
+    },
+    {
+      "step": 1,
+      "increment": 145,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.626,
+      "dt": 0.02036
+    },
+    {
+      "step": 1,
+      "increment": 146,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.647,
+      "dt": 0.02036
+    },
+    {
+      "step": 1,
+      "increment": 147,
+      "attempt_token": "1U",
+      "unsuccessful": true,
+      "step_time": 0.647,
+      "dt": 0.03054
+    },
+    {
+      "step": 1,
+      "increment": 147,
+      "attempt_token": "2U",
+      "unsuccessful": true,
+      "step_time": 0.647,
+      "dt": 0.007634
+    },
+    {
+      "step": 1,
+      "increment": 147,
+      "attempt_token": "3",
+      "unsuccessful": false,
+      "step_time": 0.649,
+      "dt": 0.001909
+    },
+    {
+      "step": 1,
+      "increment": 148,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.652,
+      "dt": 0.002863
+    },
+    {
+      "step": 1,
+      "increment": 149,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.656,
+      "dt": 0.004294
+    },
+    {
+      "step": 1,
+      "increment": 150,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.662,
+      "dt": 0.006441
+    },
+    {
+      "step": 1,
+      "increment": 151,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.672,
+      "dt": 0.009662
+    },
+    {
+      "step": 1,
+      "increment": 152,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.686,
+      "dt": 0.01449
+    },
+    {
+      "step": 1,
+      "increment": 153,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.708,
+      "dt": 0.02174
+    },
+    {
+      "step": 1,
+      "increment": 154,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.741,
+      "dt": 0.03261
+    },
+    {
+      "step": 1,
+      "increment": 155,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.773,
+      "dt": 0.03261
+    },
+    {
+      "step": 1,
+      "increment": 156,
+      "attempt_token": "1U",
+      "unsuccessful": true,
+      "step_time": 0.773,
+      "dt": 0.03261
+    },
+    {
+      "step": 1,
+      "increment": 156,
+      "attempt_token": "2",
+      "unsuccessful": false,
+      "step_time": 0.782,
+      "dt": 0.008152
+    },
+    {
+      "step": 1,
+      "increment": 157,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.79,
+      "dt": 0.008152
+    },
+    {
+      "step": 1,
+      "increment": 158,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.802,
+      "dt": 0.01223
+    },
+    {
+      "step": 1,
+      "increment": 159,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.82,
+      "dt": 0.01834
+    },
+    {
+      "step": 1,
+      "increment": 160,
+      "attempt_token": "1U",
+      "unsuccessful": true,
+      "step_time": 0.82,
+      "dt": 0.02751
+    },
+    {
+      "step": 1,
+      "increment": 160,
+      "attempt_token": "2U",
+      "unsuccessful": true,
+      "step_time": 0.82,
+      "dt": 0.006878
+    },
+    {
+      "step": 1,
+      "increment": 160,
+      "attempt_token": "3",
+      "unsuccessful": false,
+      "step_time": 0.822,
+      "dt": 0.00172
+    },
+    {
+      "step": 1,
+      "increment": 161,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.825,
+      "dt": 0.002579
+    },
+    {
+      "step": 1,
+      "increment": 162,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.828,
+      "dt": 0.003869
+    },
+    {
+      "step": 1,
+      "increment": 163,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.834,
+      "dt": 0.005804
+    },
+    {
+      "step": 1,
+      "increment": 164,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.843,
+      "dt": 0.008706
+    },
+    {
+      "step": 1,
+      "increment": 165,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.856,
+      "dt": 0.01306
+    },
+    {
+      "step": 1,
+      "increment": 166,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.876,
+      "dt": 0.01959
+    },
+    {
+      "step": 1,
+      "increment": 167,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.905,
+      "dt": 0.02938
+    },
+    {
+      "step": 1,
+      "increment": 168,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 0.949,
+      "dt": 0.04407
+    },
+    {
+      "step": 1,
+      "increment": 169,
+      "attempt_token": "1",
+      "unsuccessful": false,
+      "step_time": 1.0,
+      "dt": 0.05099
+    }
+  ]
+}

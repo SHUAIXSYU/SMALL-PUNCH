@@ -1,0 +1,14 @@
+{
+  "task_id": "a4b4805f-4989-4168-a54a-3bbf435b52a6",
+  "role": "CAE",
+  "source": "CAE/Models/Sanity/Job-1.inp",
+  "source_sha256": "b2aac48af9529db28873c19f047f479c63ed247884f9bdc5fd7bccd5763305cc",
+  "candidate": "run/run_008/artifacts/candidate_inp/SPIO_R008_Q200_N010_Candidate/SPIO_R008_Q200_N010_Candidate.inp",
+  "candidate_sha256": "fa2de5d73a28536c1c07cd22072d2a24c1ae988c569127d728931c583457f05a",
+  "generator": "inverse/hollomon.py",
+  "verification_script": "run/run_010/artifacts/cae/verify_candidate_inp.py",
+  "method": "Read-only SHA-256, exact regenerated plastic table, full source-plus-fragment reconstruction, and static material/path checks",
+  "attempt01": "run/run_010/artifacts/cae/verification_attempt01.json; false negative from comment-boundary check, preserved before correction",
+  "abaqus_parser": "Prior run_008 parser result only; not rerun here",
+  "science_status": "WARNING: candidate interpretation, no experimental or fresh solver validation"
+}

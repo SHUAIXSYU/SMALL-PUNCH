@@ -37,7 +37,7 @@ Git 仓库名称为 **SMALL-PUNCH**，研究项目名称为 **SP-InvOpt**。当�
 | 计算环境 | Python 导入和 Abaqus 版本查询记录 | 许可证、求解器及正向模型检查 |
 | 研究图示 | 原创 SPT SVG 和拟议工作流 | 与真实试验系统核对 |
 | 反演优化 | 数学契约和评价问题 | 参数化、目标函数及 Grid/DE/BO 实现 |
-| Agentic CAE、代理模型与 RL | 接口与研究方案 | 实现及受控验证 |
+| Agentic CAE、代理模型与 RL | run_008 已建立项目内 MAIN/CAE/ODB AgentHub，并检查候选 INP 与只读 AbqJobPilot/ODB 接口 | 核实 Settings、另行授权单次 Solver 验证，再开展优化与 RL |
 
 run_001 基础架构和 run_002 文档记录均保留 **WARNING**。文件/环境检查不等于 CAE 或物理验证。证据见[当前状态](status/PROJECT_STATUS.md)与 [Run 索引](run/README.md)；项目不宣称已有性能改善或经过验证的材料结果。
 
@@ -61,7 +61,7 @@ run_001 记录的环境为 **Python 3.11.13**，以及 NumPy、SciPy、Pandas、
 
 ## 研究工作流
 
-**拟议架构：计算环节尚未完成集成。**
+**研究流程：Solver/优化闭环尚未集成。run_008 已建立项目内角色协作基础。**
 
 ```mermaid
 flowchart TB
@@ -96,7 +96,7 @@ flowchart TB
     VALID --> OUT
 ```
 
-Agentic CAE 是可靠执行层，负责参数更新、预检查、调度、监控、ODB 提取、失败诊断与溯源。核心通道是可复现模型和结构化接口，而不是由 LLM 直接控制 GUI。[AbqJobPilot](https://github.com/BrunelXian/AbqJobPilot) 是潜在外部运行器，目前未核验适配器或集成。[架构契约](docs/Research_Architecture.md)区分了规划接口与已实现能力。
+Agentic CAE 目标是负责参数更新、预检查、调度、监控、ODB 提取、失败诊断与溯源。run_008 已实现独立的 MAIN/CAE/ODB SQLite Hub，生成并解析一个候选 INP，并连接稳定版 AbqJobPilot v0.2.2 的只读 MCP 工具；其 Queue 和 History 仍为空。由于本机及新 Project 缺少 Settings，未调用 preflight/dry-run，也未运行 Solver 或 datacheck。该基础设施不等同于已验证的正向/反演流程。详见 [run_008 记录](run/run_008/summary.md) 与[架构契约](docs/Research_Architecture.md)。
 
 初始目标是在统一位移坐标上比较实验与仿真力：
 

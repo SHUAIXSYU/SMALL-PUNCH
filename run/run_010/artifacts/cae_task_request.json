@@ -1,0 +1,31 @@
+{
+  "run_id": "run_010",
+  "objective": "Verify existing candidate Hollomon INP in the real CAE Codex session",
+  "expected_codex_thread_id": "01a15d5e-a3ad-75f1-b53c-ac6a12c21c48",
+  "inp": "run/run_008/artifacts/candidate_inp/SPIO_R008_Q200_N010_Candidate/SPIO_R008_Q200_N010_Candidate.inp",
+  "expected_sha256": "fa2de5d73a28536c1c07cd22072d2a24c1ae988c569127d728931c583457f05a",
+  "parameters": {
+    "sigma_y_MPa": 200,
+    "n": 0.1,
+    "E_GPa": 210,
+    "nu": 0.3,
+    "max_plastic_strain": 0.9
+  },
+  "science_status": "candidate true-total-strain interpretation; not experimentally validated",
+  "allowed": [
+    "read existing INP and generator",
+    "validate materials, path, hash and structural consistency",
+    "write CAE evidence under run/run_010/artifacts/cae",
+    "register artifacts and finish task in existing Hub"
+  ],
+  "forbidden": [
+    "solver",
+    "datacheck",
+    "enqueue",
+    "modify original models",
+    "simulate CAE worker",
+    "commit",
+    "push"
+  ],
+  "coordination": "MAIN audits AbqJobPilot actual Settings and runs public preflight/dry-run only if fully verified. CAE independently verifies INP and reports evidence; no guessing resource settings."
+}

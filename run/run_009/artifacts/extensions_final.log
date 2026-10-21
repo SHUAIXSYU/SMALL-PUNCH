@@ -1,0 +1,13 @@
+test_agenthub_maintenance_identity_has_no_research_authority (__main__.RuntimeExtensionTests.test_agenthub_maintenance_identity_has_no_research_authority) ... ok
+test_artifact_version_is_explicit_and_stable (__main__.RuntimeExtensionTests.test_artifact_version_is_explicit_and_stable) ... ok
+test_cli_failure_diagnostics_roundtrip (__main__.RuntimeExtensionTests.test_cli_failure_diagnostics_roundtrip) ... ok
+test_dependency_change_conflicts_with_task_key (__main__.RuntimeExtensionTests.test_dependency_change_conflicts_with_task_key) ... ok
+test_failure_diagnosis_persists_without_zero_error (__main__.RuntimeExtensionTests.test_failure_diagnosis_persists_without_zero_error) ... ok
+test_message_dedup_cannot_change_sender_or_recipient (__main__.RuntimeExtensionTests.test_message_dedup_cannot_change_sender_or_recipient) ... ok
+test_recovery_requires_main_and_explicit_approval (__main__.RuntimeExtensionTests.test_recovery_requires_main_and_explicit_approval) ... ok
+test_same_role_but_not_task_holder_cannot_record_evidence_or_message (__main__.RuntimeExtensionTests.test_same_role_but_not_task_holder_cannot_record_evidence_or_message) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 2.060s
+
+OK

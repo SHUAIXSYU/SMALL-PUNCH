@@ -1,0 +1,70 @@
+{
+  "run_id": "run_008",
+  "status": "WARNING",
+  "local_process_handoff": "PASS",
+  "task_states": [
+    {
+      "task_id": "82cb5d8b-1911-4628-bee5-471d4a719c57",
+      "assigned_role": "CAE",
+      "kind": "candidate_inp_generation",
+      "execution_state": "COMPLETED",
+      "evidence_state": "RECORDED",
+      "science_state": "WARNING",
+      "generation": 1
+    },
+    {
+      "task_id": "34db579c-c1b8-4e17-b4d8-89fd5dbb55ed",
+      "assigned_role": "ODB",
+      "kind": "historical_odb_interface_regression",
+      "execution_state": "COMPLETED",
+      "evidence_state": "RECORDED",
+      "science_state": "NOT_EVALUATED",
+      "generation": 1
+    },
+    {
+      "task_id": "470f07c8-46ee-45b4-95db-ba569516dc8e",
+      "assigned_role": "CAE",
+      "kind": "candidate_inp_verification",
+      "execution_state": "COMPLETED",
+      "evidence_state": "RECORDED",
+      "science_state": "WARNING",
+      "generation": 1
+    }
+  ],
+  "agenthub_counts": {
+    "agents": 7,
+    "sessions": 9,
+    "tasks": 3,
+    "dependencies": 2,
+    "approvals": 2,
+    "messages": 12,
+    "message_receipts": 7,
+    "artifacts": 6,
+    "events": 39
+  },
+  "agenthub_event_chain_valid": true,
+  "main_received_cae_verification": true,
+  "odb_interface_status": "PASS_INTERFACE_ONLY",
+  "odb_is_historical_only": true,
+  "candidate_inp_parse": "PASS_ABAQUS_INPUT_PARSE",
+  "candidate_inp_sha256": "fa2de5d73a28536c1c07cd22072d2a24c1ae988c569127d728931c583457f05a",
+  "abqjobpilot_project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+  "abqjobpilot_version": "0.2.2",
+  "mcp_tool_names": [
+    "abq_job_status",
+    "abq_list_jobs",
+    "abq_locate_outputs",
+    "abq_preflight",
+    "abq_prepare_enqueue"
+  ],
+  "mcp_readonly_queue_history_status_outputs_connected": true,
+  "abqjobpilot_queue_sha256": "7858c86b0fb9951d2e597e9db75bbbb6636790c77da481833be53060c0e3c787",
+  "abqjobpilot_queue_empty": true,
+  "settings": "UNKNOWN; both global and Project Settings absent",
+  "preflight": "NOT_INVOKED_SETTINGS_UNKNOWN",
+  "dry_run_enqueue": "NOT_INVOKED_SETTINGS_UNKNOWN",
+  "queue_write": "NOT_PERFORMED",
+  "solver_or_datacheck": "NOT_PERFORMED",
+  "cross_codex_session_delivery": "NOT_VERIFIED; manual Handoff retained",
+  "science": "WARNING / NOT_EVALUATED; no experimental or candidate-solve validation"
+}

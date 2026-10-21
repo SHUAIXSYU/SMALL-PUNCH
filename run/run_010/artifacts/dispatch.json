@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-10-21T16:02:46.825355+08:00",
+  "identity": {
+    "agent_id": "MAIN:codex-01a15d5d-c7b5-7f92-8211-56647eb48cbb-run010",
+    "session_id": "ee127927-9be4-4297-8fc9-86e8fe34907d",
+    "role": "MAIN"
+  },
+  "task": {
+    "task_id": "a4b4805f-4989-4168-a54a-3bbf435b52a6",
+    "created_by": "MAIN:codex-01a15d5d-c7b5-7f92-8211-56647eb48cbb-run010",
+    "assigned_role": "CAE",
+    "kind": "verify_inp",
+    "payload": "{\"allowed\":[\"read existing INP and generator\",\"validate materials, path, hash and structural consistency\",\"write CAE evidence under run/run_010/artifacts/cae\",\"register artifacts and finish task in existing Hub\"],\"coordination\":\"MAIN audits AbqJobPilot actual Settings and runs public preflight/dry-run only if fully verified. CAE independently verifies INP and reports evidence; no guessing resource settings.\",\"expected_codex_thread_id\":\"01a15d5e-a3ad-75f1-b53c-ac6a12c21c48\",\"expected_sha256\":\"fa2de5d73a28536c1c07cd22072d2a24c1ae988c569127d728931c583457f05a\",\"forbidden\":[\"solver\",\"datacheck\",\"enqueue\",\"modify original models\",\"simulate CAE worker\",\"commit\",\"push\"],\"inp\":\"run/run_008/artifacts/candidate_inp/SPIO_R008_Q200_N010_Candidate/SPIO_R008_Q200_N010_Candidate.inp\",\"objective\":\"Verify existing candidate Hollomon INP in the real CAE Codex session\",\"parameters\":{\"E_GPa\":210,\"max_plastic_strain\":0.9,\"n\":0.1,\"nu\":0.3,\"sigma_y_MPa\":200},\"run_id\":\"run_010\",\"science_status\":\"candidate true-total-strain interpretation; not experimentally validated\"}",
+    "idempotency_key": "run010-real-cae-verify-r008-v1",
+    "execution_state": "PENDING",
+    "evidence_state": "NONE",
+    "science_state": "NOT_EVALUATED",
+    "revision": 1,
+    "lease_agent": null,
+    "lease_session": null,
+    "lease_token": null,
+    "lease_until": null,
+    "generation": 0,
+    "result": null
+  },
+  "message": {
+    "message_id": "43d1105a-d7d8-4351-bb33-fa0373e681e5",
+    "task_id": "a4b4805f-4989-4168-a54a-3bbf435b52a6",
+    "sender": "MAIN:codex-01a15d5d-c7b5-7f92-8211-56647eb48cbb-run010",
+    "recipient_role": "CAE",
+    "direction": "OUTBOX",
+    "idempotency_key": "run010-main-cae-assignment-v1",
+    "body": "{\"request\":\"Read task payload, claim from your real CAE Codex session, maintain heartbeat, register evidence and finish. Main awaits persistent result.\",\"task_id\":\"a4b4805f-4989-4168-a54a-3bbf435b52a6\",\"type\":\"TASK_ASSIGNED\"}",
+    "created": 1792569767.1157453
+  },
+  "audit_hash_chain_valid": true
+}

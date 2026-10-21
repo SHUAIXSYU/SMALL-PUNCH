@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "application": "abqjobpilot",
+  "application_version": "0.2.2",
+  "automation_surface": "1.0",
+  "capabilities": {
+    "preflight": true,
+    "enqueue": true,
+    "enqueue_folder": true,
+    "list": true,
+    "status": true,
+    "locate_outputs": true,
+    "project_list": true,
+    "project_create": true,
+    "project_show": true,
+    "project_update": true,
+    "project_register": true,
+    "project_unregister": true,
+    "project_settings_read": true,
+    "project_export": true,
+    "project_import": true,
+    "job_list": true,
+    "job_show": true,
+    "solver_start": false,
+    "project_delete": false
+  }
+}

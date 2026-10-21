@@ -1,0 +1,26 @@
+{
+  "status": "WARNING",
+  "run_id": "run_014",
+  "task_id": "93322987-9489-47c1-908a-dd43e0736339",
+  "main_reconciliation_task_id": "b082d706-fe59-432f-9541-c050edb998ff",
+  "odb_task_id": "35b07ba1-22ad-48a7-b859-2d99199ed419",
+  "queue_id": "q_4c0358a918a7447d807d2f547d22c7b8",
+  "job_name": "SPIO_R014_Q200_N010",
+  "datacheck": "PASS",
+  "full_analysis": "COMPLETED_WITH_WARNINGS",
+  "duration_sec": 165,
+  "odb_valid_for_readonly_extraction": true,
+  "odb_agent_completed": true,
+  "metrics": {
+    "end_force_difference_model": -0.07781982421875,
+    "end_force_difference_percent": -0.010295086240120654,
+    "max_abs_curve_difference_model": 13.592201672286876,
+    "rms_curve_difference_model": 6.13378622536611
+  },
+  "peeq_max_saved_frames": 0.6938983201980591,
+  "solver_attempts": 1,
+  "auto_retries": 0,
+  "science_state": "NOT_EVALUATED",
+  "current_authorized_job_finished": true,
+  "further_solver_requires_new_authorization": true
+}

@@ -1,0 +1,76 @@
+{
+  "task_id": "35b07ba1-22ad-48a7-b859-2d99199ed419",
+  "artifacts": [
+    {
+      "name": "report.md",
+      "artifact_id": "85e8435d-493a-4d09-9333-5f0398e1abdb",
+      "sha256": "4d9e5e8a1e281e2b086664a27d5af9ecc9283c5f56eff3a027f1056ab3f04b71"
+    },
+    {
+      "name": "result.json",
+      "artifact_id": "57bd0e2c-6ce8-4ea5-bc22-6a5ac5458c87",
+      "sha256": "692cbb8ab1a1468298aa7139030f7af822653cf12cde3116e86a87b8e91a465b"
+    },
+    {
+      "name": "manifest.json",
+      "artifact_id": "c23c5155-1239-4da9-aa17-8ae02b063188",
+      "sha256": "082cc8e9bcd5988e8c8a32f4a7daa1f13d958cd9ee8cffd5bab7267c78783c98"
+    },
+    {
+      "name": "preflight_read.json",
+      "artifact_id": "38dbe250-e7f4-4b8b-bb36-22e8b4bec933",
+      "sha256": "5d1f827af1f43fbf926dd14b800641c40e7b4a2ea475bc92d2468ddbfd6573dc"
+    },
+    {
+      "name": "diagnostics.json",
+      "artifact_id": "e21f2967-9062-4d04-bbbd-c5b88c9b01f2",
+      "sha256": "d921bba3be977c07a2711e4253b79f7f7fb87a88d1309a31a24d903eb0dbb82d"
+    },
+    {
+      "name": "warning_events.json",
+      "artifact_id": "90a519f3-5ffd-4c9b-b3a8-1c40034b1ccc",
+      "sha256": "8d5622d737699d0eff070a6152a6393c0b63864d92df9977c6617a19976865aa"
+    },
+    {
+      "name": "punch_history_raw.csv",
+      "artifact_id": "e0e58424-a1bd-4bf1-8bca-6ac6afff1df3",
+      "sha256": "5c93d923d98a1c8d9b42c7685270df23635f1e03468f37e1624f3463e5fcc06f"
+    },
+    {
+      "name": "punch_force_displacement.csv",
+      "artifact_id": "8a5c3531-0841-4690-bd8f-398df4f66e3f",
+      "sha256": "6af133606aab305f2d6b9cdb3c49efb4fd33c01cb45d7444dbd384f640a323f0"
+    },
+    {
+      "name": "historical_comparison.csv",
+      "artifact_id": "cb29450f-75ea-4db0-8217-521ac1b6b51b",
+      "sha256": "9c8b881ba43eb75b1b1c66106ca8b83acf209cdc630bc568d30035883647c019"
+    },
+    {
+      "name": "energy_history.csv",
+      "artifact_id": "07d3e14e-16e8-4fff-8a80-87fe3e29a320",
+      "sha256": "01cf9620a69336bf78905f4a7c0a424c84c8adb2f48a74d111d885b6ac00bbe9"
+    },
+    {
+      "name": "peeq_saved_frames.csv",
+      "artifact_id": "bb2d7223-0cf2-4b55-bf8d-a38f89259da4",
+      "sha256": "0e35d7b89d6c30cca77ffa99c5111561cb35059451a1d72bac181d5bae71eeb3"
+    },
+    {
+      "name": "force_displacement_comparison.png",
+      "artifact_id": "7194b16c-ed98-4942-acb3-97d0b94c5e55",
+      "sha256": "ae6c32f3b4559b586b46fb70bb7e68a3969dab8de7593b467e5001f493ccb860"
+    },
+    {
+      "name": "run/run_014/artifacts/solver/SPIO_R014_Q200_N010/SPIO_R014_Q200_N010.odb",
+      "artifact_id": "0dea2958-f654-47dd-80b6-ef24db296c81",
+      "sha256": "1ed3ecb6b2e3e2bfcfc806eb7edfab706b4acc90ec387ac641a81f529d9dd4fd"
+    },
+    {
+      "name": "run/run_008/artifacts/candidate_inp/SPIO_R008_Q200_N010_Candidate/SPIO_R008_Q200_N010_Candidate.inp",
+      "artifact_id": "07db109f-e84e-4d65-a57a-a1207b822ccd",
+      "sha256": "fa2de5d73a28536c1c07cd22072d2a24c1ae988c569127d728931c583457f05a"
+    }
+  ],
+  "audit_chain_valid": true
+}

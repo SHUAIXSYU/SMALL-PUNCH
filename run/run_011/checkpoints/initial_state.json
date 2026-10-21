@@ -1,0 +1,19 @@
+{
+  "observed_at": "2026-10-21T16:21:13.636732+08:00",
+  "branch": "main",
+  "head": "e87aadc9f7074fc4bc127c9ae03afbe9081dabae",
+  "remote": "origin\thttps://github.com/SHUAIXSYU/SMALL-PUNCH.git (fetch)\norigin\thttps://github.com/SHUAIXSYU/SMALL-PUNCH.git (push)",
+  "working_tree": "M .gitignore\n M CAE/Models/Sanity/SP_InvOpt_Sanity_model.cae\n D CAE/Models/Sanity/SP_InvOpt_Sanity_model.rec\n M README.md\n M README.zh-CN.md\n M docs/Agent_File_Communication_Protocol.md\n M docs/Research_Architecture.md\n M run/README.md\n M status/PROJECT_STATUS.md\n?? agenthub_sp_invopt/\n?? docs/Hollomon_Material_Generator.md\n?? inverse/hollomon.py\n?? run/run_007/\n?? run/run_008/\n?? run/run_009/\n?? run/run_010/\n?? run/run_011/\n?? tests/test_hollomon.py",
+  "python": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "python_version": "3.11.13 | packaged by Anaconda, Inc. | (main, Jun  5 2025, 13:03:15) [MSC v.1929 64 bit (AMD64)]",
+  "protected_hashes": {
+    "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\project.json": "06182edaaf91873b9f1480d44e95598beb89051e2f6f1209adf8047360aed54d",
+    "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime\\queue.json": "7858c86b0fb9951d2e597e9db75bbbb6636790c77da481833be53060c0e3c787",
+    "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime\\settings.json": null,
+    "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime\\live_status.json": "4ebfeed9f36a2b62c0eadf20d3bb85a49812729a92fb84e69739cd17fbc6dbb5",
+    "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\project.db": null,
+    "C:\\Users\\wuxia\\.abqjobpilot\\app_settings.json": null,
+    "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_recent_projects.json": "8949ed923c4a4344cb42eec1c7bd6bdc5190d6e4de6423c11436a6373e6dc87d",
+    "C:\\Users\\wuxia\\.abqjobpilot\\installations\\ac9467273d94\\runtime\\settings.json": null
+  }
+}

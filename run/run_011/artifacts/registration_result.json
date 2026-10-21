@@ -1,0 +1,84 @@
+{
+  "observed_at": "2026-10-21T16:21:13.904605+08:00",
+  "status": "PASS",
+  "scope": "Existing Project registration and public API listing; GUI dropdown not visually refreshed",
+  "project_name": "SP-InvOpt run_008 candidate preview",
+  "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+  "project_root": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project",
+  "registry": "C:\\Users\\wuxia\\.abqjobpilot\\recent_projects.json",
+  "default_projects_root": "C:\\Users\\wuxia\\.abqjobpilot\\projects",
+  "app_settings_exists": false,
+  "cause": "run_008 used repository-local recent_file override; GUI uses per-user recent_projects.json",
+  "gui_environment": {
+    "owner": "BOLTZMANN\\wuxia",
+    "entrypoint": "D:\\Projects\\abqjobpilot\\run_gui.py",
+    "window_title": "Agent Command Console",
+    "window_process_id": 28532,
+    "parent_process_id": 19976,
+    "launcher_interpreter": "D:\\Projects\\abqjobpilot_archived\\0.1.0\\.venv\\Scripts\\pythonw.exe",
+    "same_user_and_application_source": true,
+    "note": "Different Python interpreter from Codex, but same application entrypoint and Path.home-based registry; parent/child form one GUI launch."
+  },
+  "validation_before": {
+    "schema_version": "1.0",
+    "status": "OK",
+    "project": {
+      "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+      "name": "SP-InvOpt run_008 candidate preview",
+      "description": "Independent SP-InvOpt Project for run_008 preview and evidence. No Solver or Queue execution authorized.",
+      "path": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project",
+      "schema_version": "1.0",
+      "created_at": "2026-10-21T15:34:52",
+      "updated_at": "2026-10-21T15:34:52",
+      "runtime_dir": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime",
+      "database_exists": false,
+      "job_count": null,
+      "run_count": null,
+      "artifact_reference_count": null,
+      "queue": {
+        "queued": 0,
+        "running": 0,
+        "total_records": 0
+      }
+    },
+    "errors": [],
+    "warnings": [],
+    "error_details": []
+  },
+  "queue_valid": true,
+  "queue_count": 0,
+  "register_result": {
+    "schema_version": "1.0",
+    "status": "PROJECT_REGISTERED",
+    "project": {
+      "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+      "name": "SP-InvOpt run_008 candidate preview",
+      "description": "Independent SP-InvOpt Project for run_008 preview and evidence. No Solver or Queue execution authorized.",
+      "path": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project",
+      "schema_version": "1.0",
+      "created_at": "2026-10-21T15:34:52",
+      "updated_at": "2026-10-21T15:34:52",
+      "runtime_dir": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime",
+      "database_exists": false
+    },
+    "errors": [],
+    "warnings": [],
+    "error_details": []
+  },
+  "matching_recent_entries": [
+    {
+      "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+      "name": "SP-InvOpt run_008 candidate preview",
+      "path": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project",
+      "exists": true,
+      "schema_version": "1.0",
+      "last_opened_at": "2026-10-21T16:21:13"
+    }
+  ],
+  "prior_recent_entries_preserved": true,
+  "protected_files_unchanged": true,
+  "queue_sha256": "7858c86b0fb9951d2e597e9db75bbbb6636790c77da481833be53060c0e3c787",
+  "solver_started": false,
+  "queue_written": false,
+  "settings_written": false
+}

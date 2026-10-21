@@ -1,0 +1,410 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_014",
+  "stage": "First authorised Hollomon forward validation",
+  "objective": "One exact candidate, one queue job, user GUI Runner start, then real ODB handoff",
+  "status": "WARNING",
+  "execution_state": "SOLVER_COMPLETED_WITH_WARNINGS / ODB_COMPLETED / MAIN_RECONCILED",
+  "start_time": "2026-10-21T22:11:42.5486259+08:00",
+  "end_time": "2026-10-21T22:25:38.893779+08:00",
+  "time_notes": "All local event times use Asia/Shanghai UTC+08:00; computation duration is the observed native Runner value.",
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "git_head": "e87aadc9f7074fc4bc127c9ae03afbe9081dabae",
+  "git_branch": "main",
+  "inputs": [
+    {
+      "path": "run/run_008/artifacts/candidate_inp/SPIO_R008_Q200_N010_Candidate/SPIO_R008_Q200_N010_Candidate.inp",
+      "sha256": "fa2de5d73a28536c1c07cd22072d2a24c1ae988c569127d728931c583457f05a",
+      "role": "unchanged authorised candidate"
+    },
+    {
+      "path": "agenthub_sp_invopt/abqjobpilot_project/project.json",
+      "role": "exact Project identity"
+    },
+    {
+      "path": "agenthub_sp_invopt/abqjobpilot_project/runtime/settings.json",
+      "role": "PERSISTED settings"
+    },
+    {
+      "path": "run/run_013/artifacts/verification_result.json",
+      "role": "prior input identity and settings evidence"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_014/artifacts/admission.json",
+      "role": "admission"
+    },
+    {
+      "path": "run/run_014/artifacts/admission_before_enqueue.json",
+      "role": "admission_before_enqueue"
+    },
+    {
+      "path": "run/run_014/artifacts/agenthub_receipt.json",
+      "role": "agenthub_receipt"
+    },
+    {
+      "path": "run/run_014/artifacts/authorization.json",
+      "role": "authorization"
+    },
+    {
+      "path": "run/run_014/artifacts/codex_delivery_dispatch.json",
+      "role": "codex_delivery_dispatch"
+    },
+    {
+      "path": "run/run_014/artifacts/coordinate_once.py",
+      "role": "coordinate_once"
+    },
+    {
+      "path": "run/run_014/artifacts/enqueue_response.json",
+      "role": "enqueue_response"
+    },
+    {
+      "path": "run/run_014/artifacts/enqueue_result.json",
+      "role": "enqueue_result"
+    },
+    {
+      "path": "run/run_014/artifacts/final_agenthub_receipt.json",
+      "role": "final_agenthub_receipt"
+    },
+    {
+      "path": "run/run_014/artifacts/final_result.json",
+      "role": "final_result"
+    },
+    {
+      "path": "run/run_014/artifacts/finalize_report.py",
+      "role": "finalize_report"
+    },
+    {
+      "path": "run/run_014/artifacts/main_received_odb.json",
+      "role": "main_received_odb"
+    },
+    {
+      "path": "run/run_014/artifacts/main_reconciliation.json",
+      "role": "main_reconciliation"
+    },
+    {
+      "path": "run/run_014/artifacts/manifest.json",
+      "role": "manifest"
+    },
+    {
+      "path": "run/run_014/artifacts/observe_job.py",
+      "role": "observe_job"
+    },
+    {
+      "path": "run/run_014/artifacts/odb/analyze_results.py",
+      "role": "analyze_results"
+    },
+    {
+      "path": "run/run_014/artifacts/odb/diagnostics.json",
+      "role": "diagnostics"
+    },
+    {
+      "path": "run/run_014/artifacts/odb/energy_history.csv",
+      "role": "energy_history"
+    },
+    {
+      "path": "run/run_014/artifacts/odb/extract_readonly.py",
+      "role": "extract_readonly"
+    },
+    {
+      "path": "run/run_014/artifacts/odb/finalize_odb.py",
+      "role": "finalize_odb"
+    },
+    {
+      "path": "run/run_014/artifacts/odb/force_displacement_comparison.png",
+      "role": "force_displacement_comparison"
+    },
+    {
+      "path": "run/run_014/artifacts/odb/historical_comparison.csv",
+      "role": "historical_comparison"
+    },
+    {
+      "path": "run/run_014/artifacts/odb/hub_receipt.json",
+      "role": "hub_receipt"
+    },
+    {
+      "path": "run/run_014/artifacts/odb/manifest.json",
+      "role": "manifest"
+    },
+    {
+      "path": "run/run_014/artifacts/odb/peeq_saved_frames.csv",
+      "role": "peeq_saved_frames"
+    },
+    {
+      "path": "run/run_014/artifacts/odb/preflight_read.json",
+      "role": "preflight_read"
+    },
+    {
+      "path": "run/run_014/artifacts/odb/preflight_read.py",
+      "role": "preflight_read"
+    },
+    {
+      "path": "run/run_014/artifacts/odb/punch_force_displacement.csv",
+      "role": "punch_force_displacement"
+    },
+    {
+      "path": "run/run_014/artifacts/odb/punch_history_raw.csv",
+      "role": "punch_history_raw"
+    },
+    {
+      "path": "run/run_014/artifacts/odb/report.md",
+      "role": "report"
+    },
+    {
+      "path": "run/run_014/artifacts/odb/result.json",
+      "role": "result"
+    },
+    {
+      "path": "run/run_014/artifacts/odb/warning_events.json",
+      "role": "warning_events"
+    },
+    {
+      "path": "run/run_014/artifacts/odb_handoff.json",
+      "role": "odb_handoff"
+    },
+    {
+      "path": "run/run_014/artifacts/outputs_after_enqueue.json",
+      "role": "outputs_after_enqueue"
+    },
+    {
+      "path": "run/run_014/artifacts/post_solver_process_scan.json",
+      "role": "post_solver_process_scan"
+    },
+    {
+      "path": "run/run_014/artifacts/process_exit_recheck.json",
+      "role": "process_exit_recheck"
+    },
+    {
+      "path": "run/run_014/artifacts/queue_after_enqueue.json",
+      "role": "queue_after_enqueue"
+    },
+    {
+      "path": "run/run_014/artifacts/real_odb_claim_observed.json",
+      "role": "real_odb_claim_observed"
+    },
+    {
+      "path": "run/run_014/artifacts/reconcile_odb_result.py",
+      "role": "reconcile_odb_result"
+    },
+    {
+      "path": "run/run_014/artifacts/record_solver_and_dispatch.py",
+      "role": "record_solver_and_dispatch"
+    },
+    {
+      "path": "run/run_014/artifacts/request.json",
+      "role": "request"
+    },
+    {
+      "path": "run/run_014/artifacts/solver_terminal_result.json",
+      "role": "solver_terminal_result"
+    },
+    {
+      "path": "run/run_014/artifacts/status_after_enqueue.json",
+      "role": "status_after_enqueue"
+    },
+    {
+      "path": "run/run_014/artifacts/write_run_record.py",
+      "role": "write_run_record"
+    },
+    {
+      "path": "run/run_014/artifacts/solver/SPIO_R014_Q200_N010/SPIO_R014_Q200_N010.odb",
+      "role": "odb_path"
+    },
+    {
+      "path": "run/run_014/artifacts/solver/SPIO_R014_Q200_N010/SPIO_R014_Q200_N010.sta",
+      "role": "sta_path"
+    },
+    {
+      "path": "run/run_014/artifacts/solver/SPIO_R014_Q200_N010/SPIO_R014_Q200_N010.msg",
+      "role": "msg_path"
+    },
+    {
+      "path": "run/run_014/artifacts/solver/SPIO_R014_Q200_N010/SPIO_R014_Q200_N010.dat",
+      "role": "dat_path"
+    },
+    {
+      "path": "run/run_014/artifacts/solver/SPIO_R014_Q200_N010/SPIO_R014_Q200_N010.log",
+      "role": "log_path"
+    }
+  ],
+  "validation": [
+    {
+      "check": "Hard admission",
+      "status": "PASS",
+      "evidence": "run/run_014/artifacts/admission_before_enqueue.json",
+      "scope": "Project, persisted settings, input hash/dependencies, empty queue, owner/process/output absence, preflight/dry-run"
+    },
+    {
+      "check": "Single enqueue",
+      "status": "PASS",
+      "evidence": "run/run_014/artifacts/queue_after_enqueue.json",
+      "scope": "One queue record, explicit resource/phase/output fields, no start"
+    },
+    {
+      "check": "AgentHub evidence",
+      "status": "PASS",
+      "evidence": "run/run_014/artifacts/agenthub_receipt.json",
+      "scope": "Exact task-scoped approvals, nine artifact records, MAIN message receipt and hash chain"
+    },
+    {
+      "check": "Datacheck and Full Analysis",
+      "status": "WARNING",
+      "evidence": "run/run_014/artifacts/solver_terminal_result.json",
+      "scope": "Both return0; one attempt; successful terminal state with warnings"
+    },
+    {
+      "check": "Real ODB extraction and delivery",
+      "status": "PASS",
+      "evidence": "run/run_014/artifacts/main_received_odb.json",
+      "scope": "Real ODB session completed; MAIN persisted message receipt"
+    },
+    {
+      "check": "Independent evidence reconciliation",
+      "status": "PASS",
+      "evidence": "run/run_014/artifacts/main_reconciliation.json",
+      "scope": "14 Hub artifact hashes, full ODB manifest, source/output integrity, independent numeric comparison"
+    }
+  ],
+  "errors": [
+    {
+      "code": "TERMINAL_LIVE_SCHEMA_ASSUMPTION",
+      "severity": "INFO",
+      "message": "Read-only collector attempt01 lacked live process_identity at terminal state.",
+      "evidence": "run/run_014/artifacts/private/terminal_collector_attempt01.txt",
+      "resolution": "Resolved by reading native persistent phase evidence; no solver retry."
+    },
+    {
+      "code": "NATIVE_FULL_PROCESS_IDENTITY_GAP",
+      "severity": "WARNING",
+      "message": "Native aggregate remains UNCONFIRMED for transient PID14320.",
+      "evidence": "run/run_014/artifacts/solver_terminal_result.json",
+      "resolution": "Historical gap retained; independent present read safety and actual readOnly extraction passed."
+    },
+    {
+      "code": "ODB_EXPORT_ATTEMPT01_FAILED",
+      "severity": "INFO",
+      "message": "Abaqus Repository .get() unsupported during initial read-only export.",
+      "evidence": "run/run_014/artifacts/odb/private/extraction_attempt01.json",
+      "resolution": "ODB Agent preserved failure and corrected second read-only export; no solver retry."
+    }
+  ],
+  "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+  "task_id": "93322987-9489-47c1-908a-dd43e0736339",
+  "queue_id": "q_4c0358a918a7447d807d2f547d22c7b8",
+  "job_name": "SPIO_R014_Q200_N010",
+  "working_dir": "run/run_014/artifacts/solver/SPIO_R014_Q200_N010",
+  "max_jobs": 1,
+  "max_attempts": 1,
+  "auto_retries": 0,
+  "cpus": 14,
+  "gpus": 0,
+  "run_datacheck": true,
+  "run_full": true,
+  "datacheck_status": "PASS",
+  "full_analysis_status": "COMPLETED_WITH_WARNINGS",
+  "duration_sec": 165,
+  "odb_exists": true,
+  "odb_valid": "PASS_FOR_SPECIFIED_READONLY_EXTRACTION",
+  "odb_agent_status": "COMPLETED",
+  "sanity_comparison": {
+    "end_force_difference_model": -0.07781982421875,
+    "end_force_difference_percent": -0.010295086240120654,
+    "max_abs_curve_difference_model": 13.592201672286876,
+    "rms_curve_difference_model": 6.13378622536611
+  },
+  "numerical_warnings": {
+    "sta_completed": true,
+    "log_completed": true,
+    "accepted_increments": 169,
+    "rejected_attempts": 39,
+    "msg_warning_counts": {
+      "negative_eigenvalue_headers": 4,
+      "large_strain_increment_headers": 25,
+      "plasticity_not_attempted_headers": 2,
+      "excessive_distortion_headers": 2,
+      "zero_moment_headers": 2,
+      "element_distortion_lines": 286,
+      "all_msg_warning_headers": 35,
+      "msg_error_headers": 0
+    },
+    "negative_eigenvalue_or_distortion_events": [
+      {
+        "line": 272,
+        "text": "***WARNING: THE SYSTEM MATRIX HAS 4 NEGATIVE EIGENVALUES.",
+        "attempt": {
+          "increment": 1,
+          "attempt": 1
+        },
+        "sta_unsuccessful": true
+      },
+      {
+        "line": 333,
+        "text": "***WARNING: EXCESSIVE DISTORTION AT A TOTAL OF 49 INTEGRATION POINTS IN SOLID",
+        "attempt": {
+          "increment": 1,
+          "attempt": 1
+        },
+        "sta_unsuccessful": true
+      },
+      {
+        "line": 16345,
+        "text": "***WARNING: THE SYSTEM MATRIX HAS 1 NEGATIVE EIGENVALUES.",
+        "attempt": {
+          "increment": 96,
+          "attempt": 1
+        },
+        "sta_unsuccessful": true
+      },
+      {
+        "line": 24649,
+        "text": "***WARNING: THE SYSTEM MATRIX HAS 5 NEGATIVE EIGENVALUES.",
+        "attempt": {
+          "increment": 147,
+          "attempt": 2
+        },
+        "sta_unsuccessful": true
+      },
+      {
+        "line": 24694,
+        "text": "***WARNING: THE SYSTEM MATRIX HAS 7 NEGATIVE EIGENVALUES.",
+        "attempt": {
+          "increment": 147,
+          "attempt": 2
+        },
+        "sta_unsuccessful": true
+      },
+      {
+        "line": 24940,
+        "text": "***WARNING: EXCESSIVE DISTORTION AT A TOTAL OF 237 INTEGRATION POINTS IN SOLID",
+        "attempt": {
+          "increment": 147,
+          "attempt": 2
+        },
+        "sta_unsuccessful": true
+      }
+    ],
+    "note": "STA U attempts are rejected trial increments; warning context does not prove accepted final mesh quality."
+  },
+  "science_state": "NOT_EVALUATED",
+  "queue_written": true,
+  "solver_started": true,
+  "datacheck_started": true,
+  "settings_written": false,
+  "commit_performed": false,
+  "push_performed": false,
+  "further_authorization_required_for_current_job": false,
+  "further_authorization_required_for_retry_or_additional_job": true,
+  "latest_observation": "run/run_014/checkpoints/observation_20261021T221651064512.json",
+  "odb_safe_to_open": true,
+  "odb_task_id": "35b07ba1-22ad-48a7-b859-2d99199ed419",
+  "main_solver_evidence_task_id": "21e7ccb4-7061-4cdb-ad73-9506ee7c424d",
+  "solver_attempts": 1,
+  "retries": 0,
+  "warnings": [
+    "Native full-phase aggregate process identity remains UNCONFIRMED for one transient child; independent present read safety verified."
+  ],
+  "main_reconciliation_task_id": "b082d706-fe59-432f-9541-c050edb998ff",
+  "scientific_status": "NOT_EVALUATED",
+  "current_authorized_job_finished": true
+}

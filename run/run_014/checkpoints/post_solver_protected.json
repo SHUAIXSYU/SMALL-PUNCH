@@ -1,0 +1,39 @@
+{
+  "observed_at": "2026-10-21T22:20:15.458617+08:00",
+  "hashes": {
+    "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\project.json": "06182edaaf91873b9f1480d44e95598beb89051e2f6f1209adf8047360aed54d",
+    "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\project.db": "5d872c8730943b96ec6564e755ef51ba95aff2e5fadd7eec196b922d7d1352fe",
+    "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime\\settings.json": "3e1529fcb4532df1f024907c7bdeb0c57f94ac72b96f7836aede4cdd3f687984",
+    "E:\\Projects\\SMALL-PUNCH\\run\\run_008\\artifacts\\candidate_inp\\SPIO_R008_Q200_N010_Candidate\\SPIO_R008_Q200_N010_Candidate.inp": "fa2de5d73a28536c1c07cd22072d2a24c1ae988c569127d728931c583457f05a",
+    "E:\\Projects\\SMALL-PUNCH\\inverse\\hollomon.py": "d937664f7fc7f845a9ed7a75a004275bf38d11a1b3f68975a05961adb9b16363",
+    "E:\\Projects\\SMALL-PUNCH\\CAE\\Models\\Sanity\\SP_InvOpt_Sanity_model.cae": "fbc2bc51d7e52ae21c57a7a2ef1f04f3b0a74a23ab732d0f9cc00f9766828153",
+    "C:\\Users\\wuxia\\.abqjobpilot\\recent_projects.json": "da8f7f241b3b0574e18c7dc068642805f7d70cb63726dce4947f66cd365a01f5",
+    "C:\\Users\\wuxia\\.abqjobpilot\\app_settings.json": "5d388f2d83514cbef831d6d85f192c211b4c1c984e35518be6ab278c366958bf",
+    "E:\\Projects\\SMALL-PUNCH\\run\\run_013\\run.json": "cc19aa2d094b49535c445219bfd6979eeb32ac95928c64cbb038ce4fc2600b43",
+    "E:\\Projects\\SMALL-PUNCH\\run\\run_013\\artifacts\\agenthub_receipt.json": "3eddaaf2c6dafc0b8cca8b918c4d56a7a03527bedc4fcbb66152252e4b796780",
+    "E:\\Projects\\SMALL-PUNCH\\run\\run_013\\artifacts\\capabilities.json": "bc3c0c71dba28b014087fa19b05b28e7f1e1f31cdedb6cbeff6eb566e36bd653",
+    "E:\\Projects\\SMALL-PUNCH\\run\\run_013\\artifacts\\dry_run.json": "c726dc7f763c4c0a22da0c3644ff1c2779a6faf23516b2ae909e7547b648db76",
+    "E:\\Projects\\SMALL-PUNCH\\run\\run_013\\artifacts\\manifest.json": "a36715fcb935c8cd2f6d74d7f5c4b04e11ec9af7d021821f7a6e5a582f2bf576",
+    "E:\\Projects\\SMALL-PUNCH\\run\\run_013\\artifacts\\preflight.json": "9cbe5a3ba22a47e3a4117469bf89932838d40274e18196ba0326c4db975eff0a",
+    "E:\\Projects\\SMALL-PUNCH\\run\\run_013\\artifacts\\request.json": "5cdc81b97a1e2183b577445383309ff852d6cc407acd08e2416760795d791e92",
+    "E:\\Projects\\SMALL-PUNCH\\run\\run_013\\artifacts\\run012_blocker_resolution.json": "7c93a36065a4eb38c0837d3ef02d4c29e442550f577fbce5fa3bbb54d4e7088c",
+    "E:\\Projects\\SMALL-PUNCH\\run\\run_013\\artifacts\\settings_api_response.json": "53f4eab6946545e8fe10b6e91a50e1ac5a1b2e76885ac6afa9d8bf44dc5c2ddc",
+    "E:\\Projects\\SMALL-PUNCH\\run\\run_013\\artifacts\\verification_result.json": "8327e484dba1f3b408333d744c6a2e4043574b43abdf0301f3d5cb63b1e8cd3d",
+    "E:\\Projects\\SMALL-PUNCH\\run\\run_013\\artifacts\\private\\lease.json": "bd76be8b1adc7b3f9cfd16e60fc28a8972abeee056466242da25de327a58cd24",
+    "E:\\Projects\\SMALL-PUNCH\\run\\run_013\\checkpoints\\after_checks.json": "bb2fae55fcdea9f39efa956bb2860b4a2fa82c9f355dd72ebd59a50f9444fd0c",
+    "E:\\Projects\\SMALL-PUNCH\\run\\run_013\\checkpoints\\initial_state.json": "07efbd0645d5e3f8ed8b74c5708325e91f87e44c12eb67f6d93c95c5f41741af",
+    "E:\\Projects\\SMALL-PUNCH\\run\\run_013\\checkpoints\\processes_after.json": "c4f8d2e2a8982123877f9333aa5ab1e668533828aaaea8454218fb1425269c3c",
+    "E:\\Projects\\SMALL-PUNCH\\run\\run_013\\checkpoints\\processes_before.json": "94d75e388eada005873bb194744d8ea5feeec187f3f702393938825df6240f00"
+  },
+  "differences": {
+    "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\project.db": {
+      "before": "f084f8d53f1890e0300f16c899f4c32ecd78fc90e353985d5136f4eac6987207",
+      "after": "5d872c8730943b96ec6564e755ef51ba95aff2e5fadd7eec196b922d7d1352fe"
+    },
+    "C:\\Users\\wuxia\\.abqjobpilot\\recent_projects.json": {
+      "before": "c2fddebcc32f82ad13c0bcfab074b97bb6848848f60f2ec0c5db111f9213901b",
+      "after": "da8f7f241b3b0574e18c7dc068642805f7d70cb63726dce4947f66cd365a01f5"
+    }
+  },
+  "expected_runtime_history_change": "Project DB may be created/updated by native Runner as execution history; never directly edited"
+}

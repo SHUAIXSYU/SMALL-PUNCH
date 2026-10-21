@@ -1,0 +1,41 @@
+{
+  "verification_task": {
+    "task_id": "470f07c8-46ee-45b4-95db-ba569516dc8e",
+    "created_by": "MAIN:run_008_verification_controller",
+    "assigned_role": "CAE",
+    "kind": "candidate_inp_verification",
+    "payload": "{\"expected_parser_status\":\"PASS_ABAQUS_INPUT_PARSE\",\"inp\":\"run/run_008/artifacts/candidate_inp/SPIO_R008_Q200_N010_Candidate/SPIO_R008_Q200_N010_Candidate.inp\",\"scope\":\"static material block, unique job identity and Abaqus 2024 input syntax\"}",
+    "idempotency_key": "run008-candidate-verify-v1",
+    "execution_state": "COMPLETED",
+    "evidence_state": "RECORDED",
+    "science_state": "WARNING",
+    "revision": 3,
+    "lease_agent": "CAE:run_008_cae_verification_worker",
+    "lease_session": "54a52237-4504-4334-8ff3-909c2fd4416c",
+    "lease_token": null,
+    "lease_until": null,
+    "generation": 1,
+    "result": "{\"abaqus_syntax\":\"PASS_ABAQUS_INPUT_PARSE\",\"evidence_status\":\"RECORDED\",\"execution_status\":\"COMPLETED\",\"final_plastic_strain\":0.9,\"input_sha256\":\"fa2de5d73a28536c1c07cd22072d2a24c1ae988c569127d728931c583457f05a\",\"job_name\":\"SPIO_R008_Q200_N010_Candidate\",\"material_rows\":35,\"physical_validation\":\"NOT_PERFORMED\",\"role\":\"CAE\",\"science_status\":\"WARNING\",\"settings\":\"UNKNOWN; AbqJobPilot preflight/dry-run skipped\",\"status\":\"PASS_CAE_CANDIDATE_VERIFY\",\"task_id\":\"470f07c8-46ee-45b4-95db-ba569516dc8e\",\"verification_result_sha256\":\"c6afeffac790371215ff6974ac8e49935b3911c38c80e6de22f4d96967f0745e\"}"
+  },
+  "cae_claim": {
+    "task_id": "470f07c8-46ee-45b4-95db-ba569516dc8e",
+    "claim": "PREVIOUS_CAE_PROCESS_ALREADY_COMPLETED",
+    "agent_id": "CAE:run_008_cae_verification_worker",
+    "session_id": "54a52237-4504-4334-8ff3-909c2fd4416c",
+    "generation": 1
+  },
+  "main_received_verification": [
+    {
+      "message_id": "94ea2bbc-61e1-41a4-9600-992b3a442640",
+      "task_id": "470f07c8-46ee-45b4-95db-ba569516dc8e",
+      "sender": "CAE:run_008_cae_verification_worker",
+      "recipient_role": "MAIN",
+      "direction": "INBOX",
+      "idempotency_key": "run008-verify-result-v1",
+      "body": "{\"abaqus_syntax\":\"PASS_ABAQUS_INPUT_PARSE\",\"evidence_status\":\"RECORDED\",\"execution_status\":\"COMPLETED\",\"final_plastic_strain\":0.9,\"input_sha256\":\"fa2de5d73a28536c1c07cd22072d2a24c1ae988c569127d728931c583457f05a\",\"job_name\":\"SPIO_R008_Q200_N010_Candidate\",\"material_rows\":35,\"physical_validation\":\"NOT_PERFORMED\",\"role\":\"CAE\",\"science_status\":\"WARNING\",\"settings\":\"UNKNOWN; AbqJobPilot preflight/dry-run skipped\",\"status\":\"PASS_CAE_CANDIDATE_VERIFY\",\"task_id\":\"470f07c8-46ee-45b4-95db-ba569516dc8e\",\"verification_result_sha256\":\"c6afeffac790371215ff6974ac8e49935b3911c38c80e6de22f4d96967f0745e\"}",
+      "created": 1792568643.4269023
+    }
+  ],
+  "audit_hash_chain_valid": true,
+  "status": "PASS_CAE_CANDIDATE_VERIFY"
+}

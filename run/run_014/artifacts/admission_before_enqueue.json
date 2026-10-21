@@ -1,0 +1,248 @@
+{
+  "observed_at": "2026-10-21T22:12:48.397364+08:00",
+  "status": "PASS",
+  "capabilities": {
+    "schema_version": "1.0",
+    "application": "abqjobpilot",
+    "application_version": "0.2.2",
+    "automation_surface": "1.0",
+    "capabilities": {
+      "preflight": true,
+      "enqueue": true,
+      "enqueue_folder": true,
+      "list": true,
+      "status": true,
+      "locate_outputs": true,
+      "project_list": true,
+      "project_create": true,
+      "project_show": true,
+      "project_update": true,
+      "project_register": true,
+      "project_unregister": true,
+      "project_settings_read": true,
+      "project_export": true,
+      "project_import": true,
+      "job_list": true,
+      "job_show": true,
+      "solver_start": false,
+      "project_delete": false
+    }
+  },
+  "settings": {
+    "schema_version": "1.0",
+    "status": "PERSISTED",
+    "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+    "project_path": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project",
+    "runtime_dir": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime",
+    "settings_file": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime\\settings.json",
+    "persisted": true,
+    "exists": true,
+    "settings": {
+      "abaqus_cmd": "D:\\ABAQUS2024\\Commands\\abq2024.bat",
+      "default_cpus": 14,
+      "use_gpu": false,
+      "default_gpus": 0,
+      "run_datacheck": true,
+      "run_full": true,
+      "auto_shutdown_enabled": false,
+      "auto_shutdown_idle_minutes": 5
+    },
+    "effective_settings": {
+      "abaqus_cmd": "D:\\ABAQUS2024\\Commands\\abq2024.bat",
+      "default_cpus": 14,
+      "use_gpu": false,
+      "default_gpus": 0,
+      "run_datacheck": true,
+      "run_full": true,
+      "auto_shutdown_enabled": false,
+      "auto_shutdown_idle_minutes": 5
+    },
+    "defaulted_fields": [],
+    "errors": [],
+    "warnings": [],
+    "error_details": []
+  },
+  "source_head": "7012133e7cc0176bb3e56fc24d7154ee3b90bb81",
+  "input_sha256": "fa2de5d73a28536c1c07cd22072d2a24c1ae988c569127d728931c583457f05a",
+  "input_keywords": [
+    "*Assembly, name=Assembly",
+    "*Boundary",
+    "*Contact Output",
+    "*Contact Pair, interaction=prop_punch_specimen_contact, type=SURFACE TO SURFACE",
+    "*Elastic",
+    "*Element Output, directions=YES",
+    "*Element, type=CAX4",
+    "*Elset, elset=_surf_specimen_clamped_bot_S2, internal, generate",
+    "*Elset, elset=_surf_specimen_clamped_top_S4, internal, generate",
+    "*Elset, elset=_surf_specimen_contact_bot_S4, internal, generate",
+    "*Elset, elset=_surf_specimen_contact_top_S2, internal, generate",
+    "*Elset, elset=_surf_specimen_top_S2, internal, generate",
+    "*Elset, elset=_surf_specimen_top_S4, internal, generate",
+    "*Elset, elset=set_specimen_all, generate",
+    "*Elset, elset=set_specimen_clamped, generate",
+    "*Elset, elset=set_specimen_clamped_bot, generate",
+    "*Elset, elset=set_specimen_clamped_top, generate",
+    "*Elset, elset=set_specimen_contact, generate",
+    "*End Assembly",
+    "*End Instance",
+    "*End Part",
+    "*End Step",
+    "*Energy Output",
+    "*Friction, slip tolerance=0.005",
+    "*Heading",
+    "*Instance, name=ASM_SPT, part=part_punch",
+    "*Instance, name=ASM_SPT-1, part=part_specimen",
+    "*Material, name=Q200N01",
+    "*Node",
+    "*Node Output",
+    "*Node Output, nset=ASM_SPT.set_punch_rp",
+    "*Nset, nset=ASM_SPT-RefPt_, internal",
+    "*Nset, nset=set_punch_rp",
+    "*Nset, nset=set_specimen_all, generate",
+    "*Nset, nset=set_specimen_clamped",
+    "*Nset, nset=set_specimen_clamped_bot",
+    "*Nset, nset=set_specimen_clamped_top",
+    "*Nset, nset=set_specimen_contact",
+    "*Output, field",
+    "*Output, history",
+    "*Part, name=part_punch",
+    "*Part, name=part_specimen",
+    "*Plastic",
+    "*Preprint, echo=NO, model=NO, history=NO, contact=NO",
+    "*Restart, write, frequency=0",
+    "*Rigid Body, ref node=ASM_SPT-RefPt_, analytical surface=surf_punch_contact",
+    "*Solid Section, elset=set_specimen_all, material=Q200N01",
+    "*Static",
+    "*Step, name=Step_Punch_Displacement, nlgeom=YES, inc=999999",
+    "*Surface Behavior, pressure-overclosure=HARD",
+    "*Surface Interaction, name=prop_punch_specimen_contact",
+    "*Surface, type=ELEMENT, name=surf_specimen_clamped_bot",
+    "*Surface, type=ELEMENT, name=surf_specimen_clamped_top",
+    "*Surface, type=ELEMENT, name=surf_specimen_contact_bot",
+    "*Surface, type=ELEMENT, name=surf_specimen_contact_top",
+    "*Surface, type=ELEMENT, name=surf_specimen_top",
+    "*Surface, type=SEGMENTS, name=surf_punch_contact"
+  ],
+  "external_dependencies": [],
+  "history": {
+    "schema_version": "1.0",
+    "status": "OK",
+    "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+    "jobs": [],
+    "errors": [],
+    "warnings": [],
+    "error_details": []
+  },
+  "queue": {
+    "schema_version": "1.0",
+    "status": "OK",
+    "jobs": [],
+    "errors": [],
+    "error_details": []
+  },
+  "runner_ownership": {
+    "state": "ABSENT",
+    "metadata": null
+  },
+  "live_status": {
+    "schema_version": "1.0",
+    "phase": "IDLE",
+    "updated_at": "2026-10-21T15:34:52"
+  },
+  "process_observation": {
+    "observed_at": "2026-10-21T22:12:48.395839+08:00",
+    "process_count": 409,
+    "relevant": [],
+    "conflicts": []
+  },
+  "preflight": {
+    "status": "PREVIEW_READY",
+    "job_id": null,
+    "inp_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_008\\artifacts\\candidate_inp\\SPIO_R008_Q200_N010_Candidate\\SPIO_R008_Q200_N010_Candidate.inp",
+    "inp_exists": true,
+    "job_name": "SPIO_R014_Q200_N010",
+    "cpus": 14,
+    "batch": "run_014",
+    "strategy": "Q200_N010",
+    "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_014\\artifacts\\solver\\SPIO_R014_Q200_N010",
+    "expected_odb_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_014\\artifacts\\solver\\SPIO_R014_Q200_N010\\SPIO_R014_Q200_N010.odb",
+    "command_preview": "DATACHECK: cmd.exe /c D:\\ABAQUS2024\\Commands\\abq2024.bat job=SPIO_R014_Q200_N010 input=E:\\Projects\\SMALL-PUNCH\\run\\run_008\\artifacts\\candidate_inp\\SPIO_R008_Q200_N010_Candidate\\SPIO_R008_Q200_N010_Candidate.inp datacheck cpus=14 interactive ask_delete=OFF\nFULL_RUN: cmd.exe /c D:\\ABAQUS2024\\Commands\\abq2024.bat job=SPIO_R014_Q200_N010 input=E:\\Projects\\SMALL-PUNCH\\run\\run_008\\artifacts\\candidate_inp\\SPIO_R008_Q200_N010_Candidate\\SPIO_R008_Q200_N010_Candidate.inp cpus=14 interactive ask_delete=OFF",
+    "errors": [],
+    "warnings": [],
+    "schema_version": "1.0",
+    "error_details": []
+  },
+  "dry_run": {
+    "status": "DRY_RUN_READY",
+    "job_id": null,
+    "queue_file": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime\\queue.json",
+    "command_preview": "DATACHECK: cmd.exe /c D:\\ABAQUS2024\\Commands\\abq2024.bat job=SPIO_R014_Q200_N010 input=E:\\Projects\\SMALL-PUNCH\\run\\run_008\\artifacts\\candidate_inp\\SPIO_R008_Q200_N010_Candidate\\SPIO_R008_Q200_N010_Candidate.inp datacheck cpus=14 interactive ask_delete=OFF\nFULL_RUN: cmd.exe /c D:\\ABAQUS2024\\Commands\\abq2024.bat job=SPIO_R014_Q200_N010 input=E:\\Projects\\SMALL-PUNCH\\run\\run_008\\artifacts\\candidate_inp\\SPIO_R008_Q200_N010_Candidate\\SPIO_R008_Q200_N010_Candidate.inp cpus=14 interactive ask_delete=OFF",
+    "expected_odb_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_014\\artifacts\\solver\\SPIO_R014_Q200_N010\\SPIO_R014_Q200_N010.odb",
+    "queue_only": true,
+    "queue_file_mutated": false,
+    "solver_started": false,
+    "runner_started": false,
+    "gui_required": false,
+    "allowed_mutations": [
+      "runtime/queue.json"
+    ],
+    "forbidden_mutations_detected": false,
+    "runtime_snapshot_before": {
+      "runtime_dir": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime",
+      "queue.json": {
+        "path": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime\\queue.json",
+        "exists": true,
+        "is_dir": false,
+        "size": 46,
+        "mtime_ns": 1792568093005530700
+      },
+      "live_status.json": {
+        "path": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime\\live_status.json",
+        "exists": true,
+        "is_dir": false,
+        "size": 91,
+        "mtime_ns": 1792568093011759600
+      },
+      "reports": {
+        "path": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime\\reports",
+        "exists": true,
+        "is_dir": true,
+        "file_count": 0,
+        "total_size": 0,
+        "mtime_ns": 1792568092988095800
+      }
+    },
+    "runtime_snapshot_after": {
+      "runtime_dir": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime",
+      "queue.json": {
+        "path": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime\\queue.json",
+        "exists": true,
+        "is_dir": false,
+        "size": 46,
+        "mtime_ns": 1792568093005530700
+      },
+      "live_status.json": {
+        "path": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime\\live_status.json",
+        "exists": true,
+        "is_dir": false,
+        "size": 91,
+        "mtime_ns": 1792568093011759600
+      },
+      "reports": {
+        "path": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime\\reports",
+        "exists": true,
+        "is_dir": true,
+        "file_count": 0,
+        "total_size": 0,
+        "mtime_ns": 1792568092988095800
+      }
+    },
+    "errors": [],
+    "warnings": [
+      "Dry-run only; queue.json was not modified."
+    ],
+    "schema_version": "1.0",
+    "error_details": []
+  },
+  "abaqus_command_sha256": "e9bb42ba164b08b57b07828d4b826a4c9d38d82dc070887f2d7cdea6bcefc711"
+}

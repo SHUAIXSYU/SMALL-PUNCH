@@ -1,0 +1,1371 @@
+{
+  "observed_at": "2026-10-21T22:18:11.309194+08:00",
+  "status": "WARNING",
+  "queue_id": "q_4c0358a918a7447d807d2f547d22c7b8",
+  "job_name": "SPIO_R014_Q200_N010",
+  "task_id": "93322987-9489-47c1-908a-dd43e0736339",
+  "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+  "inp_sha256": "fa2de5d73a28536c1c07cd22072d2a24c1ae988c569127d728931c583457f05a",
+  "datacheck": "PASS",
+  "full_analysis": "COMPLETED_WITH_WARNINGS",
+  "final_verdict": "SUCCESS",
+  "return_code": 0,
+  "started_at_local": "2026-10-21T22:13:49",
+  "ended_at_local": "2026-10-21T22:16:34",
+  "time_zone": "Asia/Shanghai UTC+08:00",
+  "duration_sec": 165,
+  "cpus": 14,
+  "gpus": 0,
+  "phase_markers": [
+    "[2026-10-21T22:13:49] START DATACHECK_RUNNING",
+    "[2026-10-21T22:14:25] END DATACHECK_RUNNING return_code=0",
+    "[2026-10-21T22:14:25] START FULL_RUNNING",
+    "[2026-10-21T22:16:33] END FULL_RUNNING return_code=0"
+  ],
+  "solver_attempts": 1,
+  "retries": 0,
+  "odb_exists": true,
+  "odb_safe_to_open": true,
+  "odb_valid": "PENDING_READONLY_ODB_AGENT",
+  "files": [
+    {
+      "path": "run/run_014/artifacts/solver/SPIO_R014_Q200_N010/SPIO_R014_Q200_N010.odb",
+      "role": "odb_path",
+      "sha256": "1ed3ecb6b2e3e2bfcfc806eb7edfab706b4acc90ec387ac641a81f529d9dd4fd",
+      "size": 32418328,
+      "mtime_ns": 1792592192678944100
+    },
+    {
+      "path": "run/run_014/artifacts/solver/SPIO_R014_Q200_N010/SPIO_R014_Q200_N010.sta",
+      "role": "sta_path",
+      "sha256": "a77951fdedc2fde1643578ef5aab083a399b9e4df35dda36be357bde131214c4",
+      "size": 14520,
+      "mtime_ns": 1792592192305113600
+    },
+    {
+      "path": "run/run_014/artifacts/solver/SPIO_R014_Q200_N010/SPIO_R014_Q200_N010.msg",
+      "role": "msg_path",
+      "sha256": "7687526043a10a31ca8a1bde4b278ef39db686b2d7dce59aea7599879017f5a7",
+      "size": 1625862,
+      "mtime_ns": 1792592192305113600
+    },
+    {
+      "path": "run/run_014/artifacts/solver/SPIO_R014_Q200_N010/SPIO_R014_Q200_N010.dat",
+      "role": "dat_path",
+      "sha256": "35ea543e09bd57ae0a08832dd2e371588b0a4d43f2ccbb5d04ad537e0ec69559",
+      "size": 14611,
+      "mtime_ns": 1792592192305113600
+    },
+    {
+      "path": "run/run_014/artifacts/solver/SPIO_R014_Q200_N010/SPIO_R014_Q200_N010.log",
+      "role": "log_path",
+      "sha256": "cd0b85db31e383cec0bad3566500ce785949456226e68e353f3a20eba20dc609",
+      "size": 2399,
+      "mtime_ns": 1792592193940846500
+    }
+  ],
+  "runner_ownership": "ABSENT",
+  "tracked_processes": {
+    "DATACHECK_RUNNING": {
+      "state": "CONFIRMED_EXITED",
+      "reason": "tracked launcher and observed solver candidate exited",
+      "launcher": {
+        "state": "CONFIRMED_EXITED",
+        "pid": 25728
+      },
+      "children": [
+        {
+          "role": "descendant",
+          "state": "CONFIRMED_EXITED",
+          "pid": 10520
+        },
+        {
+          "role": "descendant",
+          "state": "CONFIRMED_EXITED",
+          "pid": 7156
+        },
+        {
+          "role": "descendant",
+          "state": "CONFIRMED_EXITED",
+          "pid": 9204
+        },
+        {
+          "role": "descendant",
+          "state": "CONFIRMED_EXITED",
+          "pid": 3284
+        },
+        {
+          "role": "descendant",
+          "state": "CONFIRMED_EXITED",
+          "pid": 22532
+        },
+        {
+          "role": "descendant",
+          "state": "CONFIRMED_EXITED",
+          "pid": 12748
+        },
+        {
+          "role": "descendant",
+          "state": "CONFIRMED_EXITED",
+          "pid": 19808
+        },
+        {
+          "role": "descendant",
+          "state": "CONFIRMED_EXITED",
+          "pid": 28224
+        },
+        {
+          "role": "descendant",
+          "state": "CONFIRMED_EXITED",
+          "pid": 3956
+        },
+        {
+          "role": "solver_candidate",
+          "state": "CONFIRMED_EXITED",
+          "pid": 25344
+        },
+        {
+          "role": "solver_candidate",
+          "state": "CONFIRMED_EXITED",
+          "pid": 10572
+        }
+      ]
+    },
+    "FULL_RUNNING": {
+      "state": "UNCONFIRMED",
+      "reason": "solver candidate has no executable identity"
+    }
+  },
+  "independent_read_safety": {
+    "observed_at": "2026-10-21T22:18:09.275930+08:00",
+    "known_identity_checks": [
+      {
+        "phase": "DATACHECK_RUNNING",
+        "process": {
+          "pid": 25728,
+          "creation_time_100ns": 134370656292341992,
+          "executable_path": "C:\\Windows\\System32\\cmd.exe",
+          "identity_status": "CONFIRMED",
+          "identity_source": "windows_openprocess_getprocesstimes"
+        },
+        "current_check": {
+          "state": "CONFIRMED_EXITED",
+          "pid": 25728
+        }
+      },
+      {
+        "phase": "DATACHECK_RUNNING",
+        "process": {
+          "pid": 10520,
+          "creation_time_100ns": 134370656292440728,
+          "executable_path": "C:\\Windows\\System32\\conhost.exe",
+          "identity_status": "CONFIRMED",
+          "identity_source": "windows_openprocess_getprocesstimes",
+          "parent_pid": 25728,
+          "observed_parent_creation_time_100ns": 134370656292341992,
+          "role": "descendant",
+          "relationship_source": "windows_toolhelp32_snapshot",
+          "relationship_status": "VERIFIED",
+          "first_observed_at": "2026-10-21T22:13:49",
+          "last_observed_at": "2026-10-21T22:14:24",
+          "exit_verification": {
+            "state": "CONFIRMED_EXITED",
+            "pid": 10520
+          }
+        },
+        "current_check": {
+          "state": "CONFIRMED_EXITED",
+          "pid": 10520
+        }
+      },
+      {
+        "phase": "DATACHECK_RUNNING",
+        "process": {
+          "pid": 7156,
+          "creation_time_100ns": 134370656297594125,
+          "executable_path": "C:\\Windows\\System32\\cmd.exe",
+          "identity_status": "CONFIRMED",
+          "identity_source": "windows_openprocess_getprocesstimes",
+          "parent_pid": 25728,
+          "observed_parent_creation_time_100ns": 134370656292341992,
+          "role": "descendant",
+          "relationship_source": "windows_toolhelp32_snapshot",
+          "relationship_status": "VERIFIED",
+          "first_observed_at": "2026-10-21T22:13:49",
+          "last_observed_at": "2026-10-21T22:13:49",
+          "exit_verification": {
+            "state": "CONFIRMED_EXITED",
+            "pid": 7156
+          }
+        },
+        "current_check": {
+          "state": "CONFIRMED_EXITED",
+          "pid": 7156
+        }
+      },
+      {
+        "phase": "DATACHECK_RUNNING",
+        "process": {
+          "pid": 9204,
+          "creation_time_100ns": 134370656302706172,
+          "executable_path": "C:\\Windows\\System32\\cmd.exe",
+          "identity_status": "CONFIRMED",
+          "identity_source": "windows_openprocess_getprocesstimes",
+          "parent_pid": 25728,
+          "observed_parent_creation_time_100ns": 134370656292341992,
+          "role": "descendant",
+          "relationship_source": "windows_toolhelp32_snapshot",
+          "relationship_status": "VERIFIED",
+          "first_observed_at": "2026-10-21T22:13:50",
+          "last_observed_at": "2026-10-21T22:13:50",
+          "exit_verification": {
+            "state": "CONFIRMED_EXITED",
+            "pid": 9204
+          }
+        },
+        "current_check": {
+          "state": "CONFIRMED_EXITED",
+          "pid": 9204
+        }
+      },
+      {
+        "phase": "DATACHECK_RUNNING",
+        "process": {
+          "pid": 3284,
+          "creation_time_100ns": 134370656307499055,
+          "executable_path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+          "identity_status": "CONFIRMED",
+          "identity_source": "windows_openprocess_getprocesstimes",
+          "parent_pid": 25728,
+          "observed_parent_creation_time_100ns": 134370656292341992,
+          "role": "descendant",
+          "relationship_source": "windows_toolhelp32_snapshot",
+          "relationship_status": "VERIFIED",
+          "first_observed_at": "2026-10-21T22:13:50",
+          "last_observed_at": "2026-10-21T22:13:50",
+          "exit_verification": {
+            "state": "CONFIRMED_EXITED",
+            "pid": 3284
+          }
+        },
+        "current_check": {
+          "state": "CONFIRMED_EXITED",
+          "pid": 3284
+        }
+      },
+      {
+        "phase": "DATACHECK_RUNNING",
+        "process": {
+          "pid": 22532,
+          "creation_time_100ns": 134370656308102071,
+          "executable_path": "D:\\ABAQUS2024\\product\\win_b64\\code\\bin\\SMALauncher.exe",
+          "identity_status": "CONFIRMED",
+          "identity_source": "windows_openprocess_getprocesstimes",
+          "parent_pid": 25728,
+          "observed_parent_creation_time_100ns": 134370656292341992,
+          "role": "descendant",
+          "relationship_source": "windows_toolhelp32_snapshot",
+          "relationship_status": "VERIFIED",
+          "first_observed_at": "2026-10-21T22:13:51",
+          "last_observed_at": "2026-10-21T22:14:24",
+          "exit_verification": {
+            "state": "CONFIRMED_EXITED",
+            "pid": 22532
+          }
+        },
+        "current_check": {
+          "state": "CONFIRMED_EXITED",
+          "pid": 22532
+        }
+      },
+      {
+        "phase": "DATACHECK_RUNNING",
+        "process": {
+          "pid": 12748,
+          "creation_time_100ns": 134370656308706700,
+          "executable_path": "D:\\ABAQUS2024\\product\\win_b64\\code\\bin\\SMAPython.exe",
+          "identity_status": "CONFIRMED",
+          "identity_source": "windows_openprocess_getprocesstimes",
+          "parent_pid": 22532,
+          "observed_parent_creation_time_100ns": 134370656308102071,
+          "role": "descendant",
+          "relationship_source": "windows_toolhelp32_snapshot",
+          "relationship_status": "VERIFIED",
+          "first_observed_at": "2026-10-21T22:13:51",
+          "last_observed_at": "2026-10-21T22:14:24",
+          "exit_verification": {
+            "state": "CONFIRMED_EXITED",
+            "pid": 12748
+          }
+        },
+        "current_check": {
+          "state": "CONFIRMED_EXITED",
+          "pid": 12748
+        }
+      },
+      {
+        "phase": "DATACHECK_RUNNING",
+        "process": {
+          "pid": 19808,
+          "creation_time_100ns": 134370656353657616,
+          "executable_path": "D:\\ABAQUS2024\\product\\win_b64\\code\\bin\\findIPAddress.exe",
+          "identity_status": "CONFIRMED",
+          "identity_source": "windows_openprocess_getprocesstimes",
+          "parent_pid": 12748,
+          "observed_parent_creation_time_100ns": 134370656308706700,
+          "role": "descendant",
+          "relationship_source": "windows_toolhelp32_snapshot",
+          "relationship_status": "VERIFIED",
+          "first_observed_at": "2026-10-21T22:13:55",
+          "last_observed_at": "2026-10-21T22:13:55",
+          "exit_verification": {
+            "state": "CONFIRMED_EXITED",
+            "pid": 19808
+          }
+        },
+        "current_check": {
+          "state": "CONFIRMED_EXITED",
+          "pid": 19808
+        }
+      },
+      {
+        "phase": "DATACHECK_RUNNING",
+        "process": {
+          "pid": 28224,
+          "creation_time_100ns": 134370656463536499,
+          "executable_path": "D:\\ABAQUS2024\\product\\win_b64\\code\\bin\\SMAPython.exe",
+          "identity_status": "CONFIRMED",
+          "identity_source": "windows_openprocess_getprocesstimes",
+          "parent_pid": 12748,
+          "observed_parent_creation_time_100ns": 134370656308706700,
+          "role": "descendant",
+          "relationship_source": "windows_toolhelp32_snapshot",
+          "relationship_status": "VERIFIED",
+          "first_observed_at": "2026-10-21T22:14:06",
+          "last_observed_at": "2026-10-21T22:14:24",
+          "exit_verification": {
+            "state": "CONFIRMED_EXITED",
+            "pid": 28224
+          }
+        },
+        "current_check": {
+          "state": "CONFIRMED_EXITED",
+          "pid": 28224
+        }
+      },
+      {
+        "phase": "DATACHECK_RUNNING",
+        "process": {
+          "pid": 3956,
+          "creation_time_100ns": 134370656467497946,
+          "executable_path": "D:\\ABAQUS2024\\product\\win_b64\\code\\bin\\eliT_DriverLM.exe",
+          "identity_status": "CONFIRMED",
+          "identity_source": "windows_openprocess_getprocesstimes",
+          "parent_pid": 28224,
+          "observed_parent_creation_time_100ns": 134370656463536499,
+          "role": "descendant",
+          "relationship_source": "windows_toolhelp32_snapshot",
+          "relationship_status": "VERIFIED",
+          "first_observed_at": "2026-10-21T22:14:07",
+          "last_observed_at": "2026-10-21T22:14:24",
+          "exit_verification": {
+            "state": "CONFIRMED_EXITED",
+            "pid": 3956
+          }
+        },
+        "current_check": {
+          "state": "CONFIRMED_EXITED",
+          "pid": 3956
+        }
+      },
+      {
+        "phase": "DATACHECK_RUNNING",
+        "process": {
+          "pid": 25344,
+          "creation_time_100ns": 134370656468770084,
+          "executable_path": "D:\\ABAQUS2024\\product\\win_b64\\code\\bin\\pre.exe",
+          "identity_status": "CONFIRMED",
+          "identity_source": "windows_openprocess_getprocesstimes",
+          "parent_pid": 28224,
+          "observed_parent_creation_time_100ns": 134370656463536499,
+          "role": "solver_candidate",
+          "relationship_source": "windows_toolhelp32_snapshot",
+          "relationship_status": "VERIFIED",
+          "first_observed_at": "2026-10-21T22:14:07",
+          "last_observed_at": "2026-10-21T22:14:15",
+          "exit_verification": {
+            "state": "CONFIRMED_EXITED",
+            "pid": 25344
+          }
+        },
+        "current_check": {
+          "state": "CONFIRMED_EXITED",
+          "pid": 25344
+        }
+      },
+      {
+        "phase": "DATACHECK_RUNNING",
+        "process": {
+          "pid": 10572,
+          "creation_time_100ns": 134370656556994845,
+          "executable_path": "D:\\ABAQUS2024\\product\\win_b64\\code\\bin\\standard.exe",
+          "identity_status": "CONFIRMED",
+          "identity_source": "windows_openprocess_getprocesstimes",
+          "parent_pid": 28224,
+          "observed_parent_creation_time_100ns": 134370656463536499,
+          "role": "solver_candidate",
+          "relationship_source": "windows_toolhelp32_snapshot",
+          "relationship_status": "VERIFIED",
+          "first_observed_at": "2026-10-21T22:14:15",
+          "last_observed_at": "2026-10-21T22:14:23",
+          "exit_verification": {
+            "state": "CONFIRMED_EXITED",
+            "pid": 10572
+          }
+        },
+        "current_check": {
+          "state": "CONFIRMED_EXITED",
+          "pid": 10572
+        }
+      },
+      {
+        "phase": "FULL_RUNNING",
+        "process": {
+          "pid": 2004,
+          "creation_time_100ns": 134370656654912629,
+          "executable_path": "C:\\Windows\\System32\\cmd.exe",
+          "identity_status": "CONFIRMED",
+          "identity_source": "windows_openprocess_getprocesstimes"
+        },
+        "current_check": {
+          "state": "CONFIRMED_EXITED",
+          "pid": 2004
+        }
+      },
+      {
+        "phase": "FULL_RUNNING",
+        "process": {
+          "pid": 27096,
+          "creation_time_100ns": 134370656654999716,
+          "executable_path": "C:\\Windows\\System32\\conhost.exe",
+          "identity_status": "CONFIRMED",
+          "identity_source": "windows_openprocess_getprocesstimes",
+          "parent_pid": 2004,
+          "observed_parent_creation_time_100ns": 134370656654912629,
+          "role": "descendant",
+          "relationship_source": "windows_toolhelp32_snapshot",
+          "relationship_status": "VERIFIED",
+          "first_observed_at": "2026-10-21T22:14:25",
+          "last_observed_at": "2026-10-21T22:16:33",
+          "exit_verification": {
+            "state": "CONFIRMED_EXITED",
+            "pid": 27096
+          }
+        },
+        "current_check": {
+          "state": "CONFIRMED_EXITED",
+          "pid": 27096
+        }
+      },
+      {
+        "phase": "FULL_RUNNING",
+        "process": {
+          "pid": 22748,
+          "creation_time_100ns": 134370656660094895,
+          "executable_path": "C:\\Windows\\System32\\cmd.exe",
+          "identity_status": "CONFIRMED",
+          "identity_source": "windows_openprocess_getprocesstimes",
+          "parent_pid": 2004,
+          "observed_parent_creation_time_100ns": 134370656654912629,
+          "role": "descendant",
+          "relationship_source": "windows_toolhelp32_snapshot",
+          "relationship_status": "VERIFIED",
+          "first_observed_at": "2026-10-21T22:14:26",
+          "last_observed_at": "2026-10-21T22:14:26",
+          "exit_verification": {
+            "state": "CONFIRMED_EXITED",
+            "pid": 22748
+          }
+        },
+        "current_check": {
+          "state": "CONFIRMED_EXITED",
+          "pid": 22748
+        }
+      },
+      {
+        "phase": "FULL_RUNNING",
+        "process": {
+          "pid": 12884,
+          "creation_time_100ns": 134370656663869380,
+          "executable_path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+          "identity_status": "CONFIRMED",
+          "identity_source": "windows_openprocess_getprocesstimes",
+          "parent_pid": 2004,
+          "observed_parent_creation_time_100ns": 134370656654912629,
+          "role": "descendant",
+          "relationship_source": "windows_toolhelp32_snapshot",
+          "relationship_status": "VERIFIED",
+          "first_observed_at": "2026-10-21T22:14:26",
+          "last_observed_at": "2026-10-21T22:14:26",
+          "exit_verification": {
+            "state": "CONFIRMED_EXITED",
+            "pid": 12884
+          }
+        },
+        "current_check": {
+          "state": "CONFIRMED_EXITED",
+          "pid": 12884
+        }
+      },
+      {
+        "phase": "FULL_RUNNING",
+        "process": {
+          "pid": 7844,
+          "creation_time_100ns": 134370656667106733,
+          "executable_path": "D:\\ABAQUS2024\\product\\win_b64\\code\\bin\\SMALauncher.exe",
+          "identity_status": "CONFIRMED",
+          "identity_source": "windows_openprocess_getprocesstimes",
+          "parent_pid": 2004,
+          "observed_parent_creation_time_100ns": 134370656654912629,
+          "role": "descendant",
+          "relationship_source": "windows_toolhelp32_snapshot",
+          "relationship_status": "VERIFIED",
+          "first_observed_at": "2026-10-21T22:14:27",
+          "last_observed_at": "2026-10-21T22:16:33",
+          "exit_verification": {
+            "state": "CONFIRMED_EXITED",
+            "pid": 7844
+          }
+        },
+        "current_check": {
+          "state": "CONFIRMED_EXITED",
+          "pid": 7844
+        }
+      },
+      {
+        "phase": "FULL_RUNNING",
+        "process": {
+          "pid": 21032,
+          "creation_time_100ns": 134370656667288409,
+          "executable_path": "D:\\ABAQUS2024\\product\\win_b64\\code\\bin\\SMAPython.exe",
+          "identity_status": "CONFIRMED",
+          "identity_source": "windows_openprocess_getprocesstimes",
+          "parent_pid": 7844,
+          "observed_parent_creation_time_100ns": 134370656667106733,
+          "role": "descendant",
+          "relationship_source": "windows_toolhelp32_snapshot",
+          "relationship_status": "VERIFIED",
+          "first_observed_at": "2026-10-21T22:14:27",
+          "last_observed_at": "2026-10-21T22:16:33",
+          "exit_verification": {
+            "state": "CONFIRMED_EXITED",
+            "pid": 21032
+          }
+        },
+        "current_check": {
+          "state": "CONFIRMED_EXITED",
+          "pid": 21032
+        }
+      },
+      {
+        "phase": "FULL_RUNNING",
+        "process": {
+          "pid": 8672,
+          "creation_time_100ns": 134370656788752889,
+          "executable_path": "D:\\ABAQUS2024\\product\\win_b64\\code\\bin\\SMAPython.exe",
+          "identity_status": "CONFIRMED",
+          "identity_source": "windows_openprocess_getprocesstimes",
+          "parent_pid": 21032,
+          "observed_parent_creation_time_100ns": 134370656667288409,
+          "role": "descendant",
+          "relationship_source": "windows_toolhelp32_snapshot",
+          "relationship_status": "VERIFIED",
+          "first_observed_at": "2026-10-21T22:14:39",
+          "last_observed_at": "2026-10-21T22:16:33",
+          "exit_verification": {
+            "state": "CONFIRMED_EXITED",
+            "pid": 8672
+          }
+        },
+        "current_check": {
+          "state": "CONFIRMED_EXITED",
+          "pid": 8672
+        }
+      },
+      {
+        "phase": "FULL_RUNNING",
+        "process": {
+          "pid": 28740,
+          "creation_time_100ns": 134370656790646041,
+          "executable_path": "D:\\ABAQUS2024\\product\\win_b64\\code\\bin\\eliT_DriverLM.exe",
+          "identity_status": "CONFIRMED",
+          "identity_source": "windows_openprocess_getprocesstimes",
+          "parent_pid": 8672,
+          "observed_parent_creation_time_100ns": 134370656788752889,
+          "role": "descendant",
+          "relationship_source": "windows_toolhelp32_snapshot",
+          "relationship_status": "VERIFIED",
+          "first_observed_at": "2026-10-21T22:14:39",
+          "last_observed_at": "2026-10-21T22:16:33",
+          "exit_verification": {
+            "state": "CONFIRMED_EXITED",
+            "pid": 28740
+          }
+        },
+        "current_check": {
+          "state": "CONFIRMED_EXITED",
+          "pid": 28740
+        }
+      },
+      {
+        "phase": "FULL_RUNNING",
+        "process": {
+          "pid": 30140,
+          "creation_time_100ns": 134370656791269548,
+          "executable_path": "D:\\ABAQUS2024\\product\\win_b64\\code\\bin\\pre.exe",
+          "identity_status": "CONFIRMED",
+          "identity_source": "windows_openprocess_getprocesstimes",
+          "parent_pid": 8672,
+          "observed_parent_creation_time_100ns": 134370656788752889,
+          "role": "solver_candidate",
+          "relationship_source": "windows_toolhelp32_snapshot",
+          "relationship_status": "VERIFIED",
+          "first_observed_at": "2026-10-21T22:14:39",
+          "last_observed_at": "2026-10-21T22:14:45",
+          "exit_verification": {
+            "state": "CONFIRMED_EXITED",
+            "pid": 30140
+          }
+        },
+        "current_check": {
+          "state": "CONFIRMED_EXITED",
+          "pid": 30140
+        }
+      },
+      {
+        "phase": "FULL_RUNNING",
+        "process": {
+          "pid": 22964,
+          "creation_time_100ns": 134370656864041023,
+          "executable_path": "D:\\ABAQUS2024\\product\\win_b64\\code\\bin\\standard.exe",
+          "identity_status": "CONFIRMED",
+          "identity_source": "windows_openprocess_getprocesstimes",
+          "parent_pid": 8672,
+          "observed_parent_creation_time_100ns": 134370656788752889,
+          "role": "solver_candidate",
+          "relationship_source": "windows_toolhelp32_snapshot",
+          "relationship_status": "VERIFIED",
+          "first_observed_at": "2026-10-21T22:14:46",
+          "last_observed_at": "2026-10-21T22:16:32",
+          "exit_verification": {
+            "state": "CONFIRMED_EXITED",
+            "pid": 22964
+          }
+        },
+        "current_check": {
+          "state": "CONFIRMED_EXITED",
+          "pid": 22964
+        }
+      },
+      {
+        "phase": "FULL_RUNNING",
+        "process": {
+          "pid": 28116,
+          "creation_time_100ns": 134370656932113826,
+          "executable_path": "D:\\ABAQUS2024\\product\\win_b64\\code\\bin\\SMAEqsDirSolverSymmetric.exe",
+          "identity_status": "CONFIRMED",
+          "identity_source": "windows_openprocess_getprocesstimes",
+          "parent_pid": 22964,
+          "observed_parent_creation_time_100ns": 134370656864041023,
+          "role": "descendant",
+          "relationship_source": "windows_toolhelp32_snapshot",
+          "relationship_status": "VERIFIED",
+          "first_observed_at": "2026-10-21T22:14:53",
+          "last_observed_at": "2026-10-21T22:16:31",
+          "exit_verification": {
+            "state": "CONFIRMED_EXITED",
+            "pid": 28116
+          }
+        },
+        "current_check": {
+          "state": "CONFIRMED_EXITED",
+          "pid": 28116
+        }
+      }
+    ],
+    "incomplete_historical_identities": [
+      {
+        "phase": "FULL_RUNNING",
+        "process": {
+          "pid": 14320,
+          "identity_status": "UNCONFIRMED",
+          "identity_source": "windows_openprocess",
+          "reason": "process absent",
+          "parent_pid": 21032,
+          "observed_parent_creation_time_100ns": 134370656667288409,
+          "role": "solver_candidate",
+          "relationship_source": "windows_toolhelp32_snapshot",
+          "relationship_status": "UNVERIFIED",
+          "first_observed_at": "2026-10-21T22:14:28",
+          "last_observed_at": "2026-10-21T22:14:28",
+          "exit_verification": {
+            "state": "UNCONFIRMED",
+            "reason": "incomplete process identity"
+          }
+        },
+        "current_pid_absent": true
+      }
+    ],
+    "current_pid_snapshot": [
+      0,
+      4,
+      288,
+      292,
+      328,
+      524,
+      868,
+      996,
+      1060,
+      1288,
+      1320,
+      1344,
+      1460,
+      1468,
+      1528,
+      1532,
+      1556,
+      1576,
+      1616,
+      1628,
+      1720,
+      1776,
+      1796,
+      1804,
+      1852,
+      1912,
+      1948,
+      2024,
+      2044,
+      2056,
+      2080,
+      2088,
+      2092,
+      2112,
+      2276,
+      2304,
+      2352,
+      2364,
+      2420,
+      2424,
+      2432,
+      2444,
+      2452,
+      2568,
+      2640,
+      2668,
+      2696,
+      2712,
+      2772,
+      2784,
+      2820,
+      2856,
+      2884,
+      2916,
+      2944,
+      3040,
+      3092,
+      3152,
+      3192,
+      3308,
+      3312,
+      3396,
+      3424,
+      3432,
+      3484,
+      3488,
+      3496,
+      3500,
+      3620,
+      3660,
+      3672,
+      3740,
+      3820,
+      3824,
+      3892,
+      3900,
+      3948,
+      3980,
+      3984,
+      4044,
+      4068,
+      4128,
+      4212,
+      4252,
+      4280,
+      4372,
+      4472,
+      4580,
+      4716,
+      4724,
+      4776,
+      4796,
+      4856,
+      4952,
+      4972,
+      5096,
+      5104,
+      5112,
+      5124,
+      5144,
+      5168,
+      5180,
+      5192,
+      5204,
+      5228,
+      5252,
+      5360,
+      5388,
+      5396,
+      5404,
+      5444,
+      5476,
+      5496,
+      5508,
+      5536,
+      5576,
+      5592,
+      5600,
+      5672,
+      5760,
+      5812,
+      5848,
+      5868,
+      5932,
+      5964,
+      5996,
+      6104,
+      6124,
+      6320,
+      6380,
+      6508,
+      6808,
+      6868,
+      6920,
+      6936,
+      7036,
+      7052,
+      7088,
+      7284,
+      7336,
+      7340,
+      7428,
+      7444,
+      7468,
+      7572,
+      7652,
+      7696,
+      7984,
+      8000,
+      8060,
+      8092,
+      8284,
+      8524,
+      8592,
+      8600,
+      9064,
+      9272,
+      9284,
+      9300,
+      9348,
+      9576,
+      9588,
+      9940,
+      9948,
+      10000,
+      10016,
+      10052,
+      10260,
+      10356,
+      10376,
+      10396,
+      10448,
+      10672,
+      10724,
+      10736,
+      11024,
+      11156,
+      11324,
+      11328,
+      11344,
+      11356,
+      11368,
+      11448,
+      11472,
+      11528,
+      11536,
+      11596,
+      11732,
+      11772,
+      11788,
+      11828,
+      11840,
+      11892,
+      11924,
+      11964,
+      11988,
+      11992,
+      12212,
+      12448,
+      12540,
+      12644,
+      12656,
+      13048,
+      13056,
+      13468,
+      13488,
+      13624,
+      13652,
+      13656,
+      13748,
+      13972,
+      13992,
+      14052,
+      14312,
+      14380,
+      14416,
+      14480,
+      14512,
+      14792,
+      14856,
+      15000,
+      15052,
+      15148,
+      15312,
+      15368,
+      15496,
+      15724,
+      15904,
+      15920,
+      15948,
+      16000,
+      16332,
+      16524,
+      16772,
+      16832,
+      16844,
+      16912,
+      16976,
+      17020,
+      17168,
+      17316,
+      17332,
+      17344,
+      17352,
+      17532,
+      17592,
+      17620,
+      17852,
+      18028,
+      18036,
+      18132,
+      18204,
+      18504,
+      18688,
+      18844,
+      18904,
+      18984,
+      19044,
+      19104,
+      19216,
+      19240,
+      19428,
+      19440,
+      19564,
+      19596,
+      19608,
+      19664,
+      19692,
+      19728,
+      19776,
+      19784,
+      19816,
+      19960,
+      20200,
+      20204,
+      20312,
+      20320,
+      20436,
+      20456,
+      20468,
+      20536,
+      20672,
+      20696,
+      20724,
+      20832,
+      20972,
+      21000,
+      21040,
+      21180,
+      21260,
+      21300,
+      21472,
+      21480,
+      21632,
+      21812,
+      22012,
+      22160,
+      22180,
+      22188,
+      22300,
+      22328,
+      22564,
+      22596,
+      22688,
+      22852,
+      23268,
+      23292,
+      23316,
+      23432,
+      23448,
+      23460,
+      23536,
+      23732,
+      23736,
+      23744,
+      23996,
+      24032,
+      24468,
+      24476,
+      24496,
+      24500,
+      24596,
+      24612,
+      24628,
+      24636,
+      24676,
+      24688,
+      24820,
+      24952,
+      24956,
+      25048,
+      25236,
+      25288,
+      25352,
+      25396,
+      25560,
+      25688,
+      25696,
+      25716,
+      25720,
+      25900,
+      26044,
+      26096,
+      26264,
+      26292,
+      26380,
+      26584,
+      26756,
+      26776,
+      26824,
+      26836,
+      26868,
+      27124,
+      27272,
+      27280,
+      27312,
+      27460,
+      27504,
+      27508,
+      27556,
+      27672,
+      27700,
+      27748,
+      27752,
+      27800,
+      27988,
+      28136,
+      28272,
+      28288,
+      28312,
+      28336,
+      28348,
+      28376,
+      28380,
+      28384,
+      28396,
+      28400,
+      28408,
+      28420,
+      28432,
+      28440,
+      28648,
+      28732,
+      28736,
+      28752,
+      28784,
+      28808,
+      28856,
+      28892,
+      28968,
+      28984,
+      29040,
+      29056,
+      29064,
+      29080,
+      29084,
+      29180,
+      29212,
+      29216,
+      29404,
+      29408,
+      29596,
+      29648,
+      29676,
+      29724,
+      29884,
+      30032,
+      30040,
+      30240,
+      30328,
+      30364,
+      30524,
+      30528,
+      30588,
+      30700,
+      30732,
+      30748,
+      30796,
+      30804,
+      30836,
+      30880,
+      31128,
+      31144,
+      31264,
+      31304,
+      31364,
+      31520,
+      31580,
+      31600,
+      31708,
+      31716,
+      31728,
+      31736
+    ],
+    "aggregate_native_status_preserved": {
+      "DATACHECK_RUNNING": {
+        "state": "CONFIRMED_EXITED",
+        "reason": "tracked launcher and observed solver candidate exited",
+        "launcher": {
+          "state": "CONFIRMED_EXITED",
+          "pid": 25728
+        },
+        "children": [
+          {
+            "role": "descendant",
+            "state": "CONFIRMED_EXITED",
+            "pid": 10520
+          },
+          {
+            "role": "descendant",
+            "state": "CONFIRMED_EXITED",
+            "pid": 7156
+          },
+          {
+            "role": "descendant",
+            "state": "CONFIRMED_EXITED",
+            "pid": 9204
+          },
+          {
+            "role": "descendant",
+            "state": "CONFIRMED_EXITED",
+            "pid": 3284
+          },
+          {
+            "role": "descendant",
+            "state": "CONFIRMED_EXITED",
+            "pid": 22532
+          },
+          {
+            "role": "descendant",
+            "state": "CONFIRMED_EXITED",
+            "pid": 12748
+          },
+          {
+            "role": "descendant",
+            "state": "CONFIRMED_EXITED",
+            "pid": 19808
+          },
+          {
+            "role": "descendant",
+            "state": "CONFIRMED_EXITED",
+            "pid": 28224
+          },
+          {
+            "role": "descendant",
+            "state": "CONFIRMED_EXITED",
+            "pid": 3956
+          },
+          {
+            "role": "solver_candidate",
+            "state": "CONFIRMED_EXITED",
+            "pid": 25344
+          },
+          {
+            "role": "solver_candidate",
+            "state": "CONFIRMED_EXITED",
+            "pid": 10572
+          }
+        ]
+      },
+      "FULL_RUNNING": {
+        "state": "UNCONFIRMED",
+        "reason": "solver candidate has no executable identity"
+      }
+    },
+    "scope": "Present read safety only; no recovery/retry authorization; historical incomplete identity remains WARNING",
+    "output_stat_stability_seconds": 2
+  },
+  "public_status": {
+    "status": "COMPLETED",
+    "job_id": "q_4c0358a918a7447d807d2f547d22c7b8",
+    "inp_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_008\\artifacts\\candidate_inp\\SPIO_R008_Q200_N010_Candidate\\SPIO_R008_Q200_N010_Candidate.inp",
+    "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_014\\artifacts\\solver\\SPIO_R014_Q200_N010",
+    "expected_odb_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_014\\artifacts\\solver\\SPIO_R014_Q200_N010\\SPIO_R014_Q200_N010.odb",
+    "odb_exists": true,
+    "lock_exists": false,
+    "status_sources": [
+      "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime\\queue.json"
+    ],
+    "last_log_lines": [
+      "10/21/2026 10:14:24 PM",
+      "End Abaqus/Standard Analysis",
+      "Begin SIM Wrap-up",
+      "10/21/2026 10:14:25 PM",
+      "Run SMASimUtility.exe",
+      "10/21/2026 10:14:25 PM",
+      "End SIM Wrap-up",
+      "Abaqus JOB SPIO_R014_Q200_N010 COMPLETED",
+      "",
+      "[2026-10-21T22:14:25] END DATACHECK_RUNNING return_code=0",
+      "",
+      "[2026-10-21T22:14:25] START FULL_RUNNING",
+      "Command: cmd.exe /c D:\\ABAQUS2024\\Commands\\abq2024.bat job=SPIO_R014_Q200_N010 input=E:\\Projects\\SMALL-PUNCH\\run\\run_008\\artifacts\\candidate_inp\\SPIO_R008_Q200_N010_Candidate\\SPIO_R008_Q200_N010_Candidate.inp cpus=14 interactive ask_delete=OFF",
+      "",
+      "",
+      "E:\\Projects\\SMALL-PUNCH\\run\\run_014\\artifacts\\solver\\SPIO_R014_Q200_N010>call \"D:\\ONEAPI\\compiler\\2022.2.0\\env\\vars.bat\" intel64\tvs2022 ",
+      "Analysis initiated from SIMULIA established products",
+      "Abaqus JOB SPIO_R014_Q200_N010",
+      "Abaqus 2024",
+      "Abaqus License Manager checked out the following licenses:",
+      "Abaqus/Standard checked out 15 tokens from Flexnet server Boltzmann.",
+      "<9984 out of 9999 licenses remain available>.",
+      "Begin Analysis Input File Processor",
+      "10/21/2026 10:14:39 PM",
+      "Run pre.exe",
+      "10/21/2026 10:14:46 PM",
+      "End Analysis Input File Processor",
+      "Begin Abaqus/Standard Analysis",
+      "10/21/2026 10:14:46 PM",
+      "Run standard.exe",
+      "10/21/2026 10:16:32 PM",
+      "End Abaqus/Standard Analysis",
+      "Begin SIM Wrap-up",
+      "10/21/2026 10:16:33 PM",
+      "Run SMASimUtility.exe",
+      "10/21/2026 10:16:33 PM",
+      "End SIM Wrap-up",
+      "Abaqus JOB SPIO_R014_Q200_N010 COMPLETED",
+      "",
+      "[2026-10-21T22:16:33] END FULL_RUNNING return_code=0"
+    ],
+    "errors": [],
+    "warnings": [],
+    "schema_version": "1.0",
+    "error_details": []
+  },
+  "public_outputs": {
+    "job_id": "q_4c0358a918a7447d807d2f547d22c7b8",
+    "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_014\\artifacts\\solver\\SPIO_R014_Q200_N010",
+    "expected_odb_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_014\\artifacts\\solver\\SPIO_R014_Q200_N010\\SPIO_R014_Q200_N010.odb",
+    "odb_exists": true,
+    "lock_exists": false,
+    "log_paths": [
+      "E:\\Projects\\SMALL-PUNCH\\run\\run_014\\artifacts\\solver\\SPIO_R014_Q200_N010\\SPIO_R014_Q200_N010.log",
+      "E:\\Projects\\SMALL-PUNCH\\run\\run_014\\artifacts\\solver\\SPIO_R014_Q200_N010\\SPIO_R014_Q200_N010.sta",
+      "E:\\Projects\\SMALL-PUNCH\\run\\run_014\\artifacts\\solver\\SPIO_R014_Q200_N010\\SPIO_R014_Q200_N010.msg",
+      "E:\\Projects\\SMALL-PUNCH\\run\\run_014\\artifacts\\solver\\SPIO_R014_Q200_N010\\SPIO_R014_Q200_N010.dat"
+    ],
+    "sta_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_014\\artifacts\\solver\\SPIO_R014_Q200_N010\\SPIO_R014_Q200_N010.sta",
+    "msg_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_014\\artifacts\\solver\\SPIO_R014_Q200_N010\\SPIO_R014_Q200_N010.msg",
+    "dat_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_014\\artifacts\\solver\\SPIO_R014_Q200_N010\\SPIO_R014_Q200_N010.dat",
+    "lck_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_014\\artifacts\\solver\\SPIO_R014_Q200_N010\\SPIO_R014_Q200_N010.lck",
+    "path_sources": {
+      "odb_path": "recorded",
+      "sta_path": "recorded",
+      "msg_path": "recorded",
+      "dat_path": "recorded",
+      "log_path": "recorded",
+      "lck_path": "expected"
+    },
+    "errors": [],
+    "warnings": [],
+    "schema_version": "1.0",
+    "error_details": []
+  },
+  "job_record": {
+    "schema_version": "1.0",
+    "queue_id": "q_4c0358a918a7447d807d2f547d22c7b8",
+    "status": "COMPLETED_WITH_WARNINGS",
+    "batch_name": "run_014",
+    "strategy_name": "Q200_N010",
+    "job_name": "SPIO_R014_Q200_N010",
+    "inp_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_008\\artifacts\\candidate_inp\\SPIO_R008_Q200_N010_Candidate\\SPIO_R008_Q200_N010_Candidate.inp",
+    "work_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_014\\artifacts\\solver\\SPIO_R014_Q200_N010",
+    "cpus": 14,
+    "gpus": 0,
+    "run_datacheck": true,
+    "run_full": true,
+    "created_at": "2026-10-21T22:12:48",
+    "started_at": "2026-10-21T22:13:49",
+    "ended_at": "2026-10-21T22:16:34",
+    "duration_sec": 165,
+    "phase": "COMPLETED_WITH_WARNINGS",
+    "return_code": 0,
+    "final_verdict": "SUCCESS",
+    "fatal_reason": "",
+    "warning_count": 38,
+    "odb_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_014\\artifacts\\solver\\SPIO_R014_Q200_N010\\SPIO_R014_Q200_N010.odb",
+    "odb_size_bytes": 32418328,
+    "sta_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_014\\artifacts\\solver\\SPIO_R014_Q200_N010\\SPIO_R014_Q200_N010.sta",
+    "msg_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_014\\artifacts\\solver\\SPIO_R014_Q200_N010\\SPIO_R014_Q200_N010.msg",
+    "dat_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_014\\artifacts\\solver\\SPIO_R014_Q200_N010\\SPIO_R014_Q200_N010.dat",
+    "log_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_014\\artifacts\\solver\\SPIO_R014_Q200_N010\\SPIO_R014_Q200_N010.log",
+    "notes": "run_014; task_id=93322987-9489-47c1-908a-dd43e0736339; project_id=b87d2cd6-8519-4ac3-bae6-7eb989fb2dae; inp_sha256=fa2de5d73a28536c1c07cd22072d2a24c1ae988c569127d728931c583457f05a; max_attempts=1; retries=0; GUI Start Queue only",
+    "process_evidence_path": "reports/process_evidence/q_4c0358a918a7447d807d2f547d22c7b8.json"
+  },
+  "history": {
+    "schema_version": "1.0",
+    "status": "OK",
+    "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+    "jobs": [
+      {
+        "job_id": "j_b319eb74b81a4e9eb739de56b449fba9",
+        "job_name": "SPIO_R014_Q200_N010",
+        "inp_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_008\\artifacts\\candidate_inp\\SPIO_R008_Q200_N010_Candidate\\SPIO_R008_Q200_N010_Candidate.inp",
+        "batch": "run_014",
+        "strategy": "Q200_N010",
+        "latest_status": "COMPLETED",
+        "run_count": 1,
+        "latest_run_id": "r_276986c309024bbdb44892c8177fb22a",
+        "updated_at": null
+      }
+    ],
+    "errors": [],
+    "warnings": [],
+    "error_details": []
+  },
+  "warning_count_abqjobpilot": 38,
+  "fatal_reason": "",
+  "scientific_status": "NOT_EVALUATED",
+  "user_gui_start_confirmed": true
+}

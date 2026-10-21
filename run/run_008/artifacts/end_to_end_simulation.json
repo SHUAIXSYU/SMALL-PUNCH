@@ -1,0 +1,172 @@
+{
+  "simulation": "PASS_LOCAL_PROCESS_HANDOFF_WITH_MANUAL_CODEX_HANDOFF_RETAINED",
+  "task_ids": {
+    "cae": "82cb5d8b-1911-4628-bee5-471d4a719c57",
+    "odb": "34db579c-c1b8-4e17-b4d8-89fd5dbb55ed"
+  },
+  "claims": {
+    "cae": {
+      "identity": {
+        "agent_id": "CAE:run_008_cae_worker",
+        "session_id": "127aaeff-7ea5-4c06-936d-3f0a19de08a6",
+        "role": "CAE"
+      },
+      "messages": [
+        {
+          "message_id": "cd6d1d35-e4e5-417e-a269-7028e42c51f5",
+          "task_id": "82cb5d8b-1911-4628-bee5-471d4a719c57",
+          "sender": "MAIN:run_008_controller",
+          "recipient_role": "CAE",
+          "direction": "INBOX",
+          "idempotency_key": "main-to-cae-v1",
+          "body": "{\"objective\":\"Register and validate the run_008 candidate INP; Abq preview only if verified Settings exist.\"}",
+          "created": 1792568293.977671
+        }
+      ],
+      "task": {
+        "task_id": "82cb5d8b-1911-4628-bee5-471d4a719c57",
+        "kind": "candidate_inp_generation",
+        "payload": "{\"candidate_inp\":\"run/run_008/artifacts/candidate_inp/SPIO_R008_Q200_N010_Candidate/SPIO_R008_Q200_N010_Candidate.inp\",\"job_name\":\"SPIO_R008_Q200_N010_Candidate\",\"settings\":\"UNKNOWN; preflight and dry-run blocked\"}",
+        "execution_state": "PENDING"
+      },
+      "lease": {
+        "task_id": "82cb5d8b-1911-4628-bee5-471d4a719c57",
+        "agent_id": "CAE:run_008_cae_worker",
+        "session_id": "127aaeff-7ea5-4c06-936d-3f0a19de08a6",
+        "token": "f7e6f92e2c004466aa2413a8b4e69e99",
+        "generation": 1,
+        "lease_until": 1792568324.3214724
+      }
+    },
+    "odb": {
+      "identity": {
+        "agent_id": "ODB:run_008_odb_worker",
+        "session_id": "f40d61cc-66c8-4020-81b5-38749c5834cb",
+        "role": "ODB"
+      },
+      "messages": [
+        {
+          "message_id": "53e40f56-6bb8-4c39-9d3c-584b122fd237",
+          "task_id": "34db579c-c1b8-4e17-b4d8-89fd5dbb55ed",
+          "sender": "MAIN:run_008_controller",
+          "recipient_role": "ODB",
+          "direction": "INBOX",
+          "idempotency_key": "main-to-odb-v1",
+          "body": "{\"objective\":\"Verify read-only U2/RF2 history interface on historical Job-1.odb; do not infer candidate response.\"}",
+          "created": 1792568294.469664
+        }
+      ],
+      "task": {
+        "task_id": "34db579c-c1b8-4e17-b4d8-89fd5dbb55ed",
+        "kind": "historical_odb_interface_regression",
+        "payload": "{\"candidate_solve_claim\":false,\"odb\":\"CAE/Models/Sanity/Job-1.odb\",\"purpose\":\"read-only reader API regression only\"}",
+        "execution_state": "PENDING"
+      },
+      "lease": {
+        "task_id": "34db579c-c1b8-4e17-b4d8-89fd5dbb55ed",
+        "agent_id": "ODB:run_008_odb_worker",
+        "session_id": "f40d61cc-66c8-4020-81b5-38749c5834cb",
+        "token": "f84e9f149f20481991ff0fa54312d154",
+        "generation": 1,
+        "lease_until": 1792568324.8285143
+      }
+    }
+  },
+  "main_received_messages": [
+    {
+      "message_id": "ff7d0d84-122c-4dd8-9659-55ad69e62be8",
+      "task_id": "82cb5d8b-1911-4628-bee5-471d4a719c57",
+      "sender": "CAE:run_008_cae_worker",
+      "recipient_role": "MAIN",
+      "direction": "INBOX",
+      "idempotency_key": "cae-to-main-result-v1",
+      "body": "{\"abqjobpilot_project_id\":\"b87d2cd6-8519-4ac3-bae6-7eb989fb2dae\",\"candidate_inp\":\"run/run_008/artifacts/candidate_inp/SPIO_R008_Q200_N010_Candidate/SPIO_R008_Q200_N010_Candidate.inp\",\"dry_run_enqueue\":\"BLOCKED_SETTINGS_UNKNOWN\",\"evidence_status\":\"RECORDED\",\"execution_status\":\"COMPLETED\",\"inp_sha256\":\"fa2de5d73a28536c1c07cd22072d2a24c1ae988c569127d728931c583457f05a\",\"job_name\":\"SPIO_R008_Q200_N010_Candidate\",\"preflight\":\"BLOCKED_SETTINGS_UNKNOWN\",\"queue_write\":\"NOT_AUTHORIZED\",\"role\":\"CAE\",\"science_status\":\"WARNING\",\"solver\":\"NOT_AUTHORIZED\",\"working_directory\":\"run/run_008/artifacts/candidate_inp/SPIO_R008_Q200_N010_Candidate\"}",
+      "created": 1792568294.4250674
+    },
+    {
+      "message_id": "c15cde4a-81c9-44ff-8222-22b7dee07b56",
+      "task_id": "34db579c-c1b8-4e17-b4d8-89fd5dbb55ed",
+      "sender": "ODB:run_008_odb_worker",
+      "recipient_role": "MAIN",
+      "direction": "INBOX",
+      "idempotency_key": "odb-to-main-result-v1",
+      "body": "{\"candidate_solve\":\"NOT_PERFORMED\",\"evidence_status\":\"RECORDED\",\"execution_status\":\"COMPLETED\",\"history_samples\":181,\"interface\":\"PASS_INTERFACE_ONLY\",\"interface_evidence_sha256\":\"757a2d446e0f2f34e8d5dc0a11b5cb1454775da50b03f266693f02b12dc7c212\",\"odb_sha256\":\"612bdc14d02642bf66982a4cb00f8c85a08c98b069fb230f5d430cb8709b3d8f\",\"role\":\"ODB\",\"science_status\":\"NOT_EVALUATED\"}",
+      "created": 1792568295.0370286
+    }
+  ],
+  "cae_result": {
+    "role": "CAE",
+    "execution_status": "COMPLETED",
+    "evidence_status": "RECORDED",
+    "science_status": "WARNING",
+    "candidate_inp": "run/run_008/artifacts/candidate_inp/SPIO_R008_Q200_N010_Candidate/SPIO_R008_Q200_N010_Candidate.inp",
+    "job_name": "SPIO_R008_Q200_N010_Candidate",
+    "working_directory": "run/run_008/artifacts/candidate_inp/SPIO_R008_Q200_N010_Candidate",
+    "inp_sha256": "fa2de5d73a28536c1c07cd22072d2a24c1ae988c569127d728931c583457f05a",
+    "abqjobpilot_project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+    "preflight": "BLOCKED_SETTINGS_UNKNOWN",
+    "dry_run_enqueue": "BLOCKED_SETTINGS_UNKNOWN",
+    "queue_write": "NOT_AUTHORIZED",
+    "solver": "NOT_AUTHORIZED"
+  },
+  "odb_result": {
+    "role": "ODB",
+    "execution_status": "COMPLETED",
+    "evidence_status": "RECORDED",
+    "science_status": "NOT_EVALUATED",
+    "interface": "PASS_INTERFACE_ONLY",
+    "history_samples": 181,
+    "candidate_solve": "NOT_PERFORMED",
+    "odb_sha256": "612bdc14d02642bf66982a4cb00f8c85a08c98b069fb230f5d430cb8709b3d8f",
+    "interface_evidence_sha256": "757a2d446e0f2f34e8d5dc0a11b5cb1454775da50b03f266693f02b12dc7c212"
+  },
+  "task_states": {
+    "cae": {
+      "task_id": "82cb5d8b-1911-4628-bee5-471d4a719c57",
+      "created_by": "MAIN:run_008_controller",
+      "assigned_role": "CAE",
+      "kind": "candidate_inp_generation",
+      "payload": "{\"candidate_inp\":\"run/run_008/artifacts/candidate_inp/SPIO_R008_Q200_N010_Candidate/SPIO_R008_Q200_N010_Candidate.inp\",\"job_name\":\"SPIO_R008_Q200_N010_Candidate\",\"settings\":\"UNKNOWN; preflight and dry-run blocked\"}",
+      "idempotency_key": "run008-candidate-inp-v1",
+      "execution_state": "COMPLETED",
+      "evidence_state": "RECORDED",
+      "science_state": "WARNING",
+      "revision": 3,
+      "lease_agent": "CAE:run_008_cae_worker",
+      "lease_session": "127aaeff-7ea5-4c06-936d-3f0a19de08a6",
+      "lease_token": null,
+      "lease_until": null,
+      "generation": 1,
+      "result": "{\"abqjobpilot_project_id\":\"b87d2cd6-8519-4ac3-bae6-7eb989fb2dae\",\"candidate_inp\":\"run/run_008/artifacts/candidate_inp/SPIO_R008_Q200_N010_Candidate/SPIO_R008_Q200_N010_Candidate.inp\",\"dry_run_enqueue\":\"BLOCKED_SETTINGS_UNKNOWN\",\"evidence_status\":\"RECORDED\",\"execution_status\":\"COMPLETED\",\"inp_sha256\":\"fa2de5d73a28536c1c07cd22072d2a24c1ae988c569127d728931c583457f05a\",\"job_name\":\"SPIO_R008_Q200_N010_Candidate\",\"preflight\":\"BLOCKED_SETTINGS_UNKNOWN\",\"queue_write\":\"NOT_AUTHORIZED\",\"role\":\"CAE\",\"science_status\":\"WARNING\",\"solver\":\"NOT_AUTHORIZED\",\"working_directory\":\"run/run_008/artifacts/candidate_inp/SPIO_R008_Q200_N010_Candidate\"}"
+    },
+    "odb": {
+      "task_id": "34db579c-c1b8-4e17-b4d8-89fd5dbb55ed",
+      "created_by": "MAIN:run_008_controller",
+      "assigned_role": "ODB",
+      "kind": "historical_odb_interface_regression",
+      "payload": "{\"candidate_solve_claim\":false,\"odb\":\"CAE/Models/Sanity/Job-1.odb\",\"purpose\":\"read-only reader API regression only\"}",
+      "idempotency_key": "run008-historical-odb-v1",
+      "execution_state": "COMPLETED",
+      "evidence_state": "RECORDED",
+      "science_state": "NOT_EVALUATED",
+      "revision": 3,
+      "lease_agent": "ODB:run_008_odb_worker",
+      "lease_session": "f40d61cc-66c8-4020-81b5-38749c5834cb",
+      "lease_token": null,
+      "lease_until": null,
+      "generation": 1,
+      "result": "{\"candidate_solve\":\"NOT_PERFORMED\",\"evidence_status\":\"RECORDED\",\"execution_status\":\"COMPLETED\",\"history_samples\":181,\"interface\":\"PASS_INTERFACE_ONLY\",\"interface_evidence_sha256\":\"757a2d446e0f2f34e8d5dc0a11b5cb1454775da50b03f266693f02b12dc7c212\",\"odb_sha256\":\"612bdc14d02642bf66982a4cb00f8c85a08c98b069fb230f5d430cb8709b3d8f\",\"role\":\"ODB\",\"science_status\":\"NOT_EVALUATED\"}"
+    }
+  },
+  "authorization_denials": {
+    "enqueue": "TASK_APPROVAL_REQUIRED:enqueue",
+    "start_solver": "TASK_APPROVAL_REQUIRED:start_solver",
+    "recover_retry": "TASK_APPROVAL_REQUIRED:recover_retry"
+  },
+  "abqjobpilot_queue_sha256_before": "7858c86b0fb9951d2e597e9db75bbbb6636790c77da481833be53060c0e3c787",
+  "abqjobpilot_queue_sha256_after": "7858c86b0fb9951d2e597e9db75bbbb6636790c77da481833be53060c0e3c787",
+  "queue_unchanged": true,
+  "audit_hash_chain_valid": true,
+  "scientific_result": "NOT_EVALUATED",
+  "codex_cross_session_delivery": "NOT_IMPLEMENTED; role polls are tested in real local processes; manual Handoff remains required"
+}

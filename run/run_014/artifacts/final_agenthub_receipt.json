@@ -1,0 +1,18 @@
+{
+  "observed_at": "2026-10-21T22:24:26.014181+08:00",
+  "task_id": "b082d706-fe59-432f-9541-c050edb998ff",
+  "outbox_message_id": "8f3be19f-a1fd-4d26-a840-7a2d7b3ade8b",
+  "inbox_receipts": [
+    {
+      "message_id": "5150a301-1257-42e9-8310-263f54bf491a",
+      "task_id": "b082d706-fe59-432f-9541-c050edb998ff",
+      "sender": "MAIN:codex-main-run014-results",
+      "recipient_role": "MAIN",
+      "direction": "INBOX",
+      "idempotency_key": "run014-final-main-result-v1",
+      "body": "{\"auto_retries\":0,\"current_authorized_job_finished\":true,\"datacheck\":\"PASS\",\"duration_sec\":165,\"full_analysis\":\"COMPLETED_WITH_WARNINGS\",\"further_solver_requires_new_authorization\":true,\"job_name\":\"SPIO_R014_Q200_N010\",\"main_reconciliation_task_id\":\"b082d706-fe59-432f-9541-c050edb998ff\",\"metrics\":{\"end_force_difference_model\":-0.07781982421875,\"end_force_difference_percent\":-0.010295086240120654,\"max_abs_curve_difference_model\":13.592201672286876,\"rms_curve_difference_model\":6.13378622536611},\"odb_agent_completed\":true,\"odb_task_id\":\"35b07ba1-22ad-48a7-b859-2d99199ed419\",\"odb_valid_for_readonly_extraction\":true,\"peeq_max_saved_frames\":0.6938983201980591,\"queue_id\":\"q_4c0358a918a7447d807d2f547d22c7b8\",\"run_id\":\"run_014\",\"science_state\":\"NOT_EVALUATED\",\"solver_attempts\":1,\"status\":\"WARNING\",\"task_id\":\"93322987-9489-47c1-908a-dd43e0736339\"}",
+      "created": 1792592665.9936235
+    }
+  ],
+  "audit_hash_chain_valid": true
+}

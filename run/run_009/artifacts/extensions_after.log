@@ -1,0 +1,9 @@
+test_artifact_version_is_explicit_and_stable (__main__.RuntimeExtensionTests.test_artifact_version_is_explicit_and_stable) ... ok
+test_dependency_change_conflicts_with_task_key (__main__.RuntimeExtensionTests.test_dependency_change_conflicts_with_task_key) ... ok
+test_failure_diagnosis_persists_without_zero_error (__main__.RuntimeExtensionTests.test_failure_diagnosis_persists_without_zero_error) ... ok
+test_recovery_requires_main_and_explicit_approval (__main__.RuntimeExtensionTests.test_recovery_requires_main_and_explicit_approval) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.664s
+
+OK

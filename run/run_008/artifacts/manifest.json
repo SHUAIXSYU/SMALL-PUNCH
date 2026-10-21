@@ -1,0 +1,262 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_008",
+  "generated_at": "2026-10-21T15:50:53.750447+08:00",
+  "artifacts": [
+    {
+      "path": "agenthub_sp_invopt/hub.py",
+      "role": "SQLite role/task/message/approval/evidence ledger implementation",
+      "sha256": "31b9aae2c6c0fd7cb523e8341ea45545444c40f9a5e37ba408842e6597904b64",
+      "publicity": "public"
+    },
+    {
+      "path": "agenthub_sp_invopt/poll.py",
+      "role": "Bounded persistent inbox poller and transactional claim process",
+      "sha256": "0d88be4a198951141579a99a52a8a32c7797ed05df0377c0c11e1c43ffc156ee",
+      "publicity": "public"
+    },
+    {
+      "path": "agenthub_sp_invopt/README.md",
+      "role": "Independent Hub overview and usage",
+      "sha256": "e463e279026dcfe5ab2aa19d9db7b15e6e09cf4597cef460f7d47fbf2d95b6de",
+      "publicity": "public"
+    },
+    {
+      "path": "agenthub_sp_invopt/protocol.md",
+      "role": "Task, message, lease, approval and evidence protocol",
+      "sha256": "616d2f5906f29112406cab886d293f22ec69c79f985cd57188570ecf837c9cb2",
+      "publicity": "public"
+    },
+    {
+      "path": "agenthub_sp_invopt/STARTUP.md",
+      "role": "MAIN, CAE and ODB startup and Handoff instructions",
+      "sha256": "ce55077e93bb1b4cc1c523c983328a73695611ba4a485772f74b14729b7b97a2",
+      "publicity": "public"
+    },
+    {
+      "path": "agenthub_sp_invopt/abqjobpilot_project/project.json",
+      "role": "AbqJobPilot formal Project identity",
+      "sha256": "06182edaaf91873b9f1480d44e95598beb89051e2f6f1209adf8047360aed54d",
+      "publicity": "public"
+    },
+    {
+      "path": "run/run_008/artifacts/generate_candidate_inp.py",
+      "role": "Candidate input generator",
+      "sha256": "10478fab9e8b2880ef1e1d8d2d22eedcf87d5d03224680065aebd7e3f5b6c48d",
+      "publicity": "public"
+    },
+    {
+      "path": "run/run_008/artifacts/candidate_inp/SPIO_R008_Q200_N010_Candidate/SPIO_R008_Q200_N010_Candidate.inp",
+      "role": "Unique candidate INP and isolated job directory; source lineage in ignored private audit",
+      "sha256": "fa2de5d73a28536c1c07cd22072d2a24c1ae988c569127d728931c583457f05a",
+      "publicity": "public"
+    },
+    {
+      "path": "run/run_008/artifacts/validate_candidate_inp.py",
+      "role": "Abaqus input parser syntax validation script",
+      "sha256": "7b0d2a50b56c9f997d64f274355ea2f2f25817b50f1f54096481fc9569b075cf",
+      "publicity": "public"
+    },
+    {
+      "path": "run/run_008/artifacts/candidate_inp_parse.json",
+      "role": "Abaqus 2024 parser result; syntax only",
+      "sha256": "3dced7131841cddb3948e575265d78817f1f9bbfbdf6031b7bf3a75587ac18e8",
+      "publicity": "public"
+    },
+    {
+      "path": "run/run_008/artifacts/read_historical_odb.py",
+      "role": "Abaqus ODB read-only interface regression script",
+      "sha256": "c531571d494d2d437ff3aeebc79d6c14b55575af3b993cc37c84d5a0f7ffcee7",
+      "publicity": "public"
+    },
+    {
+      "path": "run/run_008/artifacts/historical_odb_interface.json",
+      "role": "Historical ODB read-only evidence; not a candidate solve",
+      "sha256": "757a2d446e0f2f34e8d5dc0a11b5cb1454775da50b03f266693f02b12dc7c212",
+      "publicity": "public"
+    },
+    {
+      "path": "run/run_008/artifacts/setup_abq_project.py",
+      "role": "Project creation and public API identity/capability audit script",
+      "sha256": "4f7d311d28d39bbc27ec112e0547d8b0a4f9978c9141823f104d055154210a97",
+      "publicity": "public"
+    },
+    {
+      "path": "run/run_008/artifacts/abqjobpilot_project.json",
+      "role": "Project ID, v0.2.2 capabilities and empty Project Queue record",
+      "sha256": "e9b0ce3c1b5866622543e505bb2b349aa59fcf7be766759dda55b46b1cf70887",
+      "publicity": "public"
+    },
+    {
+      "path": "run/run_008/artifacts/mcp_readonly_audit.py",
+      "role": "MCP stdio read-only audit client",
+      "sha256": "9a4738c5947b42d4feeb01b41717521852a77fec769e9e0399a8b487153781c2",
+      "publicity": "public"
+    },
+    {
+      "path": "run/run_008/artifacts/mcp_readonly_results.json",
+      "role": "MCP tool discovery, status, history, outputs and unchanged queue evidence",
+      "sha256": "4aef9b45eb222f3c052306fc0a1a1bd66eb48d57364394352ceaf07e3b8f92d8",
+      "publicity": "public"
+    },
+    {
+      "path": "run/run_008/artifacts/simulate_handoff.py",
+      "role": "MAIN/CAE/ODB local process collaboration simulation",
+      "sha256": "c67b9324474067bb7c7e4fb55f8e895c5a57c832c3b88fd3bf155f88b9c4f649",
+      "publicity": "public"
+    },
+    {
+      "path": "run/run_008/artifacts/end_to_end_simulation.json",
+      "role": "Structured local task handoff, claims, evidence and authorization results",
+      "sha256": "07c291b6f7249c9390ce28597a74f1575062a13eefb567427fd1192786d1d8e0",
+      "publicity": "public"
+    },
+    {
+      "path": "run/run_008/artifacts/cae_claimed_verification.py",
+      "role": "Claimed CAE task candidate validation worker",
+      "sha256": "445cc22236a38ebaabd9ec8d1c1fdfbed820642c5aba8bad925b5bfce1f5a44f",
+      "publicity": "public"
+    },
+    {
+      "path": "run/run_008/artifacts/cae_candidate_verification.json",
+      "role": "Candidate input verification result",
+      "sha256": "c6afeffac790371215ff6974ac8e49935b3911c38c80e6de22f4d96967f0745e",
+      "publicity": "public"
+    },
+    {
+      "path": "run/run_008/artifacts/cae_verification_handoff.json",
+      "role": "CAE result and MAIN inbox receipt evidence",
+      "sha256": "1645b6438074a4211a16db8696a12bce149da1fecf02cc4851636cd1d35d9ad5",
+      "publicity": "public"
+    },
+    {
+      "path": "run/run_008/artifacts/test_hub.py",
+      "role": "Eight standard-library AgentHub tests",
+      "sha256": "cbc3b143f150bc4aeb6e5f4b3af06f915089c99845840f38d58d362d856d0e90",
+      "publicity": "public"
+    },
+    {
+      "path": "run/run_008/artifacts/hub_tests_final.txt",
+      "role": "Final Hub test log",
+      "sha256": "29ec2eeb14c2d7c0f85a6e6551af395a2cb33f4ff3afeb69b6ab1d897a48e1d2",
+      "publicity": "public"
+    },
+    {
+      "path": "run/run_008/artifacts/test_candidate_contract.py",
+      "role": "Three candidate/ODB/Abq boundary tests",
+      "sha256": "12a0269332a3f95c37bf370e10e07444ccb300bdb39b984423b2d2ec7b7e013e",
+      "publicity": "public"
+    },
+    {
+      "path": "run/run_008/artifacts/candidate_tests_final.txt",
+      "role": "Final candidate contract test log",
+      "sha256": "fd04e0884e8f8e7ee8a76c415a1c919448bc1af5a73e044ef7326dec84d93c04",
+      "publicity": "public"
+    },
+    {
+      "path": "run/run_008/artifacts/hub_state.json",
+      "role": "SQLite counts, states and append-only event-chain check",
+      "sha256": "2011903d1df74532810c8bfe8fcc751bd9e06e5793f3d74fc39f001dcf0c9fc1",
+      "publicity": "public"
+    },
+    {
+      "path": "run/run_008/artifacts/verify_hub_state.py",
+      "role": "SQLite final audit script",
+      "sha256": "3529995cd4d3cffe254fea3bf249db6e8f0689fb0e2436f91bb1752f7b69359d",
+      "publicity": "public"
+    },
+    {
+      "path": "run/run_008/artifacts/finalize_run_evidence.py",
+      "role": "Final scoped validation assembler",
+      "sha256": "381e746eea3f082831de7cce7ab8a6cae16245a81accf380ef29d65c6b5cb43d",
+      "publicity": "public"
+    },
+    {
+      "path": "run/run_008/artifacts/final_validation.json",
+      "role": "Final scoped acceptance and limitations",
+      "sha256": "0bd0f5ce13b8a1dbe5a2ab260c91a59d7122fdc0970154d1638d24eb8997755f",
+      "publicity": "public"
+    },
+    {
+      "path": "run/run_008/artifacts/build_manifest.py",
+      "role": "Artifact manifest generator",
+      "sha256": "60da7c2a8d172d4e1f400c166e15038d16bdaee981096e84b15e83fd5cfdb45c",
+      "publicity": "public"
+    },
+    {
+      "path": "run/run_008/artifacts/capture_final_state.py",
+      "role": "Final preservation and external-state capture script",
+      "sha256": "c0f6f8a2907ab1786c80f5b77045a373b4720fdb9bfe258cbd152088219343ba",
+      "publicity": "public"
+    },
+    {
+      "path": "run/run_008/summary.md",
+      "role": "Run summary",
+      "sha256": "a66195baae403b1c8ea69c735fe6e23b9fd4f6747e770b709f8b1f9bb787c504",
+      "publicity": "public"
+    },
+    {
+      "path": "run/run_008/checkpoints/initial_state.json",
+      "role": "Git and input baseline",
+      "sha256": "aa2ed6b732d1d6db4da6560323dae8118e6a9b2b9492366eb0fe42c17ca9926b",
+      "publicity": "public"
+    },
+    {
+      "path": "run/README.md",
+      "role": "Run index update",
+      "sha256": "1fe743366eb9be5d3a7c6044ab38a074b6fc9497fa25f4f0c09a9bdc699f6303",
+      "publicity": "public"
+    },
+    {
+      "path": "status/PROJECT_STATUS.md",
+      "role": "Project state update",
+      "sha256": "0e39a262e66e6d14746844843cc3a299e9d01c312a0fd459a3ce6ceae02812e2",
+      "publicity": "public"
+    },
+    {
+      "path": "docs/Research_Architecture.md",
+      "role": "Actual AbqJobPilot and AgentHub status update",
+      "sha256": "342d2d249b98e9bf215853c734d5a83fd170f25e881cb83a94b114c9840d89ff",
+      "publicity": "public"
+    },
+    {
+      "path": "docs/Agent_File_Communication_Protocol.md",
+      "role": "Run and independent Hub boundary update",
+      "sha256": "0421dadaae36ffcf7236c63044744f5c0554a9ffbaf61ee29f4a006527b06a0d",
+      "publicity": "public"
+    },
+    {
+      "path": "README.md",
+      "role": "English project status update",
+      "sha256": "84c16941795317a08f10f7ff3fe03c170403d5975b100ca6704c064d158f639f",
+      "publicity": "public"
+    },
+    {
+      "path": "README.zh-CN.md",
+      "role": "Chinese project status update",
+      "sha256": "5e2d9071a51d16e57298c98be668c3343f11c17eeff0659a458c556120a01cf5",
+      "publicity": "public"
+    },
+    {
+      "path": ".gitignore",
+      "role": "Ignore isolated Hub runtime and Project runtime state",
+      "sha256": "62bdfed9894a7f285591b4f33e7ead454cb30e17537efaa84330f71417efbedb",
+      "publicity": "public"
+    }
+  ],
+  "private_audit": {
+    "path": "run/run_008/artifacts/private/",
+    "gitignored": true,
+    "contains": [
+      "source path/hash, use/provenance and processing record",
+      "environment and real Settings-file discovery",
+      "resolved failure diagnostics"
+    ],
+    "source_hashes_disclosed": false
+  },
+  "persistent_local_state": {
+    "path": "agenthub_sp_invopt/runtime/sp_invopt.sqlite3",
+    "gitignored": true,
+    "integrity_evidence": "run/run_008/artifacts/hub_state.json"
+  }
+}

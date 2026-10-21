@@ -1,0 +1,37 @@
+{
+  "observed_at": "2026-10-21T22:12:48.446047+08:00",
+  "task_id": "93322987-9489-47c1-908a-dd43e0736339",
+  "identity": {
+    "agent_id": "MAIN:codex-main-run014-once",
+    "session_id": "0344fe68-79d7-4b52-a11c-5fa69145afe5",
+    "role": "MAIN"
+  },
+  "scope": {
+    "run_id": "run_014",
+    "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+    "project_path": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project",
+    "inp_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_008\\artifacts\\candidate_inp\\SPIO_R008_Q200_N010_Candidate\\SPIO_R008_Q200_N010_Candidate.inp",
+    "inp_sha256": "fa2de5d73a28536c1c07cd22072d2a24c1ae988c569127d728931c583457f05a",
+    "job_name": "SPIO_R014_Q200_N010",
+    "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_014\\artifacts\\solver\\SPIO_R014_Q200_N010",
+    "cpus": 14,
+    "gpus": 0,
+    "run_datacheck": true,
+    "run_full": true,
+    "max_jobs": 1,
+    "max_attempts": 1,
+    "auto_retries": 0,
+    "parameters": {
+      "sigma_y_MPa": 200,
+      "n": 0.1,
+      "E_MPa": 210000,
+      "nu": 0.3,
+      "max_plastic_strain": 0.9
+    },
+    "authorization_source": "Explicit human run_014 message in MAIN Codex conversation",
+    "start_method": "User clicks GUI Start Queue once; no programmatic Solver start",
+    "science_state": "NOT_EVALUATED",
+    "model_interpretation": "candidate true total strain",
+    "scope": "Register exact authorization and enqueue one job; completion of this task is not solver completion"
+  }
+}

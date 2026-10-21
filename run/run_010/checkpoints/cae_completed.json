@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"timedOut\":false,\"wake\":{\"reason\":\"turnCompleted\",\"turnId\":\"01a15d80-a600-7e81-a486-367919f68235\",\"threadId\":\"01a15d5e-a3ad-75f1-b53c-ac6a12c21c48\",\"hostId\":\"local\"},\"polls\":[{\"schemaVersion\":1,\"cursor\":\"b371ae66-6159-4796-b6e9-42bb57482ad3:19\",\"revision\":19,\"changed\":true,\"thread\":{\"id\":\"01a15d5e-a3ad-75f1-b53c-ac6a12c21c48\",\"hostId\":\"local\",\"status\":{\"type\":\"idle\"}},\"latestTurn\":{\"id\":\"01a15d80-a600-7e81-a486-367919f68235\",\"status\":\"completed\",\"error\":null,\"startedAt\":1792570074,\"completedAt\":1792570221,\"durationMs\":146999},\"latestAssistantMessageId\":\"msg_0d4b4f4656164dce016ad87366e99081918221bfedbd66edd9\",\"latestAssistantMessage\":{\"id\":\"msg_0d4b4f4656164dce016ad87366e99081918221bfedbd66edd9\",\"turnId\":\"01a15d80-a600-7e81-a486-367919f68235\",\"phase\":\"final_answer\",\"text\":\"CAE 会话 CAE:cae-codex-20261021-632ffd48（session aa78d383-febb-4b7e-99d5-2a9665e9ab6c）已在 generation 2 完成原任务 a4b4805f-4989-4168-a54a-3bbf435b52a6。AgentHub 回查状态为 COMPLETED / RECORDED / NOT_EVALUATED，审计链有效；给 MAIN 的持久完成消息 ID 为 8141c802-32be-4cc5-bbdc-29f61756c400。 静态核验报告通过 11 项检查：候选 INP 的路径、SHA-256 fa2de5d7…3457f05a、材料参数与 35 行塑性表一致。已登记的 artifact ID：候选 INP 6000852a-0e50-4820-bf8f-620affe161e2；核验报告 9ffcc157-f6c7-408a-ac28-7efc237dbdd3；核验脚本 e0c9a580-5498-4588-a1db-e2aab03f5284；保留的首次失败记录 afda9d9c-36d2-45ca-9d81-bac67b2278cd。完整回执见 completion_receipt.json。 遗留边界：历史 INP 与当前 CAE 数据库的一致性仍未知，材料科学有效性未评估。MAIN 报告实际 Settings 缺失，preflight/dry-run 仍为 BLOCKED；本 CAE 会话未运行它们，也未执行 datacheck、Solver 或入队。\"},\"latestToolMarkerId\":\"exec-1162f65b-301b-4399-99c1-d732038184af\",\"latestToolMarker\":{\"id\":\"exec-1162f65b-301b-4399-99c1-d732038184af\",\"turnId\":\"01a15d80-a600-7e81-a486-367919f68235\",\"type\":\"commandExecution\",\"name\":\"commandExecution\",\"status\":\"completed\"}}]}"
+    }
+  ],
+  "isError": false
+}

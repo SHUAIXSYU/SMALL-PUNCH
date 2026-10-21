@@ -1,0 +1,17 @@
+{
+  "status": "QUEUED",
+  "job_id": "q_4c0358a918a7447d807d2f547d22c7b8",
+  "inp_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_008\\artifacts\\candidate_inp\\SPIO_R008_Q200_N010_Candidate\\SPIO_R008_Q200_N010_Candidate.inp",
+  "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_014\\artifacts\\solver\\SPIO_R014_Q200_N010",
+  "expected_odb_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_014\\artifacts\\solver\\SPIO_R014_Q200_N010\\SPIO_R014_Q200_N010.odb",
+  "odb_exists": false,
+  "lock_exists": false,
+  "status_sources": [
+    "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime\\queue.json"
+  ],
+  "last_log_lines": [],
+  "errors": [],
+  "warnings": [],
+  "schema_version": "1.0",
+  "error_details": []
+}

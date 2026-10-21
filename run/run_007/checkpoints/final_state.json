@@ -1,0 +1,21 @@
+{
+  "observed_at": "2026-10-12T23:04:19.743135+08:00",
+  "source_count": 16,
+  "source_hashes_unchanged": true,
+  "old_runs_unchanged": true,
+  "git_head_branch_remote_index_unchanged": true,
+  "preexisting_changes_preserved": true,
+  "unit_tests_passed": 11,
+  "candidate_error_within_tolerance": true,
+  "figure_visual_review": "PASS",
+  "source_details": "run/run_007/artifacts/private/final_state_private.json",
+  "solver_invoked": false,
+  "job_created_or_submitted": false,
+  "CAE_opened": false,
+  "source_models_modified": false,
+  "excel_modified": false,
+  "dependencies_changed": false,
+  "RL_trained": false,
+  "commit_performed": false,
+  "push_performed": false
+}

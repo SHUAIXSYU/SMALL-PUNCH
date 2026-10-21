@@ -1,0 +1,44 @@
+{
+  "task_id": "a4b4805f-4989-4168-a54a-3bbf435b52a6",
+  "agent_id": "CAE:cae-codex-20261021-632ffd48",
+  "session_id": "aa78d383-febb-4b7e-99d5-2a9665e9ab6c",
+  "generation": 2,
+  "execution_status": "COMPLETED",
+  "evidence_status": "RECORDED",
+  "science_status": "NOT_EVALUATED",
+  "static_verification": "PASS_STATIC_INP_VERIFICATION",
+  "checks_passed": 11,
+  "candidate_sha256": "fa2de5d73a28536c1c07cd22072d2a24c1ae988c569127d728931c583457f05a",
+  "artifacts": [
+    {
+      "artifact_id": "6000852a-0e50-4820-bf8f-620affe161e2",
+      "path": "run/run_008/artifacts/candidate_inp/SPIO_R008_Q200_N010_Candidate/SPIO_R008_Q200_N010_Candidate.inp",
+      "sha256": "fa2de5d73a28536c1c07cd22072d2a24c1ae988c569127d728931c583457f05a",
+      "version": "candidate-true-total-hollomon-v1"
+    },
+    {
+      "artifact_id": "9ffcc157-f6c7-408a-ac28-7efc237dbdd3",
+      "path": "run/run_010/artifacts/cae/verification.json",
+      "sha256": "9f5904278e44696dad337646fa1ee6b486b0e7a43965dbde46086e6c9c7293e7",
+      "version": "cae-static-verification-v1"
+    },
+    {
+      "artifact_id": "e0c9a580-5498-4588-a1db-e2aab03f5284",
+      "path": "run/run_010/artifacts/cae/verify_candidate_inp.py",
+      "sha256": "9a746964b8bd21e4cc42179afea26031f6da19a43fd3f2f1427c40852f97a3d3",
+      "version": "cae-static-verification-v1"
+    },
+    {
+      "artifact_id": "afda9d9c-36d2-45ca-9d81-bac67b2278cd",
+      "path": "run/run_010/artifacts/cae/verification_attempt01.json",
+      "sha256": "cc437c38fc69636e0b9233c8c4997e035c0ed4ef613f45332f679ef566848854",
+      "version": "cae-static-verification-attempt01-v1"
+    }
+  ],
+  "limitations": [
+    "Historical source INP equivalence with the currently edited CAE database is UNKNOWN",
+    "Candidate material interpretation is not experimentally validated",
+    "AbqJobPilot Settings/preflight/dry-run audited separately by MAIN as BLOCKED; CAE did not run them",
+    "No fresh Abaqus parser, datacheck, Solver, or queue operation"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "schema_version": "1.0",
+  "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+  "name": "SP-InvOpt run_008 candidate preview",
+  "description": "Independent SP-InvOpt Project for run_008 preview and evidence. No Solver or Queue execution authorized.",
+  "created_at": "2026-10-21T15:34:52",
+  "updated_at": "2026-10-21T15:34:52",
+  "application": "abqjobpilot"
+}

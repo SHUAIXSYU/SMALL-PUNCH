@@ -1,0 +1,35 @@
+test_artifact_version_is_explicit_and_stable (__main__.RuntimeExtensionTests.test_artifact_version_is_explicit_and_stable) ... ERROR
+test_dependency_change_conflicts_with_task_key (__main__.RuntimeExtensionTests.test_dependency_change_conflicts_with_task_key) ... FAIL
+test_failure_diagnosis_persists_without_zero_error (__main__.RuntimeExtensionTests.test_failure_diagnosis_persists_without_zero_error) ... ERROR
+test_recovery_requires_main_and_explicit_approval (__main__.RuntimeExtensionTests.test_recovery_requires_main_and_explicit_approval) ... ok
+
+======================================================================
+ERROR: test_artifact_version_is_explicit_and_stable (__main__.RuntimeExtensionTests.test_artifact_version_is_explicit_and_stable)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\Projects\SMALL-PUNCH\run\run_009\artifacts\test_runtime_extensions.py", line 34, in test_artifact_version_is_explicit_and_stable
+    record = self.hub.artifact(task, self.cae["agent_id"], output, {"simulation": True}, version="mock-v1")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Hub.artifact() got an unexpected keyword argument 'version'
+
+======================================================================
+ERROR: test_failure_diagnosis_persists_without_zero_error (__main__.RuntimeExtensionTests.test_failure_diagnosis_persists_without_zero_error)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\Projects\SMALL-PUNCH\run\run_009\artifacts\test_runtime_extensions.py", line 44, in test_failure_diagnosis_persists_without_zero_error
+    failure = self.hub.fail(lease, "SIMULATED_READ_ERROR", "fixture deliberately failed", retryable=False)
+              ^^^^^^^^^^^^^
+AttributeError: 'Hub' object has no attribute 'fail'
+
+======================================================================
+FAIL: test_dependency_change_conflicts_with_task_key (__main__.RuntimeExtensionTests.test_dependency_change_conflicts_with_task_key)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\Projects\SMALL-PUNCH\run\run_009\artifacts\test_runtime_extensions.py", line 55, in test_dependency_change_conflicts_with_task_key
+    with self.assertRaisesRegex(HubError, "IDEMPOTENCY_CONFLICT"):
+AssertionError: HubError not raised
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.521s
+
+FAILED (failures=1, errors=2)

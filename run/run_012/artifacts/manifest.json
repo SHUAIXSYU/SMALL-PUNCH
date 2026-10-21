@@ -1,0 +1,53 @@
+{
+  "run_id": "run_012",
+  "artifacts": [
+    {
+      "path": "run/run_012/summary.md",
+      "sha256": "7bc59e8264ca2f9c358534a6daf7c89a29a059fd6c7b2f88e4870dd01e1e7890"
+    },
+    {
+      "path": "run/run_012/artifacts/agenthub_receipt.json",
+      "sha256": "a8e08d1b9505f56b8f444306f610ee3d1306f2fe77e675f89c81eb756db9a569"
+    },
+    {
+      "path": "run/run_012/artifacts/dry_run.json",
+      "sha256": "c726dc7f763c4c0a22da0c3644ff1c2779a6faf23516b2ae909e7547b648db76"
+    },
+    {
+      "path": "run/run_012/artifacts/execute_preview.py",
+      "sha256": "30adb792866f67e93dc0ae0f4cbf3bd1d967f8a2dea3ae29eb3fb820f16cf36e"
+    },
+    {
+      "path": "run/run_012/artifacts/preflight.json",
+      "sha256": "9cbe5a3ba22a47e3a4117469bf89932838d40274e18196ba0326c4db975eff0a"
+    },
+    {
+      "path": "run/run_012/artifacts/preview_result.json",
+      "sha256": "7bc876ccab3b0584ef7db780de6b32ebe86b074b454420be7828556b58a64f1a"
+    },
+    {
+      "path": "run/run_012/artifacts/request.json",
+      "sha256": "67539d0497bb21974e0ec2d15b43daac621048655bf35aa0e29c72f41aaf48ce"
+    },
+    {
+      "path": "run/run_012/artifacts/settings_verification.json",
+      "sha256": "47fd387627b083992ab5f7e3a8210990ca8acad5172e8467bcec5ee3c1aa7b84"
+    },
+    {
+      "path": "run/run_012/checkpoints/abaqus_processes_after.json",
+      "sha256": "b56a1051553696db5dd1b5cc202b44ad63ac0661a4bede18454a9af7c6fee3e0"
+    },
+    {
+      "path": "run/run_012/checkpoints/abaqus_processes_before.json",
+      "sha256": "4e119ffb64f5630739d7c29f8c4acf237eb0a6105f052695642ff443c5ccb44e"
+    },
+    {
+      "path": "run/run_012/checkpoints/after_preview.json",
+      "sha256": "9a3b58e2f42c37bd4c50539628c55d8da90fcd9d7282086d31e2e3757515be9b"
+    },
+    {
+      "path": "run/run_012/checkpoints/initial_state.json",
+      "sha256": "033e36559aae7841b334ca54c97abfe3ff9732cb8b8e7d4e04bd95ab7659f987"
+    }
+  ]
+}

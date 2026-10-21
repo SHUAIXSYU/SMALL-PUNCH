@@ -1,0 +1,149 @@
+{
+  "observed_at": "2026-10-21T16:04:24.341848+08:00",
+  "status": "BLOCKED",
+  "source_version": "0.2.2",
+  "source_head": "0dfdb22205535c88d3ef068d895c15b6a1ab051b",
+  "source_status": "",
+  "capabilities": {
+    "schema_version": "1.0",
+    "application": "abqjobpilot",
+    "application_version": "0.2.2",
+    "automation_surface": "1.0",
+    "capabilities": {
+      "preflight": true,
+      "enqueue": true,
+      "enqueue_folder": true,
+      "list": true,
+      "status": true,
+      "locate_outputs": true,
+      "project_list": true,
+      "project_create": true,
+      "project_show": true,
+      "project_update": true,
+      "project_register": true,
+      "project_unregister": true,
+      "project_export": true,
+      "project_import": true,
+      "job_list": true,
+      "job_show": true,
+      "solver_start": false,
+      "project_delete": false
+    }
+  },
+  "project": {
+    "schema_version": "1.0",
+    "status": "OK",
+    "project": {
+      "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+      "name": "SP-InvOpt run_008 candidate preview",
+      "description": "Independent SP-InvOpt Project for run_008 preview and evidence. No Solver or Queue execution authorized.",
+      "path": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project",
+      "schema_version": "1.0",
+      "created_at": "2026-10-21T15:34:52",
+      "updated_at": "2026-10-21T15:34:52",
+      "runtime_dir": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime",
+      "database_exists": false,
+      "job_count": null,
+      "run_count": null,
+      "artifact_reference_count": null,
+      "queue": {
+        "queued": 0,
+        "running": 0,
+        "total_records": 0
+      }
+    },
+    "errors": [],
+    "warnings": [],
+    "error_details": []
+  },
+  "queue": {
+    "schema_version": "1.0",
+    "status": "OK",
+    "jobs": [],
+    "errors": [],
+    "error_details": []
+  },
+  "history": {
+    "schema_version": "1.0",
+    "status": "OK",
+    "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+    "jobs": [],
+    "errors": [],
+    "warnings": [],
+    "error_details": []
+  },
+  "locate_outputs": {
+    "job_id": null,
+    "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_008\\artifacts\\candidate_inp\\SPIO_R008_Q200_N010_Candidate",
+    "expected_odb_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_008\\artifacts\\candidate_inp\\SPIO_R008_Q200_N010_Candidate\\SPIO_R008_Q200_N010_Candidate.odb",
+    "odb_exists": false,
+    "lock_exists": false,
+    "log_paths": [
+      "E:\\Projects\\SMALL-PUNCH\\run\\run_008\\artifacts\\candidate_inp\\SPIO_R008_Q200_N010_Candidate\\SPIO_R008_Q200_N010_Candidate.log",
+      "E:\\Projects\\SMALL-PUNCH\\run\\run_008\\artifacts\\candidate_inp\\SPIO_R008_Q200_N010_Candidate\\SPIO_R008_Q200_N010_Candidate.sta",
+      "E:\\Projects\\SMALL-PUNCH\\run\\run_008\\artifacts\\candidate_inp\\SPIO_R008_Q200_N010_Candidate\\SPIO_R008_Q200_N010_Candidate.msg",
+      "E:\\Projects\\SMALL-PUNCH\\run\\run_008\\artifacts\\candidate_inp\\SPIO_R008_Q200_N010_Candidate\\SPIO_R008_Q200_N010_Candidate.dat"
+    ],
+    "sta_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_008\\artifacts\\candidate_inp\\SPIO_R008_Q200_N010_Candidate\\SPIO_R008_Q200_N010_Candidate.sta",
+    "msg_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_008\\artifacts\\candidate_inp\\SPIO_R008_Q200_N010_Candidate\\SPIO_R008_Q200_N010_Candidate.msg",
+    "dat_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_008\\artifacts\\candidate_inp\\SPIO_R008_Q200_N010_Candidate\\SPIO_R008_Q200_N010_Candidate.dat",
+    "lck_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_008\\artifacts\\candidate_inp\\SPIO_R008_Q200_N010_Candidate\\SPIO_R008_Q200_N010_Candidate.lck",
+    "path_sources": {
+      "odb_path": "expected",
+      "sta_path": "expected",
+      "msg_path": "expected",
+      "dat_path": "expected",
+      "log_path": "expected",
+      "lck_path": "expected"
+    },
+    "errors": [
+      "Job was not found in queue, live status, or reports; paths were inferred from inp_path."
+    ],
+    "warnings": [],
+    "schema_version": "1.0",
+    "error_details": [
+      {
+        "code": "QUEUE_RECORD_NOT_FOUND",
+        "message": "Job was not found in queue, live status, or reports; paths were inferred from inp_path."
+      }
+    ]
+  },
+  "inp_identity_verified": true,
+  "inp_sha256": "fa2de5d73a28536c1c07cd22072d2a24c1ae988c569127d728931c583457f05a",
+  "settings": {
+    "status": "BLOCKED",
+    "project_file_exists": false,
+    "global_file_exists": false,
+    "legacy_file_exists": false,
+    "missing_fields": [
+      "abaqus_cmd",
+      "default_cpus",
+      "use_gpu",
+      "default_gpus",
+      "run_datacheck",
+      "run_full"
+    ],
+    "verified_values": {}
+  },
+  "preflight": {
+    "status": "BLOCKED",
+    "executed": false,
+    "blockers": [
+      "PERSISTED_PROJECT_SETTINGS_MISSING:abaqus_cmd,default_cpus,use_gpu,default_gpus,run_datacheck,run_full"
+    ]
+  },
+  "dry_run": {
+    "status": "BLOCKED",
+    "executed": false,
+    "blockers": [
+      "PERSISTED_PROJECT_SETTINGS_MISSING:abaqus_cmd,default_cpus,use_gpu,default_gpus,run_datacheck,run_full"
+    ]
+  },
+  "request": null,
+  "protected_files_unchanged": true,
+  "queue_sha256": "7858c86b0fb9951d2e597e9db75bbbb6636790c77da481833be53060c0e3c787",
+  "solver_started": false,
+  "datacheck_started": false,
+  "queue_written": false,
+  "evidence": "run/run_010/artifacts/private/abq_settings_sources.json"
+}

@@ -1,5 +1,49 @@
 # SMALL-PUNCH 项目状态
 
+## 当前状态 — run_014（2026-10-21，Asia/Shanghai）
+
+**WARNING（本轮完成）：Datacheck PASS，Full Analysis COMPLETED_WITH_WARNINGS，真实ODB提取PASS。** 唯一 `SPIO_R014_Q200_N010`，queue_id=`q_4c0358a918a7447d807d2f547d22c7b8`，授权task_id=`93322987-9489-47c1-908a-dd43e0736339`。用户一次GUI Start Queue后两阶段返回0，总耗时165秒，14CPU/0GPU、单次/零重试。真实ODB任务 `35b07ba1-22ad-48a7-b859-2d99199ed419` 已完成；MAIN收到消息并核验14项Hub证据和曲线差异。170点F–D末点力755.8151，较历史差−0.07782，最大曲线差13.5922（模型单位）；保存帧PEEQ最大0.69390<0.9。39次拒绝尝试、4条负特征值、2条过度畸变警告，以及native瞬时子进程身份缺口保留。科学状态NOT_EVALUATED，未实验验证；本次授权已用完，进一步求解需新授权，不自动进入下一Run。见 [run_014总结](../run/run_014/summary.md)。
+
+## 历史状态 — run_013（2026-10-21，Asia/Shanghai）
+
+**PASS（工程执行链路预检查）；可申请首次单次新Hollomon候选模型正向求解授权。** 严格按Project ID查询返回PERSISTED，无默认字段补齐；Abaqus命令、14 CPU、GPU关闭、Datacheck/Full开启及Auto shutdown关闭均已核实。候选INP哈希未变，修复版公开preflight/dry-run重新通过，Queue为空未变，未运行求解或datacheck。run_012的Settings阻塞已由 [新证据](../run/run_013/artifacts/run012_blocker_resolution.json) 解决；其原历史文件/结论全部保留。AgentHub已登记六项证据及解除阻塞消息。科学状态NOT_EVALUATED，入队及启动仍需明确授权。见 [run_013总结](../run/run_013/summary.md)。
+
+## 历史状态 — run_012（2026-10-21，Asia/Shanghai）
+
+**BLOCKED：官方preflight/dry-run实际通过，但目标Project Settings未保存到可核验文件。** Project/候选INP身份已核实，Abaqus命令存在；以用户明确给定的CPU14、GPU0、datacheck/full=true参数执行公开API，返回PREVIEW_READY/DRY_RUN_READY。参数来源为用户消息，非已读取Settings。Queue前后为空且不变，未Solver/datacheck/入队/自动关机。5项证据和结果消息已登记现有AgentHub。需目标Project runtime/settings.json存在并核对一致后才具备申请单次Solver授权的完整条件；材料科学有效性仍NOT_EVALUATED。见 [run_012总结](../run/run_012/summary.md)。
+
+## 历史状态 — run_011（2026-10-21，Asia/Shanghai）
+
+**PASS（限Project注册）；科研执行仍BLOCKED。** 已通过稳定版官方API把既有 `SP-InvOpt run_008 candidate preview` 注册到GUI同一用户的recent_projects，并用公开API确认ID和根目录。原因是run_008仅登记到仓库独立recent文件。Queue与Settings未变，没有创建重复Project或求解。已打开的Agent Command Console需关闭后重开以重新读取列表；未目视确认刷新。run_010的实际Settings/preflight/dry-run阻塞保持。见 [run_011总结](../run/run_011/summary.md)。
+
+## 历史状态 — run_010（2026-10-21，Asia/Shanghai）
+
+**BLOCKED：真实 MAIN→AgentHub→CAE→MAIN 已验证，AbqJobPilot Settings 缺失阻塞 preflight/dry-run。** 原SQLite正式任务 `a4b4805f-4989-4168-a54a-3bbf435b52a6` 已由真实CAE会话领取、登记产物并完成；MAIN回读产物哈希与持久完成消息。首次本地租约超时后按协议独立批准恢复，同一任务第2代完成。11项INP静态核验通过，科学状态NOT_EVALUATED。稳定版0.2.2 Project身份确认、Queue为空且未改；六项实际运行配置UNKNOWN。未Solver/datacheck/实际入队/修改旧模型/训练/commit/push；尚不具备单次Solver授权条件。见 [run_010总结](../run/run_010/summary.md)。
+
+## 历史状态 — run_009（2026-10-21，Asia/Shanghai）
+
+**WARNING：AgentHub 共享 SQLite、四角色身份范围与本地跨进程交接已验证；Codex 会话自动唤醒和科学求解未验证。** Run 008 的独立台账已保留并完成兼容迁移，新增 JSON CLI、AGENTHUB 维护身份、产物版本、失败诊断与任务持有者权限。MAIN→CAE→ODB→MAIN 的独立进程模拟交接通过；Run 008 的 8 项回归和 Run 009 的 8 项定向测试通过。模拟文件不是 Abaqus 输入或真实求解结果，科学状态为 `NOT_EVALUATED`。详见 [run_009 总结](../run/run_009/summary.md) 与 [CLI 指南](../agenthub_sp_invopt/CLI.md)。
+
+AbqJobPilot v0.2.2 的公共 CLI 能力已复核；Settings 仍缺失，因此没有 preflight/dry-run、Queue 写入或 Solver 启动。Stage-5/AbqJobPilot 源码与生产台账、原始 CAE/ODB 保持未改；未 commit/push。完成本 Run 后停止。
+
+## 历史状态 — run_008（2026-10-21，Asia/Shanghai）
+
+**WARNING：SP-InvOpt 三角色协调与候选 INP 接入已实现；AbqJobPilot Settings 缺失，preflight/dry-run 尚未执行，物理验证仍未进行。** 独立 `agenthub_sp_invopt` 使用 SQLite，覆盖 MAIN/CAE/ODB 身份与会话、依赖任务、事务领取、租约/恢复、幂等任务与消息、持久收件箱/发件箱、任务级权限、证据哈希/来源及追加式审计链。独立本地进程轮询与单赢家并发领取已测试；没有实现或声称跨 Codex 会话自动通知，人工 Handoff 仍适用。
+
+本地 AbqJobPilot 稳定版为 v0.2.2 / `0dfdb222`，独立 Project ID：`b87d2cd6-8519-4ac3-bae6-7eb989fb2dae`。公共 API 与 MCP 五工具清单已核验；通过 MCP 调用队列/历史列表、状态、输出定位，记录均为空或 UNKNOWN 且 Queue 哈希不变。当前全局与新 Project 的 Settings 文件均不存在；有效 CPU/GPU、Abaqus 命令及 datacheck/full-run 开关为 UNKNOWN，因此没有调用使用默认配置的 preflight 或 dry-run。实际写入 Queue、启动 Solver、恢复/重试均未授权且被 Hub action guard 拒绝。
+
+唯一候选 Job `SPIO_R008_Q200_N010_Candidate` 位于独立工作目录，固定 E=210 GPa、ν=0.3、σy=200 MPa、n=0.1、pmax=0.9；Abaqus 2024 `inpParser` 语法解析通过。源为历史 Job-1 INP 的只读输入，CAE 数据库与该历史 INP 的一致性 UNKNOWN；候选模型仍是真总应变解释下、未经最终实验确认的材料模型。ODB 角色只读提取历史 Job-1 ODB 的181组 U2/RF2同步历史，源 ODB SHA-256 前后相同；该回归仅验证读取接口，**不是候选材料求解结果**。
+
+非 Solver 验收和产物见 [run_008 总结](../run/run_008/summary.md)、[AbqJobPilot / MCP 结果](../run/run_008/artifacts/mcp_readonly_results.json)、[端到端交接](../run/run_008/artifacts/end_to_end_simulation.json) 与 [独立 CAE 验证交接](../run/run_008/artifacts/cae_verification_handoff.json)。完成当前授权后停止，不自动入队或运行 Solver。
+
+## 历史状态 — run_007（2026-10-12，Asia/Shanghai）
+
+**WARNING：候选Hollomon材料参数化已实现，文献测度和物理材料有效性未确认。** 固定E=210 GPa、ν=0.3，严格扣除当前弹性应变，固定应力单位换算，完成自适应插值和11项单元测试。回归样例覆盖p=0.9，35个点，独立采样误差约0.09504%，保守上界约0.09646%，满足0.1%数值目标。该范围依据既有ODB全部保存帧的积分点PEEQ加明确余量提出，不能保证未来参数或实验有效范围。
+
+生成器标记为未获物理验证的候选实现。未修改Excel、CAE、INP，未运行Solver、创建/提交新Job或训练RL；未安装依赖，未commit/push。原有CAE修改和REC删除保留。详见 [run_007总结](../run/run_007/summary.md) 和 [生成器说明](../docs/Hollomon_Material_Generator.md)。当前指令完成后停止，不自动执行下一Run。
+
+## 以下为历史状态记录
+
 截至 2026-10-12（Asia/Shanghai），当前为 run_005 / Stage 2 准入只读审计；正式参数化求解尚未准入。研究项目名为 SP-InvOpt，仓库名保持 SMALL-PUNCH。
 
 **状态：WARNING。现有 ODB 的真实 Punch RP 曲线提取已验证，模型物理输入与数值充分性仍未核验完毕。未宣告整体 PASS。**

@@ -1,0 +1,47 @@
+{
+  "status": "PASS_LEDGER_AUDIT",
+  "db_relative_path": "agenthub_sp_invopt/runtime/sp_invopt.sqlite3",
+  "counts": {
+    "agents": 7,
+    "sessions": 9,
+    "tasks": 3,
+    "dependencies": 2,
+    "approvals": 2,
+    "messages": 12,
+    "message_receipts": 7,
+    "artifacts": 6,
+    "events": 39
+  },
+  "tasks": [
+    {
+      "task_id": "82cb5d8b-1911-4628-bee5-471d4a719c57",
+      "assigned_role": "CAE",
+      "kind": "candidate_inp_generation",
+      "execution_state": "COMPLETED",
+      "evidence_state": "RECORDED",
+      "science_state": "WARNING",
+      "generation": 1
+    },
+    {
+      "task_id": "34db579c-c1b8-4e17-b4d8-89fd5dbb55ed",
+      "assigned_role": "ODB",
+      "kind": "historical_odb_interface_regression",
+      "execution_state": "COMPLETED",
+      "evidence_state": "RECORDED",
+      "science_state": "NOT_EVALUATED",
+      "generation": 1
+    },
+    {
+      "task_id": "470f07c8-46ee-45b4-95db-ba569516dc8e",
+      "assigned_role": "CAE",
+      "kind": "candidate_inp_verification",
+      "execution_state": "COMPLETED",
+      "evidence_state": "RECORDED",
+      "science_state": "WARNING",
+      "generation": 1
+    }
+  ],
+  "audit_hash_chain_valid": true,
+  "legacy_events_without_iso_timestamp": 23,
+  "current_event_schema": "UTC ISO 8601 timestamp bound into v2 event hashes; legacy pre-migration run_008 events retain their original hash format"
+}

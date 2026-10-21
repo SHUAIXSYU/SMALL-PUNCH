@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "files": [
+    {
+      "path": "agenthub_sp_invopt/hub.py",
+      "sha256": "0284a61802b4c7090b438424dde6cb0d7c82529f1bc3973be8b0499ec6df8a91"
+    },
+    {
+      "path": "agenthub_sp_invopt/cli.py",
+      "sha256": "81518b29c051a6dd06eed1b4274f322e74934a7968196c02e71ad896f0a6df73"
+    },
+    {
+      "path": "agenthub_sp_invopt/CLI.md",
+      "sha256": "95c0e8716c5adb0c0c05b52ed75a039459e2f3303b1e2736fe5a4dd83a5273e4"
+    },
+    {
+      "path": "agenthub_sp_invopt/README.md",
+      "sha256": "ea9d323d222d1aeed15f3e1f7c194cef727483762de25d9fb24e756389475344"
+    },
+    {
+      "path": "run/run_009/summary.md",
+      "sha256": "f35d06b21e0ed030905c96b7db79d6053ee9c62bc0f38df4c5dbc780bfdca7cf"
+    },
+    {
+      "path": "run/run_009/artifacts/cli_acceptance.py",
+      "sha256": "2e44cd0f8c3d7d595bcdd3dbd04c60de1f0a64f043537972c04207bd8b381eba"
+    },
+    {
+      "path": "run/run_009/artifacts/cli_acceptance.log",
+      "sha256": "53c90c0350f18503274636b54ad17144d85fef54226444e8bfe4a522c46d4658"
+    },
+    {
+      "path": "run/run_009/artifacts/test_runtime_extensions.py",
+      "sha256": "e6692cf766e52cd21c24ebbb9d2e3d2849b50ae40f56be3a17550ab08996e802"
+    },
+    {
+      "path": "run/run_009/artifacts/extensions_before.log",
+      "sha256": "7f52c32a221f69f25bca545e89d1ae31c650bc361d1fa79d45cb89331d67f020"
+    },
+    {
+      "path": "run/run_009/artifacts/extensions_final.log",
+      "sha256": "3898a251a7e8d6b4521d8c5a44167719f3d2f5d534dfe76bde0eef94ea955955"
+    },
+    {
+      "path": "run/run_009/artifacts/reuse_regression_final.log",
+      "sha256": "1e41f8b6993a5d531b1e56ba4bf42787ab52e61df2322104121b41c449e595ce"
+    },
+    {
+      "path": "run/run_009/artifacts/migration_probe.py",
+      "sha256": "d8683fc2c6943a78fba349838a0ed15a22d4fd940f018bbcab4ebad9f16b5806"
+    },
+    {
+      "path": "run/run_009/artifacts/migration_probe.log",
+      "sha256": "70fe71935e0e31816a4ce6eaaa64f44670c910574639f2b232894ae39b697162"
+    },
+    {
+      "path": "run/run_009/artifacts/activate_upgrade.py",
+      "sha256": "16aa7461276bfdddf0d64cb1a55fee821f6ce1979e6748d2c614d412448a3f28"
+    },
+    {
+      "path": "run/run_009/artifacts/activation_report.json",
+      "sha256": "2d00b48ecef2f43e8ba1afe03353c8944a022400ee9777e63c154f907dee5be4"
+    },
+    {
+      "path": "run/run_009/artifacts/activation.log",
+      "sha256": "48622279ca4269fd9f7198a94b3db30794e3cca50004180dceaecd166950a545"
+    },
+    {
+      "path": "run/run_009/artifacts/finalize_run.py",
+      "sha256": "5e1f37d1234fd356cb58d377fb1b2e0aa6f2b2c75dea9f3453a0d12ea94b1013"
+    },
+    {
+      "path": "run/run_009/checkpoints/initial_git.json",
+      "sha256": "8bf65517d35f18b3208c35095416897b5f5605b495c3608b8c91da959631d0d3"
+    },
+    {
+      "path": "run/README.md",
+      "sha256": "f0ebe2f40afc2248099647360373fd88f80e4b550999c62095179f83b8815705"
+    },
+    {
+      "path": "status/PROJECT_STATUS.md",
+      "sha256": "6ceadfce27d7bf3b7e9dd4d0eac6a3d0c9e133aa99b45edb0d59443c09e25c71"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "task_id": "35b07ba1-22ad-48a7-b859-2d99199ed419",
+  "execution_state": "COMPLETED",
+  "evidence_state": "RECORDED",
+  "science_state": "NOT_EVALUATED",
+  "message_id": "859ab2ab-c06b-41d0-bfef-b6dcd3988f25",
+  "message_key": "run014-real-odb-result-v1",
+  "artifact_count": 14,
+  "audit_chain_valid": true
+}

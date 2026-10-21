@@ -1,0 +1,14 @@
+{
+  "observed_at": "2026-10-21T21:54:48.523649+08:00",
+  "status": "RESOLVED_BY_NEW_EVIDENCE",
+  "prior_run": "run_012",
+  "prior_task_id": "7d56b96f-bae2-473e-b9f6-89afb6dbcd14",
+  "blocker_code": "PROJECT_RUNTIME_SETTINGS_NOT_SAVED",
+  "resolving_run": "run_013",
+  "evidence": [
+    "run/run_013/artifacts/settings_api_response.json",
+    "run/run_013/artifacts/verification_result.json"
+  ],
+  "prior_history_unchanged": true,
+  "scope": "Settings persistence blocker only; not scientific validation or execution authorization"
+}

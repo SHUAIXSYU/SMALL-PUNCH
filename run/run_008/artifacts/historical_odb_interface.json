@@ -1,0 +1,23 @@
+{
+  "status": "PASS_INTERFACE_ONLY",
+  "role": "ODB",
+  "odb_read_only": true,
+  "source_relative_path": "CAE/Models/Sanity/Job-1.odb",
+  "source_sha256_before": "612bdc14d02642bf66982a4cb00f8c85a08c98b069fb230f5d430cb8709b3d8f",
+  "source_sha256_after": "612bdc14d02642bf66982a4cb00f8c85a08c98b069fb230f5d430cb8709b3d8f",
+  "step": "Step_Punch_Displacement",
+  "history_region": "Node ASM_SPT.1",
+  "outputs": {
+    "U2": {
+      "description": "Spatial displacement",
+      "samples": 181
+    },
+    "RF2": {
+      "description": "Reaction force",
+      "samples": 181
+    }
+  },
+  "time_synchronized": true,
+  "candidate_material_solve": "NOT_PERFORMED",
+  "interpretation": "Historical Job-1 ODB verifies only the ODB reader interface; it is not the run_008 candidate response."
+}

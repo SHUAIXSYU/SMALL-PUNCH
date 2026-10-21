@@ -1,0 +1,35 @@
+{
+  "observed_at": "2026-10-21T16:28:25.965532+08:00",
+  "status": "BLOCKED",
+  "scope": "Engineering API preview; no solver, datacheck, license or physical validation",
+  "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+  "project_name": "SP-InvOpt run_008 candidate preview",
+  "project_root": "agenthub_sp_invopt/abqjobpilot_project",
+  "stable_version": "0.2.2",
+  "inp": "run/run_008/artifacts/candidate_inp/SPIO_R008_Q200_N010_Candidate/SPIO_R008_Q200_N010_Candidate.inp",
+  "inp_sha256": "fa2de5d73a28536c1c07cd22072d2a24c1ae988c569127d728931c583457f05a",
+  "project_and_inp_identity": "PASS",
+  "settings_status": "BLOCKED",
+  "configuration_source": "EXPLICIT_USER_MESSAGE_ONLY",
+  "preflight_status": "PREVIEW_READY",
+  "dry_run_status": "DRY_RUN_READY",
+  "queue_empty_before_after": true,
+  "protected_files_unchanged": true,
+  "candidate_directory_unchanged": true,
+  "queue_sha256_before": "7858c86b0fb9951d2e597e9db75bbbb6636790c77da481833be53060c0e3c787",
+  "queue_sha256_after": "7858c86b0fb9951d2e597e9db75bbbb6636790c77da481833be53060c0e3c787",
+  "solver_started": false,
+  "datacheck_started": false,
+  "queue_written": false,
+  "settings_written": false,
+  "auto_shutdown_invoked": false,
+  "scientific_state": "NOT_EVALUATED",
+  "single_solver_authorization_request_ready": false,
+  "blockers": [
+    "PROJECT_RUNTIME_SETTINGS_NOT_SAVED"
+  ],
+  "limitations": [
+    "This public API preview does not execute Abaqus or verify license/solver capability.",
+    "Candidate true-total-strain interpretation remains without experimental validation."
+  ]
+}

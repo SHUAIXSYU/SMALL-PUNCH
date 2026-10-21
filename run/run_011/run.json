@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_011",
+  "stage": "Project GUI registration repair",
+  "objective": "Register the existing run_008 SP-InvOpt Project in the verified GUI user registry",
+  "status": "PASS",
+  "start_time": "2026-10-21T16:21:13.636732+08:00",
+  "end_time": "2026-10-21T16:21:13.909002+08:00",
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "git_head": "e87aadc9f7074fc4bc127c9ae03afbe9081dabae",
+  "git_branch": "main",
+  "inputs": [
+    {
+      "path": "run/run_008/artifacts/abqjobpilot_project.json",
+      "role": "creation identity"
+    },
+    {
+      "path": "agenthub_sp_invopt/abqjobpilot_project/project.json",
+      "role": "validated existing Project"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_011/artifacts/registration_result.json",
+      "role": "registration and API listing evidence"
+    },
+    {
+      "path": "run/run_011/summary.md",
+      "role": "summary"
+    }
+  ],
+  "validation": [
+    {
+      "check": "Project ID, queue validity, official registration and public API re-list",
+      "status": "PASS",
+      "evidence": "run/run_011/artifacts/registration_result.json",
+      "scope": "existing Project registration only; no visual GUI refresh confirmation"
+    }
+  ],
+  "errors": [],
+  "solver_started": false,
+  "queue_written": false,
+  "settings_written": false,
+  "duplicate_project_created": false,
+  "commit_performed": false,
+  "push_performed": false
+}

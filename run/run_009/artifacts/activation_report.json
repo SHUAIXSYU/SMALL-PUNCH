@@ -1,0 +1,22 @@
+{
+  "observed_at": "2026-10-21T15:53:09.568178+08:00",
+  "database": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\runtime\\sp_invopt.sqlite3",
+  "backup": "E:\\Projects\\SMALL-PUNCH\\run\\run_009\\artifacts\\private\\sp_invopt_pre_run009.sqlite3",
+  "backup_sha256": "c1db06bca2e8e9da1cbb6383e93ee53152547a3e71633509868eb57c1aa498af",
+  "counts_before": {
+    "tasks": 3,
+    "artifacts": 6,
+    "messages": 12,
+    "events": 39
+  },
+  "counts_after": {
+    "tasks": 3,
+    "artifacts": 6,
+    "messages": 12,
+    "events": 39
+  },
+  "artifact_version_column": true,
+  "failure_diagnostics_table": true,
+  "sqlite_integrity_check": "ok",
+  "audit_hash_chain_valid": true
+}

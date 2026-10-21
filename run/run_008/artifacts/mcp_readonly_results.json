@@ -1,0 +1,162 @@
+{
+  "mcp_sdk": "2.3.0",
+  "server_version": {
+    "name": "AbqJobPilot",
+    "version": "0.2.2"
+  },
+  "tools": [
+    "abq_job_status",
+    "abq_list_jobs",
+    "abq_locate_outputs",
+    "abq_preflight",
+    "abq_prepare_enqueue"
+  ],
+  "invoked_read_only_tools": [
+    "abq_list_jobs:queue",
+    "abq_list_jobs:history",
+    "abq_job_status:queue",
+    "abq_locate_outputs:outputs"
+  ],
+  "calls": {
+    "abq_list_jobs:queue": {
+      "is_error": false,
+      "structured_content": {
+        "schema_version": "1.0",
+        "status": "OK",
+        "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+        "data": {
+          "scope": "queue",
+          "jobs": [],
+          "limit": 10
+        },
+        "errors": [],
+        "warnings": [],
+        "error_details": []
+      },
+      "content": [
+        "{\n  \"schema_version\": \"1.0\",\n  \"status\": \"OK\",\n  \"project_id\": \"b87d2cd6-8519-4ac3-bae6-7eb989fb2dae\",\n  \"data\": {\n    \"scope\": \"queue\",\n    \"jobs\": [],\n    \"limit\": 10\n  },\n  \"errors\": [],\n  \"warnings\": [],\n  \"error_details\": []\n}"
+      ]
+    },
+    "abq_list_jobs:history": {
+      "is_error": false,
+      "structured_content": {
+        "schema_version": "1.0",
+        "status": "OK",
+        "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+        "data": {
+          "scope": "history",
+          "jobs": [],
+          "limit": 10
+        },
+        "errors": [],
+        "warnings": [],
+        "error_details": []
+      },
+      "content": [
+        "{\n  \"schema_version\": \"1.0\",\n  \"status\": \"OK\",\n  \"project_id\": \"b87d2cd6-8519-4ac3-bae6-7eb989fb2dae\",\n  \"data\": {\n    \"scope\": \"history\",\n    \"jobs\": [],\n    \"limit\": 10\n  },\n  \"errors\": [],\n  \"warnings\": [],\n  \"error_details\": []\n}"
+      ]
+    },
+    "abq_job_status:queue": {
+      "is_error": false,
+      "structured_content": {
+        "schema_version": "1.0",
+        "status": "UNKNOWN",
+        "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+        "data": {
+          "scope": "queue",
+          "queue_id": "SPIO_R008_Q200_N010_Candidate",
+          "observed_status": "UNKNOWN",
+          "inp_path": null,
+          "working_dir": null,
+          "expected_odb_path": null,
+          "odb_exists": false,
+          "lock_exists": false,
+          "status_sources": [],
+          "last_log_lines": [],
+          "active_execution_confirmed": false
+        },
+        "errors": [
+          "Job was not found in queue, live status, or reports."
+        ],
+        "warnings": [],
+        "error_details": [
+          {
+            "code": "QUEUE_RECORD_NOT_FOUND",
+            "message": "Job was not found in queue, live status, or reports."
+          }
+        ]
+      },
+      "content": [
+        "{\n  \"schema_version\": \"1.0\",\n  \"status\": \"UNKNOWN\",\n  \"project_id\": \"b87d2cd6-8519-4ac3-bae6-7eb989fb2dae\",\n  \"data\": {\n    \"scope\": \"queue\",\n    \"queue_id\": \"SPIO_R008_Q200_N010_Candidate\",\n    \"observed_status\": \"UNKNOWN\",\n    \"inp_path\": null,\n    \"working_dir\": null,\n    \"expected_odb_path\": null,\n    \"odb_exists\": false,\n    \"lock_exists\": false,\n    \"status_sources\": [],\n    \"last_log_lines\": [],\n    \"active_execution_confirmed\": false\n  },\n  \"errors\": [\n    \"Job was not found in queue, live status, or reports.\"\n  ],\n  \"warnings\": [],\n  \"error_details\": [\n    {\n      \"code\": \"QUEUE_RECORD_NOT_FOUND\",\n      \"message\": \"Job was not found in queue, live status, or reports.\"\n    }\n  ]\n}"
+      ]
+    },
+    "abq_locate_outputs:outputs": {
+      "is_error": false,
+      "structured_content": {
+        "schema_version": "1.0",
+        "status": "OUTPUT_LOOKUP_INCOMPLETE",
+        "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+        "data": {
+          "queue_id": null,
+          "inp_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_008\\artifacts\\candidate_inp\\SPIO_R008_Q200_N010_Candidate\\SPIO_R008_Q200_N010_Candidate.inp",
+          "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_008\\artifacts\\candidate_inp\\SPIO_R008_Q200_N010_Candidate",
+          "artifacts": {
+            "ODB": {
+              "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_008\\artifacts\\candidate_inp\\SPIO_R008_Q200_N010_Candidate\\SPIO_R008_Q200_N010_Candidate.odb",
+              "path_source": "expected",
+              "exists": false
+            },
+            "STA": {
+              "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_008\\artifacts\\candidate_inp\\SPIO_R008_Q200_N010_Candidate\\SPIO_R008_Q200_N010_Candidate.sta",
+              "path_source": "expected",
+              "exists": false
+            },
+            "MSG": {
+              "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_008\\artifacts\\candidate_inp\\SPIO_R008_Q200_N010_Candidate\\SPIO_R008_Q200_N010_Candidate.msg",
+              "path_source": "expected",
+              "exists": false
+            },
+            "DAT": {
+              "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_008\\artifacts\\candidate_inp\\SPIO_R008_Q200_N010_Candidate\\SPIO_R008_Q200_N010_Candidate.dat",
+              "path_source": "expected",
+              "exists": false
+            },
+            "LOG": {
+              "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_008\\artifacts\\candidate_inp\\SPIO_R008_Q200_N010_Candidate\\SPIO_R008_Q200_N010_Candidate.log",
+              "path_source": "expected",
+              "exists": false
+            },
+            "LCK": {
+              "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_008\\artifacts\\candidate_inp\\SPIO_R008_Q200_N010_Candidate\\SPIO_R008_Q200_N010_Candidate.lck",
+              "path_source": "expected",
+              "exists": false
+            }
+          },
+          "odb_validity_verified": false
+        },
+        "errors": [
+          "Job was not found in queue, live status, or reports; paths were inferred from inp_path."
+        ],
+        "warnings": [],
+        "error_details": [
+          {
+            "code": "QUEUE_RECORD_NOT_FOUND",
+            "message": "Job was not found in queue, live status, or reports; paths were inferred from inp_path."
+          }
+        ]
+      },
+      "content": [
+        "{\n  \"schema_version\": \"1.0\",\n  \"status\": \"OUTPUT_LOOKUP_INCOMPLETE\",\n  \"project_id\": \"b87d2cd6-8519-4ac3-bae6-7eb989fb2dae\",\n  \"data\": {\n    \"queue_id\": null,\n    \"inp_path\": \"E:\\\\Projects\\\\SMALL-PUNCH\\\\run\\\\run_008\\\\artifacts\\\\candidate_inp\\\\SPIO_R008_Q200_N010_Candidate\\\\SPIO_R008_Q200_N010_Candidate.inp\",\n    \"working_dir\": \"E:\\\\Projects\\\\SMALL-PUNCH\\\\run\\\\run_008\\\\artifacts\\\\candidate_inp\\\\SPIO_R008_Q200_N010_Candidate\",\n    \"artifacts\": {\n      \"ODB\": {\n        \"path\": \"E:\\\\Projects\\\\SMALL-PUNCH\\\\run\\\\run_008\\\\artifacts\\\\candidate_inp\\\\SPIO_R008_Q200_N010_Candidate\\\\SPIO_R008_Q200_N010_Candidate.odb\",\n        \"path_source\": \"expected\",\n        \"exists\": false\n      },\n      \"STA\": {\n        \"path\": \"E:\\\\Projects\\\\SMALL-PUNCH\\\\run\\\\run_008\\\\artifacts\\\\candidate_inp\\\\SPIO_R008_Q200_N010_Candidate\\\\SPIO_R008_Q200_N010_Candidate.sta\",\n        \"path_source\": \"expected\",\n        \"exists\": false\n      },\n      \"MSG\": {\n        \"path\": \"E:\\\\Projects\\\\SMALL-PUNCH\\\\run\\\\run_008\\\\artifacts\\\\candidate_inp\\\\SPIO_R008_Q200_N010_Candidate\\\\SPIO_R008_Q200_N010_Candidate.msg\",\n        \"path_source\": \"expected\",\n        \"exists\": false\n      },\n      \"DAT\": {\n        \"path\": \"E:\\\\Projects\\\\SMALL-PUNCH\\\\run\\\\run_008\\\\artifacts\\\\candidate_inp\\\\SPIO_R008_Q200_N010_Candidate\\\\SPIO_R008_Q200_N010_Candidate.dat\",\n        \"path_source\": \"expected\",\n        \"exists\": false\n      },\n      \"LOG\": {\n        \"path\": \"E:\\\\Projects\\\\SMALL-PUNCH\\\\run\\\\run_008\\\\artifacts\\\\candidate_inp\\\\SPIO_R008_Q200_N010_Candidate\\\\SPIO_R008_Q200_N010_Candidate.log\",\n        \"path_source\": \"expected\",\n        \"exists\": false\n      },\n      \"LCK\": {\n        \"path\": \"E:\\\\Projects\\\\SMALL-PUNCH\\\\run\\\\run_008\\\\artifacts\\\\candidate_inp\\\\SPIO_R008_Q200_N010_Candidate\\\\SPIO_R008_Q200_N010_Candidate.lck\",\n        \"path_source\": \"expected\",\n        \"exists\": false\n      }\n    },\n    \"odb_validity_verified\": false\n  },\n  \"errors\": [\n    \"Job was not found in queue, live status, or reports; paths were inferred from inp_path.\"\n  ],\n  \"warnings\": [],\n  \"error_details\": [\n    {\n      \"code\": \"QUEUE_RECORD_NOT_FOUND\",\n      \"message\": \"Job was not found in queue, live status, or reports; paths were inferred from inp_path.\"\n    }\n  ]\n}"
+      ]
+    }
+  },
+  "settings_dependent_tools": {
+    "abq_preflight": "NOT_INVOKED_SETTINGS_UNKNOWN",
+    "abq_prepare_enqueue": "NOT_INVOKED_SETTINGS_UNKNOWN"
+  },
+  "queue_sha256_before": "7858c86b0fb9951d2e597e9db75bbbb6636790c77da481833be53060c0e3c787",
+  "queue_sha256_after": "7858c86b0fb9951d2e597e9db75bbbb6636790c77da481833be53060c0e3c787",
+  "queue_unchanged": true,
+  "solver_started": false,
+  "runner_started": false
+}

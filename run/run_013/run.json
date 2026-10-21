@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_013",
+  "stage": "Persisted Settings verification and blocker resolution",
+  "objective": "Resolve run_012 Settings prerequisite using strict public API evidence",
+  "status": "PASS",
+  "start_time": "2026-10-21T21:54:48.046114+08:00",
+  "end_time": "2026-10-21T21:54:48.859357+08:00",
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "git_head": "e87aadc9f7074fc4bc127c9ae03afbe9081dabae",
+  "git_branch": "main",
+  "inputs": [
+    {
+      "path": "agenthub_sp_invopt/abqjobpilot_project/project.json",
+      "role": "Project identity"
+    },
+    {
+      "path": "agenthub_sp_invopt/abqjobpilot_project/runtime/settings.json",
+      "sha256": "3e1529fcb4532df1f024907c7bdeb0c57f94ac72b96f7836aede4cdd3f687984",
+      "role": "persisted configuration"
+    },
+    {
+      "path": "run/run_008/artifacts/candidate_inp/SPIO_R008_Q200_N010_Candidate/SPIO_R008_Q200_N010_Candidate.inp",
+      "sha256": "fa2de5d73a28536c1c07cd22072d2a24c1ae988c569127d728931c583457f05a",
+      "role": "candidate input"
+    },
+    {
+      "path": "run/run_012/run.json",
+      "role": "immutable prior blocked record"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_013/artifacts/settings_api_response.json",
+      "role": "settings_api_response"
+    },
+    {
+      "path": "run/run_013/artifacts/preflight.json",
+      "role": "preflight"
+    },
+    {
+      "path": "run/run_013/artifacts/dry_run.json",
+      "role": "dry_run"
+    },
+    {
+      "path": "run/run_013/artifacts/verification_result.json",
+      "role": "verification_result"
+    },
+    {
+      "path": "run/run_013/artifacts/run012_blocker_resolution.json",
+      "role": "run012_blocker_resolution"
+    },
+    {
+      "path": "run/run_013/artifacts/agenthub_receipt.json",
+      "role": "agenthub_receipt"
+    }
+  ],
+  "validation": [
+    {
+      "check": "Strict persisted settings",
+      "status": "PASS",
+      "evidence": "run/run_013/artifacts/settings_api_response.json",
+      "scope": "Exact Project ID; no defaulted fields"
+    },
+    {
+      "check": "Preflight and dry-run refresh",
+      "status": "PASS",
+      "evidence": "run/run_013/artifacts/verification_result.json",
+      "scope": "No Abaqus execution"
+    },
+    {
+      "check": "Run012 preserved and blocker resolved",
+      "status": "PASS",
+      "evidence": "run/run_013/artifacts/run012_blocker_resolution.json",
+      "scope": "New evidence only"
+    },
+    {
+      "check": "AgentHub evidence",
+      "status": "PASS",
+      "evidence": "run/run_013/artifacts/agenthub_receipt.json",
+      "scope": "Six hashes, durable resolution message and valid audit chain"
+    }
+  ],
+  "errors": [],
+  "task_id": "e7d81ac3-0d08-4677-b4f4-f940fbda8209",
+  "run012_settings_blocker_resolved": true,
+  "first_hollomon_forward_solve_authorization_request_ready": true,
+  "science_state": "NOT_EVALUATED",
+  "solver_started": false,
+  "datacheck_started": false,
+  "queue_written": false,
+  "settings_written": false,
+  "commit_performed": false,
+  "push_performed": false
+}

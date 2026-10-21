@@ -1,0 +1,58 @@
+{
+  "source_root": "D:\\Projects\\abqjobpilot",
+  "source_version": "0.2.2",
+  "capabilities": {
+    "preflight": true,
+    "enqueue": true,
+    "enqueue_folder": true,
+    "list": true,
+    "status": true,
+    "locate_outputs": true,
+    "project_list": true,
+    "project_create": true,
+    "project_show": true,
+    "project_update": true,
+    "project_register": true,
+    "project_unregister": true,
+    "project_export": true,
+    "project_import": true,
+    "job_list": true,
+    "job_show": true,
+    "solver_start": false,
+    "project_delete": false
+  },
+  "project": {
+    "schema_version": "1.0",
+    "status": "PROJECT_CREATED",
+    "project": {
+      "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+      "name": "SP-InvOpt run_008 candidate preview",
+      "description": "Independent SP-InvOpt Project for run_008 preview and evidence. No Solver or Queue execution authorized.",
+      "path": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project",
+      "schema_version": "1.0",
+      "created_at": "2026-10-21T15:34:52",
+      "updated_at": "2026-10-21T15:34:52",
+      "runtime_dir": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime",
+      "database_exists": false
+    },
+    "errors": [],
+    "warnings": [],
+    "error_details": []
+  },
+  "project_path": "agenthub_sp_invopt/abqjobpilot_project",
+  "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+  "queue_status": {
+    "schema_version": "1.0",
+    "status": "OK",
+    "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+    "jobs": [],
+    "errors": [],
+    "warnings": [],
+    "error_details": []
+  },
+  "settings": {
+    "global_settings_file_exists": false,
+    "project_settings_file_exists": false,
+    "effective_resource_and_run_settings": "UNKNOWN; v0.2.2 would fall back to code defaults, which are not used"
+  }
+}

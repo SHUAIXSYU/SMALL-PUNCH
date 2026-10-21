@@ -1,0 +1,24 @@
+{
+  "observed_at": "2026-10-21T22:18:11.419553+08:00",
+  "identity": {
+    "agent_id": "MAIN:codex-main-run014-results",
+    "session_id": "603a87d9-6167-40b6-a1cc-144443eb1145",
+    "role": "MAIN"
+  },
+  "main_solver_evidence_task_id": "21e7ccb4-7061-4cdb-ad73-9506ee7c424d",
+  "odb_task_id": "35b07ba1-22ad-48a7-b859-2d99199ed419",
+  "queue_id": "q_4c0358a918a7447d807d2f547d22c7b8",
+  "message_id": "f175acc0-eaf7-496c-8298-9fe249b3dac2",
+  "terminal_artifact": {
+    "artifact_id": "f53e1e78-ba72-43cd-b8f1-cbb033922525",
+    "task_id": "21e7ccb4-7061-4cdb-ad73-9506ee7c424d",
+    "producer": "MAIN:codex-main-run014-results",
+    "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_014\\artifacts\\solver_terminal_result.json",
+    "sha256": "fce103727000c01274808480d243b323516c8d3836d75daa16bbdc7ee45dbab4",
+    "provenance": "{\"method\": \"AbqJobPilot public status/outputs/history; read-only logs and process identity verification\", \"queue_id\": \"q_4c0358a918a7447d807d2f547d22c7b8\"}",
+    "created": 1792592291.359936,
+    "version": "run014-terminal-v1"
+  },
+  "delivery_state": "PERSISTED_AWAITING_CODEX_MESSAGE",
+  "audit_hash_chain_valid": true
+}

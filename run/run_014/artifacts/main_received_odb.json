@@ -1,0 +1,65 @@
+{
+  "observed_at": "2026-10-21T22:24:25.798046+08:00",
+  "main_identity": {
+    "agent_id": "MAIN:codex-main-run014-results",
+    "session_id": "603a87d9-6167-40b6-a1cc-144443eb1145",
+    "role": "MAIN"
+  },
+  "odb_task": {
+    "task_id": "35b07ba1-22ad-48a7-b859-2d99199ed419",
+    "execution_state": "COMPLETED",
+    "evidence_state": "RECORDED",
+    "science_state": "NOT_EVALUATED",
+    "lease_agent": "ODB:codex-local-01a15d5e-f6e8-7373-8991-ae275dfd3b40",
+    "lease_session": "2d884cb1-8cc4-483f-b703-3215c897c369",
+    "generation": 1
+  },
+  "messages": [
+    {
+      "message_id": "de6b26a4-905b-43ff-9c2b-b386481e3d71",
+      "task_id": "35b07ba1-22ad-48a7-b859-2d99199ed419",
+      "sender": "ODB:codex-local-01a15d5e-f6e8-7373-8991-ae275dfd3b40",
+      "recipient_role": "MAIN",
+      "direction": "INBOX",
+      "idempotency_key": "run014-real-odb-result-v1",
+      "body": "{\"end_force_difference_new_minus_historical_model\":-0.07781982421875,\"end_force_model\":755.8150634765625,\"excessive_distortion_warning_headers\":2,\"execution_status\":\"COMPLETED_WITH_WARNINGS\",\"experimental_loss\":null,\"extraction_status\":\"PASS\",\"job_name\":\"SPIO_R014_Q200_N010\",\"manifest_sha256\":\"082cc8e9bcd5988e8c8a32f4a7daa1f13d958cd9ee8cffd5bab7267c78783c98\",\"max_abs_curve_difference_model\":13.592201672286876,\"negative_eigenvalue_warning_headers\":4,\"peeq_max_saved_frames\":0.6938983201980591,\"queue_id\":\"q_4c0358a918a7447d807d2f547d22c7b8\",\"rejected_attempts\":39,\"report_path\":\"run/run_014/artifacts/odb/report.md\",\"result_path\":\"run/run_014/artifacts/odb/result.json\",\"result_sha256\":\"692cbb8ab1a1468298aa7139030f7af822653cf12cde3116e86a87b8e91a465b\",\"runner_full_process_aggregation\":\"UNCONFIRMED\",\"science_status\":\"NOT_EVALUATED\",\"task_id\":\"35b07ba1-22ad-48a7-b859-2d99199ed419\",\"type\":\"ODB_RESULT\"}",
+      "created": 1792592602.1988223
+    }
+  ],
+  "result": {
+    "task_id": "35b07ba1-22ad-48a7-b859-2d99199ed419",
+    "queue_id": "q_4c0358a918a7447d807d2f547d22c7b8",
+    "job_name": "SPIO_R014_Q200_N010",
+    "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+    "execution_status": "COMPLETED_WITH_WARNINGS",
+    "extraction_status": "PASS",
+    "evidence_status": "RECORDED",
+    "science_status": "NOT_EVALUATED",
+    "odb_sha256": "1ed3ecb6b2e3e2bfcfc806eb7edfab706b4acc90ec387ac641a81f529d9dd4fd",
+    "inp_sha256": "fa2de5d73a28536c1c07cd22072d2a24c1ae988c569127d728931c583457f05a",
+    "historical_csv_sha256": "42acf8ccf72a86a178a55ea3b27917367385cd4a730c20741d19bc87528f6670",
+    "sample_count": 170,
+    "end_force_model": 755.8150634765625,
+    "peak_force_model": 755.8150634765625,
+    "end_force_difference_new_minus_historical_model": -0.07781982421875,
+    "max_abs_curve_difference_model": 13.592201672286876,
+    "rms_curve_difference_model": 6.133786225366114,
+    "peeq_max_saved_frames": 0.6938983201980591,
+    "peeq_within_candidate_pmax_0p9": true,
+    "accepted_increments": 169,
+    "rejected_attempts": 39,
+    "negative_eigenvalue_warning_headers": 4,
+    "excessive_distortion_warning_headers": 2,
+    "runner_full_process_aggregation": "UNCONFIRMED",
+    "experimental_loss": null,
+    "report": "run/run_014/artifacts/odb/report.md",
+    "diagnostics": "run/run_014/artifacts/odb/diagnostics.json",
+    "limitations": [
+      "Historical Sanity curve is a model comparator, not experimental Loss.",
+      "Stress/length/force unit declaration remains unverified.",
+      "No mesh or increment sensitivity study; material physical validity not established.",
+      "Runner Full process aggregation retained UNCONFIRMED for transient PID14320; current read-safety evidence supports read-only open."
+    ]
+  },
+  "real_thread_completed": "01a15d5e-f6e8-7373-8991-ae275dfd3b40"
+}

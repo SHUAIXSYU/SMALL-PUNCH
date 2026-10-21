@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_010",
+  "stage": "Real Agent Integration & Preflight",
+  "objective": "Verify existing candidate Hollomon INP in the real CAE Codex session",
+  "status": "BLOCKED",
+  "start_time": "2026-10-21T16:02:46.825355+08:00",
+  "end_time": "2026-10-21T16:10:43.243758+08:00",
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "git_head": "e87aadc9f7074fc4bc127c9ae03afbe9081dabae",
+  "git_branch": "main",
+  "task_id": "a4b4805f-4989-4168-a54a-3bbf435b52a6",
+  "inputs": [
+    {
+      "path": "agenthub_sp_invopt/CLI.md",
+      "role": "existing Hub CLI contract"
+    },
+    {
+      "path": "run/run_008/artifacts/candidate_inp/SPIO_R008_Q200_N010_Candidate/SPIO_R008_Q200_N010_Candidate.inp",
+      "role": "existing candidate INP",
+      "sha256": "fa2de5d73a28536c1c07cd22072d2a24c1ae988c569127d728931c583457f05a"
+    },
+    {
+      "path": "run/run_008/run.json",
+      "role": "prior candidate and Project identity"
+    },
+    {
+      "path": "run/run_009/run.json",
+      "role": "existing ledger and CLI implementation"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_010/artifacts/real_handoff.json",
+      "role": "task, receipts, audit events and artifact hashes"
+    },
+    {
+      "path": "run/run_010/artifacts/abqjobpilot_verification.json",
+      "role": "stable public API and configuration audit"
+    },
+    {
+      "path": "run/run_010/artifacts/cae/verification.json",
+      "role": "real CAE static INP verification"
+    },
+    {
+      "path": "run/run_010/artifacts/manifest.json",
+      "role": "evidence manifest"
+    },
+    {
+      "path": "run/run_010/summary.md",
+      "role": "Run summary"
+    }
+  ],
+  "validation": [
+    {
+      "check": "MAIN to real CAE Codex session through existing AgentHub",
+      "status": "PASS",
+      "evidence": "run/run_010/artifacts/real_handoff.json",
+      "scope": "actual CAE claim, artifacts, completion, MAIN durable receipt; platform-notified, not a background auto-wakeup service"
+    },
+    {
+      "check": "Candidate INP static verification",
+      "status": "PASS",
+      "evidence": "run/run_010/artifacts/cae/verification.json",
+      "scope": "11 static checks; no physics or fresh Solver validation"
+    },
+    {
+      "check": "AbqJobPilot persisted Settings",
+      "status": "BLOCKED",
+      "evidence": "run/run_010/artifacts/abqjobpilot_verification.json",
+      "scope": "actual Project/global/legacy Settings lookup"
+    },
+    {
+      "check": "Public preflight / dry-run",
+      "status": "BLOCKED",
+      "evidence": "run/run_010/artifacts/abqjobpilot_verification.json",
+      "scope": "not executed because Settings missing"
+    }
+  ],
+  "errors": [
+    {
+      "code": "CAE_LEASE_EXPIRED",
+      "severity": "WARNING",
+      "message": "First real CAE claim expired before registration. Worker completion verified, MAIN task-scoped recover_retry approved, same task reclaimed by real CAE.",
+      "evidence": "run/run_010/checkpoints/cae_stopped_before_recovery.json",
+      "resolution": "RESOLVED; generation 2 completed"
+    },
+    {
+      "code": "SETTINGS_MISSING",
+      "severity": "BLOCKED",
+      "message": "Abaqus command, CPU/GPU and datacheck/full-run values could not be verified from persisted Settings.",
+      "evidence": "run/run_010/artifacts/private/abq_settings_sources.json",
+      "resolution": "UNRESOLVED; no guessed defaults or preview calls"
+    }
+  ],
+  "cae_agent_id": "CAE:cae-codex-20261021-632ffd48",
+  "cae_session_id": "aa78d383-febb-4b7e-99d5-2a9665e9ab6c",
+  "cae_generation": 2,
+  "science_state": "NOT_EVALUATED",
+  "solver_authorization_ready": false,
+  "solver_started": false,
+  "datacheck_started": false,
+  "queue_written": false,
+  "hub_lease_recovery_performed": true,
+  "abqjobpilot_retry_performed": false,
+  "commit_performed": false,
+  "push_performed": false
+}

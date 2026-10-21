@@ -1,0 +1,11 @@
+{
+  "status": "PASS_ABAQUS_INPUT_PARSE",
+  "parser": "Abaqus 2024 inpParser.InputFile.parse",
+  "input_relative_path": "run/run_008/artifacts/candidate_inp/SPIO_R008_Q200_N010_Candidate/SPIO_R008_Q200_N010_Candidate.inp",
+  "input_file": "SPIO_R008_Q200_N010_Candidate.inp",
+  "parse_return_type": "InpKeywordSequence",
+  "solver_started": false,
+  "datacheck_started": false,
+  "job_submitted": false,
+  "scope": "Input syntax parsing only; no model physics/convergence validation."
+}

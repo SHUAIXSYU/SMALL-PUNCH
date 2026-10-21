@@ -1,0 +1,224 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_007",
+  "stage": "Candidate material parameterisation",
+  "objective": "Reusable candidate true-total Hollomon to Abaqus Plastic generator, tests, historical ODB strain coverage, no solver",
+  "status": "WARNING",
+  "start_time": "2026-10-12T22:51:56.925063+08:00",
+  "end_time": "2026-10-12T23:04:19.743135+08:00",
+  "time_notes": "First persisted observation after initial read-only inspection.",
+  "python_interpreter": "D:\\XianLab\\envs\\conda\\torch-gpu\\python.exe",
+  "git_head": "e87aadc9f7074fc4bc127c9ae03afbe9081dabae",
+  "git_branch": "main",
+  "inputs": [
+    {
+      "path": "run/run_007/artifacts/private/initial_state.json",
+      "role": "private source manifest and Git baseline"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_007/summary.md",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/artifacts/candidate_interpolation_error.csv",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/artifacts/candidate_Q200_n01_plastic.csv",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/artifacts/candidate_Q200_n01_plastic.inc",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/artifacts/error_report.json",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/artifacts/extract_peeq_readonly.py",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/artifacts/unit_tests_attempt01.txt",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/artifacts/unit_tests_attempt02.txt",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/artifacts/private/comparison_console_attempt01.txt",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/artifacts/private/comparison_console_attempt02.txt",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/artifacts/private/comparison_failure_20261012T225826.txt",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/artifacts/private/comparison_metrics.json",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/artifacts/private/coverage_recommendation.json",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/artifacts/private/finalize_run.py",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/artifacts/private/final_state_private.json",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/artifacts/private/initial_state.json",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/artifacts/private/material_parameterisation_report.md",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/artifacts/private/old_new_comparison.csv",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/artifacts/private/old_new_material_comparison.png",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/artifacts/private/parameter_grid_numerical_checks.json",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/artifacts/private/peeq_console_attempt01.txt",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/artifacts/private/peeq_scan_attempt01.json",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/artifacts/private/total_strain_comparison.csv",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/artifacts/private/verify_and_compare.py",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/checkpoints/final_state.json",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/checkpoints/run.running.json",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/checkpoints/run_README.md.before",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/checkpoints/status_PROJECT_STATUS.md.before",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "inverse/hollomon.py",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "tests/test_hollomon.py",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "docs/Hollomon_Material_Generator.md",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/artifacts/manifest.json",
+      "role": "run_metadata_or_index"
+    },
+    {
+      "path": "run/run_007/run.json",
+      "role": "run_metadata_or_index"
+    },
+    {
+      "path": "run/README.md",
+      "role": "run_metadata_or_index"
+    },
+    {
+      "path": "status/PROJECT_STATUS.md",
+      "role": "run_metadata_or_index"
+    }
+  ],
+  "validation": [
+    {
+      "check": "unit_tests",
+      "status": "PASS",
+      "evidence": "run/run_007/artifacts/unit_tests_attempt02.txt",
+      "scope": "11 standard-library tests, analytic oracle, boundary/illegal parameters, monotonicity, interpolation, serialization"
+    },
+    {
+      "check": "independent_numerical_accuracy",
+      "status": "PASS",
+      "evidence": "run/run_007/artifacts/error_report.json",
+      "scope": "14859 independent candidate comparison points plus 25 numerical cases; not physical validation"
+    },
+    {
+      "check": "historical_PEEQ_coverage",
+      "status": "PASS",
+      "evidence": "run/run_007/artifacts/private/peeq_scan_attempt01.json",
+      "scope": "all saved frames, integration-point PEEQ only; no future-case guarantee"
+    },
+    {
+      "check": "source_integrity_and_delivery",
+      "status": "PASS",
+      "evidence": "run/run_007/checkpoints/final_state.json",
+      "scope": "source hashes, old Runs, Git state, artifact links, serialized sample, visual review"
+    },
+    {
+      "check": "physical_model_validity",
+      "status": "WARNING",
+      "evidence": "docs/Hollomon_Material_Generator.md",
+      "scope": "candidate true-total interpretation remains unconfirmed; no solver validation"
+    }
+  ],
+  "errors": [
+    {
+      "code": "INDEPENDENT_ORACLE_BRACKET_ATTEMPT01",
+      "severity": "RESOLVED",
+      "message": "Near-yield floating-point sign loss in independent Brent bracket; upper bracket enlarged; attempt02 passed.",
+      "evidence": "run/run_007/artifacts/private/comparison_console_attempt01.txt",
+      "resolution": "run/run_007/artifacts/private/comparison_console_attempt02.txt"
+    },
+    {
+      "code": "PHYSICAL_INTERPRETATION_UNCONFIRMED",
+      "severity": "WARNING",
+      "message": "Candidate only; source strain convention and physical range await confirmation.",
+      "evidence": "docs/Hollomon_Material_Generator.md"
+    },
+    {
+      "code": "EXISTING_PYTEST_DEPENDENCY",
+      "severity": "WARNING",
+      "message": "Prior missing iniconfig not repaired; tests use unittest.",
+      "evidence": "run/run_004/summary.md"
+    }
+  ],
+  "abaqus_python_interpreter": "D:\\ABAQUS2024\\product\\win_b64\\code\\bin\\SMAPython.exe",
+  "solver_invoked": false,
+  "job_created_or_submitted": false,
+  "CAE_opened": false,
+  "source_models_modified": false,
+  "excel_modified": false,
+  "dependencies_changed": false,
+  "RL_trained": false,
+  "commit_performed": false,
+  "push_performed": false
+}

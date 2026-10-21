@@ -1,0 +1,21 @@
+{
+  "run_id": "run_011",
+  "artifacts": [
+    {
+      "path": "run/run_011/summary.md",
+      "sha256": "8481a8a829269519f87c5875543bf5da6fd354d94c19b5af6d3c38590b28544e"
+    },
+    {
+      "path": "run/run_011/artifacts/register_existing_project.py",
+      "sha256": "3a1d81244a35b51d2c7c8db13573b3b4e51ea58f745eeb3f5ae9c83a9a5ba96f"
+    },
+    {
+      "path": "run/run_011/artifacts/registration_result.json",
+      "sha256": "19726dd48729b97fa30af190107f5ce3c2f67bfdf98e2f9d030f8337174bb8a9"
+    },
+    {
+      "path": "run/run_011/checkpoints/initial_state.json",
+      "sha256": "ce8a82c0bb890005f00fbb7f519641934e3f404952169947009df80ec3ace2e2"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "observed_at": "2026-10-21T22:12:48.515558+08:00",
+  "task_id": "93322987-9489-47c1-908a-dd43e0736339",
+  "job_name": "SPIO_R014_Q200_N010",
+  "attempt": 1,
+  "max_attempts": 1,
+  "retry_forbidden": true,
+  "request_sha256": "b511adc9c53637f8b8a47e4d44a071c1f08535085993874b96fdf69117a315b9"
+}

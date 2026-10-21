@@ -1,0 +1,32 @@
+[
+  {
+    "schema_version": "1.0",
+    "queue_id": "q_4c0358a918a7447d807d2f547d22c7b8",
+    "status": "QUEUED",
+    "batch_name": "run_014",
+    "strategy_name": "Q200_N010",
+    "job_name": "SPIO_R014_Q200_N010",
+    "inp_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_008\\artifacts\\candidate_inp\\SPIO_R008_Q200_N010_Candidate\\SPIO_R008_Q200_N010_Candidate.inp",
+    "work_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_014\\artifacts\\solver\\SPIO_R014_Q200_N010",
+    "cpus": 14,
+    "gpus": 0,
+    "run_datacheck": true,
+    "run_full": true,
+    "created_at": "2026-10-21T22:12:48",
+    "started_at": null,
+    "ended_at": null,
+    "duration_sec": null,
+    "phase": "QUEUED",
+    "return_code": null,
+    "final_verdict": null,
+    "fatal_reason": null,
+    "warning_count": null,
+    "odb_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_014\\artifacts\\solver\\SPIO_R014_Q200_N010\\SPIO_R014_Q200_N010.odb",
+    "odb_size_bytes": null,
+    "sta_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_014\\artifacts\\solver\\SPIO_R014_Q200_N010\\SPIO_R014_Q200_N010.sta",
+    "msg_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_014\\artifacts\\solver\\SPIO_R014_Q200_N010\\SPIO_R014_Q200_N010.msg",
+    "dat_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_014\\artifacts\\solver\\SPIO_R014_Q200_N010\\SPIO_R014_Q200_N010.dat",
+    "log_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_014\\artifacts\\solver\\SPIO_R014_Q200_N010\\SPIO_R014_Q200_N010.log",
+    "notes": "run_014; task_id=93322987-9489-47c1-908a-dd43e0736339; project_id=b87d2cd6-8519-4ac3-bae6-7eb989fb2dae; inp_sha256=fa2de5d73a28536c1c07cd22072d2a24c1ae988c569127d728931c583457f05a; max_attempts=1; retries=0; GUI Start Queue only"
+  }
+]

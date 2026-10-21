@@ -1,0 +1,20 @@
+{
+  "inp_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_008\\artifacts\\candidate_inp\\SPIO_R008_Q200_N010_Candidate\\SPIO_R008_Q200_N010_Candidate.inp",
+  "job_name": "SPIO_R008_Q200_N010_Candidate",
+  "cpus": 14,
+  "gpus": 0,
+  "batch": null,
+  "strategy": null,
+  "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_008\\artifacts\\candidate_inp\\SPIO_R008_Q200_N010_Candidate",
+  "submission_mode": "preview_only",
+  "allow_solver_submit": false,
+  "metadata": {
+    "run_id": "run_012",
+    "configuration_source": "EXPLICIT_USER_MESSAGE_ONLY",
+    "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+    "inp_sha256": "fa2de5d73a28536c1c07cd22072d2a24c1ae988c569127d728931c583457f05a"
+  },
+  "run_datacheck": true,
+  "run_full": true,
+  "schema_version": "1.0"
+}

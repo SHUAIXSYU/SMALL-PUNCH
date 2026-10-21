@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_012",
+  "stage": "Saved Settings and execution-chain preview",
+  "objective": "Resolve run_010 preflight/dry-run prerequisites without enqueue or solver",
+  "status": "BLOCKED",
+  "start_time": "2026-10-21T16:28:25.701422+08:00",
+  "end_time": "2026-10-21T16:28:26.147039+08:00",
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "git_head": "e87aadc9f7074fc4bc127c9ae03afbe9081dabae",
+  "git_branch": "main",
+  "inputs": [
+    {
+      "path": "agenthub_sp_invopt/abqjobpilot_project/project.json",
+      "role": "Project identity"
+    },
+    {
+      "path": "run/run_008/artifacts/candidate_inp/SPIO_R008_Q200_N010_Candidate/SPIO_R008_Q200_N010_Candidate.inp",
+      "sha256": "fa2de5d73a28536c1c07cd22072d2a24c1ae988c569127d728931c583457f05a",
+      "role": "candidate input"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_012/artifacts/settings_verification.json",
+      "role": "settings_verification"
+    },
+    {
+      "path": "run/run_012/artifacts/preflight.json",
+      "role": "preflight"
+    },
+    {
+      "path": "run/run_012/artifacts/dry_run.json",
+      "role": "dry_run"
+    },
+    {
+      "path": "run/run_012/artifacts/preview_result.json",
+      "role": "preview_result"
+    },
+    {
+      "path": "run/run_012/artifacts/agenthub_receipt.json",
+      "role": "agenthub_receipt"
+    }
+  ],
+  "validation": [
+    {
+      "check": "settings",
+      "status": "BLOCKED",
+      "evidence": "run/run_012/artifacts/preview_result.json",
+      "scope": "API preview only"
+    },
+    {
+      "check": "preflight",
+      "status": "PASS",
+      "evidence": "run/run_012/artifacts/preview_result.json",
+      "scope": "API preview only"
+    },
+    {
+      "check": "dry-run",
+      "status": "PASS",
+      "evidence": "run/run_012/artifacts/preview_result.json",
+      "scope": "API preview only"
+    },
+    {
+      "check": "empty unchanged queue",
+      "status": "PASS",
+      "evidence": "run/run_012/artifacts/preview_result.json",
+      "scope": "API preview only"
+    },
+    {
+      "check": "AgentHub evidence and message",
+      "status": "PASS",
+      "evidence": "run/run_012/artifacts/preview_result.json",
+      "scope": "API preview only"
+    }
+  ],
+  "errors": [
+    {
+      "code": "PROJECT_RUNTIME_SETTINGS_NOT_SAVED",
+      "severity": "BLOCKED",
+      "message": "Target Project runtime/settings.json does not exist. Explicit user parameters enabled API preview but cannot prove persisted configuration.",
+      "evidence": "run/run_012/artifacts/settings_verification.json",
+      "resolution": "UNRESOLVED"
+    }
+  ],
+  "task_id": "7d56b96f-bae2-473e-b9f6-89afb6dbcd14",
+  "solver_started": false,
+  "datacheck_started": false,
+  "queue_written": false,
+  "settings_written": false,
+  "commit_performed": false,
+  "push_performed": false,
+  "single_solver_authorization_request_ready": false
+}

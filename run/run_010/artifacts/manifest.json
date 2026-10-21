@@ -1,0 +1,112 @@
+{
+  "run_id": "run_010",
+  "generated_at": "2026-10-21T16:10:43.243758+08:00",
+  "artifacts": [
+    {
+      "path": "run/run_010/artifacts/abqjobpilot_verification.json",
+      "sha256": "2e84d8ebdd1792da15089342d5453fe91ed47ebb45d3e0166efc0074f1694942"
+    },
+    {
+      "path": "run/run_010/artifacts/audit_abqjobpilot.py",
+      "sha256": "5b2bb4373c0e4d95240ea85fc0c50ba4b9e6cb214b432d74627508ca37af835f"
+    },
+    {
+      "path": "run/run_010/artifacts/bootstrap_main.py",
+      "sha256": "770fddceaf419c1f70d3c557e7d93e80c28cd748272362dfae71585a9ef68a57"
+    },
+    {
+      "path": "run/run_010/artifacts/cae/complete_hub_handoff.py",
+      "sha256": "4a6614ced92cde5497d8bf67c87c5ff4a4e5ae54f7a6dfc542e2572e9b25dfd7"
+    },
+    {
+      "path": "run/run_010/artifacts/cae/completion_receipt.json",
+      "sha256": "2a770bb239f4b0c5a6a4387047d48dda1434dec8396a45ac33e7866a4bd19d69"
+    },
+    {
+      "path": "run/run_010/artifacts/cae/lease_expired_notice.json",
+      "sha256": "dda7eac0345ed4009de874bdc30d2238a510144fc39a24b688a5fb6f3a48227d"
+    },
+    {
+      "path": "run/run_010/artifacts/cae/provenance.json",
+      "sha256": "2679097f7c3f8708f97ebe715082b714f7104d636fd6653bc87124943e488daa"
+    },
+    {
+      "path": "run/run_010/artifacts/cae/result.json",
+      "sha256": "80c22acd56f85b552c5440132ea733d2f069a7474ded3d4a98c28d412687b5fa"
+    },
+    {
+      "path": "run/run_010/artifacts/cae/verification.json",
+      "sha256": "9f5904278e44696dad337646fa1ee6b486b0e7a43965dbde46086e6c9c7293e7"
+    },
+    {
+      "path": "run/run_010/artifacts/cae/verification_attempt01.json",
+      "sha256": "cc437c38fc69636e0b9233c8c4997e035c0ed4ef613f45332f679ef566848854"
+    },
+    {
+      "path": "run/run_010/artifacts/cae/verify_candidate_inp.py",
+      "sha256": "9a746964b8bd21e4cc42179afea26031f6da19a43fd3f2f1427c40852f97a3d3"
+    },
+    {
+      "path": "run/run_010/artifacts/cae_task_request.json",
+      "sha256": "749577be7d63034cacf2abd16178a2f9f19a348df6f4cc017254f9653c2ff538"
+    },
+    {
+      "path": "run/run_010/artifacts/collect_real_handoff.py",
+      "sha256": "e6c5f01fd085145d28d85692b0b65f4d340fdcffd32118191dc8c9dc7e59dea6"
+    },
+    {
+      "path": "run/run_010/artifacts/dispatch.json",
+      "sha256": "4329ea9f55ef12ebf7b72c6f2f93d38e015fbed9dc63d3b913cab9c38f961053"
+    },
+    {
+      "path": "run/run_010/artifacts/finalize_run.py",
+      "sha256": "25d4e775787f31acdfaaf86e322bbcd6873644f511b4c103311342797f41a767"
+    },
+    {
+      "path": "run/run_010/artifacts/main_identity.json",
+      "sha256": "b6ade80f3771a0acd7472ff29d3aaeb3895ae1d7351bf9b761da31e2a3e3980a"
+    },
+    {
+      "path": "run/run_010/artifacts/real_handoff.json",
+      "sha256": "25e88fe496ba779fc9809154ee190c37a2d657380dde23e1a5ec7782837c2ffe"
+    },
+    {
+      "path": "run/run_010/checkpoints/cae_completed.json",
+      "sha256": "fd1376eb0a3df449793c597cd01bec15ca8fb8a99e205d988256574ec6b2d74e"
+    },
+    {
+      "path": "run/run_010/checkpoints/cae_stopped_before_recovery.json",
+      "sha256": "637ea5783a953f8f2e88ca78f30c124e99815c0d2e9502d929680bdf08ea625b"
+    },
+    {
+      "path": "run/run_010/checkpoints/handoff_2026-10-21T16_06_56.913598+08_00.json",
+      "sha256": "29e1286301c7b71e2cbc9652e3fcf7c53f49b0380db703ae1a76bd49b82e65e5"
+    },
+    {
+      "path": "run/run_010/checkpoints/handoff_2026-10-21T16_09_28.597941+08_00.json",
+      "sha256": "542cfa946261b33537ea4f2b65a0a2b8788b71c03645c653faf7055dab01e08c"
+    },
+    {
+      "path": "run/run_010/checkpoints/handoff_2026-10-21T16_10_27.598453+08_00.json",
+      "sha256": "81ef200684fd0c846298da7ce7dcd8eb02cef7a3f2c67237abdf4b8b9e577041"
+    },
+    {
+      "path": "run/run_010/checkpoints/handoff_2026-10-21T16_10_43.091762+08_00.json",
+      "sha256": "59fe95d13d7ffc668664268181e3e444aec419071f9d3e2f38265fd16e0cbb33"
+    },
+    {
+      "path": "run/run_010/checkpoints/initial_state.json",
+      "sha256": "88e35af77c981f8a384629a48b334897ece7219578216e6a40390fed50c2039b"
+    },
+    {
+      "path": "run/run_010/checkpoints/run_before_finalize.json",
+      "sha256": "a807b40bf3a0c9744de56ad3879c0b6a55b62cb2839852a9336927de26a30627"
+    },
+    {
+      "path": "run/run_010/summary.md",
+      "sha256": "2b69674196e2aca44a95cbea7779c50d4f1573f578a69384ace2c839b7e20f2d"
+    }
+  ],
+  "private_audit": "run/run_010/artifacts/private/",
+  "database": "agenthub_sp_invopt/runtime/sp_invopt.sqlite3"
+}

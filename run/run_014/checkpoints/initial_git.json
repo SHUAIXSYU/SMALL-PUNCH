@@ -1,0 +1,33 @@
+{
+  "observed_at": "2026-10-21T22:11:42.5486259+08:00",
+  "branch": "main",
+  "head": "e87aadc9f7074fc4bc127c9ae03afbe9081dabae",
+  "remote": [
+    "origin\thttps://github.com/SHUAIXSYU/SMALL-PUNCH.git (fetch)",
+    "origin\thttps://github.com/SHUAIXSYU/SMALL-PUNCH.git (push)"
+  ],
+  "working_tree": [
+    " M .gitignore",
+    " M CAE/Models/Sanity/SP_InvOpt_Sanity_model.cae",
+    " D CAE/Models/Sanity/SP_InvOpt_Sanity_model.rec",
+    " M README.md",
+    " M README.zh-CN.md",
+    " M docs/Agent_File_Communication_Protocol.md",
+    " M docs/Research_Architecture.md",
+    " M run/README.md",
+    " M status/PROJECT_STATUS.md",
+    "?? agenthub_sp_invopt/",
+    "?? docs/Hollomon_Material_Generator.md",
+    "?? inverse/hollomon.py",
+    "?? run/run_007/",
+    "?? run/run_008/",
+    "?? run/run_009/",
+    "?? run/run_010/",
+    "?? run/run_011/",
+    "?? run/run_012/",
+    "?? run/run_013/",
+    "?? tests/test_hollomon.py"
+  ],
+  "abq_head": "7012133e7cc0176bb3e56fc24d7154ee3b90bb81",
+  "abq_working_tree": null
+}

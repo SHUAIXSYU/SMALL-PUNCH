@@ -1,0 +1,120 @@
+{
+  "run_id": "run_008",
+  "title": "SP-InvOpt AgentHub / AbqJobPilot integration bootstrap",
+  "status": "WARNING",
+  "started_at": "2026-10-21T15:32:43+08:00",
+  "finished_at": "2026-10-21T15:51:30+08:00",
+  "git": {
+    "branch": "main",
+    "head_at_start": "e87aadc9f7074fc4bc127c9ae03afbe9081dabae",
+    "remote": "https://github.com/SHUAIXSYU/SMALL-PUNCH.git",
+    "no_commit": true,
+    "no_push": true,
+    "preexisting_changes_preserved": true
+  },
+  "environment": {
+    "hub_and_test_python": "D:/XianLab/envs/torch-gpu/python.exe",
+    "python_version": "3.11.13",
+    "sqlite_version": "3.50.2",
+    "mcp_python": "D:/XianLab/envs/LangChainEnv/Scripts/python.exe",
+    "mcp_version": "2.3.0",
+    "abaqus_python": "Abaqus 2024 bundled Python via D:/ABAQUS2024/Commands/abq2024.bat"
+  },
+  "scope": {
+    "solver_started": false,
+    "datacheck_started": false,
+    "queue_written": false,
+    "recovery_or_retry": false,
+    "stage5_production_modified": false,
+    "abqjobpilot_source_modified": false,
+    "historical_cae_inp_odb_modified": false,
+    "rl_training_or_optimization": false
+  },
+  "validations": [
+    {
+      "name": "AgentHub standard-library tests",
+      "status": "PASS",
+      "detail": "8 tests; transactional claim, idempotency, lease/recovery, authorization, polling."
+    },
+    {
+      "name": "Candidate contract tests",
+      "status": "PASS",
+      "detail": "3 tests; unique job/work directory, Hollomon contract and explicit boundaries."
+    },
+    {
+      "name": "Abaqus input parser",
+      "status": "PASS",
+      "detail": "Syntax parse only; no datacheck/solver."
+    },
+    {
+      "name": "Historical ODB read interface",
+      "status": "PASS",
+      "detail": "Read-only Job-1 ODB interface regression; not candidate result."
+    },
+    {
+      "name": "Local process collaboration",
+      "status": "PASS",
+      "detail": "MAIN/CAE/ODB task claiming, persistent inbox receipt and structured results simulated."
+    },
+    {
+      "name": "AbqJobPilot MCP read-only checks",
+      "status": "PASS",
+      "detail": "Five tools discovered; queue/history/status/output locate read-only; queue hash unchanged."
+    },
+    {
+      "name": "AbqJobPilot preflight and dry-run enqueue",
+      "status": "BLOCKED",
+      "detail": "Actual local Settings not found; did not substitute source-code defaults; neither call was invoked."
+    },
+    {
+      "name": "Cross-Codex session delivery",
+      "status": "NOT_VERIFIED",
+      "detail": "Local process polling verified; automatic delivery to other Codex sessions is not implemented; manual Handoff remains."
+    },
+    {
+      "name": "Candidate science validation",
+      "status": "WARNING",
+      "detail": "Candidate is a true-total-strain interpretation model; no experimental/fresh-solve validation; current CAE equivalence UNKNOWN."
+    },
+    {
+      "name": "Concurrent Run directory",
+      "status": "WARNING",
+      "detail": "run_009 appeared and became nonempty during run_008; not inspected or modified; preserved as unowned parallel work."
+    }
+  ],
+  "abqjobpilot": {
+    "version": "0.2.2",
+    "branch": "main",
+    "head": "0dfdb22205535c88d3ef068d895c15b6a1ab051b",
+    "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+    "queue_empty": true,
+    "queue_sha256": "7858c86b0fb9951d2e597e9db75bbbb6636790c77da481833be53060c0e3c787",
+    "settings_values": "UNKNOWN; actual global/project settings files absent"
+  },
+  "candidate": {
+    "job_name": "SPIO_R008_Q200_N010_Candidate",
+    "inp": "run/run_008/artifacts/candidate_inp/SPIO_R008_Q200_N010_Candidate/SPIO_R008_Q200_N010_Candidate.inp",
+    "sha256": "fa2de5d73a28536c1c07cd22072d2a24c1ae988c569127d728931c583457f05a",
+    "parameters": {
+      "E_GPa": 210,
+      "nu": 0.3,
+      "sigma_y_MPa": 200,
+      "n": 0.1,
+      "max_plastic_strain": 0.9
+    },
+    "model_status": "candidate, true total strain interpretation, not experimentally validated"
+  },
+  "outputs": [
+    "agenthub_sp_invopt/",
+    "run/run_008/artifacts/manifest.json",
+    "run/run_008/summary.md",
+    "run/run_008/checkpoints/final_state.json"
+  ],
+  "limitations": [
+    "Settings missing, so preflight/dry-run not executed.",
+    "Cross-Codex automatic delivery not implemented or verified.",
+    "Historical ODB validates reader interface only.",
+    "No solver, datacheck, or actual queue submission.",
+    "Unowned run_009 content was left untouched."
+  ]
+}

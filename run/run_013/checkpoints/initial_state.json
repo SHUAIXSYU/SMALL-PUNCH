@@ -1,0 +1,50 @@
+{
+  "observed_at": "2026-10-21T21:54:48.046114+08:00",
+  "git": {
+    "branch": "main",
+    "head": "e87aadc9f7074fc4bc127c9ae03afbe9081dabae",
+    "remote": "origin\thttps://github.com/SHUAIXSYU/SMALL-PUNCH.git (fetch)\norigin\thttps://github.com/SHUAIXSYU/SMALL-PUNCH.git (push)",
+    "working_tree": "M .gitignore\n M CAE/Models/Sanity/SP_InvOpt_Sanity_model.cae\n D CAE/Models/Sanity/SP_InvOpt_Sanity_model.rec\n M README.md\n M README.zh-CN.md\n M docs/Agent_File_Communication_Protocol.md\n M docs/Research_Architecture.md\n M run/README.md\n M status/PROJECT_STATUS.md\n?? agenthub_sp_invopt/\n?? docs/Hollomon_Material_Generator.md\n?? inverse/hollomon.py\n?? run/run_007/\n?? run/run_008/\n?? run/run_009/\n?? run/run_010/\n?? run/run_011/\n?? run/run_012/\n?? run/run_013/\n?? tests/test_hollomon.py"
+  },
+  "external_source": {
+    "root": "D:\\Projects\\abqjobpilot",
+    "head": "7012133e7cc0176bb3e56fc24d7154ee3b90bb81",
+    "branch": "main",
+    "working_tree": ""
+  },
+  "python": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "python_version": "3.11.13 | packaged by Anaconda, Inc. | (main, Jun  5 2025, 13:03:15) [MSC v.1929 64 bit (AMD64)]",
+  "protected_hashes": {
+    "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\project.json": "06182edaaf91873b9f1480d44e95598beb89051e2f6f1209adf8047360aed54d",
+    "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\project.db": "f084f8d53f1890e0300f16c899f4c32ecd78fc90e353985d5136f4eac6987207",
+    "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime\\settings.json": "3e1529fcb4532df1f024907c7bdeb0c57f94ac72b96f7836aede4cdd3f687984",
+    "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime\\queue.json": "7858c86b0fb9951d2e597e9db75bbbb6636790c77da481833be53060c0e3c787",
+    "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime\\live_status.json": "4ebfeed9f36a2b62c0eadf20d3bb85a49812729a92fb84e69739cd17fbc6dbb5",
+    "E:\\Projects\\SMALL-PUNCH\\run\\run_008\\artifacts\\candidate_inp\\SPIO_R008_Q200_N010_Candidate\\SPIO_R008_Q200_N010_Candidate.inp": "fa2de5d73a28536c1c07cd22072d2a24c1ae988c569127d728931c583457f05a",
+    "E:\\Projects\\SMALL-PUNCH\\inverse\\hollomon.py": "d937664f7fc7f845a9ed7a75a004275bf38d11a1b3f68975a05961adb9b16363",
+    "C:\\Users\\wuxia\\.abqjobpilot\\recent_projects.json": "c2fddebcc32f82ad13c0bcfab074b97bb6848848f60f2ec0c5db111f9213901b",
+    "C:\\Users\\wuxia\\.abqjobpilot\\app_settings.json": "5d388f2d83514cbef831d6d85f192c211b4c1c984e35518be6ab278c366958bf"
+  },
+  "run012_tree_hashes": {
+    "artifacts/agenthub_receipt.json": "a8e08d1b9505f56b8f444306f610ee3d1306f2fe77e675f89c81eb756db9a569",
+    "artifacts/dry_run.json": "c726dc7f763c4c0a22da0c3644ff1c2779a6faf23516b2ae909e7547b648db76",
+    "artifacts/execute_preview.py": "30adb792866f67e93dc0ae0f4cbf3bd1d967f8a2dea3ae29eb3fb820f16cf36e",
+    "artifacts/manifest.json": "3b0927f6362ba55b54765d40b1695e6da675f1df42ba4e21ac88623a9c55ea10",
+    "artifacts/preflight.json": "9cbe5a3ba22a47e3a4117469bf89932838d40274e18196ba0326c4db975eff0a",
+    "artifacts/preview_result.json": "7bc876ccab3b0584ef7db780de6b32ebe86b074b454420be7828556b58a64f1a",
+    "artifacts/private/finalization_attempt01.txt": "3d4eda041d245d839a7faba0924160f67e8fd4bf11f5ee368baaa0e58c096768",
+    "artifacts/private/main_lease.json": "5ed7b68bd80844c0ee9acc381b48ed51a16afbeb93f05e4a3e50aec1019f9e87",
+    "artifacts/private/nearby_settings_inventory.json": "5b134f83b0594a05934a5aae4b02cdd0df67542289991f29b6986d268278c8e8",
+    "artifacts/request.json": "67539d0497bb21974e0ec2d15b43daac621048655bf35aa0e29c72f41aaf48ce",
+    "artifacts/settings_verification.json": "47fd387627b083992ab5f7e3a8210990ca8acad5172e8467bcec5ee3c1aa7b84",
+    "checkpoints/abaqus_processes_after.json": "b56a1051553696db5dd1b5cc202b44ad63ac0661a4bede18454a9af7c6fee3e0",
+    "checkpoints/abaqus_processes_before.json": "4e119ffb64f5630739d7c29f8c4acf237eb0a6105f052695642ff443c5ccb44e",
+    "checkpoints/after_preview.json": "9a3b58e2f42c37bd4c50539628c55d8da90fcd9d7282086d31e2e3757515be9b",
+    "checkpoints/initial_state.json": "033e36559aae7841b334ca54c97abfe3ff9732cb8b8e7d4e04bd95ab7659f987",
+    "run.json": "fd1151417475b2b1276eacef81076173783967f3640cbeb81bd9e4cdd6e8b6c1",
+    "summary.md": "7bc59e8264ca2f9c358534a6daf7c89a29a059fd6c7b2f88e4870dd01e1e7890"
+  },
+  "candidate_directory": {
+    "SPIO_R008_Q200_N010_Candidate.inp": "fa2de5d73a28536c1c07cd22072d2a24c1ae988c569127d728931c583457f05a"
+  }
+}

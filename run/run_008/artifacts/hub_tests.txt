@@ -1,0 +1,12 @@
+test_distinct_enqueue_solver_retry_approvals (__main__.HubTests.test_distinct_enqueue_solver_retry_approvals) ... ok
+test_e2e_roles_approval_messages_and_separate_states (__main__.HubTests.test_e2e_roles_approval_messages_and_separate_states) ... ok
+test_idempotency_claim_exclusion_and_message_conflict (__main__.HubTests.test_idempotency_claim_exclusion_and_message_conflict) ... ok
+test_lease_crash_recovery_requires_confirmed_worker_exit (__main__.HubTests.test_lease_crash_recovery_requires_confirmed_worker_exit) ... ok
+test_persistent_inbox_receipt_is_distinct_from_outbox_and_claim (__main__.HubTests.test_persistent_inbox_receipt_is_distinct_from_outbox_and_claim) ... ok
+test_real_poll_process_claims_only_once (__main__.HubTests.test_real_poll_process_claims_only_once) ... ok
+test_two_concurrent_sessions_have_exactly_one_claim_winner (__main__.HubTests.test_two_concurrent_sessions_have_exactly_one_claim_winner) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 2.033s
+
+OK

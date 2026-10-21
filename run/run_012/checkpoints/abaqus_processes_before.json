@@ -1,0 +1,6 @@
+{
+  "observed_at": null,
+  "processes": [],
+  "time_notes": "Initial PowerShell query before preview returned no named Abaqus processes and produced no file; exact observation time not retained.",
+  "scope": "Snapshot, not continuous monitoring"
+}

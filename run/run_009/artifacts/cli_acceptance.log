@@ -1,0 +1,29 @@
+{
+  "scope": "SIMULATED_ONLY_NO_SOLVER",
+  "database": "run/run_009/artifacts/private/cli_acceptance.sqlite3",
+  "task_ids": {
+    "CAE": "2633f7d0-78c0-40f0-8a7d-d72967b510b7",
+    "ODB": "22da6859-21e1-4761-842d-e58f12549565"
+  },
+  "artifact_sha256": {
+    "CAE": "b173d7608346bbe6116a39ab72dfddff2ddbd9c32e61874cbbfc6403a6efea7b",
+    "ODB": "bebed9671082ce37a14ffbc778f89af2284bae2d24c963b3ffdb0d7777fe8ae0"
+  },
+  "checks": [
+    "separate_processes",
+    "shared_sqlite",
+    "task_idempotency",
+    "message_dedup",
+    "message_receipt",
+    "role_denial",
+    "exclusive_claim",
+    "duplicate_finish_denial",
+    "artifact_hash",
+    "dependency",
+    "main_delivery",
+    "audit_chain"
+  ],
+  "execution": "PASS",
+  "science": "NOT_EVALUATED",
+  "solver_started": false
+}

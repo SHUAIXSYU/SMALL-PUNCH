@@ -1,0 +1,13 @@
+{
+  "observed_at": "2026-10-21T22:17:41.749525+08:00",
+  "process_count": 423,
+  "relevant": [
+    {
+      "ProcessId": 2420,
+      "Name": "pythonw.exe",
+      "ExecutablePath": "D:\\Program Files\\Python312\\pythonw.exe",
+      "CommandLine": "\"D:\\Program Files\\Python312\\pythonw.exe\" \"D:\\Projects\\abqjobpilot\\run_gui.py\""
+    }
+  ],
+  "conflicts": []
+}

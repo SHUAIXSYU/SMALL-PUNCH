@@ -1,0 +1,196 @@
+{
+  "created_at": "2026-10-12T23:04:19.743135+08:00",
+  "entries": [
+    {
+      "path": "docs/Hollomon_Material_Generator.md",
+      "sha256": "038a5e20a592c2d4fa5651839ad8de800695958ee9ecee2e1787d79fe2120db4",
+      "visibility": "repository",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "inverse/hollomon.py",
+      "sha256": "d937664f7fc7f845a9ed7a75a004275bf38d11a1b3f68975a05961adb9b16363",
+      "visibility": "repository",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/artifacts/candidate_interpolation_error.csv",
+      "sha256": "b7756e4bd5c8506f620a2061553ccd217761d86916c2f0f228bbbf44958c3692",
+      "visibility": "repository",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/artifacts/candidate_Q200_n01_plastic.csv",
+      "sha256": "3fcb71b6be97f32908e196bde8c08d2d206e706d6e57afaee4d2124521f86c3f",
+      "visibility": "repository",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/artifacts/candidate_Q200_n01_plastic.inc",
+      "sha256": "298dfb4edee87f3565b57719a57547adef56e50516a23338ed2ee435a8ecdf2a",
+      "visibility": "repository",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/artifacts/error_report.json",
+      "sha256": "7ea2a18bc04086ac70fb4a705bca3d1d5dd60b35a8adde78c962d7342160bdbe",
+      "visibility": "repository",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/artifacts/extract_peeq_readonly.py",
+      "sha256": "34b03c1b335717b3013242db73299e5d3b71b81492b5a1e39eb3e3334c7217ad",
+      "visibility": "repository",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/artifacts/private/comparison_console_attempt01.txt",
+      "sha256": "cf595b0548129d90f2e073c34e41944fc8d8c107d0e3311e0829d4482eb4e36e",
+      "visibility": "private_ignored",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/artifacts/private/comparison_console_attempt02.txt",
+      "sha256": "0ae0dc1964e6fa480fd09de04a73eaa952d234e83265437099be7e2f34798e50",
+      "visibility": "private_ignored",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/artifacts/private/comparison_failure_20261012T225826.txt",
+      "sha256": "cf595b0548129d90f2e073c34e41944fc8d8c107d0e3311e0829d4482eb4e36e",
+      "visibility": "private_ignored",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/artifacts/private/comparison_metrics.json",
+      "sha256": "226771c2f5d7eb5a57736711d76c1a4f8b428101301bb89a1224cdaba44945fd",
+      "visibility": "private_ignored",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/artifacts/private/coverage_recommendation.json",
+      "sha256": "40ed5a0e58987d546d64a00755c0709657b52520c227d3415094eaefed9a62d0",
+      "visibility": "private_ignored",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/artifacts/private/final_state_private.json",
+      "sha256": "a30ae02b702cebe455098fa9cf15ad931a031361104d399f4bb202c7d55ddc86",
+      "visibility": "private_ignored",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/artifacts/private/finalize_run.py",
+      "sha256": "d394c6e06e0141599905691acbd3bfd5ec47f7342f393a77f43eeaf0b57bff11",
+      "visibility": "private_ignored",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/artifacts/private/initial_state.json",
+      "sha256": "38704dd25a34e90a73f2a5c03f0957b7cb8af3c54c77df288e369a6f06d6ffc4",
+      "visibility": "private_ignored",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/artifacts/private/material_parameterisation_report.md",
+      "sha256": "d529bda68546361eb41529c29b7ade31291fcac3de96ef6227cc87c436370444",
+      "visibility": "private_ignored",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/artifacts/private/old_new_comparison.csv",
+      "sha256": "58c039dddbc08d15e01843e36ef2c51fc33c76baf384bf4e0810a09da0042e7c",
+      "visibility": "private_ignored",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/artifacts/private/old_new_material_comparison.png",
+      "sha256": "df53eca3baa28aa7d9fb9c2ef44dfbfe523548515e005e386fc03e4b6741ca06",
+      "visibility": "private_ignored",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/artifacts/private/parameter_grid_numerical_checks.json",
+      "sha256": "5853f0541bc24579d3ec89ae2a3b7b2b74d8fc3a99bde2f69439906d9f428cbf",
+      "visibility": "private_ignored",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/artifacts/private/peeq_console_attempt01.txt",
+      "sha256": "fb37cc7abf89e037b1e480c4835b75a2753560f569800bacf4199e11449631ab",
+      "visibility": "private_ignored",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/artifacts/private/peeq_scan_attempt01.json",
+      "sha256": "daae0408961e54ebf0dbed4c556c6a34292558e8cada1363be9d819b0fe8d01b",
+      "visibility": "private_ignored",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/artifacts/private/total_strain_comparison.csv",
+      "sha256": "096dae995fff889f156f61e42ca8b40e6b2a53e9ecc5874ec30ee106d612d7b4",
+      "visibility": "private_ignored",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/artifacts/private/verify_and_compare.py",
+      "sha256": "a60bb3ee3c5652850f0b8491cc696ad02840e08ddb466d77c6af34d273e452aa",
+      "visibility": "private_ignored",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/artifacts/unit_tests_attempt01.txt",
+      "sha256": "c2b9065a80ff8c231d633c5bd061761cce525fda710a7a4a64b3b2e0fc89ce6c",
+      "visibility": "repository",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/artifacts/unit_tests_attempt02.txt",
+      "sha256": "96ba84fbb6a738de6397d3aee00ab9ec9af507e6271309d7b5331cc92356a0c3",
+      "visibility": "repository",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/checkpoints/final_state.json",
+      "sha256": "647d0322adc0dd1dac1366904389e7c2f5e3d840e6365c9a9962b83a6eaa4f26",
+      "visibility": "repository",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/checkpoints/run.running.json",
+      "sha256": "60180f1aaad82446b3b5050dd6dea4847c41f33382ac35bcdbec66540e825adc",
+      "visibility": "repository",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/checkpoints/run_README.md.before",
+      "sha256": "3673570526f4a81440ed2569a9bbdd87e5a66b88b4be996bbe7c55d47f20b159",
+      "visibility": "repository",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/checkpoints/status_PROJECT_STATUS.md.before",
+      "sha256": "9eb2f49a5b36d3b4fd51b162d66f9923ae38a56f2912efe2f37b32cfbaa26861",
+      "visibility": "repository",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "run/run_007/summary.md",
+      "sha256": "620c23e3c537e444297992a51f90d44a6f31c2a652efab90b1395fdfe1f0d07f",
+      "visibility": "repository",
+      "role": "candidate_implementation_or_audit"
+    },
+    {
+      "path": "tests/test_hollomon.py",
+      "sha256": "d7e41b178b9974cc8bb5f79871a1060b3ee632090bdd0fde026b96a48864c854",
+      "visibility": "repository",
+      "role": "candidate_implementation_or_audit"
+    }
+  ],
+  "excluded": [
+    "run.json",
+    "manifest.json"
+  ],
+  "note": "Source files indexed privately, not copied; .inc is a material-only candidate fragment, not a Job."
+}

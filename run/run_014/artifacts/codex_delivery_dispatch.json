@@ -1,0 +1,9 @@
+{
+  "observed_at": "2026-10-21T22:19:01.872834+08:00",
+  "thread_id": "01a15d5e-f6e8-7373-8991-ae275dfd3b40",
+  "task_id": "35b07ba1-22ad-48a7-b859-2d99199ed419",
+  "method": "Codex app send_message_to_thread",
+  "tool_accepted": true,
+  "claim_verified": false,
+  "note": "Separate receipt/claim must be verified from real session and Hub"
+}

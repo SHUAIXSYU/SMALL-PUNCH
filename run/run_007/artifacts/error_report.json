@@ -1,0 +1,31 @@
+{
+  "model_id": "candidate-true-total-hollomon-v1",
+  "physically_validated": false,
+  "sigma_y_mpa": 200.0,
+  "n": 0.1,
+  "E_Pa": 210000000000.0,
+  "nu": 0.3,
+  "max_plastic_strain": 0.9,
+  "points": 35,
+  "first_nonzero_plastic_strain": 0.0002070259196796883,
+  "last_total_strain": 0.9018899268039868,
+  "relative_tolerance": 0.001,
+  "absolute_tolerance_Pa": 0.0,
+  "analytic_max_absolute_chord_error_Pa": 279316.6469349265,
+  "conservative_relative_error_bound": 0.0009646155130331213,
+  "independent_verification_points": 14859,
+  "max_sampled_absolute_error_Pa": 279316.4445772767,
+  "max_sampled_relative_error": 0.0009504013452851721,
+  "max_error_location_plastic_strain": 0.020426746932993897,
+  "nodal_total_reconstruction_relative_error": 2.220446049250313e-16,
+  "serialized_roundtrip_exact": true,
+  "parameter_grid_cases": 25,
+  "max_grid_sampled_relative_error": 0.0009674715533743994,
+  "interpreter": "D:\\XianLab\\envs\\conda\\torch-gpu\\python.exe",
+  "versions": {
+    "numpy": "2.1.2",
+    "scipy": "1.16.1",
+    "matplotlib": "3.10.5"
+  },
+  "observed_at": "2026-10-12T22:58:58.168004+08:00"
+}

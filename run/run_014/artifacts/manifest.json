@@ -1,0 +1,461 @@
+{
+  "observed_at": "2026-10-21T22:25:38.902330+08:00",
+  "scope": "Final static files and output references; excludes dynamic run.json and this manifest",
+  "entries": [
+    {
+      "path": "run/run_014/artifacts/admission.json",
+      "sha256": "758652280f2d9901bc1e0197df053b73f6e5bb752815e651534e574a094fcbf8",
+      "role": "admission",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/artifacts/admission_before_enqueue.json",
+      "sha256": "eb86d365652c698adaa4969cb701d0ec4435080d38166bfb41886bf971544068",
+      "role": "admission_before_enqueue",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/artifacts/agenthub_receipt.json",
+      "sha256": "07be1917824fa30456192bd93a20cf8e2c606436b55273185e10b76430f0a305",
+      "role": "agenthub_receipt",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/artifacts/authorization.json",
+      "sha256": "0b8861a12ba14feda5cf0500afd1d812b0144df0a436d594914371c345280427",
+      "role": "authorization",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/artifacts/codex_delivery_dispatch.json",
+      "sha256": "cfb3eecb342d4cddf2920904b31c54cd95b3ca723e1a78cface22b19e9d1c673",
+      "role": "codex_delivery_dispatch",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/artifacts/coordinate_once.py",
+      "sha256": "0996b1da6c6d2df4a8d4ce0276c25558d538601c18c84eb8b8d547c4f85dd468",
+      "role": "coordinate_once",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/artifacts/enqueue_response.json",
+      "sha256": "a18066cd88add0cf3a23989a067e866d6f1343ef2a4a59302867bdf05f250923",
+      "role": "enqueue_response",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/artifacts/enqueue_result.json",
+      "sha256": "5867dab5c4d8525776831f0b52c2a85f89f618d59c92483f191e68b66e3ef78d",
+      "role": "enqueue_result",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/artifacts/final_agenthub_receipt.json",
+      "sha256": "74ab444e17db1202a4372ecddadd546e8ef6a2570185572198d1a9d955263a61",
+      "role": "final_agenthub_receipt",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/artifacts/final_result.json",
+      "sha256": "43d88ab042fdf0720a815033d4b125c46c8bc61d34a64984f32b1d76ba4cf54e",
+      "role": "final_result",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/artifacts/finalize_report.py",
+      "sha256": "c3f450e2ad413bca809e5429d70330a2f3a814f627e7074cb29941265e29cf11",
+      "role": "finalize_report",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/artifacts/main_received_odb.json",
+      "sha256": "f0ab9b1d603672a36b979e7e1d523377431354a15cfb34b1f4bf286f9acb4ffb",
+      "role": "main_received_odb",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/artifacts/main_reconciliation.json",
+      "sha256": "af0a873e9c0b0eda9fb2b050e6c8f11661da61bf18a546bdb569b926e9484c20",
+      "role": "main_reconciliation",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/artifacts/observe_job.py",
+      "sha256": "7f28c27096b5a3f076c47644b1fb87d1adad9e75850509e12624665b4d51a4c3",
+      "role": "observe_job",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/artifacts/odb/analyze_results.py",
+      "sha256": "29bc9663d3210979d96e15676bcd76bb9f150643f97eb4fe157dc078783e8c57",
+      "role": "analyze_results",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/artifacts/odb/diagnostics.json",
+      "sha256": "d921bba3be977c07a2711e4253b79f7f7fb87a88d1309a31a24d903eb0dbb82d",
+      "role": "diagnostics",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/artifacts/odb/energy_history.csv",
+      "sha256": "01cf9620a69336bf78905f4a7c0a424c84c8adb2f48a74d111d885b6ac00bbe9",
+      "role": "energy_history",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/artifacts/odb/extract_readonly.py",
+      "sha256": "39ac38be817aa2281e6f8d282cd71c8610050aebf0dd708a2bf1feefa9075ff3",
+      "role": "extract_readonly",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/artifacts/odb/finalize_odb.py",
+      "sha256": "ebc33b9c63f3a440aecaaa6b66de7679caf0fabda460231bcb8868a3e472133f",
+      "role": "finalize_odb",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/artifacts/odb/force_displacement_comparison.png",
+      "sha256": "ae6c32f3b4559b586b46fb70bb7e68a3969dab8de7593b467e5001f493ccb860",
+      "role": "force_displacement_comparison",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/artifacts/odb/historical_comparison.csv",
+      "sha256": "9c8b881ba43eb75b1b1c66106ca8b83acf209cdc630bc568d30035883647c019",
+      "role": "historical_comparison",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/artifacts/odb/hub_receipt.json",
+      "sha256": "0cf44807b1b70f18193966a1325ac8a8ded3750fe52faa106323aa391e1d74aa",
+      "role": "hub_receipt",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/artifacts/odb/manifest.json",
+      "sha256": "082cc8e9bcd5988e8c8a32f4a7daa1f13d958cd9ee8cffd5bab7267c78783c98",
+      "role": "manifest",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/artifacts/odb/peeq_saved_frames.csv",
+      "sha256": "0e35d7b89d6c30cca77ffa99c5111561cb35059451a1d72bac181d5bae71eeb3",
+      "role": "peeq_saved_frames",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/artifacts/odb/preflight_read.json",
+      "sha256": "5d1f827af1f43fbf926dd14b800641c40e7b4a2ea475bc92d2468ddbfd6573dc",
+      "role": "preflight_read",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/artifacts/odb/preflight_read.py",
+      "sha256": "71ec4da050cfad0b2b85f062aea742335e166d0c8bad208df37f561424ea51c2",
+      "role": "preflight_read",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/artifacts/odb/private/extraction_attempt01.json",
+      "sha256": "1650de71ea8cfef2deb488ddcff5b3b1dbe8c05f3f6b64ac25444c52a55ca20c",
+      "role": "extraction_attempt01",
+      "visibility": "private"
+    },
+    {
+      "path": "run/run_014/artifacts/odb/private/extraction_attempt02.json",
+      "sha256": "26123d0b41bbac84227797e1c834b1751de5bf6315bfedac86d6e23ccfe6627c",
+      "role": "extraction_attempt02",
+      "visibility": "private"
+    },
+    {
+      "path": "run/run_014/artifacts/odb/private/hub_artifacts_receipt.json",
+      "sha256": "4a85f5dbe0ab9dddcaa8c89f8b17eecd05c2729a398b223413a50a7e466fa9b5",
+      "role": "hub_artifacts_receipt",
+      "visibility": "private"
+    },
+    {
+      "path": "run/run_014/artifacts/odb/private/lease.json",
+      "sha256": "906361ffdfaf27a7aecc6324989c4d0b5524d9598810f16812e96779cefc0895",
+      "role": "lease",
+      "visibility": "private"
+    },
+    {
+      "path": "run/run_014/artifacts/odb/punch_force_displacement.csv",
+      "sha256": "6af133606aab305f2d6b9cdb3c49efb4fd33c01cb45d7444dbd384f640a323f0",
+      "role": "punch_force_displacement",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/artifacts/odb/punch_history_raw.csv",
+      "sha256": "5c93d923d98a1c8d9b42c7685270df23635f1e03468f37e1624f3463e5fcc06f",
+      "role": "punch_history_raw",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/artifacts/odb/report.md",
+      "sha256": "4d9e5e8a1e281e2b086664a27d5af9ecc9283c5f56eff3a027f1056ab3f04b71",
+      "role": "report",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/artifacts/odb/result.json",
+      "sha256": "692cbb8ab1a1468298aa7139030f7af822653cf12cde3116e86a87b8e91a465b",
+      "role": "result",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/artifacts/odb/warning_events.json",
+      "sha256": "8d5622d737699d0eff070a6152a6393c0b63864d92df9977c6617a19976865aa",
+      "role": "warning_events",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/artifacts/odb_handoff.json",
+      "sha256": "d3b7f68ff03d559b8ed9673570cdcd54f2626159893b816d397452f01ffc41f7",
+      "role": "odb_handoff",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/artifacts/outputs_after_enqueue.json",
+      "sha256": "35848ee8cdcfebff6e0bb25daefb37ec7e14e18a7269a5f46fafea5aa64ac25c",
+      "role": "outputs_after_enqueue",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/artifacts/post_solver_process_scan.json",
+      "sha256": "19d64df2548d93afff94511ff8d95a51f57f606613f9f5695ce35a44ba8f79f6",
+      "role": "post_solver_process_scan",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/artifacts/private/lease.json",
+      "sha256": "b1c3a5542520bc1015b1eb19a7abc4a27624a7e06f24882532c132f241b5533e",
+      "role": "lease",
+      "visibility": "private"
+    },
+    {
+      "path": "run/run_014/artifacts/private/terminal_collector_attempt01.txt",
+      "sha256": "4e1e8c1500d8b5ffa251982f36acc8006ac8c00b85293ddc63f9a18f8dad900c",
+      "role": "terminal_collector_attempt01",
+      "visibility": "private"
+    },
+    {
+      "path": "run/run_014/artifacts/private/terminal_collector_attempt02.txt",
+      "sha256": "394fd739b8f51c24faf34b13a421db0fd1059872e0bd5be96b37277947fdd884",
+      "role": "terminal_collector_attempt02",
+      "visibility": "private"
+    },
+    {
+      "path": "run/run_014/artifacts/private/terminal_lease.json",
+      "sha256": "72c40da41470078822ed6fc87e1f397bf06f13678885f5698e96479c93686738",
+      "role": "terminal_lease",
+      "visibility": "private"
+    },
+    {
+      "path": "run/run_014/artifacts/process_exit_recheck.json",
+      "sha256": "1a0b84d25280aca27a84e7312c7156308cb4dd2742878d75a6597b3acf526fa2",
+      "role": "process_exit_recheck",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/artifacts/queue_after_enqueue.json",
+      "sha256": "0f857d4103b151b5494e36a2747a42696ecdf3b61e59bb8539a40e6ca9b2a878",
+      "role": "queue_after_enqueue",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/artifacts/real_odb_claim_observed.json",
+      "sha256": "c151b61293ea0edbadeac7d1d93be78a4ce8beb682a114d6fa16ca93950dacf3",
+      "role": "real_odb_claim_observed",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/artifacts/reconcile_odb_result.py",
+      "sha256": "df8692e0c9478c177379ec92e4f87f7baa0db1da1fae75331e7b20e5136681ea",
+      "role": "reconcile_odb_result",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/artifacts/record_solver_and_dispatch.py",
+      "sha256": "e2871b801d21b28a85e74b3ad82b1d39a1d413f26302cfb5f9b122f6fc769cee",
+      "role": "record_solver_and_dispatch",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/artifacts/request.json",
+      "sha256": "b511adc9c53637f8b8a47e4d44a071c1f08535085993874b96fdf69117a315b9",
+      "role": "request",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/artifacts/solver_terminal_result.json",
+      "sha256": "fce103727000c01274808480d243b323516c8d3836d75daa16bbdc7ee45dbab4",
+      "role": "solver_terminal_result",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/artifacts/status_after_enqueue.json",
+      "sha256": "d17bd02cb2ac3b52ca0653832e8bc813a6a87328f5470bb495c059f5910808fe",
+      "role": "status_after_enqueue",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/artifacts/write_run_record.py",
+      "sha256": "bb2583e8e28d5e434fd4344ba4a8b055956a366d528da1e7f5988bea162c2068",
+      "role": "write_run_record",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/checkpoints/after_report_observation.json",
+      "sha256": "14aae7feb06144720a65ba8f1492aedf0611f3bd4d880651151ec84520e2e70d",
+      "role": "after_report_observation",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/checkpoints/enqueue_attempt.json",
+      "sha256": "a7221ce5137ce753e360fe219355d3fc4aadb2d0fb53814db9cc3a55607d2fa0",
+      "role": "enqueue_attempt",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/checkpoints/initial_git.json",
+      "sha256": "7de637dc12bd2467e361dd47a74371e85fc6fe54169ca2063e8d6460f7d9d574",
+      "role": "initial_git",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/checkpoints/manifest_before_final.json",
+      "sha256": "ad3558ff2915f5414d1900306484f6324cd406f26f3da34553f73aad093a73e6",
+      "role": "manifest_before_final",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/checkpoints/observation_20261021T221442948563.json",
+      "sha256": "c70ea4217d8f4df71d9da499b0786fe8f317b8156e4fac843bc1d0cb1dfc1564",
+      "role": "observation_20261021T221442948563",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/checkpoints/observation_20261021T221559154803.json",
+      "sha256": "187343ab5901957ffec06866dfe2c6d02125bf5cd9aef35bd3c230113a902567",
+      "role": "observation_20261021T221559154803",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/checkpoints/observation_20261021T221651064512.json",
+      "sha256": "5041c129e151110ad85d6fb156319a9a93921744d2e835a18b093e81f9ef62a6",
+      "role": "observation_20261021T221651064512",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/checkpoints/post_solver_protected.json",
+      "sha256": "9b48534b3556433f16b49cbb6027db5af1f9f3287ccdb79548423a6c253a9728",
+      "role": "post_solver_protected",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/checkpoints/protected_before.json",
+      "sha256": "9b3d077a84e53e00ab50e6e8a1cd4efb5aba50e736a46b0c03c9c908b0934390",
+      "role": "protected_before",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/checkpoints/record_solver_and_dispatch_attempt01.py",
+      "sha256": "d7e6acfe7500c0295c926015404d4d7b3da5ea8d23d771d87e5b4f6e593088f5",
+      "role": "record_solver_and_dispatch_attempt01",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/checkpoints/record_solver_and_dispatch_attempt02.py",
+      "sha256": "a2f896a1ad2339561e927a1b75141117241379a7402616ac8bf11bdaa5a7e23e",
+      "role": "record_solver_and_dispatch_attempt02",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/checkpoints/run_before_final.json",
+      "sha256": "3b6729d1fcba26a440ef7d6468ded01e7132335a2d66c0d10bb05343b3b28ec8",
+      "role": "run_before_final",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/checkpoints/run_before_observation_20261021T221442948563.json",
+      "sha256": "9532fe6cb0d2042d14b25207f6069483e5795a953f1d52a8f22d8ee3a17bb5d5",
+      "role": "run_before_observation_20261021T221442948563",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/checkpoints/run_before_observation_20261021T221559154803.json",
+      "sha256": "2b68bfc4af1084a4cf80a764234e99ec0260b5483411e471cf33dee572c1f9cc",
+      "role": "run_before_observation_20261021T221559154803",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/checkpoints/run_before_observation_20261021T221651064512.json",
+      "sha256": "1dc5e86d8f64576bcac0d646c1aa2c7a1282a5f676e30b69f96046d191534db3",
+      "role": "run_before_observation_20261021T221651064512",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/checkpoints/run_before_odb_handoff.json",
+      "sha256": "6c2cbae0b295e561d285ad98aec32c633a9ce34daa8e5164206f57cbae46c88f",
+      "role": "run_before_odb_handoff",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/checkpoints/summary_before_final.md",
+      "sha256": "6cfa260d852098c6b4149247f2f35c61fb4c1ca68c7d30bc3b33ee145de73bdc",
+      "role": "summary_before_final",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/checkpoints/summary_queued.md",
+      "sha256": "b02c6eb4cc0b748d613ea1abf44a6eb54894c930ae8a47216e9a03f7e00d1e71",
+      "role": "summary_queued",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/summary.md",
+      "sha256": "61492f24c1a7456b06f989d4459ce79182c25d01e62b2857cd3370b0609daa72",
+      "role": "summary",
+      "visibility": "repository evidence"
+    },
+    {
+      "path": "run/run_014/artifacts/solver/SPIO_R014_Q200_N010/SPIO_R014_Q200_N010.odb",
+      "role": "odb_path",
+      "sha256": "1ed3ecb6b2e3e2bfcfc806eb7edfab706b4acc90ec387ac641a81f529d9dd4fd",
+      "size": 32418328,
+      "mtime_ns": 1792592192678944100
+    },
+    {
+      "path": "run/run_014/artifacts/solver/SPIO_R014_Q200_N010/SPIO_R014_Q200_N010.sta",
+      "role": "sta_path",
+      "sha256": "a77951fdedc2fde1643578ef5aab083a399b9e4df35dda36be357bde131214c4",
+      "size": 14520,
+      "mtime_ns": 1792592192305113600
+    },
+    {
+      "path": "run/run_014/artifacts/solver/SPIO_R014_Q200_N010/SPIO_R014_Q200_N010.msg",
+      "role": "msg_path",
+      "sha256": "7687526043a10a31ca8a1bde4b278ef39db686b2d7dce59aea7599879017f5a7",
+      "size": 1625862,
+      "mtime_ns": 1792592192305113600
+    },
+    {
+      "path": "run/run_014/artifacts/solver/SPIO_R014_Q200_N010/SPIO_R014_Q200_N010.dat",
+      "role": "dat_path",
+      "sha256": "35ea543e09bd57ae0a08832dd2e371588b0a4d43f2ccbb5d04ad537e0ec69559",
+      "size": 14611,
+      "mtime_ns": 1792592192305113600
+    },
+    {
+      "path": "run/run_014/artifacts/solver/SPIO_R014_Q200_N010/SPIO_R014_Q200_N010.log",
+      "role": "log_path",
+      "sha256": "cd0b85db31e383cec0bad3566500ce785949456226e68e353f3a20eba20dc609",
+      "size": 2399,
+      "mtime_ns": 1792592193940846500
+    }
+  ]
+}

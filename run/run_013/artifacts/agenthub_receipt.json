@@ -1,0 +1,58 @@
+{
+  "identity": {
+    "agent_id": "MAIN:codex-main-run013-persisted-settings",
+    "session_id": "06042b85-2808-4487-85aa-c3dba6070e16",
+    "role": "MAIN"
+  },
+  "task_id": "e7d81ac3-0d08-4677-b4f4-f940fbda8209",
+  "execution": "COMPLETED",
+  "evidence": "RECORDED",
+  "science": "NOT_EVALUATED",
+  "artifacts": [
+    {
+      "artifact_id": "2085e07d-e787-4d2e-ad4a-9f12feac0eef",
+      "sha256": "53f4eab6946545e8fe10b6e91a50e1ac5a1b2e76885ac6afa9d8bf44dc5c2ddc",
+      "version": "run013-v1"
+    },
+    {
+      "artifact_id": "22a6ae73-2c01-40b1-a590-6054acf3d5a9",
+      "sha256": "5cdc81b97a1e2183b577445383309ff852d6cc407acd08e2416760795d791e92",
+      "version": "run013-v1"
+    },
+    {
+      "artifact_id": "e3591dd0-5bb2-4852-81fa-95ec02c9a164",
+      "sha256": "9cbe5a3ba22a47e3a4117469bf89932838d40274e18196ba0326c4db975eff0a",
+      "version": "run013-v1"
+    },
+    {
+      "artifact_id": "d9b8aa2e-8f96-4953-959a-9f878e99abf7",
+      "sha256": "c726dc7f763c4c0a22da0c3644ff1c2779a6faf23516b2ae909e7547b648db76",
+      "version": "run013-v1"
+    },
+    {
+      "artifact_id": "6fb30ca4-a622-4b68-ba4c-43930257608b",
+      "sha256": "8327e484dba1f3b408333d744c6a2e4043574b43abdf0301f3d5cb63b1e8cd3d",
+      "version": "run013-v1"
+    },
+    {
+      "artifact_id": "1a17c573-b813-4703-be16-1a91f2bf0282",
+      "sha256": "7c93a36065a4eb38c0837d3ef02d4c29e442550f577fbce5fa3bbb54d4e7088c",
+      "version": "run013-v1"
+    }
+  ],
+  "outbox_id": "810e7480-bdd7-4c29-b9a3-8f1618214293",
+  "inbox_receipts": [
+    {
+      "message_id": "cd321d43-3d6c-4cd5-9d05-8ba39987e774",
+      "task_id": "e7d81ac3-0d08-4677-b4f4-f940fbda8209",
+      "sender": "MAIN:codex-main-run013-persisted-settings",
+      "recipient_role": "MAIN",
+      "direction": "INBOX",
+      "idempotency_key": "run013-settings-resolution-v1",
+      "body": "{\"first_hollomon_forward_solve_authorization_request_ready\":true,\"resolution\":{\"blocker_code\":\"PROJECT_RUNTIME_SETTINGS_NOT_SAVED\",\"evidence\":[\"run/run_013/artifacts/settings_api_response.json\",\"run/run_013/artifacts/verification_result.json\"],\"observed_at\":\"2026-10-21T21:54:48.523649+08:00\",\"prior_history_unchanged\":true,\"prior_run\":\"run_012\",\"prior_task_id\":\"7d56b96f-bae2-473e-b9f6-89afb6dbcd14\",\"resolving_run\":\"run_013\",\"scope\":\"Settings persistence blocker only; not scientific validation or execution authorization\",\"status\":\"RESOLVED_BY_NEW_EVIDENCE\"},\"settings_status\":\"PERSISTED\",\"solver_execution_authorized\":false,\"status\":\"PASS\",\"task_id\":\"e7d81ac3-0d08-4677-b4f4-f940fbda8209\",\"type\":\"BLOCKER_RESOLVED_BY_NEW_EVIDENCE\"}",
+      "created": 1792590888.8123434
+    }
+  ],
+  "audit_hash_chain_valid": true,
+  "registered_artifact_hashes_verified": true
+}

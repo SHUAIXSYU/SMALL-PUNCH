@@ -1,0 +1,31 @@
+{
+  "observed_at": "2026-10-21T16:28:25.908652+08:00",
+  "path": "agenthub_sp_invopt/abqjobpilot_project/runtime/settings.json",
+  "exists": false,
+  "sha256": null,
+  "persisted_values": null,
+  "user_stated_values": {
+    "abaqus_cmd": "D:\\ABAQUS2024\\Commands\\abq2024.bat",
+    "default_cpus": 14,
+    "use_gpu": false,
+    "default_gpus": 0,
+    "run_datacheck": true,
+    "run_full": true,
+    "auto_shutdown_enabled": false
+  },
+  "missing_fields": [
+    "abaqus_cmd",
+    "default_cpus",
+    "use_gpu",
+    "default_gpus",
+    "run_datacheck",
+    "run_full",
+    "auto_shutdown_enabled"
+  ],
+  "differences": {},
+  "status": "BLOCKED",
+  "preview_parameter_source": "EXPLICIT_USER_MESSAGE_ONLY",
+  "abaqus_command_exists": true,
+  "abaqus_command_sha256": "e9bb42ba164b08b57b07828d4b826a4c9d38d82dc070887f2d7cdea6bcefc711",
+  "note": "No source-code default values were substituted for missing user configuration."
+}

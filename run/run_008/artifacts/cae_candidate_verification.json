@@ -1,0 +1,15 @@
+{
+  "status": "PASS_CAE_CANDIDATE_VERIFY",
+  "role": "CAE",
+  "execution_status": "COMPLETED",
+  "evidence_status": "RECORDED",
+  "science_status": "WARNING",
+  "task_id": "470f07c8-46ee-45b4-95db-ba569516dc8e",
+  "job_name": "SPIO_R008_Q200_N010_Candidate",
+  "input_sha256": "fa2de5d73a28536c1c07cd22072d2a24c1ae988c569127d728931c583457f05a",
+  "abaqus_syntax": "PASS_ABAQUS_INPUT_PARSE",
+  "material_rows": 35,
+  "final_plastic_strain": 0.9,
+  "physical_validation": "NOT_PERFORMED",
+  "settings": "UNKNOWN; AbqJobPilot preflight/dry-run skipped"
+}
