@@ -1,0 +1,33 @@
+test_bad_target (synthetic_0.LossTests.test_bad_target) ... ok
+test_different_sampling (synthetic_0.LossTests.test_different_sampling) ... ok
+test_gate_and_explicit_provisional (synthetic_0.LossTests.test_gate_and_explicit_provisional) ... ok
+test_identical_zero (synthetic_0.LossTests.test_identical_zero) ... ok
+test_illegal_units (synthetic_0.LossTests.test_illegal_units) ... ok
+test_invalid_failed_fe (synthetic_0.LossTests.test_invalid_failed_fe) ... ok
+test_known_weighted_residual (synthetic_0.LossTests.test_known_weighted_residual) ... ok
+test_mutable_inputs_frozen (synthetic_0.LossTests.test_mutable_inputs_frozen) ... ok
+test_nan_and_infinity (synthetic_0.LossTests.test_nan_and_infinity) ... ok
+test_no_overlap (synthetic_0.LossTests.test_no_overlap) ... ok
+test_nonmonotonic_and_duplicate (synthetic_0.LossTests.test_nonmonotonic_and_duplicate) ... ok
+test_partial_coverage_rejected (synthetic_0.LossTests.test_partial_coverage_rejected) ... ok
+test_common_weight_scaling_invariant (synthetic_1.QualificationTests.test_common_weight_scaling_invariant) ... ok
+test_force_units_gate_cannot_be_inferred_from_si_array_label (synthetic_1.QualificationTests.test_force_units_gate_cannot_be_inferred_from_si_array_label) ... ok
+test_measurement_declaration_does_not_resolve_conditions (synthetic_1.QualificationTests.test_measurement_declaration_does_not_resolve_conditions) ... ok
+test_mse_not_mean_percentage_error (synthetic_1.QualificationTests.test_mse_not_mean_percentage_error) ... ok
+test_provisional_preserves_unresolved_and_fixed_count (synthetic_1.QualificationTests.test_provisional_preserves_unresolved_and_fixed_count) ... ok
+test_reference_scaling_is_squared (synthetic_1.QualificationTests.test_reference_scaling_is_squared) ... ok
+test_warning_fe_still_needs_numerical_acceptance (synthetic_1.QualificationTests.test_warning_fe_still_needs_numerical_acceptance) ... ok
+test_collinear_vectors (synthetic_2.SensitivityTests.test_collinear_vectors) ... ok
+test_constant_force_offset_invariant (synthetic_2.SensitivityTests.test_constant_force_offset_invariant) ... ok
+test_independent_vectors (synthetic_2.SensitivityTests.test_independent_vectors) ... ok
+test_insensitive_parameter (synthetic_2.SensitivityTests.test_insensitive_parameter) ... ok
+test_invalid_reference (synthetic_2.SensitivityTests.test_invalid_reference) ... ok
+test_missing_point (synthetic_2.SensitivityTests.test_missing_point) ... ok
+test_nan_or_wrong_grid_length (synthetic_2.SensitivityTests.test_nan_or_wrong_grid_length) ... ok
+test_no_global_or_statistical_claim (synthetic_2.SensitivityTests.test_no_global_or_statistical_claim) ... ok
+test_zero_both (synthetic_2.SensitivityTests.test_zero_both) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 0.013s
+
+OK

@@ -1,0 +1,96 @@
+{
+  "observed_at": "2026-10-23T22:49:26.690076+08:00",
+  "settings_response": {
+    "schema_version": "1.0",
+    "status": "PERSISTED",
+    "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+    "project_path": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project",
+    "runtime_dir": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime",
+    "settings_file": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime\\settings.json",
+    "persisted": true,
+    "exists": true,
+    "settings": {
+      "abaqus_cmd": "D:\\ABAQUS2024\\Commands\\abq2024.bat",
+      "default_cpus": 14,
+      "use_gpu": false,
+      "default_gpus": 0,
+      "run_datacheck": true,
+      "run_full": true,
+      "auto_shutdown_enabled": false,
+      "auto_shutdown_idle_minutes": 5
+    },
+    "effective_settings": {
+      "abaqus_cmd": "D:\\ABAQUS2024\\Commands\\abq2024.bat",
+      "default_cpus": 14,
+      "use_gpu": false,
+      "default_gpus": 0,
+      "run_datacheck": true,
+      "run_full": true,
+      "auto_shutdown_enabled": false,
+      "auto_shutdown_idle_minutes": 5
+    },
+    "defaulted_fields": [],
+    "errors": [],
+    "warnings": [],
+    "error_details": []
+  },
+  "capabilities": {
+    "schema_version": "1.0",
+    "application": "abqjobpilot",
+    "application_version": "0.2.2",
+    "automation_surface": "1.0",
+    "capabilities": {
+      "preflight": true,
+      "enqueue": true,
+      "enqueue_folder": true,
+      "list": true,
+      "status": true,
+      "locate_outputs": true,
+      "project_list": true,
+      "project_create": true,
+      "project_show": true,
+      "project_update": true,
+      "project_register": true,
+      "project_unregister": true,
+      "project_settings_read": true,
+      "project_export": true,
+      "project_import": true,
+      "job_list": true,
+      "job_show": true,
+      "solver_start": false,
+      "project_delete": false
+    }
+  },
+  "project": {
+    "schema_version": "1.0",
+    "status": "OK",
+    "project": {
+      "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+      "name": "SP-InvOpt run_008 candidate preview",
+      "description": "Independent SP-InvOpt Project for run_008 preview and evidence. No Solver or Queue execution authorized.",
+      "path": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project",
+      "schema_version": "1.0",
+      "created_at": "2026-10-21T15:34:52",
+      "updated_at": "2026-10-21T15:34:52",
+      "runtime_dir": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime",
+      "database_exists": true,
+      "job_count": 1,
+      "run_count": 1,
+      "artifact_reference_count": 6,
+      "queue": {
+        "queued": 0,
+        "running": 0,
+        "total_records": 1
+      }
+    },
+    "errors": [],
+    "warnings": [],
+    "error_details": []
+  },
+  "abaqus_command_exists": true,
+  "abaqus_command_sha256": "e9bb42ba164b08b57b07828d4b826a4c9d38d82dc070887f2d7cdea6bcefc711",
+  "source_version": "0.2.2",
+  "source_head": "7012133e7cc0176bb3e56fc24d7154ee3b90bb81",
+  "source_working_tree": "",
+  "source_path": "D:\\Projects\\abqjobpilot"
+}

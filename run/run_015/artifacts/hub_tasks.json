@@ -1,0 +1,10 @@
+{
+  "identity": {
+    "agent_id": "MAIN:codex-main-run015",
+    "session_id": "d1332f94-c8a9-4d6a-aac5-9949271766ee",
+    "role": "MAIN"
+  },
+  "main_task_id": "32f9f260-3424-4603-8dba-657401a981e2",
+  "odb_task_id": "c37500b3-0af2-493d-a48c-ae2808edebbd",
+  "source_inventory": "run/run_015/artifacts/private/source_inventory.json"
+}

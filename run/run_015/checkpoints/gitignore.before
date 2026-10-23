@@ -1,0 +1,26 @@
+# Immutable collaborator references (retain the legacy spelling).
+/references_private/
+/materials/
+/Materials/
+# Local-only provenance, filenames and environment discovery details.
+/run/*/artifacts/private/
+# Independent SP-InvOpt AgentHub state and AbqJobPilot runtime data.
+/agenthub_sp_invopt/runtime/
+/agenthub_sp_invopt/abqjobpilot_project/runtime/
+/agenthub_sp_invopt/abqjobpilot_recent_projects.json
+# Solver work directories and large/intermediate outputs.
+/CAE/Jobs/
+*.[oO][dD][bB]
+*.[sS][iI][mM]
+*.[lL][cC][kK]
+*.prt
+*.res
+*.stt
+*.mdl
+*.pac
+*.abq
+*.simdir/
+abaqus.rpy*
+__pycache__/
+*.py[cod]
+.pytest_cache/

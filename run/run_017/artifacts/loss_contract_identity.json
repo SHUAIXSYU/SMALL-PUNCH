@@ -1,0 +1,12 @@
+{
+  "version": "run017-exploratory-fd-v1",
+  "status": "FROZEN_EXPLORATORY_COMPARISON",
+  "formal_inversion_qualified": false,
+  "path": "run/run_017/artifacts/private/loss_contract.json",
+  "sha256": "8929c6528c305ea67ae31f46af2d3d8048f8ef64b3f953cfe9ac7b60afe752f4",
+  "implementation": "inverse/fd_loss.py",
+  "implementation_sha256": "48d8d900f9eb453bdf1c896fea734c589ca8ab22d47e9dd98b165353ee794fb0",
+  "new_fe_authorized": 0,
+  "source_units": "SOURCE_CONFIRMED",
+  "fixed_window": true
+}

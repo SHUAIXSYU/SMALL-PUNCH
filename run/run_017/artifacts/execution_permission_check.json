@@ -1,0 +1,36 @@
+{
+  "observed_at": "2026-10-23T22:55:02.880804+08:00",
+  "denied": [
+    {
+      "task_id": "a37ef4d7-ed7f-4bb3-803f-3c8726916548",
+      "action": "enqueue",
+      "result": "TASK_APPROVAL_REQUIRED:enqueue"
+    },
+    {
+      "task_id": "a37ef4d7-ed7f-4bb3-803f-3c8726916548",
+      "action": "start_solver",
+      "result": "TASK_APPROVAL_REQUIRED:start_solver"
+    },
+    {
+      "task_id": "a37ef4d7-ed7f-4bb3-803f-3c8726916548",
+      "action": "recover_retry",
+      "result": "TASK_APPROVAL_REQUIRED:recover_retry"
+    },
+    {
+      "task_id": "64ade6c7-71f6-40ea-9ecc-b70f459773fb",
+      "action": "enqueue",
+      "result": "TASK_APPROVAL_REQUIRED:enqueue"
+    },
+    {
+      "task_id": "64ade6c7-71f6-40ea-9ecc-b70f459773fb",
+      "action": "start_solver",
+      "result": "TASK_APPROVAL_REQUIRED:start_solver"
+    },
+    {
+      "task_id": "64ade6c7-71f6-40ea-9ecc-b70f459773fb",
+      "action": "recover_retry",
+      "result": "TASK_APPROVAL_REQUIRED:recover_retry"
+    }
+  ],
+  "actual_external_action": false
+}

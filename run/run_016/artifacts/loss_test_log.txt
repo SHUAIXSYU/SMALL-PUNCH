@@ -1,0 +1,24 @@
+test_bad_target (previous.LossTests.test_bad_target) ... ok
+test_different_sampling (previous.LossTests.test_different_sampling) ... ok
+test_gate_and_explicit_provisional (previous.LossTests.test_gate_and_explicit_provisional) ... ok
+test_identical_zero (previous.LossTests.test_identical_zero) ... ok
+test_illegal_units (previous.LossTests.test_illegal_units) ... ok
+test_invalid_failed_fe (previous.LossTests.test_invalid_failed_fe) ... ok
+test_known_weighted_residual (previous.LossTests.test_known_weighted_residual) ... ok
+test_mutable_inputs_frozen (previous.LossTests.test_mutable_inputs_frozen) ... ok
+test_nan_and_infinity (previous.LossTests.test_nan_and_infinity) ... ok
+test_no_overlap (previous.LossTests.test_no_overlap) ... ok
+test_nonmonotonic_and_duplicate (previous.LossTests.test_nonmonotonic_and_duplicate) ... ok
+test_partial_coverage_rejected (previous.LossTests.test_partial_coverage_rejected) ... ok
+test_common_weight_scaling_invariant (qualification.QualificationTests.test_common_weight_scaling_invariant) ... ok
+test_force_units_gate_cannot_be_inferred_from_si_array_label (qualification.QualificationTests.test_force_units_gate_cannot_be_inferred_from_si_array_label) ... ok
+test_measurement_declaration_does_not_resolve_conditions (qualification.QualificationTests.test_measurement_declaration_does_not_resolve_conditions) ... ok
+test_mse_not_mean_percentage_error (qualification.QualificationTests.test_mse_not_mean_percentage_error) ... ok
+test_provisional_preserves_unresolved_and_fixed_count (qualification.QualificationTests.test_provisional_preserves_unresolved_and_fixed_count) ... ok
+test_reference_scaling_is_squared (qualification.QualificationTests.test_reference_scaling_is_squared) ... ok
+test_warning_fe_still_needs_numerical_acceptance (qualification.QualificationTests.test_warning_fe_still_needs_numerical_acceptance) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.002s
+
+OK

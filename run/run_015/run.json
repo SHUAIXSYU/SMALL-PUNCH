@@ -1,0 +1,147 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_015",
+  "stage": "Experimental SPT data audit and offline inversion preparation",
+  "objective": "Read-only source reconciliation, private normalization, measurement gates and solver-free loss implementation",
+  "status": "WARNING",
+  "start_time": "2026-10-23T21:22:07.8793715+08:00",
+  "end_time": "2026-10-23T21:54:25.635919+08:00",
+  "time_notes": "Observed local UTC+08:00 timestamps",
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "git_head": "c2ef18f97cac516d6225b3c27f147d3e0b51e7b4",
+  "git_branch": "main",
+  "inputs": [
+    {
+      "path": "run/run_015/artifacts/private/source_inventory.json",
+      "role": "Private source identities and immutable baselines"
+    },
+    {
+      "path": "run/run_014/artifacts/odb/punch_force_displacement.csv",
+      "role": "Existing candidate FE curve only"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "inverse/fd_loss.py",
+      "role": "Independent solver-free loss"
+    },
+    {
+      "path": "docs/Blind_Inversion_Protocol.md",
+      "role": "Current user protocol and exposure disclosure"
+    },
+    {
+      "path": "run/run_015/artifacts/blind_inversion_contract.json",
+      "role": "Frozen exploratory bounds, initialization and budget"
+    },
+    {
+      "path": "run/run_015/artifacts/private/spt_final_report.md",
+      "role": "Current private SPT-only report"
+    },
+    {
+      "path": "run/run_015/artifacts/private/spt_minimum_questions.md",
+      "role": "Minimal unresolved SPT conditions"
+    },
+    {
+      "path": "run/run_015/artifacts/manifest.json",
+      "role": "Allowed evidence allowlist and hashes"
+    },
+    {
+      "path": "run/run_015/artifacts/agenthub_final_receipt.json",
+      "role": "MAIN completion and registered evidence"
+    },
+    {
+      "path": "run/run_015/artifacts/holdout_stop_acknowledgements.json",
+      "role": "Real role stop acknowledgements"
+    }
+  ],
+  "validation": [
+    {
+      "check": "SPT numeric sequence reconciliation",
+      "status": "PASS",
+      "evidence": "run/run_015/artifacts/private/odb/xlsx_origin_reconciliation.json",
+      "scope": "Source-order numeric agreement only, no claim of raw instrument authenticity"
+    },
+    {
+      "check": "Real ODB/CAE session receipt and evidence hashes",
+      "status": "PASS",
+      "evidence": "run/run_015/artifacts/private/spt_worker_verification.json",
+      "scope": "18 SPT/model worker artifacts; sealed supplemental results excluded"
+    },
+    {
+      "check": "Loss synthetic unit tests",
+      "status": "PASS",
+      "evidence": "run/run_015/artifacts/loss_test_results.json",
+      "scope": "12 tests; no solver"
+    },
+    {
+      "check": "SPT physical units and measurement alignment",
+      "status": "BLOCKED",
+      "evidence": "run/run_015/artifacts/private/spt_final_report.md",
+      "scope": "Provisional assumption only; formal loss null"
+    },
+    {
+      "check": "Frozen configuration and budget arithmetic",
+      "status": "PASS",
+      "evidence": "run/run_015/artifacts/protocol_checks.json",
+      "scope": "Exploratory protocol fixed; actual/authorized FE zero"
+    },
+    {
+      "check": "Allowed source/Queue/Project DB integrity",
+      "status": "PASS",
+      "evidence": "run/run_015/artifacts/private/spt_integrity_final.json",
+      "scope": "SPT and old FE/model sources only; no rehash of sealed source"
+    },
+    {
+      "check": "Current heldout access prohibition",
+      "status": "PASS",
+      "evidence": "run/run_015/artifacts/holdout_stop_acknowledgements.json",
+      "scope": "Cooperative stop and policy, not OS ACL"
+    },
+    {
+      "check": "Completely blind study status",
+      "status": "WARNING",
+      "evidence": "docs/Blind_Inversion_Protocol.md",
+      "scope": "Prior MAIN/ODB exposure cannot be undone"
+    }
+  ],
+  "errors": [
+    {
+      "code": "SPT_UNIT_AND_MEASUREMENT_UNRESOLVED",
+      "severity": "WARNING",
+      "message": "No formal experiment fit until unit labels, sensor/zero/compliance and condition correspondence verified",
+      "evidence": "run/run_015/artifacts/private/spt_minimum_questions.md",
+      "resolution": "Await external SPT metadata; offline work completed"
+    },
+    {
+      "code": "PRIOR_HOLDOUT_EXPOSURE",
+      "severity": "WARNING",
+      "message": "Prior authorized reading/analysis preceded new blind-protocol prohibition; no complete-blind claim",
+      "evidence": "run/run_015/artifacts/private/blind_holdout_access_policy.json",
+      "resolution": "Access/use stopped; sealed evidence retained; unexposed review recommended"
+    },
+    {
+      "code": "ORIGIN_ADVANCED_METADATA_UNVERIFIED",
+      "severity": "WARNING",
+      "message": "Bounded OrgLab reader succeeded; exploratory advanced getter process exited 1 with no diagnostic; full processing history unknown",
+      "evidence": "run/run_015/artifacts/private/origin/reader_validation.json",
+      "resolution": "Preserved failures; reproducible numeric/label extraction succeeded without unsafe script APIs"
+    }
+  ],
+  "task_ids": {
+    "main": "32f9f260-3424-4603-8dba-657401a981e2",
+    "odb": "c37500b3-0af2-493d-a48c-ae2808edebbd",
+    "cae": "1d0edf48-a744-4ce5-b8b3-a4e590f54021",
+    "sealed_supplement": "7ab607b7-3ec6-4905-a412-0972e365525d"
+  },
+  "solver_authorization": "NONE; run_014 authorization exhausted",
+  "science_state": "WARNING",
+  "scope_supplement": {
+    "historical_activity": "Previously authorized supplemental audit occurred before prohibition; now sealed",
+    "current_authority": "User blind-inversion protocol supersedes prior supplemental analysis",
+    "content_not_reused": true,
+    "prior_exposure_disclosed": true,
+    "strict_blind": false,
+    "policy": "run/run_015/artifacts/private/blind_holdout_access_policy.json"
+  },
+  "execution_state": "OFFLINE_COMPLETE / HOLDOUT_SEALED"
+}

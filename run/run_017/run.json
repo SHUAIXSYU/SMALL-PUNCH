@@ -1,0 +1,261 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_017",
+  "stage": "First Constitutive Sensitivity Study Preparation",
+  "objective": "Freeze source-confirmed SPT comparison and five candidate inputs, public API previews only",
+  "status": "WARNING",
+  "start_time": "2026-10-23T22:45:40.441408+08:00",
+  "end_time": "2026-10-23T22:59:02.208135+08:00",
+  "time_notes": "Observed local timezone",
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "git_head": "c2ef18f97cac516d6225b3c27f147d3e0b51e7b4",
+  "git_branch": "main",
+  "inputs": [
+    {
+      "path": "run/run_016/artifacts/private/main_qualification_report.md",
+      "role": "Immutable prior qualification"
+    },
+    {
+      "path": "run/run_017/artifacts/private/source_inventory.json",
+      "role": "14 explicit source identities"
+    },
+    {
+      "path": "run/run_017/artifacts/private/experimental_metadata.json",
+      "role": "New source confirmation"
+    },
+    {
+      "path": "run/run_017/artifacts/parameter_design.json",
+      "role": "Frozen five points"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_017/artifacts/private/experimental_metadata.json",
+      "role": "private/experimental_metadata.json"
+    },
+    {
+      "path": "run/run_017/artifacts/private/main_preparation_report.md",
+      "role": "private/main_preparation_report.md"
+    },
+    {
+      "path": "run/run_017/artifacts/private/canonical_fd_source_confirmed.csv",
+      "role": "private/canonical_fd_source_confirmed.csv"
+    },
+    {
+      "path": "run/run_017/artifacts/private/canonical_provenance.json",
+      "role": "private/canonical_provenance.json"
+    },
+    {
+      "path": "run/run_017/artifacts/private/loss_contract.json",
+      "role": "private/loss_contract.json"
+    },
+    {
+      "path": "run/run_017/artifacts/private/reference_loss.json",
+      "role": "private/reference_loss.json"
+    },
+    {
+      "path": "run/run_017/artifacts/private/cae_handoff_verified.json",
+      "role": "private/cae_handoff_verified.json"
+    },
+    {
+      "path": "run/run_017/artifacts/private/integrity_check.json",
+      "role": "private/integrity_check.json"
+    },
+    {
+      "path": "run/run_017/artifacts/private/abq_integrity.json",
+      "role": "private/abq_integrity.json"
+    },
+    {
+      "path": "run/run_017/artifacts/loss_contract_identity.json",
+      "role": "loss_contract_identity.json"
+    },
+    {
+      "path": "run/run_017/artifacts/parameter_design.json",
+      "role": "parameter_design.json"
+    },
+    {
+      "path": "run/run_017/artifacts/prepared_batch.json",
+      "role": "prepared_batch.json"
+    },
+    {
+      "path": "run/run_017/artifacts/run016_resolution_by_new_evidence.json",
+      "role": "run016_resolution_by_new_evidence.json"
+    },
+    {
+      "path": "run/run_017/artifacts/abq_settings_verification.json",
+      "role": "abq_settings_verification.json"
+    },
+    {
+      "path": "run/run_017/artifacts/batch_preview_result.json",
+      "role": "batch_preview_result.json"
+    },
+    {
+      "path": "run/run_017/artifacts/execution_permission_check.json",
+      "role": "execution_permission_check.json"
+    },
+    {
+      "path": "run/run_017/artifacts/odb_analysis_protocol.md",
+      "role": "odb_analysis_protocol.md"
+    },
+    {
+      "path": "run/run_017/artifacts/sensitivity_analysis.py",
+      "role": "sensitivity_analysis.py"
+    },
+    {
+      "path": "run/run_017/artifacts/test_sensitivity_analysis.py",
+      "role": "test_sensitivity_analysis.py"
+    },
+    {
+      "path": "run/run_017/artifacts/test_results.json",
+      "role": "test_results.json"
+    },
+    {
+      "path": "run/run_017/artifacts/test_log.txt",
+      "role": "test_log.txt"
+    },
+    {
+      "path": "run/run_017/artifacts/freeze_experimental_contract.py",
+      "role": "freeze_experimental_contract.py"
+    },
+    {
+      "path": "run/run_017/artifacts/preview_batch.py",
+      "role": "preview_batch.py"
+    },
+    {
+      "path": "run/run_017/artifacts/run_tests.py",
+      "role": "run_tests.py"
+    },
+    {
+      "path": "run/run_017/artifacts/freeze_batch.py",
+      "role": "freeze_batch.py"
+    },
+    {
+      "path": "run/run_017/artifacts/finalize_run.py",
+      "role": "finalize_run.py"
+    },
+    {
+      "path": "run/run_017/artifacts/privacy_check.json",
+      "role": "privacy_check.json"
+    },
+    {
+      "path": "run/run_017/artifacts/solver/.gitignore",
+      "role": "solver/.gitignore"
+    },
+    {
+      "path": "run/run_017/artifacts/previews/P01.json",
+      "role": "previews/P01.json"
+    },
+    {
+      "path": "run/run_017/artifacts/previews/P02.json",
+      "role": "previews/P02.json"
+    },
+    {
+      "path": "run/run_017/artifacts/previews/P03.json",
+      "role": "previews/P03.json"
+    },
+    {
+      "path": "run/run_017/artifacts/previews/P04.json",
+      "role": "previews/P04.json"
+    },
+    {
+      "path": "run/run_017/artifacts/previews/P05.json",
+      "role": "previews/P05.json"
+    },
+    {
+      "path": "run/run_017/artifacts/agenthub_receipt.json",
+      "role": "agenthub_receipt.json"
+    },
+    {
+      "path": "run/run_017/artifacts/cae_candidate_manifest.json",
+      "role": "cae_candidate_manifest.json"
+    },
+    {
+      "path": "run/run_017/artifacts/manifest.json",
+      "role": "manifest.json"
+    }
+  ],
+  "validation": [
+    {
+      "check": "Real CAE handoff",
+      "status": "PASS",
+      "evidence": "run/run_017/artifacts/private/cae_handoff_verified.json",
+      "scope": "19 artifacts and actual session completion"
+    },
+    {
+      "check": "Five static candidate checks",
+      "status": "PASS",
+      "evidence": "run/run_017/artifacts/private/cae/verification.json",
+      "scope": "Material-only changes, coverage and interpolation"
+    },
+    {
+      "check": "Public API preview",
+      "status": "PASS",
+      "evidence": "run/run_017/artifacts/batch_preview_result.json",
+      "scope": "Five preflight and dry-run; no execution"
+    },
+    {
+      "check": "Synthetic tests",
+      "status": "PASS",
+      "evidence": "run/run_017/artifacts/test_results.json",
+      "scope": "28 synthetic tests only"
+    },
+    {
+      "check": "Source preservation",
+      "status": "PASS",
+      "evidence": "run/run_017/artifacts/private/integrity_check.json",
+      "scope": "14 explicit baseline files"
+    },
+    {
+      "check": "Privacy",
+      "status": "PASS",
+      "evidence": "run/run_017/artifacts/privacy_check.json",
+      "scope": "Current private outputs ignored"
+    }
+  ],
+  "errors": [
+    {
+      "code": "MODEL_LIMITATIONS_RETAINED",
+      "severity": "WARNING",
+      "message": "Correction, complete fixture equivalence, damage/model/numerical validity remain uncertain",
+      "evidence": "run/run_017/artifacts/private/main_preparation_report.md",
+      "resolution": "Explicitly limited exploratory baseline; not formal inversion"
+    },
+    {
+      "code": "CAE_VERIFIER_COMMENT_BOUNDARY_REPAIRED",
+      "severity": "WARNING",
+      "message": "First independent verifier failed on two comment markers; verifier corrected and re-read passed without changing candidates",
+      "evidence": "run/run_017/artifacts/private/cae/operation_log.json",
+      "resolution": "RESOLVED_TOOL_LOGIC; failure retained"
+    }
+  ],
+  "task_ids": {
+    "MAIN": "a37ef4d7-ed7f-4bb3-803f-3c8726916548",
+    "CAE": "64ade6c7-71f6-40ea-9ecc-b70f459773fb"
+  },
+  "new_jobs_authorized": 0,
+  "new_jobs_executed": 0,
+  "outcome": {
+    "run": "run_017",
+    "status": "WARNING",
+    "execution": "PREPARATION_COMPLETED",
+    "source_units": "CONFIRMED_BY_COLLABORATOR",
+    "geometry": "PASS_FOR_IDEALISED_CLAMPING_BASELINE",
+    "complete_fixture_equivalence": false,
+    "loss_version": "run017-exploratory-fd-v1",
+    "loss_status": "FROZEN_EXPLORATORY_COMPARISON",
+    "candidate_count": 5,
+    "preflight_pass": 5,
+    "dry_run_pass": 5,
+    "settings": "PERSISTED",
+    "synthetic_tests_pass": 28,
+    "ready_to_request_first_five_job_sensitivity_batch": true,
+    "authorized_jobs": 0,
+    "queued_jobs": 0,
+    "solver_executions": 0,
+    "automatic_retries": 0,
+    "formal_inversion_qualified": false,
+    "batch": "run/run_017/artifacts/prepared_batch.json",
+    "main_report": "run/run_017/artifacts/private/main_preparation_report.md",
+    "independent_validation": "Retained dataset with historical information exposure; no new access"
+  }
+}

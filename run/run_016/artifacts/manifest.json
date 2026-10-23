@@ -1,0 +1,246 @@
+{
+  "observed_at": "2026-10-23T22:26:07.205779+08:00",
+  "run": "run_016",
+  "entries": [
+    {
+      "path": "run/run_016/artifacts/agenthub_receipt.json",
+      "sha256": "942b599c2250447d94705a380d74e4160f08109c9d5213d4055f06a840d43da8",
+      "visibility": "PUBLIC",
+      "role": "evidence_or_protocol"
+    },
+    {
+      "path": "run/run_016/artifacts/authorization_guard_check.json",
+      "sha256": "0b80aa52f739e023088cc2767629edf79d24555fce98ef0e41b96304ad61c9df",
+      "visibility": "PUBLIC",
+      "role": "evidence_or_protocol"
+    },
+    {
+      "path": "run/run_016/artifacts/cae_scripts/inspect_geometry.py",
+      "sha256": "e135920373b70265e18cf0994c610f4530dbd1b1ab2fb115de8929a892935c54",
+      "visibility": "PUBLIC",
+      "role": "evidence_or_protocol"
+    },
+    {
+      "path": "run/run_016/artifacts/cae_scripts/publish_qualification.py",
+      "sha256": "b513d49f818b273332abcbd94e72bbad50483c3345eff93df7670fa3886b7a52",
+      "visibility": "PUBLIC",
+      "role": "evidence_or_protocol"
+    },
+    {
+      "path": "run/run_016/artifacts/finalize_run.py",
+      "sha256": "a54252e32ac76dd4b949d81496a9f161f473835a9f03e63fa57b5fea701fee7b",
+      "visibility": "PUBLIC",
+      "role": "evidence_or_protocol"
+    },
+    {
+      "path": "run/run_016/artifacts/freeze_qualification.py",
+      "sha256": "7cb798107e9672336fa6955307360df29fa63e415c8239fbe3074a3c638bc6c6",
+      "visibility": "PUBLIC",
+      "role": "evidence_or_protocol"
+    },
+    {
+      "path": "run/run_016/artifacts/hub_tasks.json",
+      "sha256": "35f9b3d898ae77fee571cb838028c0e192c4f99e227d3115f49bb022dbcdc306",
+      "visibility": "PUBLIC",
+      "role": "evidence_or_protocol"
+    },
+    {
+      "path": "run/run_016/artifacts/inversion_qualification_contract.json",
+      "sha256": "47da152857341fb4b31c42446fbda93fa1cc556e27528880471f1fac585c0b88",
+      "visibility": "PUBLIC",
+      "role": "evidence_or_protocol"
+    },
+    {
+      "path": "run/run_016/artifacts/loss_test_log.txt",
+      "sha256": "c5b76302f266d262e1be64e452353d227cdea096c0b6553c10f6abe090648859",
+      "visibility": "PUBLIC",
+      "role": "evidence_or_protocol"
+    },
+    {
+      "path": "run/run_016/artifacts/loss_test_results.json",
+      "sha256": "c1bd48f5f288316bba01b361fbca981d1251a40f12e4368f658843945c710756",
+      "visibility": "PUBLIC",
+      "role": "evidence_or_protocol"
+    },
+    {
+      "path": "run/run_016/artifacts/odb_scripts/audit_fe_coverage_only.py",
+      "sha256": "350f61d4ea5deab2b39023df767ef3ceeaa4fd5301f2fcebcaa93364b46438c8",
+      "visibility": "PUBLIC",
+      "role": "evidence_or_protocol"
+    },
+    {
+      "path": "run/run_016/artifacts/odb_scripts/audit_spt_source_window.py",
+      "sha256": "1a5ab5081ca9a96d78dd5dcc02968cfe79e54c05a4398a9d93893245f794a076",
+      "visibility": "PUBLIC",
+      "role": "evidence_or_protocol"
+    },
+    {
+      "path": "run/run_016/artifacts/parameter_and_budget_protocol.md",
+      "sha256": "a165d3193325e8d123a57bcb962c42509bffaac51e80a2e0925654b859bc8a46",
+      "visibility": "PUBLIC",
+      "role": "evidence_or_protocol"
+    },
+    {
+      "path": "run/run_016/artifacts/privacy_check.json",
+      "sha256": "57d6e7222bd83c9b0302d42a23aa2414a0229158d15df7730ea55ba0a9ad7f77",
+      "visibility": "PUBLIC",
+      "role": "evidence_or_protocol"
+    },
+    {
+      "path": "run/run_016/artifacts/private/cae/agenthub_receipt.json",
+      "sha256": "bea30620a6e5b8611a53f60b15e8bdde1c3811a3ebf4d40b725fd788c6326f97",
+      "visibility": "PRIVATE",
+      "role": "evidence_or_protocol"
+    },
+    {
+      "path": "run/run_016/artifacts/private/cae/geometry_qualification.md",
+      "sha256": "0aaef5a6f71b3f9537baef736e78130c407aa5ca3c78873fffe369f92811b1d7",
+      "visibility": "PRIVATE",
+      "role": "evidence_or_protocol"
+    },
+    {
+      "path": "run/run_016/artifacts/private/cae/model_facts.json",
+      "sha256": "4c8bc3ccaafcd8437583f7427b0abec22fd9e194ff9cba26d8226cd486a9bb0d",
+      "visibility": "PRIVATE",
+      "role": "evidence_or_protocol"
+    },
+    {
+      "path": "run/run_016/artifacts/private/cae/qualification_result.json",
+      "sha256": "fbe704d98652f3ddb04d4277041f55c27eb5c2754a4fcdf2d3df0ef9a7384d0f",
+      "visibility": "PRIVATE",
+      "role": "evidence_or_protocol"
+    },
+    {
+      "path": "run/run_016/artifacts/private/collaborator_declaration.json",
+      "sha256": "72215a538b4d6a2d5b4571dcaf9dd218bfdad29c6c9d6a41e9924109ad577702",
+      "visibility": "PRIVATE",
+      "role": "evidence_or_protocol"
+    },
+    {
+      "path": "run/run_016/artifacts/private/finalize_failure_001.json",
+      "sha256": "e31dc63b92712b2aad92794363ecccd294f421052d6157a9e54332d6ac491581",
+      "visibility": "PRIVATE",
+      "role": "evidence_or_protocol"
+    },
+    {
+      "path": "run/run_016/artifacts/private/integrity_check.json",
+      "sha256": "127b3c09a04c40538e6d53f5e0ba2b0a2e134afd64b586b4c77c60e725f237d3",
+      "visibility": "PRIVATE",
+      "role": "evidence_or_protocol"
+    },
+    {
+      "path": "run/run_016/artifacts/private/loss_review.json",
+      "sha256": "954b26b9e619cc6bc5b784f7cec2e04eae32ccd31d11cb711b0617e3e10426f3",
+      "visibility": "PRIVATE",
+      "role": "evidence_or_protocol"
+    },
+    {
+      "path": "run/run_016/artifacts/private/main_qualification_report.md",
+      "sha256": "d3c1d8aa06b99d222bf0f7131a5238efe6e4f641d261c11e561d4573c10d396b",
+      "visibility": "PRIVATE",
+      "role": "evidence_or_protocol"
+    },
+    {
+      "path": "run/run_016/artifacts/private/odb/fe_coverage_only.json",
+      "sha256": "e1298deabf18e21772540860b09140df13aa6a9c0c03b8f8254810fc0005de66",
+      "visibility": "PRIVATE",
+      "role": "evidence_or_protocol"
+    },
+    {
+      "path": "run/run_016/artifacts/private/odb/sha256_manifest.json",
+      "sha256": "7c5407ae641597b53ad85c3bebf9c60eec6d381636eb85242c016a33cee946fd",
+      "visibility": "PRIVATE",
+      "role": "evidence_or_protocol"
+    },
+    {
+      "path": "run/run_016/artifacts/private/odb/spt_qualification_report.md",
+      "sha256": "127b33a70ffeddf98f3cc99fbc1b7ec33f7bbd74fa36c11059268be0c3206400",
+      "visibility": "PRIVATE",
+      "role": "evidence_or_protocol"
+    },
+    {
+      "path": "run/run_016/artifacts/private/odb/spt_source_points.csv",
+      "sha256": "906cbfff7d956e3f1d12b501024fb69e3451fbbd6d62017682a41515dd4541ef",
+      "visibility": "PRIVATE",
+      "role": "evidence_or_protocol"
+    },
+    {
+      "path": "run/run_016/artifacts/private/odb/spt_source_window.json",
+      "sha256": "45b9992f29ec47a3ae7ed1b4a0630234eebfb15547cd302b6fe7db9b481d7f03",
+      "visibility": "PRIVATE",
+      "role": "evidence_or_protocol"
+    },
+    {
+      "path": "run/run_016/artifacts/private/odb/spt_source_window.png",
+      "sha256": "75bd3dfb8777e735842a33625bc9122bccb9cfbdd2ec2cded9f3c922b19a94d2",
+      "visibility": "PRIVATE",
+      "role": "evidence_or_protocol"
+    },
+    {
+      "path": "run/run_016/artifacts/private/odb/window_criteria_prefe.json",
+      "sha256": "5f3d82e5d0b0751a95c7bcb501129f0a06f996b8042b387a4862ba38eb69f783",
+      "visibility": "PRIVATE",
+      "role": "evidence_or_protocol"
+    },
+    {
+      "path": "run/run_016/artifacts/private/source_inventory.json",
+      "sha256": "98816fd9f46e1b75bac42bb4fa037bf50fa97275b0f717ad4c00cf62de9f4f99",
+      "visibility": "PRIVATE",
+      "role": "evidence_or_protocol"
+    },
+    {
+      "path": "run/run_016/artifacts/private/worker_verification.json",
+      "sha256": "8f6265028cdf3fbc5f3867250b19b2479fb61e09597a59a4932328d0e8b0a13a",
+      "visibility": "PRIVATE",
+      "role": "evidence_or_protocol"
+    },
+    {
+      "path": "run/run_016/artifacts/review_loss.py",
+      "sha256": "ff3719c0721c9db6fc1db85382385a4a1b4009dc98d628446d0e18b7c9b08136",
+      "visibility": "PUBLIC",
+      "role": "evidence_or_protocol"
+    },
+    {
+      "path": "run/run_016/artifacts/test_loss_qualification.py",
+      "sha256": "00a6ef8168cc102659ccb1bc3fd6a2ce69c025553a9ee41c75a1703ca66c3589",
+      "visibility": "PUBLIC",
+      "role": "evidence_or_protocol"
+    },
+    {
+      "path": "run/run_016/checkpoints/initial_git.json",
+      "sha256": "498440c0516381dda94810fd3f439d0a0dce8d8dc10ccee2cdff822da7c71add",
+      "visibility": "PUBLIC",
+      "role": "evidence_or_protocol"
+    },
+    {
+      "path": "run/run_016/checkpoints/project_status_before.md",
+      "sha256": "e02b3df676bf44909fe5c37a43ca860f365bda4ed93c7f7acd779c8d3557f593",
+      "visibility": "PUBLIC",
+      "role": "evidence_or_protocol"
+    },
+    {
+      "path": "run/run_016/checkpoints/run_index_before.md",
+      "sha256": "fa35c2943f801c9f29296c74ae04d99b9608bfd32f19913b25a58e754635df29",
+      "visibility": "PUBLIC",
+      "role": "evidence_or_protocol"
+    },
+    {
+      "path": "run/run_016/checkpoints/run_initial.json",
+      "sha256": "3224751b5a391dbf0562fb05349c3ef66e8c0fa26426102431aa862cf931a2dd",
+      "visibility": "PUBLIC",
+      "role": "evidence_or_protocol"
+    },
+    {
+      "path": "run/run_016/checkpoints/summary_initial.md",
+      "sha256": "b1b0d5f83ea01596dd104a056adebf2af53ff940a6b7344c6f91a34dfbfaf50e",
+      "visibility": "PUBLIC",
+      "role": "evidence_or_protocol"
+    },
+    {
+      "path": "run/run_016/summary.md",
+      "sha256": "02f9fef79c2c678dca2d67f9ce8447063d515e2b8d2dce747737aee53e9eb288",
+      "visibility": "PUBLIC",
+      "role": "evidence_or_protocol"
+    }
+  ]
+}

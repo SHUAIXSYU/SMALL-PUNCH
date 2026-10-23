@@ -1,0 +1,19 @@
+{
+  "observed_at": "2026-10-23T23:18:30.271691+08:00",
+  "task_id": "37ad24d5-26af-4374-b415-c6a1af1fc0c7",
+  "file_references": [
+    {
+      "path": "run/run_018/artifacts/finalize_run.py",
+      "sha256": "c506e04df6292c22c8dc2b62da17b9677c27e659cfbcd1ca6a32eb080e779228"
+    },
+    {
+      "path": "run/run_018/artifacts/evidence_verification.json",
+      "sha256": "271c2ca49a93db5e06ea50a6c5acebc85a775523513b5de28cc89a9af2f8252f"
+    },
+    {
+      "path": "run/run_018/summary.md",
+      "sha256": "a82cf921e3dde7634b3f9e93f2a7af2408a78ad5c386e0e6f00d31225182ce8a"
+    }
+  ],
+  "message_id": "34c49595-3216-4aac-8b04-18a8db8a11f6"
+}

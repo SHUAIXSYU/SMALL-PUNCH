@@ -1,0 +1,80 @@
+{
+  "version": "run015-blind-protocol-v2",
+  "frozen_at": "2026-10-23T21:48:19.006573+08:00",
+  "status": "FROZEN_EXPLORATORY_PROTOCOL_NOT_AUTHORIZED_TO_EXECUTE",
+  "strict_blind": false,
+  "prior_exposure_disclosed": true,
+  "parameters": {
+    "E_pa": 210000000000.0,
+    "nu": 0.3,
+    "sigma_y_mpa": {
+      "bounds": [
+        21.0,
+        2100.0
+      ],
+      "basis": "exploratory yield_strain=sigma_y/E in [1e-4,1e-2]; not material evidence"
+    },
+    "n": {
+      "bounds": [
+        0.01,
+        0.99
+      ],
+      "basis": "numerical 1 percent inset from generator domain (0,1); not material evidence"
+    }
+  },
+  "loss_config": "run/run_015/artifacts/private/loss_config_frozen.json",
+  "loss_config_sha256": "6e5425b09875fe3184991eebd36abce0c3c45802327f8a6e7f71647e076a211f",
+  "loss_code": "inverse/fd_loss.py",
+  "loss_code_sha256": "48d8d900f9eb453bdf1c896fea734c589ca8ab22d47e9dd98b165353ee794fb0",
+  "loss_mode": "PROVISIONAL until independent measurement/quality gates pass",
+  "initial_design": {
+    "method": "Latin hypercube over log(sigma_y) and linear n",
+    "points": 8,
+    "seed": 15,
+    "executed": false,
+    "insert_known_test_point": false,
+    "manual_prior_center": null
+  },
+  "algorithms": {
+    "DE": {
+      "population": 8,
+      "generations_max": 2,
+      "polish": false,
+      "shared_initial": 8,
+      "new_max": 16
+    },
+    "BO": {
+      "shared_initial": 8,
+      "new_max": 16,
+      "implementation": "NOT_IMPLEMENTED; synthetic validation needed"
+    }
+  },
+  "budget": {
+    "total_unique_new_fe_jobs": 48,
+    "shared_initial": 8,
+    "bo_new": 16,
+    "de_new": 16,
+    "identifiability": 4,
+    "numerical_quality": 2,
+    "confirmation": 2,
+    "authorized_now": 0,
+    "executed_now": 0,
+    "attempts_per_job": 1,
+    "automatic_retry": 0,
+    "failure_counts_against_budget": true,
+    "failure_action": "Pause and report to MAIN; no automatic replacement or retry"
+  },
+  "unblinding": {
+    "requires_frozen_inversion_result": true,
+    "requires_explicit_new_user_permission": true,
+    "permission_now": false
+  },
+  "formal_gate": "BLOCKED pending SPT definitions, FE adequacy, unexposed review and new solver authorization",
+  "not_used": "No protected source or derivative accessed to create this v2; pre-existing exposure cannot be undone",
+  "future_results": {
+    "best_parameters": null,
+    "parameter_uncertainty": null,
+    "formal_loss": null,
+    "new_fe_calls": 0
+  }
+}

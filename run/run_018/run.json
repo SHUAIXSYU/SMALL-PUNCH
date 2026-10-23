@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_018",
+  "stage": "P01 Queue-only Submission",
+  "objective": "Verify frozen P01 and enqueue once using public API; manual GUI start only",
+  "status": "PASS",
+  "start_time": "2026-10-23T23:14:53.848020+08:00",
+  "end_time": "2026-10-23T23:18:30.242261+08:00",
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "git_head": "c2ef18f97cac516d6225b3c27f147d3e0b51e7b4",
+  "git_branch": "main",
+  "inputs": [
+    {
+      "path": "run/run_017/artifacts/prepared_batch.json",
+      "role": "Frozen authorization identity"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_018/artifacts/admission.json",
+      "role": "admission.json"
+    },
+    {
+      "path": "run/run_018/artifacts/admission_before_enqueue.json",
+      "role": "admission_before_enqueue.json"
+    },
+    {
+      "path": "run/run_018/artifacts/agenthub_receipt.json",
+      "role": "agenthub_receipt.json"
+    },
+    {
+      "path": "run/run_018/artifacts/authorization.json",
+      "role": "authorization.json"
+    },
+    {
+      "path": "run/run_018/artifacts/enqueue_response.json",
+      "role": "enqueue_response.json"
+    },
+    {
+      "path": "run/run_018/artifacts/enqueue_result.json",
+      "role": "enqueue_result.json"
+    },
+    {
+      "path": "run/run_018/artifacts/evidence_verification.json",
+      "role": "evidence_verification.json"
+    },
+    {
+      "path": "run/run_018/artifacts/finalize_run.py",
+      "role": "finalize_run.py"
+    },
+    {
+      "path": "run/run_018/artifacts/outputs_after_enqueue.json",
+      "role": "outputs_after_enqueue.json"
+    },
+    {
+      "path": "run/run_018/artifacts/queue_after_enqueue.json",
+      "role": "queue_after_enqueue.json"
+    },
+    {
+      "path": "run/run_018/artifacts/queue_p01_once.py",
+      "role": "queue_p01_once.py"
+    },
+    {
+      "path": "run/run_018/artifacts/request.json",
+      "role": "request.json"
+    },
+    {
+      "path": "run/run_018/artifacts/status_after_enqueue.json",
+      "role": "status_after_enqueue.json"
+    },
+    {
+      "path": "run/run_018/summary.md",
+      "role": "Run report"
+    }
+  ],
+  "validation": [
+    {
+      "check": "Project/Settings/input/admission",
+      "status": "PASS",
+      "evidence": "run/run_018/artifacts/admission_before_enqueue.json",
+      "scope": "Exact frozen P01 only"
+    },
+    {
+      "check": "Single public enqueue",
+      "status": "PASS",
+      "evidence": "run/run_018/artifacts/enqueue_response.json",
+      "scope": "Queue write only; no Solver start"
+    },
+    {
+      "check": "Post-enqueue identity/status",
+      "status": "PASS",
+      "evidence": "run/run_018/artifacts/enqueue_result.json",
+      "scope": "One pending P01; phases NOT_STARTED"
+    },
+    {
+      "check": "AgentHub artifact verification",
+      "status": "PASS",
+      "evidence": "run/run_018/artifacts/evidence_verification.json",
+      "scope": "Current task evidence hashes"
+    }
+  ],
+  "errors": [],
+  "time_notes": "Observed local timezone",
+  "outcome": {
+    "observed_at": "2026-10-23T23:16:47.575260+08:00",
+    "status": "PASS",
+    "scope": "QUEUE_ONLY",
+    "execution_state": "QUEUED / AWAITING_GUI_START",
+    "task_id": "37ad24d5-26af-4374-b415-c6a1af1fc0c7",
+    "queue_id": "q_bdec6a60a31849d0a2afe200a70231bd",
+    "job_name": "SPIO_R017_P01_CTR",
+    "inp_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_017\\artifacts\\candidates\\SPIO_R017_P01_CTR\\SPIO_R017_P01_CTR.inp",
+    "inp_sha256": "3a97ee2a121261515a2c4019fbd0e1fedf1391ff5a988021786673c592892576",
+    "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_017\\artifacts\\solver\\SPIO_R017_P01_CTR",
+    "cpus": 14,
+    "gpus": 0,
+    "run_datacheck": true,
+    "run_full": true,
+    "pending_jobs": 1,
+    "other_pending_jobs": 0,
+    "new_enqueues": 1,
+    "datacheck": "NOT_STARTED",
+    "full_analysis": "NOT_STARTED",
+    "solver_started": false,
+    "odb_exists": false,
+    "protected_files_unchanged": true,
+    "automatic_retries": 0,
+    "science_state": "NOT_EVALUATED"
+  },
+  "task_ids": {
+    "MAIN": "37ad24d5-26af-4374-b415-c6a1af1fc0c7"
+  },
+  "queue_id": "q_bdec6a60a31849d0a2afe200a70231bd"
+}

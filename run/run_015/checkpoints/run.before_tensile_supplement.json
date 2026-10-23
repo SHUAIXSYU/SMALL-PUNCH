@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_015",
+  "stage": "Experimental SPT data audit and offline inversion preparation",
+  "objective": "Read-only source reconciliation, private normalization, measurement gates and solver-free loss implementation",
+  "status": "RUNNING",
+  "start_time": "2026-10-23T21:22:07.8793715+08:00",
+  "end_time": null,
+  "time_notes": "Observed local UTC+08:00 timestamps",
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "git_head": "c2ef18f97cac516d6225b3c27f147d3e0b51e7b4",
+  "git_branch": "main",
+  "inputs": [
+    {
+      "path": "run/run_015/artifacts/private/source_inventory.json",
+      "role": "Private source identities and immutable baselines"
+    },
+    {
+      "path": "run/run_014/artifacts/odb/punch_force_displacement.csv",
+      "role": "Existing candidate FE curve only"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_015/artifacts/hub_tasks.json",
+      "role": "MAIN and real ODB formal task identity"
+    }
+  ],
+  "validation": [],
+  "errors": [],
+  "task_ids": {
+    "main": "32f9f260-3424-4603-8dba-657401a981e2",
+    "odb": "c37500b3-0af2-493d-a48c-ae2808edebbd"
+  },
+  "solver_authorization": "NONE; run_014 authorization exhausted",
+  "science_state": "PENDING_PROVENANCE_AND_MEASUREMENT_ALIGNMENT"
+}

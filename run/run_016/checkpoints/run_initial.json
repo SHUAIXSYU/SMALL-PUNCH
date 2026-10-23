@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_016",
+  "stage": "Experimental-to-FE Qualification",
+  "objective": "Read-only qualification, collaborator declaration, real CAE/ODB evidence and staged offline inversion contract",
+  "status": "RUNNING",
+  "start_time": "2026-10-23T22:11:44.915840+08:00",
+  "end_time": null,
+  "time_notes": "Observed UTC+08:00; no inferred test time",
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "git_head": "c2ef18f97cac516d6225b3c27f147d3e0b51e7b4",
+  "git_branch": "main",
+  "inputs": [
+    {
+      "path": "run/run_016/artifacts/private/collaborator_declaration.json",
+      "role": "New declared experimental conditions"
+    },
+    {
+      "path": "run/run_016/artifacts/private/source_inventory.json",
+      "role": "Allowed immutable sources"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_016/artifacts/hub_tasks.json",
+      "role": "Formal tasks"
+    }
+  ],
+  "validation": [],
+  "errors": [],
+  "task_ids": {
+    "MAIN": "86982301-e431-4a57-a864-13216885856f",
+    "CAE": "5e024e04-4f41-4fd8-a199-15b632ce6e79",
+    "ODB": "d7be8c6a-eec5-40e3-a25e-538917adea55"
+  },
+  "new_fe_authorized": 0,
+  "new_fe_executed": 0,
+  "heldout_policy": "Retained independent validation data with historical exposure; no new access"
+}

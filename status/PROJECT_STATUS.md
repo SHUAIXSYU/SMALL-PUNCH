@@ -1,6 +1,39 @@
 # SMALL-PUNCH 项目状态
 
-## 当前状态 — run_014（2026-10-21，Asia/Shanghai）
+## 当前状态 — run_018（2026-10-23，Asia/Shanghai）
+
+**PASS（唯一 P01 入队范围）：QUEUED / AWAITING_GUI_START。** 用户授权已通过正式公开 API 完成一次入队，Job `SPIO_R017_P01_CTR`，queue_id `q_bdec6a60a31849d0a2afe200a70231bd`，CPU14/GPU0，Datacheck+Full=True。只有 P01 待执行；Solver/datacheck 尚未启动，P02–P05 未授权入队。本任务已停止，等待用户在正确 Project 的 GUI 点击一次 Start Queue。
+
+正式 Project Settings=PERSISTED，冻结完整哈希、预览、Runner/输出冲突检查及入队后核验通过。AgentHub task `37ad24d5-26af-4374-b415-c6a1af1fc0c7` 已登记授权和证据。见 [run_018 报告](../run/run_018/summary.md)。求解成功及物理有效性尚未评估，无自动重试；此前 run_017 结论保留在下方。
+
+
+## 当前状态 — run_017（2026-10-23，Asia/Shanghai）
+
+**WARNING（离线准备完成）：具备申请最多五个探索性局部敏感性 Job 的条件；当前求解授权、实际入队和新 FE 均为 0。** 合作方确认力/位移单位及球径，名义几何一致；用户接受现有固定环带为 idealised clamping baseline，完整夹具等效仍未验证。
+
+真实 CAE 已生成五个独立材料变体并登记，非材料输入与历史基线一致。新版探索性 Loss/窗口及五点归一化设计已冻结；指定 Project Settings 为 PERSISTED，五个 Preflight/Dry-run 全部通过，Queue 未变，28 项合成测试通过。见 [run_017 总结](../run/run_017/summary.md) 与 [冻结批次](../run/run_017/artifacts/prepared_batch.json)。
+
+位移校正方法、无损伤适用性和数值充分性继续保留不确定性。此准入仅用于首批探索性研究，不是正式反演或材料验证。旧 run_016 阻塞记录保留，新声明/许可的作用单独记录。未来需用户明确授权最多五个具体输入，串行逐个审核，无自动重试。
+
+**保留验证隔离协议继续有效：独立数据保留验证，存在历史信息暴露。** 本轮没有读取/哈希隐藏拉伸源或派生内容；不宣称完全盲测。完成后停止，不自动求解、优化或解盲。
+
+
+## 历史状态 — run_016（2026-10-23，Asia/Shanghai）
+
+**BLOCKED（正式反演准入）；离线审计完成。** 真实 CAE/ODB 两项正式任务已完成并登记证据，MAIN 核验 14 项角色产物。名义试样尺寸相符，但固定夹持环带与实际下夹具接触未证明等效；SPT 力单位冲突仍未解决。合作方确认实际压头位移，校正细节仍待核验。Loss/窗口保持 PROVISIONAL，19 项合成测试通过。
+
+公开资料与明确假设支持的新探索域及分阶段预算已定版，计算授权和执行仍为 0。当前不具备 DE/BO 首批新 Job 准入；解除阻塞后才考虑最多 5 个先导计算。run_014 单次求解授权已用完。见 [run_016 总结](../run/run_016/summary.md)。
+
+**先读[保留验证隔离协议](../docs/Blind_Inversion_Protocol.md)。** 当前定义为“独立数据保留验证，存在历史信息暴露”；旧暴露审计保留。本轮未继续访问保留拉伸源或派生内容，后续独立审查需未接触者。完成后停止，不自动计算或解盲。
+
+
+## 历史状态 — run_015（2026-10-23，Asia/Shanghai）
+
+**WARNING（离线完成）：SPT数值核对、真实ODB/CAE交付和12项Loss合成测试已完成；正式反演未准入。** 候选实验曲线与既有FE仅作PROVISIONAL对照，力单位标签冲突、测点/零点/柔度、实际条件和FE数值充分性仍待核验。探索性参数域与48个新Job预算已冻结，当前执行授权和实际新增FE均0。
+
+**必须先读[盲反演协议](../docs/Blind_Inversion_Protocol.md)。** 用户先追加保留资料审计，之后禁止访问并要求最终解盲验证；禁令前MAIN/ODB已读取，不能宣称完全盲测。禁止继续读取拉伸源及既有派生/混合报告，不使用其信息选择参数、Loss或预算。严格盲态未恢复，建议未接触者复核/执行；已有SPT证据保留。当前仅使用[run_015总结](../run/run_015/summary.md)和其中明确允许的SPT入口，不自动打开封存补充审计。新Solver、真实DE/BO和解盲均需后续明确授权。本轮完成后停止。
+
+## 历史状态 — run_014（2026-10-21，Asia/Shanghai）
 
 **WARNING（本轮完成）：Datacheck PASS，Full Analysis COMPLETED_WITH_WARNINGS，真实ODB提取PASS。** 唯一 `SPIO_R014_Q200_N010`，queue_id=`q_4c0358a918a7447d807d2f547d22c7b8`，授权task_id=`93322987-9489-47c1-908a-dd43e0736339`。用户一次GUI Start Queue后两阶段返回0，总耗时165秒，14CPU/0GPU、单次/零重试。真实ODB任务 `35b07ba1-22ad-48a7-b859-2d99199ed419` 已完成；MAIN收到消息并核验14项Hub证据和曲线差异。170点F–D末点力755.8151，较历史差−0.07782，最大曲线差13.5922（模型单位）；保存帧PEEQ最大0.69390<0.9。39次拒绝尝试、4条负特征值、2条过度畸变警告，以及native瞬时子进程身份缺口保留。科学状态NOT_EVALUATED，未实验验证；本次授权已用完，进一步求解需新授权，不自动进入下一Run。见 [run_014总结](../run/run_014/summary.md)。
 

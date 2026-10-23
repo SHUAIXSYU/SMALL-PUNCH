@@ -1,0 +1,74 @@
+{
+  "status": "PASS_PREPARATION_ONLY",
+  "observed_at": "2026-10-23T22:50:24.738693+08:00",
+  "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+  "settings": "PERSISTED",
+  "candidates": [
+    {
+      "point_id": "P01",
+      "job_name": "SPIO_R017_P01_CTR",
+      "inp_path": "run/run_017/artifacts/candidates/SPIO_R017_P01_CTR/SPIO_R017_P01_CTR.inp",
+      "sha256": "3a97ee2a121261515a2c4019fbd0e1fedf1391ff5a988021786673c592892576",
+      "working_dir": "run/run_017/artifacts/solver/SPIO_R017_P01_CTR",
+      "expected_odb": "run/run_017/artifacts/solver/SPIO_R017_P01_CTR/SPIO_R017_P01_CTR.odb",
+      "preflight": "PREVIEW_READY",
+      "dry_run": "DRY_RUN_READY",
+      "queue_id": null
+    },
+    {
+      "point_id": "P02",
+      "job_name": "SPIO_R017_P02_SYM",
+      "inp_path": "run/run_017/artifacts/candidates/SPIO_R017_P02_SYM/SPIO_R017_P02_SYM.inp",
+      "sha256": "e0a4a811fe321a8f467afa3e72fd0bf98de6301940229cc6fa74cc21202666b5",
+      "working_dir": "run/run_017/artifacts/solver/SPIO_R017_P02_SYM",
+      "expected_odb": "run/run_017/artifacts/solver/SPIO_R017_P02_SYM/SPIO_R017_P02_SYM.odb",
+      "preflight": "PREVIEW_READY",
+      "dry_run": "DRY_RUN_READY",
+      "queue_id": null
+    },
+    {
+      "point_id": "P03",
+      "job_name": "SPIO_R017_P03_SYP",
+      "inp_path": "run/run_017/artifacts/candidates/SPIO_R017_P03_SYP/SPIO_R017_P03_SYP.inp",
+      "sha256": "3fd11de922c372a7742ef52fad05ed445619a919947e39521eb2755046b8b5e7",
+      "working_dir": "run/run_017/artifacts/solver/SPIO_R017_P03_SYP",
+      "expected_odb": "run/run_017/artifacts/solver/SPIO_R017_P03_SYP/SPIO_R017_P03_SYP.odb",
+      "preflight": "PREVIEW_READY",
+      "dry_run": "DRY_RUN_READY",
+      "queue_id": null
+    },
+    {
+      "point_id": "P04",
+      "job_name": "SPIO_R017_P04_NM",
+      "inp_path": "run/run_017/artifacts/candidates/SPIO_R017_P04_NM/SPIO_R017_P04_NM.inp",
+      "sha256": "f30383c5012aa4c3b92ee15bc7e5af0ca4b7133bb35dfbec420da778049bd812",
+      "working_dir": "run/run_017/artifacts/solver/SPIO_R017_P04_NM",
+      "expected_odb": "run/run_017/artifacts/solver/SPIO_R017_P04_NM/SPIO_R017_P04_NM.odb",
+      "preflight": "PREVIEW_READY",
+      "dry_run": "DRY_RUN_READY",
+      "queue_id": null
+    },
+    {
+      "point_id": "P05",
+      "job_name": "SPIO_R017_P05_NP",
+      "inp_path": "run/run_017/artifacts/candidates/SPIO_R017_P05_NP/SPIO_R017_P05_NP.inp",
+      "sha256": "d4a8af2f1975580764c82f6973fa73924a0cbd2e6fe517d383992f2e956f2236",
+      "working_dir": "run/run_017/artifacts/solver/SPIO_R017_P05_NP",
+      "expected_odb": "run/run_017/artifacts/solver/SPIO_R017_P05_NP/SPIO_R017_P05_NP.odb",
+      "preflight": "PREVIEW_READY",
+      "dry_run": "DRY_RUN_READY",
+      "queue_id": null
+    }
+  ],
+  "queue_unchanged": true,
+  "existing_queue_records": 1,
+  "new_queue_records": 0,
+  "no_other_pending_jobs": true,
+  "solver_started": false,
+  "datacheck_started": false,
+  "settings_changed": false,
+  "preview_limitations": [
+    "preflight checks request/path identity and command generation; not Abaqus syntax, license or convergence",
+    "dry-run does not exercise actual enqueue-time Runner ownership/recovery checks; recheck before authorization execution"
+  ]
+}

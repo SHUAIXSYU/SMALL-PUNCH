@@ -1,0 +1,125 @@
+{
+  "observed_at": "2026-10-23T23:18:30.324771+08:00",
+  "files": [
+    {
+      "path": "run/run_018/artifacts/admission.json",
+      "sha256": "f7f1dea2060505e65fd927eb107d2ce70966926b6791c08d8f97abd56418c153",
+      "visibility": "PUBLIC_AUDIT"
+    },
+    {
+      "path": "run/run_018/artifacts/admission_before_enqueue.json",
+      "sha256": "4c251492123360d024b55fa3ad231d3d4557ba70ae7e47551589f4b79f3cd289",
+      "visibility": "PUBLIC_AUDIT"
+    },
+    {
+      "path": "run/run_018/artifacts/agenthub_receipt.json",
+      "sha256": "8fee6f1b3e54394ce7c271afbbefe55efeae1400581a6bb86949cda42a8c1440",
+      "visibility": "PUBLIC_AUDIT"
+    },
+    {
+      "path": "run/run_018/artifacts/authorization.json",
+      "sha256": "229d3e4f2a7e31ee6f843c1f820c0a90d6daae8db337091d88216ab5a2c10dec",
+      "visibility": "PUBLIC_AUDIT"
+    },
+    {
+      "path": "run/run_018/artifacts/enqueue_response.json",
+      "sha256": "caf3bd1603dfc324d5d3864ede961e6ea2308f50879d1b146002ef72f64e65f1",
+      "visibility": "PUBLIC_AUDIT"
+    },
+    {
+      "path": "run/run_018/artifacts/enqueue_result.json",
+      "sha256": "09a0828c21d330937cb01aaf97ea6e0265a9b7bf45cfc740bbccf0b25209000b",
+      "visibility": "PUBLIC_AUDIT"
+    },
+    {
+      "path": "run/run_018/artifacts/evidence_verification.json",
+      "sha256": "271c2ca49a93db5e06ea50a6c5acebc85a775523513b5de28cc89a9af2f8252f",
+      "visibility": "PUBLIC_AUDIT"
+    },
+    {
+      "path": "run/run_018/artifacts/final_report_receipt.json",
+      "sha256": "eaf4322ce56e168da4ba55fd5a2d28759ab92c2cc9c5d6efadeaf6ad887f5f52",
+      "visibility": "PUBLIC_AUDIT"
+    },
+    {
+      "path": "run/run_018/artifacts/finalize_run.py",
+      "sha256": "c506e04df6292c22c8dc2b62da17b9677c27e659cfbcd1ca6a32eb080e779228",
+      "visibility": "PUBLIC_AUDIT"
+    },
+    {
+      "path": "run/run_018/artifacts/outputs_after_enqueue.json",
+      "sha256": "06e16099f841d26bf36bcc9fd70727e8b8cd72879c4964655b1ace41a6c3a885",
+      "visibility": "PUBLIC_AUDIT"
+    },
+    {
+      "path": "run/run_018/artifacts/private/lease.json",
+      "sha256": "b7937b1bdf249866ce5553f6c86fd616a7adab1b81b75e04370deddb13f41ccd",
+      "visibility": "PRIVATE"
+    },
+    {
+      "path": "run/run_018/artifacts/private/processes_after.json",
+      "sha256": "60d4394cde436bd5979865f572491a91357a6c61709ddcbb9d6192e085f404df",
+      "visibility": "PRIVATE"
+    },
+    {
+      "path": "run/run_018/artifacts/queue_after_enqueue.json",
+      "sha256": "85a69c29cff4784bef18f1ee59d2ae9195fbdbd1a203c6d5a49762801053138b",
+      "visibility": "PUBLIC_AUDIT"
+    },
+    {
+      "path": "run/run_018/artifacts/queue_p01_once.py",
+      "sha256": "70c9f315fa7b55b20928dcb757617aacc0d52d06ece1af9da06cce53b1b92a17",
+      "visibility": "PUBLIC_AUDIT"
+    },
+    {
+      "path": "run/run_018/artifacts/request.json",
+      "sha256": "75a08205ab925eadb757fb70686651db90c5fd139b0dbc24c4ba10feda53073a",
+      "visibility": "PUBLIC_AUDIT"
+    },
+    {
+      "path": "run/run_018/artifacts/status_after_enqueue.json",
+      "sha256": "5e1f8827d079c2c59c0f07ee5eac2e6496aad917136e3659c9573591ccece806",
+      "visibility": "PUBLIC_AUDIT"
+    },
+    {
+      "path": "run/run_018/checkpoints/enqueue_attempt.json",
+      "sha256": "2aad030fa3ea4021a6532eaee295e4f61397e937adb5f18416fce19e05de1737",
+      "visibility": "PUBLIC_AUDIT"
+    },
+    {
+      "path": "run/run_018/checkpoints/git_baseline.json",
+      "sha256": "0541248dae59b1e9d1b5d3e7014bf6c84c4d2934f0332c66bfac706aebb67587",
+      "visibility": "PUBLIC_AUDIT"
+    },
+    {
+      "path": "run/run_018/checkpoints/git_final.json",
+      "sha256": "8cacac0dcd5c5e3e24ca099c1e5752e892e75a90f6b24bf3510480e4a87e2c15",
+      "visibility": "PUBLIC_AUDIT"
+    },
+    {
+      "path": "run/run_018/checkpoints/project_status_before.md",
+      "sha256": "88a98a7c9d9edab4e52b07bc94751b51eee1b6bf7b7af7d2a20775f5a0710558",
+      "visibility": "PUBLIC_AUDIT"
+    },
+    {
+      "path": "run/run_018/checkpoints/protected_before.json",
+      "sha256": "9e8a147f2e21b10abc4449628585143f878290ac3d8ec1d1b4c708cc58d873cc",
+      "visibility": "PUBLIC_AUDIT"
+    },
+    {
+      "path": "run/run_018/checkpoints/run_index_before.md",
+      "sha256": "a7665bd67c926ae0895cc988163ada1531a8351af7809ac425aa72c5c9f14ac3",
+      "visibility": "PUBLIC_AUDIT"
+    },
+    {
+      "path": "run/run_018/checkpoints/run_initial.json",
+      "sha256": "4930755cf27ca62edaadbe3d8c0e3bbc82d2d76e2d640cddc8caa951f86ca38a",
+      "visibility": "PUBLIC_AUDIT"
+    },
+    {
+      "path": "run/run_018/summary.md",
+      "sha256": "a82cf921e3dde7634b3f9e93f2a7af2408a78ad5c386e0e6f00d31225182ce8a",
+      "visibility": "PUBLIC_AUDIT"
+    }
+  ]
+}

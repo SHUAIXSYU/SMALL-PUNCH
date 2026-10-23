@@ -1,0 +1,7 @@
+{
+  "observed_at": "2026-10-23T23:16:46.982402+08:00",
+  "task_id": "37ad24d5-26af-4374-b415-c6a1af1fc0c7",
+  "attempt": 1,
+  "retry_forbidden": true,
+  "request_sha256": "75a08205ab925eadb757fb70686651db90c5fd139b0dbc24c4ba10feda53073a"
+}

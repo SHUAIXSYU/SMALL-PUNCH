@@ -1,0 +1,14 @@
+{
+  "observed_at": "2026-10-23T21:54:25.635919+08:00",
+  "run_status": "WARNING",
+  "main_task_completed": true,
+  "permitted_manifest_hashes_match": true,
+  "new_fe_calls": 0,
+  "heldout_not_read_after_prohibition": true,
+  "git_head": "c2ef18f97cac516d6225b3c27f147d3e0b51e7b4",
+  "git_branch": "main",
+  "working_tree": " M .gitignore\n M AGENTS.md\n M agenthub_sp_invopt/abqjobpilot_project/project.db\n M run/README.md\n M status/PROJECT_STATUS.md\n?? docs/Blind_Inversion_Protocol.md\n?? inverse/fd_loss.py\n?? run/run_015/\n",
+  "preexisting_project_db_change_preserved": true,
+  "no_commit_push": true,
+  "sealed_paths_not_enumerated_or_rehashed": true
+}

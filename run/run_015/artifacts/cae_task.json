@@ -1,0 +1,16 @@
+{
+  "task_id": "1d0edf48-a744-4ce5-b8b3-a4e590f54021",
+  "payload": {
+    "run": "run_015",
+    "objective": "Read existing candidate INP and historical CAE evidence to establish model geometry, punch/support dimensions, loading/measurement definitions; distinguish model facts from unverified experiment correspondence",
+    "input": "run/run_008/artifacts/candidate_inp/SPIO_R008_Q200_N010_Candidate/SPIO_R008_Q200_N010_Candidate.inp",
+    "restrictions": [
+      "NO new INP",
+      "NO solver/datacheck/enqueue",
+      "NO source changes",
+      "NO CAE save",
+      "NO experiment assumptions"
+    ],
+    "output_dir": "run/run_015/artifacts/private/cae"
+  }
+}

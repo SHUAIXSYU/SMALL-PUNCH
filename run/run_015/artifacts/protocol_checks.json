@@ -1,0 +1,10 @@
+{
+  "observed_at": "2026-10-23T21:49:45.862710+08:00",
+  "budget_sum": 48,
+  "authorized_new_jobs": 0,
+  "executed_new_jobs": 0,
+  "frozen_spt_loss_hash_matches": true,
+  "spt_cae_artifact_hashes_verified": 18,
+  "heldout_content_accessed_after_prohibition": false,
+  "strict_blind_restored": false
+}

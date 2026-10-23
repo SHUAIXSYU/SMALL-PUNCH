@@ -4,6 +4,11 @@
 /Materials/
 # Local-only provenance, filenames and environment discovery details.
 /run/*/artifacts/private/
+# Sealed holdout-related task metadata and analysis code from run_015.
+/run/run_015/artifacts/tensile_task.json
+/run/run_015/artifacts/tensile_addendum.md
+/run/run_015/artifacts/odb_scripts/audit_tensile_origin.py
+/run/run_015/artifacts/odb_scripts/analyze_tensile_segments.py
 # Independent SP-InvOpt AgentHub state and AbqJobPilot runtime data.
 /agenthub_sp_invopt/runtime/
 /agenthub_sp_invopt/abqjobpilot_project/runtime/

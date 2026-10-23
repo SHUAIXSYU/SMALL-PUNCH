@@ -1,0 +1,264 @@
+{
+  "observed_at": "2026-10-23T21:53:06.223487+08:00",
+  "scope": "Explicit allowlist only; sealed holdout source/derivatives/mixed reports not opened or rehashed",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "efc48cdc1d4061503017a8434155e5efbf872707b89540d7aadfeae8d7fec97a",
+      "bytes": 3423,
+      "visibility": "PUBLIC_OR_CODE",
+      "role": "current permitted SPT/protocol evidence"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "c6d87474e3e23f3cf65dce2e2f9f39c82aed8a0741f3843bcad3a68dc5aca2bd",
+      "bytes": 894,
+      "visibility": "PUBLIC_OR_CODE",
+      "role": "current permitted SPT/protocol evidence"
+    },
+    {
+      "path": "docs/Blind_Inversion_Protocol.md",
+      "sha256": "8c8b953f1b559997f86800c13416e21589b9a86c63f083b3e30142662272a539",
+      "bytes": 4481,
+      "visibility": "PUBLIC_OR_CODE",
+      "role": "current permitted SPT/protocol evidence"
+    },
+    {
+      "path": "inverse/fd_loss.py",
+      "sha256": "48d8d900f9eb453bdf1c896fea734c589ca8ab22d47e9dd98b165353ee794fb0",
+      "bytes": 4470,
+      "visibility": "PUBLIC_OR_CODE",
+      "role": "current permitted SPT/protocol evidence"
+    },
+    {
+      "path": "run/run_015/summary.md",
+      "sha256": "cc17f80d01bfdfe83b932e21ee3b2e762601561827828877d54d2d7e4448cc32",
+      "bytes": 3090,
+      "visibility": "PUBLIC_OR_CODE",
+      "role": "current permitted SPT/protocol evidence"
+    },
+    {
+      "path": "run/run_015/artifacts/hub_tasks.json",
+      "sha256": "1f274088aca08aefe6d5a92432e30639db796aa5c9b875e416fb4b0b087c1358",
+      "bytes": 343,
+      "visibility": "PUBLIC_OR_CODE",
+      "role": "current permitted SPT/protocol evidence"
+    },
+    {
+      "path": "run/run_015/artifacts/cae_task.json",
+      "sha256": "55195ba9e24cc9743a1153ffd829e0dc033c2a8c415265786d2c3e451917794f",
+      "bytes": 680,
+      "visibility": "PUBLIC_OR_CODE",
+      "role": "current permitted SPT/protocol evidence"
+    },
+    {
+      "path": "run/run_015/artifacts/session_delivery.json",
+      "sha256": "fadce2137e1d3260d6e3e8ebc7099e5706d0df5ea5707f89b59b63890443b6b2",
+      "bytes": 1617,
+      "visibility": "PUBLIC_OR_CODE",
+      "role": "current permitted SPT/protocol evidence"
+    },
+    {
+      "path": "run/run_015/artifacts/holdout_stop_acknowledgements.json",
+      "sha256": "3c35403ac1b5589fd32a685132405cbf9c547d3bc6589cbac85896e1eb9a86d5",
+      "bytes": 647,
+      "visibility": "PUBLIC_OR_CODE",
+      "role": "current permitted SPT/protocol evidence"
+    },
+    {
+      "path": "run/run_015/artifacts/offline_result.json",
+      "sha256": "f5dc562f4f7b7ef1325e42f4990891dc0c54e6015fb26e1c86770200e25100a6",
+      "bytes": 1714,
+      "visibility": "PUBLIC_OR_CODE",
+      "role": "current permitted SPT/protocol evidence"
+    },
+    {
+      "path": "run/run_015/artifacts/blind_inversion_contract.json",
+      "sha256": "1cf40c1f3e9f92bffeb42be387999f9385de7df9aeba0a8d5778a7e5537e0700",
+      "bytes": 2534,
+      "visibility": "PUBLIC_OR_CODE",
+      "role": "current permitted SPT/protocol evidence"
+    },
+    {
+      "path": "run/run_015/artifacts/protocol_checks.json",
+      "sha256": "94e47f8dff4b3890c91e21a9c47830c189260f057e9fb3967232b28b527b45aa",
+      "bytes": 309,
+      "visibility": "PUBLIC_OR_CODE",
+      "role": "current permitted SPT/protocol evidence"
+    },
+    {
+      "path": "run/run_015/artifacts/environment.json",
+      "sha256": "f321debc00211305b17a3653c62679170c8727dbb0afbe9d0f65c68545c0dd5d",
+      "bytes": 469,
+      "visibility": "PUBLIC_OR_CODE",
+      "role": "current permitted SPT/protocol evidence"
+    },
+    {
+      "path": "run/run_015/artifacts/loss_test_results.json",
+      "sha256": "6c35a3ff27204ea5bbc3f0b702a7399bc54f6bd9f426707c03e561706cc3b06e",
+      "bytes": 1454,
+      "visibility": "PUBLIC_OR_CODE",
+      "role": "current permitted SPT/protocol evidence"
+    },
+    {
+      "path": "run/run_015/artifacts/test_fd_loss.py",
+      "sha256": "ec4cdfb6b68868b7b1bea29f949b152b9a152a6d619866bb452c16ef1e8ad79a",
+      "bytes": 3106,
+      "visibility": "PUBLIC_OR_CODE",
+      "role": "current permitted SPT/protocol evidence"
+    },
+    {
+      "path": "run/run_015/artifacts/read_origin.py",
+      "sha256": "db342bf9fa0bd00f35fa034bec46fbb095d61add8f961ac69d06f2530c3ac78b",
+      "bytes": 3007,
+      "visibility": "PUBLIC_OR_CODE",
+      "role": "current permitted SPT/protocol evidence"
+    },
+    {
+      "path": "run/run_015/artifacts/calculate_provisional.py",
+      "sha256": "e0a56858a6453f196c548b72304d90bc4d3101c3f976853ea86231b8099fced5",
+      "bytes": 4016,
+      "visibility": "PUBLIC_OR_CODE",
+      "role": "current permitted SPT/protocol evidence"
+    },
+    {
+      "path": "run/run_015/artifacts/inversion_preparation.md",
+      "sha256": "9ea25866aac152f972ae89228395c9262531551594bf50f14f3900dcd4591e90",
+      "bytes": 5496,
+      "visibility": "PUBLIC_OR_CODE",
+      "role": "current permitted SPT/protocol evidence"
+    },
+    {
+      "path": "run/run_015/artifacts/private/spt_final_report.md",
+      "sha256": "1ba46e20edd0041730c79ec7fda3a5ff1fdecc75a808892d7a92d20da42fc1c5",
+      "bytes": 5067,
+      "visibility": "PRIVATE_IGNORED",
+      "role": "current permitted SPT/protocol evidence"
+    },
+    {
+      "path": "run/run_015/artifacts/private/spt_minimum_questions.md",
+      "sha256": "9f2726b1637168b79a13e3ec9e3f50590f0ed3b2de385d6d0945805c36793909",
+      "bytes": 1000,
+      "visibility": "PRIVATE_IGNORED",
+      "role": "current permitted SPT/protocol evidence"
+    },
+    {
+      "path": "run/run_015/artifacts/private/blind_holdout_access_policy.json",
+      "sha256": "2412251f7e5b1bfce0b5a3c05c6a8f70bc55ce46edf81afaaa9921a8dc5ecce9",
+      "bytes": 1699,
+      "visibility": "PRIVATE_IGNORED",
+      "role": "current permitted SPT/protocol evidence"
+    },
+    {
+      "path": "run/run_015/artifacts/private/spt_worker_verification.json",
+      "sha256": "d1ffebf91b6c478d75b151720e0d4104b4d286b06c25bf5230eccf3a8f2a3d93",
+      "bytes": 9523,
+      "visibility": "PRIVATE_IGNORED",
+      "role": "current permitted SPT/protocol evidence"
+    },
+    {
+      "path": "run/run_015/artifacts/private/spt_integrity_final.json",
+      "sha256": "44a7eb665d94d54f06662733a9174973f8d197d43d781e68224f335e5328408b",
+      "bytes": 2398,
+      "visibility": "PRIVATE_IGNORED",
+      "role": "current permitted SPT/protocol evidence"
+    },
+    {
+      "path": "run/run_015/artifacts/private/source_inventory.json",
+      "sha256": "269f68e61a003894b605229a869756eb5160e94147b3a55c508ef2064525529d",
+      "bytes": 1018,
+      "visibility": "PRIVATE_IGNORED",
+      "role": "current permitted SPT/protocol evidence"
+    },
+    {
+      "path": "run/run_015/artifacts/private/canonical/dataset.json",
+      "sha256": "523e05fec947c85afcb2838418a4c156af30487b3c0bc2cc5b4c54dd46dcbaf2",
+      "bytes": 1058,
+      "visibility": "PRIVATE_IGNORED",
+      "role": "current permitted SPT/protocol evidence"
+    },
+    {
+      "path": "run/run_015/artifacts/private/canonical/candidate_fd_si.csv",
+      "sha256": "794b3d8624142e1ab5306a423d0f81e76bb55a97d43f980c98ee24ceef2406a6",
+      "bytes": 79360,
+      "visibility": "PRIVATE_IGNORED",
+      "role": "current permitted SPT/protocol evidence"
+    },
+    {
+      "path": "run/run_015/artifacts/private/loss_config_frozen.json",
+      "sha256": "6e5425b09875fe3184991eebd36abce0c3c45802327f8a6e7f71647e076a211f",
+      "bytes": 1625,
+      "visibility": "PRIVATE_IGNORED",
+      "role": "current permitted SPT/protocol evidence"
+    },
+    {
+      "path": "run/run_015/artifacts/private/provisional/result.json",
+      "sha256": "2248c05ec2a4ba78de4815df980515ad8ff68cdd72ebff3ce3b83a84d01b5cca",
+      "bytes": 1246,
+      "visibility": "PRIVATE_IGNORED",
+      "role": "current permitted SPT/protocol evidence"
+    },
+    {
+      "path": "run/run_015/artifacts/private/provisional/provisional_overlay.png",
+      "sha256": "fef3940f5e0a65ad80d14fe305a6589b1e95077c807b0d339c771e45cd1b27b3",
+      "bytes": 105048,
+      "visibility": "PRIVATE_IGNORED",
+      "role": "current permitted SPT/protocol evidence"
+    },
+    {
+      "path": "run/run_015/artifacts/private/provisional/residuals.csv",
+      "sha256": "1ebf1ab6c6385d629be59ab9aa811c1d690f73bd70d6dc38c0a2992262847e3d",
+      "bytes": 13767,
+      "visibility": "PRIVATE_IGNORED",
+      "role": "current permitted SPT/protocol evidence"
+    },
+    {
+      "path": "run/run_015/artifacts/private/odb/xlsx_audit.json",
+      "sha256": "93d7e4b8a804b39207c928d9f7fad9e642a2cc0da87d7ea6d115a2a069d23a9c",
+      "bytes": 24335,
+      "visibility": "PRIVATE_IGNORED",
+      "role": "current permitted SPT/protocol evidence"
+    },
+    {
+      "path": "run/run_015/artifacts/private/odb/xlsx_origin_reconciliation.json",
+      "sha256": "d8e2fc795f59fd567d4e21e6da57b269c76aaf0a78afa3c92cbd112b05a2df4b",
+      "bytes": 4087,
+      "visibility": "PRIVATE_IGNORED",
+      "role": "current permitted SPT/protocol evidence"
+    },
+    {
+      "path": "run/run_015/artifacts/private/odb/xlsx_raw_points.csv",
+      "sha256": "1fcaf6b13fc3fdaaba7b41f730e137c3993246d7512b87fe0e67a3f4890a359b",
+      "bytes": 23747,
+      "visibility": "PRIVATE_IGNORED",
+      "role": "current permitted SPT/protocol evidence"
+    },
+    {
+      "path": "run/run_015/artifacts/private/cae/model_measurement_audit.md",
+      "sha256": "58434ef8f840734fe617fae21697027452139dfc42d5cd77086283a8eb93c5b2",
+      "bytes": 6202,
+      "visibility": "PRIVATE_IGNORED",
+      "role": "current permitted SPT/protocol evidence"
+    },
+    {
+      "path": "run/run_015/artifacts/private/origin/origin_reproduced.json",
+      "sha256": "7a3270b088cd088fa44a1c2ea5439a8386ee4c4df5d5319ef84b01a94d82836e",
+      "bytes": 46429,
+      "visibility": "PRIVATE_IGNORED",
+      "role": "current permitted SPT/protocol evidence"
+    },
+    {
+      "path": "run/run_015/artifacts/private/origin/reader_validation.json",
+      "sha256": "b482abd55501f0e45ea789ad16c4dafb4b5821d4db8d2e89126442043e1541ff",
+      "bytes": 1943,
+      "visibility": "PRIVATE_IGNORED",
+      "role": "current permitted SPT/protocol evidence"
+    }
+  ],
+  "sealed_evidence_policy": "run/run_015/artifacts/private/blind_holdout_access_policy.json",
+  "mutable_metadata_excluded": [
+    "run/run_015/run.json",
+    "run/run_015/artifacts/manifest.json",
+    "run/run_015/artifacts/agenthub_final_receipt.json"
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "observed_at": "2026-10-23T22:59:02.208135+08:00",
+  "task_id": "a37ef4d7-ed7f-4bb3-803f-3c8726916548",
+  "identity": {
+    "agent_id": "MAIN:codex-main-run017",
+    "session_id": "02e53bff-2fd1-4eec-9cf9-97fe474182fb",
+    "role": "MAIN"
+  },
+  "execution_state": "COMPLETED",
+  "artifacts": [
+    {
+      "artifact_id": "a1bd6ac9-a72a-4122-9d04-b65dc6162ead",
+      "path": "run/run_017/artifacts/private/experimental_metadata.json",
+      "sha256": "ff0eb84a9e890a699edaa20a7bed3a61b67b3c89ce7bf11ad94fdf8f41274d2f"
+    },
+    {
+      "artifact_id": "18799a0b-915b-4709-a102-c0bd2473af05",
+      "path": "run/run_017/artifacts/private/main_preparation_report.md",
+      "sha256": "fbb7ba64c27b9da43eaca4ebeb2aaf4ae4c4f4a39b669a42b17a5b53e1b153da"
+    },
+    {
+      "artifact_id": "450124b2-efce-47b1-b83c-739e4c19a172",
+      "path": "run/run_017/artifacts/private/canonical_fd_source_confirmed.csv",
+      "sha256": "677ead1f0c5618c974ae037b8b292e3274db36add87f0c0d3aac55cd3d47a8bc"
+    },
+    {
+      "artifact_id": "a9c3ff1f-fb32-49a4-9dec-27def7a75f6b",
+      "path": "run/run_017/artifacts/private/canonical_provenance.json",
+      "sha256": "eb04e2194b01f1406d6253a5fb8959d09918cb99c6c08fe62508c339ecff5451"
+    },
+    {
+      "artifact_id": "6fd56513-d0d6-4f11-aa77-7ef4cc376244",
+      "path": "run/run_017/artifacts/private/loss_contract.json",
+      "sha256": "8929c6528c305ea67ae31f46af2d3d8048f8ef64b3f953cfe9ac7b60afe752f4"
+    },
+    {
+      "artifact_id": "8f358c96-deea-4844-b92b-d0d0b1db3bc0",
+      "path": "run/run_017/artifacts/private/reference_loss.json",
+      "sha256": "373cc5b8a2978f8c58c55292de39cfdecfbc127cc53230e06f02801cbf5d32dc"
+    },
+    {
+      "artifact_id": "51f6a10c-44bd-4c70-9f9f-3ecd7266af5e",
+      "path": "run/run_017/artifacts/private/cae_handoff_verified.json",
+      "sha256": "d111521bde9326c4d13e460bfe5fbe7a4b3026415053f7b235cfc636a9cff395"
+    },
+    {
+      "artifact_id": "7af2f5a0-a862-46ba-a37a-f3fce9d1573b",
+      "path": "run/run_017/artifacts/private/integrity_check.json",
+      "sha256": "341d71828e649721c619c90494ce59023ab00a756b8f9b71fbdbb9390dee49e0"
+    },
+    {
+      "artifact_id": "2cd9f2bd-a6c6-488e-b4e5-124ce9d51b9d",
+      "path": "run/run_017/artifacts/private/abq_integrity.json",
+      "sha256": "da458bce86d806200734293864a3511fb09393ff5fbe40955c04bf5136354433"
+    },
+    {
+      "artifact_id": "ba1367c5-d24c-46be-9a84-463449cead28",
+      "path": "run/run_017/artifacts/loss_contract_identity.json",
+      "sha256": "61100c366dc7b307c7e2384fccfcf7321269dde0768aada4a93a629309b6f3a5"
+    },
+    {
+      "artifact_id": "f537222d-a1a7-440b-84ef-4e204264a77b",
+      "path": "run/run_017/artifacts/parameter_design.json",
+      "sha256": "e2fb810634997499765b04576f82062c088ec60829ff2b702abc3fe815eaac6b"
+    },
+    {
+      "artifact_id": "1687d619-4e48-4d48-a273-7dc197619dbc",
+      "path": "run/run_017/artifacts/prepared_batch.json",
+      "sha256": "a416c02f4a7e182f5b5a2b636665a2d0a9cd9788c95323de791d837a665dc789"
+    },
+    {
+      "artifact_id": "f36d30d5-6721-4382-8124-0e1c8ee0a243",
+      "path": "run/run_017/artifacts/run016_resolution_by_new_evidence.json",
+      "sha256": "a0cabcd5fb34723783a9d2d248d02afde765ad72fdf136e1de49239082767850"
+    },
+    {
+      "artifact_id": "27100141-ef54-4621-90cd-b50b2fdf843f",
+      "path": "run/run_017/artifacts/abq_settings_verification.json",
+      "sha256": "d3680baabd6ac34fa81fed80c2d58cd628128096a4906135cd7418a09d057db2"
+    },
+    {
+      "artifact_id": "3eb27b9e-e7f5-4161-8b42-a97e095f1f23",
+      "path": "run/run_017/artifacts/batch_preview_result.json",
+      "sha256": "7384803b683763c38f484f3dbb2dfe5f3e6545684d80cff8a9baed2d2a8e462d"
+    },
+    {
+      "artifact_id": "fb374b07-06ad-451f-ad82-3f983c0dc0a8",
+      "path": "run/run_017/artifacts/execution_permission_check.json",
+      "sha256": "60d6e38ac735f28db8ec899f9d9ea7f6231d26a0df5dd960b66db8ce475bc78f"
+    },
+    {
+      "artifact_id": "c12662f0-5321-444f-8537-426fb47a0278",
+      "path": "run/run_017/artifacts/odb_analysis_protocol.md",
+      "sha256": "7a9f0c2b32621a8bd9902d3c8e272b5d41713920d0dad2767bd17aff59509924"
+    },
+    {
+      "artifact_id": "8cd3f813-a21d-4330-af0f-736a945abafa",
+      "path": "run/run_017/artifacts/sensitivity_analysis.py",
+      "sha256": "bb086bf57e361f019e0745302d802def081483ec1261785a7640b255f3dee6bb"
+    },
+    {
+      "artifact_id": "76bb2974-e510-44f7-9bf4-1f0dac31564d",
+      "path": "run/run_017/artifacts/test_sensitivity_analysis.py",
+      "sha256": "1b09ef982d2922f22ef720f7b963f8cad3440e9e5129be39f53ad5070dd5a2b5"
+    },
+    {
+      "artifact_id": "4f9f9e92-6e6a-4505-a61f-3038455e46e7",
+      "path": "run/run_017/artifacts/test_results.json",
+      "sha256": "eefb669bbc85ac903793f748ddfffeb5e60cf9f203feff347e70b14fd1367ae4"
+    },
+    {
+      "artifact_id": "b8152d23-4092-495f-96a9-58f381e2430d",
+      "path": "run/run_017/artifacts/test_log.txt",
+      "sha256": "4879a20610852a8c10c061251ec88d9f9b0492fb81d2ad44cc5240b48907688d"
+    },
+    {
+      "artifact_id": "8c044669-a094-4d52-bbf4-325265bb473c",
+      "path": "run/run_017/artifacts/freeze_experimental_contract.py",
+      "sha256": "12b3383107979d7e3cd2336784b3218e3676bdc07b83a50c4af92a36798edc07"
+    },
+    {
+      "artifact_id": "e1cb57dd-a7a0-4355-aaa3-36193a3cc345",
+      "path": "run/run_017/artifacts/preview_batch.py",
+      "sha256": "db9df0d86616152581468959950a95eae0fc3e446122c871fbde3944b672c0db"
+    },
+    {
+      "artifact_id": "1da2cd42-e489-463a-b105-024bfc118513",
+      "path": "run/run_017/artifacts/run_tests.py",
+      "sha256": "18e19ea6bfa885db94a82e544ee70d73791c62d27229b677a4bd6086b96ff081"
+    },
+    {
+      "artifact_id": "cff754c9-e457-48f2-a033-7473bfdd3a84",
+      "path": "run/run_017/artifacts/freeze_batch.py",
+      "sha256": "72ebdf0be2bbd3d88f6fa2fce3461b22617c1d0e91553b88e5c9eaa0b7cb2ae8"
+    },
+    {
+      "artifact_id": "797f2b3f-46c9-4172-a9c6-34dfdd5b5c8c",
+      "path": "run/run_017/artifacts/finalize_run.py",
+      "sha256": "33c10c9e61e096a2c28330de1ef9176d8e4997da681373633fdc0056babb7351"
+    },
+    {
+      "artifact_id": "f75c3c9d-320e-4e5e-bfff-b8c1a7678c90",
+      "path": "run/run_017/artifacts/privacy_check.json",
+      "sha256": "086c235a98c783d9c50131f4a33aaf6cca7153cec31622a80daca8a4062ae2ad"
+    },
+    {
+      "artifact_id": "b45e0015-b8ca-4da2-83a6-854d9ed4b1c3",
+      "path": "run/run_017/artifacts/solver/.gitignore",
+      "sha256": "240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d"
+    },
+    {
+      "artifact_id": "d73d408e-e923-4180-94be-6040a2927cea",
+      "path": "run/run_017/artifacts/previews/P01.json",
+      "sha256": "79f5d3faa1ba438dd0ac1a2b819563b8543a8d63e3d991060454a17425a2e082"
+    },
+    {
+      "artifact_id": "37d06d3c-be4f-4803-a03d-e1f587a1d5c4",
+      "path": "run/run_017/artifacts/previews/P02.json",
+      "sha256": "5dedb51dd0d31e5d066bf91d94f0d3410a84e88dfb397edb9077f40dfc5f4bf1"
+    },
+    {
+      "artifact_id": "d228fec4-3107-4b48-a849-b5541b16e4a0",
+      "path": "run/run_017/artifacts/previews/P03.json",
+      "sha256": "d3c6f66708bf2368a9b9b5f9e9c8202a0c861867c6482d7afa0b0505c39d4c6c"
+    },
+    {
+      "artifact_id": "8276abee-665d-47f3-98cd-836d466f67ce",
+      "path": "run/run_017/artifacts/previews/P04.json",
+      "sha256": "04f557670dd54177163013844b76014a966794dbaea4060f87fb01a405cb7d5d"
+    },
+    {
+      "artifact_id": "4619ad43-bff5-44a1-ad44-94ecb3971928",
+      "path": "run/run_017/artifacts/previews/P05.json",
+      "sha256": "db01463e0c68225ed2f30097715c91a64aec6de162799c7d5ee23d53156c2bd4"
+    }
+  ],
+  "message_id": "ac13e88f-216d-43ca-baf5-bd4716fa8908",
+  "outcome": {
+    "run": "run_017",
+    "status": "WARNING",
+    "execution": "PREPARATION_COMPLETED",
+    "source_units": "CONFIRMED_BY_COLLABORATOR",
+    "geometry": "PASS_FOR_IDEALISED_CLAMPING_BASELINE",
+    "complete_fixture_equivalence": false,
+    "loss_version": "run017-exploratory-fd-v1",
+    "loss_status": "FROZEN_EXPLORATORY_COMPARISON",
+    "candidate_count": 5,
+    "preflight_pass": 5,
+    "dry_run_pass": 5,
+    "settings": "PERSISTED",
+    "synthetic_tests_pass": 28,
+    "ready_to_request_first_five_job_sensitivity_batch": true,
+    "authorized_jobs": 0,
+    "queued_jobs": 0,
+    "solver_executions": 0,
+    "automatic_retries": 0,
+    "formal_inversion_qualified": false,
+    "batch": "run/run_017/artifacts/prepared_batch.json",
+    "main_report": "run/run_017/artifacts/private/main_preparation_report.md",
+    "independent_validation": "Retained dataset with historical information exposure; no new access"
+  }
+}

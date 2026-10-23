@@ -1,0 +1,44 @@
+{
+  "observed_at": "2026-10-23T21:44:11.859965+08:00",
+  "main_task_id": "32f9f260-3424-4603-8dba-657401a981e2",
+  "real_session_delivery_verified": true,
+  "workers": [
+    {
+      "task_id": "c37500b3-0af2-493d-a48c-ae2808edebbd",
+      "agent_id": "ODB:codex-local-01a15d5e-f6e8-7373-8991-ae275dfd3b40",
+      "session_id": "2d884cb1-8cc4-483f-b703-3215c897c369",
+      "execution_state": "COMPLETED",
+      "artifact_count": 14,
+      "all_hashes_match": true,
+      "main_receipt_ids": [
+        "0c6aced1-d03e-4cef-936e-249bfca1bbfe",
+        "597ab226-307d-4197-8eef-1886725cbad2",
+        "eafdde2b-898c-46d5-889f-97e798250bd7"
+      ]
+    },
+    {
+      "task_id": "1d0edf48-a744-4ce5-b8b3-a4e590f54021",
+      "agent_id": "CAE:cae-codex-20261021-632ffd48",
+      "session_id": "aa78d383-febb-4b7e-99d5-2a9665e9ab6c",
+      "execution_state": "COMPLETED",
+      "artifact_count": 4,
+      "all_hashes_match": true,
+      "main_receipt_ids": [
+        "d0e7bcbf-18a8-4d39-b589-994d58b9a3ea"
+      ]
+    },
+    {
+      "task_id": "7ab607b7-3ec6-4905-a412-0972e365525d",
+      "agent_id": "ODB:codex-local-01a15d5e-f6e8-7373-8991-ae275dfd3b40",
+      "session_id": "2d884cb1-8cc4-483f-b703-3215c897c369",
+      "execution_state": "COMPLETED",
+      "artifact_count": 10,
+      "all_hashes_match": true,
+      "main_receipt_ids": [
+        "06b6a54b-abcb-4403-aeb0-0631e27ac02a"
+      ]
+    }
+  ],
+  "transport": "Explicit human-authorized Codex thread messages plus real worker Hub polling/claim; not a DB-only notification claim",
+  "science_state": "NOT_EVALUATED"
+}

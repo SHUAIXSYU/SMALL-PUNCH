@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_018",
+  "stage": "P01 Queue-only Submission",
+  "objective": "Verify frozen P01 and enqueue once using public API; manual GUI start only",
+  "status": "RUNNING",
+  "start_time": "2026-10-23T23:14:53.848020+08:00",
+  "end_time": null,
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "git_head": "c2ef18f97cac516d6225b3c27f147d3e0b51e7b4",
+  "git_branch": "main",
+  "inputs": [
+    {
+      "path": "run/run_017/artifacts/prepared_batch.json",
+      "role": "Frozen authorization identity"
+    }
+  ],
+  "outputs": [],
+  "validation": [],
+  "errors": []
+}

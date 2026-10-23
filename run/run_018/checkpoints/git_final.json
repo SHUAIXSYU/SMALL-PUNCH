@@ -1,0 +1,4 @@
+{
+  "observed_at": "2026-10-23T23:18:30.277214+08:00",
+  "working_tree": " M .gitignore\n M AGENTS.md\n M agenthub_sp_invopt/abqjobpilot_project/project.db\n M run/README.md\n M status/PROJECT_STATUS.md\n?? docs/Blind_Inversion_Protocol.md\n?? inverse/fd_loss.py\n?? run/run_015/\n?? run/run_016/\n?? run/run_017/\n?? run/run_018/\n"
+}

@@ -1,0 +1,316 @@
+{
+  "observed_at": "2026-10-23T22:59:02.208135+08:00",
+  "entries": [
+    {
+      "path": "run/run_017/artifacts/abq_settings_verification.json",
+      "sha256": "d3680baabd6ac34fa81fed80c2d58cd628128096a4906135cd7418a09d057db2",
+      "visibility": "PUBLIC"
+    },
+    {
+      "path": "run/run_017/artifacts/agenthub_receipt.json",
+      "sha256": "7b1b446628195d296c2b95eab3c68ad05fc15c8f082dc0eb38d6451e90643de0",
+      "visibility": "PUBLIC"
+    },
+    {
+      "path": "run/run_017/artifacts/batch_preview_result.json",
+      "sha256": "7384803b683763c38f484f3dbb2dfe5f3e6545684d80cff8a9baed2d2a8e462d",
+      "visibility": "PUBLIC"
+    },
+    {
+      "path": "run/run_017/artifacts/cae_candidate_manifest.json",
+      "sha256": "5002199f54c0f9eb80f84d2b66ba94da8dcb2400253460bcc40eb0c1fbd16339",
+      "visibility": "PUBLIC"
+    },
+    {
+      "path": "run/run_017/artifacts/cae_scripts/generate_five_inputs.py",
+      "sha256": "cfc583ba184c9aa8ff680ed9ba23a928e6d092845a14033d640267575d88bd30",
+      "visibility": "PUBLIC"
+    },
+    {
+      "path": "run/run_017/artifacts/cae_scripts/publish_five_inputs.py",
+      "sha256": "d9b363b177db2a80af7e0dd1d5b2e7fc4825574a385e9517f188b688ed0b8deb",
+      "visibility": "PUBLIC"
+    },
+    {
+      "path": "run/run_017/artifacts/cae_scripts/verify_five_inputs.py",
+      "sha256": "7d0ef87fe52821e25920d1b568bb027fc1c7f34e5676777f0a6b4e7e5fb34e2c",
+      "visibility": "PUBLIC"
+    },
+    {
+      "path": "run/run_017/artifacts/candidates/SPIO_R017_P01_CTR/parameters.json",
+      "sha256": "5e5ab6cda30cb3957612064b64f235c08562db48fb6aa21dea3439ee37be6225",
+      "visibility": "PUBLIC"
+    },
+    {
+      "path": "run/run_017/artifacts/candidates/SPIO_R017_P01_CTR/SPIO_R017_P01_CTR.inp",
+      "sha256": "3a97ee2a121261515a2c4019fbd0e1fedf1391ff5a988021786673c592892576",
+      "visibility": "PUBLIC"
+    },
+    {
+      "path": "run/run_017/artifacts/candidates/SPIO_R017_P02_SYM/parameters.json",
+      "sha256": "53c005ece932f92e8fe43847f7e590119542e1ca09cf52d6433a7cd73cd1d62a",
+      "visibility": "PUBLIC"
+    },
+    {
+      "path": "run/run_017/artifacts/candidates/SPIO_R017_P02_SYM/SPIO_R017_P02_SYM.inp",
+      "sha256": "e0a4a811fe321a8f467afa3e72fd0bf98de6301940229cc6fa74cc21202666b5",
+      "visibility": "PUBLIC"
+    },
+    {
+      "path": "run/run_017/artifacts/candidates/SPIO_R017_P03_SYP/parameters.json",
+      "sha256": "b8ac41666841a0698eb2606d084bdec54d76eedfd92255f103ce5f6ed549804a",
+      "visibility": "PUBLIC"
+    },
+    {
+      "path": "run/run_017/artifacts/candidates/SPIO_R017_P03_SYP/SPIO_R017_P03_SYP.inp",
+      "sha256": "3fd11de922c372a7742ef52fad05ed445619a919947e39521eb2755046b8b5e7",
+      "visibility": "PUBLIC"
+    },
+    {
+      "path": "run/run_017/artifacts/candidates/SPIO_R017_P04_NM/parameters.json",
+      "sha256": "ece6099597428b9c08c5b1a83dd3a9383c9c2fe4d44c236374f9991070ddaf13",
+      "visibility": "PUBLIC"
+    },
+    {
+      "path": "run/run_017/artifacts/candidates/SPIO_R017_P04_NM/SPIO_R017_P04_NM.inp",
+      "sha256": "f30383c5012aa4c3b92ee15bc7e5af0ca4b7133bb35dfbec420da778049bd812",
+      "visibility": "PUBLIC"
+    },
+    {
+      "path": "run/run_017/artifacts/candidates/SPIO_R017_P05_NP/parameters.json",
+      "sha256": "3e64ac0a8ce48a418664b1ba5a21b6ab6fbf80465cf51de0944e9fdf9469ca99",
+      "visibility": "PUBLIC"
+    },
+    {
+      "path": "run/run_017/artifacts/candidates/SPIO_R017_P05_NP/SPIO_R017_P05_NP.inp",
+      "sha256": "d4a8af2f1975580764c82f6973fa73924a0cbd2e6fe517d383992f2e956f2236",
+      "visibility": "PUBLIC"
+    },
+    {
+      "path": "run/run_017/artifacts/execution_permission_check.json",
+      "sha256": "60d6e38ac735f28db8ec899f9d9ea7f6231d26a0df5dd960b66db8ce475bc78f",
+      "visibility": "PUBLIC"
+    },
+    {
+      "path": "run/run_017/artifacts/finalize_run.py",
+      "sha256": "33c10c9e61e096a2c28330de1ef9176d8e4997da681373633fdc0056babb7351",
+      "visibility": "PUBLIC"
+    },
+    {
+      "path": "run/run_017/artifacts/freeze_batch.py",
+      "sha256": "72ebdf0be2bbd3d88f6fa2fce3461b22617c1d0e91553b88e5c9eaa0b7cb2ae8",
+      "visibility": "PUBLIC"
+    },
+    {
+      "path": "run/run_017/artifacts/freeze_experimental_contract.py",
+      "sha256": "12b3383107979d7e3cd2336784b3218e3676bdc07b83a50c4af92a36798edc07",
+      "visibility": "PUBLIC"
+    },
+    {
+      "path": "run/run_017/artifacts/hub_tasks.json",
+      "sha256": "aa94bc8de3d21d575c8fa24bf31f37f78fae21b448dd4aa4a0b81f57952a7568",
+      "visibility": "PUBLIC"
+    },
+    {
+      "path": "run/run_017/artifacts/loss_contract_identity.json",
+      "sha256": "61100c366dc7b307c7e2384fccfcf7321269dde0768aada4a93a629309b6f3a5",
+      "visibility": "PUBLIC"
+    },
+    {
+      "path": "run/run_017/artifacts/odb_analysis_protocol.md",
+      "sha256": "7a9f0c2b32621a8bd9902d3c8e272b5d41713920d0dad2767bd17aff59509924",
+      "visibility": "PUBLIC"
+    },
+    {
+      "path": "run/run_017/artifacts/parameter_design.json",
+      "sha256": "e2fb810634997499765b04576f82062c088ec60829ff2b702abc3fe815eaac6b",
+      "visibility": "PUBLIC"
+    },
+    {
+      "path": "run/run_017/artifacts/prepared_batch.json",
+      "sha256": "a416c02f4a7e182f5b5a2b636665a2d0a9cd9788c95323de791d837a665dc789",
+      "visibility": "PUBLIC"
+    },
+    {
+      "path": "run/run_017/artifacts/preview_batch.py",
+      "sha256": "db9df0d86616152581468959950a95eae0fc3e446122c871fbde3944b672c0db",
+      "visibility": "PUBLIC"
+    },
+    {
+      "path": "run/run_017/artifacts/previews/P01.json",
+      "sha256": "79f5d3faa1ba438dd0ac1a2b819563b8543a8d63e3d991060454a17425a2e082",
+      "visibility": "PUBLIC"
+    },
+    {
+      "path": "run/run_017/artifacts/previews/P02.json",
+      "sha256": "5dedb51dd0d31e5d066bf91d94f0d3410a84e88dfb397edb9077f40dfc5f4bf1",
+      "visibility": "PUBLIC"
+    },
+    {
+      "path": "run/run_017/artifacts/previews/P03.json",
+      "sha256": "d3c6f66708bf2368a9b9b5f9e9c8202a0c861867c6482d7afa0b0505c39d4c6c",
+      "visibility": "PUBLIC"
+    },
+    {
+      "path": "run/run_017/artifacts/previews/P04.json",
+      "sha256": "04f557670dd54177163013844b76014a966794dbaea4060f87fb01a405cb7d5d",
+      "visibility": "PUBLIC"
+    },
+    {
+      "path": "run/run_017/artifacts/previews/P05.json",
+      "sha256": "db01463e0c68225ed2f30097715c91a64aec6de162799c7d5ee23d53156c2bd4",
+      "visibility": "PUBLIC"
+    },
+    {
+      "path": "run/run_017/artifacts/privacy_check.json",
+      "sha256": "086c235a98c783d9c50131f4a33aaf6cca7153cec31622a80daca8a4062ae2ad",
+      "visibility": "PUBLIC"
+    },
+    {
+      "path": "run/run_017/artifacts/private/abq_integrity.json",
+      "sha256": "da458bce86d806200734293864a3511fb09393ff5fbe40955c04bf5136354433",
+      "visibility": "PRIVATE"
+    },
+    {
+      "path": "run/run_017/artifacts/private/cae/agenthub_receipt.json",
+      "sha256": "652c23d6ad7ae7247c0d3368d02e0b797440cf47ddb8f82f0e4ef87518c1ec06",
+      "visibility": "PRIVATE"
+    },
+    {
+      "path": "run/run_017/artifacts/private/cae/agenthub_result.json",
+      "sha256": "75428ee9c3230769f6928da144399e1e9ffa3729efa0a2fac8cc30a8e8cfb1f5",
+      "visibility": "PRIVATE"
+    },
+    {
+      "path": "run/run_017/artifacts/private/cae/operation_log.json",
+      "sha256": "c45fad502671a709afea83e438812daf9761e6edf947771170d198b82b3fa73e",
+      "visibility": "PRIVATE"
+    },
+    {
+      "path": "run/run_017/artifacts/private/cae/qualification_report.md",
+      "sha256": "1440dfb45d543f32a9c4f52ba3cda018b94eb9b1d1400fa36c869c85fefdb318",
+      "visibility": "PRIVATE"
+    },
+    {
+      "path": "run/run_017/artifacts/private/cae/static_checks.json",
+      "sha256": "3820ae6aeb1285b41bba04e42873066bffd79da6d97360507c789cd5264affa5",
+      "visibility": "PRIVATE"
+    },
+    {
+      "path": "run/run_017/artifacts/private/cae/verification.json",
+      "sha256": "eb0585ee5d60f3735a4e4326e90cb19a66e9d571fd76cacd9418b9babeacac91",
+      "visibility": "PRIVATE"
+    },
+    {
+      "path": "run/run_017/artifacts/private/cae_handoff_verified.json",
+      "sha256": "d111521bde9326c4d13e460bfe5fbe7a4b3026415053f7b235cfc636a9cff395",
+      "visibility": "PRIVATE"
+    },
+    {
+      "path": "run/run_017/artifacts/private/canonical_fd_source_confirmed.csv",
+      "sha256": "677ead1f0c5618c974ae037b8b292e3274db36add87f0c0d3aac55cd3d47a8bc",
+      "visibility": "PRIVATE"
+    },
+    {
+      "path": "run/run_017/artifacts/private/canonical_provenance.json",
+      "sha256": "eb04e2194b01f1406d6253a5fb8959d09918cb99c6c08fe62508c339ecff5451",
+      "visibility": "PRIVATE"
+    },
+    {
+      "path": "run/run_017/artifacts/private/experimental_metadata.json",
+      "sha256": "ff0eb84a9e890a699edaa20a7bed3a61b67b3c89ce7bf11ad94fdf8f41274d2f",
+      "visibility": "PRIVATE"
+    },
+    {
+      "path": "run/run_017/artifacts/private/integrity_check.json",
+      "sha256": "341d71828e649721c619c90494ce59023ab00a756b8f9b71fbdbb9390dee49e0",
+      "visibility": "PRIVATE"
+    },
+    {
+      "path": "run/run_017/artifacts/private/loss_contract.json",
+      "sha256": "8929c6528c305ea67ae31f46af2d3d8048f8ef64b3f953cfe9ac7b60afe752f4",
+      "visibility": "PRIVATE"
+    },
+    {
+      "path": "run/run_017/artifacts/private/main_preparation_report.md",
+      "sha256": "fbb7ba64c27b9da43eaca4ebeb2aaf4ae4c4f4a39b669a42b17a5b53e1b153da",
+      "visibility": "PRIVATE"
+    },
+    {
+      "path": "run/run_017/artifacts/private/reference_loss.json",
+      "sha256": "373cc5b8a2978f8c58c55292de39cfdecfbc127cc53230e06f02801cbf5d32dc",
+      "visibility": "PRIVATE"
+    },
+    {
+      "path": "run/run_017/artifacts/private/source_inventory.json",
+      "sha256": "a584a3e0a08542d7e494d66167796680a22d96ea9b635e4a0812b6dc92713e3f",
+      "visibility": "PRIVATE"
+    },
+    {
+      "path": "run/run_017/artifacts/run016_resolution_by_new_evidence.json",
+      "sha256": "a0cabcd5fb34723783a9d2d248d02afde765ad72fdf136e1de49239082767850",
+      "visibility": "PUBLIC"
+    },
+    {
+      "path": "run/run_017/artifacts/run_tests.py",
+      "sha256": "18e19ea6bfa885db94a82e544ee70d73791c62d27229b677a4bd6086b96ff081",
+      "visibility": "PUBLIC"
+    },
+    {
+      "path": "run/run_017/artifacts/sensitivity_analysis.py",
+      "sha256": "bb086bf57e361f019e0745302d802def081483ec1261785a7640b255f3dee6bb",
+      "visibility": "PUBLIC"
+    },
+    {
+      "path": "run/run_017/artifacts/solver/.gitignore",
+      "sha256": "240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d",
+      "visibility": "PUBLIC"
+    },
+    {
+      "path": "run/run_017/artifacts/test_log.txt",
+      "sha256": "4879a20610852a8c10c061251ec88d9f9b0492fb81d2ad44cc5240b48907688d",
+      "visibility": "PUBLIC"
+    },
+    {
+      "path": "run/run_017/artifacts/test_results.json",
+      "sha256": "eefb669bbc85ac903793f748ddfffeb5e60cf9f203feff347e70b14fd1367ae4",
+      "visibility": "PUBLIC"
+    },
+    {
+      "path": "run/run_017/artifacts/test_sensitivity_analysis.py",
+      "sha256": "1b09ef982d2922f22ef720f7b963f8cad3440e9e5129be39f53ad5070dd5a2b5",
+      "visibility": "PUBLIC"
+    },
+    {
+      "path": "run/run_017/checkpoints/initial_git.json",
+      "sha256": "6fd7e9c86819bf6a7dfd0cdaf0dc97457c046b64503f2325b2163d6561ec2eb4",
+      "visibility": "PUBLIC"
+    },
+    {
+      "path": "run/run_017/checkpoints/project_status_before.md",
+      "sha256": "72b40666d7b85e3dc78537e955814ef581e734008ceaeb778d81791ca4a10ed1",
+      "visibility": "PUBLIC"
+    },
+    {
+      "path": "run/run_017/checkpoints/run_index_before.md",
+      "sha256": "47e68a80145cd6576178d8584e11c3fcfdef37661432c0c3257a6875373de73d",
+      "visibility": "PUBLIC"
+    },
+    {
+      "path": "run/run_017/checkpoints/run_initial.json",
+      "sha256": "ea724f383622ae4855b0500c5610fd1fe1d20611148efe9c5d4024ee9cdbaab4",
+      "visibility": "PUBLIC"
+    },
+    {
+      "path": "run/run_017/checkpoints/summary_initial.md",
+      "sha256": "25affc58672abe293e231bdab9f423c7d3d1b91b3416d90c46cb11dccad2eb7a",
+      "visibility": "PUBLIC"
+    },
+    {
+      "path": "run/run_017/summary.md",
+      "sha256": "58536f1a67ecdb041d707c39b252bfeb65b6327ef8be7d9aad86f475dfaf933a",
+      "visibility": "PUBLIC"
+    }
+  ],
+  "note": "Excludes mutable run.json, own manifest, lease secrets and bytecode; future solver files do not exist"
+}

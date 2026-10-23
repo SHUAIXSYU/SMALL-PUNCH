@@ -1,0 +1,112 @@
+{
+  "version": "run017-five-point-design-v1",
+  "frozen_at": "2026-10-23T22:45:40.441408+08:00",
+  "provenance": "First five points of run016 offline qualification; current user accepts same bounds",
+  "bounds": {
+    "sigma_y_mpa": [
+      150,
+      1000
+    ],
+    "n": [
+      0.02,
+      0.5
+    ]
+  },
+  "coordinates": {
+    "x": "ln(sigma_y_mpa/150)/ln(1000/150)",
+    "y": "(n-0.02)/0.48"
+  },
+  "center": [
+    0.5,
+    0.5
+  ],
+  "perturbation": 0.2,
+  "fixed": {
+    "E_pa": 210000000000.0,
+    "nu": 0.3,
+    "max_plastic_strain": 0.9,
+    "model_id": "candidate-true-total-hollomon-v1",
+    "material_interpolation_relative_tolerance": 0.001
+  },
+  "points": [
+    {
+      "point_id": "P01",
+      "role": "CTR",
+      "x": 0.5,
+      "y": 0.5,
+      "sigma_y_mpa": 387.2983346207417,
+      "n": 0.26,
+      "delta_x_from_center": 0.0,
+      "delta_y_from_center": 0.0,
+      "job_name": "SPIO_R017_P01_CTR",
+      "inp_path": "run/run_017/artifacts/candidates/SPIO_R017_P01_CTR/SPIO_R017_P01_CTR.inp",
+      "parameters_path": "run/run_017/artifacts/candidates/SPIO_R017_P01_CTR/parameters.json",
+      "working_dir": "run/run_017/artifacts/solver/SPIO_R017_P01_CTR",
+      "expected_odb": "run/run_017/artifacts/solver/SPIO_R017_P01_CTR/SPIO_R017_P01_CTR.odb"
+    },
+    {
+      "point_id": "P02",
+      "role": "SYM",
+      "x": 0.3,
+      "y": 0.5,
+      "sigma_y_mpa": 265.01098807538733,
+      "n": 0.26,
+      "delta_x_from_center": -0.2,
+      "delta_y_from_center": 0.0,
+      "job_name": "SPIO_R017_P02_SYM",
+      "inp_path": "run/run_017/artifacts/candidates/SPIO_R017_P02_SYM/SPIO_R017_P02_SYM.inp",
+      "parameters_path": "run/run_017/artifacts/candidates/SPIO_R017_P02_SYM/parameters.json",
+      "working_dir": "run/run_017/artifacts/solver/SPIO_R017_P02_SYM",
+      "expected_odb": "run/run_017/artifacts/solver/SPIO_R017_P02_SYM/SPIO_R017_P02_SYM.odb"
+    },
+    {
+      "point_id": "P03",
+      "role": "SYP",
+      "x": 0.7,
+      "y": 0.5,
+      "sigma_y_mpa": 566.014266387059,
+      "n": 0.26,
+      "delta_x_from_center": 0.19999999999999996,
+      "delta_y_from_center": 0.0,
+      "job_name": "SPIO_R017_P03_SYP",
+      "inp_path": "run/run_017/artifacts/candidates/SPIO_R017_P03_SYP/SPIO_R017_P03_SYP.inp",
+      "parameters_path": "run/run_017/artifacts/candidates/SPIO_R017_P03_SYP/parameters.json",
+      "working_dir": "run/run_017/artifacts/solver/SPIO_R017_P03_SYP",
+      "expected_odb": "run/run_017/artifacts/solver/SPIO_R017_P03_SYP/SPIO_R017_P03_SYP.odb"
+    },
+    {
+      "point_id": "P04",
+      "role": "NM",
+      "x": 0.5,
+      "y": 0.3,
+      "sigma_y_mpa": 387.2983346207417,
+      "n": 0.16399999999999998,
+      "delta_x_from_center": 0.0,
+      "delta_y_from_center": -0.2,
+      "job_name": "SPIO_R017_P04_NM",
+      "inp_path": "run/run_017/artifacts/candidates/SPIO_R017_P04_NM/SPIO_R017_P04_NM.inp",
+      "parameters_path": "run/run_017/artifacts/candidates/SPIO_R017_P04_NM/parameters.json",
+      "working_dir": "run/run_017/artifacts/solver/SPIO_R017_P04_NM",
+      "expected_odb": "run/run_017/artifacts/solver/SPIO_R017_P04_NM/SPIO_R017_P04_NM.odb"
+    },
+    {
+      "point_id": "P05",
+      "role": "NP",
+      "x": 0.5,
+      "y": 0.7,
+      "sigma_y_mpa": 387.2983346207417,
+      "n": 0.356,
+      "delta_x_from_center": 0.0,
+      "delta_y_from_center": 0.19999999999999996,
+      "job_name": "SPIO_R017_P05_NP",
+      "inp_path": "run/run_017/artifacts/candidates/SPIO_R017_P05_NP/SPIO_R017_P05_NP.inp",
+      "parameters_path": "run/run_017/artifacts/candidates/SPIO_R017_P05_NP/parameters.json",
+      "working_dir": "run/run_017/artifacts/solver/SPIO_R017_P05_NP",
+      "expected_odb": "run/run_017/artifacts/solver/SPIO_R017_P05_NP/SPIO_R017_P05_NP.odb"
+    }
+  ],
+  "center_is_material_truth": false,
+  "jobs_authorized": 0,
+  "maximum_future_jobs_for_request": 5,
+  "automatic_retries": 0
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_017",
+  "stage": "First Constitutive Sensitivity Study Preparation",
+  "objective": "Freeze source-confirmed SPT comparison and five candidate inputs, public API previews only",
+  "status": "RUNNING",
+  "start_time": "2026-10-23T22:45:40.441408+08:00",
+  "end_time": null,
+  "time_notes": "Observed local timezone",
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "git_head": "c2ef18f97cac516d6225b3c27f147d3e0b51e7b4",
+  "git_branch": "main",
+  "inputs": [
+    {
+      "path": "run/run_016/artifacts/private/main_qualification_report.md",
+      "role": "Prior qualification"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_017/artifacts/parameter_design.json",
+      "role": "Five point design"
+    }
+  ],
+  "validation": [],
+  "errors": [],
+  "task_ids": {
+    "MAIN": "a37ef4d7-ed7f-4bb3-803f-3c8726916548",
+    "CAE": "64ade6c7-71f6-40ea-9ecc-b70f459773fb"
+  },
+  "new_jobs_authorized": 0,
+  "new_jobs_executed": 0
+}

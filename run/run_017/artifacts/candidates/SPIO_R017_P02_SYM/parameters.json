@@ -1,0 +1,29 @@
+{
+  "schema": "sp_invopt.cae.parameters.v1",
+  "task_id": "64ade6c7-71f6-40ea-9ecc-b70f459773fb",
+  "point_id": "P02",
+  "job_name": "SPIO_R017_P02_SYM",
+  "sigma_y_mpa": 265.01098807538733,
+  "n": 0.26,
+  "E_pa": 210000000000.0,
+  "nu": 0.3,
+  "material_model": "candidate-true-total-hollomon-v1",
+  "stress_unit": "Pa",
+  "plastic_strain": "equivalent plastic strain, dimensionless",
+  "max_plastic_strain": 0.9,
+  "relative_tolerance": 0.001,
+  "baseline_inp_sha256": "fa2de5d73a28536c1c07cd22072d2a24c1ae988c569127d728931c583457f05a",
+  "design_sha256": "e2fb810634997499765b04576f82062c088ec60829ff2b702abc3fe815eaac6b",
+  "inp_sha256": "e0a4a811fe321a8f467afa3e72fd0bf98de6301940229cc6fa74cc21202666b5",
+  "material_table_quality": {
+    "rows": 50,
+    "first_stress_pa": 265010988.07538733,
+    "first_plastic_strain": 0.0,
+    "last_plastic_strain": 0.9,
+    "max_sampled_relative_interpolation_error": 0.0009174716924734158,
+    "conservative_relative_error_bound": 0.0009429825405271989,
+    "max_normalized_error_bound": 0.9429825405271989,
+    "strictly_increasing_stress_and_strain": true
+  },
+  "physical_validation": "NOT_EVALUATED"
+}

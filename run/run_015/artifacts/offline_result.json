@@ -1,0 +1,48 @@
+{
+  "observed_at": "2026-10-23T21:50:25.734281+08:00",
+  "run_id": "run_015",
+  "status": "WARNING",
+  "execution_state": "OFFLINE_SPT_COMPLETE_HOLDOUT_SEALED",
+  "science_state": "WARNING",
+  "formal_inversion_ready": false,
+  "solver_calls_this_run": 0,
+  "enqueue_calls_this_run": 0,
+  "loss_unit_tests": {
+    "passed": 12,
+    "failed": 0,
+    "evidence": "run/run_015/artifacts/loss_test_results.json"
+  },
+  "spt": {
+    "numeric_reconciliation": "PASS_WITH_FLOAT_SERIALIZATION_DIFFERENCES",
+    "canonical_status": "PROVISIONAL",
+    "unit_conflict": "UNRESOLVED",
+    "measurement_alignment": "UNVERIFIED",
+    "result": "run/run_015/artifacts/private/provisional/result.json",
+    "report": "run/run_015/artifacts/private/spt_final_report.md"
+  },
+  "protocol": "run/run_015/artifacts/blind_inversion_contract.json",
+  "holdout": {
+    "new_access_prohibited": true,
+    "prior_exposure": true,
+    "strict_blind_claim": false,
+    "exposed_roles": [
+      "MAIN",
+      "ODB"
+    ],
+    "cae_access": "NOT_EVIDENCED",
+    "stop_notifications_sent": true,
+    "current_use": "EXCLUDED",
+    "policy": "run/run_015/artifacts/private/blind_holdout_access_policy.json"
+  },
+  "pending": [
+    "SPT source/units/sensor/zero/compliance/test-geometry linkage",
+    "FE numerical-quality acceptance",
+    "unexposed review of exploratory parameter domain after prior exposure",
+    "BO implementation and synthetic validation",
+    "new solver authorization in separate Run"
+  ],
+  "future_best_parameters": null,
+  "future_parameter_uncertainty": null,
+  "future_formal_loss": null,
+  "further_work": "STOP after current offline delivery; no automatic next Run"
+}

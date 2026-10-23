@@ -1,0 +1,194 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_016",
+  "stage": "Experimental-to-FE Qualification",
+  "objective": "Read-only qualification, collaborator declaration, real CAE/ODB evidence and staged offline inversion contract",
+  "status": "BLOCKED",
+  "start_time": "2026-10-23T22:11:44.915840+08:00",
+  "end_time": "2026-10-23T22:26:07.205779+08:00",
+  "time_notes": "Observed UTC+08:00; no inferred test time",
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "git_head": "c2ef18f97cac516d6225b3c27f147d3e0b51e7b4",
+  "git_branch": "main",
+  "inputs": [
+    {
+      "path": "run/run_016/artifacts/private/collaborator_declaration.json",
+      "role": "New declared experimental conditions"
+    },
+    {
+      "path": "run/run_016/artifacts/private/source_inventory.json",
+      "role": "Allowed immutable sources"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_016/artifacts/private/collaborator_declaration.json",
+      "role": "private/collaborator_declaration.json"
+    },
+    {
+      "path": "run/run_016/artifacts/private/main_qualification_report.md",
+      "role": "private/main_qualification_report.md"
+    },
+    {
+      "path": "run/run_016/artifacts/private/worker_verification.json",
+      "role": "private/worker_verification.json"
+    },
+    {
+      "path": "run/run_016/artifacts/private/integrity_check.json",
+      "role": "private/integrity_check.json"
+    },
+    {
+      "path": "run/run_016/artifacts/private/loss_review.json",
+      "role": "private/loss_review.json"
+    },
+    {
+      "path": "run/run_016/artifacts/parameter_and_budget_protocol.md",
+      "role": "parameter_and_budget_protocol.md"
+    },
+    {
+      "path": "run/run_016/artifacts/inversion_qualification_contract.json",
+      "role": "inversion_qualification_contract.json"
+    },
+    {
+      "path": "run/run_016/artifacts/loss_test_results.json",
+      "role": "loss_test_results.json"
+    },
+    {
+      "path": "run/run_016/artifacts/loss_test_log.txt",
+      "role": "loss_test_log.txt"
+    },
+    {
+      "path": "run/run_016/artifacts/test_loss_qualification.py",
+      "role": "test_loss_qualification.py"
+    },
+    {
+      "path": "run/run_016/artifacts/review_loss.py",
+      "role": "review_loss.py"
+    },
+    {
+      "path": "run/run_016/artifacts/freeze_qualification.py",
+      "role": "freeze_qualification.py"
+    },
+    {
+      "path": "run/run_016/artifacts/authorization_guard_check.json",
+      "role": "authorization_guard_check.json"
+    },
+    {
+      "path": "run/run_016/artifacts/privacy_check.json",
+      "role": "privacy_check.json"
+    },
+    {
+      "path": "run/run_016/artifacts/finalize_run.py",
+      "role": "finalize_run.py"
+    },
+    {
+      "path": "run/run_016/artifacts/agenthub_receipt.json",
+      "role": "agenthub_receipt.json"
+    },
+    {
+      "path": "run/run_016/artifacts/manifest.json",
+      "role": "manifest.json"
+    }
+  ],
+  "validation": [
+    {
+      "check": "Real CAE/ODB handoff and hashes",
+      "status": "PASS",
+      "evidence": "run/run_016/artifacts/private/worker_verification.json",
+      "scope": "two tasks, 14 artifacts"
+    },
+    {
+      "check": "Loss synthetic regression",
+      "status": "PASS",
+      "evidence": "run/run_016/artifacts/loss_test_results.json",
+      "scope": "19 tests"
+    },
+    {
+      "check": "Protected allowlist integrity",
+      "status": "PASS",
+      "evidence": "run/run_016/artifacts/private/integrity_check.json",
+      "scope": "8 baselined files"
+    },
+    {
+      "check": "Private artifacts ignored",
+      "status": "PASS",
+      "evidence": "run/run_016/artifacts/privacy_check.json",
+      "scope": "current Run private files"
+    },
+    {
+      "check": "Experimental-to-FE qualification",
+      "status": "BLOCKED",
+      "evidence": "run/run_016/artifacts/private/main_qualification_report.md",
+      "scope": "geometry, units, window and scientific readiness"
+    }
+  ],
+  "errors": [
+    {
+      "code": "FIXTURE_NOT_QUALIFIED",
+      "severity": "BLOCKED",
+      "message": "Fixed annuli are not verified as actual support/contact",
+      "evidence": "run/run_016/artifacts/private/main_qualification_report.md",
+      "resolution": "Future evidence/authorization; no automatic action"
+    },
+    {
+      "code": "FORCE_UNIT_UNRESOLVED",
+      "severity": "BLOCKED",
+      "message": "Conflicting XLSX and Origin load labels",
+      "evidence": "run/run_016/artifacts/private/main_qualification_report.md",
+      "resolution": "Future evidence/authorization; no automatic action"
+    },
+    {
+      "code": "MEASUREMENT_AND_WINDOW_PROVISIONAL",
+      "severity": "WARNING",
+      "message": "Correction and undamaged window not independently qualified",
+      "evidence": "run/run_016/artifacts/private/main_qualification_report.md",
+      "resolution": "Future evidence/authorization; no automatic action"
+    },
+    {
+      "code": "NUMERICAL_QUALITY_UNRESOLVED",
+      "severity": "WARNING",
+      "message": "Existing FE warnings and sensitivity require evaluation",
+      "evidence": "run/run_016/artifacts/private/main_qualification_report.md",
+      "resolution": "Future evidence/authorization; no automatic action"
+    }
+  ],
+  "task_ids": {
+    "MAIN": "86982301-e431-4a57-a864-13216885856f",
+    "CAE": "5e024e04-4f41-4fd8-a199-15b632ce6e79",
+    "ODB": "d7be8c6a-eec5-40e3-a25e-538917adea55"
+  },
+  "new_fe_authorized": 0,
+  "new_fe_executed": 0,
+  "heldout_policy": "Retained independent validation data with historical exposure; no new access",
+  "offline_work_completed": true,
+  "qualification": {
+    "run": "run_016",
+    "audit_execution": "COMPLETED",
+    "qualification": "BLOCKED",
+    "cae_geometry": "BLOCKED",
+    "spt_force_units": "UNRESOLVED",
+    "displacement": "WARNING",
+    "loss_and_window": "PROVISIONAL",
+    "formal_loss": null,
+    "loss_tests_passed": 19,
+    "worker_artifacts_verified": 14,
+    "parameter_domain": {
+      "sigma_y_mpa": [
+        150,
+        1000
+      ],
+      "n": [
+        0.02,
+        0.5
+      ]
+    },
+    "protocol": "run/run_016/artifacts/inversion_qualification_contract.json",
+    "first_batch_ready": false,
+    "current_recommended_jobs": 0,
+    "contingent_pilot_jobs": 5,
+    "new_jobs_authorized": 0,
+    "new_jobs_executed": 0,
+    "blind_status": "Independent retained validation with historical exposure; no new access",
+    "report": "run/run_016/artifacts/private/main_qualification_report.md"
+  }
+}

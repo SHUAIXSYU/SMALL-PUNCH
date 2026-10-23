@@ -1,0 +1,12 @@
+{
+  "identity": {
+    "agent_id": "MAIN:codex-main-run016",
+    "session_id": "6960fa68-a453-45d6-9b53-4cf8b3e76603",
+    "role": "MAIN"
+  },
+  "tasks": {
+    "MAIN": "86982301-e431-4a57-a864-13216885856f",
+    "CAE": "5e024e04-4f41-4fd8-a199-15b632ce6e79",
+    "ODB": "d7be8c6a-eec5-40e3-a25e-538917adea55"
+  }
+}

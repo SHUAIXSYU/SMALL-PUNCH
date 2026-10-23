@@ -1,0 +1,15 @@
+{
+  "observed_at": "2026-10-23T22:52:33.022744+08:00",
+  "interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "python": "3.11.13 | packaged by Anaconda, Inc. | (main, Jun  5 2025, 13:03:15) [MSC v.1929 64 bit (AMD64)]",
+  "tests_run": 28,
+  "successful": true,
+  "failures": 0,
+  "errors": 0,
+  "scope": "19 Loss + 9 sensitivity synthetic tests; no new FE",
+  "test_files": [
+    "run/run_015/artifacts/test_fd_loss.py",
+    "run/run_016/artifacts/test_loss_qualification.py",
+    "run/run_017/artifacts/test_sensitivity_analysis.py"
+  ]
+}

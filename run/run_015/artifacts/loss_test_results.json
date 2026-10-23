@@ -1,0 +1,11 @@
+{
+  "observed_at": "2026-10-23T21:33:12.151765+08:00",
+  "python": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "version": "3.11.13 | packaged by Anaconda, Inc. | (main, Jun  5 2025, 13:03:15) [MSC v.1929 64 bit (AMD64)]",
+  "tests": 12,
+  "failures": 0,
+  "errors": 0,
+  "successful": true,
+  "output": "test_bad_target (test_fd_loss.LossTests.test_bad_target) ... ok\ntest_different_sampling (test_fd_loss.LossTests.test_different_sampling) ... ok\ntest_gate_and_explicit_provisional (test_fd_loss.LossTests.test_gate_and_explicit_provisional) ... ok\ntest_identical_zero (test_fd_loss.LossTests.test_identical_zero) ... ok\ntest_illegal_units (test_fd_loss.LossTests.test_illegal_units) ... ok\ntest_invalid_failed_fe (test_fd_loss.LossTests.test_invalid_failed_fe) ... ok\ntest_known_weighted_residual (test_fd_loss.LossTests.test_known_weighted_residual) ... ok\ntest_mutable_inputs_frozen (test_fd_loss.LossTests.test_mutable_inputs_frozen) ... ok\ntest_nan_and_infinity (test_fd_loss.LossTests.test_nan_and_infinity) ... ok\ntest_no_overlap (test_fd_loss.LossTests.test_no_overlap) ... ok\ntest_nonmonotonic_and_duplicate (test_fd_loss.LossTests.test_nonmonotonic_and_duplicate) ... ok\ntest_partial_coverage_rejected (test_fd_loss.LossTests.test_partial_coverage_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 12 tests in 0.001s\n\nOK\n",
+  "inputs": "synthetic only; no solver calls"
+}

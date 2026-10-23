@@ -91,3 +91,38 @@ run_012历史BLOCKED保留；其Settings阻塞已由本Run新证据解决。具�
 | run_014 | 首次授权正向求解 | 唯一候选、14 CPU/0 GPU、Datacheck+Full、单次入队与真实结果交接 | WARNING（已完成） | [summary](run_014/summary.md) |
 
 唯一 Job `SPIO_R014_Q200_N010`，queue_id=`q_4c0358a918a7447d807d2f547d22c7b8`，Datacheck PASS、Full Analysis COMPLETED_WITH_WARNINGS，耗时165秒、零重试。真实ODB Agent已完成170点F–D提取与诊断，MAIN收到结果并核验14项Hub证据。末点力较历史差−0.07782、最大曲线差13.5922（模型单位）；39次拒绝尝试、4条负特征值及2条过度畸变警告保留。科学状态NOT_EVALUATED；本次授权已用完，新增求解须另行授权。
+
+## 离线审计 Run — run_015
+
+| Run | 阶段 | 目标 | 状态 | 总结 |
+| --- | --- | --- | --- | --- |
+| run_015 | SPT离线审计与盲反演协议 | 两源数值核对、真实ODB/CAE协作、Loss测试、探索契约冻结与泄漏登记 | WARNING（已完成） | [summary](run_015/summary.md) |
+
+SPT候选数值集和PROVISIONAL对照已完成，12项合成Loss测试通过。正式单位/测量条件及数值门控待核验，新增FE为0。用户策略变更后封存保留验证资料；MAIN/ODB此前已接触，不能声称完全盲测。当前以[盲反演协议](../docs/Blind_Inversion_Protocol.md)为准，旧混合审计禁止继续读取；本轮结束，不自动求解或解盲。
+
+
+## 新授权 Run — run_016
+
+| Run | 阶段 | 目标 | 状态 | 总结 |
+| --- | --- | --- | --- | --- |
+| run_016 | Experimental-to-FE Qualification | 合作方声明、真实 CAE/ODB 准入审计、Loss 复核及分阶段预算 | BLOCKED（正式反演准入；离线完成） | [summary](run_016/summary.md) |
+
+几何/夹具等效与载荷单位仍未解决；位移声明改善对应依据，Loss/窗口保持 PROVISIONAL。19 项合成测试通过，公开依据探索域和条件式预算已登记。新 Job 授权/执行均 0；保留历史信息暴露，不再访问保留拉伸数据。完成后停止。
+
+
+## 新授权 Run — run_017
+
+| Run | 阶段 | 目标 | 状态 | 总结 |
+| --- | --- | --- | --- | --- |
+| run_017 | First Constitutive Sensitivity Study Preparation | 来源确认、探索性 Loss 冻结、真实 CAE 五输入及公开 API 预览 | WARNING（准备完成） | [summary](run_017/summary.md) |
+
+来源方澄清力单位，名义几何一致；用户接受理想化夹持作为本批基线。五个 INP/Preflight/Dry-run 就绪，28 项合成测试通过；可以申请最多五个探索性 Job，授权/入队/执行均0。完整夹具等效、位移校正与材料科学有效性仍未验证；完成后停止。
+
+
+## run_018 — P01 Queue-only Submission
+
+| Run | 阶段 | 目标 | 状态 | 总结 |
+| --- | --- | --- | --- | --- |
+| run_018 | P01 Queue-only | 唯一冻结 P01 正式入队；用户 GUI 手动启动 | PASS（入队范围） | [summary](run_018/summary.md) |
+
+P01 唯一待执行；Datacheck/Full 均未启动，P02–P05 未入队。停止等待用户 GUI。

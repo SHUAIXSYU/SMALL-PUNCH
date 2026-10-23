@@ -1,0 +1,29 @@
+{
+  "job_id": "q_bdec6a60a31849d0a2afe200a70231bd",
+  "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_017\\artifacts\\solver\\SPIO_R017_P01_CTR",
+  "expected_odb_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_017\\artifacts\\solver\\SPIO_R017_P01_CTR\\SPIO_R017_P01_CTR.odb",
+  "odb_exists": false,
+  "lock_exists": false,
+  "log_paths": [
+    "E:\\Projects\\SMALL-PUNCH\\run\\run_017\\artifacts\\solver\\SPIO_R017_P01_CTR\\SPIO_R017_P01_CTR.log",
+    "E:\\Projects\\SMALL-PUNCH\\run\\run_017\\artifacts\\solver\\SPIO_R017_P01_CTR\\SPIO_R017_P01_CTR.sta",
+    "E:\\Projects\\SMALL-PUNCH\\run\\run_017\\artifacts\\solver\\SPIO_R017_P01_CTR\\SPIO_R017_P01_CTR.msg",
+    "E:\\Projects\\SMALL-PUNCH\\run\\run_017\\artifacts\\solver\\SPIO_R017_P01_CTR\\SPIO_R017_P01_CTR.dat"
+  ],
+  "sta_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_017\\artifacts\\solver\\SPIO_R017_P01_CTR\\SPIO_R017_P01_CTR.sta",
+  "msg_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_017\\artifacts\\solver\\SPIO_R017_P01_CTR\\SPIO_R017_P01_CTR.msg",
+  "dat_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_017\\artifacts\\solver\\SPIO_R017_P01_CTR\\SPIO_R017_P01_CTR.dat",
+  "lck_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_017\\artifacts\\solver\\SPIO_R017_P01_CTR\\SPIO_R017_P01_CTR.lck",
+  "path_sources": {
+    "odb_path": "recorded",
+    "sta_path": "recorded",
+    "msg_path": "recorded",
+    "dat_path": "recorded",
+    "log_path": "recorded",
+    "lck_path": "expected"
+  },
+  "errors": [],
+  "warnings": [],
+  "schema_version": "1.0",
+  "error_details": []
+}

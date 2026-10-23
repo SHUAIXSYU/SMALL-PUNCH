@@ -1,0 +1,16 @@
+{
+  "observed_at": "2026-10-23T22:55:02.880804+08:00",
+  "prior_run": "run_016",
+  "prior_history_preserved": true,
+  "force_units": "RESOLVED_BY_SOURCE_CONFIRMATION_N",
+  "punch_size": "SOURCE_CONFIRMED_2_5_MM_AND_MODEL_MATCH",
+  "fixture_scope": "EXPLORATORY_BASELINE_ACCEPTED_BY_USER_NOT_FULL_EQUIVALENCE_PROVEN",
+  "displacement_correction": "UNCERTAINTY_RETAINED_NO_SECONDARY_CORRECTION",
+  "loss_window": "FROZEN_FOR_LOCAL_EXPLORATORY_COMPARISON_ONLY",
+  "full_formal_inversion": "NOT_QUALIFIED_BY_THIS_PREPARATION",
+  "evidence": [
+    "run/run_017/artifacts/private/experimental_metadata.json",
+    "run/run_017/artifacts/private/cae/qualification_report.md",
+    "run/run_017/artifacts/private/loss_contract.json"
+  ]
+}

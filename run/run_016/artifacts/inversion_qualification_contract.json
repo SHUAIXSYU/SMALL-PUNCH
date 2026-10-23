@@ -1,0 +1,131 @@
+{
+  "version": "run016-offline-qualification-v1",
+  "frozen_at": "2026-10-23T22:22:13.683824+08:00",
+  "scope": "Offline engineering proposal, no execution authorization; formal loss gate remains blocked",
+  "specification": {
+    "path": "run/run_016/artifacts/parameter_and_budget_protocol.md",
+    "sha256": "a165d3193325e8d123a57bcb962c42509bffaac51e80a2e0925654b859bc8a46"
+  },
+  "bounds": {
+    "sigma_y_mpa": [
+      150,
+      1000
+    ],
+    "n": [
+      0.02,
+      0.5
+    ],
+    "classification": "Public-source-informed engineering exploration; not measured bounds"
+  },
+  "fixed": {
+    "E_pa": 210000000000.0,
+    "nu": 0.3,
+    "interpretation": "candidate_true_total"
+  },
+  "initial_design": [
+    {
+      "order": 1,
+      "x": 0.5,
+      "y": 0.5,
+      "sigma_y_mpa": 387.2983346207417,
+      "n": 0.26,
+      "submitted": false
+    },
+    {
+      "order": 2,
+      "x": 0.3,
+      "y": 0.5,
+      "sigma_y_mpa": 265.01098807538733,
+      "n": 0.26,
+      "submitted": false
+    },
+    {
+      "order": 3,
+      "x": 0.7,
+      "y": 0.5,
+      "sigma_y_mpa": 566.014266387059,
+      "n": 0.26,
+      "submitted": false
+    },
+    {
+      "order": 4,
+      "x": 0.5,
+      "y": 0.3,
+      "sigma_y_mpa": 387.2983346207417,
+      "n": 0.16399999999999998,
+      "submitted": false
+    },
+    {
+      "order": 5,
+      "x": 0.5,
+      "y": 0.7,
+      "sigma_y_mpa": 387.2983346207417,
+      "n": 0.356,
+      "submitted": false
+    },
+    {
+      "order": 6,
+      "x": 0,
+      "y": 0,
+      "sigma_y_mpa": 150.0,
+      "n": 0.02,
+      "submitted": false
+    },
+    {
+      "order": 7,
+      "x": 1,
+      "y": 0,
+      "sigma_y_mpa": 1000.0,
+      "n": 0.02,
+      "submitted": false
+    },
+    {
+      "order": 8,
+      "x": 1,
+      "y": 1,
+      "sigma_y_mpa": 1000.0,
+      "n": 0.5,
+      "submitted": false
+    }
+  ],
+  "loss": {
+    "configuration_path": "run/run_015/artifacts/private/loss_config_frozen.json",
+    "configuration_sha256": "6e5425b09875fe3184991eebd36abce0c3c45802327f8a6e7f71647e076a211f",
+    "implementation_path": "inverse/fd_loss.py",
+    "implementation_sha256": "48d8d900f9eb453bdf1c896fea734c589ca8ab22d47e9dd98b165353ee794fb0",
+    "status": "PROVISIONAL",
+    "formal_loss": null,
+    "parameter_dependent_crop": false
+  },
+  "budgets": {
+    "pilot": 5,
+    "extension": 3,
+    "bo": 16,
+    "de": 16,
+    "identifiability": 4,
+    "numerical_quality": 2,
+    "confirmation": 2,
+    "total_planning_cap": 48,
+    "authorized": 0,
+    "executed": 0,
+    "automatic_retries": 0
+  },
+  "algorithms": {
+    "seed": 16,
+    "de_implemented_in_existing_scipy": true,
+    "de_fe_adapter_qualified": false,
+    "bo_implementation_qualified": false,
+    "actual_search_performed": false
+  },
+  "prerequisites": [
+    "FORCE_UNIT",
+    "FIXTURE_AND_PUNCH",
+    "DISPLACEMENT_CORRECTION",
+    "WINDOW_PHYSICS",
+    "NUMERICAL_QUALITY",
+    "MODEL_HASH_FREEZE",
+    "UNEXPOSED_REVIEW",
+    "EXPLICIT_SCOPED_JOB_AUTHORIZATION"
+  ],
+  "blind_validation": "Independent retained validation dataset with historical information exposure; no new access"
+}

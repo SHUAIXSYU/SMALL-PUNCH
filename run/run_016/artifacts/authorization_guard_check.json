@@ -1,0 +1,10 @@
+{
+  "observed_at": "2026-10-23T22:22:13.683824+08:00",
+  "expected_denials": {
+    "enqueue": "TASK_APPROVAL_REQUIRED:enqueue",
+    "start_solver": "TASK_APPROVAL_REQUIRED:start_solver",
+    "recover_retry": "TASK_APPROVAL_REQUIRED:recover_retry",
+    "generate_inp": "TASK_APPROVAL_REQUIRED:generate_inp"
+  },
+  "external_api_called": false
+}

@@ -1,0 +1,129 @@
+{
+  "observed_at": "2026-10-23T21:53:45.855558+08:00",
+  "main_task_id": "32f9f260-3424-4603-8dba-657401a981e2",
+  "execution_state": "COMPLETED",
+  "evidence_state": "RECORDED",
+  "science_state": "WARNING",
+  "artifacts": [
+    {
+      "artifact_id": "292bf208-9de1-48d8-8ee2-6d9e4172223b",
+      "path": "E:\\Projects\\SMALL-PUNCH\\inverse\\fd_loss.py",
+      "sha256": "48d8d900f9eb453bdf1c896fea734c589ca8ab22d47e9dd98b165353ee794fb0",
+      "version": "run015-current-spt-blind-v2"
+    },
+    {
+      "artifact_id": "65417571-99cc-4f7d-b286-025181c2789b",
+      "path": "E:\\Projects\\SMALL-PUNCH\\docs\\Blind_Inversion_Protocol.md",
+      "sha256": "8c8b953f1b559997f86800c13416e21589b9a86c63f083b3e30142662272a539",
+      "version": "run015-current-spt-blind-v2"
+    },
+    {
+      "artifact_id": "227a9e03-e3af-4a76-be21-0fef801af9d3",
+      "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_015\\artifacts\\manifest.json",
+      "sha256": "07fab3e3fed5f3f744ffe7c39674c47792219baa8e8539ed1afddab4c3180626",
+      "version": "run015-current-spt-blind-v2"
+    },
+    {
+      "artifact_id": "755e84c7-fe62-4fb7-804b-395a40ee260c",
+      "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_015\\artifacts\\blind_inversion_contract.json",
+      "sha256": "1cf40c1f3e9f92bffeb42be387999f9385de7df9aeba0a8d5778a7e5537e0700",
+      "version": "run015-current-spt-blind-v2"
+    },
+    {
+      "artifact_id": "d58a9aea-8f7d-4576-8ae9-26e274949460",
+      "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_015\\artifacts\\offline_result.json",
+      "sha256": "f5dc562f4f7b7ef1325e42f4990891dc0c54e6015fb26e1c86770200e25100a6",
+      "version": "run015-current-spt-blind-v2"
+    },
+    {
+      "artifact_id": "6cc47e8c-a3d2-4ceb-872d-8002ebff4aa1",
+      "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_015\\artifacts\\protocol_checks.json",
+      "sha256": "94e47f8dff4b3890c91e21a9c47830c189260f057e9fb3967232b28b527b45aa",
+      "version": "run015-current-spt-blind-v2"
+    },
+    {
+      "artifact_id": "3d6e9428-1e93-4fb1-9e93-eaa7fd713ef9",
+      "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_015\\artifacts\\loss_test_results.json",
+      "sha256": "6c35a3ff27204ea5bbc3f0b702a7399bc54f6bd9f426707c03e561706cc3b06e",
+      "version": "run015-current-spt-blind-v2"
+    },
+    {
+      "artifact_id": "f684106e-607b-41bc-a394-5f1987efa4ae",
+      "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_015\\artifacts\\holdout_stop_acknowledgements.json",
+      "sha256": "3c35403ac1b5589fd32a685132405cbf9c547d3bc6589cbac85896e1eb9a86d5",
+      "version": "run015-current-spt-blind-v2"
+    },
+    {
+      "artifact_id": "03ef6f03-d86a-452f-9fe4-a0430b050ed1",
+      "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_015\\artifacts\\private\\spt_final_report.md",
+      "sha256": "1ba46e20edd0041730c79ec7fda3a5ff1fdecc75a808892d7a92d20da42fc1c5",
+      "version": "run015-current-spt-blind-v2"
+    },
+    {
+      "artifact_id": "a0ca9f83-bcfe-40f6-99a4-d294f113461a",
+      "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_015\\artifacts\\private\\spt_minimum_questions.md",
+      "sha256": "9f2726b1637168b79a13e3ec9e3f50590f0ed3b2de385d6d0945805c36793909",
+      "version": "run015-current-spt-blind-v2"
+    },
+    {
+      "artifact_id": "d7b22f2c-085d-42e0-bb91-927b2b7f417d",
+      "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_015\\artifacts\\private\\blind_holdout_access_policy.json",
+      "sha256": "2412251f7e5b1bfce0b5a3c05c6a8f70bc55ce46edf81afaaa9921a8dc5ecce9",
+      "version": "run015-current-spt-blind-v2"
+    },
+    {
+      "artifact_id": "90224e8d-51eb-4a7c-8986-fd14bad8b32c",
+      "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_015\\artifacts\\private\\spt_integrity_final.json",
+      "sha256": "44a7eb665d94d54f06662733a9174973f8d197d43d781e68224f335e5328408b",
+      "version": "run015-current-spt-blind-v2"
+    },
+    {
+      "artifact_id": "8cd19368-50ad-4bda-b5b0-bfa75d13f77f",
+      "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_015\\artifacts\\private\\spt_worker_verification.json",
+      "sha256": "d1ffebf91b6c478d75b151720e0d4104b4d286b06c25bf5230eccf3a8f2a3d93",
+      "version": "run015-current-spt-blind-v2"
+    },
+    {
+      "artifact_id": "d515bc7f-d5e9-433d-95da-129a619e810c",
+      "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_015\\artifacts\\private\\canonical\\dataset.json",
+      "sha256": "523e05fec947c85afcb2838418a4c156af30487b3c0bc2cc5b4c54dd46dcbaf2",
+      "version": "run015-current-spt-blind-v2"
+    },
+    {
+      "artifact_id": "3866c0c1-19d1-42a6-847f-da85f83c06ea",
+      "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_015\\artifacts\\private\\canonical\\candidate_fd_si.csv",
+      "sha256": "794b3d8624142e1ab5306a423d0f81e76bb55a97d43f980c98ee24ceef2406a6",
+      "version": "run015-current-spt-blind-v2"
+    },
+    {
+      "artifact_id": "db04c9e3-8fba-43ee-ba04-f86518c0de75",
+      "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_015\\artifacts\\private\\loss_config_frozen.json",
+      "sha256": "6e5425b09875fe3184991eebd36abce0c3c45802327f8a6e7f71647e076a211f",
+      "version": "run015-current-spt-blind-v2"
+    },
+    {
+      "artifact_id": "9412d3f5-3d2c-4ff7-ba82-37706da0c0df",
+      "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_015\\artifacts\\private\\provisional\\result.json",
+      "sha256": "2248c05ec2a4ba78de4815df980515ad8ff68cdd72ebff3ce3b83a84d01b5cca",
+      "version": "run015-current-spt-blind-v2"
+    },
+    {
+      "artifact_id": "c971d999-3cdf-46aa-abc4-3a82e2682a78",
+      "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_015\\artifacts\\private\\provisional\\provisional_overlay.png",
+      "sha256": "fef3940f5e0a65ad80d14fe305a6589b1e95077c807b0d339c771e45cd1b27b3",
+      "version": "run015-current-spt-blind-v2"
+    }
+  ],
+  "completion_message": {
+    "message_id": "0be78391-5d15-4571-be95-201f9e6ad9a6",
+    "task_id": "32f9f260-3424-4603-8dba-657401a981e2",
+    "sender": "MAIN:codex-main-run015",
+    "recipient_role": "MAIN",
+    "direction": "OUTBOX",
+    "idempotency_key": "run015-final-current-protocol-v2",
+    "body": "{\"contract\":\"run/run_015/artifacts/blind_inversion_contract.json\",\"execution\":\"OFFLINE_COMPLETE\",\"formal_loss\":null,\"heldout_access_stopped\":true,\"new_fe_jobs\":0,\"next_solver_authorization_required\":true,\"prior_exposure_disclosed\":true,\"provisional_result\":\"run/run_015/artifacts/private/provisional/result.json\",\"report\":\"run/run_015/artifacts/private/spt_final_report.md\",\"science\":\"WARNING\",\"status\":\"WARNING\",\"strict_blind\":false,\"tests_passed\":12,\"unblinding_authorized\":false}",
+    "created": 1792763625.8460507
+  },
+  "worker_receipt_evidence": "run/run_015/artifacts/private/spt_worker_verification.json",
+  "audit_note": "Prior audit-chain validation retained; no post-prohibition full event-payload rescan because protected history is sealed"
+}
