@@ -1,0 +1,110 @@
+{
+  "output_run": "run_042",
+  "task_id": "a7c04994-b32e-40ba-9785-b36c50fa75a4",
+  "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+  "audit_path": "run/run_042/artifacts/private/execution_audit.json",
+  "audit_sha256": "bc918f54237ec41512126e896b2448c1d85ef69ed5eebf9fbf514fc09945e1f8",
+  "output_directory": "run/run_042/artifacts/private/odb",
+  "numeric_version": "run030-standard-m0025-hollomon-v1",
+  "loss_version": "run017-exploratory-fd-v1",
+  "baseline_dataset": "run/run_040/artifacts/private/initial_dataset.json",
+  "jobs": [
+    {
+      "candidate_id": "BO01",
+      "job_name": "SPIO_R040_BO01",
+      "queue_id": "q_6a1926161e9a47068e6af32188417ccc",
+      "inp_path": "run/run_040/artifacts/candidates/SPIO_R040_BO01/SPIO_R040_BO01.inp",
+      "inp_sha256": "7e5c7d22491dd185fc32521ca58922bb8449c6bdb862dbf885d60018f58a35da",
+      "working_dir": "run/run_040/artifacts/solver/SPIO_R040_BO01",
+      "odb_path": "run/run_040/artifacts/solver/SPIO_R040_BO01/SPIO_R040_BO01.odb",
+      "odb_sha256": "8ab162c6c4a243a350df6f05b0358df9047c181d0f294e848216d0ab8a9a2691",
+      "read_safe": true
+    },
+    {
+      "candidate_id": "BO02",
+      "job_name": "SPIO_R040_BO02",
+      "queue_id": "q_224a3c8881144dc7b3d1ffadd3ae773b",
+      "inp_path": "run/run_040/artifacts/candidates/SPIO_R040_BO02/SPIO_R040_BO02.inp",
+      "inp_sha256": "37e371cdd70e3b8098276fde4bd460883f78aec005db40ce6635f14abd6f1214",
+      "working_dir": "run/run_040/artifacts/solver/SPIO_R040_BO02",
+      "odb_path": "run/run_040/artifacts/solver/SPIO_R040_BO02/SPIO_R040_BO02.odb",
+      "odb_sha256": "ccf0f1c2d5b8984005ce2ed6c1b99256855e55760792077c17069418ed21c3be",
+      "read_safe": true
+    },
+    {
+      "candidate_id": "BO03",
+      "job_name": "SPIO_R040_BO03",
+      "queue_id": "q_6190d5cd054847dd9cd0e0de0f85cc5b",
+      "inp_path": "run/run_040/artifacts/candidates/SPIO_R040_BO03/SPIO_R040_BO03.inp",
+      "inp_sha256": "0fd6f413e8c761bd73cc5e98fa547773aa11915eb6aed578a6f3c28d6de936b7",
+      "working_dir": "run/run_040/artifacts/solver/SPIO_R040_BO03",
+      "odb_path": "run/run_040/artifacts/solver/SPIO_R040_BO03/SPIO_R040_BO03.odb",
+      "odb_sha256": "6b9b4209bfc9fc100a67bcbddaa2905458770435447d3692c8e4512a86602b49",
+      "read_safe": true
+    },
+    {
+      "candidate_id": "BO04",
+      "job_name": "SPIO_R040_BO04",
+      "queue_id": "q_87629bc897334b6bba9ca443854ee1e3",
+      "inp_path": "run/run_040/artifacts/candidates/SPIO_R040_BO04/SPIO_R040_BO04.inp",
+      "inp_sha256": "387d6a49a5cbec4e156b2ae23cc7660e3c43fbe36501d4eb60256c745eea95e4",
+      "working_dir": "run/run_040/artifacts/solver/SPIO_R040_BO04",
+      "odb_path": "run/run_040/artifacts/solver/SPIO_R040_BO04/SPIO_R040_BO04.odb",
+      "odb_sha256": "1e74902a9f8fc508ff3cb24cf7d2e4042a370b0b67130ff0f9e2e0ec1322cd19",
+      "read_safe": true
+    },
+    {
+      "candidate_id": "DE01",
+      "job_name": "SPIO_R040_DE01",
+      "queue_id": "q_8ea986fecc744003b63e27e04c561ba4",
+      "inp_path": "run/run_040/artifacts/candidates/SPIO_R040_DE01/SPIO_R040_DE01.inp",
+      "inp_sha256": "cd42c8be8a249d455add3263d2e2a4f715203e371bc5b2c6239dbbe67bc788cb",
+      "working_dir": "run/run_040/artifacts/solver/SPIO_R040_DE01",
+      "odb_path": "run/run_040/artifacts/solver/SPIO_R040_DE01/SPIO_R040_DE01.odb",
+      "odb_sha256": "a85fafa8b961eca7c7594cbba6163a467cba4521c47adab2b29572554f09c694",
+      "read_safe": true
+    },
+    {
+      "candidate_id": "DE02",
+      "job_name": "SPIO_R040_DE02",
+      "queue_id": "q_b7788b9b032340988313061d9a05f3dc",
+      "inp_path": "run/run_040/artifacts/candidates/SPIO_R040_DE02/SPIO_R040_DE02.inp",
+      "inp_sha256": "4c78cd5e7ba258928ff9f1aa02c7c6fa37e9c4cad9f84c60acb99c189cca4d93",
+      "working_dir": "run/run_040/artifacts/solver/SPIO_R040_DE02",
+      "odb_path": "run/run_040/artifacts/solver/SPIO_R040_DE02/SPIO_R040_DE02.odb",
+      "odb_sha256": "8ea9bf31441c6990378cf5788c26af4e0aeb3befc785e235df6cfee1e0347dbd",
+      "read_safe": true
+    },
+    {
+      "candidate_id": "DE03",
+      "job_name": "SPIO_R040_DE03",
+      "queue_id": "q_983e8f5e3e1c4eb699f47d33c0418744",
+      "inp_path": "run/run_040/artifacts/candidates/SPIO_R040_DE03/SPIO_R040_DE03.inp",
+      "inp_sha256": "64693ea3676d7917f1b8dd636f0f0cb3df60d5ca8eef2fb6a8fccb2306d4e563",
+      "working_dir": "run/run_040/artifacts/solver/SPIO_R040_DE03",
+      "odb_path": "run/run_040/artifacts/solver/SPIO_R040_DE03/SPIO_R040_DE03.odb",
+      "odb_sha256": "ec77bf42fcb860c0540842b2ef7248067fda5f85202207f009659a4646cc9578",
+      "read_safe": true
+    },
+    {
+      "candidate_id": "DE04",
+      "job_name": "SPIO_R040_DE04",
+      "queue_id": "q_48f294fd336444169d472bcc7807fa53",
+      "inp_path": "run/run_040/artifacts/candidates/SPIO_R040_DE04/SPIO_R040_DE04.inp",
+      "inp_sha256": "fc399a4d5dd270530634e70189bfccc82018acf4bd57258c0ac72f2cc481fc04",
+      "working_dir": "run/run_040/artifacts/solver/SPIO_R040_DE04",
+      "odb_path": "run/run_040/artifacts/solver/SPIO_R040_DE04/SPIO_R040_DE04.odb",
+      "odb_sha256": "993823ac3366d79dcbe50b586acf9b6496f8d9d414acc1a9c10c63682a55cbdf",
+      "read_safe": true
+    }
+  ],
+  "rules": {
+    "read_only": true,
+    "no_solver_datacheck_enqueue_retry": true,
+    "holdout_access": false,
+    "no_smoothing_zero_shift_crop_extrapolate": true,
+    "null_for_unscoreable": true,
+    "accepted_vs_rejected_warnings_separate": true,
+    "main_independent_review": true
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "at": "2026-10-26T22:41:59.586757+08:00",
+  "run_json_sha256": "249a9d72473ea2dc14b7c5eca5cb03ebc31898c5e8db0ff6ffb6f732cd55cc85",
+  "queue_ids": [
+    "q_02e7827a5c2d41aba1781ec0f36e78a4",
+    "q_5a027a0d764148c08f4d7be36049439f"
+  ],
+  "queue_manifest_sha256": "43fc9d1e54a5d771c4e284672caa8bfe31a9bc74125e8142668c6e41e62a74c5",
+  "started": 0,
+  "consumed_FE_budget": 0,
+  "phase2_executed": false,
+  "stopped_for_user_GUI_start": true
+}

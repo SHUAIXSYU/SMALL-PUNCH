@@ -1,0 +1,127 @@
+{
+  "version": "run052-phase1-evidence-index-v1",
+  "at": "2026-10-26T22:41:59.420544+08:00",
+  "files": [
+    {
+      "path": "run/run_052/artifacts/finalize_phase1.py",
+      "sha256": "2eebe767a2bcedd057ba91f0b097e83a37d6648081f517bd50084341f5ec2bb2",
+      "visibility": "PUBLIC_SCOPE_OR_CODE"
+    },
+    {
+      "path": "run/run_052/artifacts/private/authorization_scope.json",
+      "sha256": "60e120457ad764144c45bee318823743ddb12c2617e164a4a432db234768e278",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_052/artifacts/private/budget_ledger.json",
+      "sha256": "bb8e66c3990bb5790dd29a2fe06ad5d9f74be0c2ade5f83c4581e103e5642dbf",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_052/artifacts/private/confirm_lease.json",
+      "sha256": "b799f642bce728cf54b0a5533c07c26d122654e16c9bb091a39fb15f66b2a4f8",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_052/artifacts/private/final_readback.json",
+      "sha256": "237db3455eead7e31464b8ac25bbec260d79eb86e9e5cad74f9f15e4c944312b",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_052/artifacts/private/git_final.json",
+      "sha256": "1675ad82aab9696ad53ccc96839fb807ef7c191ab5d54edcbef3e3204706162a",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_052/artifacts/private/lease_H01.json",
+      "sha256": "c664ca753e141de92b1f595038c90c5e4d8eb320be813e2881b246790c9feddc",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_052/artifacts/private/lease_H02.json",
+      "sha256": "1725c9a77d7bb40ba20747ad2182598836b19a57b054e3ae2d0340c7bbb24380",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_052/artifacts/private/precheck.json",
+      "sha256": "2903b4d2ca240f77c91b2a72a92ad52b1e3de6ee11c2ff7f943e72f2104c66ce",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_052/artifacts/private/queue_manifest.json",
+      "sha256": "43fc9d1e54a5d771c4e284672caa8bfe31a9bc74125e8142668c6e41e62a74c5",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_052/artifacts/private/queue_receipts/1_H01_receipt.json",
+      "sha256": "b580034e6b0557c1c312838b13823190d6a16016933f938f1c8e1d3f45603bd4",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_052/artifacts/private/queue_receipts/1_H01_request.json",
+      "sha256": "a58242fe09fb70e1c7dc413fe05c4240c04e056e25772cfc9fc346bd757a1154",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_052/artifacts/private/queue_receipts/1_H01_response.json",
+      "sha256": "80b4e9fba490bb232413af4990363ca86b6787791f7eb5a66958b059f6b07160",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_052/artifacts/private/queue_receipts/2_H02_receipt.json",
+      "sha256": "db398cbb6712221d75e62399d406146f582aa2767e5bc3fa708f27e77de5bb2b",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_052/artifacts/private/queue_receipts/2_H02_request.json",
+      "sha256": "380f08bfb49fe4b709078b14cc792457cea4144e0dc39a3c07c1752e6ca4f788",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_052/artifacts/private/queue_receipts/2_H02_response.json",
+      "sha256": "a78d29e62757ccda9f697b135c270f2c9ab2b3f0c778665aed5c8c41474d4676",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_052/artifacts/private/status_before_run052.json",
+      "sha256": "b046fda4bf1a6608f3d9f393a08006393e1ca64fe51aaad2a74668ef005ff15b",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_052/artifacts/private/task_ids.json",
+      "sha256": "7570caca4f44c8cb79cead8d614ba4d0f931191c134b05b367ac15f6c81205b0",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_052/artifacts/queue_hardening.py",
+      "sha256": "9288865eff709e32aa294cd0815661f9cb779f64782ba32ebd17c8fd73b978e4",
+      "visibility": "PUBLIC_SCOPE_OR_CODE"
+    },
+    {
+      "path": "run/run_052/checkpoints/enqueue_started.json",
+      "sha256": "3c052e63188636405ae63306c7a156ee842429b423cc482bd26628837d7661bd",
+      "visibility": "PUBLIC_SCOPE_OR_CODE"
+    },
+    {
+      "path": "run/run_052/checkpoints/start.json",
+      "sha256": "92fcaa0ea2d71011d198c296678a129420a707f5e9c1d7a244bd4c026b6525e6",
+      "visibility": "PUBLIC_SCOPE_OR_CODE"
+    },
+    {
+      "path": "run/run_052/checkpoints/submission_H01.json",
+      "sha256": "0bfa8710084a61823f5d4e777e71c4e290d8200ccce65787cc0cd3440ae92974",
+      "visibility": "PUBLIC_SCOPE_OR_CODE"
+    },
+    {
+      "path": "run/run_052/checkpoints/submission_H02.json",
+      "sha256": "895d774c0a6f226c9107ddc8cd326c59e92ee25e24609cd406831db5f997c6c7",
+      "visibility": "PUBLIC_SCOPE_OR_CODE"
+    },
+    {
+      "path": "run/run_052/summary.md",
+      "sha256": "727549f5e8f680e46e46ef59a82c8e3574fa07532b27cadcec01dfd73ba544f5",
+      "visibility": "PUBLIC_SCOPE_OR_CODE"
+    }
+  ],
+  "excludes": "self/run.json/later Hub receipt and completion checkpoint to avoid cyclic hashes"
+}

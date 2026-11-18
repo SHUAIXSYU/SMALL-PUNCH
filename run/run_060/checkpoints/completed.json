@@ -1,0 +1,13 @@
+{
+  "at": "2026-10-27T22:58:38.269980+08:00",
+  "status": "WARNING",
+  "job_name": "SPIO_R060_I06_M00125",
+  "inp_sha256": "f944338d77fa7798d3546dd51075f149f886a4fd015b37fba28c58878311b906",
+  "manifest_sha256": "599734dbcfc0a809188fd0f58453cf33a3d4923caa7efc4b0bf89d2b7850b3a9",
+  "report_sha256": "99440d67554fd670d9f11a4baee2f03bacdaa2d0abb2c7c8f1906dd283e268c0",
+  "comparison_contract_sha256": "325f5ba7678aa967c972d0e962528b3c3a4a48f10f22510b323a796546671af5",
+  "new_INP": 1,
+  "new_FE": 0,
+  "new_queue": 0,
+  "stopped": true
+}

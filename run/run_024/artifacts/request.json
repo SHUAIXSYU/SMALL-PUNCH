@@ -1,0 +1,22 @@
+{
+  "inp_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_023\\artifacts\\candidates\\SPIO_R023_V01_CTR\\SPIO_R023_V01_CTR.inp",
+  "job_name": "SPIO_R023_V01_CTR",
+  "cpus": 14,
+  "gpus": 0,
+  "batch": "run023_validation_stage1_run024",
+  "strategy": "V01_ONLY",
+  "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_023\\artifacts\\solver\\SPIO_R023_V01_CTR",
+  "submission_mode": "enqueue_only",
+  "allow_solver_submit": false,
+  "metadata": {
+    "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+    "task_id": "7d281a3e-729e-4b4e-96c7-b4128f1f35f3",
+    "inp_sha256": "14006d69c15e6fd4be021b889964e5add51e724d52fd03ff817b0f80b747c2ff",
+    "maximum_attempts": 1,
+    "automatic_retries": 0,
+    "notes": "run024; project_id=b87d2cd6-8519-4ac3-bae6-7eb989fb2dae; task_id=7d281a3e-729e-4b4e-96c7-b4128f1f35f3; inp_sha256=14006d69c15e6fd4be021b889964e5add51e724d52fd03ff817b0f80b747c2ff; max_attempts=1; retries=0; USER GUI START ONLY; V02 gated by PASS_V01_NUMERICAL_QUALIFICATION; AUTO_STOP_UNAVAILABLE"
+  },
+  "run_datacheck": true,
+  "run_full": true,
+  "schema_version": "1.0"
+}

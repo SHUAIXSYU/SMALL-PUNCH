@@ -1,0 +1,9 @@
+{
+  "check": "constant center sign",
+  "state": "FAILED_RESOLVABLE",
+  "passed": 10,
+  "failed": 1,
+  "cause": "float normalization center .24000000000000002 versus .24 yielded nonzero sign at constant baseline",
+  "pre_fix_source_sha256": "9e11ef81695a5954b355817fdf17953cff5563855f3b69bff504b9c58efd3bd6",
+  "correction": "roundoff-only 1e-12 zero tolerance on sign classification; raw predictions unchanged; scientific thresholds unchanged"
+}

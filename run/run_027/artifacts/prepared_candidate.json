@@ -1,0 +1,34 @@
+{
+  "schema": "sp_invopt.single_center_refinement_prepared.v1",
+  "run_id": "run_027",
+  "cae_task_id": "551d73d5-ae9b-4ace-a9f6-30562b6e17a0",
+  "job_name": "SPIO_R027_CTR_M0025",
+  "source_inp_absolute": "E:\\Projects\\SMALL-PUNCH\\run\\run_023\\artifacts\\candidates\\SPIO_R023_V01_CTR\\SPIO_R023_V01_CTR.inp",
+  "source_sha256": "14006d69c15e6fd4be021b889964e5add51e724d52fd03ff817b0f80b747c2ff",
+  "candidate_inp_absolute": "E:\\Projects\\SMALL-PUNCH\\run\\run_027\\artifacts\\candidates\\SPIO_R027_CTR_M0025\\SPIO_R027_CTR_M0025.inp",
+  "candidate_sha256": "dae9345bc60973c27edec498dfbd27f269e1f5bbe151316918862954faac40c9",
+  "working_dir_absolute": "E:\\Projects\\SMALL-PUNCH\\run\\run_027\\artifacts\\solver\\SPIO_R027_CTR_M0025",
+  "parameters": {
+    "sigma_y_mpa": 200,
+    "n": 0.1,
+    "E_pa": 210000000000,
+    "nu": 0.3
+  },
+  "only_input_change": {
+    "keyword": "*Static",
+    "line_one_based": 1468,
+    "before": "0.001, 1., 1e-12, 0.005",
+    "after": "0.001, 1., 1e-12, 0.0025"
+  },
+  "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+  "settings_status": "PERSISTED",
+  "preflight": "PREVIEW_READY",
+  "dry_run": "DRY_RUN_READY",
+  "comparison_contract": "run/run_027/artifacts/comparison_contract.json",
+  "comparison_contract_sha256": "e189ab1551f775f085fc0208e0550784db85fa3b258b6164db1f8a20c148d42a",
+  "queue_id": null,
+  "enqueue_authorized": false,
+  "solver_authorized": false,
+  "solver_state": "NOT_STARTED",
+  "scientific_qualification": "NOT_EVALUATED"
+}

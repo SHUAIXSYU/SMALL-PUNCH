@@ -1,0 +1,163 @@
+{
+  "at": "2026-10-24T18:31:44.237745+08:00",
+  "runtime": {
+    "at": "2026-10-24T18:31:44.218422+08:00",
+    "owner": {
+      "state": "ABSENT",
+      "metadata": null
+    },
+    "recovery": {
+      "status": "CLEAN",
+      "runtime_dir": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime",
+      "owner": {
+        "state": "ABSENT",
+        "metadata": null
+      },
+      "running_queue_ids": [],
+      "live_phase": "IDLE",
+      "lock_files": [],
+      "odb_files": [
+        "E:\\Projects\\SMALL-PUNCH\\run\\run_014\\artifacts\\solver\\SPIO_R014_Q200_N010\\SPIO_R014_Q200_N010.odb",
+        "E:\\Projects\\SMALL-PUNCH\\run\\run_017\\artifacts\\solver\\SPIO_R017_P01_CTR\\SPIO_R017_P01_CTR.odb",
+        "E:\\Projects\\SMALL-PUNCH\\run\\run_020\\artifacts\\solver\\SPIO_R020_L01_SYM\\SPIO_R020_L01_SYM.odb",
+        "E:\\Projects\\SMALL-PUNCH\\run\\run_020\\artifacts\\solver\\SPIO_R020_L02_SYP\\SPIO_R020_L02_SYP.odb",
+        "E:\\Projects\\SMALL-PUNCH\\run\\run_020\\artifacts\\solver\\SPIO_R020_L03_NM\\SPIO_R020_L03_NM.odb",
+        "E:\\Projects\\SMALL-PUNCH\\run\\run_020\\artifacts\\solver\\SPIO_R020_L04_NP\\SPIO_R020_L04_NP.odb",
+        "E:\\Projects\\SMALL-PUNCH\\run\\run_023\\artifacts\\solver\\SPIO_R023_V01_CTR\\SPIO_R023_V01_CTR.odb",
+        "E:\\Projects\\SMALL-PUNCH\\run\\run_027\\artifacts\\solver\\SPIO_R027_CTR_M0025\\SPIO_R027_CTR_M0025.odb"
+      ],
+      "missing_outputs": [],
+      "artifact_observations": [
+        {
+          "queue_id": "q_4c0358a918a7447d807d2f547d22c7b8",
+          "lck_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_014\\artifacts\\solver\\SPIO_R014_Q200_N010\\SPIO_R014_Q200_N010.lck",
+          "odb_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_014\\artifacts\\solver\\SPIO_R014_Q200_N010\\SPIO_R014_Q200_N010.odb",
+          "lck_exists": false,
+          "odb_exists": true,
+          "odb_mtime_ns": 1792592192678944100
+        },
+        {
+          "queue_id": "q_bdec6a60a31849d0a2afe200a70231bd",
+          "lck_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_017\\artifacts\\solver\\SPIO_R017_P01_CTR\\SPIO_R017_P01_CTR.lck",
+          "odb_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_017\\artifacts\\solver\\SPIO_R017_P01_CTR\\SPIO_R017_P01_CTR.odb",
+          "lck_exists": false,
+          "odb_exists": true,
+          "odb_mtime_ns": 1792768858629064000
+        },
+        {
+          "queue_id": "q_7158d0dad2bd46199a24799701899cf0",
+          "lck_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_020\\artifacts\\solver\\SPIO_R020_L01_SYM\\SPIO_R020_L01_SYM.lck",
+          "odb_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_020\\artifacts\\solver\\SPIO_R020_L01_SYM\\SPIO_R020_L01_SYM.odb",
+          "lck_exists": false,
+          "odb_exists": true,
+          "odb_mtime_ns": 1792826605449680500
+        },
+        {
+          "queue_id": "q_9c905ac50611446eb4bb828619eb8a2f",
+          "lck_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_020\\artifacts\\solver\\SPIO_R020_L02_SYP\\SPIO_R020_L02_SYP.lck",
+          "odb_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_020\\artifacts\\solver\\SPIO_R020_L02_SYP\\SPIO_R020_L02_SYP.odb",
+          "lck_exists": false,
+          "odb_exists": true,
+          "odb_mtime_ns": 1792826783419206300
+        },
+        {
+          "queue_id": "q_6e02167dcd0b494ca07c847c7909c86c",
+          "lck_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_020\\artifacts\\solver\\SPIO_R020_L03_NM\\SPIO_R020_L03_NM.lck",
+          "odb_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_020\\artifacts\\solver\\SPIO_R020_L03_NM\\SPIO_R020_L03_NM.odb",
+          "lck_exists": false,
+          "odb_exists": true,
+          "odb_mtime_ns": 1792826969281099000
+        },
+        {
+          "queue_id": "q_bbaaeda7491a4a60b237879bd755c247",
+          "lck_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_020\\artifacts\\solver\\SPIO_R020_L04_NP\\SPIO_R020_L04_NP.lck",
+          "odb_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_020\\artifacts\\solver\\SPIO_R020_L04_NP\\SPIO_R020_L04_NP.odb",
+          "lck_exists": false,
+          "odb_exists": true,
+          "odb_mtime_ns": 1792827129538107800
+        },
+        {
+          "queue_id": "q_602fa04221884dc7b200d670c610c385",
+          "lck_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_023\\artifacts\\solver\\SPIO_R023_V01_CTR\\SPIO_R023_V01_CTR.lck",
+          "odb_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_023\\artifacts\\solver\\SPIO_R023_V01_CTR\\SPIO_R023_V01_CTR.odb",
+          "lck_exists": false,
+          "odb_exists": true,
+          "odb_mtime_ns": 1792830352891161800
+        },
+        {
+          "queue_id": "q_6919f51c551844b4bcda1cc22b9a6bc4",
+          "lck_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_027\\artifacts\\solver\\SPIO_R027_CTR_M0025\\SPIO_R027_CTR_M0025.lck",
+          "odb_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_027\\artifacts\\solver\\SPIO_R027_CTR_M0025\\SPIO_R027_CTR_M0025.odb",
+          "lck_exists": false,
+          "odb_exists": true,
+          "odb_mtime_ns": 1792835519344131500
+        },
+        {
+          "queue_id": "q_c8329bd4fab4455f924d211d62ba0625",
+          "lck_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_030\\artifacts\\solver\\SPIO_R030_I01_G\\SPIO_R030_I01_G.lck",
+          "odb_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_030\\artifacts\\solver\\SPIO_R030_I01_G\\SPIO_R030_I01_G.odb",
+          "lck_exists": false,
+          "odb_exists": false,
+          "odb_mtime_ns": null
+        }
+      ],
+      "solver_process": "UNKNOWN",
+      "process_evidence": {
+        "state": "UNCONFIRMED",
+        "reason": "missing or invalid process evidence"
+      },
+      "report_count": 9,
+      "report_terminal_evidence": [],
+      "history_disagreements": [],
+      "errors": []
+    },
+    "process_conflicts": []
+  },
+  "status": {
+    "status": "QUEUED",
+    "job_id": "q_c8329bd4fab4455f924d211d62ba0625",
+    "inp_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_030\\artifacts\\candidates\\SPIO_R030_I01_G\\SPIO_R030_I01_G.inp",
+    "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_030\\artifacts\\solver\\SPIO_R030_I01_G",
+    "expected_odb_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_030\\artifacts\\solver\\SPIO_R030_I01_G\\SPIO_R030_I01_G.odb",
+    "odb_exists": false,
+    "lock_exists": false,
+    "status_sources": [
+      "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime\\queue.json"
+    ],
+    "last_log_lines": [],
+    "errors": [],
+    "warnings": [],
+    "schema_version": "1.0",
+    "error_details": []
+  },
+  "outputs": {
+    "job_id": "q_c8329bd4fab4455f924d211d62ba0625",
+    "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_030\\artifacts\\solver\\SPIO_R030_I01_G",
+    "expected_odb_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_030\\artifacts\\solver\\SPIO_R030_I01_G\\SPIO_R030_I01_G.odb",
+    "odb_exists": false,
+    "lock_exists": false,
+    "log_paths": [
+      "E:\\Projects\\SMALL-PUNCH\\run\\run_030\\artifacts\\solver\\SPIO_R030_I01_G\\SPIO_R030_I01_G.log",
+      "E:\\Projects\\SMALL-PUNCH\\run\\run_030\\artifacts\\solver\\SPIO_R030_I01_G\\SPIO_R030_I01_G.sta",
+      "E:\\Projects\\SMALL-PUNCH\\run\\run_030\\artifacts\\solver\\SPIO_R030_I01_G\\SPIO_R030_I01_G.msg",
+      "E:\\Projects\\SMALL-PUNCH\\run\\run_030\\artifacts\\solver\\SPIO_R030_I01_G\\SPIO_R030_I01_G.dat"
+    ],
+    "sta_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_030\\artifacts\\solver\\SPIO_R030_I01_G\\SPIO_R030_I01_G.sta",
+    "msg_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_030\\artifacts\\solver\\SPIO_R030_I01_G\\SPIO_R030_I01_G.msg",
+    "dat_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_030\\artifacts\\solver\\SPIO_R030_I01_G\\SPIO_R030_I01_G.dat",
+    "lck_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_030\\artifacts\\solver\\SPIO_R030_I01_G\\SPIO_R030_I01_G.lck",
+    "path_sources": {
+      "odb_path": "recorded",
+      "sta_path": "recorded",
+      "msg_path": "recorded",
+      "dat_path": "recorded",
+      "log_path": "recorded",
+      "lck_path": "expected"
+    },
+    "errors": [],
+    "warnings": [],
+    "schema_version": "1.0",
+    "error_details": []
+  },
+  "no_solver_or_datacheck_start": true
+}

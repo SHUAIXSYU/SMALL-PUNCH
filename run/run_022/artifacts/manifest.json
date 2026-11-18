@@ -1,0 +1,114 @@
+{
+  "files": [
+    {
+      "path": "run/run_022/artifacts/private/main_report.md",
+      "sha256": "20b9b83317d0af33602a4244ce26a8a4fdac44d0095450a2a0a4b151cd558cca",
+      "private": true
+    },
+    {
+      "path": "run/run_022/artifacts/private/main_odb_acceptance.json",
+      "sha256": "6f2064c7eeae96638c5aa7995acd947b05fb4ffed3b33923204dce8a9e5ab805",
+      "private": true
+    },
+    {
+      "path": "run/run_022/artifacts/private/final_integrity.json",
+      "sha256": "b88d61a34f573463bcdd7262b51a9e47b03d4585bb1c29c83b0c038aff14a0c7",
+      "private": true
+    },
+    {
+      "path": "run/run_022/artifacts/private/main_material_identity.json",
+      "sha256": "81e0e2805b6eca6d689fc0ef2b0243c30067d8bbd669fe1ad0ca23d197839e0c",
+      "private": true
+    },
+    {
+      "path": "run/run_022/artifacts/private/center_recheck.json",
+      "sha256": "e4cbb9aae120626b39a08271ad90735c5fc0a6bbfafd61ee95cb914cfcaad7f2",
+      "private": true
+    },
+    {
+      "path": "run/run_022/artifacts/private/execution_audit_completed.json",
+      "sha256": "9f777026c12a2d1bcc45d54fe5818f2d71b103ba7b4be60a754f7adb12c12df4",
+      "private": true
+    },
+    {
+      "path": "run/run_022/artifacts/private/reviewed_fd_inputs.json",
+      "sha256": "aaa0188af08270528f8513e7e8ec9e7d1ea6994faf9565e9d94f98a99e8f704b",
+      "private": true
+    },
+    {
+      "path": "run/run_022/artifacts/sensitivity_math_checks.json",
+      "sha256": "43ca38b69d25d1deaf4abcbdd5b68ddab264ce480d88e6936b7c7f5893d147b7",
+      "private": false
+    },
+    {
+      "path": "run/run_022/artifacts/analyze.py",
+      "sha256": "da2be8fd4dad3344bd52f905faa8b95700384f95293c5c035448ff24b151468e",
+      "private": false
+    },
+    {
+      "path": "run/run_022/artifacts/finalize.py",
+      "sha256": "7e81459aa5eef7b35f48fce661199169aeb63b20f98153f759a6e5c4337ad625",
+      "private": false
+    },
+    {
+      "path": "run/run_022/run.json",
+      "sha256": "e4c4af14ec54f964dc974138fffdd22c406149ab2e30fa537db881857268abfa",
+      "private": false
+    },
+    {
+      "path": "run/run_022/summary.md",
+      "sha256": "97ff7e5a8e4fba48b763e79b91611b6b69f097f52415a4baff3166d42c0fc9d4",
+      "private": false
+    },
+    {
+      "path": "run/run_022/artifacts/private/analysis/aligned_curves.csv",
+      "sha256": "47b37b3b0812761a0cbfc831468de3cb6324ff12352e0759f043cfa86a560f87",
+      "private": true
+    },
+    {
+      "path": "run/run_022/artifacts/private/analysis/center_differences.png",
+      "sha256": "8701f715f9f2a932d85c1bcfd0f970eaedb8662fed08c6f738c09410421ff4c6",
+      "private": true
+    },
+    {
+      "path": "run/run_022/artifacts/private/analysis/fd_overlay.png",
+      "sha256": "6efa10b6c98df984e579a287dd3411f8991df94c1cdf25c41506e05cbe7af9ef",
+      "private": true
+    },
+    {
+      "path": "run/run_022/artifacts/private/analysis/loss_comparison.csv",
+      "sha256": "01d0ba0ced36ec66c413daf2016b4ac87bbf905b507650e6aad9330cba7f3eda",
+      "private": true
+    },
+    {
+      "path": "run/run_022/artifacts/private/analysis/loss_comparison.png",
+      "sha256": "f1a9bce917520cfea9c273666a2c18b833dadc91ac29203cc2ec5225eab75147",
+      "private": true
+    },
+    {
+      "path": "run/run_022/artifacts/private/analysis/loss_results.json",
+      "sha256": "18baf12e2fc95776357223020d830d6d93f9ed70ddf0761cd87e083154be8e1a",
+      "private": true
+    },
+    {
+      "path": "run/run_022/artifacts/private/analysis/numerical_audit.json",
+      "sha256": "0abd09a1ea6ee34218d69bf90766d286117cf3f8f01e23e0e64c9bea79223142",
+      "private": true
+    },
+    {
+      "path": "run/run_022/artifacts/private/analysis/sensitivities.csv",
+      "sha256": "86bb2cee96c87285177e528c6be8d700b4c1ad7ae0ac16beda77a8bc6e9533ca",
+      "private": true
+    },
+    {
+      "path": "run/run_022/artifacts/private/analysis/sensitivity.json",
+      "sha256": "c33dfd3c19358ebfe81ea4ab140dc26ee5efa8fb283ba4727f205904e957c701",
+      "private": true
+    },
+    {
+      "path": "run/run_022/artifacts/private/analysis/sensitivity.png",
+      "sha256": "5e79f2ee509ff08fe979a41839241ad5ff00198d8395c08ae3a47318b5dc37cf",
+      "private": true
+    }
+  ]
+}

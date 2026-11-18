@@ -1,0 +1,8 @@
+{
+  "at": "2026-10-24T17:20:04.848347+08:00",
+  "status": "WARNING_OFFLINE_PREPARED_ONLY",
+  "cae_task_id": "551d73d5-ae9b-4ace-a9f6-30562b6e17a0",
+  "main_task_id": "4c055b2b-1abb-4669-9394-677617cd0cee",
+  "candidate_sha256": "dae9345bc60973c27edec498dfbd27f269e1f5bbe151316918862954faac40c9",
+  "queue_id": null
+}

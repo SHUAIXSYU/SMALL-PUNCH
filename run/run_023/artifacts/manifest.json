@@ -1,0 +1,104 @@
+{
+  "created_at": "2026-10-24T16:04:44.858872+08:00",
+  "files": [
+    {
+      "path": "run/run_023/artifacts/prepared_batch.json",
+      "sha256": "626b7afbb37894d6d7ca384d2a3b02e01c3b0083a2878918e492527804dc4435",
+      "private": false
+    },
+    {
+      "path": "run/run_023/artifacts/cae_candidate_manifest.json",
+      "sha256": "c7662f4589c91dc1d7f86feedd09af854fa6124b0f15a0757e0dc95fa665f4c8",
+      "private": false
+    },
+    {
+      "path": "run/run_023/artifacts/comparison_contract_identity.json",
+      "sha256": "517eb9ff20e9aab76ae3d0a9c2fe0a28542fe43a6146294cebb80892ce47f397",
+      "private": false
+    },
+    {
+      "path": "run/run_023/artifacts/compare_validation.py",
+      "sha256": "0a8e9d70716385292153613d8ca823f956b6142c2acaa67e8903fa2565a82a36",
+      "private": false
+    },
+    {
+      "path": "run/run_023/artifacts/test_compare_validation.py",
+      "sha256": "c85051b0c1ca2df4c3510f09b6a94cb0341630ac7d1da3ad352a20a236e9328c",
+      "private": false
+    },
+    {
+      "path": "run/run_023/artifacts/preview_batch.py",
+      "sha256": "56664948a2dabc55f3f9588b9a92e112e93b3f929398b728c032155f9d14399b",
+      "private": false
+    },
+    {
+      "path": "run/run_023/artifacts/settings_verification.json",
+      "sha256": "de73ca381809c8ec6e1d7b1ed036d8dac37af592ec018083c688ab8760ed834e",
+      "private": false
+    },
+    {
+      "path": "run/run_023/artifacts/task_dispatch.json",
+      "sha256": "3457b5c8d574657a1cbac96ae7cd8767bf4b3de2f7cede7c98afb04d880070ba",
+      "private": false
+    },
+    {
+      "path": "run/run_023/artifacts/private/main_report.md",
+      "sha256": "ebea5361322a698ffce24117025842408cba25d674a58724a003547022d57fa2",
+      "private": true
+    },
+    {
+      "path": "run/run_023/artifacts/private/comparison_contract.json",
+      "sha256": "2a4a50ab116b979d7b3263768e83be8cc9f8bf4e1c1cb042baadb74b178b0a17",
+      "private": true
+    },
+    {
+      "path": "run/run_023/artifacts/private/baseline_diagnostic_contract.json",
+      "sha256": "3f52f33d1f29774f224d6fe8cae464ff56857e29ae51ac05fefd8186ffa57b30",
+      "private": true
+    },
+    {
+      "path": "run/run_023/artifacts/private/baseline_contract_check.json",
+      "sha256": "23e263b3cb7da93deb5299f21221ed4fbd95bd82fb7b120924d0be288fc69766",
+      "private": true
+    },
+    {
+      "path": "run/run_023/artifacts/private/comparison_tests.txt",
+      "sha256": "7755aa4343084466e760c79dcf46a37658a80a5b90a13160c75fd5bcce7dd50d",
+      "private": true
+    },
+    {
+      "path": "run/run_023/artifacts/private/main_agent_acceptance.json",
+      "sha256": "aee80c512754a1ff14d27794a1e6a2ddd2504d64aaef332be651673c3393925f",
+      "private": true
+    },
+    {
+      "path": "run/run_023/artifacts/private/final_integrity.json",
+      "sha256": "e2c70ae0c4cfb1fc3c1e6663c06411962c82ea0c6da40c18d60d392f4cd9f699",
+      "private": true
+    },
+    {
+      "path": "run/run_023/artifacts/private/preview_integrity.json",
+      "sha256": "e2f7bea02fb52e54aec7eaaf0df97a3289592456a5a44857f089a4731f0ae29f",
+      "private": true
+    },
+    {
+      "path": "run/run_023/artifacts/private/next_16_job_plan.md",
+      "sha256": "272bd2f5fab46f652f6c01d9990a345179f4114b88f725d6a2bf0086a8179e36",
+      "private": true
+    },
+    {
+      "path": "run/run_023/artifacts/private/numerical_audit_overview.png",
+      "sha256": "b64ab8ae852d2fdba0d28c2c221a2968b8a028ae2098c2b1111bb48a26d7f79d",
+      "private": true
+    },
+    {
+      "path": "run/run_023/summary.md",
+      "sha256": "045c90703185b7cbf52297d48b4b8264b0a42fae2025179c9cc92a72f03167d3",
+      "private": false
+    }
+  ],
+  "worker_manifests": [
+    "run/run_023/artifacts/cae_candidate_manifest.json",
+    "run/run_023/artifacts/private/odb_audit/manifest.json"
+  ]
+}

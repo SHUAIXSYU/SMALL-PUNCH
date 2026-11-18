@@ -1,0 +1,27 @@
+{
+  "point_tasks": {
+    "I03": "bbd4fccc-5d8e-4724-8bf3-ecafa701bb70",
+    "I04": "affd069f-1d93-4cec-941a-7d9e8adbfa07",
+    "I05": "b8118d2f-3650-4cf4-b361-c80f2d6850d5",
+    "I06": "79122fee-3a61-45b3-89cf-5bc86d408ea0",
+    "I07": "05336fba-b84f-443d-b681-7f2dda7e318c",
+    "I08": "4309db8e-403d-4e16-b1c2-4388d6b9dd82",
+    "D01": "9f4d8af4-6ac3-463b-a05c-e675284a4c98",
+    "D08": "b11e809a-5a8a-4dd3-8484-f241d00e1ea2",
+    "D02": "43f395ea-6895-4431-aa4b-7df0a01c1dce",
+    "D09": "a04dbf03-ea31-4cdf-854a-c15c09318f3d",
+    "D03": "399af868-fbd3-45d3-9866-a743c0616bd3",
+    "D10": "a8f18b2e-58a3-401b-bb82-6f8cb076a2ad",
+    "D04": "1df1a2a0-4f2f-4035-9c89-c1bb719a2476",
+    "D11": "10cece8d-82e4-4873-96d6-1f733216675a",
+    "D05": "d4665e65-d451-4bbe-8b0d-36244c1938a3",
+    "D12": "a55900cd-541e-4192-811b-11d00eefd7ac",
+    "D06": "79ea635b-39d2-4321-b171-294a26d2d74a",
+    "D13": "c2dcb43b-ab8e-44c7-8350-507eeb3e16fc",
+    "D07": "bab06c5b-2dcf-4c6d-ac20-65a2ae2d2ee7",
+    "D14": "b74129d5-40f5-408d-bc1e-df3d99c4fad7"
+  },
+  "batch_confirm_task_id": "cdee3b18-c8a3-463e-8b3d-ebef01dc732f",
+  "budget_task_id": "9170d590-8b7b-4d6e-8293-f090c56b7d66",
+  "review_task_id": "ee2e3612-5c56-4dfa-8e5b-9f5acd4e86d1"
+}

@@ -1,0 +1,65 @@
+{
+  "version": "run063-final-artifacts-v1",
+  "files": [
+    {
+      "path": "run/run_063/artifacts/private/scientific_report.md",
+      "role": "offline analysis evidence",
+      "private": true,
+      "sha256": "1ff006128eb0dd3c88b1a4d31f8dd3a91f0de52ecf83c25b23b14cb4720b3a2d"
+    },
+    {
+      "path": "run/run_063/artifacts/private/direction_analysis.json",
+      "role": "offline analysis evidence",
+      "private": true,
+      "sha256": "9ad9f9811c54c54aa43d499070533ae0ecb8f3f081d70d115c2a877a8d7173ce"
+    },
+    {
+      "path": "run/run_063/artifacts/private/band_SVD_analysis.json",
+      "role": "offline analysis evidence",
+      "private": true,
+      "sha256": "a9f1b69bfcc17d1da645e7ebc1afdb4fb6bf538bb7de100b50eca34abc041a99"
+    },
+    {
+      "path": "run/run_063/artifacts/private/view_SVD_comparison.json",
+      "role": "offline analysis evidence",
+      "private": true,
+      "sha256": "44a401bb332ff12557ced0455be42ede142577cb07fdb3b7ea713a5c9ed4d162"
+    },
+    {
+      "path": "run/run_063/artifacts/private/scenario_parameter_sensitivity.csv",
+      "role": "offline analysis evidence",
+      "private": true,
+      "sha256": "16594a30eada3bdc96472936afc1ac1075ba6bd726cfaefc21d72da83096cce1"
+    },
+    {
+      "path": "run/run_063/artifacts/private/minimal_future_FE_proposal.json",
+      "role": "offline analysis evidence",
+      "private": true,
+      "sha256": "742cc647bf640c11c25c760c945dff4168e2ba10eb73e42cc0662f45343e5a7a"
+    },
+    {
+      "path": "run/run_063/artifacts/private/scientific_status.json",
+      "role": "offline analysis evidence",
+      "private": true,
+      "sha256": "f27dedddc20010d9487ef9b33df3144f8887f4f4518f80283b1f50d8be00e5ff"
+    },
+    {
+      "path": "run/run_063/artifacts/private/source_manifest.json",
+      "role": "offline analysis evidence",
+      "private": true,
+      "sha256": "d2b960bb7cc763bcbdacbcda857b7af295a8a493ed142106f5cd32cc3c3bcedd"
+    },
+    {
+      "path": "run/run_063/artifacts/private/evidence_manifest.json",
+      "role": "offline analysis evidence",
+      "private": true,
+      "sha256": "6c7dc664efd4966af4e07f7e80379b6f2c5312d4239285a7fe600443a91c49d3"
+    },
+    {
+      "path": "run/run_063/artifacts/private/agenthub_completion_receipt.json",
+      "role": "offline analysis evidence",
+      "private": true,
+      "sha256": "8994a8bb3e8b8271bd6c32de2508089fdde55ee02bf23e2cc43ee89fd78faece"
+    }
+  ]
+}

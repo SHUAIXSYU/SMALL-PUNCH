@@ -1,0 +1,32 @@
+{
+  "version": "run051-exploratory-hardening-intent-v1",
+  "at": "2026-10-26T22:05:50.866524+08:00",
+  "reference": "exact deployed D01 piecewise-linear stress-plastic table, not a regenerated analytic low-strain table",
+  "p_switch": "0.10 - frozen analytic D01 sigma(true_total=0.10)/E; never use measured tensile stress or run050 illustrative experimental marker",
+  "amplitude_a": 0.5,
+  "settled_hardening_multipliers": {
+    "H01": 0.5,
+    "H02": 1.5
+  },
+  "transition_width_plastic_strain": 0.05,
+  "ramp": "S(t)=6t^5-15t^4+10t^3 clipped to0/1 outside t in[0,1]",
+  "formula": "sigma_H(p)=sigma_D01_deployed(p) +/- a*integral_p_switch^p S((q-p_switch)/width)*H_D01_deployed(q)dq; unchanged for p<=p_switch",
+  "selection_basis": "predeclared symmetric +/-50% hardening-rate scenario: positive minimum tangent; 3:1 separation of settled rates; gradual0.05 transition. Engineering sensitivity amplitude, NOT inferred from tensile or a physical confidence envelope",
+  "interpolation_relative_error_bound": 1e-05,
+  "coverage": [
+    0,
+    0.9
+  ],
+  "low_rows": "preserve original INP material-row text below switch; only add a mathematically collinear switch row if needed",
+  "continuity_scope": "new modulation joins with equal tangent at switch; baseline piecewise-table slope jumps remain; Abaqus table remains piecewise linear",
+  "future_numeric_controls": {
+    "initial_increment": 0.001,
+    "maximum_increment": 0.00125,
+    "minimum_increment": 1e-12,
+    "step_time": 1,
+    "maximum_increments": 999999,
+    "cpus": 14,
+    "gpus": 0
+  },
+  "authorization": "prepare up to2 INP only;0 solver/datacheck/queue"
+}

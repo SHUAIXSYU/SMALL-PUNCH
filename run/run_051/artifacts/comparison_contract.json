@@ -1,0 +1,92 @@
+{
+  "version": "run051-highp-hardening-sensitivity-comparison-v1",
+  "frozen_at": "2026-10-26T22:10:44.644181+08:00",
+  "status": "FROZEN_BEFORE_SOLVE",
+  "baseline_job": "run/run_043/artifacts/solver/SPIO_R043_V_D01_M00125/SPIO_R043_V_D01_M00125.odb",
+  "baseline_odb_sha256": "f857629c1f4d06e30e2019fca91cb0c96fc91f1ebc8f68a2740ca7bdcd239472",
+  "baseline_result_path": "run/run_045/artifacts/private/odb/D01/result.json",
+  "baseline_fd_path": "run/run_045/artifacts/private/odb/D01/force_displacement.csv",
+  "baseline_fd_sha256": "0b971b61dacff22d162ea111828edbc7020689e17bc83d4c0a07518ceded2d24",
+  "baseline_SPT_loss": 0.0005020002745645833,
+  "material_contract_path": "run/run_051/artifacts/material_contract.json",
+  "material_contract_sha256": "9073d8170db2b9febb6108749e4a0ab2994db54779acf382c0f36425e22faaaa",
+  "loss_binding": {
+    "version": "run017-exploratory-fd-v1",
+    "loss_identity_path": "run/run_017/artifacts/loss_contract_identity.json",
+    "loss_identity_sha256": "61100c366dc7b307c7e2384fccfcf7321269dde0768aada4a93a629309b6f3a5",
+    "config_path": "run/run_017/artifacts/private/loss_contract.json",
+    "config_sha256": "8929c6528c305ea67ae31f46af2d3d8048f8ef64b3f953cfe9ac7b60afe752f4",
+    "target_path": "run/run_017/artifacts/private/canonical_fd_source_confirmed.csv",
+    "target_sha256": "677ead1f0c5618c974ae037b8b292e3274db36add87f0c0d3aac55cd3d47a8bc",
+    "implementation_path": "inverse/fd_loss.py",
+    "implementation_sha256": "48d8d900f9eb453bdf1c896fea734c589ca8ab22d47e9dd98b165353ee794fb0",
+    "source_rows": 339,
+    "window_m": [
+      0,
+      0.0012
+    ],
+    "points": 241,
+    "F_ref_n": 1428.9,
+    "weights": "equal",
+    "interpolation": "linear FE to fixed experimental grid; no extrapolation",
+    "sign": "u=-Punch RP U2, F=-Punch RP RF2; experimental signs unchanged",
+    "zero_shift": 0,
+    "compliance_recorrection": false,
+    "score_status": "EXPLORATORY_PROVISIONAL; not physical validation"
+  },
+  "comparison_implementation_path": "run/run_023/artifacts/compare_validation.py",
+  "comparison_implementation_sha256": "0a8e9d70716385292153613d8ca823f956b6142c2acaa67e8903fa2565a82a36",
+  "FD_grid": "fixed experimental0–1.2mm,241points,linear interpolation,no extrapolation/shift/smoothing/deletion",
+  "FD_bands_mm": [
+    [
+      0,
+      0.3
+    ],
+    [
+      0.3,
+      0.6
+    ],
+    [
+      0.6,
+      0.9
+    ],
+    [
+      0.9,
+      1.2
+    ]
+  ],
+  "metrics": [
+    "frozen Loss,RMSE_to_experiment,NRMSE",
+    "deltaFD_RMSE,max_abs_and_location,signed_bias,regularized_relative_with71.445N_floor",
+    "deltaLoss",
+    "maximum PEEQ and actual table coverage",
+    "direct ALLPD and reference/current IP-volume distributions",
+    "cumulative-region vs increment-by-strain energy with thresholds actual p_switch,.1,.3,.5",
+    "contact footprint/CPRESS/COPEN sentinel treatment,1.10–1.16mm raw accepted frame review",
+    "cutback,accepted/rejected warnings,solve wall-clock and allocated CPU cost"
+  ],
+  "causal_scope": "only high-p material changes; significant response implies sensitivity to this continuation, not unique cause of experimental error",
+  "numerical_vs_sensitivity": "old refinement small-difference PASS thresholds are NOT acceptance thresholds on intentional material response changes",
+  "descriptive_effect_flags": {
+    "FD_RMSE_over_N": 2,
+    "FD_max_over_N": 7.1445,
+    "use": "predeclared engineering effect flags, not statistical significance, physical accuracy, guaranteed numerical error bound or new model numerical PASS"
+  },
+  "baseline_observed_adjacent_increment_changes": {
+    "rmse_N": 0.3383060028573848,
+    "max_abs_N": 1.8028578477856172,
+    "deltaLoss": -4.1638053551687915e-06,
+    "not_parameter_domain_error_bound": true
+  },
+  "eligibility": [
+    "Datacheck and Full actual complete identities and readable safe ODB",
+    "full fixed window coverage",
+    "max savedPEEQ within actual0-.9 table",
+    "no unexplained accepted-state strain/contact instability or substantial force recoil",
+    "local response changes must be compared with warnings,energy and contact history; outcome may remain inconclusive without further numerical qualification"
+  ],
+  "failure_rule": "keep failed/unknown/unscoreable Loss=null,started attempt consumed,no auto retry or extra candidate",
+  "if_both_low_sensitivity": "only this +/-50% tangent and switch/width is screened; prioritize measured fixture-boundary uncertainty before more same-model parameter valley points, then orthogonal identification if justified",
+  "physical_bounds": "no claim that engineered upper/lower rates are confidence bounds",
+  "authorization": "no solver/datacheck/enqueue in run051"
+}

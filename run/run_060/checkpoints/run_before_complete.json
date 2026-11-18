@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_060",
+  "stage": "I06 numerical resolution qualification preparation",
+  "objective": "one max increment .00125 candidate and frozen weak-signal comparison; no execution",
+  "status": "RUNNING",
+  "start_time": "2026-10-27T22:55:12.202077+08:00",
+  "end_time": null,
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "git_branch": "main",
+  "git_head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+  "inputs": [],
+  "outputs": [],
+  "validation": [],
+  "errors": []
+}

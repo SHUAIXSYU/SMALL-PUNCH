@@ -1,0 +1,117 @@
+"""Research designs and evidence-class report; no inputs or material parameters fitted."""
+from pathlib import Path
+import json,hashlib,math,csv
+R=Path(r'E:\Projects\SMALL-PUNCH');P=R/'run/run_049/artifacts/private'
+def read(p):return json.loads(p.read_text(encoding='utf-8-sig'))
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+def save(p,v):
+ with p.open('x',encoding='utf-8') as f:json.dump(v,f,ensure_ascii=False,indent=2,allow_nan=False);f.write('\n')
+a=read(P/'analysis.json');sources=[
+ {'title':'Models for Metals Subjected to Cyclic Loading (isotropic hardening component only)','url':'https://docs.software.vt.edu/abaqusv2025/English/SIMACAEMATRefMap/simamat-c-hardening.htm','type':'official SIMULIA technical documentation','use':'mathematical exponential isotropic hardening form; no new cyclic/kinematic calibration or transfer of example constants'},
+ {'title':'A plasticity model describing yield-point phenomena of steels and its application to FE simulation of temper rolling','doi':'10.1016/j.ijplas.2008.05.004','url':'https://www.sciencedirect.com/science/article/pii/S0749641908000806','type':'original research abstract','use':'yield-point/Luders mechanisms can require additional internal variables; not evidence of these mechanisms in current SA508 and no parameter transfer'},
+ {'title':'Study of the upper die clamping conditions in the small punch test','doi':'10.1016/j.tafmec.2016.07.012','url':'https://dsp.tecnalia.com/items/15350707-cb2e-4817-b439-539bc682f0f3','type':'authors institutional repository original research metadata/abstract','use':'small upper-die influence found for tested P22 conditions; cautions against presuming boundary effects always dominate'},
+ {'title':'Small punch tensile testing of curved specimens: Finite element analysis and experiment','doi':'10.1016/j.ijmecsci.2016.11.029','url':'https://doi.org/10.1016/j.ijmecsci.2016.11.029','type':'original research abstract','use':'clamping can affect yield-stress estimation and friction affects response in their specimens; no transfer of recommended friction values'},
+ {'title':'Application of Digital Image Correlation to Small Punch Test for Determination of Stress–Strain Properties','doi':'10.1007/s12666-024-03442-5','url':'https://link.springer.com/article/10.1007/s12666-024-03442-5','type':'open-access original research','use':'supports full-field deformation as additional information beyond a single force-displacement trace; no importing dimensions, friction, torque or scatter as project truth'}]
+save(P/'primary_method_sources.json',sources)
+models=[
+ {'id':'M0_FROZEN_CONTROL','name':'current candidate elastic + true-total Hollomon','formula':'sigma=E*epsilon to epsilon_y=sigma_y/E; otherwise sigma_y*(E*epsilon/sigma_y)^n; p=epsilon-sigma/E','plastic_parameters':2,'fit_now':False,'limitations':['strictly positive hardening derivative for n>0, no finite perfectly plastic plateau','coupled initial yield and total-strain hardening','high-p extrapolation not experimentally qualified']},
+ {'id':'M1_PLATEAU_POST_VOCE','name':'native monotone J2 flow-stress table with plateau/weak-hardening segment then exponential hardening','formula':'sigma(p)=sigma0+H_L*p for 0<=p<=pL; sigma0+H_L*pL+Q*(1-exp(-b*(p-pL))) for p>pL','candidate_parameters':['sigma0','pL','Q','b'],'H_L_policy':'zero as idealized plateau, or independently constrained weak tangent; not another free SPT-only fitting variable by default','constraints':['sigma0>0','pL>=0','Q>0','b>0','H_L>=0','stress continuous; transition tangent reviewed'],'risk':['more unknowns worsen identifiability','saturation beyond traceable tensile p range is an untested extrapolation','plateau tangent may affect numerical robustness; any smoothing requires new declared contract'],'fit_now':False,'candidate_constants':None,'preferred_first_model_form_prototype':True},
+ {'id':'M2_FIXED_KNOT_TABLE','name':'plateau plus minimal post-plateau piecewise-linear isotropic hardening','formula':'flow stresses at a small set of p knots selected before calibration; nondecreasing sigma; first p=0','parameters':'plateau stress/extent plus at most two independently justified post-plateau anchors initially','risk':['not arbitrary node-by-node table fitting','knots outside observed uniform p domain require separate evidence','interpolation/knot number and numerical controls frozen before any new comparison'],'fit_now':False,'candidate_constants':None},
+ {'id':'M3_YIELD_POINT_INTERNAL_VARIABLE','name':'dislocation/yield-point model only if upper-yield drop or band propagation is essential','basis':'Yoshida et al.2008 original yield-point framework as research reference, not a ready SA508 model','risk':['requires rate/localization and spatial evidence','softening localization may require objective regularization/mesh study','far higher parameter and implementation burden'],'first_stage_recommended':False,'fit_now':False,'candidate_constants':None}]
+save(P/'candidate_model_families.json',models)
+plan={'version':'run049-proposed-mechanism-study-v1','status':'DESIGN_ONLY_NO_EXECUTION_AUTHORIZATION','frozen_originals_retained':['run046','run047','run048'],'formal_independent_validation':'NOT_EVALUABLE',
+ 'stage0':{'new_FE_budget':0,'actions':['obtain missing processing/material/fixture records without re-auditing all Excel/OPJU','from existing ODB review spatial extent, reference-volume weighting or plastic-work distribution above conditional p~.097; IVOL not requested in current INP, so never invent volume fractions','check clamp reaction balance/draw-in outputs where available; absence of measured clamp contact cannot be inferred from the old fixed-node solution','symbolically review model forms, no parameter fit or new table generation']},
+ 'C_first_computational_screen':{'maximum_new_jobs_if_separately_authorized':2,'baseline_jobs_reused':['SPIO_R043_V_D01_M00125','SPIO_R043_V_I08_M00125'],
+ 'new_scenarios':[{'material':'D01 exact frozen table','boundary':'measured nominal finite-preload upper/lower rigid fixture contact'},{'material':'I08 exact frozen table','boundary':'same nominal finite-preload fixture contact'}],
+ 'known_current_boundary':a['boundary'],'required_before_INP_or_authorization':['verified upper/lower fixture surfaces, opening dimensions and fillets','measured nominal clamp force or independently calibrated torque-force relation','clamp-interface friction/surface-state evidence; never copy punch mu or literature value','document fixture compliance/rigid approximation and physical gap/zero convention','deterministic preload and punch history and qualified contact settings'],
+ 'ready_for_concrete_solver_authorization':False,'unknown_values':{'clamp_force_N':None,'clamp_friction':None,'fixture_fillet_radius_m':None},
+ 'held_constant':['specimen/punch geometry and specimen mesh','each exact material table and E210GPa/nu.3','punch friction0.1, slip tolerance0.005 and hard normal interaction','punch motion and 1.2mm target','m00125 numerical controls and 14CPU0GPU','all frozen F-D and Loss definitions'],
+ 'allowed_future_changes':'new independent copy, replace fixed top/bottom annular U1/U2 constraints by measured fixture contacts; preload is part of this boundary scenario; preserve preload stress/plastic history into punch step',
+ 'zero_policy':'punch held at fixed physical reference during preload; no best-fit force/displacement zero shift; mismatch with experimental convention is reported, not tuned',
+ 'scope':'two-material by two-boundary-class contrast using two existing controls; not a derivative with respect to clamp force, not independent separation of clamp friction, compliance and geometry',
+ 'new_outputs':['Punch U2/RF2','ring/edge U1 draw-in and reaction balance','clamp and punch CPRESS/COPEN/CSLIP where defined','PEEQ and spatial extent above tensile-supported p','clamp work/preload stress and solver diagnostics'],
+ 'comparisons':['deltaF_boundary for each fixed material on frozen241points','RMSE/max deltaF and signed shape by fixed displacement bands','new-boundary Loss reported separately, no old/new boundary training-data pooling','cosine of deltaF_boundary and observed I08-minus-D01 material secant if norms nonzero','actual scenario ranking and sum of absolute Loss shifts versus existing6.51641798e-5 gap as descriptive screen, not error bound'],
+ 'screening_references':{'fd_RMSE_N':2,'fd_max_abs_N':7.1445,'not_physical_accuracy_threshold':True,'current_pointwise_increment_changes_N':[.3383060028573848,.44839742266087873],'material_pair_FD_RMSE_N':57.744087083143185},
+ 'decision':'if new-boundary differences exceed documented numerical variation, require case-specific numerical review before physics attribution; if comparable to material contrast and aligned, prioritize boundary/material confounding study; negligible at two cases does not validate all clamps/parameters'},
+ 'A_conditional_next_screen':{'additional_FE_budget':4,'design':a['future_parameter_design'],'only_if':['measurement/source gates adequately documented for the research purpose','boundary scenario does not invalidate original mapping or a new boundary contract has separately redefined the design','all four later inputs frozen in a distinct preparation Run','same numerical model and fixed grid, no score-window changes'],
+ 'purpose':'test two uncomputed bridge samples and transverse central secants; compute local normalized Jacobian singular values/condition after actual FE','not_claimed':['continuous valley proof','global nonidentifiability','formal confidence interval','symmetry/curvature validation without evaluated midpoint'],'independent_of_tensile_parameter_refit':True},
+ 'budget_summary':{'current_authorized_FE':0,'minimum_next_FE_proposal':2,'conditional_additional_parameter_screen':4,'conditional_planning_total':6,'not_all_stages_automatically_approved':True,'new_model_FE_budget':None,'new_model_FE_reason':'no model constants fitted, no calibrated prototype or numerical contract; budget cannot yet be concrete'},
+ 'stops':['any datacheck/full failure or unknown identity, no auto retry','fixed-window noncoverage, no score crop','PEEQ outside each actual table or unexplained accepted-state strain/contact warning','unstable new fixture/preload contact or zero convention mismatch','source inputs missing, no unverified defaults','systematic boundary shift: pause original parameter-bridge evaluations, no automatic remaining-budget use'],
+ 'cost_reference':{'two_existing_refined_jobs_total_wall_s':535,'allocated_CPU_hours_at14':535*14/3600,'new_contact_preload_runtime_estimate':None,'reason':'contact/preload topology differs, old time is a historical reference, not a cost guarantee'},
+ 'experimental_needs':{'records_first':['exact engineering-to-true/log-total conversion and original area/gauge/correction','same-batch heat treatment/state/direction/temperature/rate correspondence','fixture geometry/fillets and measured preload/friction/compliance'],
+ 'minimum_new_boundary_test_if_records_insufficient':'two measured clamp levels, at least two SPT specimens per level (four tests) to separate a condition contrast from one specimen realization; not enough for a formal population CI; prefer three per level if feasible',
+ 'additional_observables':['measured clamp force, punch actual displacement','accessible underside displacement/strain field or documented edge draw-in/slip','thickness map and any permanent clamp marks'],
+ 'future_independent_tensile_minimum':'at least one unused, traceable same-state specimen/record reserved before new-model selection/calibration; recommend >=3 replicates for scatter, no formal CI from one trace','high_plastic_range':'to validate hardening demanded at p~.6, need independently traceable large-plastic-strain evidence; do not extend ordinary engineering-to-true conversion beyond necking; local-area/DIC plus a justified stress reconstruction or other loading paths require their own protocol'},
+ 'data_roles':{'SPT_original_curve':'existing calibration target','already_unblinded_tensile':'development-informed model hypothesis/selection data from this phase onward; any later parameter calibration must be explicitly labeled','run046_predictions':'historical frozen predictions retained; original review status unchanged','future_model_test':'new untouched specimens/conditions held out before development; no random point split of one correlated curve as independent validation'},
+ 'no_generated_INP':True,'no_new_material_parameter_fit':True,'no_solver_or_queue':True}
+save(P/'future_study_design.json',plan)
+checks={
+ '24_actual_curve_records_and_provenance':len(list(csv.DictReader((P/'evaluated_24_points.csv').open(encoding='utf-8-sig'))))==24 and len(read(P/'curve_provenance.json'))==24 and a['common_contract_24_point_count']==24,
+ 'six_nulls_preserved':len(a['unscoreable_observations'])==6 and all(v['loss'] is None for v in a['unscoreable_observations']),
+ 'design_orthonormal_basis':abs(sum(x*y for x,y in zip(a['future_parameter_design']['tangent_unit'],a['future_parameter_design']['normal_unit'])))<1e-14,
+ 'paired_designs_same_center':all(abs((a['future_parameter_design']['points'][j][c]+a['future_parameter_design']['points'][j+1][c])/2-a['future_parameter_design']['midpoint_normalized'][k])<1e-14 for j in [0,2] for k,c in enumerate(['x','y'])),
+ 'plateau_and_post_partition_full_981':all(v['plateau_containing_band_points']+v['post_band_points']==981 for v in a['source_confirmed_tensile_error_decomposition']),
+ 'source48_formal_NE_preserved':read(R/'run/run_048/artifacts/private/reassessment_metrics.json')['formal_main_status']=='NOT_EVALUABLE',
+ 'no_auto_authorization':plan['budget_summary']['current_authorized_FE']==0 and not plan['C_first_computational_screen']['ready_for_concrete_solver_authorization'],
+ 'no_inputs_generated':not list((R/'run/run_049').rglob('*.inp'))}
+assert all(checks.values());save(P/'analysis_checks.json',{'checks':checks,'passed':len(checks),'scope':'offline data/math/protocol invariants, not FE or physical validation'})
+# Four evidence categories are explicit in every main mechanism record.
+mechanisms=[
+ {'id':'H1','mechanism':'parameter compensation under one scalar force-displacement target','actual_FE':'24 scoreable common-contract samples; four Loss<=.002 with negative x-y trend; two best separated by .332 normalized distance; finite FD differences remain','conditional_tensile':'D01/I08 source-confirmed errors have opposite ranking to SPT','hypothesis':'a narrow low-error manifold permits material trade-offs; no evaluated continuous bridge yet','future_test':'four proposed orthogonal secant/bridge samples under one fixed contract; experimental shape/covariance and fields needed for practical distinguishability','priority':'after boundary/source qualification'},
+ {'id':'H2','mechanism':'constitutive form and high-plastic-strain extrapolation','actual_FE':'frozen n>0 law has positive hardening slope; max saved PEEQ .611/.654, conditional uniaxial uniform p limit .0972','conditional_tensile':'platform-containing segment has greatest error but only~15.4% full squared error; post-segment RMSE124.34/62.34MPa','hypothesis':'single power law cannot represent independent platform extent and later hardening; unknown high-p continuation may alter SPT','future_test':'first zero-FE source/range/spatial review; development-only plateau/native-table alternatives, no fit now','priority':'first offline mechanism to examine'},
+ {'id':'H3','mechanism':'fixed annulus substitutes for finite fixture contact','actual_FE':'top and bottom16-node annuli r2–5mm have U1=U2=0; only punch contact modeled, punch mu=.1','conditional_tensile':'does not establish any clamp cause','hypothesis':'overconstraint can be compensated by a weaker inferred law, but sign/magnitude are unmeasured and literature is case-dependent','future_test':'two future fixed-material finite-clamp scenario Jobs at D01/I08 with measured fixture inputs, separately authorized','priority':'first new-FE controlled alternative test'},
+ {'id':'H4','mechanism':'measurement processing, material state, fixed E and constitutive assumptions','actual_FE':'E210GPa/nu.3 fixed, no mesh/global convergence or exact real clamp validation','conditional_tensile':'units/same batch/uniformity source-confirmed; processing and state matching gates still incomplete; formal validation NE','hypothesis':'some discrepancy may be due to processing/state/J2 isotropy/rate/damage or fixed E rather than the inverse optimizer','future_test':'records first, independent new specimens/fields if needed; no presumed correction','priority':'data precondition before attribution'}]
+save(P/'mechanism_evidence_matrix.json',mechanisms)
+# Full report is private: it incorporates source-confirmed tensile comparison and recoverable SPT evidence.
+lines=['# run_049 — Post-validation scientific assessment','\n**WARNING：离线研究设计完成；正式独立验证维持NOT_EVALUABLE。** 本Run不改run046冻结包、run047/048结论、任何材料输入或原始资料；不求解、不入队、不重新拟合/优化。',
+ '\n## 已有证据与可靠性边界','\n1. 已核验的FE执行/数值事实：24个同run030-standard-m0025-hollomon-v1与run017-exploratory-fd-v1的可评分参数点，全部由历史真实FE输出；本Run逐条重算原Loss并核对曲线hash。另6个不评分位置保留null，不填惩罚值。D01/I08最新m00125仅作为两个独立细化结果引用，不混作额外参数样本或同精度训练数据。',
+ '2. 指定D01/I08通过的只是在这两个点上的相邻时间增量门槛；这不能证明网格收敛、全参数域数值稳定、夹具等效或材料真实性。',
+ '3. 来源方确认条件下拉伸比较：I08 RMSE64.945MPa低于D01 129.496MPa，而SPT排序相反。MPa/同批/0.10均匀性是SOURCE_CONFIRMED，不是独立仪器校验；原测量/转换链和状态对应不足，正式误差/排名仍为null，不能改称有效验证。',
+ '4. 数学事实：现有真总应变幂律在屈服后的dσ/dε>0；p=ε−σ/E的导数>0，因此dσ/dp>0。对当前0<n<1的幂律，切线还随塑性应变下降，不能独立设定有限平台长度并随后转入更高硬化切线；正导数本身只排除精确零斜率平台，并非否认任意近似平台。此数学限制不证明它是全部实验偏差的原因。',
+ '\n## A — Parameter Compensation',
+ f"\n原基准24点中，Loss≤.002的4点为{', '.join(a['low_loss_sets']['less_or_equal_0p002']['ids'])}，归一化x/y Pearson={a['low_loss_sets']['less_or_equal_0p002']['pearson_xy']:.6f}；Loss≤.01的7点Pearson={a['low_loss_sets']['less_or_equal_0p01']['pearson_xy']:.6f}。这些都是按Loss事后选择的描述性集合，不能把相关系数当全域可识别性检验或置信区间。",
+ f"\n最好的两点间归一化距离{a['low_loss_sets']['twice_best_observed']['max_gap']:.6f}，中间未连续采样。只能说观测点支持sigma_y升高/n降低的补偿趋势，不能说已有连续谷地证据。较低Loss不代表F–D曲线完全相同：细化D01/I08互比RMSE57.744N，最大差77.233N，残差形状也不同；实验重复性和模型误差未知，不能断言这两条曲线在统计上不可区分。",
+ '\n塑性分支的解析关系为lnσ=(1−n)lnσy+n ln(Eε)，在给定单轴应变维持应力时dlnσy/dn=−ln(Eε/σy)/(1−n)。这说明参数可以在某些应变范围互相抵偿；SPT多轴非均匀场不等于一个固定单轴应变，不能直接把这个等应力轨迹当真实FE谷底。',
+ f"\n两条解析预测的单轴真总应变交点约ε={a['crossing_true_total_strain']:.6f}，超出来源确认均匀范围.10。这是模型数学性质，不是实验交点。旧run022在200MPa/.1及更粗增量上的cos≈.990176、条件数≈15.1276仅为另一个局部参考，不能移植到D01/I08的邻域。",
+ '\n最小识别设计为4个未来点：在归一化D01–I08桥上1/3与2/3两个点、桥中点法向±.05两个点，具体完整精度见proposed_parameter_design.json。沿桥两点与横向两点都关于同一中心对称，可计算两方向中心差分与J奇异值/条件数；未算中心就不能检查曲率或响应对称性。所有这些点均未生成INP/求解，任何连续性结论都必须等待真实样本。',
+ '\n| 未来设计点 | sigma_y MPa | n | 目的 |','|---|---:|---:|---|']
+for p in a['future_parameter_design']['points']:lines.append(f"| {p['design_id']} | {p['sigma_y_mpa']:.12g} | {p['n']:.12g} | {p['purpose']} |")
+lines +=['\n只有在边界/模型契约仍适用的前提下才考虑这4点；若边界检查改变映射，先重建开发契约而非照抄旧点。桥点Loss≤2×当前端点较大Loss只作为预先提出的探索性筛查，不是材料验收门槛或严格连续证明。',
+ '\n## B — Constitutive Model Discrepancy',
+ '\n来源确认的屈服平台存在，但精确物理起止未核验。将原固定网格0.002–0.010段与后续0.0101–0.10分开，仅为补充诊断，所有981点仍保留在原主窗。',
+ '\n| 候选 | 含平台81点RMSE MPa | 该段全窗平方误差占比 | 后续900点RMSE MPa |','|---|---:|---:|---:|']
+for v in a['source_confirmed_tensile_error_decomposition']:lines.append(f"| {v['candidate_id']} | {v['plateau_containing_band_rmse_mpa']:.6f} | {v['plateau_containing_band_squared_error_fraction']*100:.3f}% | {v['post_band_rmse_mpa']:.6f} |")
+lines +=['\n两组残差全窗均为负；含平台段只占约15.4%的总平方误差。即使不要求精确复现平台，后续仍有明显系统性偏差，不能用平台容忍声明替代整体误差评价。这里的900点补充窗口不是新的正式Loss或替代评分。',
+ f"\n另一个独立限制是硬化取值范围：按来源确认应变/应力及E210约定，ε=.10时估算单轴塑性应变p≈{a['conditional_tensile_uniform_plastic_limit']:.8f}；FE最大保存PEEQ分别.61146/.65374。PEEQ与单轴真总应变不是同一个量；此处比较的是J2材料表硬化索引与条件性单轴塑性索引，不能把最大值当体积分数或载荷贡献。",
+ '\n| FE点 | 首次maxPEEQ超过该p限值时压入mm | 最大值/限值 |','|---|---:|---:|']
+for v in a['peeq_scope']:lines.append(f"| {v['candidate_id']} | {v['first_saved_exceedance_displacement_mm']:.8f} | {v['ratio_max_to_tensile_limit']:.5f} |")
+lines +=['\n最大保存值的单元163在初始参考坐标r≈.712–.756mm、底部y≈0–.0556mm，并非r2–5mm的固定环带。不能直接把它解释成夹持边缘奇异值；也不能仅靠一个最大值说明高p区主导F–D。下一步应先用既有ODB查空间范围和塑性功/参考体积权重，若现有输出没有IVOL，就不能捏造真实体积分数。',
+ '\n候选模型只提出公式/所需证据，不拟合、不给新材料参数或INP：',
+ '\n| 模型 | 适用研究目的 | 主要新增风险 |','|---|---|---|',
+ '| M0原冻结Hollomon | 作为历史对照保留 | 平台与后续硬化耦合，高p外推 |',
+ '| M1平台/弱硬化段＋Voce型后硬化 | 优先的最小平台原型；可用原生J2塑性表开发 | 至少4个塑性参数，平台尾部切线/饱和外推及可识别性 |',
+ '| M2平台＋少量固定塑性应变节点的单调折线 | 非参数化形状对照，起初最多两个后平台锚点 | 不能逐点拟合，固定节点及高p区需独立约束 |',
+ '| M3屈服点/位错内部变量与Luders传播 | 只有上屈服降落/传播对目标必要且有空间/速率证据时 | 参数与实现成本高，软化局部化/网格客观性问题 |',
+ '\nM1示意：σ=σ0+H_L p (p≤pL)，σ=σ0+H_L pL+Q[1−exp(−b(p−pL))] (p>pL)。H_L=0只是理想平台原型，弱硬化切线若使用应由独立证据约束，不能无限增加自由参数。新模型需新的生成器/测试和数值契约；原hollomon.py严格正硬化逻辑不能静默改成平台。指数硬化的数学形式可参考SIMULIA文档，但不引入循环/随动硬化或文献示例材料常数。[SIMULIA](https://docs.software.vt.edu/abaqusv2025/English/SIMACAEMATRefMap/simamat-c-hardening.htm)。屈服点内部变量研究参考[Yoshida等2008](https://doi.org/10.1016/j.ijplas.2008.05.004)，不代表SA508已证实需要该模型。',
+ '\n## C — Boundary Condition Uncertainty',
+ '\n实际冻结输入核验的是上下表面各16个节点、r≈2–5mm环带U1=U2=0，而非有已测预紧力的夹具接触；模型仅有冲头/试样一个接触对，冲头摩擦系数0.1、slip tolerance0.005、法向硬接触。当前没有证据把其等同于真实有限夹紧压力、接触滑移、夹具顺应性和支撑圆角。',
+ '\n“固定径向流动可能使同材料响应偏硬，从而在反演中补偿为较弱本构”是待检假设，不是已确定方向或成因。文献在不同材料/工况中既有较小夹持影响也有屈服估计散布，不能给本项目直接套用影响量或摩擦系数。[Andrés与Dymáček2016](https://doi.org/10.1016/j.tafmec.2016.07.012)，[Small punch curved specimens2017](https://doi.org/10.1016/j.ijmecsci.2016.11.029)。',
+ '\n最小新增FE提案为2个：保持D01、I08各自冻结材料/网格/冲头加载、m00125、14CPU0GPU不变，分别改用**同一个有实验依据的名义有限夹具接触方案**；已有两项m00125固定环带解作为对照。必须先获得上下夹具开口/圆角、实际预紧力或扭矩到力的独立校准、夹具摩擦/润滑与顺应性；未知参数保持null，不能为降低Loss选择夹紧力。当前尚无具体INP和可执行授权条件。',
+ '\n这构成2材料×2边界类别对照，只新增两项，但不能把差异单独归因于摩擦或夹紧力；它是边界模型类别的有限变化，不是F_clamp导数。预压应力与塑性历史必须保留进入压入步，冲头物理零点不得为贴合数据而平移。新夹具接触数值资格需另外审核；不能因为旧环带解通过而自动判定新接触解数值有效。',
+ '\n对照至少报告同位移轴deltaF、RMSE/最大差、分区形状、Loss变化、径向draw-in、接触压力/滑移、反力平衡及PEEQ范围，并考察边界变化向量与D01–I08材料差向量是否相似。2N/7.1445N只作既有数值检查尺度参考，不是边界物理等效PASS；若新接触数值误差未控，则先数值诊断，不能归因。',
+ '\n## 优先级、预算与停止门槛',
+ '\n优先的零新增计算工作是：补齐来源链/状态与夹具记录；核查模型硬化范围和既有ODB高p空间贡献；在开发方案中研究平台与后硬化形式。首个需要新增FE的受控机制检查建议为上述2个边界对照，因其不必先拟合新的材料参数；若明显改变映射，停止旧Hollomon参数桥设计，先处理边界混淆。若边界/模型仍适用且需要量化补偿，再另行考虑4个正交/桥点。',
+ '\n| 阶段 | 本轮执行FE | 未来提案 | 准入关口 |','|---|---:|---:|---|',
+ '| 既有数据、记录及模型形式研究 | 0 | 0 | 不改变冻结评分和数据角色 |',
+ '| D01/I08有限夹具对照 | 0 | 最多2 | 实测夹具参数、独立输入和新授权 |',
+ '| 条件式参数桥/法向设计 | 0 | 额外最多4 | 边界/数值契约有效，不能自动用剩余额度 |',
+ '| 新材料模型FE | 0 | 尚不能具体化 | 未拟合常数、未准备输入，不计作已有6项方案已覆盖 |',
+ '\n两项旧细化作业总墙钟535秒、14核分配约2.081核时，仅为历史成本参考；新增预压/接触的时间未知，不承诺仍是这个耗时。任何失败/身份不清/窗口不覆盖/材料表外/严重接受态警告均停止后续，不自动重试、补点或转移预算。',
+ '\n## 最小实验/记录需求与数据角色',
+ '\n优先索取已有原始拉伸工程量、A0/L0/传感器/校正及转换程序、同批材料热处理/方向/温速记录，以及夹具尺寸/圆角和预紧力记录。若需要新的边界实验，建议两个实测夹紧水平各至少2个SPT试样（4次）以不把单试样差异误认作夹紧效应；有条件每水平3个，用底面DIC/可见边缘draw-in提供超出单一F–D的信息。重复次数只是最小研究设计，不构成充分统计功效或正式CI。[DIC原始研究](https://link.springer.com/article/10.1007/s12666-024-03442-5)支持空间观测的可行性，但不引入其扭矩、摩擦或散布作为本项目真值。',
+ '\n若需要检验新模型的高p继续硬化，须独立的大塑性变形证据；不能把颈缩后的常规工程转真曲线当均匀本构真值。若使用局部面积/DIC与应力重建或其他加载路径，另立其假设和验证协议。',
+ '\n**本阶段已因观察解盲后的平台/误差而用于模型假设设计，故这些拉伸数据从新模型开发角度属于开发/校准信息，不再是新模型的未使用独立验证集。** 不需要等到重新拟合数值后才承认这一点。历史run046预测与原复核状态仍原样保留。以后需在模型选择/校准前预留未接触的新试样/条件记录；最低1条新的可追溯同状态拉伸记录可作复核，建议至少3次以估计散布。不能随机拆分同一条高度相关曲线的点充当独立验证。',
+ '\n## 明确区分四类陈述',
+ '\n真实FE事实、来源确认条件性拉伸、科学假设和未来待检设计的逐项矩阵见mechanism_evidence_matrix.json；不能把任何假设或规划列为已执行结果。正式独立验证保持NOT_EVALUABLE；run046/047/048历史和run025 BLOCKED均不改。所有可恢复数据与科学结论留在本Run私有忽略区。']
+(P/'scientific_assessment.md').write_text('\n'.join(lines)+'\n',encoding='utf8')
+print(json.dumps({'design_status':plan['status'],'model_families':len(models),'data_checks_passed':len(checks),'minimum_future_FE':2,'conditional_future_parameter_FE':4,'current_authorized_FE':0}))

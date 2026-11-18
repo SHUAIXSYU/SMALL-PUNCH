@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_053",
+  "stage": "Post-solve hardening envelope sensitivity analysis",
+  "objective": "actual audit, real ODB extraction, independent frozen Loss and response/spatial/energy comparison; no new FE",
+  "status": "WARNING",
+  "start_time": "2026-10-26T23:04:38.070033+08:00",
+  "end_time": "2026-10-26T23:30:02.185390+08:00",
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "git_branch": "main",
+  "git_head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+  "inputs": [
+    {
+      "path": "run/run_051/artifacts/prepared_batch.json",
+      "sha256": "f2b5eabc97269c107b5836f6ca50ed6c11955f845165a29c685d60589abeca9f"
+    },
+    {
+      "path": "run/run_051/artifacts/comparison_contract.json",
+      "sha256": "c5abb06c177a6ebb609ae58160a1c77aed1ca85cf5b155646899c355ca7e8d30"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_053/artifacts/private/scientific_report.md",
+      "sha256": "bba1111e87b75ab6125c8abdb39682954d2a3818f04cb671b82670246913016f",
+      "visibility": "PRIVATE"
+    },
+    {
+      "path": "run/run_053/artifacts/private/evidence_manifest.json",
+      "sha256": "a889bfc32c385f2a79a47bf9ecb7fd53cdedb71323fdd5b2b3703f9c3b6ced85",
+      "visibility": "PRIVATE"
+    },
+    {
+      "path": "run/run_053/artifacts/manifest.json",
+      "sha256": "0f5305fd46f8708e4100cf271c134f03c2fdd5a0b633e4dc68500e056f226b0e"
+    }
+  ],
+  "validation": [
+    "2 actual completed single attempts; public API identity and phase/STA/ODB checks",
+    "real ODB session completed2 formal tasks; MAIN independent signs/units/RP/history/field/PEEQ/hash and Loss review",
+    "77 ODB evidence hashes and36 independent axisymmetric threshold volume checks",
+    "5 synthetic comparison-bookkeeping tests passed",
+    "original inputs/results/project files/protected historical evidence unchanged"
+  ],
+  "errors": [],
+  "outcome": "TWO_EXISTING_RESULTS_ANALYSED",
+  "limitations": [
+    "H01 accepted-frame force step 8.131714N near1.154738mm coincides with node23 pressure build; no local cutback or serious accepted warning; COPEN sentinel prevents closure proof",
+    "D01 historical Runner process evidence remains previously unconfirmed; frozen ODB/INP/FD and prior qualification are verified, not retrospectively upgraded",
+    "D01 adjacent increment differences are not H01/H02 numerical-error bounds",
+    "all estimated local plastic work uses saved frames and reference IP volume; no RF2 contribution decomposition"
+  ],
+  "agenthub": {
+    "science_task_id": "01081db2-509a-42bc-856e-d0f1cbd52962",
+    "ODB_task_ids": {
+      "H01": "8cf73b58-bbcd-4e96-ba7f-58d83cb5c4d9",
+      "H02": "c699716f-5da8-4c00-a91e-2b5849551cb5"
+    }
+  },
+  "new_FE_attempts": 0,
+  "new_queue_records": 0,
+  "retries": 0
+}

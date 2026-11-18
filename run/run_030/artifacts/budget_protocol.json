@@ -1,0 +1,41 @@
+{
+  "version": "run030-sixteen-pilot-v1",
+  "frozen_at": "2026-10-24T18:11:53.996091+08:00",
+  "total_unique_new_fe_cap": 16,
+  "authorized_now": 0,
+  "automatic_retries": 0,
+  "stage_a": {
+    "count": 8,
+    "points": [
+      "I01",
+      "I02",
+      "I03",
+      "I04",
+      "I05",
+      "I06",
+      "I07",
+      "I08"
+    ],
+    "gate_after": 4,
+    "common_to": [
+      "BO",
+      "DE"
+    ],
+    "submission": "One Job per human-reviewed queue start"
+  },
+  "stage_b": {
+    "algorithm": "BO",
+    "new_fe_cap": 4,
+    "proposal": "Sequential one-at-a-time GP Matern-5/2 ARD expected improvement on normalized x,y; seed 2301; future candidates depend on own observed results only"
+  },
+  "stage_c": {
+    "algorithm": "DE",
+    "new_fe_cap": 4,
+    "proposal": "Four trials from shared 8-point population, rand/1/bin F=0.7 CR=0.9, seed 2302, no polish; this is half a generation, not DE convergence"
+  },
+  "fairness": "Both branches see same eight initial evaluations, then only their own new evaluations; same four-new-FE cap per branch; failed attempts consume budget; no superiority claim from one seed",
+  "duplicates": "Exact parameter/model/precision/Loss cache hit uses no new FE; no silent cross-branch disclosure; bounded proposal regeneration then MAIN review",
+  "stop": "Any failed or uncertain phase, incomplete 0-1.2mm curve, PEEQ beyond table, unresolved accepted-state severe warning or new systematic contact/curve anomaly pauses further submissions; no automatic retry or imputed zero Loss",
+  "numerical_control": "One Job in Queue at a time; local Runner auto-fail-stop unavailable; fresh ownership/recovery/output checks required before each authorization use",
+  "cost_planning": "Reference run029 center wall time 253 s at 14 CPUs; broad-domain cost unknown. Planning only: 4-20 min/Job, eight 32-160 min, sixteen 64-320 min, allocated 14-core time not measured CPU use"
+}

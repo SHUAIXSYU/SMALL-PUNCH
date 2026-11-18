@@ -1,0 +1,22 @@
+{
+  "at": "2026-10-24T17:30:48.712536+08:00",
+  "task_id": "1434ef26-a98f-45ed-8289-891d86b29241",
+  "scope": {
+    "run": "run_028",
+    "authorization_source": "Explicit user single-job authorization in current conversation",
+    "job_name": "SPIO_R027_CTR_M0025",
+    "inp_sha256": "dae9345bc60973c27edec498dfbd27f269e1f5bbe151316918862954faac40c9",
+    "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+    "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_027\\artifacts\\solver\\SPIO_R027_CTR_M0025",
+    "cpus": 14,
+    "gpus": 0,
+    "run_datacheck": true,
+    "run_full": true,
+    "maximum_attempts": 1,
+    "automatic_retries": 0,
+    "only_queue_submit_by_codex": true,
+    "solver_start_by_user_gui_only": true,
+    "V02_authorized_by_this_task": false,
+    "comparison_contract_sha256": "e189ab1551f775f085fc0208e0550784db85fa3b258b6164db1f8a20c148d42a"
+  }
+}

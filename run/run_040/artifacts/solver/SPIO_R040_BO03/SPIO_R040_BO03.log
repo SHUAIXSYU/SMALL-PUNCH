@@ -1,0 +1,61 @@
+
+[2026-10-25T22:57:43] START DATACHECK_RUNNING
+Command: cmd.exe /c D:\ABAQUS2024\Commands\abq2024.bat job=SPIO_R040_BO03 input=E:\Projects\SMALL-PUNCH\run\run_040\artifacts\candidates\SPIO_R040_BO03\SPIO_R040_BO03.inp datacheck cpus=14 interactive ask_delete=OFF
+
+
+E:\Projects\SMALL-PUNCH\run\run_040\artifacts\solver\SPIO_R040_BO03>call "D:\ONEAPI\compiler\2022.2.0\env\vars.bat" intel64	vs2022 
+Analysis initiated from SIMULIA established products
+Abaqus JOB SPIO_R040_BO03
+Abaqus 2024
+Abaqus License Manager checked out the following licenses:
+Abaqus/Standard checked out 15 tokens from Flexnet server Boltzmann.
+<9984 out of 9999 licenses remain available>.
+Begin Analysis Input File Processor
+10/25/2026 10:57:58 PM
+Run pre.exe
+10/25/2026 10:58:05 PM
+End Analysis Input File Processor
+Begin Abaqus/Standard Datacheck
+Begin Abaqus/Standard Analysis
+10/25/2026 10:58:05 PM
+Run standard.exe
+10/25/2026 10:58:12 PM
+End Abaqus/Standard Analysis
+Begin SIM Wrap-up
+10/25/2026 10:58:14 PM
+Run SMASimUtility.exe
+10/25/2026 10:58:14 PM
+End SIM Wrap-up
+Abaqus JOB SPIO_R040_BO03 COMPLETED
+
+[2026-10-25T22:58:14] END DATACHECK_RUNNING return_code=0
+
+[2026-10-25T22:58:14] START FULL_RUNNING
+Command: cmd.exe /c D:\ABAQUS2024\Commands\abq2024.bat job=SPIO_R040_BO03 input=E:\Projects\SMALL-PUNCH\run\run_040\artifacts\candidates\SPIO_R040_BO03\SPIO_R040_BO03.inp cpus=14 interactive ask_delete=OFF
+
+
+E:\Projects\SMALL-PUNCH\run\run_040\artifacts\solver\SPIO_R040_BO03>call "D:\ONEAPI\compiler\2022.2.0\env\vars.bat" intel64	vs2022 
+Analysis initiated from SIMULIA established products
+Abaqus JOB SPIO_R040_BO03
+Abaqus 2024
+Abaqus License Manager checked out the following licenses:
+Abaqus/Standard checked out 15 tokens from Flexnet server Boltzmann.
+<9984 out of 9999 licenses remain available>.
+Begin Analysis Input File Processor
+10/25/2026 10:58:28 PM
+Run pre.exe
+10/25/2026 10:58:36 PM
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+10/25/2026 10:58:36 PM
+Run standard.exe
+10/25/2026 11:00:47 PM
+End Abaqus/Standard Analysis
+Begin SIM Wrap-up
+10/25/2026 11:00:47 PM
+Run SMASimUtility.exe
+10/25/2026 11:00:47 PM
+End SIM Wrap-up
+Abaqus JOB SPIO_R040_BO03 COMPLETED
+
+[2026-10-25T23:00:47] END FULL_RUNNING return_code=0

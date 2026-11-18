@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-26T00:44:29.931250+08:00",
+  "status": "TWO_VALIDATION_JOBS_QUEUED_AWAITING_MANUAL_START",
+  "queue_ids": [
+    "q_dd23233452c544469eaebaff3fec2d8b",
+    "q_e75bdad8123746279485618a7d6f32c9"
+  ],
+  "started": 0,
+  "handoff_task_id": "a007baf8-b2d5-4bb0-b605-3426015b2c05",
+  "evidence_manifest_sha256": "7d0aa62f73a5880f2e4620fc06bd66acc4a50ed19624ae046a6c25ff1a9847de"
+}

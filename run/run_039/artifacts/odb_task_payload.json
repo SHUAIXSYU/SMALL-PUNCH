@@ -1,0 +1,36 @@
+{
+  "run": "run_039",
+  "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+  "user_request": "20-point DOE analysis with real ODB Agent; no new solve or queue",
+  "frozen_batch": "run/run_033/artifacts/prepared_batch.json",
+  "frozen_batch_sha256": "f174ed05d0c700f346282cbcd9571749febaf332fdba100c1b60779d1bb33d7b",
+  "execution_audit": "run/run_039/artifacts/private/execution_audit.json",
+  "execution_audit_sha256": "20a18e3877e022119680b626a4038d629a668a31a7ffa43da988fd4ce4307350",
+  "existing_19_odb_manifest": "run/run_034/artifacts/private/odb/manifest.json",
+  "existing_19_odb_manifest_sha256": "be046d5494e78e56e1144cb9c527dff5ead8a40641ad9cf08029530deea349ca",
+  "existing_19_main_review": "run/run_034/artifacts/private/main/review_table.csv",
+  "existing_19_main_review_sha256": "1a82f897cd83dc78e7421abeeba655f7b8e2e0e450db0ae9e0f4969725903f42",
+  "loss_contract_binding": "run/run_030/artifacts/loss_contract_binding.json",
+  "loss_contract_binding_sha256": "5c730ba8bf06ae4572351a074d84ab4b2ae64073c7f31bff335b4393a496256c",
+  "original_batch_completed": 19,
+  "original_D09_status": "UNKNOWN_INTERRUPTED; do not open original ODB",
+  "replacement_D09": {
+    "queue_id": "q_434c5f15c837413f8628b5b5188088aa",
+    "job_name": "SPIO_R038_D09_RETRY2",
+    "inp_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_033\\artifacts\\candidates\\SPIO_R033_D09_L\\SPIO_R033_D09_L.inp",
+    "inp_sha256": "5d754294edca19e8eef85661f5a99f18cfe189f484b86ddb5e3ee52acc354d4b",
+    "odb_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_038\\artifacts\\solver\\SPIO_R038_D09_RETRY2\\SPIO_R038_D09_RETRY2.odb",
+    "odb_sha256": "9453882aaab961701921ed88f6ce3755736f4f02a67479e9db94d1350029206f",
+    "work_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_038\\artifacts\\solver\\SPIO_R038_D09_RETRY2",
+    "duration_sec": 247
+  },
+  "requirements": [
+    "Real ODB Codex chat must claim task with its own ODB AgentHub session",
+    "Reverify the existing 19 read-only ODB extraction artifacts and source hashes; reuse if unchanged, never overwrite run_034",
+    "Read only the completed run_038 D09 replacement ODB using Abaqus 2024 Python; original run_033 D09 remains interrupted and must not be opened",
+    "Extract Punch RP U2/RF2/Step Time, F-D CSV, saved-frame PEEQ, contact and energy diagnostics, accepted/rejected warnings, cutback and cost",
+    "Use frozen 241-point run017-exploratory-fd-v1 Loss, no shift/smooth/extrapolation; invalid results get loss=null",
+    "Register new D09 evidence and batch handoff via AgentHub; preserve full provenance and warning classifications",
+    "Never read sealed tensile data, run Solver/Datacheck, enqueue/retry, modify existing ODB/INP, or commit/push"
+  ]
+}

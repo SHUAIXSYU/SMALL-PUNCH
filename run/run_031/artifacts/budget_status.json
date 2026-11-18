@@ -1,0 +1,95 @@
+{
+  "at": "2026-10-24T18:32:38.882548+08:00",
+  "status": "I01_QUEUED_AWAITING_MANUAL_START",
+  "authorized_frozen_jobs": 8,
+  "queue_submitted": 1,
+  "confirmed_started_attempts": 0,
+  "remaining_unsubmitted_frozen_jobs": 7,
+  "automatic_retries": 0,
+  "point_status": [
+    {
+      "point_id": "I01",
+      "job_name": "SPIO_R030_I01_G",
+      "inp_sha256": "60a9631854792cb0ab61ce48eceff182bcfd5ab12679f8c0a77ac0078c9ac1ea",
+      "queue_task_id": "3afd05ca-ba91-45cb-9494-67ebc0225ff6",
+      "result_review_task_id": "bf1d6521-6052-4890-95e8-2b955896985c",
+      "queue_id": "q_c8329bd4fab4455f924d211d62ba0625",
+      "queue_state": "QUEUED_AWAITING_MANUAL_START",
+      "started_attempts_confirmed": 0
+    },
+    {
+      "point_id": "I02",
+      "job_name": "SPIO_R030_I02_L",
+      "inp_sha256": "c93d77fcbd6e0bab8a12e439a3ab987a37360663296d6e2e62ceaa2610814e47",
+      "queue_task_id": "8d6062a8-561c-4201-9d6a-7f4a2f3354aa",
+      "result_review_task_id": "d43090a1-408d-4993-adf8-08965eec7616",
+      "queue_id": null,
+      "queue_state": "GATE_PENDING",
+      "started_attempts_confirmed": 0
+    },
+    {
+      "point_id": "I03",
+      "job_name": "SPIO_R030_I03_G",
+      "inp_sha256": "3297160bafd9b97c7baa2d86b292d0bb00f76ab66225739f3686a9e6878c7696",
+      "queue_task_id": "1b5fd1e9-013b-45de-b67b-1a52f744535b",
+      "result_review_task_id": "cc03726f-395b-4998-a4ad-b41daca31d5c",
+      "queue_id": null,
+      "queue_state": "GATE_PENDING",
+      "started_attempts_confirmed": 0
+    },
+    {
+      "point_id": "I04",
+      "job_name": "SPIO_R030_I04_L",
+      "inp_sha256": "723e65e2cd3b2ee01a20d3806c9d7c7db8217ecef765e740239a2db30de6d31c",
+      "queue_task_id": "b0cc9580-2212-44c2-b90a-30fb24d25478",
+      "result_review_task_id": "1f6423a2-2128-4c9a-b419-0c443d2b2a4e",
+      "queue_id": null,
+      "queue_state": "GATE_PENDING",
+      "started_attempts_confirmed": 0
+    },
+    {
+      "point_id": "I05",
+      "job_name": "SPIO_R030_I05_G",
+      "inp_sha256": "21d36af80ce266f6d72caf94e9b6e148fa016f86a1bddd80827be7cd4ec4540b",
+      "queue_task_id": "883cdb4f-3206-4611-9383-2a9242161c09",
+      "result_review_task_id": "f3f49b52-153e-4137-8578-2883363e3f94",
+      "queue_id": null,
+      "queue_state": "GATE_PENDING",
+      "started_attempts_confirmed": 0
+    },
+    {
+      "point_id": "I06",
+      "job_name": "SPIO_R030_I06_L",
+      "inp_sha256": "0a544fd06f0c0de630946173314ba980085a8a464ef4027e715bfb46e3d3b45a",
+      "queue_task_id": "a4b643bf-2c36-4514-993d-a9f3eea5a71e",
+      "result_review_task_id": "4067a7d9-ffa0-405a-9e50-52cb1445fab9",
+      "queue_id": null,
+      "queue_state": "GATE_PENDING",
+      "started_attempts_confirmed": 0
+    },
+    {
+      "point_id": "I07",
+      "job_name": "SPIO_R030_I07_G",
+      "inp_sha256": "f59f9328a3119f6705daf1e144801341a8273627c6333d00acec233b7210deff",
+      "queue_task_id": "098143c4-bc55-4e6a-a89b-15f2f528a0bd",
+      "result_review_task_id": "55637886-3a22-4f4b-8497-8f6090f216b8",
+      "queue_id": null,
+      "queue_state": "GATE_PENDING",
+      "started_attempts_confirmed": 0
+    },
+    {
+      "point_id": "I08",
+      "job_name": "SPIO_R030_I08_L",
+      "inp_sha256": "ac0769a21b6dd09fe1b87da708c1a5d38eaea4a71f304264f75df8722d2719d2",
+      "queue_task_id": "11f684f5-1e2c-4051-b15d-72be51ef39ea",
+      "result_review_task_id": "152ba94c-0384-4cf2-9419-ebf016a23e3e",
+      "queue_id": null,
+      "queue_state": "GATE_PENDING",
+      "started_attempts_confirmed": 0
+    }
+  ],
+  "phase_gate_task_id": "b5ea2600-e352-42fa-a8a9-51b00280c517",
+  "I02_dependency": "I01 real result MAIN review",
+  "I05_dependency": "I01-I04 phase gate",
+  "no_automatic_cross_session_wakeup": true
+}

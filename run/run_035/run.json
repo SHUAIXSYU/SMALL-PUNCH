@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_035",
+  "stage": "one authorized D09 crash retry queue-only",
+  "objective": "Reuse frozen D09 INP with new output identity; enqueue once; user manually starts GUI Runner",
+  "status": "WARNING",
+  "start_time": "2026-10-25T19:10:03.468274+08:00",
+  "end_time": "2026-10-25T19:10:56.934129+08:00",
+  "git": {
+    "branch": "main",
+    "head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+    "remote": "origin\thttps://github.com/SHUAIXSYU/SMALL-PUNCH.git (fetch)\norigin\thttps://github.com/SHUAIXSYU/SMALL-PUNCH.git (push)",
+    "working_tree": "M agenthub_sp_invopt/abqjobpilot_project/project.db\n M run/README.md\n M status/PROJECT_STATUS.md\n?? run/run_019/\n?? run/run_020/\n?? run/run_021/\n?? run/run_022/\n?? run/run_023/\n?? run/run_024/\n?? run/run_025/\n?? run/run_026/\n?? run/run_027/\n?? run/run_028/\n?? run/run_029/\n?? run/run_030/\n?? run/run_031/\n?? run/run_032/\n?? run/run_033/\n?? run/run_034/\n?? run/run_035/"
+  },
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "python_version": "3.11.13",
+  "inputs": [
+    {
+      "path": "run/run_033/artifacts/candidates/SPIO_R033_D09_L/SPIO_R033_D09_L.inp",
+      "sha256": "5d754294edca19e8eef85661f5a99f18cfe189f484b86ddb5e3ee52acc354d4b"
+    },
+    {
+      "path": "run/run_033/artifacts/prepared_batch.json",
+      "sha256": "f174ed05d0c700f346282cbcd9571749febaf332fdba100c1b60779d1bb33d7b"
+    },
+    {
+      "path": "run/run_033/artifacts/queue_manifest.json",
+      "sha256": "d4d14af7dde5dab818135f8170d3079d844cb6c40f488cb83e39cc01d72bd65a"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_035/artifacts/authorization_scope.json",
+      "sha256": "1540d37af9b4b97edc614a53f2d3f809110d9648f49abcebfca9c37a9f741dcd"
+    },
+    {
+      "path": "run/run_035/artifacts/private/precheck.json",
+      "sha256": "cfbe6fa1ccf6ea2055f25318e713c5e27dd9b22b4bbda0116fcda0704abca143"
+    },
+    {
+      "path": "run/run_035/artifacts/private/enqueue_api_result.json",
+      "sha256": "e1d6007521c08601e13f77c30883f829b2a61136e0a13432aa37bfba9e660940"
+    },
+    {
+      "path": "run/run_035/artifacts/queue_receipt.json",
+      "sha256": "ceb50d1889903fd985318000bef23d1981e7d2e94f90d762c75113e62fb2d671"
+    },
+    {
+      "path": "run/run_035/summary.md",
+      "sha256": "33fff90981be970bda449228b5d3c7c6f4120282586c51d4b511e921f1d065db"
+    }
+  ],
+  "validation": [
+    {
+      "check": "frozen_input_sha256",
+      "status": "PASS",
+      "scope": "D09 original INP unchanged"
+    },
+    {
+      "check": "project_settings",
+      "status": "PASS",
+      "scope": "Project ID/PERSISTED/Abaqus 2024/14 CPU/0 GPU/two stages"
+    },
+    {
+      "check": "queue_and_runner_precheck",
+      "status": "PASS",
+      "scope": "No executable jobs; owner ABSENT/live IDLE; old D09 lock preserved"
+    },
+    {
+      "check": "preflight_and_dry_run",
+      "status": "PASS",
+      "scope": "Public API only, no queue mutation in dry-run"
+    },
+    {
+      "check": "one_queue_only_submission",
+      "status": "PASS",
+      "scope": "Only SPIO_R035_D09_RETRY1, queue_id q_ed246bd7469b4701a8570326dfb73eb3, no Solver start"
+    },
+    {
+      "check": "historical_D09_recovery",
+      "status": "WARNING",
+      "scope": "Old attempt remains UNKNOWN_INTERRUPTED; new separate retry authorized"
+    },
+    {
+      "check": "AgentHub_audit",
+      "status": "PASS",
+      "scope": "Task completed and chain verified"
+    }
+  ],
+  "errors": []
+}

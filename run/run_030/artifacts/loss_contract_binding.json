@@ -1,0 +1,24 @@
+{
+  "version": "run017-exploratory-fd-v1",
+  "loss_identity_path": "run/run_017/artifacts/loss_contract_identity.json",
+  "loss_identity_sha256": "61100c366dc7b307c7e2384fccfcf7321269dde0768aada4a93a629309b6f3a5",
+  "config_path": "run/run_017/artifacts/private/loss_contract.json",
+  "config_sha256": "8929c6528c305ea67ae31f46af2d3d8048f8ef64b3f953cfe9ac7b60afe752f4",
+  "target_path": "run/run_017/artifacts/private/canonical_fd_source_confirmed.csv",
+  "target_sha256": "677ead1f0c5618c974ae037b8b292e3274db36add87f0c0d3aac55cd3d47a8bc",
+  "implementation_path": "inverse/fd_loss.py",
+  "implementation_sha256": "48d8d900f9eb453bdf1c896fea734c589ca8ab22d47e9dd98b165353ee794fb0",
+  "source_rows": 339,
+  "window_m": [
+    0,
+    0.0012
+  ],
+  "points": 241,
+  "F_ref_n": 1428.9,
+  "weights": "equal",
+  "interpolation": "linear FE to fixed experimental grid; no extrapolation",
+  "sign": "u=-Punch RP U2, F=-Punch RP RF2; experimental signs unchanged",
+  "zero_shift": 0,
+  "compliance_recorrection": false,
+  "score_status": "EXPLORATORY_PROVISIONAL; not physical validation"
+}

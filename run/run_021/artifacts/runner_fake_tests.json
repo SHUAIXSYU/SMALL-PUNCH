@@ -1,0 +1,64 @@
+{
+  "status": "AUTO_STOP_UNAVAILABLE",
+  "test_count": 7,
+  "tests": [
+    {
+      "synthetic_status": "DATACHECK_FAILED",
+      "mode": null,
+      "executed_fake_jobs": 4,
+      "unexecuted_queued": 0,
+      "expected_pass": true
+    },
+    {
+      "synthetic_status": "FAILED_NUMERICAL",
+      "mode": null,
+      "executed_fake_jobs": 4,
+      "unexecuted_queued": 0,
+      "expected_pass": true
+    },
+    {
+      "synthetic_status": "COMPLETED_WITH_WARNINGS",
+      "mode": null,
+      "executed_fake_jobs": 4,
+      "unexecuted_queued": 0,
+      "expected_pass": true
+    },
+    {
+      "synthetic_status": "COMPLETED_OK",
+      "mode": "stop_during",
+      "executed_fake_jobs": 1,
+      "unexecuted_queued": 3,
+      "expected_pass": true
+    },
+    {
+      "synthetic_status": "COMPLETED_OK",
+      "mode": "boundary_race",
+      "executed_fake_jobs": 1,
+      "unexecuted_queued": 3,
+      "expected_pass": true
+    },
+    {
+      "synthetic_status": "COMPLETED_OK",
+      "mode": "exception",
+      "executed_fake_jobs": 1,
+      "unexecuted_queued": 4,
+      "expected_pass": true
+    },
+    {
+      "case": "failed_datacheck_blocks_same_job_full",
+      "phases": [
+        "DATACHECK_RUNNING"
+      ],
+      "expected_pass": true
+    }
+  ],
+  "source_hashes": {
+    "abqjobpilot/runner_core.py": "6ca361ede23cc737e736a71c2089c271897329a60a4fb1d463c5cc7b4ac833ce",
+    "abqjobpilot/gui_app.py": "999df8ff785e6d3384efddaaa6e1fd286eb037e09434534fcfd4316fd294d971",
+    "run_gui.py": "a99a768fb9c32e27b565afbaa93dd8a4504e173ac8c26cf4929b418ab3ed9644"
+  },
+  "no_real_runner_start": true,
+  "no_solver_process": true,
+  "no_runtime_io": true,
+  "limitations": "Deterministic fake scheduling demonstrates boundary race; no real GUI timing or Solver tested."
+}

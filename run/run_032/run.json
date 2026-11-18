@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_032",
+  "stage": "I01 actual ODB and sequential gate review",
+  "status": "WARNING",
+  "objective": "Real ODB extraction, frozen Loss and numerical review; queue I02 only if gate passes",
+  "start_time": "2026-10-24T18:46:02.869652+08:00",
+  "end_time": "2026-10-24T18:55:16.259103+08:00",
+  "git": {
+    "branch": "main",
+    "head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+    "remote": "origin\thttps://github.com/SHUAIXSYU/SMALL-PUNCH.git (fetch)\norigin\thttps://github.com/SHUAIXSYU/SMALL-PUNCH.git (push)",
+    "working_tree": "M agenthub_sp_invopt/abqjobpilot_project/project.db\n M run/README.md\n M status/PROJECT_STATUS.md\n?? run/run_019/\n?? run/run_020/\n?? run/run_021/\n?? run/run_022/\n?? run/run_023/\n?? run/run_024/\n?? run/run_025/\n?? run/run_026/\n?? run/run_027/\n?? run/run_028/\n?? run/run_029/\n?? run/run_030/\n?? run/run_031/\n?? run/run_032/"
+  },
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "python_version": "3.11.13",
+  "inputs": [
+    {
+      "path": "run/run_031/artifacts/enqueue_result.json",
+      "sha256": "5f55758b626df76b302076fd7a9ab8eff4e0494da14548cbdf7a48b74428cd33"
+    },
+    {
+      "path": "run/run_030/artifacts/prepared_batch.json",
+      "sha256": "962f9fa56893451330ad3d99689c4be45bb753b7d1e4999d13f62f5cccdb31fa"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_032/artifacts/private/execution_audit.json",
+      "sha256": "f80dc45d5e0f32f3a52f4207c7f3f3c09ef7a9adac0e8fe7895291d3e2bf8a18"
+    },
+    {
+      "path": "run/run_032/artifacts/private/odb/result.json",
+      "sha256": "a57d54c3061a9170cc27b50aa52ab470d3dd122adf059fa49fba7a22c7f2dd83"
+    },
+    {
+      "path": "run/run_032/artifacts/private/odb/manifest.json",
+      "sha256": "025400f307afad538b12ae33b55c294e0bf4165c3e79506108ec944ee993a856"
+    },
+    {
+      "path": "run/run_032/artifacts/main_i01_gate.json",
+      "sha256": "bcd774aa727dcf2d38b92ecec6b11499dccb6d1db13971323c75a360f3a946db"
+    },
+    {
+      "path": "run/run_032/artifacts/i02_admission.json",
+      "sha256": "7eb37fe82fa9fc758f8c4770a5c0bb5e76faf6f90a1630c62deed045f50a6c6a"
+    },
+    {
+      "path": "run/run_032/artifacts/i02_enqueue_result.json",
+      "sha256": "69193846bcc7a94ac6fe8245866172585925b14bedc831a0326d67f9c8054d5f"
+    },
+    {
+      "path": "run/run_032/artifacts/budget_status.json",
+      "sha256": "d03719c9cc0f3a4e5e6a8af607f1547279e1ee79fc63d6d2df30b47031fb5ac2"
+    },
+    {
+      "path": "run/run_032/summary.md",
+      "sha256": "a2def5021e54f1b3680e1f074e84723f9168bfc2b886018db7605bb8883a1cb5"
+    }
+  ],
+  "validation": [
+    {
+      "check": "I01_public_execution_terminal_and_identity",
+      "status": "PASS"
+    },
+    {
+      "check": "real_ODB_AgentHub_delivery_and_MAIN_receipt",
+      "status": "PASS"
+    },
+    {
+      "check": "frozen_loss_independent_recalculation",
+      "status": "PASS"
+    },
+    {
+      "check": "I01_exploratory_numerical_gate",
+      "status": "WARNING_PASS",
+      "scope": "No predeclared blocker; accepted zero moment and DAT contact warning retained"
+    },
+    {
+      "check": "I02_public_preflight_dry_run_enqueue_only",
+      "status": "PASS"
+    },
+    {
+      "check": "I02_unique_queue_and_no_solver_start",
+      "status": "PASS"
+    }
+  ],
+  "errors": []
+}

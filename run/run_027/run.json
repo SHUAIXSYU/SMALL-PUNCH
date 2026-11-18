@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_027",
+  "stage": "single-center input preparation",
+  "objective": "Prepare one max-increment-refined center candidate and freeze adjacent comparison without enqueue or solver",
+  "status": "WARNING",
+  "start_time": "2026-10-24T17:15:20.294867+08:00",
+  "end_time": "2026-10-24T17:20:04.631631+08:00",
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "python_version": "3.11.13",
+  "git": {
+    "branch": "main",
+    "head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+    "remote": "origin\thttps://github.com/SHUAIXSYU/SMALL-PUNCH.git (fetch)\norigin\thttps://github.com/SHUAIXSYU/SMALL-PUNCH.git (push)",
+    "working_tree": "M agenthub_sp_invopt/abqjobpilot_project/project.db\n M run/README.md\n M status/PROJECT_STATUS.md\n?? run/run_019/\n?? run/run_020/\n?? run/run_021/\n?? run/run_022/\n?? run/run_023/\n?? run/run_024/\n?? run/run_025/\n?? run/run_026/\n?? run/run_027/"
+  },
+  "inputs": [
+    {
+      "path": "run/run_023/artifacts/candidates/SPIO_R023_V01_CTR/SPIO_R023_V01_CTR.inp",
+      "sha256": "14006d69c15e6fd4be021b889964e5add51e724d52fd03ff817b0f80b747c2ff"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_027/artifacts/candidates/SPIO_R027_CTR_M0025/SPIO_R027_CTR_M0025.inp",
+      "sha256": "dae9345bc60973c27edec498dfbd27f269e1f5bbe151316918862954faac40c9"
+    },
+    {
+      "path": "run/run_027/artifacts/prepared_candidate.json",
+      "sha256": "bf7fc3a3edf9304eb6e90218b73d68dd1640956e713737fa826289d614c4375c"
+    },
+    {
+      "path": "run/run_027/artifacts/comparison_contract.json",
+      "sha256": "e189ab1551f775f085fc0208e0550784db85fa3b258b6164db1f8a20c148d42a"
+    },
+    {
+      "path": "run/run_027/artifacts/comparison_test_result.json",
+      "sha256": "7f0776ff50680536f50f9551a41d504f6f2358b95d94cf4600e3904129f130bc"
+    },
+    {
+      "path": "run/run_027/artifacts/preview_result.json",
+      "sha256": "91b7eeb2c8ee5a638b33873c03560a36d76d3721acb4eda44ea3b28333f0e930"
+    },
+    {
+      "path": "run/run_027/summary.md",
+      "sha256": "998001c5fa4b4558cfe2e067e2dc21083f073dce54b8a5a67f2bb2ce4a90c252"
+    }
+  ],
+  "validation": [
+    {
+      "check": "real_cae_handoff",
+      "status": "PASS",
+      "scope": "separate CAE chat claimed, completed, sent Hub evidence; MAIN received completion"
+    },
+    {
+      "check": "single_byte_change",
+      "status": "PASS",
+      "scope": "only *Static maximum increment 0.005 to 0.0025"
+    },
+    {
+      "check": "comparison_offline_tests",
+      "status": "PASS",
+      "scope": "12 unit tests and historical metric reproduction"
+    },
+    {
+      "check": "abqjobpilot_preview",
+      "status": "PASS",
+      "scope": "PERSISTED settings, preflight, dry-run, no mutations"
+    },
+    {
+      "check": "numerical_accuracy",
+      "status": "NOT_EVALUATED",
+      "scope": "new candidate not solved; run025 BLOCKED remains"
+    }
+  ],
+  "errors": []
+}

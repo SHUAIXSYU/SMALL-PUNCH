@@ -1,0 +1,8 @@
+{
+  "task_id": "7d281a3e-729e-4b4e-96c7-b4128f1f35f3",
+  "budget_task_id": "b6fcf7ca-f82d-4ac0-8c4c-8ec61bb120dc",
+  "message_id": "58fc4561-a215-4f90-81c0-fccf003ef483",
+  "worker_tasks_not_yet_created": true,
+  "reason": "ODB dispatch awaits actual completion",
+  "cross_session_auto_wakeup_claimed": false
+}

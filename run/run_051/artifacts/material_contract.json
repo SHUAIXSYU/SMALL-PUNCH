@@ -1,0 +1,93 @@
+{
+  "version": "run051-d01-highp-tangent-envelope-v1",
+  "frozen_at": "2026-10-26T22:10:43.958093+08:00",
+  "status": "FROZEN_BEFORE_ANY_CANDIDATE_SOLVE",
+  "design_intent_path": "run/run_051/artifacts/design_intent.json",
+  "design_intent_sha256": "2e110fcee2de96c42a7d6d4b73e80b47ecc6da196d089979bbe1c3047f0bc326",
+  "reference_parameters_path": "run/run_046/artifacts/private/freeze/D01_parameters.json",
+  "reference_parameters_sha256": "34e26254fde3964ed2395b57632acbf5b8f84bc1e64e2869bfa217f4e3f03c85",
+  "source_inp": "run/run_043/artifacts/candidates/SPIO_R043_V_D01_M00125/SPIO_R043_V_D01_M00125.inp",
+  "source_inp_sha256": "13e48fb2501a930f323b391c03e5f4e9ee6c3881959a837ca22cf94aab8939ca",
+  "implementation": "run/run_051/artifacts/highp_envelope.py",
+  "implementation_sha256": "93e8cb95b3c17cb90552a56a891e77fe16451371a4e7dd32fbdb245c0a40f43d",
+  "p_switch": 0.09774053167903649,
+  "p_switch_total_strain": 0.1,
+  "p_switch_D01_analytic_stress_pa": 474488347.40233815,
+  "p_switch_method": "frozen D01 Hollomon predicted sigma(.10); p=.10-sigma/E, not released tensile stress",
+  "deployed_anchor_stress_pa": 474206508.39118195,
+  "analytic_minus_deployed_anchor_pa": 281839.01115620136,
+  "anchor_note": "switch coordinate from analytic frozen D01; stress anchor from exact deployed table to preserve low-p FE baseline. Existing baseline interpolation discrepancy not corrected",
+  "E_pa": 210000000000.0,
+  "nu": 0.3,
+  "low_branch_sigma_y_mpa": 152.3086335396325,
+  "low_branch_n": 0.23066241424320405,
+  "amplitude_a": 0.5,
+  "transition_width": 0.05,
+  "transition_end": 0.1477405316790365,
+  "curve_definition": "sigma_H(p)=sigma_D01_deployed(p) +/- a*integral_p_switch^p S((q-p_switch)/width)*H_D01_deployed(q)dq; unchanged for p<=p_switch",
+  "ramp": "S(t)=6t^5-15t^4+10t^3 clipped to0/1 outside t in[0,1]",
+  "post_transition_hardening_ratios": [
+    0.5,
+    1.5
+  ],
+  "scope": "exploratory dimensionless hardening-rate perturbation, not new fitted Hollomon parameters or true material bounds",
+  "coverage": [
+    0,
+    0.9
+  ],
+  "baseline_knot_slope_jumps_retained": true,
+  "new_modulation_join_stress_and_tangent_continuous": true,
+  "linear_table_interpolation_relative_error_bound": 1e-05,
+  "solver_authorized": false,
+  "enqueue_authorized": false,
+  "points": [
+    {
+      "candidate_id": "H01",
+      "job_name": "SPIO_R051_H01_LOW",
+      "sign": -1,
+      "post_transition_hardening_multiplier": 0.5,
+      "table_path": "run/run_051/artifacts/private/H01/yield_stress_plastic_strain.csv",
+      "table_sha256": "41a1c00133995a5cbe076d8e5ef56a8d4ad2257d830c57962a90f42691e74c3e",
+      "plastic_rows_path": "run/run_051/artifacts/private/H01/plastic_rows.inc",
+      "plastic_rows_sha256": "c27d38eee841ab4b635ac13f3e36b66cabadf6f3eae9889c5f215de58e4b795d",
+      "table_rows": 82,
+      "rows_at_or_below_switch": 37,
+      "original_low_numeric_rows_preserved": 36,
+      "max_certified_relative_interpolation_bound": 9.793926204970097e-06,
+      "max_dense_relative_interpolation_error": 8.403731516760542e-06,
+      "max_low_deployed_interpolation_difference_pa": 5.960464477539063e-08,
+      "initial_yield_stress_pa": 152308633.5396325,
+      "coverage": [
+        0.0,
+        0.9
+      ],
+      "intended_inp_path": "run/run_051/artifacts/candidates/SPIO_R051_H01_LOW/SPIO_R051_H01_LOW.inp",
+      "working_dir": "run/run_051/artifacts/solver/SPIO_R051_H01_LOW",
+      "expected_odb": "run/run_051/artifacts/solver/SPIO_R051_H01_LOW/SPIO_R051_H01_LOW.odb"
+    },
+    {
+      "candidate_id": "H02",
+      "job_name": "SPIO_R051_H02_HIGH",
+      "sign": 1,
+      "post_transition_hardening_multiplier": 1.5,
+      "table_path": "run/run_051/artifacts/private/H02/yield_stress_plastic_strain.csv",
+      "table_sha256": "e5279d18dbc1fed1bf6e758c917a44daddaebc78f51c4cf3daa30dc46c7b7ca4",
+      "plastic_rows_path": "run/run_051/artifacts/private/H02/plastic_rows.inc",
+      "plastic_rows_sha256": "1e0b5186000c9a2b86e9bb59d3fede5021a9d9647746370e55408e83f482ea3a",
+      "table_rows": 82,
+      "rows_at_or_below_switch": 37,
+      "original_low_numeric_rows_preserved": 36,
+      "max_certified_relative_interpolation_bound": 9.556338397597788e-06,
+      "max_dense_relative_interpolation_error": 8.186535286679e-06,
+      "max_low_deployed_interpolation_difference_pa": 5.960464477539063e-08,
+      "initial_yield_stress_pa": 152308633.5396325,
+      "coverage": [
+        0.0,
+        0.9
+      ],
+      "intended_inp_path": "run/run_051/artifacts/candidates/SPIO_R051_H02_HIGH/SPIO_R051_H02_HIGH.inp",
+      "working_dir": "run/run_051/artifacts/solver/SPIO_R051_H02_HIGH",
+      "expected_odb": "run/run_051/artifacts/solver/SPIO_R051_H02_HIGH/SPIO_R051_H02_HIGH.odb"
+    }
+  ]
+}

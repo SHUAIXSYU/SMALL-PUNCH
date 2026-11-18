@@ -1,0 +1,30 @@
+{
+  "run": "run_023",
+  "main_task": "ea7bf6b4-c76b-45a2-928b-a47493673777",
+  "scope": "Prepare exactly V01/V02, only numerical initial/max increment change; no solver/datacheck/enqueue. Read AGENTS and protocols. No hidden tensile. Only write run023 artifacts/private/cae, candidates, solver and cae_candidate_manifest.json. Do not edit report/index/status.",
+  "controls": {
+    "original_static_line": "0.01, 1., 1e-12, 0.1",
+    "new_static_line": "0.001, 1., 1e-12, 0.005",
+    "max_increments_unchanged": 999999
+  },
+  "reason": "Initial reduction 10x targets first-attempt rejection; max reduction20x caps prescribed motion increment at 0.006mm (linear ramp assumption verify), versus prior0.12mm. An increment-refinement screen, not mesh/time convergence proof. Keep exact material tables and all other bytes, output variables, time, mesh/contact/BC unchanged. Validate actual amplitude.",
+  "points": [
+    {
+      "point_id": "V01",
+      "job_name": "SPIO_R023_V01_CTR",
+      "source_inp": "run/run_008/artifacts/candidate_inp/SPIO_R008_Q200_N010_Candidate/SPIO_R008_Q200_N010_Candidate.inp",
+      "source_sha256": "fa2de5d73a28536c1c07cd22072d2a24c1ae988c569127d728931c583457f05a",
+      "sigma_y_mpa": 200.0,
+      "n": 0.1
+    },
+    {
+      "point_id": "V02",
+      "job_name": "SPIO_R023_V02_NP",
+      "source_inp": "run/run_020/artifacts/candidates/SPIO_R020_L04_NP/SPIO_R020_L04_NP.inp",
+      "source_sha256": "6234cfc8e906a0677e3c6485781d09ae65f158a8ca0bfcee30e6c75427a38c99",
+      "sigma_y_mpa": 200.0,
+      "n": 0.124
+    }
+  ],
+  "requirements": "Unique input candidates/<job>/<job>.inp and empty solver/<job>; full absolute paths/hashes/parameters E210e9 nu.3 pmax.9; exact source plastic tables, verify generator provenance without regeneration; no INCLUDE dependency. Independent byte diff only Static data line; report control rationale and limitations; manifest, structured result and AgentHub artifacts/message."
+}

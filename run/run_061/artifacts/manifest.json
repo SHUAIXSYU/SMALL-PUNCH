@@ -1,0 +1,35 @@
+{
+  "version": "run061-phase1-artifacts-v1",
+  "files": [
+    {
+      "path": "run/run_061/artifacts/private/queue_manifest.json",
+      "sha256": "9313c567a851730cfb121c6e4c690ef254f282d821c35084a5e5d4bf0f585516",
+      "private": true
+    },
+    {
+      "path": "run/run_061/artifacts/private/authorization_scope.json",
+      "sha256": "2d9dfd1dd4193b96a50fc712ec19ec40d28c870f232e61ce8ce2b94b617f672c",
+      "private": true
+    },
+    {
+      "path": "run/run_061/artifacts/private/authorization_ledger_queued.json",
+      "sha256": "37ebc00044c8f94203b5d78c1780c100263b41db7a416da7a3c5e0e9e47a754c",
+      "private": true
+    },
+    {
+      "path": "run/run_061/artifacts/private/phase1_report.md",
+      "sha256": "ac9ea7e3d0d6f5e1da66ad3300fbf0cc810a256f811f832736a83850c15b893d",
+      "private": true
+    },
+    {
+      "path": "run/run_061/artifacts/private/evidence_manifest.json",
+      "sha256": "0cad5f1429ee7bb9f393a55c27d856efa3d25914350158e169d192a6418c4efb",
+      "private": true
+    },
+    {
+      "path": "run/run_061/artifacts/private/agenthub_completion_receipt.json",
+      "sha256": "f8aa0f9f1f96f0643cca4431ec7726dc2a3a8a1d389d14d4d78de455809be790",
+      "private": true
+    }
+  ]
+}

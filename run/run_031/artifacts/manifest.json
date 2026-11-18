@@ -1,0 +1,50 @@
+{
+  "at": "2026-10-24T18:32:38.911993+08:00",
+  "status": "I01_QUEUED_AWAITING_MANUAL_START",
+  "files": [
+    {
+      "path": "run/run_031/artifacts/authorization.json",
+      "sha256": "fc5b2ebd35b17c038138c660b8646f29e361f0d6c4f552a8dfb3cf3756be6c59"
+    },
+    {
+      "path": "run/run_031/artifacts/admission.json",
+      "sha256": "a8df0f49ad7a630a94f0b4768dc5204cba255a1e3cd3d05f533883e027bcd833"
+    },
+    {
+      "path": "run/run_031/artifacts/request.json",
+      "sha256": "556a73268933d409e77cbc94fd6a6ec9711a8575358b880504a877c507d687fd"
+    },
+    {
+      "path": "run/run_031/artifacts/enqueue_response.json",
+      "sha256": "67b60a0883919db9239a68ea024f36e084115070cf2286687fa81fb17f6a6ad1"
+    },
+    {
+      "path": "run/run_031/artifacts/queue_after.json",
+      "sha256": "be4c13acec6678402e2c1eb143fa375fc94e34b3b8f5a496b5106fc6ffd6612c"
+    },
+    {
+      "path": "run/run_031/artifacts/postcheck.json",
+      "sha256": "40dc988db0699cd5fb925bea19b6334ab108e3d5c765be4ee8a0134228ce201c"
+    },
+    {
+      "path": "run/run_031/artifacts/enqueue_result.json",
+      "sha256": "5f55758b626df76b302076fd7a9ab8eff4e0494da14548cbdf7a48b74428cd33"
+    },
+    {
+      "path": "run/run_031/artifacts/agenthub_receipt.json",
+      "sha256": "e45046f5f62e546c317ecc4add15cc4f3e52c1bbfbaa6f14c9556d8a09d693f2"
+    },
+    {
+      "path": "run/run_031/artifacts/budget_status.json",
+      "sha256": "48148a8e74a68c855db4353597dfb0145b1b1b73984dbd1b5bdbde3875a0857a"
+    },
+    {
+      "path": "run/run_031/summary.md",
+      "sha256": "42742aa1da1df705320846cb909ed431e3678b28b3bdb2d8e63d22bac7250e0e"
+    },
+    {
+      "path": "run/run_031/run.json",
+      "sha256": "c675d97d93e35aced4077b4d3099867cd2ac19b9278dd682d5afa915350b731d"
+    }
+  ]
+}

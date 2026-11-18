@@ -1,0 +1,36 @@
+{
+  "at": "2026-10-25T21:55:56.972905+08:00",
+  "run": "run_039",
+  "task_id": "4bb49a70-f8d1-4a08-93b2-8953e3e58cb4",
+  "supplement": "Complete the same-version 22-point dataset",
+  "i01": "Verify prior real ODB result in run/run_032/artifacts/private/odb and source hashes; reuse if unchanged",
+  "i02": "No prior ODB extraction located; perform real Abaqus Python read-only extraction and frozen Loss or set null with reason",
+  "jobs": [
+    {
+      "point_id": "I01",
+      "job_name": "SPIO_R030_I01_G",
+      "queue_id": "q_c8329bd4fab4455f924d211d62ba0625",
+      "inp_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_030\\artifacts\\candidates\\SPIO_R030_I01_G\\SPIO_R030_I01_G.inp",
+      "inp_sha256": "60a9631854792cb0ab61ce48eceff182bcfd5ab12679f8c0a77ac0078c9ac1ea",
+      "odb_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_030\\artifacts\\solver\\SPIO_R030_I01_G\\SPIO_R030_I01_G.odb",
+      "odb_sha256": "f9e67b2c433d0ebd18591c3916e49b3a072e09199f8478dc9b9fd79ff153f406",
+      "duration_sec": 210,
+      "numeric_version": "run030-standard-m0025-hollomon-v1",
+      "loss_version": "run017-exploratory-fd-v1"
+    },
+    {
+      "point_id": "I02",
+      "job_name": "SPIO_R030_I02_L",
+      "queue_id": "q_a40ddbf45cec472cb3541e28e6184fad",
+      "inp_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_030\\artifacts\\candidates\\SPIO_R030_I02_L\\SPIO_R030_I02_L.inp",
+      "inp_sha256": "c93d77fcbd6e0bab8a12e439a3ab987a37360663296d6e2e62ceaa2610814e47",
+      "odb_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_030\\artifacts\\solver\\SPIO_R030_I02_L\\SPIO_R030_I02_L.odb",
+      "odb_sha256": "6a76e7dca7113fa66dd914407f3998ccfd62ffc2bcd149eafcae12724113d00c",
+      "duration_sec": 209,
+      "numeric_version": "run030-standard-m0025-hollomon-v1",
+      "loss_version": "run017-exploratory-fd-v1"
+    }
+  ],
+  "new_output_dir": "run/run_039/artifacts/private/odb/I02",
+  "restrictions": "No Solver, Datacheck, enqueue, retry, sealed tensile data, source modification, or commit/push"
+}

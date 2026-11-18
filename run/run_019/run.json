@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_019",
+  "stage": "Existing sensitivity results audit",
+  "objective": "Readonly public execution audit, real ODB Agent extraction, frozen loss and available sensitivity",
+  "status": "WARNING",
+  "start_time": "2026-10-24T13:31:11.876547+08:00",
+  "end_time": "2026-10-24T13:41:14.694891+08:00",
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "git_head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+  "git_branch": "main",
+  "inputs": [
+    {
+      "path": "run/run_017/artifacts/prepared_batch.json",
+      "role": "Frozen five-point identities"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_019/summary.md",
+      "role": "Public summary"
+    },
+    {
+      "path": "run/run_019/artifacts/private/main_report.md",
+      "role": "Private scientific report"
+    },
+    {
+      "path": "run/run_019/artifacts/private/agenthub_final_receipt.json",
+      "role": "Private AgentHub receipt"
+    }
+  ],
+  "validation": [
+    {
+      "check": "Readonly actual execution/file audit and real ODB extraction",
+      "status": "PASS",
+      "evidence": "run/run_019/artifacts/private/odb_handoff_verified.json",
+      "scope": "Observed existing points only"
+    },
+    {
+      "check": "Frozen Loss and full material identity",
+      "status": "PASS",
+      "evidence": "run/run_019/artifacts/private/full_material_identity.json",
+      "scope": "Exploratory analysis only"
+    },
+    {
+      "check": "Source and runtime preservation",
+      "status": "PASS",
+      "evidence": "run/run_019/artifacts/private/final_integrity.json",
+      "scope": "Exact allowlisted sources"
+    }
+  ],
+  "errors": [
+    {
+      "code": "MISSING_PERTURBATION_RESULTS",
+      "severity": "WARNING",
+      "message": "Complete local sensitivity cannot be evaluated",
+      "evidence": "run/run_019/artifacts/private/main_analysis/sensitivity_diagnostic.json",
+      "resolution": "Requires separate explicit future calculation authorization"
+    },
+    {
+      "code": "NUMERICAL_AND_PHYSICAL_LIMITATIONS",
+      "severity": "WARNING",
+      "message": "See private report; execution success does not validate constitutive inversion",
+      "evidence": "run/run_019/artifacts/private/main_report.md",
+      "resolution": "Retain uncertainty and review before further jobs"
+    }
+  ],
+  "time_notes": "Asia/Shanghai UTC+08 observed timestamps; source runtime timestamps retain original form",
+  "task_ids": {
+    "MAIN": "8c8aa4f7-d2e1-4a74-b27f-906f561e8316",
+    "ODB": "ec78b194-4a24-4b91-8377-7b27ade04f4f"
+  }
+}

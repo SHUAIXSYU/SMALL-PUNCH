@@ -1,0 +1,33 @@
+{
+  "at": "2026-10-24T18:53:26.528256+08:00",
+  "status": "PASS_I01_EXPLORATORY_GATE_WITH_WARNINGS",
+  "gate_scope": "run030 pilot protocol numerical eligibility for next frozen Job; not physical validation",
+  "review_task_id": "bf1d6521-6052-4890-95e8-2b955896985c",
+  "odb_task_id": "9225daaf-c253-44b7-bbd8-f574bbf6ce38",
+  "real_odb_agent": "ODB:codex-local-01a15d5e-f6e8-7373-8991-ae275dfd3b40",
+  "queue_id": "q_c8329bd4fab4455f924d211d62ba0625",
+  "job_name": "SPIO_R030_I01_G",
+  "inp_sha256": "60a9631854792cb0ab61ce48eceff182bcfd5ab12679f8c0a77ac0078c9ac1ea",
+  "odb_sha256": "f9e67b2c433d0ebd18591c3916e49b3a072e09199f8478dc9b9fd79ff153f406",
+  "loss_version": "run017-exploratory-fd-v1",
+  "loss": 1.9543863201427107,
+  "rmse_n": 1997.593164661941,
+  "nrmse": 1.3979936767177135,
+  "loss_status": "EXPLORATORY_PROVISIONAL",
+  "accepted_increments": 402,
+  "rejected_attempts": 0,
+  "cutback_increments": 0,
+  "max_saved_peeq": 0.5244588255882263,
+  "material_table_pmax": 0.9,
+  "runtime_s": 210,
+  "warnings": [
+    "ACCEPTED_ZERO_MOMENT_REVIEWED_BASELINE_LIKE",
+    "DAT_CONTACT_TRACKING_STATE_BASED_FALLBACK",
+    "HISTORICAL_RUNNER_PROCESS_EVIDENCE_UNCONFIRMED"
+  ],
+  "blocking_issues": [],
+  "I02_enqueue_gate_open": true,
+  "I02_solver_start": "USER_GUI_ONLY",
+  "historical_process_evidence_gap_retained": true,
+  "sealed_tensile_accessed": false
+}

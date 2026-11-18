@@ -1,0 +1,132 @@
+{
+  "at": "2026-10-24T18:31:32.423602+08:00",
+  "scope": {
+    "run": "run_031",
+    "authorization_source": "Explicit user eight-job authorization in current conversation",
+    "prepared_batch_sha256": "962f9fa56893451330ad3d99689c4be45bb753b7d1e4999d13f62f5cccdb31fa",
+    "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+    "jobs": [
+      {
+        "point_id": "I01",
+        "job_name": "SPIO_R030_I01_G",
+        "inp_sha256": "60a9631854792cb0ab61ce48eceff182bcfd5ab12679f8c0a77ac0078c9ac1ea",
+        "inp_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_030\\artifacts\\candidates\\SPIO_R030_I01_G\\SPIO_R030_I01_G.inp",
+        "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_030\\artifacts\\solver\\SPIO_R030_I01_G",
+        "sigma_y_mpa": 190.14278543376116,
+        "n": 0.44,
+        "maximum_attempts": 1
+      },
+      {
+        "point_id": "I02",
+        "job_name": "SPIO_R030_I02_L",
+        "inp_sha256": "c93d77fcbd6e0bab8a12e439a3ab987a37360663296d6e2e62ceaa2610814e47",
+        "inp_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_030\\artifacts\\candidates\\SPIO_R030_I02_L\\SPIO_R030_I02_L.inp",
+        "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_030\\artifacts\\solver\\SPIO_R030_I02_L",
+        "sigma_y_mpa": 188.34769426063204,
+        "n": 0.116,
+        "maximum_attempts": 1
+      },
+      {
+        "point_id": "I03",
+        "job_name": "SPIO_R030_I03_G",
+        "inp_sha256": "3297160bafd9b97c7baa2d86b292d0bb00f76ab66225739f3686a9e6878c7696",
+        "inp_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_030\\artifacts\\candidates\\SPIO_R030_I03_G\\SPIO_R030_I03_G.inp",
+        "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_030\\artifacts\\solver\\SPIO_R030_I03_G",
+        "sigma_y_mpa": 305.53223494955773,
+        "n": 0.19999999999999998,
+        "maximum_attempts": 1
+      },
+      {
+        "point_id": "I04",
+        "job_name": "SPIO_R030_I04_L",
+        "inp_sha256": "723e65e2cd3b2ee01a20d3806c9d7c7db8217ecef765e740239a2db30de6d31c",
+        "inp_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_030\\artifacts\\candidates\\SPIO_R030_I04_L\\SPIO_R030_I04_L.inp",
+        "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_030\\artifacts\\solver\\SPIO_R030_I04_L",
+        "sigma_y_mpa": 211.05460498125615,
+        "n": 0.17359999999999998,
+        "maximum_attempts": 1
+      },
+      {
+        "point_id": "I05",
+        "job_name": "SPIO_R030_I05_G",
+        "inp_sha256": "21d36af80ce266f6d72caf94e9b6e148fa016f86a1bddd80827be7cd4ec4540b",
+        "inp_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_030\\artifacts\\candidates\\SPIO_R030_I05_G\\SPIO_R030_I05_G.inp",
+        "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_030\\artifacts\\solver\\SPIO_R030_I05_G",
+        "sigma_y_mpa": 490.94656092429807,
+        "n": 0.32,
+        "maximum_attempts": 1
+      },
+      {
+        "point_id": "I06",
+        "job_name": "SPIO_R030_I06_L",
+        "inp_sha256": "0a544fd06f0c0de630946173314ba980085a8a464ef4027e715bfb46e3d3b45a",
+        "inp_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_030\\artifacts\\candidates\\SPIO_R030_I06_L\\SPIO_R030_I06_L.inp",
+        "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_030\\artifacts\\solver\\SPIO_R030_I06_L",
+        "sigma_y_mpa": 236.49902622197678,
+        "n": 0.0968,
+        "maximum_attempts": 1
+      },
+      {
+        "point_id": "I07",
+        "job_name": "SPIO_R030_I07_G",
+        "inp_sha256": "f59f9328a3119f6705daf1e144801341a8273627c6333d00acec233b7210deff",
+        "inp_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_030\\artifacts\\candidates\\SPIO_R030_I07_G\\SPIO_R030_I07_G.inp",
+        "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_030\\artifacts\\solver\\SPIO_R030_I07_G",
+        "sigma_y_mpa": 788.8808384594458,
+        "n": 0.08,
+        "maximum_attempts": 1
+      },
+      {
+        "point_id": "I08",
+        "job_name": "SPIO_R030_I08_L",
+        "inp_sha256": "ac0769a21b6dd09fe1b87da708c1a5d38eaea4a71f304264f75df8722d2719d2",
+        "inp_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_030\\artifacts\\candidates\\SPIO_R030_I08_L\\SPIO_R030_I08_L.inp",
+        "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_030\\artifacts\\solver\\SPIO_R030_I08_L",
+        "sigma_y_mpa": 265.0109880753873,
+        "n": 0.1544,
+        "maximum_attempts": 1
+      }
+    ],
+    "total_authorized_jobs": 8,
+    "cpus": 14,
+    "gpus": 0,
+    "run_datacheck": true,
+    "run_full": true,
+    "automatic_retries": 0,
+    "solver_start": "USER_GUI_ONLY",
+    "submission": "one eligible Job at a time; next depends on actual result review",
+    "budget_not_transferable_to_other_parameters": true,
+    "numerical_contract": "run030-standard-m0025-hollomon-v1",
+    "loss_contract": "run017-exploratory-fd-v1"
+  },
+  "budget_task_id": "39eef014-3f30-4fdb-9c3e-c33fbd810429",
+  "queue_task_ids": {
+    "I01": "3afd05ca-ba91-45cb-9494-67ebc0225ff6",
+    "I02": "8d6062a8-561c-4201-9d6a-7f4a2f3354aa",
+    "I03": "1b5fd1e9-013b-45de-b67b-1a52f744535b",
+    "I04": "b0cc9580-2212-44c2-b90a-30fb24d25478",
+    "I05": "883cdb4f-3206-4611-9383-2a9242161c09",
+    "I06": "a4b643bf-2c36-4514-993d-a9f3eea5a71e",
+    "I07": "098143c4-bc55-4e6a-a89b-15f2f528a0bd",
+    "I08": "11f684f5-1e2c-4051-b15d-72be51ef39ea"
+  },
+  "result_review_task_ids": {
+    "I01": "bf1d6521-6052-4890-95e8-2b955896985c",
+    "I02": "d43090a1-408d-4993-adf8-08965eec7616",
+    "I03": "cc03726f-395b-4998-a4ad-b41daca31d5c",
+    "I04": "1f6423a2-2128-4c9a-b419-0c443d2b2a4e",
+    "I05": "f3f49b52-153e-4137-8578-2883363e3f94",
+    "I06": "4067a7d9-ffa0-405a-9e50-52cb1445fab9",
+    "I07": "55637886-3a22-4f4b-8497-8f6090f216b8",
+    "I08": "152ba94c-0384-4cf2-9419-ebf016a23e3e"
+  },
+  "phase_gate_task_id": "b5ea2600-e352-42fa-a8a9-51b00280c517",
+  "I01_task_approved_actions": [
+    "enqueue",
+    "start_solver"
+  ],
+  "I02_I08_gate_pending": true,
+  "approved_new_solver_jobs": 8,
+  "queue_submitted": 0,
+  "started_attempts_confirmed": 0
+}

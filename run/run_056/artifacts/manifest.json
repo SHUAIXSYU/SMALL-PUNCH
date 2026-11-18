@@ -1,0 +1,53 @@
+{
+  "run_id": "run_056",
+  "files": [
+    {
+      "path": "run/run_056/artifacts/finalize_reports.py",
+      "role": "offline audit/design code",
+      "sha256": "3e63376584f36d2b73d42c79e2b81cbe3bddb546b9a7809108728fc7c9bcf9ec",
+      "visibility": "PUBLIC_CODE"
+    },
+    {
+      "path": "run/run_056/artifacts/prospective_design.py",
+      "role": "offline audit/design code",
+      "sha256": "336d8fc1ffd76fb7e3881591013d80330e99d71520671bb12088c06a1ee87e46",
+      "visibility": "PUBLIC_CODE"
+    },
+    {
+      "path": "run/run_056/artifacts/render_design.py",
+      "role": "offline audit/design code",
+      "sha256": "0381e84f189ac98aa25708b2057f77b9e8b110484d0ba30cd4671a5aed889084",
+      "visibility": "PUBLIC_CODE"
+    },
+    {
+      "path": "run/run_056/artifacts/review_science.py",
+      "role": "offline audit/design code",
+      "sha256": "732862ada8c1748050e78970fd554ab2609dfe4d423bbf261dd02ad4c7d6447c",
+      "visibility": "PUBLIC_CODE"
+    },
+    {
+      "path": "run/run_056/artifacts/test_prospective_design.py",
+      "role": "offline audit/design code",
+      "sha256": "83677863d8eae7e3b68001786542b8fe2dcb96e8e98fa4acc8954406dabdd8c6",
+      "visibility": "PUBLIC_CODE"
+    },
+    {
+      "path": ".gitignore",
+      "role": "authorised ignore policy revision",
+      "sha256": "b7aef9f1eed85f3da92f73b35e2732dca152b9aa04eefc3c670dc9ba20e3fce2",
+      "visibility": "PUBLIC"
+    },
+    {
+      "path": "run/run_056/artifacts/private/scientific_report.md",
+      "role": "scientific report",
+      "sha256": "dabb0754e33d9654d555015d1f1e0404981b61346b3cf409fcafdacf552966f3",
+      "visibility": "PRIVATE"
+    },
+    {
+      "path": "run/run_056/artifacts/private/evidence_manifest.json",
+      "role": "private evidence identities",
+      "sha256": "378f3b3dce086e64d2194cc6fc4541771c06697f2b1add9c451f53dd49e42d36",
+      "visibility": "PRIVATE"
+    }
+  ]
+}

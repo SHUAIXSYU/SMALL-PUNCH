@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_046",
+  "stage": "Exploratory candidate constitutive freeze and independent validation preparation",
+  "objective": "freeze two SPT candidates and prospective independent validation protocol; no holdout access, FE, optimizer, or unblinding",
+  "status": "RUNNING",
+  "start_time": "2026-10-26T16:34:52.874067+08:00",
+  "end_time": null,
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "git_branch": "main",
+  "git_head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+  "inputs": [],
+  "outputs": [],
+  "validation": [],
+  "errors": []
+}

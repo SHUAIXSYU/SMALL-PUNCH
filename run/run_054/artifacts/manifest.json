@@ -1,0 +1,47 @@
+{
+  "run_id": "run_054",
+  "files": [
+    {
+      "path": "run/run_054/artifacts/analyze_directions.py",
+      "role": "analysis code",
+      "sha256": "17f50abcc5af098aa46a08ff0fafd73cd7ffee55ea28be4184d9e47222db13d2",
+      "visibility": "PUBLIC_CODE"
+    },
+    {
+      "path": "run/run_054/artifacts/audit_inputs.py",
+      "role": "analysis code",
+      "sha256": "aef341665954d1a8c082aacd0ae266eb8fbdcc5a57d17654a4858bcca25e5496",
+      "visibility": "PUBLIC_CODE"
+    },
+    {
+      "path": "run/run_054/artifacts/direction_math.py",
+      "role": "analysis code",
+      "sha256": "f2180e8f37e33757c29d6e31f44d541bd64b0aa04f9e16533d7f72ebb0d8a2d0",
+      "visibility": "PUBLIC_CODE"
+    },
+    {
+      "path": "run/run_054/artifacts/finalize_report.py",
+      "role": "analysis code",
+      "sha256": "eff6e8ee291d160ff33db27d5127038962d51e4d49c5b43d9abaeeddf358f1a3",
+      "visibility": "PUBLIC_CODE"
+    },
+    {
+      "path": "run/run_054/artifacts/test_direction_math.py",
+      "role": "analysis code",
+      "sha256": "f7868e79ecb7b39594ecd3dc6e684f20eb79c5048728b099237391140e3dd80b",
+      "visibility": "PUBLIC_CODE"
+    },
+    {
+      "path": "run/run_054/artifacts/private/confounding_report.md",
+      "role": "independent scientific assessment",
+      "sha256": "32a15b52b387ba8e784d5cd18a660e61c724d8a0048c366edf4c38d2eabfbb14",
+      "visibility": "PRIVATE"
+    },
+    {
+      "path": "run/run_054/artifacts/private/evidence_manifest.json",
+      "role": "private evidence hash list",
+      "sha256": "35171250768b612d233b5da0c8c4c236c6c6882a53ea865296afd0dcc4f45f6f",
+      "visibility": "PRIVATE"
+    }
+  ]
+}

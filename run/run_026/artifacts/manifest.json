@@ -1,0 +1,106 @@
+{
+  "at": "2026-10-24T16:57:43.426852+08:00",
+  "task_id": "dcdbafc0-8c90-40fb-94b4-eb277e357eb7",
+  "methods": [
+    "Abaqus 2024 Python readOnly ODB contact field extraction",
+    "Torch-GPU NumPy frozen-grid offline computation",
+    "STA/MSG accepted-attempt alignment"
+  ],
+  "files": [
+    {
+      "path": "run/run_026/summary.md",
+      "sha256": "e937e479cd3c95a752545b85303e456bef7fffb402b29c5c30ddf58333929ec2",
+      "private": false
+    },
+    {
+      "path": "run/run_026/run.json",
+      "sha256": "350af6026c8211ab8f1216254d4c53a0d89dffc987299544ac97f6c126320ab4",
+      "private": false
+    },
+    {
+      "path": "run/run_026/artifacts/private/main_report.md",
+      "sha256": "4807328cee8579910e6582e115421db0f5c208bf1ad9ada6d91878f86c758270",
+      "private": true
+    },
+    {
+      "path": "run/run_026/artifacts/private/diagnosis.json",
+      "sha256": "38045767444dddce2ab450f4098cc7c19d1e87691bfb9b44311cb26e5fa098c1",
+      "private": true
+    },
+    {
+      "path": "run/run_026/artifacts/private/contact_probe.json",
+      "sha256": "6075f368c25377fc43f17902bf5139d6af5ecca1ed61b618ea2115b93287eab4",
+      "private": true
+    },
+    {
+      "path": "run/run_026/artifacts/private/contact_extraction.json",
+      "sha256": "71eb368252cc6e468ab8684a4d06a595143025b6548b1031abddea3f17dcefdb",
+      "private": true
+    },
+    {
+      "path": "run/run_026/artifacts/private/contact_frames.csv",
+      "sha256": "7b95cf21c25615997e01a531c50da177768083b9104289dbac482b1e5ad1dd4d",
+      "private": true
+    },
+    {
+      "path": "run/run_026/artifacts/private/contact_nodes_focus.csv",
+      "sha256": "fdddbf339355a2338d7d38510b22d0cef2ed4291652d30fb9a0adc6d54d2be8b",
+      "private": true
+    },
+    {
+      "path": "run/run_026/artifacts/private/interval_metrics.csv",
+      "sha256": "beaf60fe553a163c2fa662198a1b9928f43d56087e8757af53fb4a51f24e91bc",
+      "private": true
+    },
+    {
+      "path": "run/run_026/artifacts/private/focus_aligned.csv",
+      "sha256": "2fa06f7daf4853a9b934055d053802392793343d2fe9d20fa2fc3b14fe9c5099",
+      "private": true
+    },
+    {
+      "path": "run/run_026/artifacts/private/focus_events.csv",
+      "sha256": "d7dd0fa4cbac51bcfa030e0e628b991351c4d37aa0c180a20821a12b78785e5c",
+      "private": true
+    },
+    {
+      "path": "run/run_026/artifacts/private/raw_focus.csv",
+      "sha256": "0592ef9be1b3188acac5527a48416a19b64b3f1203c6ab3aaa00cb6a89866c33",
+      "private": true
+    },
+    {
+      "path": "run/run_026/artifacts/private/full_difference.png",
+      "sha256": "1523c71b8f4aecd57bc945d02c8428640a68296d9346fde4e943ea2130940e0c",
+      "private": true
+    },
+    {
+      "path": "run/run_026/artifacts/private/focus_105_120_readable.png",
+      "sha256": "b014edaad7eecac85a74524b6afb2849d813f2649688ac12ae761efc4b1c7de2",
+      "private": true
+    },
+    {
+      "path": "run/run_026/artifacts/private/probe_contact_odb.py",
+      "sha256": "e6e6ec9197059e02ef8cedf72003631efa23e1ca329979f1e6e5347f2541deaa",
+      "private": true
+    },
+    {
+      "path": "run/run_026/artifacts/private/extract_contact_readonly.py",
+      "sha256": "c79fb569655d2a40bfb9a227be8d3e09353ff401e612712368070d974e93198d",
+      "private": true
+    },
+    {
+      "path": "run/run_026/artifacts/private/diagnose.py",
+      "sha256": "d4fab269d403bdfd7c657bb8229399584911d568bc657b3e60ed85ecfb4814f9",
+      "private": true
+    },
+    {
+      "path": "run/run_026/artifacts/private/render_focus.py",
+      "sha256": "1f57b794f0f6c9e4809202fb5ac3dc85395526f9f1999c8d5c939c80eb9081ec",
+      "private": true
+    },
+    {
+      "path": "run/run_026/checkpoints/analysis_attempts.json",
+      "sha256": "2adc5fd044eea92d8adb45e1a5d34d70845ffe52414987f23882de3a54f8f33a",
+      "private": false
+    }
+  ]
+}

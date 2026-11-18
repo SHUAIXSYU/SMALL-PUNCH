@@ -1,0 +1,113 @@
+{
+  "version": "run020-recentered-four-point-v1",
+  "frozen_at": "2026-10-24T14:17:33.934021+08:00",
+  "bounds": {
+    "sigma_y_mpa": [
+      150,
+      1000
+    ],
+    "n": [
+      0.02,
+      0.5
+    ]
+  },
+  "coordinates": {
+    "x": "ln(sigma_y_mpa/150)/ln(1000/150)",
+    "y": "(n-0.02)/0.48"
+  },
+  "center": [
+    0.15164147483749477,
+    0.16666666666666669
+  ],
+  "center_parameters": {
+    "sigma_y_mpa": 200.0,
+    "n": 0.1
+  },
+  "perturbation": 0.05,
+  "fixed": {
+    "E_pa": 210000000000.0,
+    "nu": 0.3,
+    "max_plastic_strain": 0.9,
+    "model_id": "candidate-true-total-hollomon-v1",
+    "material_interpolation_relative_tolerance": 0.001
+  },
+  "points": [
+    {
+      "point_id": "L01",
+      "role": "SYM",
+      "x": 0.10164147483749476,
+      "y": 0.16666666666666669,
+      "sigma_y_mpa": 181.9007788573887,
+      "n": 0.1,
+      "delta_x_from_center": -0.05,
+      "delta_y_from_center": 0,
+      "job_name": "SPIO_R020_L01_SYM",
+      "inp_path": "run/run_020/artifacts/candidates/SPIO_R020_L01_SYM/SPIO_R020_L01_SYM.inp",
+      "parameters_path": "run/run_020/artifacts/candidates/SPIO_R020_L01_SYM/parameters.json",
+      "working_dir": "run/run_020/artifacts/solver/SPIO_R020_L01_SYM",
+      "expected_odb": "run/run_020/artifacts/solver/SPIO_R020_L01_SYM/SPIO_R020_L01_SYM.odb"
+    },
+    {
+      "point_id": "L02",
+      "role": "SYP",
+      "x": 0.20164147483749478,
+      "y": 0.16666666666666669,
+      "sigma_y_mpa": 219.9001029641563,
+      "n": 0.1,
+      "delta_x_from_center": 0.05,
+      "delta_y_from_center": 0,
+      "job_name": "SPIO_R020_L02_SYP",
+      "inp_path": "run/run_020/artifacts/candidates/SPIO_R020_L02_SYP/SPIO_R020_L02_SYP.inp",
+      "parameters_path": "run/run_020/artifacts/candidates/SPIO_R020_L02_SYP/parameters.json",
+      "working_dir": "run/run_020/artifacts/solver/SPIO_R020_L02_SYP",
+      "expected_odb": "run/run_020/artifacts/solver/SPIO_R020_L02_SYP/SPIO_R020_L02_SYP.odb"
+    },
+    {
+      "point_id": "L03",
+      "role": "NM",
+      "x": 0.15164147483749477,
+      "y": 0.11666666666666668,
+      "sigma_y_mpa": 200.0,
+      "n": 0.07600000000000001,
+      "delta_x_from_center": 0,
+      "delta_y_from_center": -0.05,
+      "job_name": "SPIO_R020_L03_NM",
+      "inp_path": "run/run_020/artifacts/candidates/SPIO_R020_L03_NM/SPIO_R020_L03_NM.inp",
+      "parameters_path": "run/run_020/artifacts/candidates/SPIO_R020_L03_NM/parameters.json",
+      "working_dir": "run/run_020/artifacts/solver/SPIO_R020_L03_NM",
+      "expected_odb": "run/run_020/artifacts/solver/SPIO_R020_L03_NM/SPIO_R020_L03_NM.odb"
+    },
+    {
+      "point_id": "L04",
+      "role": "NP",
+      "x": 0.15164147483749477,
+      "y": 0.21666666666666667,
+      "sigma_y_mpa": 200.0,
+      "n": 0.124,
+      "delta_x_from_center": 0,
+      "delta_y_from_center": 0.05,
+      "job_name": "SPIO_R020_L04_NP",
+      "inp_path": "run/run_020/artifacts/candidates/SPIO_R020_L04_NP/SPIO_R020_L04_NP.inp",
+      "parameters_path": "run/run_020/artifacts/candidates/SPIO_R020_L04_NP/parameters.json",
+      "working_dir": "run/run_020/artifacts/solver/SPIO_R020_L04_NP",
+      "expected_odb": "run/run_020/artifacts/solver/SPIO_R020_L04_NP/SPIO_R020_L04_NP.odb"
+    }
+  ],
+  "center_inp": "run/run_008/artifacts/candidate_inp/SPIO_R008_Q200_N010_Candidate/SPIO_R008_Q200_N010_Candidate.inp",
+  "center_inp_sha256": "fa2de5d73a28536c1c07cd22072d2a24c1ae988c569127d728931c583457f05a",
+  "center_job": "SPIO_R014_Q200_N010",
+  "center_queue_id": "q_4c0358a918a7447d807d2f547d22c7b8",
+  "center_fd": "run/run_014/artifacts/odb/punch_force_displacement.csv",
+  "loss_identity": "run/run_017/artifacts/loss_contract_identity.json",
+  "generator": "inverse/hollomon.py",
+  "generator_sha256": "d937664f7fc7f845a9ed7a75a004275bf38d11a1b3f68975a05961adb9b16363",
+  "cpus": 14,
+  "gpus": 0,
+  "run_datacheck": true,
+  "run_full": true,
+  "maximum_future_jobs": 4,
+  "authorized_solver_jobs": 0,
+  "automatic_retries": 0,
+  "rationale": "Reuse lower-loss observed point for exploratory local study only; h=.05 is predetermined local resolution, not optimized using loss or withheld data. Keeps both symmetric pairs interior; original h=.2 would cross lower bounds.",
+  "center_quality": "CONDITIONAL_EXPLORATORY_REUSE; run014 rejected-attempt warnings retained; no numerical error bound or physical validation"
+}

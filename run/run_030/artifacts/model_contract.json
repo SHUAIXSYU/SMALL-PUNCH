@@ -1,0 +1,31 @@
+{
+  "version": "run030-standard-m0025-hollomon-v1",
+  "frozen_at": "2026-10-24T18:11:53.996091+08:00",
+  "source_inp": "run/run_027/artifacts/candidates/SPIO_R027_CTR_M0025/SPIO_R027_CTR_M0025.inp",
+  "source_inp_sha256": "dae9345bc60973c27edec498dfbd27f269e1f5bbe151316918862954faac40c9",
+  "source_run": "run_027",
+  "center_numerical_check": "run_029 PASS_CENTER_ADJACENT_REFINEMENT_ONLY",
+  "static_step": {
+    "solver": "Abaqus/Standard",
+    "initial_increment": 0.001,
+    "maximum_increment": 0.0025,
+    "minimum_increment": 1e-12,
+    "total_time": 1.0,
+    "maximum_increments": 999999
+  },
+  "resources": {
+    "cpus": 14,
+    "gpus": 0,
+    "datacheck": true,
+    "full_analysis": true
+  },
+  "material": {
+    "E_pa": 210000000000,
+    "nu": 0.3,
+    "max_plastic_strain": 0.9,
+    "material_model": "candidate-true-total-hollomon-v1",
+    "relative_tolerance": 0.001
+  },
+  "model_reuse": "Exact source bytes outside candidate material table and candidate-only comments; geometry, mesh, contact, BC, displacement loading and physical output unchanged",
+  "scope_limit": "Only center adjacent increment check passed; other parameters require individual numerical review"
+}

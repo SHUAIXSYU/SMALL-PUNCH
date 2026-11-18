@@ -1,0 +1,10 @@
+{
+  "main_task_id": "88b9dcde-b2b8-4576-85d5-4efaf2397082",
+  "cae_task_id": "cb63ca24-e27c-4a0e-b992-4380e4aa6df0",
+  "identity": {
+    "agent_id": "MAIN:codex-main-run020-prepare",
+    "session_id": "70d240b8-a667-4945-82dd-4af51216a649",
+    "role": "MAIN"
+  },
+  "message_id": "ea79a996-91b8-4f3e-a97f-2ec6154a2231"
+}

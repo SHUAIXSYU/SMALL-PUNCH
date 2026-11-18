@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_059",
+  "stage": "run058 Phase2 prospective identification evaluation",
+  "objective": "actual audit, real ODB session extraction, independent MAIN review and frozen A/B; no new FE",
+  "status": "WARNING",
+  "start_time": "2026-10-27T22:18:44.110781+08:00",
+  "end_time": "2026-10-27T22:33:11.977067+08:00",
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "git_branch": "main",
+  "git_head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+  "inputs": [
+    {
+      "path": "run/run_057/artifacts/prepared_batch.json",
+      "role": "frozen four candidates",
+      "sha256": "9017ada8c03afff78b0e0c89e0ba51c35a9ec0b21c27a4b3a90506c7ac310705"
+    },
+    {
+      "path": "run/run_058/artifacts/private/queue_manifest.json",
+      "role": "phase1 queue identities",
+      "sha256": "d538f43edf4f3654ac568adb76c4dc53a30d092b9ebe9886d5e7f65ed134590c"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_059/artifacts/private/scientific_report.md",
+      "role": "actual prospective analysis evidence",
+      "sha256": "72a998d93d9dded3ddcafacce226e866f13e12030c0af56bc693ae7f083a98f5"
+    },
+    {
+      "path": "run/run_059/artifacts/private/scientific_decision.json",
+      "role": "actual prospective analysis evidence",
+      "sha256": "7802b529faf9317469f5178ab09a3eb7e67e0a4feb51b28d47f289d2841b949e"
+    },
+    {
+      "path": "run/run_059/artifacts/private/execution_audit.json",
+      "role": "actual prospective analysis evidence",
+      "sha256": "7ac5c9a7cec13e19348922ad9f091e418b9a3e95baea27ce6ed87170d14adb59"
+    },
+    {
+      "path": "run/run_059/artifacts/private/study_A_local_secants.json",
+      "role": "actual prospective analysis evidence",
+      "sha256": "1a2a66e26325c90cf64c2be8ce197f71375473d30433a789d16215fdf1a38519"
+    },
+    {
+      "path": "run/run_059/artifacts/private/study_B_frozen_parameter_recovery.json",
+      "role": "actual prospective analysis evidence",
+      "sha256": "b3d9b1671eae8bc0828789953069620e9b4f727cd997b0af0e0b7061e1d0595a"
+    },
+    {
+      "path": "run/run_059/artifacts/private/evidence_manifest.json",
+      "role": "actual prospective analysis evidence",
+      "sha256": "c74c4402fe127bfc9a2a88bdf39eb4147aa1046b8558eac926efea9a1d7b8f34"
+    },
+    {
+      "path": "run/run_059/artifacts/private/agenthub_completion_receipt.json",
+      "role": "actual prospective analysis evidence",
+      "sha256": "839e590be4b8d8665fa14b1cdf3ea4d713fd7ea2f3a22a79fb7a3c2a9233aeb2"
+    }
+  ],
+  "validation": [
+    {
+      "check": "actual execution",
+      "status": "PASS",
+      "evidence": "run/run_059/artifacts/private/execution_audit.json",
+      "scope": "four single attempts; no new starts"
+    },
+    {
+      "check": "real ODB session and MAIN review",
+      "status": "PASS",
+      "evidence": "run/run_059/artifacts/private/MAIN_real_ODB_receipt_verification.json",
+      "scope": "36 receipts and four completed true ODB tasks"
+    },
+    {
+      "check": "frozen metrics independent verification",
+      "status": "PASS",
+      "evidence": "run/run_059/artifacts/private/independent_metric_verification.json",
+      "scope": "five Gram/SVD checks and raw frozen predictions"
+    },
+    {
+      "check": "local identifiability",
+      "status": "LIMITED",
+      "evidence": "run/run_059/artifacts/private/study_A_local_secants.json",
+      "scope": "finite amplitude same-base/control; no error covariance or h/time convergence"
+    },
+    {
+      "check": "prospective predictions",
+      "status": "PARTIAL",
+      "evidence": "run/run_059/artifacts/private/study_B_frozen_parameter_recovery.json",
+      "scope": "fullcurve improves but none meets all frozen halfstep goals"
+    }
+  ],
+  "errors": [],
+  "parent_execution_run": "run_058",
+  "outcome": "REAL_FOUR_POINT_PROSPECTIVE_EVALUATION_COMPLETE",
+  "classifications": {
+    "EXECUTION": "PASS",
+    "NUMERICAL_QUALITY": "WARNING",
+    "LOCAL_IDENTIFIABILITY": "LIMITED",
+    "PROSPECTIVE_PARAMETER_PREDICTION": "PARTIAL",
+    "REAL_MATERIAL_VALIDATION": "NOT_EVALUABLE"
+  },
+  "new_FE": 0,
+  "new_queue": 0,
+  "new_INP": 0,
+  "consumed_prior_authorized_attempts": 4,
+  "remaining_authorized_attempts": 0,
+  "agenthub_science_task_id": "cca38e23-ed1c-4d89-ac13-7f0ca25cc927",
+  "predictor_changed": false,
+  "tensile_content_read": false
+}

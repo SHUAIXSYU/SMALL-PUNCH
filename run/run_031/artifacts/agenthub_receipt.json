@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-24T18:31:44.395440+08:00",
+  "budget_task_id": "39eef014-3f30-4fdb-9c3e-c33fbd810429",
+  "i01_task_id": "3afd05ca-ba91-45cb-9494-67ebc0225ff6",
+  "queue_id": "q_c8329bd4fab4455f924d211d62ba0625",
+  "I01_review_task_id": "bf1d6521-6052-4890-95e8-2b955896985c",
+  "audit_chain_valid": true,
+  "remaining_jobs_gate_pending": 7,
+  "cross_session_auto_wakeup": false
+}

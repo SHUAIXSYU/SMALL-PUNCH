@@ -1,0 +1,140 @@
+{
+  "version": "run030-initial-eight-v1",
+  "frozen_at": "2026-10-24T18:11:53.996091+08:00",
+  "selection_method": "Four deterministic 4-stratum global pairs and four targeted low-Loss-region points; coordinates set before new FE results",
+  "basis": "SPT-only run022 observed low-Loss L04 (200 MPa, n=0.124); no sealed tensile data",
+  "global_fraction": 0.5,
+  "local_fraction": 0.5,
+  "global_rule": "x stratum midpoints 0.125,0.375,0.625,0.875; y permutation 0.875,0.375,0.625,0.125",
+  "local_rule": "predeclared x=0.12,0.18,0.24,0.30 and y=0.20,0.32,0.16,0.28 near observed SPT lower-Loss zone; no post-score reselection",
+  "coordinates": {
+    "x": "ln(sigma_y_mpa/150)/ln(1000/150)",
+    "y": "(n-0.02)/0.48"
+  },
+  "bounds": {
+    "sigma_y_mpa": [
+      150,
+      1000
+    ],
+    "n": [
+      0.02,
+      0.5
+    ],
+    "status": "ENGINEERING_EXPLORATORY_NOT_TENSILE_PRIOR"
+  },
+  "fixed": {
+    "E_pa": 210000000000,
+    "nu": 0.3,
+    "max_plastic_strain": 0.9,
+    "material_model": "candidate-true-total-hollomon-v1",
+    "relative_tolerance": 0.001
+  },
+  "points": [
+    {
+      "point_id": "I01",
+      "region": "GLOBAL",
+      "x": 0.125,
+      "y": 0.875,
+      "sigma_y_mpa": 190.14278543376116,
+      "n": 0.44,
+      "job_name": "SPIO_R030_I01_G",
+      "inp_path": "run/run_030/artifacts/candidates/SPIO_R030_I01_G/SPIO_R030_I01_G.inp",
+      "parameters_path": "run/run_030/artifacts/candidates/SPIO_R030_I01_G/parameters.json",
+      "working_dir": "run/run_030/artifacts/solver/SPIO_R030_I01_G",
+      "expected_odb": "run/run_030/artifacts/solver/SPIO_R030_I01_G/SPIO_R030_I01_G.odb"
+    },
+    {
+      "point_id": "I02",
+      "region": "LOCAL",
+      "x": 0.12,
+      "y": 0.2,
+      "sigma_y_mpa": 188.34769426063204,
+      "n": 0.116,
+      "job_name": "SPIO_R030_I02_L",
+      "inp_path": "run/run_030/artifacts/candidates/SPIO_R030_I02_L/SPIO_R030_I02_L.inp",
+      "parameters_path": "run/run_030/artifacts/candidates/SPIO_R030_I02_L/parameters.json",
+      "working_dir": "run/run_030/artifacts/solver/SPIO_R030_I02_L",
+      "expected_odb": "run/run_030/artifacts/solver/SPIO_R030_I02_L/SPIO_R030_I02_L.odb"
+    },
+    {
+      "point_id": "I03",
+      "region": "GLOBAL",
+      "x": 0.375,
+      "y": 0.375,
+      "sigma_y_mpa": 305.53223494955773,
+      "n": 0.19999999999999998,
+      "job_name": "SPIO_R030_I03_G",
+      "inp_path": "run/run_030/artifacts/candidates/SPIO_R030_I03_G/SPIO_R030_I03_G.inp",
+      "parameters_path": "run/run_030/artifacts/candidates/SPIO_R030_I03_G/parameters.json",
+      "working_dir": "run/run_030/artifacts/solver/SPIO_R030_I03_G",
+      "expected_odb": "run/run_030/artifacts/solver/SPIO_R030_I03_G/SPIO_R030_I03_G.odb"
+    },
+    {
+      "point_id": "I04",
+      "region": "LOCAL",
+      "x": 0.18,
+      "y": 0.32,
+      "sigma_y_mpa": 211.05460498125615,
+      "n": 0.17359999999999998,
+      "job_name": "SPIO_R030_I04_L",
+      "inp_path": "run/run_030/artifacts/candidates/SPIO_R030_I04_L/SPIO_R030_I04_L.inp",
+      "parameters_path": "run/run_030/artifacts/candidates/SPIO_R030_I04_L/parameters.json",
+      "working_dir": "run/run_030/artifacts/solver/SPIO_R030_I04_L",
+      "expected_odb": "run/run_030/artifacts/solver/SPIO_R030_I04_L/SPIO_R030_I04_L.odb"
+    },
+    {
+      "point_id": "I05",
+      "region": "GLOBAL",
+      "x": 0.625,
+      "y": 0.625,
+      "sigma_y_mpa": 490.94656092429807,
+      "n": 0.32,
+      "job_name": "SPIO_R030_I05_G",
+      "inp_path": "run/run_030/artifacts/candidates/SPIO_R030_I05_G/SPIO_R030_I05_G.inp",
+      "parameters_path": "run/run_030/artifacts/candidates/SPIO_R030_I05_G/parameters.json",
+      "working_dir": "run/run_030/artifacts/solver/SPIO_R030_I05_G",
+      "expected_odb": "run/run_030/artifacts/solver/SPIO_R030_I05_G/SPIO_R030_I05_G.odb"
+    },
+    {
+      "point_id": "I06",
+      "region": "LOCAL",
+      "x": 0.24,
+      "y": 0.16,
+      "sigma_y_mpa": 236.49902622197678,
+      "n": 0.0968,
+      "job_name": "SPIO_R030_I06_L",
+      "inp_path": "run/run_030/artifacts/candidates/SPIO_R030_I06_L/SPIO_R030_I06_L.inp",
+      "parameters_path": "run/run_030/artifacts/candidates/SPIO_R030_I06_L/parameters.json",
+      "working_dir": "run/run_030/artifacts/solver/SPIO_R030_I06_L",
+      "expected_odb": "run/run_030/artifacts/solver/SPIO_R030_I06_L/SPIO_R030_I06_L.odb"
+    },
+    {
+      "point_id": "I07",
+      "region": "GLOBAL",
+      "x": 0.875,
+      "y": 0.125,
+      "sigma_y_mpa": 788.8808384594458,
+      "n": 0.08,
+      "job_name": "SPIO_R030_I07_G",
+      "inp_path": "run/run_030/artifacts/candidates/SPIO_R030_I07_G/SPIO_R030_I07_G.inp",
+      "parameters_path": "run/run_030/artifacts/candidates/SPIO_R030_I07_G/parameters.json",
+      "working_dir": "run/run_030/artifacts/solver/SPIO_R030_I07_G",
+      "expected_odb": "run/run_030/artifacts/solver/SPIO_R030_I07_G/SPIO_R030_I07_G.odb"
+    },
+    {
+      "point_id": "I08",
+      "region": "LOCAL",
+      "x": 0.3,
+      "y": 0.28,
+      "sigma_y_mpa": 265.0109880753873,
+      "n": 0.1544,
+      "job_name": "SPIO_R030_I08_L",
+      "inp_path": "run/run_030/artifacts/candidates/SPIO_R030_I08_L/SPIO_R030_I08_L.inp",
+      "parameters_path": "run/run_030/artifacts/candidates/SPIO_R030_I08_L/parameters.json",
+      "working_dir": "run/run_030/artifacts/solver/SPIO_R030_I08_L",
+      "expected_odb": "run/run_030/artifacts/solver/SPIO_R030_I08_L/SPIO_R030_I08_L.odb"
+    }
+  ],
+  "authorized_solver_jobs": 0,
+  "authorized_enqueues": 0
+}

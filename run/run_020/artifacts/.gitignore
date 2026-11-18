@@ -1,0 +1,3 @@
+# Audit scripts contain private observed scientific results in report templates.
+/finalize.py
+/verify_prepare.py

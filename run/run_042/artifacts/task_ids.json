@@ -1,0 +1,10 @@
+{
+  "identity": {
+    "agent_id": "MAIN:codex-main-run042-batch-analysis",
+    "session_id": "14b91fc0-bb9a-4f12-9cfa-c9191bd18de2",
+    "role": "MAIN"
+  },
+  "execution_audit_task_id": "9093a34e-c228-4893-9b28-c48468844d23",
+  "odb_task_id": "a7c04994-b32e-40ba-9785-b36c50fa75a4",
+  "main_review_task_id": "0fe4f47d-877c-467a-9267-c2920e4c94a4"
+}

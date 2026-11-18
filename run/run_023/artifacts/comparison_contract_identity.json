@@ -1,0 +1,8 @@
+{
+  "version": "run023-increment-qualification-v1",
+  "path": "run/run_023/artifacts/private/comparison_contract.json",
+  "sha256": "2a4a50ab116b979d7b3263768e83be8cc9f8bf4e1c1cb042baadb74b178b0a17",
+  "implementation": "run/run_023/artifacts/compare_validation.py",
+  "implementation_sha256": "0a8e9d70716385292153613d8ca823f956b6142c2acaa67e8903fa2565a82a36",
+  "frozen_at": "2026-10-24T15:56:34.371175+08:00"
+}

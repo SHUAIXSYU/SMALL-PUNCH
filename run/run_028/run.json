@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_028",
+  "stage": "single job queued; awaiting manual GUI start",
+  "status": "WARNING",
+  "start_time": "2026-10-24T17:30:44.520802+08:00",
+  "end_time": "2026-10-24T17:31:20.062859+08:00",
+  "git": {
+    "branch": "main",
+    "head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+    "remote": "origin\thttps://github.com/SHUAIXSYU/SMALL-PUNCH.git (fetch)\norigin\thttps://github.com/SHUAIXSYU/SMALL-PUNCH.git (push)",
+    "working_tree": "M agenthub_sp_invopt/abqjobpilot_project/project.db\n M run/README.md\n M status/PROJECT_STATUS.md\n?? run/run_019/\n?? run/run_020/\n?? run/run_021/\n?? run/run_022/\n?? run/run_023/\n?? run/run_024/\n?? run/run_025/\n?? run/run_026/\n?? run/run_027/\n?? run/run_028/"
+  },
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "inputs": [
+    {
+      "path": "run/run_027/artifacts/prepared_candidate.json",
+      "sha256": "bf7fc3a3edf9304eb6e90218b73d68dd1640956e713737fa826289d614c4375c"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_028/summary.md",
+      "sha256": "292c2f801b1584cc34993053b6afc4f67f01b9d4cda14d8e3e3b9b28759fed20"
+    },
+    {
+      "path": "run/run_028/artifacts/admission.json",
+      "sha256": "1977acee577feefdac770a9afb318346e6e0e6927a9714b821dbb61354469e14"
+    },
+    {
+      "path": "run/run_028/artifacts/authorization.json",
+      "sha256": "d893a465b88af6b14c708e8ea0af9e3ba51b9b192cb7e812ecd512b6af7fa1ba"
+    },
+    {
+      "path": "run/run_028/artifacts/request.json",
+      "sha256": "2ccbf8f91e13fec946bf675f47220515884ebacaed724d5b1522fcc6af602aad"
+    },
+    {
+      "path": "run/run_028/artifacts/queue_after.json",
+      "sha256": "71831f067b78cb4ba2412f3f5f4a82307d9b262efd312c1e0ec6cd98bcdf7fe3"
+    },
+    {
+      "path": "run/run_028/artifacts/postcheck.json",
+      "sha256": "562f8caa69bf75b3ce0ca6976dace7b317687b27ab6e1dcbe0c9b994ab59a4f0"
+    },
+    {
+      "path": "run/run_028/artifacts/enqueue_result.json",
+      "sha256": "3f799d4bb7b78df1284b813ccc1a22ba6499aa97fdb5fa177c1aac5d44618e57"
+    },
+    {
+      "path": "run/run_028/artifacts/agenthub_receipt.json",
+      "sha256": "f3450214a395006f2b15252f82fd48c3668e6723b5de786124717a19865e13a0"
+    }
+  ],
+  "validation": [
+    {
+      "check": "frozen_identity",
+      "status": "PASS"
+    },
+    {
+      "check": "project_settings",
+      "status": "PASS"
+    },
+    {
+      "check": "runner_recovery_queue",
+      "status": "PASS"
+    },
+    {
+      "check": "preflight_dry_run",
+      "status": "PASS"
+    },
+    {
+      "check": "single_queue_item",
+      "status": "PASS"
+    },
+    {
+      "check": "no_solver_start",
+      "status": "PASS"
+    },
+    {
+      "check": "numerical_qualification",
+      "status": "NOT_EVALUATED"
+    }
+  ],
+  "errors": [],
+  "queue_id": "q_6919f51c551844b4bcda1cc22b9a6bc4",
+  "task_id": "1434ef26-a98f-45ed-8289-891d86b29241",
+  "study_complete": false
+}

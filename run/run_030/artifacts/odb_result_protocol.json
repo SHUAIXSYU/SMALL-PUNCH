@@ -1,0 +1,33 @@
+{
+  "version": "run030-odb-result-envelope-v1",
+  "status": "FUTURE_READ_ONLY_PROTOCOL",
+  "required": [
+    "point_id",
+    "job_name",
+    "queue_id",
+    "inp_sha256",
+    "odb_sha256",
+    "project_id",
+    "datacheck_status",
+    "full_status",
+    "actual_runtime_s",
+    "punch_rp_identity",
+    "raw_u2_rf2_step_time_csv",
+    "positive_fd_csv",
+    "fd_window_coverage",
+    "max_saved_peeq",
+    "material_table_max_plastic_strain",
+    "accepted_increments",
+    "rejected_attempts",
+    "warning_events_by_accepted_or_rejected",
+    "contact_transition_review",
+    "local_fd_jump_review",
+    "loss_contract_sha256",
+    "loss_or_null",
+    "loss_status",
+    "artifact_hashes",
+    "science_status"
+  ],
+  "loss_failure_rule": "null, not zero or finite penalty, on failed/incomplete/invalid FE; MAIN reviews before more Jobs",
+  "no_curve_modification": "No per-Job shift, crop, smoothing, compliance adjustment, or interpolation extrapolation"
+}

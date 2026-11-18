@@ -1,0 +1,35 @@
+{
+  "version": "run057-artifact-index-v1",
+  "files": [
+    {
+      "path": "run/run_057/artifacts/prepared_batch.json",
+      "sha256": "9017ada8c03afff78b0e0c89e0ba51c35a9ec0b21c27a4b3a90506c7ac310705",
+      "private": false
+    },
+    {
+      "path": "run/run_057/artifacts/batch_identity.csv",
+      "sha256": "f34758fd4828196127942402e08a97469dc8aacfa9a2563b866fb7b800dc823d",
+      "private": false
+    },
+    {
+      "path": "run/run_057/artifacts/private/scientific_report.md",
+      "sha256": "5a8cef0288edab40345fd067ff8cca6a8c55b806630e31864fedee53edb8c723",
+      "private": true
+    },
+    {
+      "path": "run/run_057/artifacts/private/evidence_manifest.json",
+      "sha256": "b32c8455b933e3e33064cda9dfa312056c673e371b9c5322072b782f14b18754",
+      "private": true
+    },
+    {
+      "path": "run/run_057/artifacts/private/comparison_contract.json",
+      "sha256": "46b0224ae39d61ed8c9b79c336bf6d1b156e216a4577a58ced3cff1002572a8e",
+      "private": true
+    },
+    {
+      "path": "run/run_057/artifacts/private/SPIO_run057_frozen_predictors.zip",
+      "sha256": "529b4a533bf349cdd74421c89d76a5a4a15ebc5226dbba625258fe708ac6abf4",
+      "private": true
+    }
+  ]
+}

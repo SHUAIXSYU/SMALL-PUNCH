@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_038",
+  "stage": "one authorized D09 queue-only retry after official GUI recovery",
+  "objective": "Reuse frozen D09 INP with a new output identity and enqueue once",
+  "status": "WARNING",
+  "start_time": "2026-10-25T21:29:28.435621+08:00",
+  "end_time": "2026-10-25T21:29:28.623616+08:00",
+  "git_branch": "main",
+  "git_head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+  "git": {
+    "branch": "main",
+    "head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+    "remote": "origin\thttps://github.com/SHUAIXSYU/SMALL-PUNCH.git (fetch)\norigin\thttps://github.com/SHUAIXSYU/SMALL-PUNCH.git (push)",
+    "working_tree": "M agenthub_sp_invopt/abqjobpilot_project/project.db\n M run/README.md\n M status/PROJECT_STATUS.md\n?? run/run_019/\n?? run/run_020/\n?? run/run_021/\n?? run/run_022/\n?? run/run_023/\n?? run/run_024/\n?? run/run_025/\n?? run/run_026/\n?? run/run_027/\n?? run/run_028/\n?? run/run_029/\n?? run/run_030/\n?? run/run_031/\n?? run/run_032/\n?? run/run_033/\n?? run/run_034/\n?? run/run_035/\n?? run/run_036/\n?? run/run_037/\n?? run/run_038/"
+  },
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "python_version": "3.11.13",
+  "inputs": [
+    {
+      "path": "run/run_033/artifacts/candidates/SPIO_R033_D09_L/SPIO_R033_D09_L.inp",
+      "role": "frozen INP",
+      "sha256": "5d754294edca19e8eef85661f5a99f18cfe189f484b86ddb5e3ee52acc354d4b"
+    },
+    {
+      "path": "run/run_033/artifacts/prepared_batch.json",
+      "role": "frozen DOE"
+    },
+    {
+      "path": "run/run_037/summary.md",
+      "role": "prior blocked assessment"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_038/artifacts/authorization_scope.json",
+      "role": "run_038 evidence",
+      "sha256": "0acbefaf9e075cf9453fef7165b9b6bd872416333f1cf95ef2ba1b7e103dd017"
+    },
+    {
+      "path": "run/run_038/artifacts/private/precheck.json",
+      "role": "run_038 evidence",
+      "sha256": "6927a3c282274521856551e2990d95fa105e3522afbfc4dfb9846a4b0ee24413"
+    },
+    {
+      "path": "run/run_038/artifacts/private/enqueue_api_result.json",
+      "role": "run_038 evidence",
+      "sha256": "7ba2b10798cdb7a5c7a87d9dea6e4d63fb9841e096293f9b23f2a64cdacde88b"
+    },
+    {
+      "path": "run/run_038/artifacts/queue_receipt.json",
+      "role": "run_038 evidence",
+      "sha256": "9fd475e2d4ca1766b4c5009dbe85f52379272d189545459ba99df2d778c1f767"
+    },
+    {
+      "path": "run/run_038/summary.md",
+      "role": "run_038 evidence",
+      "sha256": "42e457526d181354eb72cff21bf1e25def2648c48eb2b6069046d88de8f2ef21"
+    }
+  ],
+  "validation": [
+    {
+      "check": "frozen_input_hash",
+      "status": "PASS",
+      "evidence": "5d754294edca19e8eef85661f5a99f18cfe189f484b86ddb5e3ee52acc354d4b"
+    },
+    {
+      "check": "official_gui_recovery",
+      "status": "PASS",
+      "evidence": "Audit 17c1916bf0644eac8e36daf6c3c15ab1 APPLIED; history UNKNOWN; live IDLE"
+    },
+    {
+      "check": "project_settings",
+      "status": "PASS",
+      "evidence": "PERSISTED, Abaqus 2024, 14 CPU, 0 GPU, datacheck/full"
+    },
+    {
+      "check": "preflight_and_dry_run",
+      "status": "PASS",
+      "evidence": "PREVIEW_READY / DRY_RUN_READY"
+    },
+    {
+      "check": "queue_only",
+      "status": "PASS",
+      "evidence": "Only q_434c5f15c837413f8628b5b5188088aa QUEUED; no solver start"
+    },
+    {
+      "check": "numerical_or_scientific_result",
+      "status": "NOT_EVALUATED",
+      "evidence": "User has not manually started this Job"
+    }
+  ],
+  "errors": []
+}

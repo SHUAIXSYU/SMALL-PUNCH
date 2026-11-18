@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-26T21:20:45.850265+08:00",
+  "task_id": "d102a001-b23e-4cad-ae4b-6793e9a7907e",
+  "run_json_sha256": "708d33d9753e82ef434770549a7a23040826086a735c66b495207f529a3aa4fa",
+  "report_sha256": "0acf2b62b19ce5a03090d20bda83fc88950c6f125d2b8b6f6d411dca5972106c",
+  "hub_receipt_sha256": "aab82c44da401c06b392a910740e50c04f2544a618048de3cbc78d02621edeeb",
+  "new_FE": 0,
+  "new_inputs": 0,
+  "material_fits": 0,
+  "stopped_after_run049": true
+}

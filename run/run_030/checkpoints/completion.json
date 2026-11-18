@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-24T18:18:34.687284+08:00",
+  "status": "READY_TO_REQUEST_STAGE_A_WITH_GATES",
+  "main_task_id": "664cf3b7-72e8-4108-8316-939aa11278b1",
+  "cae_task_id": "65414051-1f80-4d04-91e7-b54f8c483415",
+  "prepared_batch_sha256": "962f9fa56893451330ad3d99689c4be45bb753b7d1e4999d13f62f5cccdb31fa",
+  "manifest_sha256": "67208537c2e154adbb6784e3f9de549abd0c71de2a65641e02d13381355beeaa",
+  "hub_chain_valid": true,
+  "new_enqueues": 0,
+  "new_solver_jobs": 0
+}

@@ -1,0 +1,31 @@
+{
+  "run": "run_035",
+  "authorization_source": "Current user message: D09 PC crash, requeue D09, user will click GUI Start Queue",
+  "authorization_kind": "ONE_NEW_RETRY_ATTEMPT_ONLY",
+  "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+  "old_queue_id": "q_0bebaa417158409fba973efcbae921fd",
+  "old_status": "UNKNOWN_INTERRUPTED",
+  "old_lock_preserved": true,
+  "old_working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_033\\artifacts\\solver\\SPIO_R033_D09_L",
+  "new_job_name": "SPIO_R035_D09_RETRY1",
+  "new_working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_035\\artifacts\\solver\\SPIO_R035_D09_RETRY1",
+  "source_inp": "E:\\Projects\\SMALL-PUNCH\\run\\run_033\\artifacts\\candidates\\SPIO_R033_D09_L\\SPIO_R033_D09_L.inp",
+  "source_inp_sha256": "5d754294edca19e8eef85661f5a99f18cfe189f484b86ddb5e3ee52acc354d4b",
+  "parameters": {
+    "sigma_y_mpa": 157.3882604690048,
+    "n": 0.029673713406920432,
+    "E_pa": 210000000000,
+    "nu": 0.3
+  },
+  "numeric_contract": "run030-standard-m0025-hollomon-v1",
+  "loss_contract": "run017-exploratory-fd-v1",
+  "cpus": 14,
+  "gpus": 0,
+  "run_datacheck": true,
+  "run_full": true,
+  "max_new_attempts": 1,
+  "automatic_retries": 0,
+  "solver_start": "USER_GUI_ONLY",
+  "no_new_inp_or_material_generation": true,
+  "no_old_output_cleanup_or_overwrite": true
+}

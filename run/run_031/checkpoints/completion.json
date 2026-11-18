@@ -1,0 +1,14 @@
+{
+  "at": "2026-10-24T18:32:39.221600+08:00",
+  "status": "I01_QUEUED_AWAITING_MANUAL_START",
+  "budget_task_id": "39eef014-3f30-4fdb-9c3e-c33fbd810429",
+  "i01_task_id": "3afd05ca-ba91-45cb-9494-67ebc0225ff6",
+  "report_task_id": "bf9728c9-8ad3-48b0-9228-2c9a4a5fa890",
+  "queue_id": "q_c8329bd4fab4455f924d211d62ba0625",
+  "budget_status_sha256": "48148a8e74a68c855db4353597dfb0145b1b1b73984dbd1b5bdbde3875a0857a",
+  "manifest_sha256": "f644a83c0154a2fac5c1a998e40d3bc385cd9f1a7d2a459c593b13769e6baf93",
+  "hub_chain_valid": true,
+  "queue_submitted": 1,
+  "started_attempts_confirmed": 0,
+  "remaining_unsubmitted": 7
+}

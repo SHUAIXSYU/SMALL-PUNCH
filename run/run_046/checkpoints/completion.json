@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-26T16:37:46.636163+08:00",
+  "task_id": "1fbc712f-6583-4149-b510-dd53b03369fa",
+  "state": "FROZEN_AWAITING_EXPLICIT_UNBLIND_AUTHORIZATION",
+  "receipt_sha256": "b0c6e69ce410c607efa7ebc65214a05a7676c956d739dd753d33903c01c17c9a",
+  "hub_chain_valid": true,
+  "new_fe": 0,
+  "holdout_access": false
+}

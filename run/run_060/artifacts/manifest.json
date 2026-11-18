@@ -1,0 +1,35 @@
+{
+  "version": "run060-artifact-index-v1",
+  "files": [
+    {
+      "path": "run/run_060/artifacts/prepared_batch.json",
+      "sha256": "599734dbcfc0a809188fd0f58453cf33a3d4923caa7efc4b0bf89d2b7850b3a9",
+      "private": false
+    },
+    {
+      "path": "run/run_060/artifacts/comparison_contract.json",
+      "sha256": "325f5ba7678aa967c972d0e962528b3c3a4a48f10f22510b323a796546671af5",
+      "private": false
+    },
+    {
+      "path": "run/run_060/artifacts/private/scientific_report.md",
+      "sha256": "99440d67554fd670d9f11a4baee2f03bacdaa2d0abb2c7c8f1906dd283e268c0",
+      "private": true
+    },
+    {
+      "path": "run/run_060/artifacts/private/comparison_protocol.md",
+      "sha256": "05f0f6b8a3b20164a96255ccbb39db5a633fb142a0dd334a33d8785b85486515",
+      "private": true
+    },
+    {
+      "path": "run/run_060/artifacts/private/evidence_manifest.json",
+      "sha256": "4c9d3af9d1c1f6f97b215d29d481a87b3809ab9f45a0487d65d33d8f4ca8c803",
+      "private": true
+    },
+    {
+      "path": "run/run_060/artifacts/private/agenthub_completion_receipt.json",
+      "sha256": "fa2f01527305c9d6ac85d05b03a354b7e28aecc1c810ae5b7f6a80537705ac56",
+      "private": true
+    }
+  ]
+}

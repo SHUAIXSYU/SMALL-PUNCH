@@ -1,0 +1,57 @@
+{
+  "recorded_at": "2026-10-24T17:17:59.997863+08:00",
+  "interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "unit_test_file": "run/run_023/artifacts/test_compare_validation.py",
+  "unit_test_sha256": "c85051b0c1ca2df4c3510f09b6a94cb0341630ac7d1da3ad352a20a236e9328c",
+  "unit_test_exit_code": 0,
+  "unit_test_stderr": "test_changed_grid (__main__.ComparisonTests.test_changed_grid) ... ok\ntest_changed_version_or_normalization (__main__.ComparisonTests.test_changed_version_or_normalization) ... ok\ntest_constant_offset_known_metrics (__main__.ComparisonTests.test_constant_offset_known_metrics) ... ok\ntest_different_sampling (__main__.ComparisonTests.test_different_sampling) ... ok\ntest_failed_fe (__main__.ComparisonTests.test_failed_fe) ... ok\ntest_identical_zero (__main__.ComparisonTests.test_identical_zero) ... ok\ntest_nan (__main__.ComparisonTests.test_nan) ... ok\ntest_no_extrapolation (__main__.ComparisonTests.test_no_extrapolation) ... ok\ntest_nonmonotonic (__main__.ComparisonTests.test_nonmonotonic) ... ok\ntest_threshold_violation (__main__.ComparisonTests.test_threshold_violation) ... ok\ntest_units (__main__.ComparisonTests.test_units) ... ok\ntest_zero_force_relative (__main__.ComparisonTests.test_zero_force_relative) ... ok\n\n----------------------------------------------------------------------\nRan 12 tests in 0.001s\n\nOK\n",
+  "test_count": 12,
+  "real_V01_self_comparison": {
+    "status": "CURVE_GATE_PASS",
+    "checks": {
+      "force_rmse": true,
+      "max_absolute_force": true,
+      "max_regularized_relative": true,
+      "absolute_loss_change": true
+    },
+    "force_rmse_n": 0.0,
+    "max_absolute_force_n": 0.0,
+    "max_absolute_at_m": 0.0,
+    "max_regularized_relative": 0.0,
+    "max_regularized_relative_at_m": 0.0,
+    "relative_force_floor_n": 71.44500000000001,
+    "max_raw_relative_above_floor": 0.0,
+    "max_raw_relative_above_floor_at_m": 2e-05,
+    "raw_relative_excluded_count": 4,
+    "original_loss": 0.048334917442418086,
+    "validation_loss": 0.048334917442418086,
+    "loss_change": 0.0,
+    "qualification": "PENDING_EXECUTION_PROVENANCE_AND_NUMERICAL_DIAGNOSTIC_REVIEW"
+  },
+  "prior_C_vs_V01_reproduction": {
+    "status": "CURVE_GATE_FAIL",
+    "checks": {
+      "force_rmse": false,
+      "max_absolute_force": false,
+      "max_regularized_relative": true,
+      "absolute_loss_change": true
+    },
+    "force_rmse_n": 3.9987751586240563,
+    "max_absolute_force_n": 19.558200999730843,
+    "max_absolute_at_m": 0.00114,
+    "max_regularized_relative": 0.026978964975273204,
+    "max_regularized_relative_at_m": 0.00114,
+    "relative_force_floor_n": 71.44500000000001,
+    "max_raw_relative_above_floor": 0.026978964975273204,
+    "max_raw_relative_above_floor_at_m": 0.00114,
+    "raw_relative_excluded_count": 4,
+    "original_loss": 0.048824944046211606,
+    "validation_loss": 0.048334917442418086,
+    "loss_change": -0.0004900266037935197,
+    "qualification": "PENDING_EXECUTION_PROVENANCE_AND_NUMERICAL_DIAGNOSTIC_REVIEW"
+  },
+  "comparison_implementation_sha256": "0a8e9d70716385292153613d8ca823f956b6142c2acaa67e8903fa2565a82a36",
+  "loss_implementation_sha256": "48d8d900f9eb453bdf1c896fea734c589ca8ab22d47e9dd98b165353ee794fb0",
+  "status": "PASS_OFFLINE_TESTS_ONLY",
+  "new_candidate_solved": false
+}

@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_034",
+  "stage": "twenty-job actual result audit and batch ODB analysis",
+  "objective": "Audit all 20; read-only extract safe ODBs; frozen SPT Loss and DOE landscape",
+  "status": "WARNING",
+  "start_time": "2026-10-25T18:43:21.139357+08:00",
+  "end_time": "2026-10-25T18:57:14.760575+08:00",
+  "git": {
+    "branch": "main",
+    "head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+    "remote": "origin\thttps://github.com/SHUAIXSYU/SMALL-PUNCH.git (fetch)\norigin\thttps://github.com/SHUAIXSYU/SMALL-PUNCH.git (push)",
+    "working_tree": "M agenthub_sp_invopt/abqjobpilot_project/project.db\n M run/README.md\n M status/PROJECT_STATUS.md\n?? run/run_019/\n?? run/run_020/\n?? run/run_021/\n?? run/run_022/\n?? run/run_023/\n?? run/run_024/\n?? run/run_025/\n?? run/run_026/\n?? run/run_027/\n?? run/run_028/\n?? run/run_029/\n?? run/run_030/\n?? run/run_031/\n?? run/run_032/\n?? run/run_033/\n?? run/run_034/"
+  },
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "python_version": "3.11.13",
+  "inputs": [
+    {
+      "path": "run/run_033/artifacts/prepared_batch.json",
+      "sha256": "f174ed05d0c700f346282cbcd9571749febaf332fdba100c1b60779d1bb33d7b"
+    },
+    {
+      "path": "run/run_033/artifacts/queue_manifest.json",
+      "sha256": "d4d14af7dde5dab818135f8170d3079d844cb6c40f488cb83e39cc01d72bd65a"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_034/artifacts/execution_summary.json",
+      "sha256": "cb7aca470c4c4113d9dc049851310696723784a919867b9664a5f8a2fb7cf10d"
+    },
+    {
+      "path": "run/run_034/artifacts/private/execution_audit.json",
+      "sha256": "08fe79dcd9062d4f6afe179109b40bc5d49d895e96dfc5649a4a956c34744808"
+    },
+    {
+      "path": "run/run_034/artifacts/private/odb/manifest.json",
+      "sha256": "be046d5494e78e56e1144cb9c527dff5ead8a40641ad9cf08029530deea349ca"
+    },
+    {
+      "path": "run/run_034/artifacts/private/odb/batch_summary.json",
+      "sha256": "a808497e07ef8e0586ad8d3d03f079b3be7cbecc86e9da09da04a083206a80fd"
+    },
+    {
+      "path": "run/run_034/artifacts/private/odb/batch_results.csv",
+      "sha256": "7db2f35e482409966b3aae5331e3f9ea9ef7892ade25eedd232fca661bb19dc5"
+    },
+    {
+      "path": "run/run_034/artifacts/private/main/main_review.json",
+      "sha256": "652c00b8d269aac225d35276f9f401fb46ce0aa658db299b3e7c08b6c9f88d6e"
+    },
+    {
+      "path": "run/run_034/artifacts/private/main/review_table.csv",
+      "sha256": "1a82f897cd83dc78e7421abeeba655f7b8e2e0e450db0ae9e0f4969725903f42"
+    },
+    {
+      "path": "run/run_034/artifacts/private/main/REPORT.md",
+      "sha256": "399cb054a4081777f9d3d6f9ec7211d3b88c80750c5e55ccbdfb5c5d832edf8c"
+    },
+    {
+      "path": "run/run_034/artifacts/private/main/fd_overlay.png",
+      "sha256": "c43b8115c3aca1ca52561caf4f4a15c051d64b3b1f427d77789df1584ade7c2d"
+    },
+    {
+      "path": "run/run_034/artifacts/private/main/parameter_loss_scatter.png",
+      "sha256": "28bb27364c654395b3612310da3b3245977c0bfb77f383cbec761e42bf53135b"
+    },
+    {
+      "path": "run/run_034/artifacts/private/main/loss_rank.png",
+      "sha256": "caaa26dc30457bf353abbbe79c46ee9c54414197102ecf12a2a3697373ad6150"
+    },
+    {
+      "path": "run/run_034/summary.md",
+      "sha256": "018be3bf94cbf2f592fd1608302007cf983ceb22d7b91382c4170978f0406daf"
+    },
+    {
+      "path": "run/run_034/artifacts/private/main/evidence_manifest.json",
+      "sha256": "d06701ce2b3b95050c1368dc71c5a03cff25946e85015f8872f1cfa43539c031"
+    }
+  ],
+  "validation": [
+    {
+      "check": "public_execution_identity_and_terminal_audit",
+      "status": "WARNING",
+      "scope": "19 completed; D09 UNKNOWN_INTERRUPTED"
+    },
+    {
+      "check": "real_ODB_AgentHub_delivery",
+      "status": "PASS",
+      "scope": "19 read-only ODBs; task completed and MAIN message received"
+    },
+    {
+      "check": "frozen_loss_independent_recalculation",
+      "status": "PASS",
+      "scope": "17 of 17 scored curves; 241 fixed points; <1e-12 difference"
+    },
+    {
+      "check": "numerical_evidence",
+      "status": "WARNING",
+      "scope": "D10 accepted large strain; D07 tiny accepted force decrease; both null"
+    },
+    {
+      "check": "agenthub_audit_chain",
+      "status": "PASS",
+      "scope": "Verified after MAIN task completion"
+    },
+    {
+      "check": "sealed_tensile_access",
+      "status": "PASS",
+      "scope": "No access in this Run; historic exposure retained"
+    }
+  ],
+  "errors": [
+    {
+      "code": "UNKNOWN_INTERRUPTED_D09",
+      "detail": "Datacheck PASS only; Full terminal state unknown and .lck exists; no ODB read or retry"
+    }
+  ]
+}

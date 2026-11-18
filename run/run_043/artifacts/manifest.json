@@ -1,0 +1,6 @@
+{
+  "version": "run043-evidence-index-v1",
+  "private_manifest_path": "run/run_043/artifacts/private/main/evidence_manifest.json",
+  "private_manifest_sha256": "b412156da81b9a815cf4806665d26b7961a45879f706d6b66aae56e74cf4ca28",
+  "file_count": 31
+}

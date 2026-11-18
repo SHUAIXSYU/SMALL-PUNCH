@@ -1,0 +1,118 @@
+{
+  "version": "run023-increment-prepared-v1",
+  "created_at": "2026-10-24T15:59:13.991023+08:00",
+  "status": "PASS_PREPARATION_ONLY",
+  "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+  "project_path": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project",
+  "settings": "PERSISTED",
+  "comparison_contract": {
+    "version": "run023-increment-qualification-v1",
+    "path": "run/run_023/artifacts/private/comparison_contract.json",
+    "sha256": "2a4a50ab116b979d7b3263768e83be8cc9f8bf4e1c1cb042baadb74b178b0a17",
+    "implementation": "run/run_023/artifacts/compare_validation.py",
+    "implementation_sha256": "0a8e9d70716385292153613d8ca823f956b6142c2acaa67e8903fa2565a82a36",
+    "frozen_at": "2026-10-24T15:56:34.371175+08:00"
+  },
+  "points": [
+    {
+      "point_id": "V01",
+      "job_name": "SPIO_R023_V01_CTR",
+      "parameters": {
+        "sigma_y_mpa": 200.0,
+        "n": 0.1,
+        "E_pa": 210000000000.0,
+        "nu": 0.3,
+        "max_plastic_strain": 0.9
+      },
+      "source_inp": "run/run_008/artifacts/candidate_inp/SPIO_R008_Q200_N010_Candidate/SPIO_R008_Q200_N010_Candidate.inp",
+      "source_sha256": "fa2de5d73a28536c1c07cd22072d2a24c1ae988c569127d728931c583457f05a",
+      "inp_path": "run/run_023/artifacts/candidates/SPIO_R023_V01_CTR/SPIO_R023_V01_CTR.inp",
+      "sha256": "14006d69c15e6fd4be021b889964e5add51e724d52fd03ff817b0f80b747c2ff",
+      "parameters_path": "run/run_023/artifacts/candidates/SPIO_R023_V01_CTR/parameters.json",
+      "working_dir": "run/run_023/artifacts/solver/SPIO_R023_V01_CTR",
+      "expected_outputs": {
+        "odb": "run/run_023/artifacts/solver/SPIO_R023_V01_CTR/SPIO_R023_V01_CTR.odb",
+        "dat": "run/run_023/artifacts/solver/SPIO_R023_V01_CTR/SPIO_R023_V01_CTR.dat",
+        "msg": "run/run_023/artifacts/solver/SPIO_R023_V01_CTR/SPIO_R023_V01_CTR.msg",
+        "sta": "run/run_023/artifacts/solver/SPIO_R023_V01_CTR/SPIO_R023_V01_CTR.sta",
+        "log": "run/run_023/artifacts/solver/SPIO_R023_V01_CTR/SPIO_R023_V01_CTR.log"
+      },
+      "expected_outputs_status": "NOT_CREATED",
+      "material_table_sha256": "ca3b64e8f8bb9f030c59aa76e2a88e9bb03f51a82f61f627518724e57b48d4e9",
+      "unchanged_bytes_sha256": "d734dd8ddc8bea20801c11ff297364405c914d2d619ecc5a5a44f7ab6eef6aed",
+      "static_controls": {
+        "initial": 0.001,
+        "period": 1.0,
+        "minimum": 1e-12,
+        "maximum": 0.005,
+        "max_increments": 999999
+      },
+      "inp_absolute_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_023\\artifacts\\candidates\\SPIO_R023_V01_CTR\\SPIO_R023_V01_CTR.inp",
+      "working_dir_absolute": "E:\\Projects\\SMALL-PUNCH\\run\\run_023\\artifacts\\solver\\SPIO_R023_V01_CTR",
+      "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+      "cpus": 14,
+      "gpus": 0,
+      "run_datacheck": true,
+      "run_full": true,
+      "automatic_retries": 0,
+      "preflight": "PREVIEW_READY",
+      "dry_run": "DRY_RUN_READY",
+      "queue_id": null
+    },
+    {
+      "point_id": "V02",
+      "job_name": "SPIO_R023_V02_NP",
+      "parameters": {
+        "sigma_y_mpa": 200.0,
+        "n": 0.124,
+        "E_pa": 210000000000.0,
+        "nu": 0.3,
+        "max_plastic_strain": 0.9
+      },
+      "source_inp": "run/run_020/artifacts/candidates/SPIO_R020_L04_NP/SPIO_R020_L04_NP.inp",
+      "source_sha256": "6234cfc8e906a0677e3c6485781d09ae65f158a8ca0bfcee30e6c75427a38c99",
+      "inp_path": "run/run_023/artifacts/candidates/SPIO_R023_V02_NP/SPIO_R023_V02_NP.inp",
+      "sha256": "685a9ebde4a5dc82adc39df0dd33ff5388eab6a95f2097f98bab3448ff5c3064",
+      "parameters_path": "run/run_023/artifacts/candidates/SPIO_R023_V02_NP/parameters.json",
+      "working_dir": "run/run_023/artifacts/solver/SPIO_R023_V02_NP",
+      "expected_outputs": {
+        "odb": "run/run_023/artifacts/solver/SPIO_R023_V02_NP/SPIO_R023_V02_NP.odb",
+        "dat": "run/run_023/artifacts/solver/SPIO_R023_V02_NP/SPIO_R023_V02_NP.dat",
+        "msg": "run/run_023/artifacts/solver/SPIO_R023_V02_NP/SPIO_R023_V02_NP.msg",
+        "sta": "run/run_023/artifacts/solver/SPIO_R023_V02_NP/SPIO_R023_V02_NP.sta",
+        "log": "run/run_023/artifacts/solver/SPIO_R023_V02_NP/SPIO_R023_V02_NP.log"
+      },
+      "expected_outputs_status": "NOT_CREATED",
+      "material_table_sha256": "5f5d10ab18c99841d9557370a1d7a3ee369a08813f7a2b4afed36deec92e0d3f",
+      "unchanged_bytes_sha256": "348d97a31d1b53f746ec180a22c3221bd231c95aa895a5ae8ad6205c380d9be6",
+      "static_controls": {
+        "initial": 0.001,
+        "period": 1.0,
+        "minimum": 1e-12,
+        "maximum": 0.005,
+        "max_increments": 999999
+      },
+      "inp_absolute_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_023\\artifacts\\candidates\\SPIO_R023_V02_NP\\SPIO_R023_V02_NP.inp",
+      "working_dir_absolute": "E:\\Projects\\SMALL-PUNCH\\run\\run_023\\artifacts\\solver\\SPIO_R023_V02_NP",
+      "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+      "cpus": 14,
+      "gpus": 0,
+      "run_datacheck": true,
+      "run_full": true,
+      "automatic_retries": 0,
+      "preflight": "PREVIEW_READY",
+      "dry_run": "DRY_RUN_READY",
+      "queue_id": null
+    }
+  ],
+  "queue_unchanged": true,
+  "solver_started": false,
+  "datacheck_started": false,
+  "authorized_solver_jobs": 0,
+  "authorized_enqueue_jobs": 0,
+  "limitations": [
+    "No Abaqus syntax/license/convergence verification; preview only",
+    "Future enqueue must recheck state and receive new user authorization",
+    "AUTO_STOP_UNAVAILABLE: manual one-job gating recommended"
+  ]
+}

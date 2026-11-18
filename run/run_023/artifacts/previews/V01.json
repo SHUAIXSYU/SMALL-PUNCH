@@ -1,0 +1,113 @@
+{
+  "request": {
+    "inp_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_023\\artifacts\\candidates\\SPIO_R023_V01_CTR\\SPIO_R023_V01_CTR.inp",
+    "job_name": "SPIO_R023_V01_CTR",
+    "cpus": 14,
+    "gpus": 0,
+    "batch": "SPIO_run023_numerical_PREVIEW",
+    "strategy": "two_anchor_increment_refinement",
+    "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_023\\artifacts\\solver\\SPIO_R023_V01_CTR",
+    "submission_mode": "preview_only",
+    "allow_solver_submit": false,
+    "metadata": {
+      "run": "run_023",
+      "point_id": "V01",
+      "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+      "inp_sha256": "14006d69c15e6fd4be021b889964e5add51e724d52fd03ff817b0f80b747c2ff",
+      "authorized_jobs": 0,
+      "automatic_retries": 0
+    },
+    "run_datacheck": true,
+    "run_full": true,
+    "schema_version": "1.0"
+  },
+  "preflight": {
+    "status": "PREVIEW_READY",
+    "job_id": null,
+    "inp_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_023\\artifacts\\candidates\\SPIO_R023_V01_CTR\\SPIO_R023_V01_CTR.inp",
+    "inp_exists": true,
+    "job_name": "SPIO_R023_V01_CTR",
+    "cpus": 14,
+    "batch": "SPIO_run023_numerical_PREVIEW",
+    "strategy": "two_anchor_increment_refinement",
+    "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_023\\artifacts\\solver\\SPIO_R023_V01_CTR",
+    "expected_odb_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_023\\artifacts\\solver\\SPIO_R023_V01_CTR\\SPIO_R023_V01_CTR.odb",
+    "command_preview": "DATACHECK: cmd.exe /c D:\\ABAQUS2024\\Commands\\abq2024.bat job=SPIO_R023_V01_CTR input=E:\\Projects\\SMALL-PUNCH\\run\\run_023\\artifacts\\candidates\\SPIO_R023_V01_CTR\\SPIO_R023_V01_CTR.inp datacheck cpus=14 interactive ask_delete=OFF\nFULL_RUN: cmd.exe /c D:\\ABAQUS2024\\Commands\\abq2024.bat job=SPIO_R023_V01_CTR input=E:\\Projects\\SMALL-PUNCH\\run\\run_023\\artifacts\\candidates\\SPIO_R023_V01_CTR\\SPIO_R023_V01_CTR.inp cpus=14 interactive ask_delete=OFF",
+    "errors": [],
+    "warnings": [],
+    "schema_version": "1.0",
+    "error_details": []
+  },
+  "dry_run": {
+    "status": "DRY_RUN_READY",
+    "job_id": null,
+    "queue_file": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime\\queue.json",
+    "command_preview": "DATACHECK: cmd.exe /c D:\\ABAQUS2024\\Commands\\abq2024.bat job=SPIO_R023_V01_CTR input=E:\\Projects\\SMALL-PUNCH\\run\\run_023\\artifacts\\candidates\\SPIO_R023_V01_CTR\\SPIO_R023_V01_CTR.inp datacheck cpus=14 interactive ask_delete=OFF\nFULL_RUN: cmd.exe /c D:\\ABAQUS2024\\Commands\\abq2024.bat job=SPIO_R023_V01_CTR input=E:\\Projects\\SMALL-PUNCH\\run\\run_023\\artifacts\\candidates\\SPIO_R023_V01_CTR\\SPIO_R023_V01_CTR.inp cpus=14 interactive ask_delete=OFF",
+    "expected_odb_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_023\\artifacts\\solver\\SPIO_R023_V01_CTR\\SPIO_R023_V01_CTR.odb",
+    "queue_only": true,
+    "queue_file_mutated": false,
+    "solver_started": false,
+    "runner_started": false,
+    "gui_required": false,
+    "allowed_mutations": [
+      "runtime/queue.json"
+    ],
+    "forbidden_mutations_detected": false,
+    "runtime_snapshot_before": {
+      "runtime_dir": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime",
+      "queue.json": {
+        "path": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime\\queue.json",
+        "exists": true,
+        "is_dir": false,
+        "size": 11578,
+        "mtime_ns": 1792827130541558700
+      },
+      "live_status.json": {
+        "path": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime\\live_status.json",
+        "exists": true,
+        "is_dir": false,
+        "size": 757,
+        "mtime_ns": 1792827130627815800
+      },
+      "reports": {
+        "path": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime\\reports",
+        "exists": true,
+        "is_dir": true,
+        "file_count": 13,
+        "total_size": 134700,
+        "mtime_ns": 1792827130560863100
+      }
+    },
+    "runtime_snapshot_after": {
+      "runtime_dir": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime",
+      "queue.json": {
+        "path": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime\\queue.json",
+        "exists": true,
+        "is_dir": false,
+        "size": 11578,
+        "mtime_ns": 1792827130541558700
+      },
+      "live_status.json": {
+        "path": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime\\live_status.json",
+        "exists": true,
+        "is_dir": false,
+        "size": 757,
+        "mtime_ns": 1792827130627815800
+      },
+      "reports": {
+        "path": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime\\reports",
+        "exists": true,
+        "is_dir": true,
+        "file_count": 13,
+        "total_size": 134700,
+        "mtime_ns": 1792827130560863100
+      }
+    },
+    "errors": [],
+    "warnings": [
+      "Dry-run only; queue.json was not modified."
+    ],
+    "schema_version": "1.0",
+    "error_details": []
+  }
+}

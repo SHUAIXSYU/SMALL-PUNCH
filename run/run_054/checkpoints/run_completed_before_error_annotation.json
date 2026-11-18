@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_054",
+  "stage": "Offline constitutive sensitivity and confounding",
+  "objective": "Audit same-point comparability, high-strain alpha secants, exploratory cross-experiment shapes, frozen experimental residuals; no FE",
+  "status": "WARNING",
+  "start_time": "2026-10-26T23:40:17.526987+08:00",
+  "end_time": "2026-10-26T23:50:12.512727+08:00",
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "git_branch": "main",
+  "git_head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+  "inputs": [
+    {
+      "path": "run/run_020/artifacts/prepared_batch.json",
+      "role": "historical local sensitivity design",
+      "sha256": "e538bc574a4c26be95ef36f89fc4c2aea12e70d09e9da0f8040bed394fa1e278"
+    },
+    {
+      "path": "run/run_051/artifacts/comparison_contract.json",
+      "role": "frozen response and Loss binding",
+      "sha256": "c5abb06c177a6ebb609ae58160a1c77aed1ca85cf5b155646899c355ca7e8d30"
+    },
+    {
+      "path": "run/run_054/artifacts/private/source_hash_manifest.json",
+      "role": "private source identities",
+      "sha256": "21380b25adfc8052618dfab54fac380a092958731dee7ddd13cfb2b08452d7b2"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_054/artifacts/private/confounding_report.md",
+      "role": "scientific report",
+      "sha256": "32a15b52b387ba8e784d5cd18a660e61c724d8a0048c366edf4c38d2eabfbb14"
+    },
+    {
+      "path": "run/run_054/artifacts/private/evidence_manifest.json",
+      "role": "evidence list",
+      "sha256": "35171250768b612d233b5da0c8c4c236c6c6882a53ea865296afd0dcc4f45f6f"
+    },
+    {
+      "path": "run/run_054/artifacts/manifest.json",
+      "role": "artifact index",
+      "sha256": "e1983632e0058737e7fe1397d439713df38fc8fbd06062b9e3fcb2382c55c188"
+    }
+  ],
+  "validation": [
+    {
+      "check": "existing source identity",
+      "status": "PASS",
+      "evidence": "run/run_054/artifacts/private/source_hash_manifest.json",
+      "scope": "81 bounded existing files, no original changed"
+    },
+    {
+      "check": "math tests",
+      "status": "PASS",
+      "evidence": "run/run_054/artifacts/private/synthetic_tests.json",
+      "scope": "9 synthetic vector tests plus actual source-array and Loss-identity crosschecks"
+    },
+    {
+      "check": "formal joint identifiability gate",
+      "status": "NOT_EVALUABLE",
+      "evidence": "run/run_054/artifacts/private/input_compatibility_audit.json",
+      "scope": "no common-D01 sigma_y/n perturbations with same numerical contract"
+    },
+    {
+      "check": "Hub audit chain",
+      "status": "PASS",
+      "evidence": "run/run_054/artifacts/private/agenthub_completion_receipt.json",
+      "scope": "public API task/artifact/message/completion"
+    }
+  ],
+  "errors": [],
+  "outcome": "OFFLINE_CONFOUNDING_ASSESSMENT_COMPLETE",
+  "new_FE": 0,
+  "new_queue": 0,
+  "material_refit": false,
+  "agenthub_task_id": "7723acc4-c5c9-4b9b-be75-50ca944a0bb8"
+}

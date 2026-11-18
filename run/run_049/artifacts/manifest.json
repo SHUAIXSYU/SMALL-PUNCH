@@ -1,0 +1,205 @@
+{
+  "version": "run049-final-artifact-index-v1",
+  "at": "2026-10-26T21:20:45.611265+08:00",
+  "files": [
+    {
+      "path": "run/run_049/artifacts/analyze_evidence.py",
+      "sha256": "8c4f89e9f895ccae47195089b1e296aa51e0d08734b286d33ba279d2ec5e35bd",
+      "visibility": "PUBLIC_RUN_METADATA_OR_CODE",
+      "role": "offline evidence/design, not executed FE plan"
+    },
+    {
+      "path": "run/run_049/artifacts/augment_evidence.py",
+      "sha256": "37469cf0fc352c0453a20e15bf916dc95b4db25b911a28ab3235218da1766b36",
+      "visibility": "PUBLIC_RUN_METADATA_OR_CODE",
+      "role": "offline evidence/design, not executed FE plan"
+    },
+    {
+      "path": "run/run_049/artifacts/finalize_assessment.py",
+      "sha256": "52e35e30c6349f3738e427f5a669ca257e4594ffadf43392625c264515f81f5d",
+      "visibility": "PUBLIC_RUN_METADATA_OR_CODE",
+      "role": "offline evidence/design, not executed FE plan"
+    },
+    {
+      "path": "run/run_049/artifacts/private/analysis.json",
+      "sha256": "1835d9f1b358bc76c537f1be3c929c5e44d7769d08947904c068402cc0644aaa",
+      "visibility": "PRIVATE_GIT_IGNORED",
+      "role": "offline evidence/design, not executed FE plan"
+    },
+    {
+      "path": "run/run_049/artifacts/private/analysis_checks.json",
+      "sha256": "f52318d1a04cf1b3573194edd4844a6d18d6f9bf142ddf51b307d8202d87a13e",
+      "visibility": "PRIVATE_GIT_IGNORED",
+      "role": "offline evidence/design, not executed FE plan"
+    },
+    {
+      "path": "run/run_049/artifacts/private/candidate_model_families.json",
+      "sha256": "1bd9ca2ad2c1b8cfdf49a94f5b5bf686cfb85263b0c82a34e52bd9b8e2d8d783",
+      "visibility": "PRIVATE_GIT_IGNORED",
+      "role": "offline evidence/design, not executed FE plan"
+    },
+    {
+      "path": "run/run_049/artifacts/private/curve_provenance.json",
+      "sha256": "f17ff07d539f13c16a7aed9b0ccdb5f81776f02b7b5348e1f15d5c00353b1c81",
+      "visibility": "PRIVATE_GIT_IGNORED",
+      "role": "offline evidence/design, not executed FE plan"
+    },
+    {
+      "path": "run/run_049/artifacts/private/evaluated_24_points.csv",
+      "sha256": "5ce2a6c48634277e0f18417894b6d61e2d136894801a3f7c6719da179300d352",
+      "visibility": "PRIVATE_GIT_IGNORED",
+      "role": "offline evidence/design, not executed FE plan"
+    },
+    {
+      "path": "run/run_049/artifacts/private/final_verification.json",
+      "sha256": "e98483f5f45212ad539e21414d2a4e97ca327d4487ff3b844f8a815dc91b8de3",
+      "visibility": "PRIVATE_GIT_IGNORED",
+      "role": "offline evidence/design, not executed FE plan"
+    },
+    {
+      "path": "run/run_049/artifacts/private/future_study_design.json",
+      "sha256": "6b0a85caf33174e3f0d51fe62df4324e9d49dccabdc870879cc46b6fc8ae375a",
+      "visibility": "PRIVATE_GIT_IGNORED",
+      "role": "offline evidence/design, not executed FE plan"
+    },
+    {
+      "path": "run/run_049/artifacts/private/git_end.json",
+      "sha256": "b8a84ff1be77df5abb1913701e9ac9193526966026f3867e88f339a79b16796e",
+      "visibility": "PRIVATE_GIT_IGNORED",
+      "role": "offline evidence/design, not executed FE plan"
+    },
+    {
+      "path": "run/run_049/artifacts/private/hardening_range_demand.png",
+      "sha256": "e7057fb32e07b3e6a2f89904625196b7252850d69142c8da5f7e30c63ee1012d",
+      "visibility": "PRIVATE_GIT_IGNORED",
+      "role": "offline evidence/design, not executed FE plan"
+    },
+    {
+      "path": "run/run_049/artifacts/private/hub_session.json",
+      "sha256": "82b0a4bc8dbfb1609544e0afcb4f5dfb66c7d9480caf1d4731ac4e1702c8c609",
+      "visibility": "PRIVATE_GIT_IGNORED",
+      "role": "offline evidence/design, not executed FE plan"
+    },
+    {
+      "path": "run/run_049/artifacts/private/loss_reverification.json",
+      "sha256": "89a19ad95a219af17fd0cbdb1e4fcc25b775de447959816cfa823105d6e7119d",
+      "visibility": "PRIVATE_GIT_IGNORED",
+      "role": "offline evidence/design, not executed FE plan"
+    },
+    {
+      "path": "run/run_049/artifacts/private/mechanism_evidence_matrix.json",
+      "sha256": "910a9c7a037fc03253f358171a267a0641204ca55505573acf1c4e45485c95bd",
+      "visibility": "PRIVATE_GIT_IGNORED",
+      "role": "offline evidence/design, not executed FE plan"
+    },
+    {
+      "path": "run/run_049/artifacts/private/numerically_unscoreable_observations.json",
+      "sha256": "4a4230820c56276ece56624f8ec6311eae337ff5a5518f741b7359a6ce695a5e",
+      "visibility": "PRIVATE_GIT_IGNORED",
+      "role": "offline evidence/design, not executed FE plan"
+    },
+    {
+      "path": "run/run_049/artifacts/private/pairwise_low_loss_comparison.csv",
+      "sha256": "ccf8a0bc09c2f107d8d3f89afc980fcab80c23b735bdc1d20705ce84dd17da43",
+      "visibility": "PRIVATE_GIT_IGNORED",
+      "role": "offline evidence/design, not executed FE plan"
+    },
+    {
+      "path": "run/run_049/artifacts/private/parameter_compensation_evidence.png",
+      "sha256": "34e666210a073eebf9b3dd836a2280324f56bb48b884c461c52b8a7370bade46",
+      "visibility": "PRIVATE_GIT_IGNORED",
+      "role": "offline evidence/design, not executed FE plan"
+    },
+    {
+      "path": "run/run_049/artifacts/private/parameter_coverage_with_nulls.png",
+      "sha256": "16e6038f8fd0efe038326d5a776f7a038aa65f831009983865a5f0bf7b02e617",
+      "visibility": "PRIVATE_GIT_IGNORED",
+      "role": "offline evidence/design, not executed FE plan"
+    },
+    {
+      "path": "run/run_049/artifacts/private/peeq_range_scope.csv",
+      "sha256": "50710faa96880f10a78c3c242efd7c202626d275f3e78ddd55032954fd8ee9b2",
+      "visibility": "PRIVATE_GIT_IGNORED",
+      "role": "offline evidence/design, not executed FE plan"
+    },
+    {
+      "path": "run/run_049/artifacts/private/primary_method_sources.json",
+      "sha256": "6bab038407adf6cd755e0bdd8aba5d298a46a481ed004704b05f351e41edba8c",
+      "visibility": "PRIVATE_GIT_IGNORED",
+      "role": "offline evidence/design, not executed FE plan"
+    },
+    {
+      "path": "run/run_049/artifacts/private/proposed_parameter_design.json",
+      "sha256": "92e47341b4d752a8a653a8f1beb7a9aebfd2976eaa26649dc890adf10b58ece9",
+      "visibility": "PRIVATE_GIT_IGNORED",
+      "role": "offline evidence/design, not executed FE plan"
+    },
+    {
+      "path": "run/run_049/artifacts/private/protected_after_analysis.json",
+      "sha256": "42960ec8d1684432b6acfe3f4656831e1876b1de2ae477999ba1802491501cb7",
+      "visibility": "PRIVATE_GIT_IGNORED",
+      "role": "offline evidence/design, not executed FE plan"
+    },
+    {
+      "path": "run/run_049/artifacts/private/protected_before.json",
+      "sha256": "42960ec8d1684432b6acfe3f4656831e1876b1de2ae477999ba1802491501cb7",
+      "visibility": "PRIVATE_GIT_IGNORED",
+      "role": "offline evidence/design, not executed FE plan"
+    },
+    {
+      "path": "run/run_049/artifacts/private/protected_final.json",
+      "sha256": "42960ec8d1684432b6acfe3f4656831e1876b1de2ae477999ba1802491501cb7",
+      "visibility": "PRIVATE_GIT_IGNORED",
+      "role": "offline evidence/design, not executed FE plan"
+    },
+    {
+      "path": "run/run_049/artifacts/private/revisions/analysis_before_supplement.json",
+      "sha256": "8e4264675b62c6fcd13c870c49ac2cef9dba65351e61f4a36c1e1dfda498c28d",
+      "visibility": "PRIVATE_GIT_IGNORED",
+      "role": "offline evidence/design, not executed FE plan"
+    },
+    {
+      "path": "run/run_049/artifacts/private/revisions/analysis_checks_before_final_review.json",
+      "sha256": "69e09fc79dff4e9bb3d6947aa898fd58dcb4e88656222d3da15364713b37c3ed",
+      "visibility": "PRIVATE_GIT_IGNORED",
+      "role": "offline evidence/design, not executed FE plan"
+    },
+    {
+      "path": "run/run_049/artifacts/private/revisions/status_before_run049.json",
+      "sha256": "29de25606335c27572e3c5eb1d039fb0fc810b0e902ab2c759e08abb5e9986ab",
+      "visibility": "PRIVATE_GIT_IGNORED",
+      "role": "offline evidence/design, not executed FE plan"
+    },
+    {
+      "path": "run/run_049/artifacts/private/scientific_assessment.md",
+      "sha256": "0acf2b62b19ce5a03090d20bda83fc88950c6f125d2b8b6f6d411dca5972106c",
+      "visibility": "PRIVATE_GIT_IGNORED",
+      "role": "offline evidence/design, not executed FE plan"
+    },
+    {
+      "path": "run/run_049/artifacts/private/source_confirmed_error_decomposition.csv",
+      "sha256": "e2c85b9f3931cbd8c7ed9dbc377e009b9db535e9ecd22c9247dc02215a352059",
+      "visibility": "PRIVATE_GIT_IGNORED",
+      "role": "offline evidence/design, not executed FE plan"
+    },
+    {
+      "path": "run/run_049/artifacts/write_study_design.py",
+      "sha256": "80b9eeeb28d014f3b04194cbf78429b1c70fb74b904acd9dc9c405352b7331b4",
+      "visibility": "PUBLIC_RUN_METADATA_OR_CODE",
+      "role": "offline evidence/design, not executed FE plan"
+    },
+    {
+      "path": "run/run_049/checkpoints/start.json",
+      "sha256": "4fa48f0820ceb2704f8ba76a6416eaa8676d990114ef809d368debee61c02364",
+      "visibility": "PUBLIC_RUN_METADATA_OR_CODE",
+      "role": "offline evidence/design, not executed FE plan"
+    },
+    {
+      "path": "run/run_049/summary.md",
+      "sha256": "8e9f07a05af2904b7f12b0b5b5b8ff546b771a57994ff6624526bf380842e976",
+      "visibility": "PUBLIC_RUN_METADATA_OR_CODE",
+      "role": "offline evidence/design, not executed FE plan"
+    }
+  ],
+  "exclusions": "run.json, this manifest and later Hub receipt/completion checkpoint avoid cyclic hashes"
+}

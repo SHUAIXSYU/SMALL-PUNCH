@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "checks": [
+    "Known linear sensitivities and SVD",
+    "Missing pair stays unavailable",
+    "Rank-zero matrix not finite condition number",
+    "Known quadratic curvature"
+  ],
+  "synthetic_only": true,
+  "not_fe_evidence": true
+}

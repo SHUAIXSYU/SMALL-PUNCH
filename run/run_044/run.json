@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_044",
+  "stage": "Authorized two-point numerical validation queue-only execution record",
+  "objective": "Register two single attempts, recheck frozen inputs and current previews, queue only, stop for manual GUI start",
+  "status": "WARNING",
+  "start_time": "2026-10-26T00:41:53.824949+08:00",
+  "end_time": "2026-10-26T00:44:29.931250+08:00",
+  "git_branch": "main",
+  "git_head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+  "git": {
+    "branch": "main",
+    "head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+    "remote": "origin\thttps://github.com/SHUAIXSYU/SMALL-PUNCH.git (fetch)\norigin\thttps://github.com/SHUAIXSYU/SMALL-PUNCH.git (push)",
+    "working_tree": "M agenthub_sp_invopt/abqjobpilot_project/project.db\n M run/README.md\n M status/PROJECT_STATUS.md\n?? run/run_019/\n?? run/run_020/\n?? run/run_021/\n?? run/run_022/\n?? run/run_023/\n?? run/run_024/\n?? run/run_025/\n?? run/run_026/\n?? run/run_027/\n?? run/run_028/\n?? run/run_029/\n?? run/run_030/\n?? run/run_031/\n?? run/run_032/\n?? run/run_033/\n?? run/run_034/\n?? run/run_035/\n?? run/run_036/\n?? run/run_037/\n?? run/run_038/\n?? run/run_039/\n?? run/run_040/\n?? run/run_041/\n?? run/run_042/\n?? run/run_043/\n?? run/run_044/"
+  },
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "inputs": [
+    {
+      "path": "run/run_043/artifacts/prepared_batch.json",
+      "sha256": "de461945b427b4deb9e041ebd536a47a8f06c2d9896d12571bfc2c40c0de06ca",
+      "role": "immutable two-input batch"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_044/artifacts/private/authorization_scope.json",
+      "sha256": "bf6589cb556e54911e57c61ded6efff7fabf85177889e816c06e298a3461ff0e"
+    },
+    {
+      "path": "run/run_044/artifacts/private/precheck.json",
+      "sha256": "836f436eee450ab1b42b7ce91c7cc2b818c28ba53ea07207c22fa267abed9680"
+    },
+    {
+      "path": "run/run_044/artifacts/private/queue_manifest.json",
+      "sha256": "f2a88dcd700a3b424cab63c5414f5d9b572faebc75d522c4ac8e37c8e1e8aa73"
+    },
+    {
+      "path": "run/run_044/artifacts/private/final_readback.json",
+      "sha256": "9c55c70532f86ff91c1f6dcdb5745f53e33b551e805ac702ca7df607fc78e2d3"
+    },
+    {
+      "path": "run/run_044/artifacts/private/budget_ledger.json",
+      "sha256": "2dbcecd3937873ad90bc19eeffcdd646fed9715dcf6314a53397c5708c771374"
+    },
+    {
+      "path": "run/run_044/artifacts/queue_validation.py",
+      "sha256": "2e577d652b551dfb0167255cfbcb7d6928ecd3a264f68d3ff10a0a09bb16b1bd"
+    },
+    {
+      "path": "run/run_044/artifacts/finalize_phase1.py",
+      "sha256": "698e0cbfffbcc7058f48d0f3437b151980e4c5e1e367e51f36c26420fc113767"
+    },
+    {
+      "path": "run/run_044/summary.md",
+      "sha256": "7b36b3bbceb2523c20230463786a894aef8fa8e82a92bfdaa070b6fb819b27a0"
+    },
+    {
+      "path": "run/run_044/artifacts/private/queue_receipts/1_D01_receipt.json",
+      "sha256": "f79208ad791b73e16c3a03d22a5a7936e1dbe3e7c65f22b5848d10c9b951d03b"
+    },
+    {
+      "path": "run/run_044/artifacts/private/queue_receipts/1_D01_request.json",
+      "sha256": "e00df8c67ad9a7bd4ca1702a36f878341b9d777a5153f1d91d8a351f88583b34"
+    },
+    {
+      "path": "run/run_044/artifacts/private/queue_receipts/1_D01_response.json",
+      "sha256": "00cfd9da18ba5235a1ba298386195233379b4631df5cc6bf9b1620fdb8ebe1ff"
+    },
+    {
+      "path": "run/run_044/artifacts/private/queue_receipts/2_I08_receipt.json",
+      "sha256": "0465877e5bd49513b677834bfaf39d3199516d4576f037ec9ab279532bfcb201"
+    },
+    {
+      "path": "run/run_044/artifacts/private/queue_receipts/2_I08_request.json",
+      "sha256": "2cc230ec3e452c08b7108735fa092855bbfbc773b1d63b43343e1cef19f9956d"
+    },
+    {
+      "path": "run/run_044/artifacts/private/queue_receipts/2_I08_response.json",
+      "sha256": "604291a11134728475b24c5b8d07b3e170a67f5ea662dea6a218595b7c5a30f6"
+    },
+    {
+      "path": "run/run_044/artifacts/private/evidence_manifest.json",
+      "sha256": "7d0aa62f73a5880f2e4620fc06bd66acc4a50ed19624ae046a6c25ff1a9847de"
+    }
+  ],
+  "validation": [
+    {
+      "check": "frozen_input_hash_and_exact_single_change",
+      "status": "PASS",
+      "evidence": "two full hashes, original bytes except maximum increment, comparison contract unchanged"
+    },
+    {
+      "check": "current_public_previews",
+      "status": "PASS",
+      "evidence": "2/2 Preflight and dry-run, PERSISTED Settings, proper Project/resources"
+    },
+    {
+      "check": "real_queue_readback",
+      "status": "PASS",
+      "evidence": "only two executable jobs, correct order and unique ids, both QUEUED, zero starts"
+    },
+    {
+      "check": "AgentHub_authorization_and_budget",
+      "status": "PASS",
+      "evidence": "authorized2, queued2, started0, consumed0, chain valid"
+    },
+    {
+      "check": "automatic_fail_stop",
+      "status": "WARNING",
+      "evidence": "unavailable; explicit batch risk accepted by user"
+    },
+    {
+      "check": "historical_isolated_D09_lock",
+      "status": "WARNING",
+      "evidence": "retained; current runtime CLEAN/owner ABSENT/processes CLEAR"
+    },
+    {
+      "check": "boundary_and_sealed_holdout",
+      "status": "PASS",
+      "evidence": "no solver/datacheck/retry/extra job or sealed data access"
+    }
+  ],
+  "errors": [
+    {
+      "code": "HISTORY_PLACEHOLDER_REVIEW",
+      "severity": "RECOVERED",
+      "message": "Initial final-readback guard expected no History record; official runtime history sync introduced QUEUED placeholders. Read-only show_job verified matching queue_ids, no start/completion and no outputs; no re-enqueue."
+    }
+  ],
+  "phase1_status": "TWO_VALIDATION_JOBS_QUEUED_AWAITING_MANUAL_START",
+  "phase2_status": "AWAITING_USER_COMPLETION"
+}

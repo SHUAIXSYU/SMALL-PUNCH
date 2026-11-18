@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_064",
+  "stage": "partner progress report",
+  "objective": "summarize verified existing results; no new scientific inference",
+  "status": "WARNING",
+  "start_time": "2026-10-28T14:51:35.034970+08:00",
+  "end_time": "2026-10-28T14:59:17.007752+08:00",
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "git_branch": "main",
+  "git_head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+  "inputs": [
+    {
+      "path": "run/run_064/artifacts/private/partner_report/source_audit.json",
+      "sha256": "30b266cee3b1cb8791e28dbdd7161560986565e48ada1c00663211a3de0cdbbf",
+      "role": "bounded original/frozen sources"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_064/artifacts/private/partner_report/SP_InvOpt_Progress_Report_CN.pdf",
+      "sha256": "1c50d4b0a0294fccacd50b072d798dc9d18732dce677a99de9553ec44493d35b",
+      "role": "private report delivery"
+    },
+    {
+      "path": "run/run_064/artifacts/private/partner_report/SP_InvOpt_Progress_Report_CN.md",
+      "sha256": "8719498607be3d751ef3367954e084ef303b3535aa29b1ad82386aba18353407",
+      "role": "private report delivery"
+    },
+    {
+      "path": "run/run_064/artifacts/private/partner_report/figure_sources.json",
+      "sha256": "d20ef7a22bcb05cf48d59b8d13be4c18a88376f2cd212f517bec3f63eb02ccb4",
+      "role": "private report delivery"
+    },
+    {
+      "path": "run/run_064/artifacts/private/partner_report/report_evidence_manifest.json",
+      "sha256": "1bfa97331232c97f04e8b7abc40d8d9511af1cb47d9aec8e735d0d4e13d25265",
+      "role": "private report delivery"
+    },
+    {
+      "path": "run/run_064/artifacts/private/partner_report/main_scientific_review.md",
+      "sha256": "a77560fa07283f0cf38950158ff9baea18a5e9111a0622848e529ddc265a038a",
+      "role": "private report delivery"
+    },
+    {
+      "path": "run/run_064/artifacts/private/partner_report/delivery_quality_checks.json",
+      "sha256": "bb5fefcac75d1bbb03b36fd3d9546383aff78a2a253559fd2652fcffa828233a",
+      "role": "private report delivery"
+    },
+    {
+      "path": "run/run_064/artifacts/private/partner_report/agenthub_receipt.json",
+      "sha256": "8db2998db2586c38923d82b26b4e14867b4263f24b446c35fdafaba9241f8414",
+      "role": "private report delivery"
+    }
+  ],
+  "validation": [
+    {
+      "check": "frozen curves and metrics",
+      "status": "PASS",
+      "evidence": "run/run_064/artifacts/private/partner_report/main_scientific_review.md",
+      "scope": "source identity and previously reported calculations only"
+    },
+    {
+      "check": "4-page Chinese PDF and 320dpi figures",
+      "status": "PASS",
+      "evidence": "run/run_064/artifacts/private/partner_report/delivery_quality_checks.json",
+      "scope": "visual and file checks"
+    },
+    {
+      "check": "formal material validation",
+      "status": "WARNING",
+      "evidence": "run/run_064/artifacts/private/partner_report/main_scientific_review.md",
+      "scope": "historical NOT_EVALUABLE unchanged"
+    }
+  ],
+  "errors": [],
+  "new_FE": 0,
+  "new_training": 0,
+  "outcome": "PARTNER_REPORT_DELIVERED_EXISTING_SCIENCE_UNCHANGED",
+  "pdf_python": "C:\\Users\\wuxia\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "agenthub_task_id": "804e1f23-2e30-41f6-95d8-478f2404b633",
+  "solver_called": false,
+  "queue_modified": false,
+  "gitignore_or_index_modified": false,
+  "external_upload": false
+}

@@ -1,0 +1,5 @@
+[
+  {"attempt":1,"error":"Python syntax error in offline diagnostic script variable name; no source read or calculation", "solver_attempt":false},
+  {"attempt":2,"error":"Compared 241-point frozen grid with all 339 source rows; corrected selection of first 241 measured rows", "solver_attempt":false},
+  {"attempt":3,"error":"Diagnostic source key V01_sta missing; actual map key V_sta. Three partial new-Run CSVs preserved as .attempt03", "solver_attempt":false}
+]

@@ -1,0 +1,333 @@
+{
+  "version": "run033-twenty-doe-design-v1",
+  "frozen_at": "2026-10-24T19:11:27.306192+08:00",
+  "authorization": "User explicitly approved exactly 20 new Jobs and one GUI-started serial batch",
+  "research_scope": "SPT-only exploratory DOE; no BO/DE/RL",
+  "numeric_version": "run030-standard-m0025-hollomon-v1",
+  "loss_version": "run017-exploratory-fd-v1",
+  "run030_batch_sha256": "962f9fa56893451330ad3d99689c4be45bb753b7d1e4999d13f62f5cccdb31fa",
+  "run022_prior_loss_file_sha256": "18baf12e2fc95776357223020d830d6d93f9ed70ddf0761cd87e083154be8e1a",
+  "low_loss_basis": {
+    "point": "run022 L04",
+    "sigma_y_mpa": 200.0,
+    "n": 0.124,
+    "provisional_loss": 0.031024866128661885,
+    "note": "Observed SPT-only vicinity; not true material parameters"
+  },
+  "bounds": {
+    "sigma_y_mpa": [
+      150.0,
+      1000.0
+    ],
+    "n": [
+      0.02,
+      0.5
+    ],
+    "status": "EXPLORATORY_ENGINEERING_BOUNDS"
+  },
+  "normalization": {
+    "x": "ln(sigma_y_mpa/150)/ln(1000/150)",
+    "y": "(n-0.02)/0.48"
+  },
+  "global_method": {
+    "algorithm": "first_seed_satisfying_7_stratum_scipy_LatinHypercube",
+    "seed_search_inclusive": [
+      3301,
+      4300
+    ],
+    "chosen_seed": 3310,
+    "scramble": true,
+    "min_distance_to_prior": 0.08,
+    "min_pair_distance": 0.16,
+    "actual_nearest_prior": 0.10224466886000295,
+    "actual_min_pair": 0.2447546107833828
+  },
+  "local_method": {
+    "algorithm": "greedy_farthest_first_8192_scrambled_Sobol_candidates",
+    "seed": 3302,
+    "local_box_xy": [
+      [
+        0.02,
+        0.45
+      ],
+      [
+        0.02,
+        0.44
+      ]
+    ],
+    "candidate_order_tie_break": "first_Sobol_index",
+    "min_allowed_distance": 0.055,
+    "actual_sequential_nearest": [
+      0.16078821807637061,
+      0.15895235305245228,
+      0.15129821388557693,
+      0.13940593891906866,
+      0.13719340049289655,
+      0.122129111868549,
+      0.121424170396451
+    ],
+    "basis": "run022 low-Loss vicinity with broad margins; no I02 score used"
+  },
+  "minimum_new_pair_distance": 0.121424170396451,
+  "minimum_new_to_prior_distance": 0.10224466886000295,
+  "scipy_version": "1.16.1",
+  "numpy_version": "2.1.2",
+  "existing_frozen": [
+    {
+      "point_id": "I03",
+      "job_name": "SPIO_R030_I03_G",
+      "inp_path": "run/run_030/artifacts/candidates/SPIO_R030_I03_G/SPIO_R030_I03_G.inp",
+      "inp_sha256": "3297160bafd9b97c7baa2d86b292d0bb00f76ab66225739f3686a9e6878c7696",
+      "sigma_y_mpa": 305.53223494955773,
+      "n": 0.19999999999999998
+    },
+    {
+      "point_id": "I04",
+      "job_name": "SPIO_R030_I04_L",
+      "inp_path": "run/run_030/artifacts/candidates/SPIO_R030_I04_L/SPIO_R030_I04_L.inp",
+      "inp_sha256": "723e65e2cd3b2ee01a20d3806c9d7c7db8217ecef765e740239a2db30de6d31c",
+      "sigma_y_mpa": 211.05460498125615,
+      "n": 0.17359999999999998
+    },
+    {
+      "point_id": "I05",
+      "job_name": "SPIO_R030_I05_G",
+      "inp_path": "run/run_030/artifacts/candidates/SPIO_R030_I05_G/SPIO_R030_I05_G.inp",
+      "inp_sha256": "21d36af80ce266f6d72caf94e9b6e148fa016f86a1bddd80827be7cd4ec4540b",
+      "sigma_y_mpa": 490.94656092429807,
+      "n": 0.32
+    },
+    {
+      "point_id": "I06",
+      "job_name": "SPIO_R030_I06_L",
+      "inp_path": "run/run_030/artifacts/candidates/SPIO_R030_I06_L/SPIO_R030_I06_L.inp",
+      "inp_sha256": "0a544fd06f0c0de630946173314ba980085a8a464ef4027e715bfb46e3d3b45a",
+      "sigma_y_mpa": 236.49902622197678,
+      "n": 0.0968
+    },
+    {
+      "point_id": "I07",
+      "job_name": "SPIO_R030_I07_G",
+      "inp_path": "run/run_030/artifacts/candidates/SPIO_R030_I07_G/SPIO_R030_I07_G.inp",
+      "inp_sha256": "f59f9328a3119f6705daf1e144801341a8273627c6333d00acec233b7210deff",
+      "sigma_y_mpa": 788.8808384594458,
+      "n": 0.08
+    },
+    {
+      "point_id": "I08",
+      "job_name": "SPIO_R030_I08_L",
+      "inp_path": "run/run_030/artifacts/candidates/SPIO_R030_I08_L/SPIO_R030_I08_L.inp",
+      "inp_sha256": "ac0769a21b6dd09fe1b87da708c1a5d38eaea4a71f304264f75df8722d2719d2",
+      "sigma_y_mpa": 265.0109880753873,
+      "n": 0.1544
+    }
+  ],
+  "new_points": [
+    {
+      "point_id": "D01",
+      "region": "GLOBAL",
+      "x": 0.00805096780332537,
+      "y": 0.43888002967334183,
+      "sigma_y_mpa": 152.3086335396325,
+      "n": 0.23066241424320405,
+      "job_name": "SPIO_R033_D01_G",
+      "inp_path": "run/run_033/artifacts/candidates/SPIO_R033_D01_G/SPIO_R033_D01_G.inp",
+      "parameters_path": "run/run_033/artifacts/candidates/SPIO_R033_D01_G/parameters.json",
+      "working_dir": "run/run_033/artifacts/solver/SPIO_R033_D01_G",
+      "expected_odb": "run/run_033/artifacts/solver/SPIO_R033_D01_G/SPIO_R033_D01_G.odb"
+    },
+    {
+      "point_id": "D02",
+      "region": "GLOBAL",
+      "x": 0.37439212477582895,
+      "y": 0.9193723135964648,
+      "sigma_y_mpa": 305.1800945230437,
+      "n": 0.4612987105263031,
+      "job_name": "SPIO_R033_D02_G",
+      "inp_path": "run/run_033/artifacts/candidates/SPIO_R033_D02_G/SPIO_R033_D02_G.inp",
+      "parameters_path": "run/run_033/artifacts/candidates/SPIO_R033_D02_G/parameters.json",
+      "working_dir": "run/run_033/artifacts/solver/SPIO_R033_D02_G",
+      "expected_odb": "run/run_033/artifacts/solver/SPIO_R033_D02_G/SPIO_R033_D02_G.odb"
+    },
+    {
+      "point_id": "D03",
+      "region": "GLOBAL",
+      "x": 0.7850523130205929,
+      "y": 0.17361466771815118,
+      "sigma_y_mpa": 665.1241575478715,
+      "n": 0.10333504050471257,
+      "job_name": "SPIO_R033_D03_G",
+      "inp_path": "run/run_033/artifacts/candidates/SPIO_R033_D03_G/SPIO_R033_D03_G.inp",
+      "parameters_path": "run/run_033/artifacts/candidates/SPIO_R033_D03_G/parameters.json",
+      "working_dir": "run/run_033/artifacts/solver/SPIO_R033_D03_G",
+      "expected_odb": "run/run_033/artifacts/solver/SPIO_R033_D03_G/SPIO_R033_D03_G.odb"
+    },
+    {
+      "point_id": "D04",
+      "region": "GLOBAL",
+      "x": 0.17052941000870217,
+      "y": 0.6701618613598435,
+      "sigma_y_mpa": 207.2964814010952,
+      "n": 0.34167769345272486,
+      "job_name": "SPIO_R033_D04_G",
+      "inp_path": "run/run_033/artifacts/candidates/SPIO_R033_D04_G/SPIO_R033_D04_G.inp",
+      "parameters_path": "run/run_033/artifacts/candidates/SPIO_R033_D04_G/parameters.json",
+      "working_dir": "run/run_033/artifacts/solver/SPIO_R033_D04_G",
+      "expected_odb": "run/run_033/artifacts/solver/SPIO_R033_D04_G/SPIO_R033_D04_G.odb"
+    },
+    {
+      "point_id": "D05",
+      "region": "GLOBAL",
+      "x": 0.8934767603770941,
+      "y": 0.8562461315130726,
+      "sigma_y_mpa": 817.0235441376625,
+      "n": 0.4309981431262749,
+      "job_name": "SPIO_R033_D05_G",
+      "inp_path": "run/run_033/artifacts/candidates/SPIO_R033_D05_G/SPIO_R033_D05_G.inp",
+      "parameters_path": "run/run_033/artifacts/candidates/SPIO_R033_D05_G/parameters.json",
+      "working_dir": "run/run_033/artifacts/solver/SPIO_R033_D05_G",
+      "expected_odb": "run/run_033/artifacts/solver/SPIO_R033_D05_G/SPIO_R033_D05_G.odb"
+    },
+    {
+      "point_id": "D06",
+      "region": "GLOBAL",
+      "x": 0.5946976145779902,
+      "y": 0.3274649464977199,
+      "sigma_y_mpa": 463.5192999254523,
+      "n": 0.17718317431890554,
+      "job_name": "SPIO_R033_D06_G",
+      "inp_path": "run/run_033/artifacts/candidates/SPIO_R033_D06_G/SPIO_R033_D06_G.inp",
+      "parameters_path": "run/run_033/artifacts/candidates/SPIO_R033_D06_G/parameters.json",
+      "working_dir": "run/run_033/artifacts/solver/SPIO_R033_D06_G",
+      "expected_odb": "run/run_033/artifacts/solver/SPIO_R033_D06_G/SPIO_R033_D06_G.odb"
+    },
+    {
+      "point_id": "D07",
+      "region": "GLOBAL",
+      "x": 0.4522665108518326,
+      "y": 0.047741271471258,
+      "sigma_y_mpa": 353.76722145396724,
+      "n": 0.04291581030620384,
+      "job_name": "SPIO_R033_D07_G",
+      "inp_path": "run/run_033/artifacts/candidates/SPIO_R033_D07_G/SPIO_R033_D07_G.inp",
+      "parameters_path": "run/run_033/artifacts/candidates/SPIO_R033_D07_G/parameters.json",
+      "working_dir": "run/run_033/artifacts/solver/SPIO_R033_D07_G",
+      "expected_odb": "run/run_033/artifacts/solver/SPIO_R033_D07_G/SPIO_R033_D07_G.odb"
+    },
+    {
+      "point_id": "D08",
+      "region": "LOCAL",
+      "x": 0.4473753689415753,
+      "y": 0.2157088520750403,
+      "sigma_y_mpa": 350.49976894569807,
+      "n": 0.12354024899601936,
+      "job_name": "SPIO_R033_D08_L",
+      "inp_path": "run/run_033/artifacts/candidates/SPIO_R033_D08_L/SPIO_R033_D08_L.inp",
+      "parameters_path": "run/run_033/artifacts/candidates/SPIO_R033_D08_L/parameters.json",
+      "working_dir": "run/run_033/artifacts/solver/SPIO_R033_D08_L",
+      "expected_odb": "run/run_033/artifacts/solver/SPIO_R033_D08_L/SPIO_R033_D08_L.odb"
+    },
+    {
+      "point_id": "D09",
+      "region": "LOCAL",
+      "x": 0.025343918902799488,
+      "y": 0.020153569597750904,
+      "sigma_y_mpa": 157.3882604690048,
+      "n": 0.029673713406920432,
+      "job_name": "SPIO_R033_D09_L",
+      "inp_path": "run/run_033/artifacts/candidates/SPIO_R033_D09_L/SPIO_R033_D09_L.inp",
+      "parameters_path": "run/run_033/artifacts/candidates/SPIO_R033_D09_L/parameters.json",
+      "working_dir": "run/run_033/artifacts/solver/SPIO_R033_D09_L",
+      "expected_odb": "run/run_033/artifacts/solver/SPIO_R033_D09_L/SPIO_R033_D09_L.odb"
+    },
+    {
+      "point_id": "D10",
+      "region": "LOCAL",
+      "x": 0.2975784880295396,
+      "y": 0.0200862149707973,
+      "sigma_y_mpa": 263.7963465340595,
+      "n": 0.029641383185982705,
+      "job_name": "SPIO_R033_D10_L",
+      "inp_path": "run/run_033/artifacts/candidates/SPIO_R033_D10_L/SPIO_R033_D10_L.inp",
+      "parameters_path": "run/run_033/artifacts/candidates/SPIO_R033_D10_L/parameters.json",
+      "working_dir": "run/run_033/artifacts/solver/SPIO_R033_D10_L",
+      "expected_odb": "run/run_033/artifacts/solver/SPIO_R033_D10_L/SPIO_R033_D10_L.odb"
+    },
+    {
+      "point_id": "D11",
+      "region": "LOCAL",
+      "x": 0.022273866925388575,
+      "y": 0.3002015347778797,
+      "sigma_y_mpa": 156.47425508224615,
+      "n": 0.16409673669338223,
+      "job_name": "SPIO_R033_D11_L",
+      "inp_path": "run/run_033/artifacts/candidates/SPIO_R033_D11_L/SPIO_R033_D11_L.inp",
+      "parameters_path": "run/run_033/artifacts/candidates/SPIO_R033_D11_L/parameters.json",
+      "working_dir": "run/run_033/artifacts/solver/SPIO_R033_D11_L",
+      "expected_odb": "run/run_033/artifacts/solver/SPIO_R033_D11_L/SPIO_R033_D11_L.odb"
+    },
+    {
+      "point_id": "D12",
+      "region": "LOCAL",
+      "x": 0.2534614375978708,
+      "y": 0.4386428078263998,
+      "sigma_y_mpa": 242.61651100835704,
+      "n": 0.23054854775667188,
+      "job_name": "SPIO_R033_D12_L",
+      "inp_path": "run/run_033/artifacts/candidates/SPIO_R033_D12_L/SPIO_R033_D12_L.inp",
+      "parameters_path": "run/run_033/artifacts/candidates/SPIO_R033_D12_L/parameters.json",
+      "working_dir": "run/run_033/artifacts/solver/SPIO_R033_D12_L",
+      "expected_odb": "run/run_033/artifacts/solver/SPIO_R033_D12_L/SPIO_R033_D12_L.odb"
+    },
+    {
+      "point_id": "D13",
+      "region": "LOCAL",
+      "x": 0.3606987737771124,
+      "y": 0.12855506666004657,
+      "sigma_y_mpa": 297.35423732717453,
+      "n": 0.08170643199682236,
+      "job_name": "SPIO_R033_D13_L",
+      "inp_path": "run/run_033/artifacts/candidates/SPIO_R033_D13_L/SPIO_R033_D13_L.inp",
+      "parameters_path": "run/run_033/artifacts/candidates/SPIO_R033_D13_L/parameters.json",
+      "working_dir": "run/run_033/artifacts/solver/SPIO_R033_D13_L",
+      "expected_odb": "run/run_033/artifacts/solver/SPIO_R033_D13_L/SPIO_R033_D13_L.odb"
+    },
+    {
+      "point_id": "D14",
+      "region": "LOCAL",
+      "x": 0.1294721714220941,
+      "y": 0.4380312256701291,
+      "sigma_y_mpa": 191.76286642335464,
+      "n": 0.23025498832166194,
+      "job_name": "SPIO_R033_D14_L",
+      "inp_path": "run/run_033/artifacts/candidates/SPIO_R033_D14_L/SPIO_R033_D14_L.inp",
+      "parameters_path": "run/run_033/artifacts/candidates/SPIO_R033_D14_L/parameters.json",
+      "working_dir": "run/run_033/artifacts/solver/SPIO_R033_D14_L",
+      "expected_odb": "run/run_033/artifacts/solver/SPIO_R033_D14_L/SPIO_R033_D14_L.odb"
+    }
+  ],
+  "batch_order": [
+    "I03",
+    "I04",
+    "I05",
+    "I06",
+    "I07",
+    "I08",
+    "D01",
+    "D08",
+    "D02",
+    "D09",
+    "D03",
+    "D10",
+    "D04",
+    "D11",
+    "D05",
+    "D12",
+    "D06",
+    "D13",
+    "D07",
+    "D14"
+  ],
+  "sealed_tensile_data_used": false,
+  "selection_does_not_depend_on_new_batch_results": true
+}

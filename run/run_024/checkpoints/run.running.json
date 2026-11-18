@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_024",
+  "stage": "V01 queue-only stage of two-job authorization",
+  "objective": "Enqueue only frozen V01 and stop for manual GUI start; V02 qualification-gated",
+  "status": "RUNNING",
+  "start_time": "2026-10-24T16:20:13.738637+08:00",
+  "end_time": null,
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "git_head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+  "git_branch": "main",
+  "inputs": [
+    {
+      "path": "run/run_023/artifacts/prepared_batch.json",
+      "sha256": "626b7afbb37894d6d7ca384d2a3b02e01c3b0083a2878918e492527804dc4435",
+      "role": "Frozen two-input identities"
+    }
+  ],
+  "outputs": [],
+  "validation": [],
+  "errors": []
+}

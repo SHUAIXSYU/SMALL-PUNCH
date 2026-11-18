@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-24T16:57:43.877031+08:00",
+  "run_status": "WARNING",
+  "prior_qualification": "BLOCKED_V01_NUMERICAL_QUALIFICATION",
+  "task_id": "dcdbafc0-8c90-40fb-94b4-eb277e357eb7",
+  "manifest_sha256": "c5c6a30d95f747183f53995b2a22338ff50dcada6eea81e7208654d1090195f0",
+  "run_json_sha256": "350af6026c8211ab8f1216254d4c53a0d89dffc987299544ac97f6c126320ab4",
+  "new_solver_jobs": 0,
+  "V02_queued": false,
+  "hub_chain_verified": true
+}

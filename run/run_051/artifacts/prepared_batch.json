@@ -1,0 +1,56 @@
+{
+  "version": "run051-two-highp-envelopes-prepared-v1",
+  "frozen_at": "2026-10-26T22:20:34.472018+08:00",
+  "status": "PREPARED_NO_SOLVER_OR_ENQUEUE_AUTHORIZATION",
+  "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+  "project_path": "agenthub_sp_invopt/abqjobpilot_project",
+  "material_contract_path": "run/run_051/artifacts/material_contract.json",
+  "material_contract_sha256": "9073d8170db2b9febb6108749e4a0ab2994db54779acf382c0f36425e22faaaa",
+  "comparison_contract_path": "run/run_051/artifacts/comparison_contract.json",
+  "comparison_contract_sha256": "c5abb06c177a6ebb609ae58160a1c77aed1ca85cf5b155646899c355ca7e8d30",
+  "cae_task_id": "a16796fd-775b-405c-b104-34cc8700c61f",
+  "cae_agent_id": "CAE:cae-codex-run051-20261026",
+  "cae_session_id": "3253017b-47a9-4513-a878-56c287b8d9ab",
+  "numeric_controls_unchanged_from_D01": true,
+  "resources": {
+    "cpus": 14,
+    "gpus": 0,
+    "run_datacheck": true,
+    "run_full": true,
+    "automatic_retries": 0
+  },
+  "order": [
+    "SPIO_R051_H01_LOW",
+    "SPIO_R051_H02_HIGH"
+  ],
+  "points": [
+    {
+      "candidate_id": "H01",
+      "job_name": "SPIO_R051_H01_LOW",
+      "inp_path": "run/run_051/artifacts/candidates/SPIO_R051_H01_LOW/SPIO_R051_H01_LOW.inp",
+      "inp_absolute_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_051\\artifacts\\candidates\\SPIO_R051_H01_LOW\\SPIO_R051_H01_LOW.inp",
+      "inp_sha256": "da074a4591c429a572cf8f5844bef844674f464fc13a52014fe5977250c33cf8",
+      "working_dir": "run/run_051/artifacts/solver/SPIO_R051_H01_LOW",
+      "working_dir_absolute": "E:\\Projects\\SMALL-PUNCH\\run\\run_051\\artifacts\\solver\\SPIO_R051_H01_LOW",
+      "expected_odb": "run/run_051/artifacts/solver/SPIO_R051_H01_LOW/SPIO_R051_H01_LOW.odb",
+      "post_transition_hardening_multiplier": 0.5,
+      "table_rows": 82,
+      "queue_id": null,
+      "solver_attempts": 0
+    },
+    {
+      "candidate_id": "H02",
+      "job_name": "SPIO_R051_H02_HIGH",
+      "inp_path": "run/run_051/artifacts/candidates/SPIO_R051_H02_HIGH/SPIO_R051_H02_HIGH.inp",
+      "inp_absolute_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_051\\artifacts\\candidates\\SPIO_R051_H02_HIGH\\SPIO_R051_H02_HIGH.inp",
+      "inp_sha256": "f0cebe1bc9242c9d26991a91671f797933e66d052376846f21f7ed0894fd053f",
+      "working_dir": "run/run_051/artifacts/solver/SPIO_R051_H02_HIGH",
+      "working_dir_absolute": "E:\\Projects\\SMALL-PUNCH\\run\\run_051\\artifacts\\solver\\SPIO_R051_H02_HIGH",
+      "expected_odb": "run/run_051/artifacts/solver/SPIO_R051_H02_HIGH/SPIO_R051_H02_HIGH.odb",
+      "post_transition_hardening_multiplier": 1.5,
+      "table_rows": 82,
+      "queue_id": null,
+      "solver_attempts": 0
+    }
+  ]
+}

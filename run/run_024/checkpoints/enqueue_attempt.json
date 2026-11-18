@@ -1,0 +1,7 @@
+{
+  "at": "2026-10-24T16:20:26.018389+08:00",
+  "attempt": 1,
+  "request_sha256": "4d8c00566c3200c21f8f92e2113271562fe93bd2594db94402aec452ce273844",
+  "retry_forbidden": true,
+  "unknown_outcome_requires_readonly_reconciliation": true
+}

@@ -1,0 +1,175 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_042",
+  "stage": "Pilot batch actual results analysis",
+  "objective": "Audit eight real Jobs, real ODB extraction, frozen Loss and BO/DE comparison",
+  "status": "WARNING",
+  "start_time": "2026-10-25T23:32:33.503938+08:00",
+  "end_time": "2026-10-25T23:47:18.666639+08:00",
+  "git_branch": "main",
+  "git_head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+  "git": {
+    "branch": "main",
+    "head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+    "remote": "origin\thttps://github.com/SHUAIXSYU/SMALL-PUNCH.git (fetch)\norigin\thttps://github.com/SHUAIXSYU/SMALL-PUNCH.git (push)",
+    "working_tree": "M agenthub_sp_invopt/abqjobpilot_project/project.db\n M run/README.md\n M status/PROJECT_STATUS.md\n?? run/run_019/\n?? run/run_020/\n?? run/run_021/\n?? run/run_022/\n?? run/run_023/\n?? run/run_024/\n?? run/run_025/\n?? run/run_026/\n?? run/run_027/\n?? run/run_028/\n?? run/run_029/\n?? run/run_030/\n?? run/run_031/\n?? run/run_032/\n?? run/run_033/\n?? run/run_034/\n?? run/run_035/\n?? run/run_036/\n?? run/run_037/\n?? run/run_038/\n?? run/run_039/\n?? run/run_040/\n?? run/run_041/\n?? run/run_042/"
+  },
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "inputs": [
+    {
+      "path": "run/run_040/artifacts/private/candidate_manifest.json",
+      "sha256": "692c3215c974b35ea1c816b86520f2c183241504c8bd2e0b111cda44bb2d502b",
+      "role": "frozen candidates"
+    },
+    {
+      "path": "run/run_041/artifacts/private/queue_manifest.json",
+      "sha256": "da5111d5d9e360660524338f163ef516782d710abb8aa62d95790613740135ae",
+      "role": "queue identities"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_042/artifacts/private/execution_audit.json",
+      "sha256": "bc918f54237ec41512126e896b2448c1d85ef69ed5eebf9fbf514fc09945e1f8"
+    },
+    {
+      "path": "run/run_042/artifacts/private/odb_receipt.json",
+      "sha256": "e73dfb6ceb86573f482ae7b81fd7285a497b91310729c896b1520788811a7df0"
+    },
+    {
+      "path": "run/run_042/artifacts/private/odb/manifest.json",
+      "sha256": "094873dbf236755ffa6a3cd844afc52aa290f4582175a306281527a0c2e7ddf7"
+    },
+    {
+      "path": "run/run_042/artifacts/private/odb/batch_summary.json",
+      "sha256": "46032a8262693743983a5b0f4e73da220e0d16524db16c82928572b1a9ed1f1b"
+    },
+    {
+      "path": "run/run_042/artifacts/private/odb/batch_results.csv",
+      "sha256": "b481783208dba7864bd531a1bdae1216eef27eb0bdbe2e0b7214208d36531bec"
+    },
+    {
+      "path": "run/run_042/artifacts/private/odb/REPORT.md",
+      "sha256": "a9867679373e6fb7d0b3693a65d309befecd46dffb623373270b4eae527bceb8"
+    },
+    {
+      "path": "run/run_042/artifacts/main_analysis.py",
+      "sha256": "3a8ac74cbb77be4a1ca986003c6e2310b679548a9ec791117bbe699c74fb5547"
+    },
+    {
+      "path": "run/run_042/artifacts/audit_dispatch.py",
+      "sha256": "05c4442ac571756d5dc8017db1c8771b0c33fa95e0724c7d00e13ada3a06fab7"
+    },
+    {
+      "path": "run/run_042/artifacts/finalize_run.py",
+      "sha256": "00ebc04632addb657d3fc2391639f254fbb087199d5b683cc31d79e5ccc3e610"
+    },
+    {
+      "path": "run/run_042/summary.md",
+      "sha256": "6afb38b31ac2e16ac04ad8f3168e2d75fdab17c07a99b3cfd70d6f7531b981f4"
+    },
+    {
+      "path": "run/run_042/artifacts/private/main/best_fd_comparison.png",
+      "sha256": "8f5109bd191e71485e06ed77e9fcf3615af201d2a3897622af3768fddc2035ff"
+    },
+    {
+      "path": "run/run_042/artifacts/private/main/budget_actual.json",
+      "sha256": "a7065c77fb27f9fbd62e22f63b9995795adecaf80d17ec7e54bfe2a9721a87a2"
+    },
+    {
+      "path": "run/run_042/artifacts/private/main/combined_valid.csv",
+      "sha256": "2f3e166f1d65620918f5eee1c28a3c4284b4a1db6a552b0fde823e626db19c76"
+    },
+    {
+      "path": "run/run_042/artifacts/private/main/eight_results.csv",
+      "sha256": "f2f044fc3f3b5d62678c0cbf2c1b7cfada1ccf702ad859c1ed4a5c4cbe82a048"
+    },
+    {
+      "path": "run/run_042/artifacts/private/main/loss_budget.csv",
+      "sha256": "2e19c0aeaea8d007369fe558617b24ffc971f260a510635f8928ab59b6806044"
+    },
+    {
+      "path": "run/run_042/artifacts/private/main/loss_budget_and_cost.png",
+      "sha256": "638c9f871c13a6d20d34eb1bff31c197f26fae2ca194de21e12cfa0443d1a739"
+    },
+    {
+      "path": "run/run_042/artifacts/private/main/main_analysis.json",
+      "sha256": "001d6006493c2184e3d355bf86acd3b0a113d34a94607a3150bf4a0f9f4381fb"
+    },
+    {
+      "path": "run/run_042/artifacts/private/main/parameter_loss_scatter.png",
+      "sha256": "278f016e9420ea4ac2522b54b865df2e0592f160207ebbb5ac281f847360c9b7"
+    },
+    {
+      "path": "run/run_042/artifacts/private/main/predicted_constitutive_curves.csv",
+      "sha256": "b628804eb6f95c8eaa127d74530d350fa7171adceedf5fa8a52ffd2bdf3658b8"
+    },
+    {
+      "path": "run/run_042/artifacts/private/main/predicted_constitutive_curves.png",
+      "sha256": "e33eeabebb8a746f3524eae9cd45a52def4aacb92ed0e2b2e309d78cfe98fbf4"
+    },
+    {
+      "path": "run/run_042/artifacts/private/main/predicted_constitutive_provenance.json",
+      "sha256": "3354f89366fbed8d91235b78142c34ae7890693d2afd48b287c0f4dafe40b54d"
+    },
+    {
+      "path": "run/run_042/artifacts/private/main/REPORT.md",
+      "sha256": "104856a845eeded265a3cbe57240df0a345e69d4f2185bf7178ef72694cf2178"
+    },
+    {
+      "path": "run/run_042/artifacts/private/main/research_decision.json",
+      "sha256": "f61cedcfc25c191763b3ebbfaa552b0a63108a9fb469bda9c4dcd2c0250342aa"
+    },
+    {
+      "path": "run/run_042/artifacts/private/main/validity_and_best_new_loss.png",
+      "sha256": "6c9b47fb85f52c7512adc552a676dcce9d8b891cc2e8490aebf42e2c9de45b90"
+    },
+    {
+      "path": "run/run_042/artifacts/private/main/evidence_manifest.json",
+      "sha256": "0084801cb411b5bb58863a7a824edcd434abb9a397c535c29d966d5fe3d56985"
+    }
+  ],
+  "validation": [
+    {
+      "check": "actual_public_execution_identity",
+      "status": "PASS",
+      "evidence": "8 single attempts, successful Datacheck/Full logs and History; full hashes"
+    },
+    {
+      "check": "real_ODB_AgentHub_handoff",
+      "status": "PASS",
+      "evidence": "separate ODB session completed; MAIN message received; 145 file hashes verified"
+    },
+    {
+      "check": "frozen_Loss_independent_recalculation",
+      "status": "PASS",
+      "evidence": "5 new and 19 initial valid curves independently interpolated, fixed 241 points"
+    },
+    {
+      "check": "numerical_scoreability",
+      "status": "WARNING",
+      "evidence": "BO01/BO02/DE02 null; accepted-state warning/force-drop evidence retained"
+    },
+    {
+      "check": "algorithm_comparison_scope",
+      "status": "WARNING",
+      "evidence": "single batch BO and DE half-generation, neither improves D01"
+    },
+    {
+      "check": "GP_diagnostics",
+      "status": "WARNING",
+      "evidence": "BO length/noise bounds persist; branch-only future diagnostic, original model unchanged"
+    },
+    {
+      "check": "AgentHub_budget_and_chain",
+      "status": "PASS",
+      "evidence": "8 started attempts consumed, no retry; chain verified"
+    },
+    {
+      "check": "execution_boundary_and_holdout",
+      "status": "PASS",
+      "evidence": "no new Solver/Datacheck/enqueue; sealed tensile not accessed"
+    }
+  ],
+  "errors": []
+}

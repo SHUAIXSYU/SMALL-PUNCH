@@ -1,0 +1,76 @@
+{
+  "at": "2026-10-26T16:37:46.315001+08:00",
+  "files": [
+    {
+      "path": "run/run_046/artifacts/freeze_receipt.json",
+      "sha256": "b0c6e69ce410c607efa7ebc65214a05a7676c956d739dd753d33903c01c17c9a",
+      "private": false
+    },
+    {
+      "path": "run/run_046/artifacts/private/SP_InvOpt_run046_frozen_candidates.zip",
+      "sha256": "d439ef3ae696d9711aa3a3d4fa989f61710adf3cd9a73c9935b9432131dddc3a",
+      "private": true
+    },
+    {
+      "path": "run/run_046/artifacts/private/freeze/frozen_manifest.json",
+      "sha256": "fcc5d48aee897c6a9324680977b1f405b7b817f52bea9f83c5fc5bec5e72c761",
+      "private": true
+    },
+    {
+      "path": "run/run_046/artifacts/private/freeze/frozen_inversion_results.json",
+      "sha256": "1a514c2a01e2895e119997c9ec35775ca63c881f888993026a3d2f33d47d603c",
+      "private": true
+    },
+    {
+      "path": "run/run_046/artifacts/private/freeze/independent_validation_protocol.json",
+      "sha256": "31a013fbd99532f2742136b79b2fce0b42a22585512ab947a5f172401fcdff65",
+      "private": true
+    },
+    {
+      "path": "run/run_046/artifacts/private/freeze/independent_validation_protocol.md",
+      "sha256": "a3d2b6dc71cbfefe91faf8a977b327fe91d7c1721294c57adf1b0f35e329c9af",
+      "private": true
+    },
+    {
+      "path": "run/run_046/artifacts/private/freeze/candidate_constitutive_comparison.png",
+      "sha256": "fd8aa72c48292167b93e00b2de7f3076297b47ba5012a739b3ff008e69b43762",
+      "private": true
+    },
+    {
+      "path": "run/run_046/artifacts/private/validation_tests.json",
+      "sha256": "811aa03482bd2cbc8d4fd96fe56c902c84da151b4ffe66ab5c6a6e87b8b15c64",
+      "private": true
+    },
+    {
+      "path": "run/run_046/artifacts/private/readiness_checklist.json",
+      "sha256": "1e5b0d7d64fbfcf33ea7aafd790e32f89480830941d6d7662cb387e418c6dada",
+      "private": true
+    },
+    {
+      "path": "run/run_046/artifacts/freeze_candidates.py",
+      "sha256": "95b1442d897fb0b8bcc74956701bb548c1420b4186d311ffdeb3d2ea376de67b",
+      "private": false
+    },
+    {
+      "path": "run/run_046/artifacts/validation_metrics.py",
+      "sha256": "9e011738e543bdeaf13c260e64a843bbbb4bf2af012d6e21d10544fff92f3678",
+      "private": false
+    },
+    {
+      "path": "run/run_046/artifacts/test_validation_metrics.py",
+      "sha256": "6896eba8a949e0f32530ecd97e5395e39eb9567dd2ee06aeae719f194c83ce0a",
+      "private": false
+    },
+    {
+      "path": "run/run_046/artifacts/seal_freeze.py",
+      "sha256": "91de0499300d192aeb6cdb6709f847728cdf7bd6726f001f15d64debcad5ba86",
+      "private": false
+    },
+    {
+      "path": "run/run_046/summary.md",
+      "sha256": "69d2a0f56d25d2a15d7e46f1357907cb0c94e98f4eb89fd12769c45270b10ebf",
+      "private": false
+    }
+  ],
+  "freeze_state": "FROZEN_AWAITING_EXPLICIT_UNBLIND_AUTHORIZATION"
+}

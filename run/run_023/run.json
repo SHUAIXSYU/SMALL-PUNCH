@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_023",
+  "stage": "Numerical audit and two-input preparation completed",
+  "objective": "Existing-result numerical audit and two increment-control validation inputs; preview only",
+  "status": "WARNING",
+  "start_time": "2026-10-24T15:54:39.876593+08:00",
+  "end_time": "2026-10-24T16:04:44.847357+08:00",
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "git_head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+  "git_branch": "main",
+  "inputs": [
+    {
+      "path": "run/run_022/run.json",
+      "role": "Prior actual results"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_023/summary.md",
+      "role": "Scope summary"
+    },
+    {
+      "path": "run/run_023/artifacts/prepared_batch.json",
+      "role": "Two frozen preview-ready inputs"
+    },
+    {
+      "path": "run/run_023/artifacts/private/main_report.md",
+      "role": "Private scientific review"
+    },
+    {
+      "path": "run/run_023/artifacts/comparison_contract_identity.json",
+      "role": "Prespecified numerical qualification gates"
+    },
+    {
+      "path": "run/run_023/artifacts/private/main_agent_acceptance.json",
+      "role": "Real CAE and ODB handoff evidence"
+    }
+  ],
+  "validation": [
+    {
+      "check": "real_sessions",
+      "status": "PASS",
+      "scope": "Both formal tasks completed; task-scoped artifacts/messages verified"
+    },
+    {
+      "check": "input_identity",
+      "status": "PASS",
+      "scope": "Only Static data line changed; source/table/all other bytes unchanged"
+    },
+    {
+      "check": "preview",
+      "status": "PASS",
+      "scope": "Two PREVIEW_READY/DRY_RUN_READY; no mutations"
+    },
+    {
+      "check": "comparison_tests",
+      "status": "PASS",
+      "scope": "12 synthetic tests; 2 actual baseline identity comparisons, not new FE"
+    },
+    {
+      "check": "source_integrity",
+      "status": "PASS",
+      "scope": "Actual historical ODB/log/INP/FD hashes unchanged"
+    },
+    {
+      "check": "privacy",
+      "status": "PASS",
+      "scope": "New scientific outputs ignored; sealed inputs not accessed"
+    },
+    {
+      "check": "visual_review",
+      "status": "PASS",
+      "scope": "Main overview and ODB event map reviewed"
+    },
+    {
+      "check": "numerical_qualification",
+      "status": "WARNING",
+      "scope": "Prepared only; new two-job results do not exist"
+    }
+  ],
+  "errors": [
+    {
+      "code": "COORDINATION_ARGUMENT_TYPE",
+      "severity": "INFO",
+      "message": "Initial claim received create_task dict instead of task_id; binding failed before claim",
+      "evidence": "run/run_023/artifacts/private/bootstrap_attempt01.txt",
+      "resolution": "Fixed adapter; idempotent existing MAIN task reused; no external execution"
+    }
+  ]
+}

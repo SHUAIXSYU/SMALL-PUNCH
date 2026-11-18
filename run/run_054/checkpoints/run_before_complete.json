@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_054",
+  "stage": "Offline constitutive sensitivity and confounding",
+  "objective": "Audit same-point comparability, high-strain alpha secants, exploratory cross-experiment shapes, frozen experimental residuals; no FE",
+  "status": "RUNNING",
+  "start_time": "2026-10-26T23:40:17.526987+08:00",
+  "end_time": null,
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "git_branch": "main",
+  "git_head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+  "inputs": [],
+  "outputs": [],
+  "validation": [],
+  "errors": []
+}

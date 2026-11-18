@@ -1,0 +1,152 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_046",
+  "stage": "Exploratory candidate constitutive freeze and independent validation preparation",
+  "objective": "freeze two SPT candidates and prospective independent validation protocol; no holdout access, FE, optimizer, or unblinding",
+  "status": "WARNING",
+  "start_time": "2026-10-26T16:34:52.874067+08:00",
+  "end_time": "2026-10-26T16:37:46.270140+08:00",
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "git_branch": "main",
+  "git_head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+  "inputs": [
+    {
+      "path": "run/run_039/summary.md",
+      "sha256": "cc8933e100cfe6a11b8361ea71a70da7fe41e3138599874cdc18aeff031d17d6",
+      "role": "allowed frozen evidence"
+    },
+    {
+      "path": "run/run_043/summary.md",
+      "sha256": "a786e654f87fd9027cabeff594c38bac68458b8b372c5874753c80f764afaf63",
+      "role": "allowed frozen evidence"
+    },
+    {
+      "path": "run/run_045/summary.md",
+      "sha256": "ed33063b619e2574a39734c1c45bbfdd657f122bcc2cd8c323e4b4c7d2838e0b",
+      "role": "allowed frozen evidence"
+    },
+    {
+      "path": "run/run_045/artifacts/private/main/analysis.json",
+      "sha256": "d249896f77b48fab369d5e14972b41559b06c18fb80b45fd651f0d890f7ee664",
+      "role": "allowed frozen evidence"
+    },
+    {
+      "path": "inverse/hollomon.py",
+      "sha256": "d937664f7fc7f845a9ed7a75a004275bf38d11a1b3f68975a05961adb9b16363",
+      "role": "allowed frozen evidence"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_046/artifacts/freeze_receipt.json",
+      "role": "frozen evidence",
+      "sha256": "b0c6e69ce410c607efa7ebc65214a05a7676c956d739dd753d33903c01c17c9a"
+    },
+    {
+      "path": "run/run_046/artifacts/private/SP_InvOpt_run046_frozen_candidates.zip",
+      "role": "frozen evidence",
+      "sha256": "d439ef3ae696d9711aa3a3d4fa989f61710adf3cd9a73c9935b9432131dddc3a"
+    },
+    {
+      "path": "run/run_046/artifacts/private/freeze/frozen_manifest.json",
+      "role": "frozen evidence",
+      "sha256": "fcc5d48aee897c6a9324680977b1f405b7b817f52bea9f83c5fc5bec5e72c761"
+    },
+    {
+      "path": "run/run_046/artifacts/private/freeze/frozen_inversion_results.json",
+      "role": "frozen evidence",
+      "sha256": "1a514c2a01e2895e119997c9ec35775ca63c881f888993026a3d2f33d47d603c"
+    },
+    {
+      "path": "run/run_046/artifacts/private/freeze/independent_validation_protocol.json",
+      "role": "frozen evidence",
+      "sha256": "31a013fbd99532f2742136b79b2fce0b42a22585512ab947a5f172401fcdff65"
+    },
+    {
+      "path": "run/run_046/artifacts/private/freeze/independent_validation_protocol.md",
+      "role": "frozen evidence",
+      "sha256": "a3d2b6dc71cbfefe91faf8a977b327fe91d7c1721294c57adf1b0f35e329c9af"
+    },
+    {
+      "path": "run/run_046/artifacts/private/freeze/candidate_constitutive_comparison.png",
+      "role": "frozen evidence",
+      "sha256": "fd8aa72c48292167b93e00b2de7f3076297b47ba5012a739b3ff008e69b43762"
+    },
+    {
+      "path": "run/run_046/artifacts/private/validation_tests.json",
+      "role": "frozen evidence",
+      "sha256": "811aa03482bd2cbc8d4fd96fe56c902c84da151b4ffe66ab5c6a6e87b8b15c64"
+    },
+    {
+      "path": "run/run_046/artifacts/private/readiness_checklist.json",
+      "role": "frozen evidence",
+      "sha256": "1e5b0d7d64fbfcf33ea7aafd790e32f89480830941d6d7662cb387e418c6dada"
+    },
+    {
+      "path": "run/run_046/artifacts/freeze_candidates.py",
+      "role": "frozen evidence",
+      "sha256": "95b1442d897fb0b8bcc74956701bb548c1420b4186d311ffdeb3d2ea376de67b"
+    },
+    {
+      "path": "run/run_046/artifacts/validation_metrics.py",
+      "role": "frozen evidence",
+      "sha256": "9e011738e543bdeaf13c260e64a843bbbb4bf2af012d6e21d10544fff92f3678"
+    },
+    {
+      "path": "run/run_046/artifacts/test_validation_metrics.py",
+      "role": "frozen evidence",
+      "sha256": "6896eba8a949e0f32530ecd97e5395e39eb9567dd2ee06aeae719f194c83ce0a"
+    },
+    {
+      "path": "run/run_046/artifacts/seal_freeze.py",
+      "role": "frozen evidence",
+      "sha256": "91de0499300d192aeb6cdb6709f847728cdf7bd6726f001f15d64debcad5ba86"
+    },
+    {
+      "path": "run/run_046/summary.md",
+      "role": "frozen evidence",
+      "sha256": "69d2a0f56d25d2a15d7e46f1357907cb0c94e98f4eb89fd12769c45270b10ebf"
+    }
+  ],
+  "validation": [
+    {
+      "check": "two_candidate_curve_and_material_table_identity",
+      "status": "PASS",
+      "evidence": "10803 samples each; exact51/40 deployed rows"
+    },
+    {
+      "check": "synthetic_validation_metrics_tests",
+      "status": "PASS",
+      "evidence": "11 tests, no experimental holdout read"
+    },
+    {
+      "check": "frozen_package_hashes",
+      "status": "PASS",
+      "evidence": "run/run_046/artifacts/freeze_receipt.json"
+    },
+    {
+      "check": "ready_to_request_unblinding",
+      "status": "PASS",
+      "scope": "preregistered comparison permission only, no access yet"
+    },
+    {
+      "check": "independent_same_material_validation",
+      "status": "WARNING",
+      "scope": "material state/definitions/uniformity and untouched reviewer not confirmed; no physical PASS threshold"
+    },
+    {
+      "check": "historical_exposure_and_attempt_cost",
+      "status": "WARNING",
+      "scope": "history retained; unknown totals not fabricated"
+    }
+  ],
+  "errors": [
+    {
+      "code": "READONLY_DIAGNOSTIC_DEFAULT_ENCODING",
+      "severity": "INFO",
+      "message": "One display-only read used Windows GBK and failed; repeated with explicit UTF-8 successfully, no data changes",
+      "resolution": "UTF-8 retained for all frozen artifacts"
+    }
+  ],
+  "decision": "FROZEN_AWAITING_EXPLICIT_UNBLIND_AUTHORIZATION"
+}

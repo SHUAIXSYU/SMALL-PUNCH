@@ -1,0 +1,45 @@
+{
+  "output_run": "run_045",
+  "task_id": "03da9d1b-cda6-4fee-864f-b88952b7d8d5",
+  "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+  "audit_path": "run/run_045/artifacts/private/execution_audit.json",
+  "audit_sha256": "6dc2de30bdbc9d3ffff607805e52427dc826b05bc7299bd1b688cc8f62664dd3",
+  "output_directory": "run/run_045/artifacts/private/odb",
+  "numeric_version": "run043-standard-m00125-pending-v1",
+  "loss_version": "run017-exploratory-fd-v1",
+  "comparison_contract_path": "run/run_043/artifacts/comparison_contract.json",
+  "comparison_contract_sha256": "a088db67b56214aa469d0efb7bce8cffb20af3d7291f93e4a8223cbbe751099d",
+  "jobs": [
+    {
+      "candidate_id": "D01",
+      "job_name": "SPIO_R043_V_D01_M00125",
+      "queue_id": "q_dd23233452c544469eaebaff3fec2d8b",
+      "inp_path": "run/run_043/artifacts/candidates/SPIO_R043_V_D01_M00125/SPIO_R043_V_D01_M00125.inp",
+      "inp_sha256": "13e48fb2501a930f323b391c03e5f4e9ee6c3881959a837ca22cf94aab8939ca",
+      "working_dir": "run/run_043/artifacts/solver/SPIO_R043_V_D01_M00125",
+      "odb_path": "run/run_043/artifacts/solver/SPIO_R043_V_D01_M00125/SPIO_R043_V_D01_M00125.odb",
+      "odb_sha256": "f857629c1f4d06e30e2019fca91cb0c96fc91f1ebc8f68a2740ca7bdcd239472",
+      "read_safe": true
+    },
+    {
+      "candidate_id": "I08",
+      "job_name": "SPIO_R043_V_I08_M00125",
+      "queue_id": "q_e75bdad8123746279485618a7d6f32c9",
+      "inp_path": "run/run_043/artifacts/candidates/SPIO_R043_V_I08_M00125/SPIO_R043_V_I08_M00125.inp",
+      "inp_sha256": "8b42fa6d30c4c3a7c47c3b732aafcd1fbd37b6588dfe5dff6b5a5aec7f647944",
+      "working_dir": "run/run_043/artifacts/solver/SPIO_R043_V_I08_M00125",
+      "odb_path": "run/run_043/artifacts/solver/SPIO_R043_V_I08_M00125/SPIO_R043_V_I08_M00125.odb",
+      "odb_sha256": "882892f817e97ad869f35c9a7f4cd52d5b09e218fff037a89fbc10a08147f496",
+      "read_safe": true
+    }
+  ],
+  "rules": {
+    "read_only": true,
+    "no_solver_datacheck_enqueue_retry": true,
+    "holdout_access": false,
+    "no_smoothing_zero_shift_crop_extrapolate": true,
+    "null_for_unscoreable": true,
+    "accepted_vs_rejected_warnings_separate": true,
+    "main_independent_review": true
+  }
+}

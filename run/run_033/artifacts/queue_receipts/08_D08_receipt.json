@@ -1,0 +1,68 @@
+{
+  "at": "2026-10-24T19:17:21.686442+08:00",
+  "status": "QUEUED_AWAITING_MANUAL_BATCH_START",
+  "position": 8,
+  "point_id": "D08",
+  "job_name": "SPIO_R033_D08_L",
+  "queue_id": "q_4f19de5667ae4375b380aaf3d37adf5b",
+  "task_id": "b11e809a-5a8a-4dd3-8484-f241d00e1ea2",
+  "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+  "inp_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_033\\artifacts\\candidates\\SPIO_R033_D08_L\\SPIO_R033_D08_L.inp",
+  "inp_sha256": "00f5bb177c20f73853ba60e8158d96e9d60691c0b8194b5c1680eb92066d3e5e",
+  "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_033\\artifacts\\solver\\SPIO_R033_D08_L",
+  "sigma_y_mpa": 350.49976894569807,
+  "n": 0.12354024899601936,
+  "cpus": 14,
+  "gpus": 0,
+  "run_datacheck": true,
+  "run_full": true,
+  "automatic_retries": 0,
+  "solver_started": false,
+  "datacheck_started": false,
+  "api_status": {
+    "status": "QUEUED",
+    "job_id": "q_4f19de5667ae4375b380aaf3d37adf5b",
+    "inp_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_033\\artifacts\\candidates\\SPIO_R033_D08_L\\SPIO_R033_D08_L.inp",
+    "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_033\\artifacts\\solver\\SPIO_R033_D08_L",
+    "expected_odb_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_033\\artifacts\\solver\\SPIO_R033_D08_L\\SPIO_R033_D08_L.odb",
+    "odb_exists": false,
+    "lock_exists": false,
+    "status_sources": [
+      "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime\\queue.json"
+    ],
+    "last_log_lines": [],
+    "errors": [],
+    "warnings": [],
+    "schema_version": "1.0",
+    "error_details": []
+  },
+  "api_outputs": {
+    "job_id": "q_4f19de5667ae4375b380aaf3d37adf5b",
+    "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_033\\artifacts\\solver\\SPIO_R033_D08_L",
+    "expected_odb_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_033\\artifacts\\solver\\SPIO_R033_D08_L\\SPIO_R033_D08_L.odb",
+    "odb_exists": false,
+    "lock_exists": false,
+    "log_paths": [
+      "E:\\Projects\\SMALL-PUNCH\\run\\run_033\\artifacts\\solver\\SPIO_R033_D08_L\\SPIO_R033_D08_L.log",
+      "E:\\Projects\\SMALL-PUNCH\\run\\run_033\\artifacts\\solver\\SPIO_R033_D08_L\\SPIO_R033_D08_L.sta",
+      "E:\\Projects\\SMALL-PUNCH\\run\\run_033\\artifacts\\solver\\SPIO_R033_D08_L\\SPIO_R033_D08_L.msg",
+      "E:\\Projects\\SMALL-PUNCH\\run\\run_033\\artifacts\\solver\\SPIO_R033_D08_L\\SPIO_R033_D08_L.dat"
+    ],
+    "sta_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_033\\artifacts\\solver\\SPIO_R033_D08_L\\SPIO_R033_D08_L.sta",
+    "msg_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_033\\artifacts\\solver\\SPIO_R033_D08_L\\SPIO_R033_D08_L.msg",
+    "dat_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_033\\artifacts\\solver\\SPIO_R033_D08_L\\SPIO_R033_D08_L.dat",
+    "lck_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_033\\artifacts\\solver\\SPIO_R033_D08_L\\SPIO_R033_D08_L.lck",
+    "path_sources": {
+      "odb_path": "recorded",
+      "sta_path": "recorded",
+      "msg_path": "recorded",
+      "dat_path": "recorded",
+      "log_path": "recorded",
+      "lck_path": "expected"
+    },
+    "errors": [],
+    "warnings": [],
+    "schema_version": "1.0",
+    "error_details": []
+  }
+}

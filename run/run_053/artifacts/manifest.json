@@ -1,0 +1,46 @@
+{
+  "run": "run_053",
+  "report_path": "run/run_053/artifacts/private/scientific_report.md",
+  "report_sha256": "bba1111e87b75ab6125c8abdb39682954d2a3818f04cb671b82670246913016f",
+  "private_evidence_manifest": "run/run_053/artifacts/private/evidence_manifest.json",
+  "private_evidence_sha256": "a889bfc32c385f2a79a47bf9ecb7fd53cdedb71323fdd5b2b3703f9c3b6ced85",
+  "analysis_code": [
+    {
+      "path": "run/run_053/artifacts/audit_dispatch.py",
+      "sha256": "79a2d97f184d66933daebcf00808ae0da80ca3c727b394e8394a3bf3e3afaef9"
+    },
+    {
+      "path": "run/run_053/artifacts/check_D01_reference.py",
+      "sha256": "c8355b1877d9d127bd5f9bfe582f350b1f1cf21aff861737602dea1274aa5a76"
+    },
+    {
+      "path": "run/run_053/artifacts/finalize_scientific_review.py",
+      "sha256": "94463c9e271e231651248631391bb146af4c4a72dfe1ec79c890facc7d80744a"
+    },
+    {
+      "path": "run/run_053/artifacts/main_contact_context.py",
+      "sha256": "43efd2fdd47bb69edf2b76a80e8ec41ece83ec1f2bc907b272d0f823d3c87a4b"
+    },
+    {
+      "path": "run/run_053/artifacts/main_fd_analysis.py",
+      "sha256": "b72cabcdf75c600e97f94f5bf484cbc83b3abec26e4a276f0f0a0449c526803d"
+    },
+    {
+      "path": "run/run_053/artifacts/main_numeric_audit.py",
+      "sha256": "515b5989bdf2d811aed06484d0b8e552481da4b85fb70b7c5f4ed67d6fce4c4b"
+    },
+    {
+      "path": "run/run_053/artifacts/main_spatial_energy_check.py",
+      "sha256": "772ecddd838b0032480f5d520535e1659a2f0d01a3b2892d93366d58ee892455"
+    },
+    {
+      "path": "run/run_053/artifacts/sensitivity_metrics.py",
+      "sha256": "834482581916d088c24809e618f202900328dc4583b7ddea881f402ec1f39cad"
+    },
+    {
+      "path": "run/run_053/artifacts/test_sensitivity_metrics.py",
+      "sha256": "f40ba5d550fdf0b175694f98f0a8d9f63e4de4b926f47c56d6816e02e3785ef7"
+    }
+  ],
+  "no_large_source_models_copied": true
+}

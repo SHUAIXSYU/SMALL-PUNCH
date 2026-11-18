@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_058",
+  "stage": "Four-point prospective identification authorized queue-only handoff",
+  "objective": "verify frozen identities/predictors, register four-attempt authorization, enqueue P01-P04 only, stop before user GUI start",
+  "status": "RUNNING",
+  "start_time": "2026-10-27T21:15:41.067368+08:00",
+  "end_time": null,
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "git_branch": "main",
+  "git_head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+  "inputs": [
+    {
+      "path": "run/run_057/artifacts/prepared_batch.json",
+      "role": "frozen run057 manifest",
+      "sha256": "9017ada8c03afff78b0e0c89e0ba51c35a9ec0b21c27a4b3a90506c7ac310705"
+    }
+  ],
+  "outputs": [],
+  "validation": [],
+  "errors": []
+}

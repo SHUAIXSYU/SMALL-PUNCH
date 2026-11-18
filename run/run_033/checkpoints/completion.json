@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-24T19:18:28.832781+08:00",
+  "run_id": "run_033",
+  "status": "WARNING",
+  "stop_state": "TWENTY_JOBS_QUEUED_AWAITING_MANUAL_START",
+  "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+  "prepared_batch_sha256": "f174ed05d0c700f346282cbcd9571749febaf332fdba100c1b60779d1bb33d7b",
+  "queue_manifest_sha256": "d4d14af7dde5dab818135f8170d3079d844cb6c40f488cb83e39cc01d72bd65a",
+  "queue_count": 20,
+  "solver_started": false,
+  "agenthub_chain_valid": true,
+  "summary_sha256": "236a23c31fcb5241e68289e5755dd21599dfc114e39469efd9c9fac77bfbe807",
+  "run_json_sha256": "aeae793d9b4a3608541b953338b144f95dc4c678c4577e4c140d930c64de16fd",
+  "sealed_tensile_accessed": false
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_051",
+  "stage": "Exploratory high-strain hardening envelope preparation",
+  "objective": "D01 low-strain-preserving H01/H02, energy-basis audit, material tests, real CAE preparation and public preflight/dry-run",
+  "status": "RUNNING",
+  "start_time": "2026-10-26T22:05:50.706969+08:00",
+  "end_time": null,
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "git_branch": "main",
+  "git_head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+  "inputs": [],
+  "outputs": [],
+  "validation": [],
+  "errors": []
+}

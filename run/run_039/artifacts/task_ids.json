@@ -1,0 +1,10 @@
+{
+  "odb_task_id": "4bb49a70-f8d1-4a08-93b2-8953e3e58cb4",
+  "main_task_id": "10531663-241c-48b9-a7d9-7162c10da6d4",
+  "audit_task_id": "cdec5a91-f08a-4dac-812b-e3050af6a49c",
+  "main_identity": {
+    "agent_id": "MAIN:codex-main-run039-doe-audit",
+    "session_id": "033e6518-d3af-4350-8cdc-027d7ce8ae28",
+    "role": "MAIN"
+  }
+}

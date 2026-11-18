@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_033",
+  "stage": "twenty-job batch DOE prepare and queue-only",
+  "objective": "I02 audit; freeze 14 new DOE; true CAE generation; preview and enqueue exactly 20; user GUI starts Runner",
+  "status": "WARNING",
+  "start_time": "2026-10-24T19:10:42.414088+08:00",
+  "end_time": "2026-10-24T19:18:28.794878+08:00",
+  "git": {
+    "branch": "main",
+    "head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+    "remote": "origin\thttps://github.com/SHUAIXSYU/SMALL-PUNCH.git (fetch)\norigin\thttps://github.com/SHUAIXSYU/SMALL-PUNCH.git (push)",
+    "working_tree": "M agenthub_sp_invopt/abqjobpilot_project/project.db\n M run/README.md\n M status/PROJECT_STATUS.md\n?? run/run_019/\n?? run/run_020/\n?? run/run_021/\n?? run/run_022/\n?? run/run_023/\n?? run/run_024/\n?? run/run_025/\n?? run/run_026/\n?? run/run_027/\n?? run/run_028/\n?? run/run_029/\n?? run/run_030/\n?? run/run_031/\n?? run/run_032/\n?? run/run_033/"
+  },
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "python_version": "3.11.13",
+  "inputs": [
+    {
+      "path": "run/run_030/artifacts/prepared_batch.json",
+      "sha256": "962f9fa56893451330ad3d99689c4be45bb753b7d1e4999d13f62f5cccdb31fa"
+    },
+    {
+      "path": "run/run_032/artifacts/i02_enqueue_result.json",
+      "sha256": "69193846bcc7a94ac6fe8245866172585925b14bedc831a0326d67f9c8054d5f"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_033/artifacts/private/i02_execution_audit.json",
+      "sha256": "4422b40401c442d57b01182ea0c63e0f06c4f8e1988cfc271ec0059eadb757d0"
+    },
+    {
+      "path": "run/run_033/artifacts/doe_design.json",
+      "sha256": "46f987ebec3a0f9b7d9ff4d107dd3f3ff167d0d8f5f68e676a3c7903dd62b6e6"
+    },
+    {
+      "path": "run/run_033/artifacts/cae_candidate_manifest.json",
+      "sha256": "5244aef714c5617c9387baf37f7a562a797657da43599ce49565acdae45965a4"
+    },
+    {
+      "path": "run/run_033/artifacts/cae_result.json",
+      "sha256": "71b16e3a0538fbe7d46984d22a2b3a6f6ba8f4383fbdb0207b6131e35a78146b"
+    },
+    {
+      "path": "run/run_033/artifacts/private/main_preflight.json",
+      "sha256": "bfe05913a70a0e284c5a9e0fc4de11ca1d8c6c053ad0dc836b3bc30de3ace1d3"
+    },
+    {
+      "path": "run/run_033/artifacts/prepared_batch.json",
+      "sha256": "f174ed05d0c700f346282cbcd9571749febaf332fdba100c1b60779d1bb33d7b"
+    },
+    {
+      "path": "run/run_033/artifacts/authorization_scope.json",
+      "sha256": "3821058839e811d4e19fb832da08c6fd1b3bcc350c8bc7566e330cdf622f7417"
+    },
+    {
+      "path": "run/run_033/artifacts/queue_manifest.json",
+      "sha256": "d4d14af7dde5dab818135f8170d3079d844cb6c40f488cb83e39cc01d72bd65a"
+    },
+    {
+      "path": "run/run_033/artifacts/private/final_public_readback.json",
+      "sha256": "721d8ff2f63bc80667fe70f6c9a929f6fa2b232e3ad8dcc5d45ca51c93c70964"
+    },
+    {
+      "path": "run/run_033/summary.md",
+      "sha256": "236a23c31fcb5241e68289e5755dd21599dfc114e39469efd9c9fac77bfbe807"
+    }
+  ],
+  "validation": [
+    {
+      "check": "I02_actual_execution_identity",
+      "status": "WARNING_PASS",
+      "scope": "One completed attempt; numerical warnings deferred"
+    },
+    {
+      "check": "DOE_pre_generation_freeze",
+      "status": "PASS",
+      "scope": "7 global + 7 local, fixed seeds, no parameter repeat"
+    },
+    {
+      "check": "real_CAE_AgentHub_delivery",
+      "status": "PASS",
+      "scope": "14 new INPs"
+    },
+    {
+      "check": "twenty_static_input_identity",
+      "status": "PASS",
+      "scope": "Material, nonmaterial, hashes and empty independent workdirs"
+    },
+    {
+      "check": "twenty_public_preflight_dry_run",
+      "status": "PASS",
+      "scope": "20/20 each, no queue mutation during preview"
+    },
+    {
+      "check": "twenty_queue_only_public_API",
+      "status": "PASS",
+      "scope": "20 unique queue IDs in frozen order"
+    },
+    {
+      "check": "no_solver_or_datacheck_start_by_Codex",
+      "status": "PASS",
+      "scope": "Queue remains QUEUED; workdirs empty"
+    },
+    {
+      "check": "automatic_batch_failure_stop",
+      "status": "WARNING",
+      "scope": "Unavailable; user explicitly accepted possible continuation"
+    }
+  ],
+  "errors": []
+}

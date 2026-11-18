@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_022",
+  "stage": "Completed local sensitivity analysis",
+  "objective": "Audit four existing jobs, real ODB handoff, frozen Loss and local identifiability",
+  "status": "WARNING",
+  "start_time": "2026-10-24T15:19:29.120647+08:00",
+  "end_time": "2026-10-24T15:48:18.938431+08:00",
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "git_head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+  "git_branch": "main",
+  "inputs": [
+    {
+      "path": "run/run_020/artifacts/prepared_batch.json",
+      "role": "Frozen four-point batch",
+      "sha256": "e538bc574a4c26be95ef36f89fc4c2aea12e70d09e9da0f8040bed394fa1e278"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_022/summary.md",
+      "role": "Public scope summary"
+    },
+    {
+      "path": "run/run_022/artifacts/private/main_report.md",
+      "role": "Private scientific review"
+    },
+    {
+      "path": "run/run_022/artifacts/private/analysis/loss_results.json",
+      "role": "Five frozen scores"
+    },
+    {
+      "path": "run/run_022/artifacts/private/analysis/sensitivity.json",
+      "role": "Local Jacobian diagnostics"
+    },
+    {
+      "path": "run/run_022/artifacts/private/main_odb_acceptance.json",
+      "role": "Real ODB task evidence acceptance"
+    }
+  ],
+  "validation": [
+    {
+      "check": "real_odb_handoff",
+      "status": "PASS",
+      "scope": "Two real tasks, source hashes and messages verified"
+    },
+    {
+      "check": "material_identity",
+      "status": "PASS",
+      "scope": "All four actual ODB tables match frozen INPs"
+    },
+    {
+      "check": "frozen_loss",
+      "status": "PASS",
+      "scope": "Exact config/source/code hashes; explicit MSE crosscheck"
+    },
+    {
+      "check": "local_math",
+      "status": "PASS",
+      "scope": "4 synthetic checks; real Gram/SVD crosscheck"
+    },
+    {
+      "check": "visual_review",
+      "status": "PASS",
+      "scope": "4 MAIN figures inspected"
+    }
+  ],
+  "errors": [
+    {
+      "code": "NUMERICAL_QUALITY_UNRESOLVED",
+      "severity": "WARNING",
+      "message": "Converged with warnings and curve jumps; FE error bound unavailable",
+      "evidence": "run/run_022/artifacts/private/main_report.md",
+      "resolution": "Recommend separately authorized numerical validation"
+    }
+  ],
+  "new_solver_by_codex": 0,
+  "new_enqueue": 0,
+  "observed_user_completed_jobs": 4,
+  "main_task_id": "26fdff23-4c71-42e7-8adf-b8d3010cd5a9",
+  "odb_tasks": [
+    "462a1338-e8fb-4494-9c62-b13df88da225",
+    "1b1aa875-608d-494a-ad5a-75f39d108be2"
+  ]
+}

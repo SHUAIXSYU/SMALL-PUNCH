@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_026",
+  "stage": "Targeted offline diagnosis complete; prior numerical qualification remains BLOCKED",
+  "objective": "Explain V01 vs original center difference using existing curves, contact fields and solver diagnostics; assess impact without changing run023 gates",
+  "status": "WARNING",
+  "start_time": "2026-10-24T16:51:59.825173+08:00",
+  "end_time": "2026-10-24T16:57:43.425334+08:00",
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "python_version": "3.11.13",
+  "git": {
+    "branch": "main",
+    "head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+    "remote": "origin\thttps://github.com/SHUAIXSYU/SMALL-PUNCH.git (fetch)\norigin\thttps://github.com/SHUAIXSYU/SMALL-PUNCH.git (push)",
+    "working_tree": "M agenthub_sp_invopt/abqjobpilot_project/project.db\n M run/README.md\n M status/PROJECT_STATUS.md\n?? run/run_019/\n?? run/run_020/\n?? run/run_021/\n?? run/run_022/\n?? run/run_023/\n?? run/run_024/\n?? run/run_025/\n?? run/run_026/"
+  },
+  "inputs": [
+    "run/run_014/artifacts/odb/punch_force_displacement.csv",
+    "run/run_025/artifacts/private/odb/force_displacement.csv",
+    "run/run_023/artifacts/private/comparison_contract.json"
+  ],
+  "outputs": [
+    {
+      "path": "run/run_026/summary.md",
+      "role": "Public summary"
+    },
+    {
+      "path": "run/run_026/artifacts/private/main_report.md",
+      "role": "Private scientific report"
+    },
+    {
+      "path": "run/run_026/artifacts/private/diagnosis.json",
+      "role": "Structured metrics"
+    },
+    {
+      "path": "run/run_026/artifacts/private/contact_extraction.json",
+      "role": "Read-only ODB contact evidence"
+    },
+    {
+      "path": "run/run_026/artifacts/private/full_difference.png",
+      "role": "Whole-window plot"
+    },
+    {
+      "path": "run/run_026/artifacts/private/focus_105_120_readable.png",
+      "role": "Local contact plot"
+    }
+  ],
+  "validation": [
+    {
+      "check": "source_odb_immutable",
+      "status": "PASS",
+      "scope": "Both ODB hashes before/after read unchanged"
+    },
+    {
+      "check": "frozen_formula_reproduction",
+      "status": "PASS",
+      "scope": "241-point RMSE, max difference and both Loss values reproduce run025"
+    },
+    {
+      "check": "contact_field",
+      "status": "PASS",
+      "scope": "Both ODBs contain same 67-node contact pair CPRESS/COPEN at saved frames"
+    },
+    {
+      "check": "causal_mechanism",
+      "status": "WARNING",
+      "scope": "Contact transition and pressure correlate with force path; two discretizations insufficient for unique cause"
+    },
+    {
+      "check": "prior_qualification",
+      "status": "BLOCKED",
+      "scope": "run025 frozen force RMSE/max gates remain failed; V02 withheld"
+    }
+  ],
+  "errors": [
+    {
+      "severity": "INFO",
+      "code": "OFFLINE_SCRIPT_REPAIRS",
+      "message": "Three offline diagnostic script attempts preserved in checkpoints/analysis_attempts.json; no solver or queue calls"
+    }
+  ]
+}

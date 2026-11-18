@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_051",
+  "stage": "Exploratory high-strain hardening envelope preparation",
+  "objective": "D01 low-strain-preserving H01/H02, energy-basis audit, material tests, real CAE preparation and public preflight/dry-run",
+  "status": "WARNING",
+  "start_time": "2026-10-26T22:05:50.706969+08:00",
+  "end_time": "2026-10-26T22:21:20.903566+08:00",
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "git_branch": "main",
+  "git_head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+  "inputs": [
+    {
+      "path": "run/run_051/artifacts/material_contract.json",
+      "role": "immutable baseline and engineered material contract",
+      "sha256": "9073d8170db2b9febb6108749e4a0ab2994db54779acf382c0f36425e22faaaa"
+    },
+    {
+      "path": "run/run_051/artifacts/private/energy_basis_audit.json",
+      "role": "existing work attribution identity audit",
+      "sha256": "7b968ea89df581407477e19b14f8d078dcd4b8b14a6403424d19798fee260716"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_051/summary.md",
+      "role": "public scope summary"
+    },
+    {
+      "path": "run/run_051/artifacts/private/REPORT.md",
+      "role": "private scientific/engineering report",
+      "sha256": "3376b8adb0be786385813501c0d7eb4c0ff8adaa4d8e8b5147975c9de500d4c8"
+    },
+    {
+      "path": "run/run_051/artifacts/prepared_batch.json",
+      "role": "two frozen candidate identities",
+      "sha256": "f2b5eabc97269c107b5836f6ca50ed6c11955f845165a29c685d60589abeca9f"
+    },
+    {
+      "path": "run/run_051/artifacts/manifest.json",
+      "role": "artifact index",
+      "sha256": "0c88ca0cdc5e8dbbcfc7881b223431989da6ce5efcdc96a23d7dde949e066284"
+    },
+    {
+      "path": "run/run_051/artifacts/private/hub_completion.json",
+      "role": "Hub evidence receipt",
+      "sha256": "b7363a262fa1bf9ee3a2e6118c6ec65178931f9c7382dbf4bdf5f06ae3a2ff88"
+    }
+  ],
+  "validation": [
+    {
+      "check": "material math and failure-path tests",
+      "status": "PASS",
+      "evidence": "run/run_051/artifacts/private/unit_test_run.json",
+      "scope": "18 tests, no FE"
+    },
+    {
+      "check": "exported material secants and interpolation",
+      "status": "PASS",
+      "evidence": "run/run_051/artifacts/private/exported_tangent_checks.json",
+      "scope": "positive slopes, unchanged low curve, engineered target error only"
+    },
+    {
+      "check": "real CAE and MAIN byte review/public preflight dry-run",
+      "status": "PASS",
+      "evidence": "run/run_051/artifacts/private/main_preflight_dry_run.json",
+      "scope": "2 candidates, outside Plastic bytes identical; no solver syntax or convergence check"
+    },
+    {
+      "check": "original integrity",
+      "status": "PASS",
+      "evidence": "run/run_051/artifacts/private/final_integrity.json",
+      "scope": "explicit original hashes/frozen package/history"
+    },
+    {
+      "check": "physical sensitivity conclusion",
+      "status": "WARNING",
+      "evidence": "run/run_051/artifacts/private/REPORT.md",
+      "scope": "future response unknown; no physical bounds/validation"
+    }
+  ],
+  "errors": [
+    {
+      "code": "TEST_LOADER_ENCODING_RESOLVED",
+      "severity": "INFO",
+      "message": "First test import used Windows default GBK and stopped; fixed to explicit UTF-8 and18 tests passed",
+      "evidence": "run/run_051/artifacts/private/test_attempt1_error.json",
+      "resolution": "local loader only; no original/environment changes"
+    }
+  ]
+}

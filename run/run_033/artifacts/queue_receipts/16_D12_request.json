@@ -1,0 +1,24 @@
+{
+  "inp_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_033\\artifacts\\candidates\\SPIO_R033_D12_L\\SPIO_R033_D12_L.inp",
+  "job_name": "SPIO_R033_D12_L",
+  "cpus": 14,
+  "gpus": 0,
+  "batch": "run033_authorized_twenty_doe",
+  "strategy": "single_runner_serial_batch_manual_start",
+  "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_033\\artifacts\\solver\\SPIO_R033_D12_L",
+  "submission_mode": "enqueue_only",
+  "allow_solver_submit": false,
+  "metadata": {
+    "run": "run_033",
+    "point_id": "D12",
+    "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+    "task_id": "a55900cd-541e-4192-811b-11d00eefd7ac",
+    "inp_sha256": "5271715e5d867107e582b46ced3cf4a4f21c299c9375343917396cf9b5d60458",
+    "maximum_attempts": 1,
+    "automatic_retries": 0,
+    "notes": "run033 20-Job DOE; point_id=D12; project_id=b87d2cd6-8519-4ac3-bae6-7eb989fb2dae; inp_sha256=5271715e5d867107e582b46ced3cf4a4f21c299c9375343917396cf9b5d60458; task_id=a55900cd-541e-4192-811b-11d00eefd7ac; 14CPU 0GPU; one Datacheck then Full; zero retries; one user GUI Start Queue; AUTO_STOP_UNAVAILABLE"
+  },
+  "run_datacheck": true,
+  "run_full": true,
+  "schema_version": "1.0"
+}

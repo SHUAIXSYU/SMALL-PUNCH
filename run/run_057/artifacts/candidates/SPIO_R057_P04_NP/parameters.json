@@ -1,0 +1,76 @@
+{
+  "candidate_id": "P04",
+  "design_id": "I06_N_PLUS",
+  "job_name": "SPIO_R057_P04_NP",
+  "sigma_y_mpa": 236.49902622197678,
+  "n": 0.1088,
+  "x": 0.24000000000000002,
+  "y": 0.185,
+  "E_pa": 210000000000.0,
+  "nu": 0.3,
+  "material_model": "candidate-true-total-Hollomon-v1",
+  "stress_unit": "Pa",
+  "plastic_strain_unit": "dimensionless equivalent plastic strain",
+  "max_plastic_strain": 0.9,
+  "relative_tolerance": 0.001,
+  "source_inp": "run/run_030/artifacts/candidates/SPIO_R030_I06_L/SPIO_R030_I06_L.inp",
+  "source_inp_sha256": "0a544fd06f0c0de630946173314ba980085a8a464ef4027e715bfb46e3d3b45a",
+  "source_ODB": "run/run_030/artifacts/solver/SPIO_R030_I06_L/SPIO_R030_I06_L.odb",
+  "source_ODB_sha256": "9c8cfee50698b98e63215db665e5aa1e8afaabdd2d5f8e40eb0e4e690f89d7aa",
+  "generator": "inverse/hollomon.py",
+  "generator_sha256": "d937664f7fc7f845a9ed7a75a004275bf38d11a1b3f68975a05961adb9b16363",
+  "design_contract": "run/run_056/artifacts/private/prospective_design_contract.json",
+  "design_contract_sha256": "a3f8cae3896e2c5079d6796e95122109ecfa8075850dfb617778d023f7f828d0",
+  "numerical_contract": "run030-standard-m0025-hollomon-v1",
+  "numerics": {
+    "solver": "Abaqus/Standard2024",
+    "initial_increment": 0.001,
+    "maximum_increment": 0.0025,
+    "minimum_increment": 1e-12,
+    "total_time": 1.0,
+    "maximum_increments": 999999,
+    "CPU": 14,
+    "GPU": 0
+  },
+  "inp_path": "run/run_057/artifacts/candidates/SPIO_R057_P04_NP/SPIO_R057_P04_NP.inp",
+  "inp_absolute_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\candidates\\SPIO_R057_P04_NP\\SPIO_R057_P04_NP.inp",
+  "inp_sha256": "499ecb98f421595c54bcb2501efbbf1c212f6c8f18994ba001935b553dd85a23",
+  "working_dir": "run/run_057/artifacts/solver/SPIO_R057_P04_NP",
+  "working_dir_absolute": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P04_NP",
+  "expected_odb": "run/run_057/artifacts/solver/SPIO_R057_P04_NP/SPIO_R057_P04_NP.odb",
+  "expected_odb_absolute": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P04_NP\\SPIO_R057_P04_NP.odb",
+  "material_rows": 35,
+  "table_path": "run/run_057/artifacts/candidates/SPIO_R057_P04_NP/plastic_table.csv",
+  "table_sha256": "143b20a4238118faaaa40d1c32650062e82400dcab259829f720d82d06882bb8",
+  "plastic_rows_path": "run/run_057/artifacts/candidates/SPIO_R057_P04_NP/plastic_rows.inc.txt",
+  "plastic_rows_sha256": "36640986372e9e024df84b961905db9fa05e4c137ce9fc51cfe427fb8b5859bb",
+  "physical_skeleton_sha256": "9e68248c5ef7eed5f96e76d76ee76e52867a2f0df065c76eaeeb22b5bfb8f23d",
+  "nonplastic_bytes_identical_except_three_identity_comments": true,
+  "comment_replacements": [
+    {
+      "old": "** Job name: Job-1 Model name: Model-1",
+      "new": "** Job name: SPIO_R057_P04_NP Model name: Model-1"
+    },
+    {
+      "old": "** RUN_030 POINT I06; job=SPIO_R030_I06_L; offline candidate only",
+      "new": "** RUN_057 POINT P04; job=SPIO_R057_P04_NP; offline preparation only"
+    },
+    {
+      "old": "** sigma_y_MPa=236.49902622197678; n=0.096799999999999997; design_sha256=3e332c6733fa41a74d518c96cfd4fc9ac635bb7c4f60ecfee70423b8e542c9a6",
+      "new": "** sigma_y_MPa=236.49902622197678; n=0.10879999999999999; design_sha256=a3f8cae3896e2c5079d6796e95122109ecfa8075850dfb617778d023f7f828d0"
+    }
+  ],
+  "interpolation_conservative_relative_bound": 0.0009967431621068221,
+  "dense_15000_check_max_relative_error": 0.0009811093283688917,
+  "resources": {
+    "cpus": 14,
+    "gpus": 0,
+    "run_datacheck": true,
+    "run_full": true,
+    "automatic_retries": 0
+  },
+  "queue_id": null,
+  "attempts": 0,
+  "execution_authorized": false,
+  "outside_observed_parameter_hull": false
+}

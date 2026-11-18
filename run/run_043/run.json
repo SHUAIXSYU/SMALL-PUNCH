@@ -1,0 +1,196 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_043",
+  "stage": "Low-Loss identifiability and point-specific numerical qualification preparation",
+  "objective": "Compare D01/I08 SPT residuals and predicted constitutive laws; prepare only two exact increment refinements",
+  "status": "WARNING",
+  "start_time": "2026-10-26T00:04:20.459770+08:00",
+  "end_time": "2026-10-26T00:11:26.890681+08:00",
+  "git_branch": "main",
+  "git_head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+  "git": {
+    "branch": "main",
+    "head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+    "remote": "origin\thttps://github.com/SHUAIXSYU/SMALL-PUNCH.git (fetch)\norigin\thttps://github.com/SHUAIXSYU/SMALL-PUNCH.git (push)",
+    "working_tree": "M agenthub_sp_invopt/abqjobpilot_project/project.db\n M run/README.md\n M status/PROJECT_STATUS.md\n?? run/run_019/\n?? run/run_020/\n?? run/run_021/\n?? run/run_022/\n?? run/run_023/\n?? run/run_024/\n?? run/run_025/\n?? run/run_026/\n?? run/run_027/\n?? run/run_028/\n?? run/run_029/\n?? run/run_030/\n?? run/run_031/\n?? run/run_032/\n?? run/run_033/\n?? run/run_034/\n?? run/run_035/\n?? run/run_036/\n?? run/run_037/\n?? run/run_038/\n?? run/run_039/\n?? run/run_040/\n?? run/run_041/\n?? run/run_042/\n?? run/run_043/"
+  },
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "inputs": [
+    {
+      "path": "run/run_039/artifacts/private/main/main_review.json",
+      "role": "DOE reviewed data"
+    },
+    {
+      "path": "run/run_042/artifacts/private/main/main_analysis.json",
+      "role": "combined pilot analysis"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_043/artifacts/private/baseline_audit.json",
+      "sha256": "f1417269eba4c66442df5cfcf10d1e388074c8138257599af147b6a648e259a2"
+    },
+    {
+      "path": "run/run_043/artifacts/private/test_results.json",
+      "sha256": "b75ab41dd02a7570c73b2b3c8b7634af31eb7dba42388ae999e87bde9ae381ed"
+    },
+    {
+      "path": "run/run_043/artifacts/private/cae/structured_result.json",
+      "sha256": "130c19132f207e6d8d980a3ade76e37c2c78a36e7f61fc295d63b6bea8fbe5fb"
+    },
+    {
+      "path": "run/run_043/artifacts/private/cae/byte_diff_evidence.json",
+      "sha256": "925d6faa7f6ea85c58ed62290c0cdb15473919e0a56dd4f41266632e5b6d6587"
+    },
+    {
+      "path": "run/run_043/artifacts/private/cae/static_verification.json",
+      "sha256": "d31ef5b3c5cba166f3186e739a331dd2e00b223ef1eb3118146b6f0c956eb6bf"
+    },
+    {
+      "path": "run/run_043/artifacts/private/cae/preview_result.json",
+      "sha256": "5aa78b73b3af0e7ec1c1c185eeccd336f05e3d4b5169326e47f74b4c5147e7c7"
+    },
+    {
+      "path": "run/run_043/artifacts/private/cae/preview_integrity.json",
+      "sha256": "f0cde806f9119004f94bb2af080497689625fe13b74290f7966099dbff3ed3e0"
+    },
+    {
+      "path": "run/run_043/artifacts/comparison_contract.json",
+      "sha256": "a088db67b56214aa469d0efb7bce8cffb20af3d7291f93e4a8223cbbe751099d"
+    },
+    {
+      "path": "run/run_043/artifacts/prepared_batch.json",
+      "sha256": "de461945b427b4deb9e041ebd536a47a8f06c2d9896d12571bfc2c40c0de06ca"
+    },
+    {
+      "path": "run/run_043/artifacts/ranking_screen.py",
+      "sha256": "f97702071e1344545013897fc6e2a17a3ea90bc086fb5b383fb540ec5e87bdb7"
+    },
+    {
+      "path": "run/run_043/artifacts/test_ranking_screen.py",
+      "sha256": "01df66c3dbc9e13137d1ec924e53fe9f5635954b2e44c845c7896367a6690c17"
+    },
+    {
+      "path": "run/run_043/artifacts/analyze_candidates.py",
+      "sha256": "d72ea376048344486546eeba73db5629b80c8009c10e3c46a2668a332b929e6f"
+    },
+    {
+      "path": "run/run_043/artifacts/bootstrap.py",
+      "sha256": "f9864ea40a0724e5b5bdab8c64c3b728aa022a1a9da7e0a9601929d220a4153b"
+    },
+    {
+      "path": "run/run_043/artifacts/finalize_run.py",
+      "sha256": "cb697ba06b6a16b8eae5f05c72c2f8c4b0c41329803e16bed85731ba239d3ab1"
+    },
+    {
+      "path": "run/run_043/summary.md",
+      "sha256": "a786e654f87fd9027cabeff594c38bac68458b8b372c5874753c80f764afaf63"
+    },
+    {
+      "path": "run/run_043/artifacts/private/main/abaqus_plastic_curves.png",
+      "sha256": "768fa12fae6bf88918db86b9499441339ea1dae9fd2d5cc497710a8612df333e"
+    },
+    {
+      "path": "run/run_043/artifacts/private/main/abaqus_plastic_samples.csv",
+      "sha256": "45199c17a37c4e90592b6b8ba8dbd91785a11e126db2083461bccc7bcaac911c"
+    },
+    {
+      "path": "run/run_043/artifacts/private/main/analysis.json",
+      "sha256": "6709753b84a4c82b7df21e8c03db3c716843428ce8cdd9ad4363841445c45c12"
+    },
+    {
+      "path": "run/run_043/artifacts/private/main/constitutive_provenance.json",
+      "sha256": "1ecbd2da4376fac23f994937459853e9196ed9c730d5adf81b159f82eae7239b"
+    },
+    {
+      "path": "run/run_043/artifacts/private/main/D01_abaqus_table.csv",
+      "sha256": "7305efad7049f0342b95ba5cbbeaf617273e2a31d6c7d40e4887c7e0a88d85e2"
+    },
+    {
+      "path": "run/run_043/artifacts/private/main/engineering_review.json",
+      "sha256": "5bce8de77235084be808c484cb3d588a78a07086200cdae20925a9cf6f8452f0"
+    },
+    {
+      "path": "run/run_043/artifacts/private/main/fd_differences_residuals.png",
+      "sha256": "d67e0b0e2f39c382d6c186c8602bca1b6bfc774f7792a4e1e00ba645556e447b"
+    },
+    {
+      "path": "run/run_043/artifacts/private/main/frozen_grid_comparison.csv",
+      "sha256": "34c3280e26799da44a9e3a647b40b62ccbb0838a9e1b1fb30e638737cb8f3133"
+    },
+    {
+      "path": "run/run_043/artifacts/private/main/I08_abaqus_table.csv",
+      "sha256": "cf455b1c5cafa90ed7cbd0e401e58d4d44ae55af32cf8981c073ced09491c0c1"
+    },
+    {
+      "path": "run/run_043/artifacts/private/main/parameter_compensation_points.png",
+      "sha256": "5a205a7c67345d173ab598aae629f5abc40276d18c7bb9ed07fb03e45b72a8ef"
+    },
+    {
+      "path": "run/run_043/artifacts/private/main/predicted_constitutive_dense.csv",
+      "sha256": "db8863a1876656919311e39ce4af9f80231938e6b8ac432d6645729a904c0586"
+    },
+    {
+      "path": "run/run_043/artifacts/private/main/predicted_true_total_curves.png",
+      "sha256": "66ad2d6686c55f7e607e45dfaf2fbf81f21f42f9c4378dadd6c83f0cf6407132"
+    },
+    {
+      "path": "run/run_043/artifacts/private/main/predicted_true_total_samples.csv",
+      "sha256": "1ff3f638615888b079a915d97f95f03d5e163ffd032a2c25ecb00af915df927a"
+    },
+    {
+      "path": "run/run_043/artifacts/private/main/REPORT.md",
+      "sha256": "0d75fccdc2b72293e13268fadb836611557ad62a5eb004be05e97b0b34ba3588"
+    },
+    {
+      "path": "run/run_043/artifacts/private/main/research_decision.json",
+      "sha256": "50d7311e607ab414270ba9120fda661a551cce834a58fa67612cc4ec9a061228"
+    },
+    {
+      "path": "run/run_043/artifacts/private/main/residual_intervals.csv",
+      "sha256": "3912f62850050a9e5b5eef54e5da6e14492f5918c9ff6bf65cc4dd1a6cc43eae"
+    },
+    {
+      "path": "run/run_043/artifacts/private/main/evidence_manifest.json",
+      "sha256": "b412156da81b9a815cf4806665d26b7961a45879f706d6b66aae56e74cf4ca28"
+    }
+  ],
+  "validation": [
+    {
+      "check": "existing_D01_I08_identity",
+      "status": "PASS",
+      "evidence": "INP/ODB/source extraction hashes, single completed attempts, no numerical blocker"
+    },
+    {
+      "check": "SPT_Loss_and_offline_constitutive_comparison",
+      "status": "PASS",
+      "evidence": "fixed 241 points, original Loss reproduced, analytic and actual Abaqus plastic tables distinguished"
+    },
+    {
+      "check": "future_comparison_tests",
+      "status": "PASS",
+      "evidence": "12 comparison and 4 ranking tests; contract frozen before solve"
+    },
+    {
+      "check": "real_CAE_AgentHub_handoff",
+      "status": "PASS",
+      "evidence": "real message received and candidate bytes independently verified"
+    },
+    {
+      "check": "two_candidate_Preflight_Dry_run",
+      "status": "PASS",
+      "evidence": "2/2 each, Settings=PERSISTED, queue unchanged"
+    },
+    {
+      "check": "ranking_and_identifiability",
+      "status": "WARNING",
+      "evidence": "new candidates not solved; original gap small, no unique material conclusion"
+    },
+    {
+      "check": "execution_and_holdout_boundary",
+      "status": "PASS",
+      "evidence": "no new solver/datacheck/enqueue or sealed data access; historic exposure retained"
+    }
+  ],
+  "errors": []
+}

@@ -1,5 +1,218 @@
 # SMALL-PUNCH 项目状态
 
+## 当前状态 — run_064（2026-10-28，Asia/Shanghai）
+
+**PARTNER_REPORT_DELIVERED。** 4页中文PDF、5张高清图件及来源/hash/MAIN复核完成，见[run_064](../run/run_064/summary.md)。仅交流既有真实结果，RL为未来计划，历史科学WARNING及正式材料验证NOT_EVALUABLE保持。无新FE、拟合、训练或外部上传；完成后停止。
+
+## 当前状态 — run_063（2026-10-28，Asia/Shanghai）
+
+**WARNING / OFFLINE_LOCAL_COUPLING_ANALYSIS_COMPLETE。** 真实响应与旧Jacobian核验，弱方向约(−.81116,+.58482)；分段绝对信号/条件对比、特征信息与确定性情景完成。LOCAL_IDENTIFIABILITY LIMITED、数值分辨受限、正式材料验证NOT_EVALUABLE保持。详见[run_063](../run/run_063/summary.md)。继续full曲线基线；当前新FE/输入/入队/训练0，未来弱方向混合2点仅为需另行授权的建议，完成后停止。
+
+## 当前状态 — run_062（2026-10-28，Asia/Shanghai；run_061 Phase2）
+
+**WARNING / I06_REFINEMENT_ANALYSIS_COMPLETE。** 唯一I06细化单次DC/Full真实完成，真实ODB Agent与MAIN独立复核可评分；FD差RMSE .432677914N、最大2.757653824N于.98mm，R .139906018落入.1–.25提示。点级相邻稳定性SUPPORTED，弱方向/局部识别仍LIMITED，正式材料验证NOT_EVALUABLE。详见[run_062](../run/run_062/summary.md)。原授权1次已消耗，本轮新FE/入队/重试/训练0，历史冻结保持，完成后停止。
+
+## 当前状态 — run_061（2026-10-27，Asia/Shanghai）
+
+**WARNING / ONE_I06_REFINEMENT_JOB_QUEUED_AWAITING_MANUAL_START。** run060唯一冻结I06最大增量.00125输入完整核验、PERSISTED Settings和当前Preflight/Dry-run通过；公开API仅入队1项，实际启动/FE消耗0，14CPU0GPU、单次DC成功后Full、零重试。详见[run_061](../run/run_061/summary.md)。用户GUI手动Start Queue；当前停止，Phase2等待明确完成通知。I06限制、run059结论、历史冻结/Git保护均保持。
+
+## 当前状态 — run_060（2026-10-27，Asia/Shanghai）
+
+**WARNING / PREPARED_TO_REQUEST_ONE_I06_RESOLUTION_RUN。** I06源身份/完整FD核验，QUALIFIED_WITH_LIMITATIONS保持；唯一最大增量.00125候选冻结，材料和其余模型字节不变。公开Preflight/Dry-run与8项离线测试通过；比较协议绑定run059弱响应3.092632613N RMS及.1/.25/.5探索风险区间。见[run_060](../run/run_060/summary.md)。当前新FE授权0、未入队/求解/Datacheck/重训/优化，历史冻结/Git治理保持，完成后停止。
+
+## 当前状态 — run_059（2026-10-27，Asia/Shanghai；run_058 Phase2）
+
+**WARNING / REAL_FOUR_POINT_PROSPECTIVE_EVALUATION_COMPLETE。** 四项真实单次DC+Full完成，真实ODB会话领取提取，MAIN独立复核4/4探索性可评分。局部识别LIMITED；完整曲线冻结预测优于常数且方向4/4，但无主模型满足所有半步标准，前瞻预测PARTIAL。详见[run_059](../run/run_059/summary.md)。4次授权已消耗，新FE/入队/重试/训练/拉伸读取/Git提交0，完成后停止。I06与历史冻结/正式NOT_EVALUABLE均保持。
+
+## 当前状态 — run_058（2026-10-27，Asia/Shanghai）
+
+**WARNING / FOUR_PROSPECTIVE_JOBS_QUEUED_AWAITING_MANUAL_START。** 用户已授权run057四个冻结Job一次性queue-only提交，14CPU0GPU、每项一次DC成功后Full、零自动重试、用户GUI启动。4/4当前Preflight/Dry-run及冻结预测器复核通过，真实四queue_id按P01→P04回读均QUEUED、实际启动/消耗0。详见[run_058](../run/run_058/summary.md)。I06限制、AUTO_STOP_UNAVAILABLE和历史边界保留；当前停止等待用户手动启动，不自动执行第二阶段。
+
+## 当前状态 — run_057（2026-10-27，Asia/Shanghai）
+
+**WARNING / READY_TO_REQUEST_FOUR_PROSPECTIVE_RUNS_WITH_LIMITATIONS。** I06原提取/输入/同控制复核、四个独立INP及完整哈希冻结；4/4公开Preflight和Dry-run通过，run055原最终25点预测器封包不变，11项离线测试通过。I06未独立精化且P03凸包外推限制保留；详见[run_057](../run/run_057/summary.md)。新FE预算0、未入队/求解/Datacheck/重试/优化/拉伸读取/Git提交，停止等待明确授权。
+
+## 当前状态 — run_056（2026-10-27，Asia/Shanghai）
+
+**Git PASS / Science WARNING_CONDITIONAL_PROSPECTIVE_DESIGN_ONLY。** CAE/备份忽略保护及2项索引解除完成，本地文件完整。复核六个null为完成但数值门控未满足，不认定低n必然求解失败；I06作为带警告探索锚点，四点A/B前瞻协议已预注册但没有新输入或计算授权。见[run_056](../run/run_056/summary.md)。新FE预算0，无求解/入队/重拟合/优化或Git提交，当前停止。
+
+
+## 当前状态 — run_055（2026-10-27，Asia/Shanghai）
+
+**WARNING / PARTIAL_FE_PARAMETER_RECOVERY_ONLY。** 唯一样本与历史24/6集合已核对，25组同数值控制FE完成固定/嵌套特征与全曲线留出比较，真实预测/泛化限制见[私有科研报告](../run/run_055/artifacts/private/scientific_report.md)。少量特征未保留全曲线恢复能力，正式局部指标NOT_EVALUABLE；SPT冻结后应用仅探索性。无新FE、INP、入队、材料拟合或优化，当前预算0，完成后停止。保留历史冻结及独立验证边界。
+
+
+## 当前状态 — run_054（2026-10-26，Asia/Shanghai）
+
+**WARNING / OFFLINE_CONFOUNDING_ASSESSMENT_COMPLETE。** 指定真实FE数据与哈希已核验，MAIN完成高应变割线、旧参数方向与冻结残差的离线比较。跨实验基点/时间控制不同，正式联合Jacobian/Fisher信息/可识别性NOT_EVALUABLE；仅支持探索性混淆假设。见[私有报告](../run/run_054/artifacts/private/confounding_report.md)。当前新增预算0；未来同点识别最小设计仅属未授权建议，无新FE、输入、入队、拟合或优化，完成后停止。历史冻结及独立验证边界保留。
+
+
+## 当前状态 — run_053（2026-10-26，Asia/Shanghai）
+
+**WARNING / TWO_EXISTING_RESULTS_ANALYSED。** 两项既有授权计算经公开API确认单次完成，真实ODB会话已提取，MAIN独立完成冻结Loss、空间体积/塑性功与局部接触复核。结论及数值限制见[run_053私有科学报告](../run/run_053/artifacts/private/scientific_report.md)。原两次预算已消耗；本轮无新增求解、Datacheck、入队、重试或优化。保留run046冻结、正式NOT_EVALUABLE及信息暴露历史，当前停止等待科研决策。
+
+
+## 当前状态 — run_052（2026-10-26，Asia/Shanghai）
+
+**WARNING / TWO_HARDENING_JOBS_QUEUED_AWAITING_MANUAL_START。** 用户已批准run051两项冻结高应变包络一次尝试/Job、14CPU0GPU、零重试、GUI手动启动，并接受AUTO_STOP_UNAVAILABLE。新2/2预检与Dry-run通过，已公开API按H01→H02仅入队两项、唯一queue_id，恰好两项QUEUED、实际启动/预算消耗0；真实输出尚未生成。见[run_052](../run/run_052/summary.md)。原输入/冻结及独立验证历史保留，无Solver/Datacheck/参数变更/额外Job。未来ODB任务依赖MAIN实际执行审核，当前停止等待用户手动启动。
+
+
+## 当前状态 — run_051（2026-10-26，Asia/Shanghai）
+
+**WARNING / READY_TO_REQUEST_TWO_EXPLORATORY_SOLVES。** 高应变硬化包络H01/H02已冻结，真实CAE完成两份INP，MAIN独立字节/材料核验与公开API2/2预览通过。功统计口径、探索幅度及未来比较规则见[run_051私有报告](../run/run_051/artifacts/private/REPORT.md)。无新Solver、Datacheck、入队、参数拟合或优化；原冻结与正式NOT_EVALUABLE保留。当前只具备申请两次新求解的工程准备条件，执行授权0，完成后停止。
+
+
+## 当前状态 — run_050（2026-10-26，Asia/Shanghai）
+
+**WARNING / EXISTING_ODB_SPATIAL_ENERGY_REVIEW_COMPLETE。** 真实ODB会话经AgentHub完成精化D01/I08四阶段积分点空间/接触和离散塑性功提取，MAIN独立核对体积、能量与冻结材料范围。科学结论和数据见[run_050私有报告](../run/run_050/artifacts/private/scientific_report.md)。近似耗散不等于RF2贡献，正式独立验证仍NOT_EVALUABLE；历史冻结与暴露记录保留。未来方案需新输入证据和明确授权，当前无新FE、INP、入队、拟合或优化，完成后停止。
+
+
+## 当前状态 — run_049（2026-10-26，Asia/Shanghai）
+
+**WARNING / OFFLINE_SCIENTIFIC_ASSESSMENT_COMPLETE。** 已完成历史FE补偿证据、模型形式及边界条件不确定性的离线分析与分阶段设计。正式独立验证维持NOT_EVALUABLE；原预测及run047/048历史不改。数据、解盲后科学结论和计划见[run_049私有报告](../run/run_049/artifacts/private/scientific_assessment.md)。暂停BO/DE/RL；无新FE、拟合、INP、入队或Git提交。未来方案须补齐实测输入和另行授权，当前执行预算0，完成后停止。
+
+
+## 当前状态 — run_048（2026-10-26，Asia/Shanghai）
+
+**WARNING / PRIVATE_REASSESSMENT_FINALIZED。** 独立会话依据用户转达的合作方补证，完成冻结输入重核、预注册门控复核及重新计算。新证据仅按来源方确认登记，不冒称独立仪器记录。实验数字和解盲结论仅见 [run_048 私有报告](../run/run_048/artifacts/private/independent_reassessment_report.md)。run_046/run_047 历史结论不改；无新求解、优化、重拟合或提交。完成后停止。
+
+
+## 当前状态 — run_047（2026-10-26，Asia/Shanghai）
+
+**WARNING / PRIVATE_INDEPENDENT_REPORT_FINALIZED。** 用户授权的独立会话完成 run_046 冻结核验、限定 OPJU 只读清查和预注册门控报告。实验数字、可恢复曲线及解盲结论仅见 Git 忽略的 [run_047 私有报告](../run/run_047/artifacts/private/independent_validation_report.md)。历史 run_015 信息暴露声明保留；无新求解、优化、重拟合或 Git 提交。完成后停止。
+
+
+## 当前状态 — run_046（2026-10-26，Asia/Shanghai）
+
+**WARNING / FROZEN_AWAITING_EXPLICIT_UNBLIND_AUTHORIZATION。** 当前探索性优化阶段结束，已冻结D01最佳已评估及I08替代候选完整参数、0–0.9真总应变预测及原Abaqus塑性表、最新SPT Loss与点级PASS证据。独立验证协议与主窗/误差/缺失/颈缩规则在任何新拉伸访问前冻结，11项合成测试及完整hash封包核验通过。可以申请明确解盲比较授权；同材状态、定义及未暴露复核人员仍需核实，不能宣称已完成验证或唯一识别。见[run_046](../run/run_046/summary.md)。无新求解/入队/优化/解盲；历史暴露和BLOCKED保留，完成后停止。
+
+
+## 当前状态 — run_045（2026-10-26，Asia/Shanghai）
+
+**WARNING / PASS_TWO_POINT_ADJACENT_REFINEMENT_ONLY。** 两项真实单次Datacheck+Full完成，真实ODB/MAIN独立核验，2/2通过冻结五指标；排序D01_FIRST。优先冻结D01/I08探索性候选集合及局限，开展补偿谷地与参数不确定性研究；暂不恢复BO/DE。可准备预注册独立拉伸验证方案，须用户明确解盲授权后才能读取。 完整证据见[run_045](../run/run_045/summary.md)。原run025 BLOCKED及信息暴露保留；无新增求解、入队、重试或解盲，停止等待授权。
+
+
+## 当前状态 — run_044（2026-10-26，Asia/Shanghai）
+
+**WARNING / TWO_VALIDATION_JOBS_QUEUED_AWAITING_MANUAL_START。** 用户明确批准run_043两个冻结验证Job一次性入队，14CPU/0GPU、每项一次Datacheck+Full、零重试、仅用户GUI启动，并接受无可靠自动fail-stop。完整哈希/唯一最大增量替换及当前2/2 Preflight、2/2 dry-run通过；已通过公开API按D01→I08入队，恰好两项QUEUED、唯一queue_id，实际启动/预算消耗0。Hub已登记授权、Queue证据和未来统一ODB/五指标/排序分析任务；当前停止等待用户人工Start Queue。详见[run_044报告](../run/run_044/summary.md)。未启动Solver/datacheck，旧D09锁隔离保留且运行状态CLEAN，无额外Job、BO/DE/RL、Git提交或解盲。
+
+## 当前状态 — run_043（2026-10-26，Asia/Shanghai）
+
+**WARNING / READY_TO_REQUEST_TWO_POINT_REFINEMENT。** D01/I08完整输入和ODB证据复核；Loss近似但残差区间不同、预测本构小中应变差异明显，尚不能唯一识别。真实CAE完成两项仅最大增量0.0025→0.00125的独立候选，MAIN逐字节验证，2/2 Preflight、2/2 dry-run通过。原五指标及Loss排序敏感性协议在求解前冻结，12+4项离线测试通过；0入队/0Solver/Datacheck。建议申请两次定向数值验证，通过后优先补偿谷地和参数不确定性，不直接继续BO/DE；最终单一本构与独立拉伸验证仍待资格和明确解盲授权。见[run_043报告](../run/run_043/summary.md)。历史BLOCKED、信息暴露和封存拉伸禁读规则保留。
+
+## 当前状态 — run_042（2026-10-25，Asia/Shanghai）
+
+**WARNING / PILOT_COMPLETE_NO_BASELINE_IMPROVEMENT。** run_041八项均单次Datacheck+Full软件完成，真实ODB Agent只读提取，MAIN独立复算；BO01/BO02/DE02按数值门槛Loss=null，另5项探索性可评分。BO最佳新增BO04 Loss≈0.00189029，DE最佳新增DE03≈0.0781313；两支共同best-so-far仍D01≈0.000506164，改善0。8次授权全部消耗，无重试。参数补偿、候选数值误差和GP触界仍限制唯一识别，建议暂停原BO4+DE4，优先数值资格/参数不确定性；任何新评估须新协议和授权。详见[run_042报告](../run/run_042/summary.md)。本Run无新Solver/Datacheck/入队/FE搜索/RL，封存拉伸未访问，旧BLOCKED及历史信息暴露声明保留。
+
+## 当前状态 — run_041（2026-10-25，Asia/Shanghai）
+
+**WARNING / EIGHT_BO_DE_JOBS_QUEUED_AWAITING_MANUAL_START。** 用户明确授权run_040冻结BO01–BO04、DE01–DE04一次性批量入队，每项一次Datacheck+Full、14CPU/0GPU、零重试、仅用户GUI启动。8项完整身份与当前Preflight/Dry-run通过，已通过公开API按BO01→BO04→DE01→DE04依次入队；8个唯一queue_id、恰好8个可执行任务，均QUEUED，实际启动与预算消耗为0。AgentHub已登记预算/授权/逐项证据及后续只读审计任务。AUTO_STOP_UNAVAILABLE风险用户已接受；当前停止等待GUI人工Start Queue，未启动Solver/Datacheck。旧D09历史锁隔离保留，运行评估CLEAN。详见[run_041报告](../run/run_041/summary.md)。第二阶段额外8次未授权，封存拉伸禁读与历史结论保留。
+
+## 当前状态 — run_040（2026-10-25，Asia/Shanghai）
+
+**WARNING / READY_TO_REQUEST_FIRST_GATE_WITH_NUMERICAL_RISK。** 19个同契约有效SPT FE评价及D07/D09/D10三个null已冻结。单种子批量BO 4点与部分代DE 4点经真实CAE Agent生成独立INP，MAIN接收并复核AgentHub证据；8/8官方Preflight、8/8 dry-run通过，Queue无新增、Solver/Datacheck未启动。BO01/BO02/DE02靠近低n数值阻塞区，BO03靠近σy下界，GP超参数触及约束。可申请最多8次首关新高保真尝试，但必须明确风险和逐项异常暂停；本Run不授予执行额度。详见[run_040报告](../run/run_040/summary.md)。封存拉伸禁读及历史信息暴露声明不变，无DE/BO新FE、RL或Git提交。
+
+## 当前状态 — run_039（2026-10-25，Asia/Shanghai）
+
+**WARNING / 19_OF_22_NUMERICALLY_SCOREABLE。** 原run_033批次20项中19项软件完成，原D09仍为UNKNOWN_INTERRUPTED；独立run_038 D09补算软件完成但因接受态数值警告与反力回落而不评分。真实ODB Agent通过AgentHub完成回传，MAIN独立复算合并I01/I02后的19个探索性Loss。最低已评估点D01（σy≈152.309 MPa，n≈0.23066，Loss≈0.00050616）。D07/D09/D10 Loss=null；低Loss五点提示参数补偿但不证明唯一性。BO/DE仅WARNING条件下可申请另行授权的受限探索，建议最多16个新增FE、首关4+4。详见[run_039报告](../run/run_039/summary.md)。没有新增求解、Datacheck、入队、重试或优化；封存拉伸禁读及历史暴露声明保留。
+
+## 当前状态 — run_038（2026-10-25，Asia/Shanghai）
+
+**WARNING / D09_RETRY2_QUEUED_AWAITING_MANUAL_START。** GUI 官方恢复审计 `17c1916bf0644eac8e36daf6c3c15ab1` 已 APPLIED；旧重试历史 UNKNOWN、Queue 记录已由用户移除。新 Job `SPIO_R038_D09_RETRY2` / `q_434c5f15c837413f8628b5b5188088aa` 已经公开 API 单项入队，当前仅它可执行；原冻结 INP 哈希一致，独立工作目录，14 CPU/0 GPU、Datacheck+Full，零自动重试。Codex 未启动求解；等待用户 GUI 手动 Start Queue。旧 run_034、run_036/037 结论保留。详见[run_038报告](../run/run_038/summary.md)。
+
+## 当前状态 — run_037（2026-10-25，Asia/Shanghai）
+
+**BLOCKED / RECOVERY_REQUIRED。** 重启后官方只读恢复计划仍 `can_apply=false`；第二次 D09 尝试 `q_ed246bd7469b4701a8570326dfb73eb3` 为 `DATACHECK_RUNNING`，进程身份不匹配，旧锁文件仍在。第三次尝试未入队；不得点击 Start Queue。详见[run_037报告](../run/run_037/summary.md)。
+
+## 当前状态 — run_036（2026-10-25，Asia/Shanghai）
+
+**BLOCKED / RECOVERY_REQUIRED。** run_035 的 D09 新尝试 `q_ed246bd7469b4701a8570326dfb73eb3` 已由用户 GUI 启动并停留在 DATACHECK_RUNNING；Runner owner 为 STALE，Live 仍为 DATACHECK_RUNNING，公开恢复计划 `can_apply=false`。没有 Full Analysis 完成证据。不得再次入队、复用旧输出或清理锁文件；先经同一 Project 的官方 GUI 恢复评估澄清状态。详见[run_036报告](../run/run_036/summary.md)。本轮仅只读诊断，未新增求解、入队或恢复写入；此前结论保留。
+
+## 当前状态 — run_035（2026-10-25，Asia/Shanghai）
+
+**WARNING / D09_RETRY_QUEUED_AWAITING_MANUAL_START。** 用户报告崩溃并另行授权 D09 一次新尝试。原 queue_id `q_0bebaa417158409fba973efcbae921fd` 为 UNKNOWN_INTERRUPTED，旧 `.lck` 与产物保留；新 Job `SPIO_R035_D09_RETRY1` / `q_ed246bd7469b4701a8570326dfb73eb3` 使用原冻结 INP 和独立工作目录，14CPU/0GPU、Datacheck+Full。AbqJobPilot 公开 Preflight/Dry-run 通过，当前仅此新 Job 为 QUEUED；Solver/Datacheck 未启动。请用户核对正确 Project 后 GUI 手动 Start Queue。见[run_035报告](../run/run_035/summary.md)。run_034 历史结论及封存资料禁读规则不变。
+
+## 当前状态 — run_034（2026-10-25，Asia/Shanghai）
+
+**WARNING / MAIN_REVIEW_COMPLETE_WITH_THREE_UNSCORED。** 20项批次均有一次执行尝试，19项软件完成且真实ODB Agent只读提取；17项按冻结SPT Loss得到探索性PROVISIONAL评分。D09为UNKNOWN_INTERRUPTED并有锁文件，D10存在接受态大应变警告，D07存在极小末帧反力回落，三项Loss=null。最低已评估点D01（σy≈152.309 MPa，n≈0.23066，Loss≈0.00050616）。有限点呈参数补偿，不证明全局最优或本构唯一性；暂缓新BO/DE FE，先澄清D09终态并离线审查数值例外。见[run_034报告](../run/run_034/summary.md)。未新增Solver、Datacheck、入队或重试；历史run_025 BLOCKED、封存资料禁读及既有信息暴露声明保留。完成后停止。
+
+## 当前状态 — run_033（2026-10-24，Asia/Shanghai）
+
+**WARNING / TWENTY_JOBS_QUEUED_AWAITING_MANUAL_START。** 用户新授权20项批量DOE：6份run_030冻结I03–I08及14份run_033新CAE输入；20/20 Preflight和Dry-run通过，20项按冻结顺序经公开API入队，所有Job仍为QUEUED，Runner空闲、工作目录为空。I01/I02已完成且未重复；I02身份与文件证据无阻塞冲突，数值警告待后续只读分析。AgentHub记录20项queue_id和授权，详见[run_033报告](../run/run_033/summary.md)。**AUTO_STOP_UNAVAILABLE：单Job失败后GUI Runner仍可能继续后续Job；用户已接受批量模式。** 现在等待用户在正确Project确认仅本批20项可执行，然后本人点击一次Start Queue。Codex未启动Solver/Datacheck，不执行BO/DE/RL；封存资料禁读及历史暴露事实继续保留。
+
+
+## 当前状态 — run_032（2026-10-24，Asia/Shanghai）
+
+**WARNING / I02_QUEUED_AWAITING_MANUAL_START。** 用户GUI完成I01的唯一尝试，真实ODB Agent已通过AgentHub回传；MAIN按run_030冻结门槛审查后准许I02继续。I01探索性PROVISIONAL Loss=1.954386320，PEEQ=0.524459、0 cutback，零力矩与接触跟踪提示保留WARNING；不宣称物理验证。I02 queue_id=`q_a40ddbf45cec472cb3541e28e6184fad`，唯一可执行Job，等待用户在正确AbqJobPilot Project手动Start Queue；Codex未启动求解。8项冻结授权中1次已执行、1项待启动、6项未入队；不自动追加。详见[run_032报告](../run/run_032/summary.md)。run_025历史BLOCKED及封存资料禁读规则保留。
+
+
+## 当前状态 — run_031（2026-10-24，Asia/Shanghai）
+
+**WARNING / I01_QUEUED_AWAITING_MANUAL_START。** 用户一次性批准run_030冻结8项，每项一次Datacheck+Full、14CPU/0GPU、零自动重试，由用户GUI手动启动。当前仅I01入队，queue_id=`q_c8329bd4fab4455f924d211d62ba0625`；其余7项未提交，需逐项实际结果与MAIN审核后继续。Runner未启动、无新Datacheck/Solver；run_025历史BLOCKED保留。见[run_031报告](../run/run_031/summary.md)。停止等待用户GUI操作。
+
+
+## 当前状态 — run_030（2026-10-24，Asia/Shanghai）
+
+**WARNING / READY_TO_REQUEST_STAGE_A_WITH_GATES。** 16次先导预算与统一最大增量0.0025的数值契约已冻结，真实CAE完成8份输入，8/8 Preflight和dry-run通过；MAIN独立复核及Hub消息接收完成。拟先逐项审核I01–I04，再判断I05–I08；BO/DE剩余8次尚待初批结果。当前入队/新Solver授权均0，历史run_025 BLOCKED保留，中心通过不证明参数域稳定。见[run_030报告](../run/run_030/summary.md)。完成后停止。
+
+
+## 当前状态 — run_029（2026-10-24，Asia/Shanghai）
+
+**WARNING / PASS_CENTER_ADJACENT_REFINEMENT_ONLY。** 用户GUI完成唯一run_027候选，真实ODB Agent只读提取及MAIN冻结五项比较通过；此判定仅限V01→最大增量0.0025的相邻中心检查。run_025对run_014→V01的BLOCKED结论保留，四扰动Jacobian、网格及实验本构未获验证；V02未入队，无新增求解授权。见[run_029报告](../run/run_029/summary.md)。完成后停止。
+
+
+## 当前状态 — run_028（2026-10-24，Asia/Shanghai）
+
+**WARNING / SPIO_R027_CTR_M0025_QUEUED_AWAITING_MANUAL_START。** 用户授权的唯一run_027中心候选已通过公开API入队，queue_id=`q_6919f51c551844b4bcda1cc22b9a6bc4`；只有该Job可执行，14 CPU/0 GPU、Datacheck+Full，Codex未启动Runner或求解。用户须在正确Project手动Start Queue。run_025数值资格BLOCKED保留，V02未入队。见[run_028报告](../run/run_028/summary.md)。
+
+
+## 当前状态 — run_027（2026-10-24，Asia/Shanghai）
+
+**WARNING：唯一中心点增量细化候选已准备，尚未获准入队或求解。** 真实CAE会话完成候选与字节核验；最大增量仅由0.005改为0.0025。冻结的相邻比较协议、12项离线测试及AbqJobPilot公开Preflight/Dry-run通过，Queue保持不变。run_025数值资格BLOCKED保留；V02不可执行。见[run_027报告](../run/run_027/summary.md)。停止等待唯一新Job授权。
+
+
+## 当前状态 — run_026（2026-10-24，Asia/Shanghai）
+
+**WARNING：V01差异定向诊断完成；run_025 的 BLOCKED 数值资格保持。** 1.14 mm差异对应原模型稀疏接受帧与V01已接受的接触压力/反力变化；不能仅归因于插值，亦不能单凭两次计算确认唯一机制。建议下一步另行授权一个更小最大增量的中心验证，暂不进入实际BO/DE或修改接触/网格。V02未入队，见[run_026报告](../run/run_026/summary.md)。封存验证资料禁读和历史暴露事实保留，旧Run结论未改。
+
+
+## 当前状态 — run_025（2026-10-24，Asia/Shanghai）
+
+**BLOCKED_V01_NUMERICAL_QUALIFICATION。** V01真实求解、ODB提取与MAIN核验完成，但冻结精度门槛不满足；V02条件授权尚不可执行，未入队。见[run_025报告](../run/run_025/summary.md)。V01单次额度已用，无重试/新增计算；暂不进入DE/BO。停止等待新的科研决策，封存数据禁读及历史泄漏记录保留。此前结论原样保留。
+
+
+## 当前状态 — run_024（2026-10-24，Asia/Shanghai）
+
+**WARNING / V01_QUEUED_AWAITING_MANUAL_START。** 唯一V01已通过公开API入队，queue_id `q_602fa04221884dc7b200d670c610c385`，14CPU/0GPU、两阶段开启、零重试。用户GUI手动启动；Codex未启动Solver/datacheck。V02未入队，仅在V01按冻结门槛取得PASS后可在原授权内安排。两项验证研究尚未完成，无新精度结论。见[run_024报告](../run/run_024/summary.md)。保留AUTO_STOP_UNAVAILABLE，单Job门控；当前停止。
+
+
+## 当前状态 — run_023（2026-10-24，Asia/Shanghai）
+
+**WARNING：数值稳健性审计与两个候选输入准备完成。** 真实CAE/ODB任务回传、共同增量控制、预设误差门槛和公开Preflight/Dry-run已登记；尚无新的精度验证结果，暂不进入DE/BO。见[run_023报告](../run/run_023/summary.md)。Queue/原始输入和输出未变，未启动求解或入队，未访问封存数据。建议另行明确授权两项逐项数值核验；完成后停止。此前结论原样保留。
+
+
+## 当前状态 — run_022（2026-10-24，Asia/Shanghai）
+
+**WARNING：四个既有Job均已由用户GUI完成；真实ODB提取、冻结五点Loss与局部可识别性分析完成。** 两参数响应高度相似，求解有较多数值警告与曲线突跳，不能以满秩或成功终态宣称可靠材料识别。详见[run_022报告](../run/run_022/summary.md)。建议先另行授权数值核验，暂不直接进行正式/大预算DE/BO。MAIN未启动任何Solver/datacheck、入队或重试；禁读封存数据，完成后停止。
+
+
+## 当前状态 — run_021（2026-10-24，Asia/Shanghai）
+
+**WARNING / FOUR_JOBS_QUEUED_AWAITING_MANUAL_START。** run_020冻结四项已按L01→L04正式入队，14CPU/0GPU，两阶段开启，零自动重试；无其他待执行项，Solver/Datacheck未启动。**AUTO_STOP_UNAVAILABLE：Start Queue可能连续执行四项，失败/严重警告不会自动阻断后续；Stop After Current Job不是可靠逐项审核联锁。** 用户启动前须知此风险，建议在场监控或先完善受控逐项执行。见[run_021报告](../run/run_021/summary.md)。已停止；ODB/Loss分析等待用户完成计算，未访问封存数据。
+
+
+## 当前状态 — run_020（2026-10-24，Asia/Shanghai）
+
+**WARNING：四点离线准备通过，建议有条件调整局部中心。** 真实CAE任务完成，四个Preflight/Dry-run通过；原设计、模型及Queue保持不变。中心数值警告保留，尚不能证明局部可识别性。见[run_020报告](../run/run_020/summary.md)和[冻结批次](../run/run_020/artifacts/prepared_batch.json)。可以申请四个具体探索性Job，当前执行授权/新增入队/求解均0。完成后停止；封存验证隔离继续有效。
+
+
+## 当前状态 — run_019（2026-10-24，Asia/Shanghai）
+
+**WARNING：已有结果分析完成，五点局部敏感性证据尚不完整，暂不建议DE/BO。** 真实ODB会话已通过AgentHub领取/提取/回传，MAIN完成冻结契约、输入/输出身份、数值诊断和数据完整性复核。科学数值、曲线、具体缺项及后续预算建议见[私有分析报告](../run/run_019/artifacts/private/main_report.md)。
+
+本轮未新增任何Solver/datacheck、入队或重试，原始数据与运行状态保持不变。保留历史信息暴露，未访问封存数据。当前Run完成后停止，后续计算须另行明确授权。此前Run结论保留如下。
+
+
 ## 当前状态 — run_018（2026-10-23，Asia/Shanghai）
 
 **PASS（唯一 P01 入队范围）：QUEUED / AWAITING_GUI_START。** 用户授权已通过正式公开 API 完成一次入队，Job `SPIO_R017_P01_CTR`，queue_id `q_bdec6a60a31849d0a2afe200a70231bd`，CPU14/GPU0，Datacheck+Full=True。只有 P01 待执行；Solver/datacheck 尚未启动，P02–P05 未授权入队。本任务已停止，等待用户在正确 Project 的 GUI 点击一次 Start Queue。

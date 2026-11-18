@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_030",
+  "stage": "16-evaluation exploratory inversion offline preparation",
+  "objective": "Freeze one precision/model/Loss contract and prepare eight shared initial FE candidates without queue or solver",
+  "status": "WARNING",
+  "start_time": "2026-10-24T18:11:53.996091+08:00",
+  "end_time": "2026-10-24T18:18:34.326525+08:00",
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "python_version": "3.11.13",
+  "git": {
+    "branch": "main",
+    "head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+    "remote": "origin\thttps://github.com/SHUAIXSYU/SMALL-PUNCH.git (fetch)\norigin\thttps://github.com/SHUAIXSYU/SMALL-PUNCH.git (push)",
+    "working_tree": "M agenthub_sp_invopt/abqjobpilot_project/project.db\n M run/README.md\n M status/PROJECT_STATUS.md\n?? run/run_019/\n?? run/run_020/\n?? run/run_021/\n?? run/run_022/\n?? run/run_023/\n?? run/run_024/\n?? run/run_025/\n?? run/run_026/\n?? run/run_027/\n?? run/run_028/\n?? run/run_029/\n?? run/run_030/"
+  },
+  "inputs": [
+    {
+      "path": "run/run_027/artifacts/candidates/SPIO_R027_CTR_M0025/SPIO_R027_CTR_M0025.inp",
+      "sha256": "dae9345bc60973c27edec498dfbd27f269e1f5bbe151316918862954faac40c9"
+    },
+    {
+      "path": "inverse/hollomon.py",
+      "sha256": "d937664f7fc7f845a9ed7a75a004275bf38d11a1b3f68975a05961adb9b16363"
+    },
+    {
+      "path": "run/run_017/artifacts/loss_contract_identity.json",
+      "sha256": "61100c366dc7b307c7e2384fccfcf7321269dde0768aada4a93a629309b6f3a5"
+    },
+    {
+      "path": "run/run_017/artifacts/private/loss_contract.json",
+      "sha256": "8929c6528c305ea67ae31f46af2d3d8048f8ef64b3f953cfe9ac7b60afe752f4"
+    },
+    {
+      "path": "run/run_017/artifacts/private/canonical_fd_source_confirmed.csv",
+      "sha256": "677ead1f0c5618c974ae037b8b292e3274db36add87f0c0d3aac55cd3d47a8bc"
+    },
+    {
+      "path": "run/run_029/artifacts/private/main_review.json",
+      "sha256": "4316e52854d9c82e5fe42edcfd4a3ccfe75404595efe895b58ed44221dd916e9"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_030/artifacts/prepared_batch.json",
+      "role": "Frozen eight inputs"
+    },
+    {
+      "path": "run/run_030/artifacts/parameter_design.json",
+      "role": "Eight-point design"
+    },
+    {
+      "path": "run/run_030/artifacts/model_contract.json",
+      "role": "Numerical/model contract"
+    },
+    {
+      "path": "run/run_030/artifacts/loss_contract_binding.json",
+      "role": "Frozen SPT Loss identity"
+    },
+    {
+      "path": "run/run_030/artifacts/budget_protocol.json",
+      "role": "16 FE pilot budget"
+    },
+    {
+      "path": "run/run_030/artifacts/odb_result_protocol.json",
+      "role": "Future ODB envelope"
+    },
+    {
+      "path": "run/run_030/summary.md",
+      "role": "Report"
+    },
+    {
+      "path": "run/run_030/artifacts/private/main_verification.json",
+      "role": "Independent MAIN audit"
+    },
+    {
+      "path": "run/run_030/artifacts/private/main_cae_acceptance.json",
+      "role": "Real CAE receipt"
+    }
+  ],
+  "validation": [
+    {
+      "check": "real_cae_handoff",
+      "status": "PASS",
+      "scope": "27 Hub artifact hashes and actual MAIN session completion receipt"
+    },
+    {
+      "check": "eight_inp_static_identity",
+      "status": "PASS",
+      "scope": "Unique hashes, nonmaterial bytes, table and empty workdirs"
+    },
+    {
+      "check": "abq_preview",
+      "status": "PASS",
+      "scope": "8/8 preflight and dry-run; Queue and Settings unchanged"
+    },
+    {
+      "check": "offline_contract_tests",
+      "status": "PASS",
+      "scope": "Six synthetic/identity checks"
+    },
+    {
+      "check": "scientific_validity",
+      "status": "WARNING",
+      "scope": "Center-only numerical check, experiment/model uncertainties and historical information exposure"
+    }
+  ],
+  "errors": []
+}

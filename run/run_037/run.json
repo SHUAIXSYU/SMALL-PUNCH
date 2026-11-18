@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_037",
+  "stage": "D09 recovery gate reassessment after reboot",
+  "objective": "Queue another D09 attempt only if official recovery gate is clear",
+  "status": "BLOCKED",
+  "start_time": "2026-10-25T20:12:43.143157+08:00",
+  "end_time": "2026-10-25T20:12:43.690658+08:00",
+  "git_branch": "main",
+  "git_head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+  "git": {
+    "branch": "main",
+    "head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+    "remote": "origin\thttps://github.com/SHUAIXSYU/SMALL-PUNCH.git (fetch)\norigin\thttps://github.com/SHUAIXSYU/SMALL-PUNCH.git (push)",
+    "working_tree": "M agenthub_sp_invopt/abqjobpilot_project/project.db\n M run/README.md\n M status/PROJECT_STATUS.md\n?? run/run_019/\n?? run/run_020/\n?? run/run_021/\n?? run/run_022/\n?? run/run_023/\n?? run/run_024/\n?? run/run_025/\n?? run/run_026/\n?? run/run_027/\n?? run/run_028/\n?? run/run_029/\n?? run/run_030/\n?? run/run_031/\n?? run/run_032/\n?? run/run_033/\n?? run/run_034/\n?? run/run_035/\n?? run/run_036/\n?? run/run_037/"
+  },
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "inputs": [
+    {
+      "path": "run/run_033/artifacts/candidates/SPIO_R033_D09_L/SPIO_R033_D09_L.inp",
+      "role": "frozen input",
+      "sha256": "5d754294edca19e8eef85661f5a99f18cfe189f484b86ddb5e3ee52acc354d4b"
+    },
+    {
+      "path": "run/run_036/checkpoints/completed.json",
+      "role": "prior diagnosis"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_037/artifacts/status_summary.json",
+      "role": "read-only status"
+    },
+    {
+      "path": "run/run_037/artifacts/private/read_only_reassessment.json",
+      "role": "private recovery plan"
+    },
+    {
+      "path": "run/run_037/summary.md",
+      "role": "report"
+    }
+  ],
+  "validation": [
+    {
+      "check": "project_and_frozen_input",
+      "status": "PASS",
+      "evidence": "Project ID, PERSISTED Settings and input SHA-256 match"
+    },
+    {
+      "check": "official_recovery_plan",
+      "status": "BLOCKED",
+      "evidence": "can_apply=false and prior retry remains DATACHECK_RUNNING"
+    },
+    {
+      "check": "third_enqueue",
+      "status": "NOT_RUN",
+      "evidence": "public recovery guard not cleared"
+    }
+  ],
+  "errors": [
+    {
+      "code": "RECOVERY_REQUIRED",
+      "severity": "BLOCKED",
+      "message": "Tracked launcher/solver exit is not established: IDENTITY_MISMATCH; A solver .lck file exists; never remove it automatically; No exact queue/live identity, start time, phase and command-exit evidence match; No supported metadata-only transition; manual investigation is required"
+    }
+  ]
+}

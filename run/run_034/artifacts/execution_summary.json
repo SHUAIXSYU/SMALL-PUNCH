@@ -1,0 +1,39 @@
+{
+  "at": "2026-10-25T18:43:21.148877+08:00",
+  "status": "NINETEEN_SAFE_ONE_UNKNOWN_INTERRUPTED",
+  "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+  "safe_for_odb_point_ids": [
+    "I03",
+    "I04",
+    "I05",
+    "I06",
+    "I07",
+    "I08",
+    "D01",
+    "D08",
+    "D02",
+    "D03",
+    "D10",
+    "D04",
+    "D11",
+    "D05",
+    "D12",
+    "D06",
+    "D13",
+    "D07",
+    "D14"
+  ],
+  "excluded": [
+    {
+      "point_id": "D09",
+      "queue_id": "q_0bebaa417158409fba973efcbae921fd",
+      "status": "UNKNOWN_INTERRUPTED",
+      "lock_exists": true
+    }
+  ],
+  "batch_attempts_started": 20,
+  "completed_software_success": 19,
+  "numerical_qualification_pending": 19,
+  "not_scored": 1,
+  "no_solver_datacheck_enqueue_retry": true
+}

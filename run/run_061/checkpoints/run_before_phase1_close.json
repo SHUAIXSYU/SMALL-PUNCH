@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_061",
+  "stage": "I06 single refinement authorized queue-only execution record",
+  "objective": "verify run060 freeze; register one exact user-authorized attempt; enqueue only; stop for manual GUI start",
+  "status": "RUNNING",
+  "start_time": "2026-10-27T23:33:25.090517+08:00",
+  "end_time": null,
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "git_head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+  "git_branch": "main",
+  "inputs": [
+    {
+      "path": "run/run_060/artifacts/prepared_batch.json",
+      "sha256": "599734dbcfc0a809188fd0f58453cf33a3d4923caa7efc4b0bf89d2b7850b3a9",
+      "role": "immutable preparation manifest"
+    }
+  ],
+  "outputs": [],
+  "validation": [],
+  "errors": []
+}

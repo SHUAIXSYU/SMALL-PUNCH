@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-24T18:55:16.305770+08:00",
+  "run_id": "run_032",
+  "status": "WARNING",
+  "stop_state": "I02_QUEUED_AWAITING_MANUAL_START",
+  "i01_gate": "PASS_I01_EXPLORATORY_GATE_WITH_WARNINGS",
+  "i01_loss": 1.9543863201427107,
+  "i02_queue_id": "q_a40ddbf45cec472cb3541e28e6184fad",
+  "agenthub_chain_valid": true,
+  "queue_unique_executable": true,
+  "summary_sha256": "a2def5021e54f1b3680e1f074e84723f9168bfc2b886018db7605bb8883a1cb5",
+  "run_json_sha256": "936f28511bc5af8da62f4ba556f095eb05d0b6355a772a63d12dc1969963abb7",
+  "no_codex_solver_start": true,
+  "sealed_tensile_accessed": false
+}

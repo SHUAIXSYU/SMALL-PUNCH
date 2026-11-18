@@ -1,0 +1,397 @@
+{
+  "version": "run050-evidence-index-v1",
+  "at": "2026-10-26T21:58:55.924708+08:00",
+  "files": [
+    {
+      "path": "run/run_050/artifacts/dispatch.py",
+      "sha256": "e870f7119db3c772e172c2b91c051dbb032b83b02ab9d728e1b03732a1e541fd",
+      "visibility": "PUBLIC_CODE_OR_SCOPE_METADATA"
+    },
+    {
+      "path": "run/run_050/artifacts/finalize_run.py",
+      "sha256": "c2258bc2b1fb60aec3d94e979efc6b5e7ec138e834fca009986c3c63f5405463",
+      "visibility": "PUBLIC_CODE_OR_SCOPE_METADATA"
+    },
+    {
+      "path": "run/run_050/artifacts/main_global_energy.py",
+      "sha256": "45858c7228be603030b0a322891ba46fafa4ae12d8319ab705e7cb11eb27dfad",
+      "visibility": "PUBLIC_CODE_OR_SCOPE_METADATA"
+    },
+    {
+      "path": "run/run_050/artifacts/main_hardening_work_check.py",
+      "sha256": "d8c44aafdf798ba3e7e56b9873e00a85dc373476dfb496146c973aa6cbfc8878",
+      "visibility": "PUBLIC_CODE_OR_SCOPE_METADATA"
+    },
+    {
+      "path": "run/run_050/artifacts/main_material_scope.py",
+      "sha256": "3e230e6eb0c1c423d57d2cc10de4dbf1800dd94324c5f8bd501a1ef76228e788",
+      "visibility": "PUBLIC_CODE_OR_SCOPE_METADATA"
+    },
+    {
+      "path": "run/run_050/artifacts/main_spatial_recheck.py",
+      "sha256": "b6246da8e5853be292bae51604ded72cc770f58648500f27f81b97d1591b2e37",
+      "visibility": "PUBLIC_CODE_OR_SCOPE_METADATA"
+    },
+    {
+      "path": "run/run_050/artifacts/odb_task_payload.json",
+      "sha256": "3a815e00ec744c00544514f4e2832f65805f959260ea0b3492e7862416d7f1cd",
+      "visibility": "PUBLIC_CODE_OR_SCOPE_METADATA"
+    },
+    {
+      "path": "run/run_050/artifacts/prepare_interpretation.py",
+      "sha256": "221a0cb2db91ece6d458cbefe4b15540d3fa22d963a5b6be160303b492dc79c8",
+      "visibility": "PUBLIC_CODE_OR_SCOPE_METADATA"
+    },
+    {
+      "path": "run/run_050/artifacts/private/auxiliary_inspection_notes.json",
+      "sha256": "493e5b37db15308e749fe63997ba9fcf5181e0a975553666a78900855b857866",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/boundary_research_design.json",
+      "sha256": "0ee8c1e1a6a25b872d94e33f78af81014d45f12f252a1ad20f132dbbed70c7ee",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/final_integrity_checks.json",
+      "sha256": "f8ef7f3f9beaf84b77050215d4e9047e753ad17b0664c3cf529070efb751e12c",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/frozen_material_range_comparison.png",
+      "sha256": "81a55b307830efa13ca815735b2beab47e1a706c8d5aa36e733725d0525f4f56",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/frozen_material_scope.json",
+      "sha256": "f3c1f581f549fae11ea272294d20fcc1771c57802e41bb0bc1878c5b4a8b16a3",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/frozen_table_scope_samples.csv",
+      "sha256": "e8394ae930493d1baedc0bdad3c5113ea5510ef4a1060c5f899e710afaa41dab",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/git_final.json",
+      "sha256": "3de662e778ab8e1ed3ae5238957860b1131f8adea616993999a4065cd782b678",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/hub_session.json",
+      "sha256": "11d1726cedaf72f9254406215b6b0eec5d05a35dfb9bd91a8c1414ab4c917b49",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/interpretation_rules.json",
+      "sha256": "5ddac659bf41a485c033985bcffdf30c03e4bb27fb2fc229517fecd437da4536",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/main_energy_comparison.json",
+      "sha256": "df11cfd8c07ad60c6add6fbe8f73563ae240719e6b821743aad6394ae7a6387c",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/main_global_energy_check.json",
+      "sha256": "7eadd6d024629dd1ffa69d6d478f772bae7442b8435a0fcd6a7a4574b4be3fca",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/main_hardening_work_consistency.json",
+      "sha256": "1a76aff1764f50c9077ad5e4ad0f5b3f943d8ac49fa47233eb0290d509fdeff0",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/main_quadrature_verification.json",
+      "sha256": "cd130a0d6d9cc1475b6630bf488b87d29e2959cad17297da87b7181d8ab5f6d1",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/main_review_checks.json",
+      "sha256": "eb12d956694ebad721109850f28e4681f9034cb07510d5a1ff2c363947b41fe2",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/main_spatial_independent_check.json",
+      "sha256": "5758a43cfb2385c400f8012ca7bc9acb2f59a9a9a027723198a5cb068c184708",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/main_threshold_volumes.csv",
+      "sha256": "ce4607191d6522422fa3b0ebc2d4efe18aef7a6a90be1de1c97f0ca67c0ceead",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/method_references.json",
+      "sha256": "42f8ffb4cdf5fcf5051ba8c08607864b4beb59b4e2ba1312b493d6c47280a4ee",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/next_step_decision.json",
+      "sha256": "4854cb52dbec23d568344cb56f5755a2d78db4a04cf60d550f0b9ff772402a83",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/odb/admission.json",
+      "sha256": "d9bdfd2b4b37b2a28e478b149a6852515440b59aaaf853e46f4bb7b2891fc439",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/odb/admit.py",
+      "sha256": "d95d3cb9c349fec0bfaaf975f6df3d046c89514dc87b681fe891b8632fbe2480",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/odb/analyze_spatial.py",
+      "sha256": "996e313d0b228e0edd895eea1bad7b86716e4bb4d91080762848f455e9cf6afe",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/odb/D01/contact_stages.csv",
+      "sha256": "c2054b7f7e9476edae5cd0fc0234674930fc968f49681d2fab07af784353bac9",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/odb/D01/energy_estimate.json",
+      "sha256": "35ea3c105939099c9522e6f16dcd8c71e2adaa0a5cf38b061a19fab95a24ec53",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/odb/D01/energy_strain_stage_v2.csv",
+      "sha256": "be2dfd448fe5b1e040ea27c042358273b6454e41dc03d576f0722b2d7f93e4a7",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/odb/D01/energy_strain_stage_v2.json",
+      "sha256": "2d1b73287e76b3270424d3f3fd86e53c30199df1f613b395c8f52fe266b115d5",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/odb/D01/estimated_ip_cumulative_energy.csv",
+      "sha256": "5bf18e15c37dc27fc436834b2ef94a020bbcda4b56c249f1cc58faa76ef42c9f",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/odb/D01/source_after_read.json",
+      "sha256": "7c4135bec40f2b0f6a3c564e4cb7dc6269ea7f86112a59fdc910b810d9595422",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/odb/D01/spatial_extraction.json",
+      "sha256": "db08e2394a2ab7d7aa5cc8c2a65fa90845b422025948cf2098cd1016cdd0576c",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/odb/D01/spatial_ips.csv",
+      "sha256": "851f6e223394a570657bf1a4e7b93b9f6ff052fb487099c476304f0220c0bf43",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/odb/energy_consistency.csv",
+      "sha256": "c3626dc87d8206601ef5b710c98e139aa2874192cf98b23b296b0c40066b6a1b",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/odb/energy_consistency.png",
+      "sha256": "dfcc4b9dfa5fade8e1c6970da29f2ec839f5af84ef76bb125227d3bbd2c186b4",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/odb/estimate_energy.py",
+      "sha256": "8b2dd6bb6cb7f61a1cf049f9ec8b4f46fe5d31e2900f64c3713bca97fd6d0160",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/odb/estimate_energy_stage.py",
+      "sha256": "b35ce661f4eee41c9166ab28df41359309486ed813d7804c7c6d8067c9fa11ef",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/odb/extract_attempt1_error.txt",
+      "sha256": "f29eef3465a31159c221c6f7bc22f05437f9196f97e8d072e957b436549a1b27",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/odb/extract_spatial.py",
+      "sha256": "15aa4664f73eba3e927dd2ab2b069946a187542a61b95f187e0ecad88f7c1df8",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/odb/finalize_spatial.py",
+      "sha256": "6e165d26cbab30b2bf5e16c0fd447d69f91b2b314bc6a053e813ae232908dc3c",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/odb/I08/contact_stages.csv",
+      "sha256": "857baea34e9fdee0a3e04067c2b73e3fc97bd52d540c67e8e788860b75e376db",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/odb/I08/energy_estimate.json",
+      "sha256": "c8265bc0415df9fcb2ecb45f83d274f88b78f7190cb1672d1908c7e0231815cd",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/odb/I08/energy_strain_stage_v2.csv",
+      "sha256": "07f4dcd4574898d891b59e02ccb77d547073fde3e39117827fb64cf4e81270fd",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/odb/I08/energy_strain_stage_v2.json",
+      "sha256": "120506adaa02fa1dcf89d827830223b9848607855fc739400558b3154bf14556",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/odb/I08/estimated_ip_cumulative_energy.csv",
+      "sha256": "840a9d3da251833918759d63c521cdcefcfbac617c02e5ae47bab6c2cad0712c",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/odb/I08/source_after_read.json",
+      "sha256": "5fbee30ab44377b3a83a24001e04a299e860b642546f6863e5c72a6c2fdfd96b",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/odb/I08/spatial_extraction.json",
+      "sha256": "3b3f788908423cdbc341f845796100e3c451d0bc4043c5f343db51d902241662",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/odb/I08/spatial_ips.csv",
+      "sha256": "d69ab56d867810f4c100b5a69133aa85994997b1e6a7642c1ca75d4693626b27",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/odb/identity.json",
+      "sha256": "b8b347185d37c74b55491b3a070203cde8dc185508e75dec260bd9e02710a9d5",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/odb/lease.json",
+      "sha256": "d258692b1fdc472e63b00e89495341bfbe381ed370acc1f68b427a7f6b2947a5",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/odb/manifest.json",
+      "sha256": "d242a3247bceae62fa7022baf96e7d0a6512a1f914208b8396a7bcaa7fc254fd",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/odb/odb_field_inventory.json",
+      "sha256": "05df1e6545b562a9e0d415b3b5775db869550698982eb2eccbd0ce92f2ca4c1f",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/odb/official_axisymmetric_ip_numbering.png",
+      "sha256": "6ea5a45a3d3d68d5572f7e126ab83a63448c3e7817719256aae8f59bedde2a9d",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/odb/peeq_maps_1p2mm.png",
+      "sha256": "348fcc608a67a075e92fdc6bcefece01caee71af9bbd821d6ad786499aae8ff8",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/odb/probe_attempt1_error.txt",
+      "sha256": "a824612a325a2b768007473a6f2e9f4639da72ffad587c679cf433b88394f587",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/odb/probe_attempt2_error.txt",
+      "sha256": "e8ea86de6aeaf20d502ade8bf19cfa843878e0e053a8f6d707264d6ab25ce777",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/odb/probe_odb.py",
+      "sha256": "d15caaa91767c968d34902e38413fae86eb38a3a919306b177d26d661278cc6c",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/odb/probe_safety.ps1",
+      "sha256": "fb99025d1f76d17fc45b707bc5ca06b2ce5cbbab71caee4333f3bcf3f40e58ea",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/odb/provenance.json",
+      "sha256": "ce42238cd1167e147525356470bcfdebea7aafc15ff2844f8f54c687b2ccc5d2",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/odb/REPORT.md",
+      "sha256": "02c79207027ae000680eabb3531c02e83fa106dcd055e188de7078dd8b77fd42",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/odb/safety_probe.json",
+      "sha256": "8e28c8fffa6705b6c65a53c10f7ede1e09bedec4ee0f4f74b1e1b1a8aa39db60",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/odb/spatial_bins.csv",
+      "sha256": "9c9dad8a382e46614d7e0db5e8a35081de208218e83f57883f5590cb08ac0e40",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/odb/spatial_energy_result.json",
+      "sha256": "05e0788f1c3451eeca81417083910060fb889bcc3e11dc6cc0c919a513cf1f89",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/odb/stage_summary.csv",
+      "sha256": "bf8818912aa7ef12dae53bb04ee67880d783ab3c6f872045bb1e9c4db47611ab",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/odb/threshold_reference_volume_fractions.png",
+      "sha256": "660f1e6ee44e6371e9e9fc355f4224b548b3250978f69d36c3a82ad742e1d52f",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/odb_task_received_by_main.json",
+      "sha256": "8f233f14dc85a66ce69584fd38117cb9224275077327278d94d9cc9f20276117",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/peeq_four_stage_comparison.png",
+      "sha256": "70bc91894fe6768c06de7975a1ae127b44171f079e22ce2d9819a33ddc5be292",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/protected_before.json",
+      "sha256": "bb6c11edf693637b6963f9530fa7df2cc4be587a7d976807f0cd771630d70bfb",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/protected_final.json",
+      "sha256": "bb6c11edf693637b6963f9530fa7df2cc4be587a7d976807f0cd771630d70bfb",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/scientific_report.md",
+      "sha256": "2cd12bfcac4ef78072dde848359c28de50d9d2b4c7b99e9d45581c3c65a9fee9",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/private/status_before_run050.json",
+      "sha256": "cd281c957065a7d9005902ec08cc7e66fa87658eb136a50c6f0e1d966139fdf9",
+      "visibility": "PRIVATE_GIT_IGNORED"
+    },
+    {
+      "path": "run/run_050/artifacts/review_and_report.py",
+      "sha256": "56481f5a2058b56e6dcedf7ef80a5cd39824a069060579474376b9026aa83456",
+      "visibility": "PUBLIC_CODE_OR_SCOPE_METADATA"
+    },
+    {
+      "path": "run/run_050/checkpoints/start.json",
+      "sha256": "c2fe5af70d1b9bb78758913a419cba7ad57b635380345239ea7762be34c9a245",
+      "visibility": "PUBLIC_CODE_OR_SCOPE_METADATA"
+    },
+    {
+      "path": "run/run_050/summary.md",
+      "sha256": "344a509dff7da2d07c93cc8dc86f9bee9e4ddc4f3c2205d0dcf330c92cc92570",
+      "visibility": "PUBLIC_CODE_OR_SCOPE_METADATA"
+    }
+  ],
+  "excluded": "self/run.json and later Hub receipt/completion checkpoint avoid cyclic hashes"
+}

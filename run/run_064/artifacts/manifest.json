@@ -1,0 +1,47 @@
+{
+  "version": "run064-delivery-v1",
+  "files": [
+    {
+      "path": "run/run_064/artifacts/private/partner_report/SP_InvOpt_Progress_Report_CN.pdf",
+      "sha256": "1c50d4b0a0294fccacd50b072d798dc9d18732dce677a99de9553ec44493d35b",
+      "private": true,
+      "role": "partner communication evidence"
+    },
+    {
+      "path": "run/run_064/artifacts/private/partner_report/SP_InvOpt_Progress_Report_CN.md",
+      "sha256": "8719498607be3d751ef3367954e084ef303b3535aa29b1ad82386aba18353407",
+      "private": true,
+      "role": "partner communication evidence"
+    },
+    {
+      "path": "run/run_064/artifacts/private/partner_report/figure_sources.json",
+      "sha256": "d20ef7a22bcb05cf48d59b8d13be4c18a88376f2cd212f517bec3f63eb02ccb4",
+      "private": true,
+      "role": "partner communication evidence"
+    },
+    {
+      "path": "run/run_064/artifacts/private/partner_report/report_evidence_manifest.json",
+      "sha256": "1bfa97331232c97f04e8b7abc40d8d9511af1cb47d9aec8e735d0d4e13d25265",
+      "private": true,
+      "role": "partner communication evidence"
+    },
+    {
+      "path": "run/run_064/artifacts/private/partner_report/main_scientific_review.md",
+      "sha256": "a77560fa07283f0cf38950158ff9baea18a5e9111a0622848e529ddc265a038a",
+      "private": true,
+      "role": "partner communication evidence"
+    },
+    {
+      "path": "run/run_064/artifacts/private/partner_report/delivery_quality_checks.json",
+      "sha256": "bb5fefcac75d1bbb03b36fd3d9546383aff78a2a253559fd2652fcffa828233a",
+      "private": true,
+      "role": "partner communication evidence"
+    },
+    {
+      "path": "run/run_064/artifacts/private/partner_report/agenthub_receipt.json",
+      "sha256": "8db2998db2586c38923d82b26b4e14867b4263f24b446c35fdafaba9241f8414",
+      "private": true,
+      "role": "partner communication evidence"
+    }
+  ]
+}

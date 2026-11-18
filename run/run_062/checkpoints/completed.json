@@ -1,0 +1,20 @@
+{
+  "at": "2026-10-28T01:13:41.384243+08:00",
+  "scientific_status": {
+    "EXECUTION": "PASS",
+    "SOFTWARE_STATUS": "COMPLETED_WITH_WARNINGS",
+    "NUMERICAL_QUALITY": "WARNING",
+    "SCIENTIFIC_SCOREABILITY": "SCOREABLE_WITH_LIMITATIONS",
+    "I06_POINT_REFINEMENT": "SUPPORTED",
+    "I06_POINT_REFINEMENT_scope": "observed adjacent increment response closeness at this center, not formal/asymptotic convergence PASS",
+    "WEAK_DIRECTION_RESOLUTION": "LIMITED",
+    "LOCAL_IDENTIFIABILITY": "LIMITED",
+    "REAL_MATERIAL_VALIDATION": "NOT_EVALUABLE",
+    "R_risk_band": "R_0p10_TO_0p25_NONNEGLIGIBLE",
+    "no_retroactive_change_to_run059": true
+  },
+  "report_sha256": "54e1811b6a09708cdb61703f27d9d093207350a6b128945c615764a372a42420",
+  "evidence_manifest_sha256": "604120736cef59af934120cb96a1b0b24665903f8cc24ef6ecd706fbedb2f394",
+  "Hub_task": "57709319-aef5-4085-a494-f8c34d63c13c",
+  "no_further_work_authorized": true
+}

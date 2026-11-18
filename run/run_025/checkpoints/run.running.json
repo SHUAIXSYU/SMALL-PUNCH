@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_025",
+  "stage": "V01 actual result qualification",
+  "objective": "Audit V01, real ODB extraction, frozen numerical gate; V02 only if qualified",
+  "status": "RUNNING",
+  "start_time": "2026-10-24T16:27:36.249285+08:00",
+  "end_time": null,
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "git_head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+  "git_branch": "main",
+  "inputs": [
+    {
+      "path": "run/run_024/artifacts/enqueue_result.json",
+      "role": "Unique authorized V01 queue identity"
+    }
+  ],
+  "outputs": [],
+  "validation": [],
+  "errors": []
+}

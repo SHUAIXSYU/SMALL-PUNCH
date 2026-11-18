@@ -1,0 +1,65 @@
+{
+  "run_id": "run_055",
+  "files": [
+    {
+      "path": "run/run_055/artifacts/build_inventory.py",
+      "role": "offline analysis code",
+      "sha256": "04fbd11615eb6f7abf8377ff250dcb99353ab62a37bdd24734871f8e889e110f",
+      "visibility": "PUBLIC_CODE"
+    },
+    {
+      "path": "run/run_055/artifacts/describe_and_apply.py",
+      "role": "offline analysis code",
+      "sha256": "eabe147ca70ae8a544c25dfb2eeaa9906d068347f89b5c3d00615020f624c2c7",
+      "visibility": "PUBLIC_CODE"
+    },
+    {
+      "path": "run/run_055/artifacts/feature_core.py",
+      "role": "offline analysis code",
+      "sha256": "ecc4d16c4e861e0cf3bbe90f5950e9bf84cf31f9c6f5b943260bd0b95777fd12",
+      "visibility": "PUBLIC_CODE"
+    },
+    {
+      "path": "run/run_055/artifacts/finalize_reports.py",
+      "role": "offline analysis code",
+      "sha256": "71318cf8fef3d8008a0187da11c5e0d75c8cc8c52b08b03042e8ece68df8ca04",
+      "visibility": "PUBLIC_CODE"
+    },
+    {
+      "path": "run/run_055/artifacts/inverse_baselines.py",
+      "role": "offline analysis code",
+      "sha256": "b69a3bdba63cec2479eb28f486f841d0e67beefadca1d082a79f3ecb941a5c0a",
+      "visibility": "PUBLIC_CODE"
+    },
+    {
+      "path": "run/run_055/artifacts/run_nested_cv.py",
+      "role": "offline analysis code",
+      "sha256": "b1c9cb30c2fbd4d59b25d2e4015c399bffc763d464df902a80fa4d910e8d5210",
+      "visibility": "PUBLIC_CODE"
+    },
+    {
+      "path": "run/run_055/artifacts/test_features_and_cv.py",
+      "role": "offline analysis code",
+      "sha256": "0e319345d919df7dbeab18ea4cfcd105107c30662efe28ef84d0ce13393ce39d",
+      "visibility": "PUBLIC_CODE"
+    },
+    {
+      "path": "run/run_055/artifacts/verify_analysis.py",
+      "role": "offline analysis code",
+      "sha256": "ed66f5a7d31db4abf9e5be098dded6ebd19ec943002e36b7ae520bcedafd804b",
+      "visibility": "PUBLIC_CODE"
+    },
+    {
+      "path": "run/run_055/artifacts/private/scientific_report.md",
+      "role": "complete private scientific report",
+      "sha256": "6bb4a1ba15b469b29f667a8098c5c47ee526b971975172359b6e2498726901d0",
+      "visibility": "PRIVATE"
+    },
+    {
+      "path": "run/run_055/artifacts/private/evidence_manifest.json",
+      "role": "private evidence list",
+      "sha256": "59f4a8f968ab4a4149afcbc3040a5dba50cb3aee1df4f4f9f6fb52942253014b",
+      "visibility": "PRIVATE"
+    }
+  ]
+}

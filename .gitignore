@@ -29,3 +29,19 @@ abaqus.rpy*
 __pycache__/
 *.py[cod]
 .pytest_cache/
+
+# Abaqus model databases and their automatic backups (run_056 policy).
+*.[cC][aA][eE]
+*.[cC][aA][eE].*
+# Additional binary result/index files; keep INP/JNL and diagnostic logs eligible.
+*.[fF][iI][lL]
+*.[sS][eE][lL]
+*.[oO][dD][bB]_[fF]
+# Case variants of the already-ignored Abaqus restart/analysis binaries.
+*.[pP][rR][tT]
+*.[rR][eE][sS]
+*.[sS][tT][tT]
+*.[mM][dD][lL]
+*.[pP][aA][cC]
+*.[aA][bB][qQ]
+*.[sS][iI][mM][dD][iI][rR]/

@@ -1,0 +1,17 @@
+{
+  "at": "2026-10-25T22:47:07.796041+08:00",
+  "status": "EIGHT_BO_DE_JOBS_QUEUED_AWAITING_MANUAL_START",
+  "queue_ids": [
+    "q_6a1926161e9a47068e6af32188417ccc",
+    "q_224a3c8881144dc7b3d1ffadd3ae773b",
+    "q_6190d5cd054847dd9cd0e0de0f85cc5b",
+    "q_87629bc897334b6bba9ca443854ee1e3",
+    "q_8ea986fecc744003b63e27e04c561ba4",
+    "q_b7788b9b032340988313061d9a05f3dc",
+    "q_983e8f5e3e1c4eb699f47d33c0418744",
+    "q_48f294fd336444169d472bcc7807fa53"
+  ],
+  "started_attempts": 0,
+  "handoff_task_id": "282c1954-1ffc-46dd-8765-e6e6f74221ce",
+  "evidence_manifest_sha256": "649c95b34a8f13976390f56ef42c6b287c0d722ce9b7d30a0cfa58d5f74e4afa"
+}

@@ -1,0 +1,47 @@
+{
+  "version": "run062-artifacts-v1",
+  "files": [
+    {
+      "path": "run/run_062/artifacts/private/scientific_report.md",
+      "role": "Phase2 evidence",
+      "private": true,
+      "sha256": "54e1811b6a09708cdb61703f27d9d093207350a6b128945c615764a372a42420"
+    },
+    {
+      "path": "run/run_062/artifacts/private/refinement_metrics.json",
+      "role": "Phase2 evidence",
+      "private": true,
+      "sha256": "b97f24061c93ec3cf8964fde7b4944299ac24914aed4b739d6eae66ffc122ebe"
+    },
+    {
+      "path": "run/run_062/artifacts/private/execution_audit.json",
+      "role": "Phase2 evidence",
+      "private": true,
+      "sha256": "f4aa1ca7ecf011a20d5b89ccf0d504bab21cfd81486ebda02672d2cec41adbf3"
+    },
+    {
+      "path": "run/run_062/artifacts/private/scientific_status.json",
+      "role": "Phase2 evidence",
+      "private": true,
+      "sha256": "753fdd0d1769f7d5ee9b06e907e39bac34d789c68c1feb7a62f97a144d9b1502"
+    },
+    {
+      "path": "run/run_062/artifacts/private/evidence_manifest.json",
+      "role": "Phase2 evidence",
+      "private": true,
+      "sha256": "604120736cef59af934120cb96a1b0b24665903f8cc24ef6ecd706fbedb2f394"
+    },
+    {
+      "path": "run/run_062/artifacts/private/agenthub_completion_receipt.json",
+      "role": "Phase2 evidence",
+      "private": true,
+      "sha256": "d238118d6784c4b663d32359c01d80f2ec47e29b412d1120e249b706b77756dc"
+    },
+    {
+      "path": "run/run_062/artifacts/private/authorization_ledger_consumed.json",
+      "role": "Phase2 evidence",
+      "private": true,
+      "sha256": "19a3d7604ff2966312cbb38ba24301c6ada3739ed7d0da57f4a5b357889881a9"
+    }
+  ]
+}

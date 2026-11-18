@@ -1,0 +1,22 @@
+{
+  "inp_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_020\\artifacts\\candidates\\SPIO_R020_L03_NM\\SPIO_R020_L03_NM.inp",
+  "job_name": "SPIO_R020_L03_NM",
+  "cpus": 14,
+  "gpus": 0,
+  "batch": "run020_four_authorized_run021",
+  "strategy": "L03",
+  "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_020\\artifacts\\solver\\SPIO_R020_L03_NM",
+  "submission_mode": "enqueue_only",
+  "allow_solver_submit": false,
+  "metadata": {
+    "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+    "task_id": "9e9d031b-b7b9-4540-8819-1af81b9e41d1",
+    "inp_sha256": "0e858c2a19229dc72a98f87f4b32fbe60d47fa33e772bf5568164fa6e0b69639",
+    "max_attempts": 1,
+    "auto_retries": 0,
+    "notes": "run021; project_id=b87d2cd6-8519-4ac3-bae6-7eb989fb2dae; task_id=9e9d031b-b7b9-4540-8819-1af81b9e41d1; inp_sha256=0e858c2a19229dc72a98f87f4b32fbe60d47fa33e772bf5568164fa6e0b69639; max_attempts=1; retries=0; USER GUI START ONLY; AUTO_STOP_UNAVAILABLE"
+  },
+  "run_datacheck": true,
+  "run_full": true,
+  "schema_version": "1.0"
+}

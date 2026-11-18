@@ -1,0 +1,70 @@
+{
+  "status": "ENQUEUED",
+  "job_id": "q_bbaaeda7491a4a60b237879bd755c247",
+  "queue_file": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime\\queue.json",
+  "command_preview": "DATACHECK: cmd.exe /c D:\\ABAQUS2024\\Commands\\abq2024.bat job=SPIO_R020_L04_NP input=E:\\Projects\\SMALL-PUNCH\\run\\run_020\\artifacts\\candidates\\SPIO_R020_L04_NP\\SPIO_R020_L04_NP.inp datacheck cpus=14 interactive ask_delete=OFF\nFULL_RUN: cmd.exe /c D:\\ABAQUS2024\\Commands\\abq2024.bat job=SPIO_R020_L04_NP input=E:\\Projects\\SMALL-PUNCH\\run\\run_020\\artifacts\\candidates\\SPIO_R020_L04_NP\\SPIO_R020_L04_NP.inp cpus=14 interactive ask_delete=OFF",
+  "expected_odb_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_020\\artifacts\\solver\\SPIO_R020_L04_NP\\SPIO_R020_L04_NP.odb",
+  "queue_only": true,
+  "queue_file_mutated": true,
+  "solver_started": false,
+  "runner_started": false,
+  "gui_required": false,
+  "allowed_mutations": [
+    "runtime/queue.json"
+  ],
+  "forbidden_mutations_detected": false,
+  "runtime_snapshot_before": {
+    "runtime_dir": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime",
+    "queue.json": {
+      "path": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime\\queue.json",
+      "exists": true,
+      "is_dir": false,
+      "size": 9159,
+      "mtime_ns": 1792823756497348000
+    },
+    "live_status.json": {
+      "path": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime\\live_status.json",
+      "exists": true,
+      "is_dir": false,
+      "size": 764,
+      "mtime_ns": 1792768859930326000
+    },
+    "reports": {
+      "path": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime\\reports",
+      "exists": true,
+      "is_dir": true,
+      "file_count": 5,
+      "total_size": 43397,
+      "mtime_ns": 1792768859916109100
+    }
+  },
+  "runtime_snapshot_after": {
+    "runtime_dir": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime",
+    "queue.json": {
+      "path": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime\\queue.json",
+      "exists": true,
+      "is_dir": false,
+      "size": 10902,
+      "mtime_ns": 1792823757225513200
+    },
+    "live_status.json": {
+      "path": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime\\live_status.json",
+      "exists": true,
+      "is_dir": false,
+      "size": 764,
+      "mtime_ns": 1792768859930326000
+    },
+    "reports": {
+      "path": "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime\\reports",
+      "exists": true,
+      "is_dir": true,
+      "file_count": 5,
+      "total_size": 43397,
+      "mtime_ns": 1792768859916109100
+    }
+  },
+  "errors": [],
+  "warnings": [],
+  "schema_version": "1.0",
+  "error_details": []
+}

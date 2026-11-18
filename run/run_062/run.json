@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_062",
+  "stage": "run061 Phase2 I06 numerical resolution qualification",
+  "objective": "true execution audit, real ODB Agent extraction, MAIN review and frozen adjacent-refinement/R comparison; no new FE",
+  "status": "WARNING",
+  "start_time": "2026-10-28T01:00:05.347661+08:00",
+  "end_time": "2026-10-28T01:13:41.356119+08:00",
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "git_branch": "main",
+  "git_head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+  "parent_execution_run": "run_061",
+  "inputs": [
+    {
+      "path": "run/run_060/artifacts/prepared_batch.json",
+      "role": "frozen input",
+      "sha256": "599734dbcfc0a809188fd0f58453cf33a3d4923caa7efc4b0bf89d2b7850b3a9"
+    },
+    {
+      "path": "run/run_060/artifacts/comparison_contract.json",
+      "role": "frozen comparator contract",
+      "sha256": "325f5ba7678aa967c972d0e962528b3c3a4a48f10f22510b323a796546671af5"
+    },
+    {
+      "path": "run/run_061/artifacts/private/queue_manifest.json",
+      "role": "original authorized queue evidence",
+      "sha256": "9313c567a851730cfb121c6e4c690ef254f282d821c35084a5e5d4bf0f585516"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_062/artifacts/private/scientific_report.md",
+      "role": "post-run analysis evidence",
+      "sha256": "54e1811b6a09708cdb61703f27d9d093207350a6b128945c615764a372a42420"
+    },
+    {
+      "path": "run/run_062/artifacts/private/refinement_metrics.json",
+      "role": "post-run analysis evidence",
+      "sha256": "b97f24061c93ec3cf8964fde7b4944299ac24914aed4b739d6eae66ffc122ebe"
+    },
+    {
+      "path": "run/run_062/artifacts/private/execution_audit.json",
+      "role": "post-run analysis evidence",
+      "sha256": "f4aa1ca7ecf011a20d5b89ccf0d504bab21cfd81486ebda02672d2cec41adbf3"
+    },
+    {
+      "path": "run/run_062/artifacts/private/scientific_status.json",
+      "role": "post-run analysis evidence",
+      "sha256": "753fdd0d1769f7d5ee9b06e907e39bac34d789c68c1feb7a62f97a144d9b1502"
+    },
+    {
+      "path": "run/run_062/artifacts/private/evidence_manifest.json",
+      "role": "post-run analysis evidence",
+      "sha256": "604120736cef59af934120cb96a1b0b24665903f8cc24ef6ecd706fbedb2f394"
+    },
+    {
+      "path": "run/run_062/artifacts/private/agenthub_completion_receipt.json",
+      "role": "post-run analysis evidence",
+      "sha256": "d238118d6784c4b663d32359c01d80f2ec47e29b412d1120e249b706b77756dc"
+    },
+    {
+      "path": "run/run_062/artifacts/private/authorization_ledger_consumed.json",
+      "role": "post-run analysis evidence",
+      "sha256": "19a3d7604ff2966312cbb38ba24301c6ada3739ed7d0da57f4a5b357889881a9"
+    }
+  ],
+  "validation": [
+    {
+      "check": "real single DC/Full and identity",
+      "status": "PASS",
+      "evidence": "run/run_062/artifacts/private/execution_audit.json",
+      "scope": "1attempt, no retry, complete terminal output"
+    },
+    {
+      "check": "real ODB handoff and MAIN data review",
+      "status": "PASS",
+      "evidence": "run/run_062/artifacts/private/MAIN_ODB_handoff_verification.json",
+      "scope": "real ODB session task receipt and independent raw checks"
+    },
+    {
+      "check": "numerical process",
+      "status": "WARNING",
+      "evidence": "run/run_062/artifacts/private/MAIN_independent_raw_numerical_audit.json",
+      "scope": "no unresolved severe accepted warnings; retained ZERO_MOMENT/DAT fallback"
+    },
+    {
+      "check": "weak-direction risk",
+      "status": "WARNING",
+      "evidence": "run/run_062/artifacts/private/refinement_metrics.json",
+      "scope": "R .139906 in preregistered .1-.25 exploratory bin, not convergence PASS"
+    }
+  ],
+  "errors": [],
+  "outcome": "I06_REFINEMENT_ANALYSIS_COMPLETE",
+  "scientific_status": {
+    "EXECUTION": "PASS",
+    "SOFTWARE_STATUS": "COMPLETED_WITH_WARNINGS",
+    "NUMERICAL_QUALITY": "WARNING",
+    "SCIENTIFIC_SCOREABILITY": "SCOREABLE_WITH_LIMITATIONS",
+    "I06_POINT_REFINEMENT": "SUPPORTED",
+    "I06_POINT_REFINEMENT_scope": "observed adjacent increment response closeness at this center, not formal/asymptotic convergence PASS",
+    "WEAK_DIRECTION_RESOLUTION": "LIMITED",
+    "LOCAL_IDENTIFIABILITY": "LIMITED",
+    "REAL_MATERIAL_VALIDATION": "NOT_EVALUABLE",
+    "R_risk_band": "R_0p10_TO_0p25_NONNEGLIGIBLE",
+    "no_retroactive_change_to_run059": true
+  },
+  "actual_authorization_consumed": 1,
+  "new_FE": 0,
+  "new_queue": 0,
+  "automatic_retries": 0,
+  "agent_started_solver_datacheck": false,
+  "agenthub_science_task": "57709319-aef5-4085-a494-f8c34d63c13c",
+  "queue_id": "q_392e020abc59422c9cb6a93f35b235d2",
+  "tensile_access": false
+}

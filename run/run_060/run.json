@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_060",
+  "stage": "I06 numerical resolution qualification preparation",
+  "objective": "one max increment .00125 candidate and frozen weak-signal comparison; no execution",
+  "status": "WARNING",
+  "start_time": "2026-10-27T22:55:12.202077+08:00",
+  "end_time": "2026-10-27T22:58:38.244034+08:00",
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "git_branch": "main",
+  "git_head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+  "inputs": [
+    {
+      "path": "run/run_060/artifacts/private/source_manifest.json",
+      "role": "bounded old-source provenance",
+      "sha256": "1e8beabf188e76d87ce287a5b42683273a5cb1b513015c21e59d4bb9668f6f05"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_060/artifacts/prepared_batch.json",
+      "role": "frozen preparation evidence",
+      "sha256": "599734dbcfc0a809188fd0f58453cf33a3d4923caa7efc4b0bf89d2b7850b3a9"
+    },
+    {
+      "path": "run/run_060/artifacts/comparison_contract.json",
+      "role": "frozen preparation evidence",
+      "sha256": "325f5ba7678aa967c972d0e962528b3c3a4a48f10f22510b323a796546671af5"
+    },
+    {
+      "path": "run/run_060/artifacts/private/scientific_report.md",
+      "role": "frozen preparation evidence",
+      "sha256": "99440d67554fd670d9f11a4baee2f03bacdaa2d0abb2c7c8f1906dd283e268c0"
+    },
+    {
+      "path": "run/run_060/artifacts/private/comparison_protocol.md",
+      "role": "frozen preparation evidence",
+      "sha256": "05f0f6b8a3b20164a96255ccbb39db5a633fb142a0dd334a33d8785b85486515"
+    },
+    {
+      "path": "run/run_060/artifacts/private/evidence_manifest.json",
+      "role": "frozen preparation evidence",
+      "sha256": "4c9d3af9d1c1f6f97b215d29d481a87b3809ab9f45a0487d65d33d8f4ca8c803"
+    },
+    {
+      "path": "run/run_060/artifacts/private/agenthub_completion_receipt.json",
+      "role": "frozen preparation evidence",
+      "sha256": "fa2f01527305c9d6ac85d05b03a354b7e28aecc1c810ae5b7f6a80537705ac56"
+    }
+  ],
+  "validation": [
+    {
+      "check": "baseline identity/control/coverage",
+      "status": "QUALIFIED_WITH_LIMITATIONS",
+      "evidence": "run/run_060/artifacts/private/I06_baseline_audit.json",
+      "scope": "existing I06 numerical warnings and lack of time convergence retained"
+    },
+    {
+      "check": "input exact allowed diff",
+      "status": "PASS",
+      "evidence": "run/run_060/artifacts/private/input_byte_audit.json",
+      "scope": "one max increment plus2 identity comments; all material bytes fixed"
+    },
+    {
+      "check": "public previews",
+      "status": "PASS",
+      "evidence": "run/run_060/artifacts/private/public_preflight_dry_run.json",
+      "scope": "one Preflight/Dry-run, no mutation or Solver launch"
+    },
+    {
+      "check": "offline verification",
+      "status": "PASS",
+      "evidence": "run/run_060/artifacts/private/offline_tests.json",
+      "scope": "8 mathematical/identity tests"
+    }
+  ],
+  "errors": [],
+  "outcome": "PREPARED_TO_REQUEST_ONE_I06_RESOLUTION_RUN",
+  "new_INP": 1,
+  "new_FE_authorized": 0,
+  "new_queue": 0,
+  "solver_datacheck_started": false,
+  "predictor_retrained": false,
+  "tensile_access": false,
+  "agenthub_task_id": "3d469c92-421b-4864-9c6b-18385c96a23d"
+}

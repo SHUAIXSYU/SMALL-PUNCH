@@ -1,0 +1,63 @@
+{
+  "observed_at": "2026-10-24T14:35:58.070730+08:00",
+  "status": "FOUR_JOBS_QUEUED_AWAITING_MANUAL_START",
+  "run_status": "WARNING",
+  "task_id": "9e9d031b-b7b9-4540-8819-1af81b9e41d1",
+  "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+  "jobs": [
+    {
+      "job_name": "SPIO_R020_L01_SYM",
+      "queue_id": "q_7158d0dad2bd46199a24799701899cf0",
+      "inp_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_020\\artifacts\\candidates\\SPIO_R020_L01_SYM\\SPIO_R020_L01_SYM.inp",
+      "inp_sha256": "60818c2f983e5ed51fb4b4ebbb7b46500b09e3f4505d1ebe442a51469c1571bc",
+      "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_020\\artifacts\\solver\\SPIO_R020_L01_SYM",
+      "status": "QUEUED",
+      "cpus": 14,
+      "gpus": 0,
+      "run_datacheck": true,
+      "run_full": true
+    },
+    {
+      "job_name": "SPIO_R020_L02_SYP",
+      "queue_id": "q_9c905ac50611446eb4bb828619eb8a2f",
+      "inp_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_020\\artifacts\\candidates\\SPIO_R020_L02_SYP\\SPIO_R020_L02_SYP.inp",
+      "inp_sha256": "d614c392cd25ee0ec4cf0ba052955a214f42ef60f57ba8361e65483e5278bad7",
+      "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_020\\artifacts\\solver\\SPIO_R020_L02_SYP",
+      "status": "QUEUED",
+      "cpus": 14,
+      "gpus": 0,
+      "run_datacheck": true,
+      "run_full": true
+    },
+    {
+      "job_name": "SPIO_R020_L03_NM",
+      "queue_id": "q_6e02167dcd0b494ca07c847c7909c86c",
+      "inp_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_020\\artifacts\\candidates\\SPIO_R020_L03_NM\\SPIO_R020_L03_NM.inp",
+      "inp_sha256": "0e858c2a19229dc72a98f87f4b32fbe60d47fa33e772bf5568164fa6e0b69639",
+      "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_020\\artifacts\\solver\\SPIO_R020_L03_NM",
+      "status": "QUEUED",
+      "cpus": 14,
+      "gpus": 0,
+      "run_datacheck": true,
+      "run_full": true
+    },
+    {
+      "job_name": "SPIO_R020_L04_NP",
+      "queue_id": "q_bbaaeda7491a4a60b237879bd755c247",
+      "inp_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_020\\artifacts\\candidates\\SPIO_R020_L04_NP\\SPIO_R020_L04_NP.inp",
+      "inp_sha256": "6234cfc8e906a0677e3c6485781d09ae65f158a8ca0bfcee30e6c75427a38c99",
+      "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_020\\artifacts\\solver\\SPIO_R020_L04_NP",
+      "status": "QUEUED",
+      "cpus": 14,
+      "gpus": 0,
+      "run_datacheck": true,
+      "run_full": true
+    }
+  ],
+  "auto_stop": "AUTO_STOP_UNAVAILABLE",
+  "solver_started": false,
+  "datacheck_started": false,
+  "automatic_retries": 0,
+  "scientific_analysis": "NOT_STARTED",
+  "gui_process_binding": "NO_GUI_PROCESS_OBSERVED"
+}

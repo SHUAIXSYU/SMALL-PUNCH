@@ -1,0 +1,19 @@
+{
+  "E:\\Projects\\SMALL-PUNCH\\run\\run_020\\artifacts\\prepared_batch.json": "e538bc574a4c26be95ef36f89fc4c2aea12e70d09e9da0f8040bed394fa1e278",
+  "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\project.json": "06182edaaf91873b9f1480d44e95598beb89051e2f6f1209adf8047360aed54d",
+  "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\project.db": "bad0a3b46a2f43c29fbd808d986d1c0d71f01c65a9188be63f4f9c6aae332c3d",
+  "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime\\settings.json": "3e1529fcb4532df1f024907c7bdeb0c57f94ac72b96f7836aede4cdd3f687984",
+  "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime\\live_status.json": "50b0ada6a65bfb3edf8eaf586a42d62726977433fe5ba1a4e4fafe77c7802142",
+  "E:\\Projects\\SMALL-PUNCH\\inverse\\hollomon.py": "d937664f7fc7f845a9ed7a75a004275bf38d11a1b3f68975a05961adb9b16363",
+  "E:\\Projects\\SMALL-PUNCH\\run\\run_020\\artifacts\\candidates\\SPIO_R020_L01_SYM\\SPIO_R020_L01_SYM.inp": "60818c2f983e5ed51fb4b4ebbb7b46500b09e3f4505d1ebe442a51469c1571bc",
+  "E:\\Projects\\SMALL-PUNCH\\run\\run_020\\artifacts\\candidates\\SPIO_R020_L01_SYM\\parameters.json": "16ead0a996dc5d3c9905915694a7f3578d5b49de46baec7538edc4e3d4cd4015",
+  "E:\\Projects\\SMALL-PUNCH\\run\\run_020\\artifacts\\candidates\\SPIO_R020_L02_SYP\\SPIO_R020_L02_SYP.inp": "d614c392cd25ee0ec4cf0ba052955a214f42ef60f57ba8361e65483e5278bad7",
+  "E:\\Projects\\SMALL-PUNCH\\run\\run_020\\artifacts\\candidates\\SPIO_R020_L02_SYP\\parameters.json": "a92e9ec57e66158a4c0b3d51b8dd94f7a0e2b252364a59797e69a758c875a1b5",
+  "E:\\Projects\\SMALL-PUNCH\\run\\run_020\\artifacts\\candidates\\SPIO_R020_L03_NM\\SPIO_R020_L03_NM.inp": "0e858c2a19229dc72a98f87f4b32fbe60d47fa33e772bf5568164fa6e0b69639",
+  "E:\\Projects\\SMALL-PUNCH\\run\\run_020\\artifacts\\candidates\\SPIO_R020_L03_NM\\parameters.json": "6ee731353fc1f35cdff65ec24f23474040c60a5f58d72afaf077941ef91a5a3e",
+  "E:\\Projects\\SMALL-PUNCH\\run\\run_020\\artifacts\\candidates\\SPIO_R020_L04_NP\\SPIO_R020_L04_NP.inp": "6234cfc8e906a0677e3c6485781d09ae65f158a8ca0bfcee30e6c75427a38c99",
+  "E:\\Projects\\SMALL-PUNCH\\run\\run_020\\artifacts\\candidates\\SPIO_R020_L04_NP\\parameters.json": "c3506aab60dbd809bfd1b128d19d30cf64f629ab0612aa512c20621677a66b54",
+  "D:\\Projects\\abqjobpilot\\abqjobpilot\\runner_core.py": "6ca361ede23cc737e736a71c2089c271897329a60a4fb1d463c5cc7b4ac833ce",
+  "D:\\Projects\\abqjobpilot\\abqjobpilot\\gui_app.py": "999df8ff785e6d3384efddaaa6e1fd286eb037e09434534fcfd4316fd294d971",
+  "D:\\Projects\\abqjobpilot\\run_gui.py": "a99a768fb9c32e27b565afbaa93dd8a4504e173ac8c26cf4929b418ab3ed9644"
+}

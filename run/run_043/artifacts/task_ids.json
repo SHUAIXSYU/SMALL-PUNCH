@@ -1,0 +1,10 @@
+{
+  "identity": {
+    "agent_id": "MAIN:codex-main-run043-identifiability",
+    "session_id": "dcb9045c-ac40-4874-a28b-1f5016a8191b",
+    "role": "MAIN"
+  },
+  "freeze_task_id": "6cff80d3-36f9-4f84-8813-b92c258f6e6f",
+  "cae_task_id": "f67e8079-da0a-4a63-865e-98ca142a2ffb",
+  "review_task_id": "86730fe4-dad9-4739-a440-1ca8ce6553d3"
+}

@@ -1,0 +1,49 @@
+{
+  "observed_at": "2026-10-24T13:41:14.748683+08:00",
+  "public_files": [
+    {
+      "path": "run/run_019/summary.md",
+      "sha256": "44c25abb135cf844482bbef735ad60157783ad45fb813c09bfff7c9d13f87a57"
+    },
+    {
+      "path": "run/run_019/artifacts/audit_and_dispatch.py",
+      "sha256": "6e70f21d44c1d655e13c1532bd690c400f05af67df16d241126d429b0442cda9"
+    },
+    {
+      "path": "run/run_019/artifacts/finalize_analysis.py",
+      "sha256": "8c0030d5effc7ced36440208bc1f5be30bfc6118f0ace2a512a47a24ba9d3d29"
+    },
+    {
+      "path": "run/run_019/artifacts/offline_analysis.py",
+      "sha256": "649ba9159641d3a3b8d5c53950d3c51bbbf0a487f802b1439d5a994378764da1"
+    },
+    {
+      "path": "run/run_019/artifacts/task_ids.json",
+      "sha256": "e1e3fea9509076232b6e69721decf314e4caa45f1942f36b02db9fc2c0c01911"
+    },
+    {
+      "path": "run/run_019/checkpoints/baseline.json",
+      "sha256": "b0265508b0eb6b36b632b3c262925df888b072186e6049b59f70e23bf4b07d58"
+    },
+    {
+      "path": "run/run_019/checkpoints/index_before.md",
+      "sha256": "0b645a173336fc6bd664e08fb8c9d90769445752974d415daba13665c58d22d5"
+    },
+    {
+      "path": "run/run_019/checkpoints/run_before_final.json",
+      "sha256": "38c921d8e716e9e4fd785a396a24468f4bd220b670b6eb1b4482c2759085e00e"
+    },
+    {
+      "path": "run/run_019/checkpoints/run_initial.json",
+      "sha256": "38c921d8e716e9e4fd785a396a24468f4bd220b670b6eb1b4482c2759085e00e"
+    },
+    {
+      "path": "run/run_019/checkpoints/status_before.md",
+      "sha256": "f21b18cd07778d56eefa4a33d212f293b7c23580240d153211df1932c1941ddb"
+    }
+  ],
+  "private_manifest": {
+    "path": "run/run_019/artifacts/private/manifest_private.json",
+    "sha256": "2f6f8c60a7eebd6101f60c1c245c3dea577944308ff63e265670352691a28784"
+  }
+}

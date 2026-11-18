@@ -1,0 +1,24 @@
+{
+  "at": "2026-10-24T18:55:16.258103+08:00",
+  "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+  "authorized_frozen_jobs": 8,
+  "confirmed_started_attempts": 1,
+  "completed_attempts": 1,
+  "queued_not_started": 1,
+  "unsubmitted_frozen_jobs": 6,
+  "automatic_retries": 0,
+  "I01": {
+    "queue_id": "q_c8329bd4fab4455f924d211d62ba0625",
+    "status": "COMPLETED_WITH_WARNINGS",
+    "main_gate": "PASS_I01_EXPLORATORY_GATE_WITH_WARNINGS",
+    "loss": 1.9543863201427107,
+    "loss_status": "EXPLORATORY_PROVISIONAL"
+  },
+  "I02": {
+    "queue_id": "q_a40ddbf45cec472cb3541e28e6184fad",
+    "status": "QUEUED",
+    "solver_start": "AWAITING_USER_GUI"
+  },
+  "I03_I08": "NOT_QUEUED",
+  "next_step": "USER_MANUAL_START_I02_ONLY"
+}

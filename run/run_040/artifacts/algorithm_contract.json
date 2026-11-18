@@ -1,0 +1,116 @@
+{
+  "version": "run040-bo-de-pilot-v1",
+  "created_at": "2026-10-25T22:22:08.258791+08:00",
+  "shared_initial_dataset_path": "run/run_040/artifacts/private/initial_dataset.json",
+  "shared_initial_dataset_sha256": "44d0b6267afd488c627a303f1bc779c5df76d48d00bf0dab9bced565411b4e76",
+  "numeric_version": "run030-standard-m0025-hollomon-v1",
+  "loss_version": "run017-exploratory-fd-v1",
+  "bounds": {
+    "sigma_y_mpa": [
+      150,
+      1000
+    ],
+    "n": [
+      0.02,
+      0.5
+    ]
+  },
+  "normalization": "x=ln(sigma_y/150)/ln(1000/150); y=(n-0.02)/0.48",
+  "seed": 20261025,
+  "first_gate_budget": {
+    "BO": 4,
+    "DE": 4,
+    "new_fe_total": 8
+  },
+  "overall_potential_budget": {
+    "BO": 8,
+    "DE": 8,
+    "new_fe_total": 16,
+    "second_gate_requires_new_review_and_authorization": true
+  },
+  "BO": {
+    "type": "offline batch BO, greedy kriging believer with posterior-mean fantasies",
+    "surrogate": "GaussianProcessRegressor on log1p(Loss), ARD Matern-5/2 + bounded WhiteKernel",
+    "normalization": "standardized GP target; inputs frozen x,y",
+    "hyperparameter_bounds": {
+      "constant": [
+        0.001,
+        1000.0
+      ],
+      "lengthscale_each": [
+        0.03,
+        2
+      ],
+      "noise": [
+        1e-08,
+        0.001
+      ]
+    },
+    "acquisition": "Expected Improvement; xi=0.005 on log1p(Loss)",
+    "candidate_pool": "2^14 scrambled Sobol points",
+    "fantasies": "posterior mean; no real new FE observations",
+    "batch_size": 4,
+    "fit_warnings": [
+      "The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified upper bound 2.0. Increasing the bound and calling fit again may find a better value.",
+      "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-08. Decreasing the bound and calling fit again may find a better value."
+    ],
+    "fitted_kernel": "2.71**2 * Matern(length_scale=[2, 1.27], nu=2.5) + WhiteKernel(noise_level=1e-08)"
+  },
+  "DE": {
+    "variant": "rand/1/bin",
+    "population_size": 8,
+    "F": 0.7,
+    "CR": 0.9,
+    "seed": 20261026,
+    "initial_population": "best valid point plus deterministic farthest-first seven from same 19; all 19 visible as historical archive",
+    "boundary": "reflect unit-square coordinates",
+    "first_gate": "4 of 8 trial vectors, partial generation; no parent replacement until real FE",
+    "population_ids": [
+      "D01",
+      "D05",
+      "I07",
+      "D02",
+      "D13",
+      "I05",
+      "D06",
+      "D04"
+    ]
+  },
+  "shared_exclusions": {
+    "min_distance_from_existing_valid": 0.035,
+    "min_distance_from_known_invalid": 0.04,
+    "min_distance_between_any_first_gate_candidates": 0.07,
+    "invalid_ids": [
+      "D09",
+      "D10",
+      "D07"
+    ],
+    "invalid_loss": null
+  },
+  "fairness": {
+    "common_initial_valid": 19,
+    "common_known_invalid": 3,
+    "each_branch_can_see": "same frozen initial set plus own new results only",
+    "metrics": [
+      "best_so_far_loss",
+      "valid_fe_count",
+      "attempt_count",
+      "failure_rate",
+      "wall_clock",
+      "parameter_spread",
+      "low_loss_equivalent_solutions",
+      "uncertainty",
+      "numerical_quality"
+    ],
+    "claim_limit": "single seed and four first-gate evaluations per branch cannot establish statistical superiority"
+  },
+  "future_acceptance": {
+    "datacheck_and_full": "both terminal successful with provenance",
+    "fd_window": "covers fixed 0–1.2 mm, 241 points, no extrapolation",
+    "peeq": "max saved frame below actual material table coverage; rejected attempts separately reviewed",
+    "warning": "accepted large strain, significant accepted force drop, distortion/contact anomalies require MAIN review; blocking result has null Loss",
+    "attempts": "failed/unknown attempt consumes one new FE budget; no automatic retry or replacement"
+  },
+  "stop_gate": "Pause after first 4+4; pause earlier for identity uncertainty, incomplete output, blocking numerical warning or systemic failure",
+  "solver_permission": "NONE; no queue or solver in this Run"
+}

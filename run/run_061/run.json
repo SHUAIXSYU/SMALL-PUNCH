@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_061",
+  "stage": "I06 single refinement authorized queue-only execution record",
+  "objective": "verify run060 freeze; register one exact user-authorized attempt; enqueue only; stop for manual GUI start",
+  "status": "WARNING",
+  "start_time": "2026-10-27T23:33:25.090517+08:00",
+  "end_time": "2026-10-27T23:40:39.306576+08:00",
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "git_head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+  "git_branch": "main",
+  "inputs": [
+    {
+      "path": "run/run_060/artifacts/prepared_batch.json",
+      "sha256": "599734dbcfc0a809188fd0f58453cf33a3d4923caa7efc4b0bf89d2b7850b3a9",
+      "role": "immutable preparation manifest"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_061/artifacts/private/queue_manifest.json",
+      "role": "phase1 execution and queue evidence",
+      "sha256": "9313c567a851730cfb121c6e4c690ef254f282d821c35084a5e5d4bf0f585516"
+    },
+    {
+      "path": "run/run_061/artifacts/private/authorization_scope.json",
+      "role": "phase1 execution and queue evidence",
+      "sha256": "2d9dfd1dd4193b96a50fc712ec19ec40d28c870f232e61ce8ce2b94b617f672c"
+    },
+    {
+      "path": "run/run_061/artifacts/private/authorization_ledger_queued.json",
+      "role": "phase1 execution and queue evidence",
+      "sha256": "37ebc00044c8f94203b5d78c1780c100263b41db7a416da7a3c5e0e9e47a754c"
+    },
+    {
+      "path": "run/run_061/artifacts/private/phase1_report.md",
+      "role": "phase1 execution and queue evidence",
+      "sha256": "ac9ea7e3d0d6f5e1da66ad3300fbf0cc810a256f811f832736a83850c15b893d"
+    },
+    {
+      "path": "run/run_061/artifacts/private/evidence_manifest.json",
+      "role": "phase1 execution and queue evidence",
+      "sha256": "0cad5f1429ee7bb9f393a55c27d856efa3d25914350158e169d192a6418c4efb"
+    },
+    {
+      "path": "run/run_061/artifacts/private/agenthub_completion_receipt.json",
+      "role": "phase1 execution and queue evidence",
+      "sha256": "f8aa0f9f1f96f0643cca4431ec7726dc2a3a8a1d389d14d4d78de455809be790"
+    }
+  ],
+  "validation": [
+    {
+      "check": "frozen identity and exact allowlisted difference",
+      "status": "PASS",
+      "evidence": "run/run_061/artifacts/private/freeze_integrity.json",
+      "scope": "one exact SHA; only max increment and2comments"
+    },
+    {
+      "check": "public current Preflight and Dry-run",
+      "status": "PASS",
+      "evidence": "run/run_061/artifacts/private/precheck.json",
+      "scope": "PERSISTED,14CPU0GPU,1/1 previews"
+    },
+    {
+      "check": "unique unstarted queue readback",
+      "status": "PASS",
+      "evidence": "run/run_061/artifacts/private/queue_manifest.json",
+      "scope": "one QUEUED, no other executable items, no starts"
+    }
+  ],
+  "errors": [],
+  "outcome": "ONE_I06_REFINEMENT_JOB_QUEUED_AWAITING_MANUAL_START",
+  "authorized_attempts": 1,
+  "queued": 1,
+  "started": 0,
+  "consumed_FE_attempts": 0,
+  "automatic_retries": 0,
+  "queue_ids": [
+    "q_392e020abc59422c9cb6a93f35b235d2"
+  ],
+  "agenthub_budget_task": "65880ee5-0836-46f9-9246-c698dde3cc6e",
+  "agenthub_closeout_task": "f866b568-758a-4643-9c3e-15c1406daed4",
+  "phase2_status": "NOT_STARTED_AWAIT_USER_COMPLETION_NOTIFICATION",
+  "new_solver_datacheck_started": false,
+  "new_INP": 0,
+  "tensile_access": false
+}

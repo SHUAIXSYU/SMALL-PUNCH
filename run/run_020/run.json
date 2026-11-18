@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_020",
+  "stage": "Recentered local sensitivity preparation",
+  "objective": "Evaluate reuse of run014 center and prepare four symmetric perturbations only",
+  "status": "WARNING",
+  "start_time": "2026-10-24T14:17:33.919114+08:00",
+  "end_time": "2026-10-24T14:24:22.224772+08:00",
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "git_head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+  "git_branch": "main",
+  "inputs": [
+    {
+      "path": "run/run_017/artifacts/prepared_batch.json",
+      "role": "Immutable original design"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run\\run_020\\artifacts\\prepared_batch.json",
+      "sha256": "e538bc574a4c26be95ef36f89fc4c2aea12e70d09e9da0f8040bed394fa1e278"
+    },
+    {
+      "path": "run\\run_020\\artifacts\\parameter_design.json",
+      "sha256": "6721d92f5a9bd4a48271be11d4e7ee5b865d495729f19b4b278b803223f8f5c8"
+    },
+    {
+      "path": "run\\run_020\\artifacts\\analysis_protocol.md",
+      "sha256": "228fa596e7a8ff1160167a675492c268ebfa0524e3aee16e8e0589303b1689e5"
+    },
+    {
+      "path": "run\\run_020\\artifacts\\private\\main_report.md",
+      "sha256": "86ff01e5dcf861e31e48cae3da1eea77969986104a1922234130f8bd4328257f"
+    },
+    {
+      "path": "run\\run_020\\artifacts\\private\\main_cae_acceptance.json",
+      "sha256": "06f008d60619feb8aabcb0ee6f0d3cca81bcee5b75fc2323937c5aa5f5126194"
+    }
+  ],
+  "validation": [
+    "CAE real session completed; 17 artifact hashes verified",
+    "Four static checks and public preflight/dry-run passed",
+    "Exact center material reproduction and frozen Loss rescore",
+    "Protected source and queue hashes unchanged"
+  ],
+  "errors": [],
+  "limitations": [
+    "Conditional exploratory center; numerical error not quantified",
+    "Prepared sensitivity interface not executed or tested"
+  ],
+  "task_ids": {
+    "main_task_id": "88b9dcde-b2b8-4576-85d5-4efaf2397082",
+    "cae_task_id": "cb63ca24-e27c-4a0e-b992-4380e4aa6df0"
+  },
+  "authorized_solver_jobs": 0,
+  "new_enqueues": 0,
+  "new_solver_jobs": 0
+}

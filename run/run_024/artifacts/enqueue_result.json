@@ -1,0 +1,29 @@
+{
+  "at": "2026-10-24T16:20:26.847097+08:00",
+  "status": "V01_QUEUED_AWAITING_MANUAL_START",
+  "task_id": "7d281a3e-729e-4b4e-96c7-b4128f1f35f3",
+  "budget_task_id": "b6fcf7ca-f82d-4ac0-8c4c-8ec61bb120dc",
+  "queue_id": "q_602fa04221884dc7b200d670c610c385",
+  "job_name": "SPIO_R023_V01_CTR",
+  "inp_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_023\\artifacts\\candidates\\SPIO_R023_V01_CTR\\SPIO_R023_V01_CTR.inp",
+  "inp_sha256": "14006d69c15e6fd4be021b889964e5add51e724d52fd03ff817b0f80b747c2ff",
+  "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_023\\artifacts\\solver\\SPIO_R023_V01_CTR",
+  "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+  "cpus": 14,
+  "gpus": 0,
+  "run_datacheck": true,
+  "run_full": true,
+  "automatic_retries": 0,
+  "solver_started": false,
+  "datacheck_started": false,
+  "V02_queue_id": null,
+  "V01_qualification": "NOT_EVALUATED",
+  "total_authorized_unique_jobs": 2,
+  "solver_attempts_observed": 0,
+  "authorization_remaining": {
+    "V01": "RESERVED_BY_UNIQUE_QUEUE_ID; one manual attempt only",
+    "V02": "CONDITIONAL; cannot enqueue until V01 PASS"
+  },
+  "study_complete": false,
+  "auto_stop": "AUTO_STOP_UNAVAILABLE"
+}

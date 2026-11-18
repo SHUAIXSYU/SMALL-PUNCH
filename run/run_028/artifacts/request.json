@@ -1,0 +1,23 @@
+{
+  "inp_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_027\\artifacts\\candidates\\SPIO_R027_CTR_M0025\\SPIO_R027_CTR_M0025.inp",
+  "job_name": "SPIO_R027_CTR_M0025",
+  "cpus": 14,
+  "gpus": 0,
+  "batch": "run028_one_center_refinement",
+  "strategy": "ONE_AUTHORIZED_JOB",
+  "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_027\\artifacts\\solver\\SPIO_R027_CTR_M0025",
+  "submission_mode": "enqueue_only",
+  "allow_solver_submit": false,
+  "metadata": {
+    "run": "run_028",
+    "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+    "task_id": "1434ef26-a98f-45ed-8289-891d86b29241",
+    "inp_sha256": "dae9345bc60973c27edec498dfbd27f269e1f5bbe151316918862954faac40c9",
+    "maximum_attempts": 1,
+    "automatic_retries": 0,
+    "notes": "run028; project_id=b87d2cd6-8519-4ac3-bae6-7eb989fb2dae; inp_sha256=dae9345bc60973c27edec498dfbd27f269e1f5bbe151316918862954faac40c9; task_id=1434ef26-a98f-45ed-8289-891d86b29241; 14CPU 0GPU; one Datacheck then Full; zero retries; manual GUI Start Queue only; V02 forbidden"
+  },
+  "run_datacheck": true,
+  "run_full": true,
+  "schema_version": "1.0"
+}

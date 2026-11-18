@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_022",
+  "stage": "Completed local sensitivity analysis",
+  "objective": "Audit four existing jobs, real ODB handoff, frozen Loss and local identifiability",
+  "status": "RUNNING",
+  "start_time": "2026-10-24T15:19:29.120647+08:00",
+  "end_time": null,
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "git_head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+  "git_branch": "main",
+  "inputs": [
+    {
+      "path": "run/run_020/artifacts/prepared_batch.json",
+      "role": "Frozen four-point batch",
+      "sha256": "e538bc574a4c26be95ef36f89fc4c2aea12e70d09e9da0f8040bed394fa1e278"
+    }
+  ],
+  "outputs": [],
+  "validation": [],
+  "errors": []
+}

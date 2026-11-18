@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_050",
+  "stage": "High plastic strain spatial evidence and model-discrepancy research",
+  "objective": "real ODB spatial/energy extraction; frozen constitutive extrapolation and fixture uncertainty design",
+  "status": "RUNNING",
+  "start_time": "2026-10-26T21:36:37.325823+08:00",
+  "end_time": null,
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "git_branch": "main",
+  "git_head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+  "inputs": [
+    {
+      "path": "run/run_050/artifacts/odb_task_payload.json",
+      "role": "bounded existing ODB identities and read-only scope"
+    }
+  ],
+  "outputs": [],
+  "validation": [],
+  "errors": []
+}

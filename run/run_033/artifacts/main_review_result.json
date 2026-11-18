@@ -1,0 +1,14 @@
+{
+  "status": "PASS_ALL_TWENTY_PREVIEWS",
+  "prepared_batch_sha256": "f174ed05d0c700f346282cbcd9571749febaf332fdba100c1b60779d1bb33d7b",
+  "cae_task_id": "e0d05b7e-7797-4b5b-b5c3-7337f196f38a",
+  "input_count": 20,
+  "preflight_passed": 20,
+  "dry_run_passed": 20,
+  "new_enqueues": 0,
+  "solver_starts": 0,
+  "all_workdirs_empty": true,
+  "all_input_hashes_verified": true,
+  "queue_unchanged": true,
+  "science_state": "NOT_EVALUATED"
+}

@@ -1,0 +1,76 @@
+{
+  "at": "2026-10-24T16:36:03.320744+08:00",
+  "files": [
+    {
+      "path": "run/run_025/artifacts/private/execution_audit.json",
+      "sha256": "1f7f2243aca31f7f7ce72fea1bbbe95ee817bfafe427dd0b068d2102b11e9228",
+      "private": true
+    },
+    {
+      "path": "run/run_025/artifacts/private/main_log_audit.json",
+      "sha256": "46e8c79f909158e3ee08f84f6ead7b0f262b87ebb4d23b141cb20627fb674aa9",
+      "private": true
+    },
+    {
+      "path": "run/run_025/artifacts/private/main_comparison.json",
+      "sha256": "91e626fb109867458ad082fccadc9e988d91541bf033528f878bbf2bba6ebab1",
+      "private": true
+    },
+    {
+      "path": "run/run_025/artifacts/private/main_odb_acceptance.json",
+      "sha256": "a8d63e63a3f7c20c56c24c27a24f1cebd3116ee4223e47f490508437d7b9a32f",
+      "private": true
+    },
+    {
+      "path": "run/run_025/artifacts/private/final_integrity.json",
+      "sha256": "a7dd33dc034d4b1a0813821504eb5e900f2f4f47b3bee4352c94eb9fdb0f8ac7",
+      "private": true
+    },
+    {
+      "path": "run/run_025/artifacts/private/authorization_remaining.json",
+      "sha256": "a11b68c04d4dc7b4eb32f307f29a93295b470dbbcb82020733532ad6ab20afc3",
+      "private": true
+    },
+    {
+      "path": "run/run_025/artifacts/private/main_report.md",
+      "sha256": "df0853330f242a332a24672f41bdc9c0c76598328dba6313530486f8922cb5a2",
+      "private": true
+    },
+    {
+      "path": "run/run_025/artifacts/private/aligned_comparison.csv",
+      "sha256": "fd914fd4f93e96b254ddb5b57c87c0f4280e91f3fb1bba7fe826dadae1d9ac2d",
+      "private": true
+    },
+    {
+      "path": "run/run_025/artifacts/private/v01_comparison.png",
+      "sha256": "6e232fa2374b5c59607889daed9a5c6f750f77df5595a075a1e234f2e3c6acd3",
+      "private": true
+    },
+    {
+      "path": "run/run_025/artifacts/private/analyze_v01.py",
+      "sha256": "e75615600bde2a779f1d29183a2750f661257e3f9f7c511fefa966f0f35c76f5",
+      "private": true
+    },
+    {
+      "path": "run/run_025/artifacts/private/audit_logs.py",
+      "sha256": "99da7cc54a0c5cb354c4446e075d950d3f03aa176ae4df421b775080d895209d",
+      "private": true
+    },
+    {
+      "path": "run/run_025/summary.md",
+      "sha256": "a47b5a056ad1596e510326ad58ad66690cbde2861756bb22e34d2542ba4876a7",
+      "private": false
+    },
+    {
+      "path": "run/run_025/artifacts/task_ids.json",
+      "sha256": "170ebcc7964042f9b97ece6dce6d39ab3d5eb270e482053541c81e1e085183f1",
+      "private": false
+    },
+    {
+      "path": "run/run_025/artifacts/audit_dispatch.py",
+      "sha256": "ebd6bd865aa6feb043d2622288e3f8a74927525ded3a37d5d6a03fb7605198ca",
+      "private": false
+    }
+  ],
+  "worker_artifacts_verified": 25
+}

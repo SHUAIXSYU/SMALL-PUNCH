@@ -1,0 +1,45 @@
+{
+  "at": "2026-10-24T16:21:33.294842+08:00",
+  "files": [
+    {
+      "path": "run/run_024/summary.md",
+      "sha256": "70329b555be2ff2b049cae682d2b531f17492286c2fe58156d3e1c52f18d0ca3"
+    },
+    {
+      "path": "run/run_024/artifacts/queue_v01.py",
+      "sha256": "674af01272c2f1283174e4e5c8573e7bb52248eabaf3a8bf2aca7cc4f7d3951c"
+    },
+    {
+      "path": "run/run_024/artifacts/admission.json",
+      "sha256": "835b6449381ddf827255f97809331d49678eaee8ead44da7a5d201a5372fb94e"
+    },
+    {
+      "path": "run/run_024/artifacts/authorization.json",
+      "sha256": "301340fc73f2f215174f1efc511d65c519622f06c221a50a1bf54a73cefa5fd3"
+    },
+    {
+      "path": "run/run_024/artifacts/request.json",
+      "sha256": "4d8c00566c3200c21f8f92e2113271562fe93bd2594db94402aec452ce273844"
+    },
+    {
+      "path": "run/run_024/artifacts/enqueue_response.json",
+      "sha256": "830b331c76fbfacd552ab8fbb1764bc98e81c264c60819223fbc03b70b464909"
+    },
+    {
+      "path": "run/run_024/artifacts/queue_after.json",
+      "sha256": "644fc5b3ebb31de6dc81fe1ab2a590b12b28bfe9591f30c5bcec54faa7a1c4a0"
+    },
+    {
+      "path": "run/run_024/artifacts/postcheck.json",
+      "sha256": "88350c7363ca02a7b854b391e89c6d6a5df126cb194c07869acc30cfab4f6f18"
+    },
+    {
+      "path": "run/run_024/artifacts/enqueue_result.json",
+      "sha256": "508a3d0267b938552931c5cc5ce4f9fb6a50e15696eb4ea7b0d6b1fd822888c1"
+    },
+    {
+      "path": "run/run_024/artifacts/agenthub_receipt.json",
+      "sha256": "3278554a27fbe22deaa21ebe3d3a8da84761baa00b392a060a5a3905031dd45d"
+    }
+  ]
+}

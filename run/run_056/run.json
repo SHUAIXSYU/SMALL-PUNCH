@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_056",
+  "stage": "Git binary-model hygiene and prospective feature identification design",
+  "objective": "Protect CAE locally, remove verified CAE index entries, audit low-n null reasons and freeze minimal prospective identification protocol; no FE",
+  "status": "WARNING",
+  "start_time": "2026-10-27T14:21:06.325866+08:00",
+  "end_time": "2026-10-27T14:48:38.035648+08:00",
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "git_branch": "main",
+  "git_head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+  "inputs": [
+    {
+      "path": "run/run_056/artifacts/private/source_manifest.json",
+      "role": "bounded old-source identities",
+      "sha256": "002271f10f18beeab8cbb9442ad8c873deebbfb36ac38e7f5c2011354e9df682"
+    },
+    {
+      "path": "run/run_056/artifacts/private/git_before.json",
+      "role": "pre-change Git/model baseline",
+      "sha256": "4d90df488fbebf27e54b5dfa1552ad04e7475f067bdcbfc8d27874657b776d2b"
+    }
+  ],
+  "outputs": [
+    {
+      "path": ".gitignore",
+      "role": "CAE/results ignore rules",
+      "sha256": "b7aef9f1eed85f3da92f73b35e2732dca152b9aa04eefc3c670dc9ba20e3fce2"
+    },
+    {
+      "path": "run/run_056/artifacts/private/scientific_report.md",
+      "role": "scientific review",
+      "sha256": "dabb0754e33d9654d555015d1f1e0404981b61346b3cf409fcafdacf552966f3"
+    },
+    {
+      "path": "run/run_056/artifacts/private/prospective_design_contract.json",
+      "role": "preregistered design only",
+      "sha256": "a3f8cae3896e2c5079d6796e95122109ecfa8075850dfb617778d023f7f828d0"
+    },
+    {
+      "path": "run/run_056/artifacts/private/evidence_manifest.json",
+      "role": "private evidence manifest",
+      "sha256": "378f3b3dce086e64d2194cc6fc4541771c06697f2b1add9c451f53dd49e42d36"
+    }
+  ],
+  "validation": [
+    {
+      "check": "Git/model preservation",
+      "status": "PASS",
+      "evidence": "run/run_056/artifacts/private/git_hygiene_verified.json",
+      "scope": "2exactcachedremovals,localmodelsSHAunchanged,26ruleprobes"
+    },
+    {
+      "check": "oldscienceandnullreasonaudit",
+      "status": "PASS",
+      "evidence": "run/run_056/artifacts/private/low_n_and_I06_audit.json",
+      "scope": "rawSTA/MSGandFDreviewof7completedJobs,oldnullsunchanged"
+    },
+    {
+      "check": "designsanity",
+      "status": "PASS",
+      "evidence": "run/run_056/artifacts/private/design_tests.json",
+      "scope": "7tests,noinputs/FE;constantcenterfailsresolutiongoal"
+    },
+    {
+      "check": "I06strictprecisionqualification",
+      "status": "NOT_EVALUABLE",
+      "evidence": "run/run_056/artifacts/private/prospective_design_contract.json",
+      "scope": "conditionalexploratoryanchoronly,nopoint-leveltime-stepconvergenceproof"
+    }
+  ],
+  "errors": [],
+  "outcome": "GIT_HYGIENE_PASS_CONDITIONAL_FOUR_POINT_DESIGN",
+  "agenthub_task_id": "7611f501-ae9f-45c7-ab85-36daeaa3cd32",
+  "new_FE": 0,
+  "new_INP": 0,
+  "new_queue": 0,
+  "CAE_index_removals": 2,
+  "CAE_local_deleted": 0
+}

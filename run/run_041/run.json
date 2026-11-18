@@ -1,0 +1,208 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_041",
+  "stage": "Authorized BO/DE eight-job queue-only batch",
+  "objective": "Register eight attempts, verify frozen inputs and current public API previews, queue only and await user GUI start",
+  "status": "WARNING",
+  "start_time": "2026-10-25T22:45:15.411049+08:00",
+  "end_time": "2026-10-25T22:47:07.796041+08:00",
+  "git_branch": "main",
+  "git_head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+  "git": {
+    "branch": "main",
+    "head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+    "remote": "origin\thttps://github.com/SHUAIXSYU/SMALL-PUNCH.git (fetch)\norigin\thttps://github.com/SHUAIXSYU/SMALL-PUNCH.git (push)",
+    "working_tree": "M agenthub_sp_invopt/abqjobpilot_project/project.db\n M run/README.md\n M status/PROJECT_STATUS.md\n?? run/run_019/\n?? run/run_020/\n?? run/run_021/\n?? run/run_022/\n?? run/run_023/\n?? run/run_024/\n?? run/run_025/\n?? run/run_026/\n?? run/run_027/\n?? run/run_028/\n?? run/run_029/\n?? run/run_030/\n?? run/run_031/\n?? run/run_032/\n?? run/run_033/\n?? run/run_034/\n?? run/run_035/\n?? run/run_036/\n?? run/run_037/\n?? run/run_038/\n?? run/run_039/\n?? run/run_040/\n?? run/run_041/"
+  },
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "inputs": [
+    {
+      "path": "run/run_040/artifacts/private/candidate_manifest.json",
+      "sha256": "692c3215c974b35ea1c816b86520f2c183241504c8bd2e0b111cda44bb2d502b",
+      "role": "frozen parameters"
+    },
+    {
+      "path": "run/run_040/artifacts/private/cae/generated_candidate_manifest.json",
+      "sha256": "c68cdb210a2a06c17da82fa9b43c20bdf8b60f958c44549b9ef55738bfb55d92",
+      "role": "preexisting frozen INP hashes"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_041/artifacts/private/authorization_scope.json",
+      "sha256": "014ec0c35af974c28307248b52c3d1a3180e480e983e3d14640e0a6e6565ca96"
+    },
+    {
+      "path": "run/run_041/artifacts/private/frozen_batch_identity.json",
+      "sha256": "761c4e2adbe56de4b71ec83bae6217dc7921239e272d5e0ce58fba23d9547afb"
+    },
+    {
+      "path": "run/run_041/artifacts/private/preflight.json",
+      "sha256": "d0326ff01268bce950aca53bbb26a8f05e6546150d4f7fe746d4a7481e3e281e"
+    },
+    {
+      "path": "run/run_041/artifacts/private/queue_manifest.json",
+      "sha256": "da5111d5d9e360660524338f163ef516782d710abb8aa62d95790613740135ae"
+    },
+    {
+      "path": "run/run_041/artifacts/private/final_readback.json",
+      "sha256": "e28b313c1aa79a8f11c653acfc9d1fe70645e008dc724198ee5d683b1e235099"
+    },
+    {
+      "path": "run/run_041/artifacts/private/budget_ledger.json",
+      "sha256": "69c89cc5c13d23caf8caef8266f01f2b416255419b38e0d05af1f02058953c72"
+    },
+    {
+      "path": "run/run_041/artifacts/queue_pilot.py",
+      "sha256": "60eb3549529c72e762fdbd5e3e14dea7b0414d7c4cbe930b75a265b8beb1bc66"
+    },
+    {
+      "path": "run/run_041/artifacts/finalize_phase1.py",
+      "sha256": "e3ec632a1d9b1cc56226f03e05adb3f13b22de99e54aa92b988798ff9a46ded8"
+    },
+    {
+      "path": "run/run_041/summary.md",
+      "sha256": "05c1190b4be81604c50e2469c6e7ec849a719502db7094f8dea78ea2ea6a83cf"
+    },
+    {
+      "path": "run/run_041/artifacts/private/queue_receipts/01_BO01_receipt.json",
+      "sha256": "96470ba28804f5b3eb8c3da9f9514286e6f647f3c588dc2c7b976517b324bbc3"
+    },
+    {
+      "path": "run/run_041/artifacts/private/queue_receipts/01_BO01_request.json",
+      "sha256": "36240d7162307353b42a34f833ca6bd80a281e1c4946321bc809e93cc60b6d12"
+    },
+    {
+      "path": "run/run_041/artifacts/private/queue_receipts/01_BO01_response.json",
+      "sha256": "8b692b1dd3a6e6fb85788fc870151d867ef341e079c96cd985005cbf202234e1"
+    },
+    {
+      "path": "run/run_041/artifacts/private/queue_receipts/02_BO02_receipt.json",
+      "sha256": "0072432486b6ce5d057f1d73076c2b609bf67608f2774b7775f88f2d2f1c241e"
+    },
+    {
+      "path": "run/run_041/artifacts/private/queue_receipts/02_BO02_request.json",
+      "sha256": "8444e79863308cb58a42e3f527df0cf84a378d81a1e234f69264607f4d4dbb06"
+    },
+    {
+      "path": "run/run_041/artifacts/private/queue_receipts/02_BO02_response.json",
+      "sha256": "461e59ce696dc65b692dff8a884db2adc50c9f86d8cd747c5c17e04f20488c7e"
+    },
+    {
+      "path": "run/run_041/artifacts/private/queue_receipts/03_BO03_receipt.json",
+      "sha256": "681a759e2c1080c029131b93a896c45933de8cf5b52c73fa7e87bf649cb4251e"
+    },
+    {
+      "path": "run/run_041/artifacts/private/queue_receipts/03_BO03_request.json",
+      "sha256": "0767223eafc9f0966e159c642a269490374d57f0065b837a70b4e5d4585c386a"
+    },
+    {
+      "path": "run/run_041/artifacts/private/queue_receipts/03_BO03_response.json",
+      "sha256": "d3f60e8ca5d71e3af900865befd344271357adec1a192ab03e41f67a206216f2"
+    },
+    {
+      "path": "run/run_041/artifacts/private/queue_receipts/04_BO04_receipt.json",
+      "sha256": "e7c6d98ca2f5fe91209c20290e5eaa27192344c44b338d1cfe822e8280a61cf2"
+    },
+    {
+      "path": "run/run_041/artifacts/private/queue_receipts/04_BO04_request.json",
+      "sha256": "5d92c1336ea0e2d0ac541005c570a870a12859e0bba75f10dc37db0395ff5211"
+    },
+    {
+      "path": "run/run_041/artifacts/private/queue_receipts/04_BO04_response.json",
+      "sha256": "3b31a2f822b234875820346e4ac68e4c47c5c9edf6575ab47bee5b657f5f0128"
+    },
+    {
+      "path": "run/run_041/artifacts/private/queue_receipts/05_DE01_receipt.json",
+      "sha256": "3ca606e6d95ac5404d70b17fd9b5bf4bfba7a455db0fc52e1d2a60f5b9423654"
+    },
+    {
+      "path": "run/run_041/artifacts/private/queue_receipts/05_DE01_request.json",
+      "sha256": "2c06d07e4b8e10a9f53624ccc709a3c646f4f55f3c8975f4e7ef11072b18348d"
+    },
+    {
+      "path": "run/run_041/artifacts/private/queue_receipts/05_DE01_response.json",
+      "sha256": "654eed1ae624fb3cee004aa2833027e1fa237c8221e91a78b6a7445fdd9e8fb1"
+    },
+    {
+      "path": "run/run_041/artifacts/private/queue_receipts/06_DE02_receipt.json",
+      "sha256": "f44a9c5b5aeb7272b561e3f6f90b78a3c8fbaaa2553a261efc59f7a8f8ab904f"
+    },
+    {
+      "path": "run/run_041/artifacts/private/queue_receipts/06_DE02_request.json",
+      "sha256": "f38ae1fa04fe8cdbaca3cae4d85de071ffa9885ba0bdfd7c0d6a12aed69bcc31"
+    },
+    {
+      "path": "run/run_041/artifacts/private/queue_receipts/06_DE02_response.json",
+      "sha256": "b4c83537a7c67afa505dbaefaed98bcf435f72144aafd7fc76f0936c97366a15"
+    },
+    {
+      "path": "run/run_041/artifacts/private/queue_receipts/07_DE03_receipt.json",
+      "sha256": "e77a7e27c76215d18b79d27f21753792adcdc3779b47541a6336d5f85efd390f"
+    },
+    {
+      "path": "run/run_041/artifacts/private/queue_receipts/07_DE03_request.json",
+      "sha256": "4f6d1b36ca07af9a41bb18ffe4443e48662d3046c2735ce14b3553072cb0f370"
+    },
+    {
+      "path": "run/run_041/artifacts/private/queue_receipts/07_DE03_response.json",
+      "sha256": "65e128ff996246b6032df8e410b03c1ba12886d67f66a6b5e3728949655fa07a"
+    },
+    {
+      "path": "run/run_041/artifacts/private/queue_receipts/08_DE04_receipt.json",
+      "sha256": "c84a65241705dcf571dde061616514eaaa0823eb5cccbf7978933095a0050bd1"
+    },
+    {
+      "path": "run/run_041/artifacts/private/queue_receipts/08_DE04_request.json",
+      "sha256": "b7055733d67cb116ea7fc648512c84e2df6db8cb07dcb4a298dd908315fc8d65"
+    },
+    {
+      "path": "run/run_041/artifacts/private/queue_receipts/08_DE04_response.json",
+      "sha256": "73e0d1b3933a4eaf208fc1e89c1c5471a215ed8e41515c194a5bc232d518cc7c"
+    },
+    {
+      "path": "run/run_041/artifacts/private/evidence_manifest.json",
+      "sha256": "649c95b34a8f13976390f56ef42c6b287c0d722ce9b7d30a0cfa58d5f74e4afa"
+    }
+  ],
+  "validation": [
+    {
+      "check": "eight_frozen_INP_and_contract_identity",
+      "status": "PASS",
+      "evidence": "full input hashes and exact parameters, source nonmaterial identity, generator/model/Loss bindings"
+    },
+    {
+      "check": "current_public_preflight_dry_run",
+      "status": "PASS",
+      "evidence": "8/8 PREVIEW_READY and 8/8 DRY_RUN_READY, Settings=PERSISTED"
+    },
+    {
+      "check": "real_queue_only_enqueue_and_readback",
+      "status": "PASS",
+      "evidence": "8 unique queue_ids; exact order; only eight executable; all QUEUED; zero starts"
+    },
+    {
+      "check": "manual_start_only_and_budget",
+      "status": "PASS",
+      "evidence": "8 authorized, 8 queued, 0 started, 0 consumed; user GUI only"
+    },
+    {
+      "check": "automatic_queue_fail_stop",
+      "status": "WARNING",
+      "evidence": "AUTO_STOP_UNAVAILABLE; explicit human acceptance; source hash recorded"
+    },
+    {
+      "check": "historical_D09_lock",
+      "status": "WARNING",
+      "evidence": "CLEAN runtime/ABSENT owner/CLEAR processes; isolated old lock retained, not reused"
+    },
+    {
+      "check": "AgentHub_audit",
+      "status": "PASS",
+      "evidence": "formal API tasks/approvals/evidence; chain verified"
+    }
+  ],
+  "errors": [],
+  "phase1_status": "EIGHT_BO_DE_JOBS_QUEUED_AWAITING_MANUAL_START",
+  "phase2_status": "AWAITING_USER_COMPLETION"
+}

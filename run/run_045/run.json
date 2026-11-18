@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_045",
+  "stage": "D01/I08 real numerical refinement and constitutive identifiability",
+  "objective": "Audit two real Jobs, real ODB extraction, frozen Loss and two-point qualification and ranking",
+  "status": "WARNING",
+  "start_time": "2026-10-26T01:23:51.442957+08:00",
+  "end_time": "2026-10-26T01:45:36.122230+08:00",
+  "git_branch": "main",
+  "git_head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+  "git": {
+    "branch": "main",
+    "head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+    "remote": "origin\thttps://github.com/SHUAIXSYU/SMALL-PUNCH.git (fetch)\norigin\thttps://github.com/SHUAIXSYU/SMALL-PUNCH.git (push)",
+    "working_tree": "M agenthub_sp_invopt/abqjobpilot_project/project.db\n M run/README.md\n M status/PROJECT_STATUS.md\n?? run/run_019/\n?? run/run_020/\n?? run/run_021/\n?? run/run_022/\n?? run/run_023/\n?? run/run_024/\n?? run/run_025/\n?? run/run_026/\n?? run/run_027/\n?? run/run_028/\n?? run/run_029/\n?? run/run_030/\n?? run/run_031/\n?? run/run_032/\n?? run/run_033/\n?? run/run_034/\n?? run/run_035/\n?? run/run_036/\n?? run/run_037/\n?? run/run_038/\n?? run/run_039/\n?? run/run_040/\n?? run/run_041/\n?? run/run_042/\n?? run/run_043/\n?? run/run_044/\n?? run/run_045/"
+  },
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "inputs": [
+    {
+      "path": "run/run_043/artifacts/prepared_batch.json",
+      "sha256": "de461945b427b4deb9e041ebd536a47a8f06c2d9896d12571bfc2c40c0de06ca",
+      "role": "frozen candidates"
+    },
+    {
+      "path": "run/run_044/artifacts/private/queue_manifest.json",
+      "sha256": "f2a88dcd700a3b424cab63c5414f5d9b572faebc75d522c4ac8e37c8e1e8aa73",
+      "role": "queue identities"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_045/artifacts/private/main/candidate_constitutive_set.json",
+      "sha256": "3fde3337bb4ea3787c1f35fd8a2793c05840c2331cd4dbad40becbd4d2c18159"
+    },
+    {
+      "path": "run/run_045/artifacts/private/main/analysis.json",
+      "sha256": "d249896f77b48fab369d5e14972b41559b06c18fb80b45fd651f0d890f7ee664"
+    },
+    {
+      "path": "run/run_045/artifacts/private/main/REPORT.md",
+      "sha256": "a4860ef209f1a57053b4a3a3ddfc019cc3f3f82a2323e7b34ba2489bff3a5c0e"
+    },
+    {
+      "path": "run/run_045/artifacts/private/main/frozen_grid_comparison.csv",
+      "sha256": "8c50dfa6b3fc701a69731ce800cba29c063fa8e859cf4e1443817278e8ead61d"
+    },
+    {
+      "path": "run/run_045/artifacts/private/main/residual_intervals.csv",
+      "sha256": "55e1f44d24d41c6acae5ca8ce189629cc8d709dc051020107ee21cc6f70c2670"
+    },
+    {
+      "path": "run/run_045/artifacts/private/main/predicted_constitutive_samples.csv",
+      "sha256": "7e9d8d503e99ee41b72df2bc375a9113616a9486cdcb656b734e5cc48fe4e929"
+    },
+    {
+      "path": "run/run_045/artifacts/private/main/fd_refinement_residuals.png",
+      "sha256": "089a14cc23657a04a600b5c9fb11a271b70fadf2732bd070b747bc13e8027104"
+    },
+    {
+      "path": "run/run_045/artifacts/private/main/predicted_constitutive_curves.png",
+      "sha256": "7b5a703126572f175a67dc35dd20c39d5158d0e2b8dd28ce19543c632a8eb7b6"
+    },
+    {
+      "path": "run/run_045/artifacts/private/execution_audit.json",
+      "sha256": "6dc2de30bdbc9d3ffff607805e52427dc826b05bc7299bd1b688cc8f62664dd3"
+    },
+    {
+      "path": "run/run_045/artifacts/private/main_log_crosscheck.json",
+      "sha256": "2e6ba6dda6471a82b7f80dd232d7e85e99f43c19a7413f5d897347261a290847"
+    },
+    {
+      "path": "run/run_045/artifacts/private/budget_ledger.json",
+      "sha256": "003cc108a5481092b198ead88f5ef085c37e1208eb7f7849916f6102a8f8ba6c"
+    },
+    {
+      "path": "run/run_045/artifacts/private/received_odb_messages.json",
+      "sha256": "044efab5a35ce3c8262ed57431100193bc3c46cd12235857b590e6b4955297c4"
+    },
+    {
+      "path": "run/run_045/artifacts/private/reused_tests.json",
+      "sha256": "5c3d3e4d6b6c8b7a42a32014dacd132e7ce42f89a0273d1615ba107c051d8220"
+    },
+    {
+      "path": "run/run_045/summary.md",
+      "sha256": "ed33063b619e2574a39734c1c45bbfdd657f122bcc2cd8c323e4b4c7d2838e0b"
+    },
+    {
+      "path": "run/run_045/artifacts/main_analysis.py",
+      "sha256": "712c612db12c0c66c9ec6e679c6c0f5bcbff7194c41a780d4a0d6c101b0cb1e8"
+    },
+    {
+      "path": "run/run_045/artifacts/audit_dispatch.py",
+      "sha256": "c23383d6283852d2cd86342572e23b8ec01fc69807e4847fb987d650e960ba03"
+    },
+    {
+      "path": "run/run_045/artifacts/finalize_run.py",
+      "sha256": "9e088af19f4e3fe79a945a8be03353d492dfc23721d028fcb6ad4632b67e5f5c"
+    }
+  ],
+  "validation": [
+    {
+      "check": "real_execution_and_output_identity",
+      "status": "PASS",
+      "evidence": "two single successful phases, history and source hashes"
+    },
+    {
+      "check": "real_odb_session_and_main_receipt",
+      "status": "PASS",
+      "evidence": "03da9d1b-cda6-4fee-864f-b88952b7d8d5"
+    },
+    {
+      "check": "frozen_five_gates",
+      "status": "PASS",
+      "evidence": "run/run_045/artifacts/private/main/analysis.json"
+    },
+    {
+      "check": "ranking_screen",
+      "status": "PASS",
+      "evidence": "OBSERVED_CHANGES_SMALLER_THAN_GAP"
+    },
+    {
+      "check": "uniqueness_and_physical_validation",
+      "status": "WARNING",
+      "evidence": "No strict global uniqueness, mesh convergence or tensile validation claimed"
+    },
+    {
+      "check": "reused_tests",
+      "status": "PASS",
+      "evidence": "12 comparison + 4 ranking tests"
+    }
+  ],
+  "errors": [],
+  "decision": "PASS_TWO_POINT_ADJACENT_REFINEMENT_ONLY"
+}

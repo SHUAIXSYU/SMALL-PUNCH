@@ -1,0 +1,2 @@
+origin	https://github.com/SHUAIXSYU/SMALL-PUNCH.git (fetch)
+origin	https://github.com/SHUAIXSYU/SMALL-PUNCH.git (push)

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_019",
+  "stage": "Existing sensitivity results audit",
+  "objective": "Readonly public execution audit, real ODB Agent extraction, frozen loss and available sensitivity",
+  "status": "RUNNING",
+  "start_time": "2026-10-24T13:31:11.876547+08:00",
+  "end_time": null,
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "git_head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+  "git_branch": "main",
+  "inputs": [
+    {
+      "path": "run/run_017/artifacts/prepared_batch.json",
+      "role": "Frozen five-point identities"
+    }
+  ],
+  "outputs": [],
+  "validation": [],
+  "errors": []
+}

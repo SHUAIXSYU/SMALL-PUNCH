@@ -1,0 +1,28 @@
+{
+  "schema": "sp_invopt.cae.parameters.v1",
+  "task_id": "cb63ca24-e27c-4a0e-b992-4380e4aa6df0",
+  "point_id": "L01",
+  "role": "SYM",
+  "job_name": "SPIO_R020_L01_SYM",
+  "sigma_y_mpa": 181.9007788573887,
+  "n": 0.1,
+  "E_pa": 210000000000.0,
+  "nu": 0.3,
+  "model_id": "candidate-true-total-hollomon-v1",
+  "stress_unit": "Pa",
+  "plastic_strain": "dimensionless equivalent plastic strain",
+  "max_plastic_strain": 0.9,
+  "relative_tolerance": 0.001,
+  "source_inp_sha256": "fa2de5d73a28536c1c07cd22072d2a24c1ae988c569127d728931c583457f05a",
+  "design_sha256": "6721d92f5a9bd4a48271be11d4e7ee5b865d495729f19b4b278b803223f8f5c8",
+  "inp_sha256": "60818c2f983e5ed51fb4b4ebbb7b46500b09e3f4505d1ebe442a51469c1571bc",
+  "table_quality": {
+    "rows": 35,
+    "first_stress_pa": 181900778.8573887,
+    "first_p": 0.0,
+    "last_p": 0.9,
+    "max_sampled_relative_error": 0.0009768831809998674,
+    "generator_conservative_relative_bound": 0.0009945473875954875
+  },
+  "physical_validation": "NOT_EVALUATED"
+}

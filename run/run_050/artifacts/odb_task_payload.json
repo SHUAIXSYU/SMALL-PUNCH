@@ -1,0 +1,100 @@
+{
+  "run_id": "run_050",
+  "scope": "READ_ONLY_EXISTING_ODB_SPATIAL_ENERGY",
+  "points": [
+    {
+      "point_id": "D01",
+      "job_name": "SPIO_R043_V_D01_M00125",
+      "sigma_y_mpa": 152.3086335396325,
+      "n": 0.23066241424320405,
+      "source_inp": "run/run_033/artifacts/candidates/SPIO_R033_D01_G/SPIO_R033_D01_G.inp",
+      "source_sha256": "ed739a407af24b4c0f2cd618fe5d4869e07aceb6310d496e6ab01d9f6166faa9",
+      "inp_path": "run/run_043/artifacts/candidates/SPIO_R043_V_D01_M00125/SPIO_R043_V_D01_M00125.inp",
+      "inp_sha256": "13e48fb2501a930f323b391c03e5f4e9ee6c3881959a837ca22cf94aab8939ca",
+      "parameters_path": "run/run_043/artifacts/candidates/SPIO_R043_V_D01_M00125/parameters.json",
+      "parameters_sha256": "70b43ba89aa8dda37e4033120e6dc9540f6bf4e0181dcd3da899560952d1b7a5",
+      "working_dir": "run/run_043/artifacts/solver/SPIO_R043_V_D01_M00125",
+      "expected_odb": "run/run_043/artifacts/solver/SPIO_R043_V_D01_M00125/SPIO_R043_V_D01_M00125.odb",
+      "baseline_result_path": "run/run_034/artifacts/private/odb/D01/result.json",
+      "baseline_result_sha256": "32c2f3643a1d53fe9b6ec773b288b28c55568bd44d634673083c6740798e68b3",
+      "baseline_fd_path": "run/run_034/artifacts/private/odb/D01/force_displacement.csv",
+      "baseline_fd_sha256": "92259763799543e2101d31321c505328850096a96bd87223ec4743a8c9b9e8f3",
+      "baseline_odb_path": "run/run_033/artifacts/solver/SPIO_R033_D01_G/SPIO_R033_D01_G.odb",
+      "baseline_odb_sha256": "86c54086ee79339e7c541f6c186bc37348f7ee2ba3edf26c14435889e569ae0e",
+      "baseline_loss": 0.000506164079919752,
+      "only_edit": {
+        "old_maximum_increment": 0.0025,
+        "new_maximum_increment": 0.00125
+      },
+      "preflight": "PREVIEW_READY",
+      "dry_run": "DRY_RUN_READY",
+      "queue_id": "q_dd23233452c544469eaebaff3fec2d8b",
+      "solver_status": "NOT_AUTHORIZED_NOT_STARTED",
+      "odb_path": "run/run_043/artifacts/solver/SPIO_R043_V_D01_M00125/SPIO_R043_V_D01_M00125.odb",
+      "odb_sha256": "f857629c1f4d06e30e2019fca91cb0c96fc91f1ebc8f68a2740ca7bdcd239472",
+      "completed_result_path": "run/run_045/artifacts/private/odb/D01/result.json"
+    },
+    {
+      "point_id": "I08",
+      "job_name": "SPIO_R043_V_I08_M00125",
+      "sigma_y_mpa": 265.0109880753873,
+      "n": 0.1544,
+      "source_inp": "run/run_030/artifacts/candidates/SPIO_R030_I08_L/SPIO_R030_I08_L.inp",
+      "source_sha256": "ac0769a21b6dd09fe1b87da708c1a5d38eaea4a71f304264f75df8722d2719d2",
+      "inp_path": "run/run_043/artifacts/candidates/SPIO_R043_V_I08_M00125/SPIO_R043_V_I08_M00125.inp",
+      "inp_sha256": "8b42fa6d30c4c3a7c47c3b732aafcd1fbd37b6588dfe5dff6b5a5aec7f647944",
+      "parameters_path": "run/run_043/artifacts/candidates/SPIO_R043_V_I08_M00125/parameters.json",
+      "parameters_sha256": "35d46b51dbc99a80a4a0280dc05bdd7a930417078c217852230f94362e395ac3",
+      "working_dir": "run/run_043/artifacts/solver/SPIO_R043_V_I08_M00125",
+      "expected_odb": "run/run_043/artifacts/solver/SPIO_R043_V_I08_M00125/SPIO_R043_V_I08_M00125.odb",
+      "baseline_result_path": "run/run_034/artifacts/private/odb/I08/result.json",
+      "baseline_result_sha256": "a76fa52c0e4b4059a0d127105377a352a97bb5046a61455b7bf0d8e47fd56fad",
+      "baseline_fd_path": "run/run_034/artifacts/private/odb/I08/force_displacement.csv",
+      "baseline_fd_sha256": "3a7df1fa3a578eb3433eebb64b9dae9bd9058d29c3d4f217bde85816763f6794",
+      "baseline_odb_path": "run/run_030/artifacts/solver/SPIO_R030_I08_L/SPIO_R030_I08_L.odb",
+      "baseline_odb_sha256": "be4b425db4b4433b7b0a0e144e68afba7d39ca087450657b6f674a6c263453ef",
+      "baseline_loss": 0.0005618919489261876,
+      "only_edit": {
+        "old_maximum_increment": 0.0025,
+        "new_maximum_increment": 0.00125
+      },
+      "preflight": "PREVIEW_READY",
+      "dry_run": "DRY_RUN_READY",
+      "queue_id": "q_e75bdad8123746279485618a7d6f32c9",
+      "solver_status": "NOT_AUTHORIZED_NOT_STARTED",
+      "odb_path": "run/run_043/artifacts/solver/SPIO_R043_V_I08_M00125/SPIO_R043_V_I08_M00125.odb",
+      "odb_sha256": "882892f817e97ad869f35c9a7f4cd52d5b09e218fff037a89fbc10a08147f496",
+      "completed_result_path": "run/run_045/artifacts/private/odb/I08/result.json"
+    }
+  ],
+  "output_dir": "run/run_050/artifacts/private/odb",
+  "comparison_displacements_mm": [
+    0.3,
+    0.6,
+    0.9,
+    1.2
+  ],
+  "peeq_thresholds": [
+    0.1,
+    0.3,
+    0.5
+  ],
+  "requirements": [
+    "verify original INP/ODB full hashes and successful source identities; no original changes",
+    "actual element CAX4: verify axisymmetric integration/IP map; use IVOL if available, otherwise explicitly reconstruct reference/current 2*pi*r*detJ 2x2 Gauss weights from coordinates and U and validate total reference volume and node/IP ordering; never substitute area for volume",
+    "export actual IP coordinates/PEEQ/weights at nearest saved frame to each target; record exact displacement and tolerance, no invented interpolation field",
+    "map whole specimen PEEQ and threshold regions; full specimen denominator, distinguish reference vs current volume fractions and integration-point classification vs exact threshold interface",
+    "quantify radial/thickness distribution and distinguish central contact/bending/support ring; no load contribution claims from maximum or volume fraction",
+    "inventory available energy fields/history; direct local plastic dissipation only if saved; otherwise a clearly labeled reconstructed estimate only if actual stress/PEEQ/time/volume evidence supports J2 plastic work and check summed estimate against ALLPD. Save limits, error and attribution convention; never call it exact or RF2 share",
+    "compare contact CPRESS/COPEN footprint and FD at sampled stages; global energy balance available; no smoothing, fits or changes",
+    "save structured result.json, CSVs, figures/provenance; register small artifacts and message MAIN through existing Hub; finish ODB task NOT_EVALUATED or WARNING"
+  ],
+  "boundaries": [
+    "no solver or datacheck, enqueue, retry or new input",
+    "do not inspect raw or old leaked tensile analyses; MAIN will use released run048/049 limitations",
+    "do not modify global Run index/status/MAIN report; own output subtree only",
+    "no infrastructure changes or dependency installs",
+    "do not imply equivalent plastic strain equals true total uniaxial strain"
+  ],
+  "expected_return": "spatial_energy_result.json with source hashes, physical volume definitions, energy attribution strength, contact and limitations"
+}

@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-24T18:05:19.335406+08:00",
+  "decision": "PASS_CENTER_ADJACENT_REFINEMENT_ONLY",
+  "main_task_id": "1176da01-94a3-44b2-8a41-3dd2197eec0b",
+  "odb_task_id": "67a1e00c-cd0e-41fe-a200-053855a4412a",
+  "queue_id": "q_6919f51c551844b4bcda1cc22b9a6bc4",
+  "worker_artifacts_verified": 35,
+  "manifest_sha256": "19885be50072ce3274036882ff7fb53291d0cf1f2c3411547abe8bb61d2e014a",
+  "V02_queued": false,
+  "new_solver_jobs": 0,
+  "audit_chain_valid": true
+}

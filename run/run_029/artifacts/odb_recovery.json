@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-24T18:00:18.452769+08:00",
+  "task_id": "67a1e00c-cd0e-41fe-a200-053855a4412a",
+  "previous_generation": 1,
+  "new_execution_state": "PENDING",
+  "worker_stopped_confirmation": "Prior ODB Codex turn completed and chat idle; direct wait_threads evidence observed before recovery",
+  "source_odb_sha256": "3a58923c7496d91364f4e64fba8e1cdd76c50b8a4f721209ced108fbe6cd4cbd",
+  "existing_worker_artifacts_verified": 34,
+  "action": "task-scoped recover_retry only; no Solver, queue, or ODB re-extraction",
+  "audit_chain_valid": true
+}

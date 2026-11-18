@@ -1,0 +1,8 @@
+{
+  "at": "2026-10-24T17:31:20.079075+08:00",
+  "status": "SPIO_R027_CTR_M0025_QUEUED_AWAITING_MANUAL_START",
+  "queue_id": "q_6919f51c551844b4bcda1cc22b9a6bc4",
+  "task_id": "1434ef26-a98f-45ed-8289-891d86b29241",
+  "solver_started": false,
+  "datacheck_started": false
+}

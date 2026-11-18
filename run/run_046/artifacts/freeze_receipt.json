@@ -1,0 +1,48 @@
+{
+  "version": "run046-freeze-receipt-v1",
+  "frozen_at": "2026-10-26T16:37:45.798357+08:00",
+  "state": "FROZEN_AWAITING_EXPLICIT_UNBLIND_AUTHORIZATION",
+  "curves_frozen": true,
+  "bundle": {
+    "path": "run/run_046/artifacts/private/SP_InvOpt_run046_frozen_candidates.zip",
+    "sha256": "d439ef3ae696d9711aa3a3d4fa989f61710adf3cd9a73c9935b9432131dddc3a",
+    "bytes": 867233
+  },
+  "manifest": {
+    "path": "run/run_046/artifacts/private/freeze/frozen_manifest.json",
+    "sha256": "fcc5d48aee897c6a9324680977b1f405b7b817f52bea9f83c5fc5bec5e72c761"
+  },
+  "results": {
+    "path": "run/run_046/artifacts/private/freeze/frozen_inversion_results.json",
+    "sha256": "1a514c2a01e2895e119997c9ec35775ca63c881f888993026a3d2f33d47d603c"
+  },
+  "validation_protocol": {
+    "path": "run/run_046/artifacts/private/freeze/independent_validation_protocol.json",
+    "sha256": "31a013fbd99532f2742136b79b2fce0b42a22585512ab947a5f172401fcdff65"
+  },
+  "curves": [
+    {
+      "candidate_id": "D01",
+      "true_total_path": "run/run_046/artifacts/private/freeze/D01_true_total_curve.csv",
+      "true_total_sha256": "2b6135ea656ea2d24526535487624e2f2a9100171635425f8b664bae26db7ba0",
+      "plastic_path": "run/run_046/artifacts/private/freeze/D01_abaqus_yield_stress_plastic_strain.csv",
+      "plastic_sha256": "bd2e3cdf03cd8b365e81ff9cdbe9c54bb5ec97fd4e2695da9100505507118181",
+      "parameters_path": "run/run_046/artifacts/private/freeze/D01_parameters.json",
+      "parameters_sha256": "34e26254fde3964ed2395b57632acbf5b8f84bc1e64e2869bfa217f4e3f03c85"
+    },
+    {
+      "candidate_id": "I08",
+      "true_total_path": "run/run_046/artifacts/private/freeze/I08_true_total_curve.csv",
+      "true_total_sha256": "1b48b1acbc3e9adbfca6aa44683cf20a4f199fcb20c95a05665b11c69b79e89e",
+      "plastic_path": "run/run_046/artifacts/private/freeze/I08_abaqus_yield_stress_plastic_strain.csv",
+      "plastic_sha256": "a7d01a4401a1c90b965990e4d8ec220b6e4f5ab5af21e93bb8f6955a32918702",
+      "parameters_path": "run/run_046/artifacts/private/freeze/I08_parameters.json",
+      "parameters_sha256": "dd0bfe7d208a901b8b21ed3ff4e187e3df4a71abc72ca4bd1d9b477b9d1c69b2"
+    }
+  ],
+  "readiness": "Ready to request explicit authorization for preregistered comparison; formal same-state validation remains gated by experimental provenance/definition/uniformity. No physical PASS threshold invented.",
+  "task_id": "1fbc712f-6583-4149-b510-dd53b03369fa",
+  "new_fe": 0,
+  "new_queue": 0,
+  "holdout_access": false
+}

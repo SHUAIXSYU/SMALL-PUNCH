@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_025",
+  "stage": "V01 numerical qualification failed; V02 withheld",
+  "objective": "Audit V01, real ODB extraction, frozen numerical gate; V02 only if qualified",
+  "status": "BLOCKED",
+  "start_time": "2026-10-24T16:27:36.249285+08:00",
+  "end_time": "2026-10-24T16:36:35.367073+08:00",
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "git_head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+  "git_branch": "main",
+  "inputs": [
+    {
+      "path": "run/run_024/artifacts/enqueue_result.json",
+      "role": "Unique authorized V01 queue identity"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_025/summary.md",
+      "role": "Public scope report"
+    },
+    {
+      "path": "run/run_025/artifacts/private/main_report.md",
+      "role": "Scientific review"
+    },
+    {
+      "path": "run/run_025/artifacts/private/main_comparison.json",
+      "role": "Frozen numerical gates"
+    },
+    {
+      "path": "run/run_025/artifacts/private/main_odb_acceptance.json",
+      "role": "Real ODB completion evidence"
+    },
+    {
+      "path": "run/run_025/artifacts/private/authorization_remaining.json",
+      "role": "Conditional budget state"
+    }
+  ],
+  "validation": [
+    {
+      "check": "execution_identity",
+      "status": "PASS",
+      "scope": "One actual datacheck/full pair; successful terminal state, exact input/output"
+    },
+    {
+      "check": "real_odb",
+      "status": "PASS",
+      "scope": "Task-scoped real session evidence/producer and hashes"
+    },
+    {
+      "check": "main_independent_checks",
+      "status": "PASS",
+      "scope": "RP history/field, material full table, explicit numerical formula"
+    },
+    {
+      "check": "frozen_numerical_gate",
+      "status": "BLOCKED",
+      "scope": "force_rmse, max_absolute_force"
+    },
+    {
+      "check": "V02_withheld",
+      "status": "PASS",
+      "scope": "No queue record, empty workdir"
+    }
+  ],
+  "errors": [
+    {
+      "code": "V01_NUMERICAL_TOLERANCE_EXCEEDED",
+      "severity": "BLOCKED",
+      "message": "Existing solve completed but failed predeclared force curve tolerances",
+      "evidence": "run/run_025/artifacts/private/main_comparison.json",
+      "resolution": "No retry; V02 blocked pending new scientific decision"
+    },
+    {
+      "code": "MESSAGE_TASK_DENIED",
+      "severity": "WARNING",
+      "action": "Append consumption to prior run024 budget task",
+      "reason": "Current MAIN identity is not creator or claimant of that prior task",
+      "resolution": "No privilege bypass. Existing registered authorization_remaining.json and budget message on current completed MAIN task are authoritative for this review."
+    }
+  ],
+  "study_complete": false
+}

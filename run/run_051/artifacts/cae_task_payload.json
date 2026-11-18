@@ -1,0 +1,84 @@
+{
+  "run_id": "run_051",
+  "task": "generate_exactly_two_frozen_highp_material_candidates",
+  "material_contract_path": "run/run_051/artifacts/material_contract.json",
+  "material_contract_sha256": "9073d8170db2b9febb6108749e4a0ab2994db54779acf382c0f36425e22faaaa",
+  "comparison_contract_path": "run/run_051/artifacts/comparison_contract.json",
+  "comparison_contract_sha256": "c5abb06c177a6ebb609ae58160a1c77aed1ca85cf5b155646899c355ca7e8d30",
+  "source_inp": "run/run_043/artifacts/candidates/SPIO_R043_V_D01_M00125/SPIO_R043_V_D01_M00125.inp",
+  "source_inp_sha256": "13e48fb2501a930f323b391c03e5f4e9ee6c3881959a837ca22cf94aab8939ca",
+  "points": [
+    {
+      "candidate_id": "H01",
+      "job_name": "SPIO_R051_H01_LOW",
+      "sign": -1,
+      "post_transition_hardening_multiplier": 0.5,
+      "table_path": "run/run_051/artifacts/private/H01/yield_stress_plastic_strain.csv",
+      "table_sha256": "41a1c00133995a5cbe076d8e5ef56a8d4ad2257d830c57962a90f42691e74c3e",
+      "plastic_rows_path": "run/run_051/artifacts/private/H01/plastic_rows.inc",
+      "plastic_rows_sha256": "c27d38eee841ab4b635ac13f3e36b66cabadf6f3eae9889c5f215de58e4b795d",
+      "table_rows": 82,
+      "rows_at_or_below_switch": 37,
+      "original_low_numeric_rows_preserved": 36,
+      "max_certified_relative_interpolation_bound": 9.793926204970097e-06,
+      "max_dense_relative_interpolation_error": 8.403731516760542e-06,
+      "max_low_deployed_interpolation_difference_pa": 5.960464477539063e-08,
+      "initial_yield_stress_pa": 152308633.5396325,
+      "coverage": [
+        0.0,
+        0.9
+      ],
+      "intended_inp_path": "run/run_051/artifacts/candidates/SPIO_R051_H01_LOW/SPIO_R051_H01_LOW.inp",
+      "working_dir": "run/run_051/artifacts/solver/SPIO_R051_H01_LOW",
+      "expected_odb": "run/run_051/artifacts/solver/SPIO_R051_H01_LOW/SPIO_R051_H01_LOW.odb"
+    },
+    {
+      "candidate_id": "H02",
+      "job_name": "SPIO_R051_H02_HIGH",
+      "sign": 1,
+      "post_transition_hardening_multiplier": 1.5,
+      "table_path": "run/run_051/artifacts/private/H02/yield_stress_plastic_strain.csv",
+      "table_sha256": "e5279d18dbc1fed1bf6e758c917a44daddaebc78f51c4cf3daa30dc46c7b7ca4",
+      "plastic_rows_path": "run/run_051/artifacts/private/H02/plastic_rows.inc",
+      "plastic_rows_sha256": "1e0b5186000c9a2b86e9bb59d3fede5021a9d9647746370e55408e83f482ea3a",
+      "table_rows": 82,
+      "rows_at_or_below_switch": 37,
+      "original_low_numeric_rows_preserved": 36,
+      "max_certified_relative_interpolation_bound": 9.556338397597788e-06,
+      "max_dense_relative_interpolation_error": 8.186535286679e-06,
+      "max_low_deployed_interpolation_difference_pa": 5.960464477539063e-08,
+      "initial_yield_stress_pa": 152308633.5396325,
+      "coverage": [
+        0.0,
+        0.9
+      ],
+      "intended_inp_path": "run/run_051/artifacts/candidates/SPIO_R051_H02_HIGH/SPIO_R051_H02_HIGH.inp",
+      "working_dir": "run/run_051/artifacts/solver/SPIO_R051_H02_HIGH",
+      "expected_odb": "run/run_051/artifacts/solver/SPIO_R051_H02_HIGH/SPIO_R051_H02_HIGH.odb"
+    }
+  ],
+  "output_subtree": "run/run_051/artifacts/private/cae",
+  "limits": [
+    "real CAE identity/session claims this task",
+    "replace numeric rows of sole Plastic block using frozen fragments only; every outside byte identical, including headings/comments/material name",
+    "unique actual job name from filename/API; leave historical job-name comment untouched to preserve source bytes",
+    "E210GPa,nu.3,geometry,mesh,BC,contact,friction,loading,all outputs and maximum increment.00125 unchanged",
+    "no original edits or overwrite; new directories only",
+    "public AbqJobPilot0.2.2 preflight/dry-run only;PERSISTED settings14CPU0GPU datacheck/full configured but never executed",
+    "no enqueue/Solver/datacheck/retry;no environment or infrastructure changes",
+    "do not read original/old leaked/released tensile numeric datasets; no new fit",
+    "do not modify MAIN/global Run files; own candidate directories and private/cae outputs only"
+  ],
+  "public_project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+  "project_path": "agenthub_sp_invopt/abqjobpilot_project",
+  "resources": {
+    "initial_increment": 0.001,
+    "maximum_increment": 0.00125,
+    "minimum_increment": 1e-12,
+    "step_time": 1,
+    "maximum_increments": 999999,
+    "cpus": 14,
+    "gpus": 0
+  },
+  "no_solver_authorized": true
+}

@@ -1,0 +1,51 @@
+
+[2026-10-24T20:33:02] START DATACHECK_RUNNING
+Command: cmd.exe /c D:\ABAQUS2024\Commands\abq2024.bat job=SPIO_R033_D09_L input=E:\Projects\SMALL-PUNCH\run\run_033\artifacts\candidates\SPIO_R033_D09_L\SPIO_R033_D09_L.inp datacheck cpus=14 interactive ask_delete=OFF
+
+
+E:\Projects\SMALL-PUNCH\run\run_033\artifacts\solver\SPIO_R033_D09_L>call "D:\ONEAPI\compiler\2022.2.0\env\vars.bat" intel64	vs2022 
+Analysis initiated from SIMULIA established products
+Abaqus JOB SPIO_R033_D09_L
+Abaqus 2024
+Abaqus License Manager checked out the following licenses:
+Abaqus/Standard checked out 15 tokens from Flexnet server Boltzmann.
+<9984 out of 9999 licenses remain available>.
+Begin Analysis Input File Processor
+10/24/2026 8:33:17 PM
+Run pre.exe
+10/24/2026 8:33:25 PM
+End Analysis Input File Processor
+Begin Abaqus/Standard Datacheck
+Begin Abaqus/Standard Analysis
+10/24/2026 8:33:25 PM
+Run standard.exe
+10/24/2026 8:33:33 PM
+End Abaqus/Standard Analysis
+Begin SIM Wrap-up
+10/24/2026 8:33:35 PM
+Run SMASimUtility.exe
+10/24/2026 8:33:35 PM
+End SIM Wrap-up
+Abaqus JOB SPIO_R033_D09_L COMPLETED
+
+[2026-10-24T20:33:35] END DATACHECK_RUNNING return_code=0
+
+[2026-10-24T20:33:35] START FULL_RUNNING
+Command: cmd.exe /c D:\ABAQUS2024\Commands\abq2024.bat job=SPIO_R033_D09_L input=E:\Projects\SMALL-PUNCH\run\run_033\artifacts\candidates\SPIO_R033_D09_L\SPIO_R033_D09_L.inp cpus=14 interactive ask_delete=OFF
+
+
+E:\Projects\SMALL-PUNCH\run\run_033\artifacts\solver\SPIO_R033_D09_L>call "D:\ONEAPI\compiler\2022.2.0\env\vars.bat" intel64	vs2022 
+Analysis initiated from SIMULIA established products
+Abaqus JOB SPIO_R033_D09_L
+Abaqus 2024
+Abaqus License Manager checked out the following licenses:
+Abaqus/Standard checked out 15 tokens from Flexnet server Boltzmann.
+<9984 out of 9999 licenses remain available>.
+Begin Analysis Input File Processor
+10/24/2026 8:33:50 PM
+Run pre.exe
+10/24/2026 8:33:59 PM
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+10/24/2026 8:33:59 PM
+Run standard.exe

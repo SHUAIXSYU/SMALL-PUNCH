@@ -1,0 +1,183 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_040",
+  "stage": "BO/DE optimisation pilot preparation",
+  "objective": "Freeze 19-point shared data, offline batch BO and partial-generation DE, prepare 8 preview-only candidates",
+  "status": "WARNING",
+  "start_time": "2026-10-25T22:20:02.742837+08:00",
+  "end_time": "2026-10-25T22:31:12.130862+08:00",
+  "git_branch": "main",
+  "git_head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+  "git": {
+    "branch": "main",
+    "head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+    "remote": "origin\thttps://github.com/SHUAIXSYU/SMALL-PUNCH.git (fetch)\norigin\thttps://github.com/SHUAIXSYU/SMALL-PUNCH.git (push)",
+    "working_tree": "M agenthub_sp_invopt/abqjobpilot_project/project.db\n M run/README.md\n M status/PROJECT_STATUS.md\n?? run/run_019/\n?? run/run_020/\n?? run/run_021/\n?? run/run_022/\n?? run/run_023/\n?? run/run_024/\n?? run/run_025/\n?? run/run_026/\n?? run/run_027/\n?? run/run_028/\n?? run/run_029/\n?? run/run_030/\n?? run/run_031/\n?? run/run_032/\n?? run/run_033/\n?? run/run_034/\n?? run/run_035/\n?? run/run_036/\n?? run/run_037/\n?? run/run_038/\n?? run/run_039/\n?? run/run_040/"
+  },
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "inputs": [
+    {
+      "path": "run/run_039/artifacts/private/main/main_review.json",
+      "role": "frozen 22-point MAIN review",
+      "sha256": "47f11f97a7a14905c46ab86d65767488e95c3612a19459fd3984257e2cbf4b56"
+    },
+    {
+      "path": "run/run_030/artifacts/model_contract.json",
+      "role": "numeric/model contract",
+      "sha256": "669c105e1deafafe4496e11b4dd5631ddf7dca66d2e6b9822f0f9be59f184f2d"
+    },
+    {
+      "path": "run/run_030/artifacts/loss_contract_binding.json",
+      "role": "SPT loss binding",
+      "sha256": "5c730ba8bf06ae4572351a074d84ab4b2ae64073c7f31bff335b4393a496256c"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_040/artifacts/private/initial_dataset.json",
+      "sha256": "44d0b6267afd488c627a303f1bc779c5df76d48d00bf0dab9bced565411b4e76"
+    },
+    {
+      "path": "run/run_040/artifacts/private/candidate_manifest.json",
+      "sha256": "692c3215c974b35ea1c816b86520f2c183241504c8bd2e0b111cda44bb2d502b"
+    },
+    {
+      "path": "run/run_040/artifacts/algorithm_contract.json",
+      "sha256": "1262839041426882b9f39f1ab03ba6d571703783285dd1bd6d7059b17d254e86"
+    },
+    {
+      "path": "run/run_040/artifacts/pilot_protocol.md",
+      "sha256": "1765f43ddd500509d90068d8af240a2fc80bd6df4bb2050a96c1bace6321d513"
+    },
+    {
+      "path": "run/run_040/artifacts/pilot.py",
+      "sha256": "89ed25612ac600cf2f09c7dec4d92f3fa6f70f6527f0d1d11ffe5e0d0e6415a2"
+    },
+    {
+      "path": "run/run_040/artifacts/test_pilot.py",
+      "sha256": "5c75affd004de8cc85cbd0f178091b994f57c387244115ddc444efb1fa2eed55"
+    },
+    {
+      "path": "run/run_040/artifacts/build_pilot.py",
+      "sha256": "e27d1f4009e8d794c84c8ad92cfd6971347611a166ecdcc91e58bf918e45ffa2"
+    },
+    {
+      "path": "run/run_040/artifacts/private/surrogate_check.json",
+      "sha256": "0a52487b9486f1f7829cb27ef63f85cddd9a664bafa775ea523594b8d4285554"
+    },
+    {
+      "path": "run/run_040/artifacts/private/identifiability.json",
+      "sha256": "0bd63c8dd6a0b0846797aa89a570fa340cfeb24ba796441a6026513d782c2483"
+    },
+    {
+      "path": "run/run_040/artifacts/private/algorithm_runtime.json",
+      "sha256": "a75de20c96c6257b2ed86e31289c6c5a3bed15573695e9360f519e4ec4ba17dd"
+    },
+    {
+      "path": "run/run_040/artifacts/private/cae/structured_result.json",
+      "sha256": "f8e7e51eb004590336390508488596dd2bf7c4172b8de861482bff796b226b10"
+    },
+    {
+      "path": "run/run_040/artifacts/private/cae/generated_candidate_manifest.json",
+      "sha256": "c68cdb210a2a06c17da82fa9b43c20bdf8b60f958c44549b9ef55738bfb55d92"
+    },
+    {
+      "path": "run/run_040/artifacts/private/cae/static_verification.json",
+      "sha256": "5f7ca9a85ad3dd5419e6b2c637b2390649dbbf7e9e752a5b2e7238475276522a"
+    },
+    {
+      "path": "run/run_040/artifacts/private/cae/preview_result.json",
+      "sha256": "749190219216fa52531c4c728a97abe40af709bd212a06a9b11c1aa9564cd697"
+    },
+    {
+      "path": "run/run_040/artifacts/private/cae/preview_integrity.json",
+      "sha256": "5a0a1812024352d898919f4759a2e6851cbaecfb0e78de3a91bc97179574e750"
+    },
+    {
+      "path": "run/run_040/artifacts/private/main_cae_review.json",
+      "sha256": "36543d5750bd34eed79bdeb6684b5e1e80169705e10e814eabc57ec67a773c0f"
+    },
+    {
+      "path": "run/run_040/artifacts/private/MAIN_REPORT.md",
+      "sha256": "e4e5d2e5366de5e73b9d39a3626c01976e06642c9c6ff113b038eed48a2eb289"
+    },
+    {
+      "path": "run/run_040/summary.md",
+      "sha256": "58d9b612882ff11296c53685ed769bcbaef58c5dd6a686f53baaa45667cf1aa5"
+    },
+    {
+      "path": "run/run_040/artifacts/candidates/SPIO_R040_BO01/SPIO_R040_BO01.inp",
+      "sha256": "7e5c7d22491dd185fc32521ca58922bb8449c6bdb862dbf885d60018f58a35da"
+    },
+    {
+      "path": "run/run_040/artifacts/candidates/SPIO_R040_BO02/SPIO_R040_BO02.inp",
+      "sha256": "37e371cdd70e3b8098276fde4bd460883f78aec005db40ce6635f14abd6f1214"
+    },
+    {
+      "path": "run/run_040/artifacts/candidates/SPIO_R040_BO03/SPIO_R040_BO03.inp",
+      "sha256": "0fd6f413e8c761bd73cc5e98fa547773aa11915eb6aed578a6f3c28d6de936b7"
+    },
+    {
+      "path": "run/run_040/artifacts/candidates/SPIO_R040_BO04/SPIO_R040_BO04.inp",
+      "sha256": "387d6a49a5cbec4e156b2ae23cc7660e3c43fbe36501d4eb60256c745eea95e4"
+    },
+    {
+      "path": "run/run_040/artifacts/candidates/SPIO_R040_DE01/SPIO_R040_DE01.inp",
+      "sha256": "cd42c8be8a249d455add3263d2e2a4f715203e371bc5b2c6239dbbe67bc788cb"
+    },
+    {
+      "path": "run/run_040/artifacts/candidates/SPIO_R040_DE02/SPIO_R040_DE02.inp",
+      "sha256": "4c78cd5e7ba258928ff9f1aa02c7c6fa37e9c4cad9f84c60acb99c189cca4d93"
+    },
+    {
+      "path": "run/run_040/artifacts/candidates/SPIO_R040_DE03/SPIO_R040_DE03.inp",
+      "sha256": "64693ea3676d7917f1b8dd636f0f0cb3df60d5ca8eef2fb6a8fccb2306d4e563"
+    },
+    {
+      "path": "run/run_040/artifacts/candidates/SPIO_R040_DE04/SPIO_R040_DE04.inp",
+      "sha256": "fc399a4d5dd270530634e70189bfccc82018acf4bd57258c0ac72f2cc481fc04"
+    },
+    {
+      "path": "run/run_040/artifacts/private/evidence_manifest.json",
+      "sha256": "738a6be2567f9675d6cc5105e973505545c93e36fa76c6c665a6fa6446bfe510"
+    }
+  ],
+  "validation": [
+    {
+      "check": "initial_19_valid_3_null_shared_identity",
+      "status": "PASS",
+      "evidence": "run039 source/result/curve hashes and numeric/Loss contracts verified"
+    },
+    {
+      "check": "BO_DE_reproducibility_and_bounds",
+      "status": "PASS",
+      "evidence": "5 offline tests, byte-frozen 8 proposals"
+    },
+    {
+      "check": "real_CAE_AgentHub_handoff",
+      "status": "PASS",
+      "evidence": "separate CAE session claimed/completed; MAIN received message; 26 artifact hashes verified"
+    },
+    {
+      "check": "eight_INP_static_and_previews",
+      "status": "PASS",
+      "evidence": "8 nonmaterial identities, material tables, Preflight and dry-run; no Queue mutation"
+    },
+    {
+      "check": "numerical_extrapolation_risk",
+      "status": "WARNING",
+      "evidence": "BO01/BO02/DE02 low n, BO03 sigma boundary, GP hyperparameters at limits"
+    },
+    {
+      "check": "new_solver_datacheck_queue",
+      "status": "PASS",
+      "evidence": "0 starts and 0 enqueue in this Run"
+    },
+    {
+      "check": "AgentHub_chain_and_holdout_isolation",
+      "status": "PASS",
+      "evidence": "audit chain valid; sealed tensile not read, historic exposure retained"
+    }
+  ],
+  "errors": []
+}

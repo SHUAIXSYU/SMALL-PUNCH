@@ -1,0 +1,17 @@
+{
+  "at": "2026-10-24T16:36:35.368074+08:00",
+  "status": "BLOCKED_V01_NUMERICAL_QUALIFICATION",
+  "study_complete": false,
+  "manifest_sha256": "24f0847688016c03531a86a76e84635be1f8dd10cf340b98c38fd4e9e986beff",
+  "run_json_sha256": "33fceec728e7dc3fa3818da374f1d1467abbc7b0908b35c0a8c3f90401f6660d",
+  "budget_message_id": "609d23e8-106d-4489-916b-43f953d7c579",
+  "bookkeeping_error": {
+    "code": "MESSAGE_TASK_DENIED",
+    "severity": "WARNING",
+    "action": "Append consumption to prior run024 budget task",
+    "reason": "Current MAIN identity is not creator or claimant of that prior task",
+    "resolution": "No privilege bypass. Existing registered authorization_remaining.json and budget message on current completed MAIN task are authoritative for this review."
+  },
+  "manifest_verified": 14,
+  "next_action": "STOP; V02 condition unmet, no enqueue or Solver retry"
+}

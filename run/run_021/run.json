@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_021",
+  "stage": "Four-job queue-only submission",
+  "objective": "Authorize frozen four jobs and audit installed failure stop behavior; no Codex Solver start",
+  "status": "WARNING",
+  "start_time": "2026-10-24T14:35:13.676899+08:00",
+  "end_time": "2026-10-24T14:37:00.142502+08:00",
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "git_head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+  "git_branch": "main",
+  "inputs": [
+    {
+      "path": "run/run_020/artifacts/prepared_batch.json",
+      "sha256": "e538bc574a4c26be95ef36f89fc4c2aea12e70d09e9da0f8040bed394fa1e278",
+      "role": "Frozen four inputs"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_021/summary.md",
+      "role": "Final report"
+    },
+    {
+      "path": "run/run_021/artifacts/enqueue_result.json",
+      "role": "Actual four queue identities"
+    },
+    {
+      "path": "run/run_021/artifacts/runner_audit.md",
+      "role": "Local failure-stop audit"
+    },
+    {
+      "path": "run/run_021/artifacts/agenthub_receipt.json",
+      "role": "Formal Hub evidence"
+    },
+    {
+      "path": "run/run_021/artifacts/final_verification.json",
+      "role": "Readback validation"
+    }
+  ],
+  "validation": [
+    {
+      "check": "frozen_identity_and_settings",
+      "status": "PASS",
+      "scope": "Four inputs and strict Project settings",
+      "evidence": "run/run_021/artifacts/admission.json"
+    },
+    {
+      "check": "public_preflight_dry_run",
+      "status": "PASS",
+      "scope": "Four preview requests; no solve",
+      "evidence": "run/run_021/artifacts/admission.json"
+    },
+    {
+      "check": "fake_runner_checks",
+      "status": "PASS",
+      "scope": "7 in-memory control-flow cases",
+      "evidence": "run/run_021/artifacts/runner_fake_tests.json"
+    },
+    {
+      "check": "queue_readback",
+      "status": "PASS",
+      "scope": "Four unique ordered queued jobs, no other pending",
+      "evidence": "run/run_021/artifacts/final_verification.json"
+    }
+  ],
+  "errors": [
+    {
+      "code": "AUTO_STOP_UNAVAILABLE",
+      "severity": "WARNING",
+      "message": "Failures/warnings do not automatically stop the queue; manual stop has boundary race.",
+      "evidence": "run/run_021/artifacts/runner_audit.md",
+      "resolution": "Explicit user permits enqueue; attended/manual controlled execution required"
+    }
+  ],
+  "task_id": "9e9d031b-b7b9-4540-8819-1af81b9e41d1",
+  "queue_ids": [
+    "q_7158d0dad2bd46199a24799701899cf0",
+    "q_9c905ac50611446eb4bb828619eb8a2f",
+    "q_6e02167dcd0b494ca07c847c7909c86c",
+    "q_bbaaeda7491a4a60b237879bd755c247"
+  ],
+  "solver_started": false,
+  "datacheck_started": false,
+  "automatic_retries": 0
+}

@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_052",
+  "stage": "Authorized hardening-envelope two-job queue-only handoff",
+  "objective": "record scoped authorization, verify current frozen identities/runtime/previews, enqueue two only and stop",
+  "status": "WARNING",
+  "start_time": "2026-10-26T22:40:01.265091+08:00",
+  "end_time": "2026-10-26T22:41:59.571501+08:00",
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "git_branch": "main",
+  "git_head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+  "inputs": [
+    {
+      "path": "run/run_051/artifacts/prepared_batch.json",
+      "role": "immutable run051 frozen inputs",
+      "sha256": "f2b5eabc97269c107b5836f6ca50ed6c11955f845165a29c685d60589abeca9f"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_052/summary.md",
+      "role": "manual-start report"
+    },
+    {
+      "path": "run/run_052/artifacts/private/queue_manifest.json",
+      "role": "actual queue identities",
+      "sha256": "43fc9d1e54a5d771c4e284672caa8bfe31a9bc74125e8142668c6e41e62a74c5"
+    },
+    {
+      "path": "run/run_052/artifacts/private/budget_ledger.json",
+      "role": "authorized vs started budget",
+      "sha256": "bb8e66c3990bb5790dd29a2fe06ad5d9f74be0c2ade5f83c4581e103e5642dbf"
+    },
+    {
+      "path": "run/run_052/artifacts/private/hub_phase1_receipt.json",
+      "role": "formal Hub evidence receipt",
+      "sha256": "2dff2088764fc7f69bcc5b108ebe1e2ca7329e8ca7a63b77e22f7a9c7d346e58"
+    },
+    {
+      "path": "run/run_052/artifacts/manifest.json",
+      "role": "evidence index",
+      "sha256": "dad70ecbab354c2b7b828c977519dcf3d7af1a588351a451e538760c6088661c"
+    }
+  ],
+  "validation": [
+    {
+      "check": "frozen identity and changed material scope",
+      "status": "PASS",
+      "evidence": "run/run_052/artifacts/private/authorization_scope.json",
+      "scope": "two original INP hashes, D01 plastic-only differences and controls"
+    },
+    {
+      "check": "current public preflight/dry-run",
+      "status": "PASS",
+      "evidence": "run/run_052/artifacts/private/precheck.json",
+      "scope": "2/2;PERSISTED14CPU0GPU;not Abaqus syntax/convergence validation"
+    },
+    {
+      "check": "unstarted authorized Queue and Runner",
+      "status": "PASS",
+      "evidence": "run/run_052/artifacts/private/final_readback.json",
+      "scope": "exactly two in order;QUEUED;no outputs/locks/started attempts"
+    },
+    {
+      "check": "science results",
+      "status": "WARNING",
+      "evidence": "run/run_052/artifacts/private/budget_ledger.json",
+      "scope": "awaiting human GUI start; no results or scientific qualification"
+    }
+  ],
+  "errors": []
+}

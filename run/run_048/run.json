@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_048",
+  "stage": "Independent post-source-confirmation tensile reassessment",
+  "objective": "recheck frozen inputs and source identity, audit preregistered gates with collaborator reply, recalculate restricted comparison without changing historical runs",
+  "status": "WARNING",
+  "start_time": "2026-10-26T20:35:51.7711571+08:00",
+  "end_time": "2026-10-26T20:42:12.3894553+08:00",
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "git_branch": "main",
+  "git_head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+  "git_remote": "https://github.com/SHUAIXSYU/SMALL-PUNCH.git",
+  "working_tree_at_start": "pre-existing project.db, run index and project status modifications and untracked run_019 through run_047; preserved",
+  "inputs": [
+    {"path":"run/run_046/artifacts/private/SP_InvOpt_run046_frozen_candidates.zip","role":"unchanged frozen candidates"},
+    {"path":"run/run_046/artifacts/private/freeze/frozen_manifest.json","role":"unchanged payload manifest"},
+    {"path":"run/run_046/artifacts/private/freeze/independent_validation_protocol.json","role":"unchanged preregistered scoring gates"},
+    {"path":"run/run_047/artifacts/private/origin_extract.json","role":"official extracted original source; exact original identity in private audit"},
+    {"path":"run/run_048/artifacts/private/collaborator_confirmation.json","role":"new user-relayed source-party statements"}
+  ],
+  "outputs": [
+    {"path":"run/run_048/checkpoints/initial.json","role":"baseline"},
+    {"path":"run/run_048/artifacts/private/input_integrity.json","role":"48 input identity checks"},
+    {"path":"run/run_048/artifacts/private/qualification_gate_audit.md","role":"private frozen gate decision"},
+    {"path":"run/run_048/artifacts/private/reassessment_metrics.json","role":"private formal null and restricted metrics"},
+    {"path":"run/run_048/artifacts/private/restricted_pointwise_comparison.csv","role":"private fixed grid values"},
+    {"path":"run/run_048/artifacts/private/fixed_band_metrics.csv","role":"private preregistered bands"},
+    {"path":"run/run_048/artifacts/private/reassessment_comparison.png","role":"private visualization"},
+    {"path":"run/run_048/artifacts/private/independent_reassessment_report.md","role":"private final report"},
+    {"path":"run/run_048/artifacts/private/main_handoff.md","role":"private handoff"},
+    {"path":"run/run_048/artifacts/private/evidence_manifest.json","role":"private file/hash ledger"}
+  ],
+  "decision": "PRIVATE_REASSESSMENT_FINALIZED",
+  "scope": "readonly offline comparison; no solver/datacheck/queue/retry/BO/DE/RL/refit, no historical report modification or Git commit/push",
+  "validation": [
+    {"check":"freeze_and_original_identity","status":"PASS","evidence":"48/48 explicit checks"},
+    {"check":"fixed_grid_and_metric_recalculation","status":"PASS","evidence":"981 points; independent CSV arithmetic test"},
+    {"check":"run047_numeric_reproduction","status":"PASS","evidence":"restricted RMSE differences 0 for both candidates"},
+    {"check":"formal_protocol_gate","status":"PASS","scope":"unresolved gates correctly reject formal score"},
+    {"check":"scientific_validation","status":"WARNING","evidence":"private report"}
+  ],
+  "errors": []
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "sp_invopt.cae.candidate_manifest.v1",
+  "task_id": "551d73d5-ae9b-4ace-a9f6-30562b6e17a0",
+  "run_id": "run_027",
+  "created_at": "2026-10-24T17:17:06.659897+08:00",
+  "source_inp": "run/run_023/artifacts/candidates/SPIO_R023_V01_CTR/SPIO_R023_V01_CTR.inp",
+  "source_sha256": "14006d69c15e6fd4be021b889964e5add51e724d52fd03ff817b0f80b747c2ff",
+  "job_name": "SPIO_R027_CTR_M0025",
+  "inp_path": "run/run_027/artifacts/candidates/SPIO_R027_CTR_M0025/SPIO_R027_CTR_M0025.inp",
+  "sha256": "dae9345bc60973c27edec498dfbd27f269e1f5bbe151316918862954faac40c9",
+  "parameters_path": "run/run_027/artifacts/candidates/SPIO_R027_CTR_M0025/parameters.json",
+  "working_dir": "run/run_027/artifacts/solver/SPIO_R027_CTR_M0025",
+  "expected_outputs": {
+    "odb": "run/run_027/artifacts/solver/SPIO_R027_CTR_M0025/SPIO_R027_CTR_M0025.odb",
+    "dat": "run/run_027/artifacts/solver/SPIO_R027_CTR_M0025/SPIO_R027_CTR_M0025.dat",
+    "msg": "run/run_027/artifacts/solver/SPIO_R027_CTR_M0025/SPIO_R027_CTR_M0025.msg",
+    "sta": "run/run_027/artifacts/solver/SPIO_R027_CTR_M0025/SPIO_R027_CTR_M0025.sta",
+    "log": "run/run_027/artifacts/solver/SPIO_R027_CTR_M0025/SPIO_R027_CTR_M0025.log"
+  },
+  "expected_outputs_status": "NOT_CREATED",
+  "change": {
+    "keyword": "*Static",
+    "max_increment_new": 0.0025,
+    "max_increment_old": 0.005,
+    "new_line": "0.001, 1., 1e-12, 0.0025",
+    "old_line": "0.001, 1., 1e-12, 0.005"
+  },
+  "byte_diff_evidence": "run/run_027/artifacts/private/cae/byte_diff_evidence.json",
+  "material_table_sha256": "ca3b64e8f8bb9f030c59aa76e2a88e9bb03f51a82f61f627518724e57b48d4e9",
+  "material_rows": 35,
+  "external_references": [],
+  "work_dir_empty_before_creation": true,
+  "abaqus_preflight_datacheck_solver_enqueue": "NOT_PERFORMED",
+  "science_state": "NOT_EVALUATED"
+}

@@ -1,0 +1,20 @@
+{
+  "files": [
+    {
+      "path": "run/run_063/artifacts/render_direction_v2.py",
+      "sha256": "f360a1c4a341cee22fa9eb1098b5cfa5c8b5da1d245888f3e1c3235d59228785"
+    },
+    {
+      "path": "run/run_063/artifacts/private/parameter_compensation_local_v2.png",
+      "sha256": "da14cf514f8d340510bfa8eb719be28e083f0e2b96ddc53878330c1be6a107ef"
+    },
+    {
+      "path": "run/run_063/artifacts/private/visual_qa_addendum.json",
+      "sha256": "beac878a5fbb5c5555c085ecf395f0c0980b43a814bda72b2df3d04139980031"
+    },
+    {
+      "path": "run/run_063/artifacts/private/visual_qa_hub_receipt.json",
+      "sha256": "cb457d7e0b88ff1ecb28c78ae96300eff00627e99ef620caf3fdf89cb3869797"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_023",
+  "stage": "Numerical robustness preparation",
+  "objective": "Existing-result numerical audit and two increment-control validation inputs; preview only",
+  "status": "RUNNING",
+  "start_time": "2026-10-24T15:54:39.876593+08:00",
+  "end_time": null,
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "git_head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+  "git_branch": "main",
+  "inputs": [
+    {
+      "path": "run/run_022/run.json",
+      "role": "Prior actual results"
+    }
+  ],
+  "outputs": [],
+  "validation": [],
+  "errors": []
+}

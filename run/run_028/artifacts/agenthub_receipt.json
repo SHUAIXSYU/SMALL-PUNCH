@@ -1,0 +1,8 @@
+{
+  "at": "2026-10-24T17:30:50.612055+08:00",
+  "task_id": "1434ef26-a98f-45ed-8289-891d86b29241",
+  "queue_id": "q_6919f51c551844b4bcda1cc22b9a6bc4",
+  "audit_chain_valid": true,
+  "odb_task_created": false,
+  "reason": "Only after real job completion; cross-session messages do not auto-wake"
+}

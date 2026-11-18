@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_049",
+  "stage": "Post-validation scientific assessment and next-study design",
+  "objective": "offline A parameter compensation, B candidate model families, C boundary uncertainty designs; no new FE or fit",
+  "status": "WARNING",
+  "start_time": "2026-10-26T21:03:38.488362+08:00",
+  "end_time": "2026-10-26T21:20:45.836575+08:00",
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "git_branch": "main",
+  "git_head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+  "inputs": [
+    {
+      "path": "run/run_049/artifacts/private/curve_provenance.json",
+      "role": "private historical curve input provenance",
+      "sha256": "f17ff07d539f13c16a7aed9b0ccdb5f81776f02b7b5348e1f15d5c00353b1c81"
+    },
+    {
+      "path": "run/run_049/artifacts/private/protected_before.json",
+      "role": "protected original evidence identities",
+      "sha256": "42960ec8d1684432b6acfe3f4656831e1876b1de2ae477999ba1802491501cb7"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_049/summary.md",
+      "role": "public scope summary"
+    },
+    {
+      "path": "run/run_049/artifacts/private/scientific_assessment.md",
+      "role": "private scientific assessment",
+      "sha256": "0acf2b62b19ce5a03090d20bda83fc88950c6f125d2b8b6f6d411dca5972106c"
+    },
+    {
+      "path": "run/run_049/artifacts/manifest.json",
+      "role": "artifact paths and hashes",
+      "sha256": "a798e0f04b8606bf8b983dad5912c157869922084cdae601cd4744444d7471fa"
+    },
+    {
+      "path": "run/run_049/artifacts/private/hub_completion.json",
+      "role": "Hub formal completion receipt",
+      "sha256": "aab82c44da401c06b392a910740e50c04f2544a618048de3cbc78d02621edeeb"
+    }
+  ],
+  "validation": [
+    {
+      "check": "offline analysis invariants",
+      "status": "PASS",
+      "evidence": "run/run_049/artifacts/private/analysis_checks.json",
+      "scope": "8 offline checks, not physical qualification"
+    },
+    {
+      "check": "historical loss and hashes",
+      "status": "PASS",
+      "evidence": "run/run_049/artifacts/private/loss_reverification.json",
+      "scope": "24 actual common-contract curves"
+    },
+    {
+      "check": "preserved original evidence",
+      "status": "PASS",
+      "evidence": "run/run_049/artifacts/private/protected_final.json",
+      "scope": "four explicitly guarded freeze/protocol/historical reports"
+    },
+    {
+      "check": "scientific qualification",
+      "status": "WARNING",
+      "evidence": "run/run_049/artifacts/private/scientific_assessment.md",
+      "scope": "formal independent validation remains NOT_EVALUABLE; mechanism attribution unresolved"
+    }
+  ],
+  "errors": []
+}

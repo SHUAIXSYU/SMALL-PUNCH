@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_057",
+  "stage": "Prospective Identification Batch Preparation",
+  "objective": "Freeze four I06-local INPs and unchanged FE-only predictors; preview only",
+  "status": "WARNING",
+  "start_time": "2026-10-27T20:34:00.347749+08:00",
+  "end_time": "2026-10-27T20:41:50.484251+08:00",
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "git_branch": "main",
+  "git_head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+  "inputs": [
+    {
+      "path": "run/run_057/artifacts/private/source_manifest.json",
+      "role": "bounded protected source identities",
+      "sha256": "ed1705c1e307893d23331ec413a15ad29d8dcb080198f19202dcb90bf78772f2"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_057/artifacts/prepared_batch.json",
+      "role": "frozen preparation evidence",
+      "sha256": "9017ada8c03afff78b0e0c89e0ba51c35a9ec0b21c27a4b3a90506c7ac310705"
+    },
+    {
+      "path": "run/run_057/artifacts/batch_identity.csv",
+      "role": "frozen preparation evidence",
+      "sha256": "f34758fd4828196127942402e08a97469dc8aacfa9a2563b866fb7b800dc823d"
+    },
+    {
+      "path": "run/run_057/artifacts/private/scientific_report.md",
+      "role": "frozen preparation evidence",
+      "sha256": "5a8cef0288edab40345fd067ff8cca6a8c55b806630e31864fedee53edb8c723"
+    },
+    {
+      "path": "run/run_057/artifacts/private/evidence_manifest.json",
+      "role": "frozen preparation evidence",
+      "sha256": "b32c8455b933e3e33064cda9dfa312056c673e371b9c5322072b782f14b18754"
+    },
+    {
+      "path": "run/run_057/artifacts/private/comparison_contract.json",
+      "role": "frozen preparation evidence",
+      "sha256": "46b0224ae39d61ed8c9b79c336bf6d1b156e216a4577a58ced3cff1002572a8e"
+    },
+    {
+      "path": "run/run_057/artifacts/private/SPIO_run057_frozen_predictors.zip",
+      "role": "frozen preparation evidence",
+      "sha256": "529b4a533bf349cdd74421c89d76a5a4a15ebc5226dbba625258fe708ac6abf4"
+    }
+  ],
+  "validation": [
+    {
+      "check": "I06 identity and control",
+      "status": "QUALIFIED_WITH_LIMITATIONS",
+      "evidence": "run/run_057/artifacts/private/I06_baseline_audit.json",
+      "scope": "existing complete reference; not independent time-step refinement"
+    },
+    {
+      "check": "INP material and skeleton",
+      "status": "PASS",
+      "evidence": "run/run_057/artifacts/private/candidate_generation.json",
+      "scope": "four material-only variants plus allowed identity comments"
+    },
+    {
+      "check": "public API previews",
+      "status": "PASS",
+      "evidence": "run/run_057/artifacts/private/preflight_dry_run_results.json",
+      "scope": "4/4 previews/dry-runs, queue/Project/Settings unchanged"
+    },
+    {
+      "check": "predictor identity and all25 refit verification",
+      "status": "PASS",
+      "evidence": "run/run_057/artifacts/private/predictor_freeze_receipt.json",
+      "scope": "unchanged final model; no prospective data or new selection"
+    },
+    {
+      "check": "offline tests",
+      "status": "PASS",
+      "evidence": "run/run_057/artifacts/private/preparation_tests.json",
+      "scope": "11 tests"
+    }
+  ],
+  "errors": [
+    {
+      "code": "SIGN_ROUNDOFF_TEST_DEFECT",
+      "severity": "RESOLVED",
+      "message": "Floating-point normalization of constant center caused spurious sign; 1e-12 numerical-zero classification fixed before prospective outputs; raw predictions and scientific gates unchanged",
+      "evidence": "run/run_057/checkpoints/initial_test_failure.json"
+    }
+  ],
+  "new_FE": 0,
+  "new_queue": 0,
+  "outcome": "READY_TO_REQUEST_FOUR_PROSPECTIVE_RUNS_WITH_LIMITATIONS",
+  "agenthub_task_id": "38c2f443-5e3e-4ff0-a386-45d1b1452c62",
+  "new_INP": 4,
+  "solver_datacheck_started": false,
+  "baseline_status": "QUALIFIED_WITH_LIMITATIONS",
+  "material_refit": false,
+  "tensile_content_read": false
+}

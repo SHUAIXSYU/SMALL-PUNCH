@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_024",
+  "stage": "V01 queued; awaiting manual start",
+  "objective": "Enqueue only frozen V01 and stop for manual GUI start; V02 qualification-gated",
+  "status": "WARNING",
+  "start_time": "2026-10-24T16:20:13.738637+08:00",
+  "end_time": "2026-10-24T16:21:33.267559+08:00",
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "git_head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+  "git_branch": "main",
+  "inputs": [
+    {
+      "path": "run/run_023/artifacts/prepared_batch.json",
+      "sha256": "626b7afbb37894d6d7ca384d2a3b02e01c3b0083a2878918e492527804dc4435",
+      "role": "Frozen two-input identities"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_024/summary.md",
+      "role": "Stage report"
+    },
+    {
+      "path": "run/run_024/artifacts/authorization.json",
+      "role": "Conditional two-job user authorization"
+    },
+    {
+      "path": "run/run_024/artifacts/enqueue_result.json",
+      "role": "Actual unique V01 queue identity"
+    },
+    {
+      "path": "run/run_024/artifacts/agenthub_receipt.json",
+      "role": "Formal ledger receipt"
+    }
+  ],
+  "validation": [
+    {
+      "check": "frozen_identity",
+      "status": "PASS",
+      "scope": "Exact hashes and byte-only authorized increment change"
+    },
+    {
+      "check": "project_settings",
+      "status": "PASS",
+      "scope": "PERSISTED, explicit ID/path, CPU/GPU/modes"
+    },
+    {
+      "check": "runtime",
+      "status": "PASS",
+      "scope": "ABSENT/IDLE/CLEAN; no ownership or recovery conflict"
+    },
+    {
+      "check": "preview",
+      "status": "PASS",
+      "scope": "V01 preflight/dry-run passed"
+    },
+    {
+      "check": "single_queue_item",
+      "status": "PASS",
+      "scope": "Only V01 QUEUED; V02 absent"
+    },
+    {
+      "check": "no_solver_start",
+      "status": "PASS",
+      "scope": "API flags plus empty output directory and queued timestamps"
+    },
+    {
+      "check": "numerical_qualification",
+      "status": "WARNING",
+      "scope": "Not evaluated; requires actual output and real ODB review"
+    }
+  ],
+  "errors": [],
+  "study_complete": false
+}

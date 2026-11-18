@@ -1,0 +1,27 @@
+{
+  "at": "2026-10-24T17:18:54.851520+08:00",
+  "status": "PASS_PREVIEW_ONLY",
+  "job_name": "SPIO_R027_CTR_M0025",
+  "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+  "candidate_inp": "E:\\Projects\\SMALL-PUNCH\\run\\run_027\\artifacts\\candidates\\SPIO_R027_CTR_M0025\\SPIO_R027_CTR_M0025.inp",
+  "candidate_sha256": "dae9345bc60973c27edec498dfbd27f269e1f5bbe151316918862954faac40c9",
+  "source_sha256": "14006d69c15e6fd4be021b889964e5add51e724d52fd03ff817b0f80b747c2ff",
+  "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_027\\artifacts\\solver\\SPIO_R027_CTR_M0025",
+  "comparison_contract_sha256": "e189ab1551f775f085fc0208e0550784db85fa3b258b6164db1f8a20c148d42a",
+  "settings": "PERSISTED",
+  "preflight": "PREVIEW_READY",
+  "dry_run": "DRY_RUN_READY",
+  "queue_unchanged": true,
+  "queue_id": null,
+  "solver_started": false,
+  "datacheck_started": false,
+  "authorized_enqueue_jobs": 0,
+  "authorized_solver_jobs": 0,
+  "runner_owner": "ABSENT",
+  "recovery_status": "CLEAN",
+  "limitations": [
+    "Preview does not run Abaqus syntax/license/convergence checks",
+    "Prior run025 frozen BLOCKED status remains",
+    "Future queue/solver needs new single-job authorization and fresh state checks"
+  ]
+}

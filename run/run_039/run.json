@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_039",
+  "stage": "DOE result audit and optimization readiness",
+  "objective": "Audit original 20 attempts and replacement D09; produce 22-point exploratory dataset",
+  "status": "WARNING",
+  "start_time": "2026-10-25T21:54:27.916029+08:00",
+  "end_time": "2026-10-25T22:04:42.149448+08:00",
+  "git_branch": "main",
+  "git_head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+  "git": {
+    "branch": "main",
+    "head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+    "remote": "origin\thttps://github.com/SHUAIXSYU/SMALL-PUNCH.git (fetch)\norigin\thttps://github.com/SHUAIXSYU/SMALL-PUNCH.git (push)",
+    "working_tree": "M agenthub_sp_invopt/abqjobpilot_project/project.db\n M run/README.md\n M status/PROJECT_STATUS.md\n?? run/run_019/\n?? run/run_020/\n?? run/run_021/\n?? run/run_022/\n?? run/run_023/\n?? run/run_024/\n?? run/run_025/\n?? run/run_026/\n?? run/run_027/\n?? run/run_028/\n?? run/run_029/\n?? run/run_030/\n?? run/run_031/\n?? run/run_032/\n?? run/run_033/\n?? run/run_034/\n?? run/run_035/\n?? run/run_036/\n?? run/run_037/\n?? run/run_038/\n?? run/run_039/"
+  },
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "inputs": [
+    {
+      "path": "run/run_033/artifacts/prepared_batch.json",
+      "role": "frozen DOE"
+    },
+    {
+      "path": "run/run_033/artifacts/queue_manifest.json",
+      "role": "original queue manifest"
+    },
+    {
+      "path": "run/run_034/artifacts/private/odb/manifest.json",
+      "role": "prior real ODB extraction"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_039/artifacts/private/execution_audit.json",
+      "sha256": "20a18e3877e022119680b626a4038d629a668a31a7ffa43da988fd4ce4307350"
+    },
+    {
+      "path": "run/run_039/artifacts/private/odb/manifest.json",
+      "sha256": "ddaddc156b4658650a3996649d01856e4290ab38f36d572cada5e9d4d64f5924"
+    },
+    {
+      "path": "run/run_039/artifacts/private/odb/dataset_22.json",
+      "sha256": "c17c6fb65e7e01e3e2f034734a66218a5eef645eda18dd09b3b10354aaa4a4ef"
+    },
+    {
+      "path": "run/run_039/artifacts/private/odb/REPORT.md",
+      "sha256": "cb698b52a1e302f2641255dbeeed6cada0821df330b997e21125833a4e726a90"
+    },
+    {
+      "path": "run/run_039/artifacts/private/main/main_review.json",
+      "sha256": "47f11f97a7a14905c46ab86d65767488e95c3612a19459fd3984257e2cbf4b56"
+    },
+    {
+      "path": "run/run_039/artifacts/private/main/evaluated_22_points.csv",
+      "sha256": "d27fbc47f864ee67defb3ea2f139d9af3a67ee4d3923e7dea2f448f6e1c2b518"
+    },
+    {
+      "path": "run/run_039/artifacts/private/main/original_20_execution_audit.csv",
+      "sha256": "a606aab2a47166a93b3fb59141550eafdca76b24f6da95ecde351a4c96d41e7c"
+    },
+    {
+      "path": "run/run_039/artifacts/private/main/REPORT.md",
+      "sha256": "dac16efcab63d4c02b37b31dae5fd5a0282adccefea1828532228425c2c6fe7b"
+    },
+    {
+      "path": "run/run_039/artifacts/private/main/parameter_loss_scatter.png",
+      "sha256": "429830a09e97a953227bdd923339df5498f4df1a88095d51d340376343374489"
+    },
+    {
+      "path": "run/run_039/artifacts/private/main/low_loss_zoom.png",
+      "sha256": "4e18819c01f1a5c3553a598e2dea459cce0349571195290ae33e81b93e3bc46a"
+    },
+    {
+      "path": "run/run_039/artifacts/private/main/top_five_fd.png",
+      "sha256": "a3bcbd4919b4cb3afaaf1e4d59076078d7e9a4ace88171b2473a052e513521d0"
+    },
+    {
+      "path": "run/run_039/artifacts/private/main/global_local_loss.png",
+      "sha256": "b1ce2e181d68a5276af05a6a48f72e76f6789e52a411e979ea2b1f1cc6cc8939"
+    },
+    {
+      "path": "run/run_039/artifacts/private/main/loss_vs_runtime_cutback.png",
+      "sha256": "91438ba7bd8ab66fc1ee0263b581d24eaa9516526550bfd19c26eb77cd1e6005"
+    },
+    {
+      "path": "run/run_039/summary.md",
+      "sha256": "cc8933e100cfe6a11b8361ea71a70da7fe41e3138599874cdc18aeff031d17d6"
+    },
+    {
+      "path": "run/run_039/artifacts/private/main/evidence_manifest.json",
+      "sha256": "03c8f427ae8a80fb9a0d52dea7a7a42eb538fa447b4bd0fbc5a2e059e450042f"
+    }
+  ],
+  "validation": [
+    {
+      "check": "public_execution_audit",
+      "status": "WARNING",
+      "evidence": "19/20 original software completed; original D09 UNKNOWN_INTERRUPTED"
+    },
+    {
+      "check": "real_ODB_AgentHub_handoff",
+      "status": "PASS",
+      "evidence": "ODB task completed; MAIN session received persistent message; 45 new artifacts rehashed"
+    },
+    {
+      "check": "frozen_loss_independent_recalculation",
+      "status": "PASS",
+      "evidence": "19/19 accepted curves, 241 fixed points, absolute difference <1e-12"
+    },
+    {
+      "check": "numerical_quality",
+      "status": "WARNING",
+      "evidence": "D07/D09/D10 null; accepted large-strain/force-drop concerns"
+    },
+    {
+      "check": "AgentHub_audit_chain",
+      "status": "PASS",
+      "evidence": "verified after both tasks finished"
+    },
+    {
+      "check": "sealed_tensile_isolation",
+      "status": "PASS",
+      "evidence": "no access in run_039; prior information exposure retained"
+    }
+  ],
+  "errors": [
+    {
+      "code": "ARTIFACT_LEASE_REQUIRED",
+      "severity": "RECOVERED",
+      "message": "Initial attempt to attach MAIN evidence to unclaimed ODB task was denied; no artifact was attached; recovered via dedicated MAIN audit task"
+    }
+  ]
+}

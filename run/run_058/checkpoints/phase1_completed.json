@@ -1,0 +1,17 @@
+{
+  "at": "2026-10-27T21:18:00.343269+08:00",
+  "status": "FOUR_PROSPECTIVE_JOBS_QUEUED_AWAITING_MANUAL_START",
+  "queue_ids": [
+    "q_d087362410bf496da1b8516aa36f7bdc",
+    "q_da9ef3b8834f48d5bb281813ade4f484",
+    "q_6f2c429dc980462790409bbddd031c01",
+    "q_cd15c9b61d7e4005baedb79c9cf06110"
+  ],
+  "queued": 4,
+  "started": 0,
+  "consumed": 0,
+  "report_sha256": "8f40671e487edc956b6ceccb831d479621ff538586d67faee867a85972ec9145",
+  "git_staged_preserved": true,
+  "future_tasks": "PENDING",
+  "no_further_active_work": true
+}

@@ -1,0 +1,16 @@
+{
+  "observed_at": "2026-10-24T14:37:00.118865+08:00",
+  "pending_count": 4,
+  "other_pending_count": 0,
+  "queue_ids": [
+    "q_7158d0dad2bd46199a24799701899cf0",
+    "q_9c905ac50611446eb4bb828619eb8a2f",
+    "q_6e02167dcd0b494ca07c847c7909c86c",
+    "q_bbaaeda7491a4a60b237879bd755c247"
+  ],
+  "all_registered_hashes_valid": true,
+  "protected_files_unchanged": true,
+  "installation_unchanged": true,
+  "runner_state": "ABSENT",
+  "gui_process_binding": "NO_GUI_PROCESS_OBSERVED"
+}

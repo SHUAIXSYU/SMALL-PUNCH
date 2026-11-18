@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_064",
+  "stage": "partner progress report",
+  "objective": "summarize verified existing results; no new scientific inference",
+  "status": "RUNNING",
+  "start_time": "2026-10-28T14:51:35.034970+08:00",
+  "end_time": null,
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "git_branch": "main",
+  "git_head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+  "inputs": [],
+  "outputs": [],
+  "validation": [],
+  "errors": [],
+  "new_FE": 0,
+  "new_training": 0
+}

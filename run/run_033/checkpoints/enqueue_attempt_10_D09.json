@@ -1,0 +1,8 @@
+{
+  "at": "2026-10-24T19:17:23.961663+08:00",
+  "attempt_number": 1,
+  "point_id": "D09",
+  "request_sha256": "0c0b3ff33f7a15267017f58325e05c5b7abafad8d2b89b873601e7f74a6fb479",
+  "retry_forbidden": true,
+  "unknown_outcome_requires_readonly_reconciliation": true
+}

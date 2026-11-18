@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_050",
+  "stage": "High plastic strain spatial evidence and model-discrepancy research",
+  "objective": "real ODB spatial/energy extraction; frozen constitutive extrapolation and fixture uncertainty design",
+  "status": "WARNING",
+  "start_time": "2026-10-26T21:36:37.325823+08:00",
+  "end_time": "2026-10-26T21:58:56.195871+08:00",
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "git_branch": "main",
+  "git_head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+  "inputs": [
+    {
+      "path": "run/run_050/artifacts/odb_task_payload.json",
+      "role": "bounded existing ODB identities and read-only scope"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_050/summary.md",
+      "role": "public scope summary"
+    },
+    {
+      "path": "run/run_050/artifacts/private/scientific_report.md",
+      "role": "private scientific report",
+      "sha256": "2cd12bfcac4ef78072dde848359c28de50d9d2b4c7b99e9d45581c3c65a9fee9"
+    },
+    {
+      "path": "run/run_050/artifacts/manifest.json",
+      "role": "evidence manifest",
+      "sha256": "279ecd8e2d871c67ad6e4ddad1fd5be8bef0ea78dc8d94a6d32316d11d481b56"
+    },
+    {
+      "path": "run/run_050/artifacts/private/hub_completion.json",
+      "role": "formal Hub completion receipt",
+      "sha256": "fc4f4be35d089e700c8215454abe7d1516b4a0e41197ef308bd006b1e4882c66"
+    }
+  ],
+  "validation": [
+    {
+      "check": "real ODB session and MAIN independent checks",
+      "status": "PASS",
+      "evidence": "run/run_050/artifacts/private/main_review_checks.json",
+      "scope": "41 ODB manifest files;8 saved stages;24 threshold volume checks; direct energy identities"
+    },
+    {
+      "check": "source and frozen evidence unchanged",
+      "status": "PASS",
+      "evidence": "run/run_050/artifacts/private/final_integrity_checks.json",
+      "scope": "two original INP/ODB hashes and explicitly protected freeze/history/generator"
+    },
+    {
+      "check": "scientific inference boundary",
+      "status": "WARNING",
+      "evidence": "run/run_050/artifacts/private/scientific_report.md",
+      "scope": "no exact local dissipation or RF2 attribution; high-p causal dominance and fixture equivalence not established"
+    }
+  ],
+  "errors": [
+    {
+      "code": "READONLY_EXTRACTION_ADAPTER_EXCEPTIONS_RESOLVED",
+      "severity": "INFO",
+      "message": "Initial inspection/adapter exceptions retained; subsequent extraction and actual scientific checks passed",
+      "evidence": "run/run_050/artifacts/private/auxiliary_inspection_notes.json",
+      "resolution": "corrected repository/field sequence access and actual artifact names; originals unchanged"
+    }
+  ]
+}

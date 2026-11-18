@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_055",
+  "stage": "Feature-based two-parameter FE self-consistency identification",
+  "objective": "Verified unique-parameter inventory, fixed features, nested held-out inversion, ambiguity and full-curve comparison; no FE",
+  "status": "WARNING",
+  "start_time": "2026-10-27T13:48:36.223695+08:00",
+  "end_time": "2026-10-27T14:11:56.325518+08:00",
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "git_branch": "main",
+  "git_head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+  "inputs": [
+    {
+      "path": "run/run_055/artifacts/private/sample_inventory.json",
+      "role": "CV-frozen sample inventory",
+      "sha256": "547f2ab392fa7ea0a8abd2fea4d5f414a7f9d5032898b0f8ffe72d15d14bad26"
+    },
+    {
+      "path": "run/run_055/artifacts/private/feature_protocol.md",
+      "role": "pre-CV protocol",
+      "sha256": "aa06e968172591a87fb479db62f86bbd3facc4ea4cc97329e5de67dec1d8965e"
+    },
+    {
+      "path": "run/run_055/artifacts/private/inventory_metadata_addendum.json",
+      "role": "source hashes and metadata-only addenda",
+      "sha256": "ec37fdf08955b47b4c608e12d4f9362c371eb92d9bb2f6d5ee721cc0b6987a9f"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_055/artifacts/private/scientific_report.md",
+      "role": "scientific report",
+      "sha256": "6bb4a1ba15b469b29f667a8098c5c47ee526b971975172359b6e2498726901d0"
+    },
+    {
+      "path": "run/run_055/artifacts/private/evidence_manifest.json",
+      "role": "evidence hash list",
+      "sha256": "59f4a8f968ab4a4149afcbc3040a5dba50cb3aee1df4f4f9f6fb52942253014b"
+    },
+    {
+      "path": "run/run_055/artifacts/manifest.json",
+      "role": "artifact index",
+      "sha256": "8e81ac7af8e1f866594d45ce886dfaf3373aca457f3d197e97ccb83bfaf14d39"
+    }
+  ],
+  "validation": [
+    {
+      "check": "sample_source_audit",
+      "status": "PASS",
+      "evidence": "run/run_055/artifacts/private/independent_analysis_checks.json",
+      "scope": "24/6 disjoint sets,25 comparable unique groups,419 source records"
+    },
+    {
+      "check": "nested_CV_integrity",
+      "status": "PASS",
+      "evidence": "run/run_055/artifacts/private/outer_fold_details.json",
+      "scope": "training-only transforms/selection,250 independent SVD-checked predictions"
+    },
+    {
+      "check": "synthetic_math",
+      "status": "PASS",
+      "evidence": "run/run_055/artifacts/private/synthetic_tests.json",
+      "scope": "10 feature/unit/inverse/CV tests"
+    },
+    {
+      "check": "real_material_identification",
+      "status": "PARTIAL",
+      "evidence": "run/run_055/artifacts/private/scientific_decision.json",
+      "scope": "FE self-consistency only; no validated material formula"
+    },
+    {
+      "check": "local_Jacobian_FIM_CI_D01",
+      "status": "NOT_EVALUABLE",
+      "evidence": "run/run_055/artifacts/private/feature_identifiability_report.md",
+      "scope": "no matched local sigma/n perturbations at D01"
+    }
+  ],
+  "errors": [
+    {
+      "code": "HISTORICAL_ROW_SCHEMA_VARIATION",
+      "severity": "RESOLVED",
+      "message": "Initial inventory parser expected redundant hash fields in pilot row; actual hash-bound result/parameter provenance verified instead. No source changed.",
+      "evidence": "run/run_055/artifacts/private/resolved_schema_diagnostic.json"
+    }
+  ],
+  "outcome": "PARTIAL_FE_PARAMETER_RECOVERY_ONLY",
+  "agenthub_task_id": "6c476a28-1068-4462-8860-85aef7b15170",
+  "new_FE": 0,
+  "new_queue": 0,
+  "new_INP": 0,
+  "material_refit": false,
+  "tensile_content_read": false
+}

@@ -1,0 +1,42 @@
+{
+  "observed_at": "2026-10-26T17:02:41.357278+08:00",
+  "stage": "before tensile source content or hash access",
+  "freeze_integrity": "PASS",
+  "prediction_authority": "frozen candidate true-total CSV, no refit or regenerated formula",
+  "E_pa": 210000000000.0,
+  "nu": 0.3,
+  "candidates": [
+    {
+      "candidate_id": "D01",
+      "sigma_y_mpa": 152.3086335396325,
+      "n": 0.23066241424320405,
+      "yield_true_total_strain": 0.0007252792073315833,
+      "prediction_csv_sha256": "2b6135ea656ea2d24526535487624e2f2a9100171635425f8b664bae26db7ba0",
+      "prediction_points": 10803,
+      "stress_mpa_at_true_total_strain": {
+        "0.002": 192.45846979097348,
+        "0.01": 278.9736194932742,
+        "0.1": 474.48834740233815
+      },
+      "hardening_trend": "stress rises over 0.002–0.10; D01 rises more steeply than I08 over this interval",
+      "SPT_loss": 0.0005020002745645833
+    },
+    {
+      "candidate_id": "I08",
+      "sigma_y_mpa": 265.0109880753873,
+      "n": 0.1544,
+      "yield_true_total_strain": 0.0012619570860732728,
+      "prediction_csv_sha256": "1b48b1acbc3e9adbfca6aa44683cf20a4f199fcb20c95a05665b11c69b79e89e",
+      "prediction_points": 10803,
+      "stress_mpa_at_true_total_strain": {
+        "0.002": 284.53888706717555,
+        "0.01": 364.80652463567844,
+        "0.1": 520.55017542133
+      },
+      "hardening_trend": "stress rises over 0.002–0.10; D01 rises more steeply than I08 over this interval",
+      "SPT_loss": 0.0005671644543886252
+    }
+  ],
+  "SPT_rank": "D01_FIRST",
+  "historical_information_exposure": "run015 MAIN/ODB exposure disclosed; independent reviewer did not read old derived tensile analysis"
+}

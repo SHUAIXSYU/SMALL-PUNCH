@@ -1,0 +1,20 @@
+{
+  "schema": "sp_invopt.cae.increment_control_parameters.v1",
+  "task_id": "0ce4f69b-9e4e-41c1-b4ba-8dc4e2a7c401",
+  "point_id": "V01",
+  "job_name": "SPIO_R023_V01_CTR",
+  "sigma_y_mpa": 200.0,
+  "n": 0.1,
+  "E_pa": 210000000000.0,
+  "nu": 0.3,
+  "material_model": "candidate-true-total-hollomon-v1",
+  "material_table_sha256": "ca3b64e8f8bb9f030c59aa76e2a88e9bb03f51a82f61f627518724e57b48d4e9",
+  "material_rows": 35,
+  "max_plastic_strain": 0.9,
+  "source_inp": "run/run_008/artifacts/candidate_inp/SPIO_R008_Q200_N010_Candidate/SPIO_R008_Q200_N010_Candidate.inp",
+  "source_sha256": "fa2de5d73a28536c1c07cd22072d2a24c1ae988c569127d728931c583457f05a",
+  "inp_sha256": "14006d69c15e6fd4be021b889964e5add51e724d52fd03ff817b0f80b747c2ff",
+  "old_static_line": "0.01, 1., 1e-12, 0.1",
+  "new_static_line": "0.001, 1., 1e-12, 0.005",
+  "scope": "increment-control change only; no material/geometry/BC/contact/output change"
+}

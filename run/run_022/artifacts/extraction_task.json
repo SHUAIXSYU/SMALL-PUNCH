@@ -1,0 +1,32 @@
+{
+  "task_id": "1b1aa875-608d-494a-ad5a-75f39d108be2",
+  "message_id": "5c010801-e6c3-4865-9a76-172783e405db",
+  "payload": {
+    "run_id": "run_022",
+    "main_task_id": "26fdff23-4c71-42e7-8adf-b8d3010cd5a9",
+    "audit_path": "run/run_022/artifacts/private/execution_audit_completed.json",
+    "audit_sha256": "9f777026c12a2d1bcc45d54fe5818f2d71b103ba7b4be60a754f7adb12c12df4",
+    "output_directory": "run/run_022/artifacts/private/extraction",
+    "eligible_point_ids": [
+      "L01",
+      "L02",
+      "L03",
+      "L04"
+    ],
+    "strict_process_confirmed_points": [
+      "L02"
+    ],
+    "scope": "Completed existing outputs only. Unknown historical process identity must remain disclosed and current read safety independently verified; no Solver/queue/retry",
+    "protocol": "run/run_020/artifacts/analysis_protocol.md",
+    "acceptance": [
+      "Separate task after initial pre-execution snapshot; never overwrite private/odb prior result",
+      "Abaqus2024 Python openOdb(readOnly=True); verify material table numeric identity with exact frozen INP and ODB job basename; preserve hashes",
+      "For each eligible point provide raw RP history CSV, force_displacement.csv with displacement_m and force_n, diagnostics.json plus source provenance, aggregate result.json",
+      "Unique ASM_SPT.1 RP; pair U2 RF2 step time; u=-U2 F=-RF2 SI, no abs/2pi/zero shift",
+      "Maximum saved-frame PEEQ and actual pmax .9; accepted/rejected warning context, cutbacks, energy and phase durations",
+      "If historical process observation UNCONFIRMED, keep historical limitation; only read after current no-target-process/lock/stable/independent read-safety check. Otherwise leave blocked",
+      "Register all outputs through existing Hub and return task-scoped message MAIN; do not modify MAIN reports/index/status",
+      "No hidden tensile, Solver/datacheck/queue/retry/RL/DE/BO or original source changes"
+    ]
+  }
+}

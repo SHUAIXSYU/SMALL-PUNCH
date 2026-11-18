@@ -1,0 +1,25 @@
+{
+  "at": "2026-10-25T20:12:43.496990+08:00",
+  "status": "BLOCKED_RECOVERY_REQUIRED",
+  "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+  "retry_queue_id": "q_ed246bd7469b4701a8570326dfb73eb3",
+  "retry_raw_status": "DATACHECK_RUNNING",
+  "retry_started_at": "2026-10-25T19:13:53",
+  "retry_ended_at": null,
+  "old_d09_raw_status": "UNKNOWN_INTERRUPTED",
+  "active_queue_ids": [
+    "q_ed246bd7469b4701a8570326dfb73eb3"
+  ],
+  "owner_state": "STALE",
+  "solver_process_state": "CLEAR",
+  "process_identity_state": "IDENTITY_MISMATCH",
+  "reboot_verified_by_recovery": false,
+  "recovery_can_apply": false,
+  "unresolved": [
+    "Tracked launcher/solver exit is not established: IDENTITY_MISMATCH",
+    "A solver .lck file exists; never remove it automatically",
+    "No exact queue/live identity, start time, phase and command-exit evidence match",
+    "No supported metadata-only transition; manual investigation is required"
+  ],
+  "third_job_enqueued": false
+}

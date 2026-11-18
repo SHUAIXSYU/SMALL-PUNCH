@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_047",
+  "stage": "Post-freeze independent tensile verification",
+  "objective": "verify run_046 freeze and independently inspect explicitly authorized original tensile OPJU under frozen validation protocol",
+  "status": "WARNING",
+  "start_time": "2026-10-26T17:02:16.7395758+08:00",
+  "start_time_note": "earliest explicit observed timestamp retained; work began shortly before this capture",
+  "end_time": "2026-10-26T17:21:58.3690789+08:00",
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "origin_software": "OriginPro 2024 official embedded originpro API",
+  "git_branch": "main",
+  "git_head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+  "git_remote": "https://github.com/SHUAIXSYU/SMALL-PUNCH.git",
+  "working_tree_at_start": "pre-existing modifications to agenthub_sp_invopt/abqjobpilot_project/project.db, run/README.md, status/PROJECT_STATUS.md and untracked run_019 through run_046; preserved",
+  "inputs": [
+    {"path":"run/run_046/artifacts/private/SP_InvOpt_run046_frozen_candidates.zip","role":"frozen candidate bundle"},
+    {"path":"run/run_046/artifacts/private/freeze/frozen_manifest.json","role":"external freeze manifest"},
+    {"path":"run/run_046/artifacts/private/freeze/independent_validation_protocol.json","role":"pre-registered scoring gates"},
+    {"path":null,"role":"explicitly authorized readonly tensile source; exact path/hash/size retained in ignored private audit"},
+    {"path":"run/run_017/artifacts/private/experimental_metadata.json","role":"allowed SPT source-party provenance"}
+  ],
+  "outputs": [
+    {"path":"run/run_047/checkpoints/pre_unblind_prediction.json","role":"pre-unblind frozen prediction record"},
+    {"path":"run/run_047/artifacts/private/freeze_integrity_report.md","role":"private integrity report"},
+    {"path":"run/run_047/artifacts/private/tensile_data_inventory.md","role":"private source inventory"},
+    {"path":"run/run_047/artifacts/private/tensile_provenance_and_comparability.md","role":"private provenance"},
+    {"path":"run/run_047/artifacts/private/validation_metrics.json","role":"private formal null gates and conditional coordinate arithmetic"},
+    {"path":"run/run_047/artifacts/private/tensile_validation_results.csv","role":"private conditional pointwise coordinates"},
+    {"path":"run/run_047/artifacts/private/constitutive_validation_comparison.png","role":"private comparison plot"},
+    {"path":"run/run_047/artifacts/private/independent_validation_report.md","role":"private independent report"},
+    {"path":"run/run_047/artifacts/private/main_handoff.md","role":"private formal handoff"},
+    {"path":"run/run_047/artifacts/private/evidence_manifest.json","role":"private output SHA ledger"}
+  ],
+  "decision": "PRIVATE_INDEPENDENT_REPORT_FINALIZED",
+  "validation": [
+    {"check":"freeze_integrity","status":"PASS","evidence":"45/45 explicit checks and repeat check"},
+    {"check":"official_origin_extraction","status":"PASS","scope":"all numerical cells in the present OPJU project"},
+    {"check":"formal_protocol_gate","status":"PASS","scope":"unresolved qualification rejects formal score"},
+    {"check":"source_copy_hash_preservation","status":"PASS","scope":"original and copy unchanged after analysis"},
+    {"check":"scientific_interpretation","status":"WARNING","evidence":"private independent report"}
+  ],
+  "scope": "offline readonly analysis only; no Solver, datacheck, queue, retry, BO, DE, RL, refit, commit or push",
+  "errors": [
+    {"code":"FREEZE_CHECKER_SELF_MANIFEST_FALSE_FAIL","resolution":"checker corrected to include bundled self-manifest; final 45 checks PASS, frozen files unchanged"},
+    {"code":"ORIGIN_COM_COLLECTION_EMPTY","resolution":"official Origin embedded originpro API successfully extracted project content from readonly copy"},
+    {"code":"ORIGIN_STANDALONE_PYTHON_UNAVAILABLE","resolution":"no environment changes; embedded API used"}
+  ]
+}

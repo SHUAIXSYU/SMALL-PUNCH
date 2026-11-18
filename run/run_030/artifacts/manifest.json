@@ -1,0 +1,86 @@
+{
+  "at": "2026-10-24T18:18:34.328531+08:00",
+  "status": "WARNING",
+  "files": [
+    {
+      "path": "run/run_030/artifacts/prepared_batch.json",
+      "sha256": "962f9fa56893451330ad3d99689c4be45bb753b7d1e4999d13f62f5cccdb31fa",
+      "private": false
+    },
+    {
+      "path": "run/run_030/artifacts/parameter_design.json",
+      "sha256": "3e332c6733fa41a74d518c96cfd4fc9ac635bb7c4f60ecfee70423b8e542c9a6",
+      "private": false
+    },
+    {
+      "path": "run/run_030/artifacts/model_contract.json",
+      "sha256": "669c105e1deafafe4496e11b4dd5631ddf7dca66d2e6b9822f0f9be59f184f2d",
+      "private": false
+    },
+    {
+      "path": "run/run_030/artifacts/loss_contract_binding.json",
+      "sha256": "5c730ba8bf06ae4572351a074d84ab4b2ae64073c7f31bff335b4393a496256c",
+      "private": false
+    },
+    {
+      "path": "run/run_030/artifacts/budget_protocol.json",
+      "sha256": "17035da0cb42fe53e7e736ee35d396dff0ab7fc1b31e4efbab5546e7036e6865",
+      "private": false
+    },
+    {
+      "path": "run/run_030/artifacts/odb_result_protocol.json",
+      "sha256": "b11a7a596542a0d5a696793c6702265184712bfd5d03a1d5df01a49ee3d45fd8",
+      "private": false
+    },
+    {
+      "path": "run/run_030/artifacts/pilot_protocol.md",
+      "sha256": "4d92f6fa4516621715ca95b3e262b7287bf471d319cb521728c630e2f2d38ec6",
+      "private": false
+    },
+    {
+      "path": "run/run_030/artifacts/test_offline_contract.py",
+      "sha256": "1607d8b98edf56976cb9e4c2da084074a1d9daaecbf22d0ca07c9cd580c49f77",
+      "private": false
+    },
+    {
+      "path": "run/run_030/artifacts/verify_prepared.py",
+      "sha256": "7b47b5129eeb017422d4cb278ea7af9fbcfc63fc3417527ffbcf1ff29f709e4f",
+      "private": false
+    },
+    {
+      "path": "run/run_030/artifacts/private/main_verification.json",
+      "sha256": "9d1eee3a19abfeddb75018310107d5f5d791e5cf4b6710c689983192d7925fe5",
+      "private": true
+    },
+    {
+      "path": "run/run_030/artifacts/private/main_cae_acceptance.json",
+      "sha256": "f45170f6eb8d1e892844fe3addeb04f040252e2b2b400d0d615187e4b3032131",
+      "private": true
+    },
+    {
+      "path": "run/run_030/artifacts/private/cae/REPORT.md",
+      "sha256": "d8b27ad16d5867df1cb53738c35df4dbcbc7ad01ae0e31d06c80bb9e8371f149",
+      "private": true
+    },
+    {
+      "path": "run/run_030/artifacts/cae_candidate_manifest.json",
+      "sha256": "804070603f8dd111c31dd5c4491c9bd7c002eff4d4895f2af39e9fa8b4ea9916",
+      "private": false
+    },
+    {
+      "path": "run/run_030/artifacts/cae_preview_result.json",
+      "sha256": "b39e18861a6560ea29e0d0f142e22b2504ce986402ad35b6f186e591b61b9294",
+      "private": false
+    },
+    {
+      "path": "run/run_030/summary.md",
+      "sha256": "cfdabbea6b950518eb44bd60100cf1f78b676ef57640c7eca64215e676c4df7a",
+      "private": false
+    },
+    {
+      "path": "run/run_030/run.json",
+      "sha256": "2486816c70898ae57033c332c29dfa138caaf877f931b3a4b53b51d6cae5e570",
+      "private": false
+    }
+  ]
+}

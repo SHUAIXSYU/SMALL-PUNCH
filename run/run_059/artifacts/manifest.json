@@ -1,0 +1,40 @@
+{
+  "version": "run059-artifacts-v1",
+  "files": [
+    {
+      "path": "run/run_059/artifacts/private/scientific_report.md",
+      "sha256": "72a998d93d9dded3ddcafacce226e866f13e12030c0af56bc693ae7f083a98f5",
+      "private": true
+    },
+    {
+      "path": "run/run_059/artifacts/private/scientific_decision.json",
+      "sha256": "7802b529faf9317469f5178ab09a3eb7e67e0a4feb51b28d47f289d2841b949e",
+      "private": true
+    },
+    {
+      "path": "run/run_059/artifacts/private/execution_audit.json",
+      "sha256": "7ac5c9a7cec13e19348922ad9f091e418b9a3e95baea27ce6ed87170d14adb59",
+      "private": true
+    },
+    {
+      "path": "run/run_059/artifacts/private/study_A_local_secants.json",
+      "sha256": "1a2a66e26325c90cf64c2be8ce197f71375473d30433a789d16215fdf1a38519",
+      "private": true
+    },
+    {
+      "path": "run/run_059/artifacts/private/study_B_frozen_parameter_recovery.json",
+      "sha256": "b3d9b1671eae8bc0828789953069620e9b4f727cd997b0af0e0b7061e1d0595a",
+      "private": true
+    },
+    {
+      "path": "run/run_059/artifacts/private/evidence_manifest.json",
+      "sha256": "c74c4402fe127bfc9a2a88bdf39eb4147aa1046b8558eac926efea9a1d7b8f34",
+      "private": true
+    },
+    {
+      "path": "run/run_059/artifacts/private/agenthub_completion_receipt.json",
+      "sha256": "839e590be4b8d8665fa14b1cdf3ea4d713fd7ea2f3a22a79fb7a3c2a9233aeb2",
+      "private": true
+    }
+  ]
+}

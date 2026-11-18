@@ -1,0 +1,1602 @@
+{
+  "version": "run059-existing-four-ODB-tasks-output-overlay-v1",
+  "output_run": "run_059",
+  "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+  "audit_path": "run/run_059/artifacts/private/execution_audit.json",
+  "audit_sha256": "7ac5c9a7cec13e19348922ad9f091e418b9a3e95baea27ce6ed87170d14adb59",
+  "task_ids": {
+    "P01": "acbb44ef-4258-46ef-93ba-bad3b77d822c",
+    "P02": "96015391-71fa-4042-9390-c9b9816947b9",
+    "P03": "bbf1a410-2f65-4598-8588-a5cea901e1c8",
+    "P04": "e17af3e7-c1d3-45be-b961-b013b8bf458d"
+  },
+  "points": [
+    {
+      "candidate_id": "P01",
+      "design_id": "I06_SY_MINUS",
+      "job_name": "SPIO_R057_P01_SYM",
+      "sigma_y_mpa": 225.54418697302663,
+      "n": 0.0968,
+      "x": 0.21500000000000002,
+      "y": 0.16,
+      "E_pa": 210000000000.0,
+      "nu": 0.3,
+      "material_model": "candidate-true-total-Hollomon-v1",
+      "stress_unit": "Pa",
+      "plastic_strain_unit": "dimensionless equivalent plastic strain",
+      "max_plastic_strain": 0.9,
+      "relative_tolerance": 0.001,
+      "source_inp": "run/run_030/artifacts/candidates/SPIO_R030_I06_L/SPIO_R030_I06_L.inp",
+      "source_inp_sha256": "0a544fd06f0c0de630946173314ba980085a8a464ef4027e715bfb46e3d3b45a",
+      "source_ODB": "run/run_030/artifacts/solver/SPIO_R030_I06_L/SPIO_R030_I06_L.odb",
+      "source_ODB_sha256": "9c8cfee50698b98e63215db665e5aa1e8afaabdd2d5f8e40eb0e4e690f89d7aa",
+      "generator": "inverse/hollomon.py",
+      "generator_sha256": "d937664f7fc7f845a9ed7a75a004275bf38d11a1b3f68975a05961adb9b16363",
+      "design_contract": "run/run_056/artifacts/private/prospective_design_contract.json",
+      "design_contract_sha256": "a3f8cae3896e2c5079d6796e95122109ecfa8075850dfb617778d023f7f828d0",
+      "numerical_contract": "run030-standard-m0025-hollomon-v1",
+      "numerics": {
+        "solver": "Abaqus/Standard2024",
+        "initial_increment": 0.001,
+        "maximum_increment": 0.0025,
+        "minimum_increment": 1e-12,
+        "total_time": 1.0,
+        "maximum_increments": 999999,
+        "CPU": 14,
+        "GPU": 0
+      },
+      "inp_path": "run/run_057/artifacts/candidates/SPIO_R057_P01_SYM/SPIO_R057_P01_SYM.inp",
+      "inp_absolute_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\candidates\\SPIO_R057_P01_SYM\\SPIO_R057_P01_SYM.inp",
+      "inp_sha256": "469701f2513c1a6fac524146b811b1997d10158b937c0aa3646ee79183344c90",
+      "working_dir": "run/run_057/artifacts/solver/SPIO_R057_P01_SYM",
+      "working_dir_absolute": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P01_SYM",
+      "expected_odb": "run/run_057/artifacts/solver/SPIO_R057_P01_SYM/SPIO_R057_P01_SYM.odb",
+      "expected_odb_absolute": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P01_SYM\\SPIO_R057_P01_SYM.odb",
+      "material_rows": 34,
+      "table_path": "run/run_057/artifacts/candidates/SPIO_R057_P01_SYM/plastic_table.csv",
+      "table_sha256": "5cbd7e27cda1942759813d33ec23ea7fac7e61eea9949379289b764e88aaac13",
+      "plastic_rows_path": "run/run_057/artifacts/candidates/SPIO_R057_P01_SYM/plastic_rows.inc.txt",
+      "plastic_rows_sha256": "2a3342520b12388d02ddf4e26f17f4dea3944d83fff075572ff7c1fab3f05767",
+      "physical_skeleton_sha256": "9e68248c5ef7eed5f96e76d76ee76e52867a2f0df065c76eaeeb22b5bfb8f23d",
+      "nonplastic_bytes_identical_except_three_identity_comments": true,
+      "comment_replacements": [
+        {
+          "old": "** Job name: Job-1 Model name: Model-1",
+          "new": "** Job name: SPIO_R057_P01_SYM Model name: Model-1"
+        },
+        {
+          "old": "** RUN_030 POINT I06; job=SPIO_R030_I06_L; offline candidate only",
+          "new": "** RUN_057 POINT P01; job=SPIO_R057_P01_SYM; offline preparation only"
+        },
+        {
+          "old": "** sigma_y_MPa=236.49902622197678; n=0.096799999999999997; design_sha256=3e332c6733fa41a74d518c96cfd4fc9ac635bb7c4f60ecfee70423b8e542c9a6",
+          "new": "** sigma_y_MPa=225.54418697302663; n=0.096799999999999997; design_sha256=a3f8cae3896e2c5079d6796e95122109ecfa8075850dfb617778d023f7f828d0"
+        }
+      ],
+      "interpolation_conservative_relative_bound": 0.0009613498038774885,
+      "dense_15000_check_max_relative_error": 0.0009474262510409639,
+      "resources": {
+        "cpus": 14,
+        "gpus": 0,
+        "run_datacheck": true,
+        "run_full": true,
+        "automatic_retries": 0
+      },
+      "queue_id": "q_d087362410bf496da1b8516aa36f7bdc",
+      "attempts": 0,
+      "execution_authorized": false,
+      "outside_observed_parameter_hull": false,
+      "parameters_path": "run/run_057/artifacts/candidates/SPIO_R057_P01_SYM/parameters.json",
+      "parameters_sha256": "a48d863940de028f0a89d78908c34f569dbe29ff34b2eb655a069c40f5745b24",
+      "queue_record": {
+        "schema_version": "1.0",
+        "queue_id": "q_d087362410bf496da1b8516aa36f7bdc",
+        "status": "COMPLETED",
+        "batch_name": "run058_four_prospective_identification",
+        "strategy_name": "frozen_run056_057_local_identification_no_retraining",
+        "job_name": "SPIO_R057_P01_SYM",
+        "inp_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\candidates\\SPIO_R057_P01_SYM\\SPIO_R057_P01_SYM.inp",
+        "work_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P01_SYM",
+        "cpus": 14,
+        "gpus": 0,
+        "run_datacheck": true,
+        "run_full": true,
+        "created_at": "2026-10-27T21:15:58",
+        "started_at": "2026-10-27T21:34:56",
+        "ended_at": "2026-10-27T21:39:12",
+        "duration_sec": 256,
+        "phase": "COMPLETED_WITH_WARNINGS",
+        "return_code": 0,
+        "final_verdict": "SUCCESS",
+        "fatal_reason": "",
+        "warning_count": 14,
+        "odb_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P01_SYM\\SPIO_R057_P01_SYM.odb",
+        "odb_size_bytes": 77533044,
+        "sta_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P01_SYM\\SPIO_R057_P01_SYM.sta",
+        "msg_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P01_SYM\\SPIO_R057_P01_SYM.msg",
+        "dat_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P01_SYM\\SPIO_R057_P01_SYM.dat",
+        "log_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P01_SYM\\SPIO_R057_P01_SYM.log",
+        "notes": "run058 P01; INP_SHA256=469701f2513c1a6fac524146b811b1997d10158b937c0aa3646ee79183344c90; task_id=1e5c81fb-d301-4859-99b8-bca96b8a02a3; Project=b87d2cd6-8519-4ac3-bae6-7eb989fb2dae;14CPU0GPU;singleDCthenFull;zeroRetries;USER_GUI_ONLY;AUTO_STOP_UNAVAILABLE accepted",
+        "process_evidence_path": "reports/process_evidence/q_d087362410bf496da1b8516aa36f7bdc.json",
+        "raw_status": "COMPLETED_WITH_WARNINGS"
+      },
+      "history_detail": {
+        "schema_version": "1.0",
+        "status": "OK",
+        "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+        "job": {
+          "job_id": "j_d051f2b5f0bb46149e9e9b86893c4703",
+          "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+          "logical_key": "b6772629b5f839418c45ff88bb2d026a102633b40be377d240a8584351582aac",
+          "job_name": "SPIO_R057_P01_SYM",
+          "inp_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\candidates\\SPIO_R057_P01_SYM\\SPIO_R057_P01_SYM.inp",
+          "batch": "run058_four_prospective_identification",
+          "strategy": "frozen_run056_057_local_identification_no_retraining",
+          "created_at": "2026-10-27T21:15:58",
+          "updated_at": null,
+          "metadata_json": "{\"source\": \"runtime_json\", \"identity_basis\": \"inp_path\"}",
+          "latest_status": "COMPLETED"
+        },
+        "latest_run": {
+          "run_id": "r_4b16437079084d19ae1d09d6529c5eca",
+          "job_id": "j_d051f2b5f0bb46149e9e9b86893c4703",
+          "attempt_no": 1,
+          "queue_id": "q_d087362410bf496da1b8516aa36f7bdc",
+          "status": "COMPLETED",
+          "raw_status": "COMPLETED_WITH_WARNINGS",
+          "cpus": 14,
+          "gpus": 0,
+          "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P01_SYM",
+          "expected_odb_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P01_SYM\\SPIO_R057_P01_SYM.odb",
+          "created_at": "2026-10-27T21:15:58",
+          "started_at": "2026-10-27T21:34:56",
+          "completed_at": "2026-10-27T21:39:12",
+          "exit_reason": "",
+          "error_code": null,
+          "metadata_json": "{\"source\": \"runtime_json\", \"process_evidence_path\": \"reports/process_evidence/q_d087362410bf496da1b8516aa36f7bdc.json\"}"
+        },
+        "runs": [
+          {
+            "run_id": "r_4b16437079084d19ae1d09d6529c5eca",
+            "job_id": "j_d051f2b5f0bb46149e9e9b86893c4703",
+            "attempt_no": 1,
+            "queue_id": "q_d087362410bf496da1b8516aa36f7bdc",
+            "status": "COMPLETED",
+            "raw_status": "COMPLETED_WITH_WARNINGS",
+            "cpus": 14,
+            "gpus": 0,
+            "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P01_SYM",
+            "expected_odb_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P01_SYM\\SPIO_R057_P01_SYM.odb",
+            "created_at": "2026-10-27T21:15:58",
+            "started_at": "2026-10-27T21:34:56",
+            "completed_at": "2026-10-27T21:39:12",
+            "exit_reason": "",
+            "error_code": null,
+            "metadata_json": "{\"source\": \"runtime_json\", \"process_evidence_path\": \"reports/process_evidence/q_d087362410bf496da1b8516aa36f7bdc.json\"}"
+          }
+        ],
+        "artifacts": [
+          {
+            "run_id": "r_4b16437079084d19ae1d09d6529c5eca",
+            "items": [
+              {
+                "artifact_id": "a_4da64c79973445d4ba660d1fbe824876",
+                "run_id": "r_4b16437079084d19ae1d09d6529c5eca",
+                "kind": "DAT",
+                "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P01_SYM\\SPIO_R057_P01_SYM.dat",
+                "exists_flag": 1,
+                "size_bytes": 14611,
+                "mtime_ns": 1793108350658019700,
+                "metadata_json": "{}"
+              },
+              {
+                "artifact_id": "a_f17a0e295a55442f9c0bdfd29773d67d",
+                "run_id": "r_4b16437079084d19ae1d09d6529c5eca",
+                "kind": "INP",
+                "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\candidates\\SPIO_R057_P01_SYM\\SPIO_R057_P01_SYM.inp",
+                "exists_flag": 1,
+                "size_bytes": 49908,
+                "mtime_ns": 1793104519710704400,
+                "metadata_json": "{}"
+              },
+              {
+                "artifact_id": "a_10ec92e48acc46d7af15bbdd13d8bf1c",
+                "run_id": "r_4b16437079084d19ae1d09d6529c5eca",
+                "kind": "LOG",
+                "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P01_SYM\\SPIO_R057_P01_SYM.log",
+                "exists_flag": 1,
+                "size_bytes": 2317,
+                "mtime_ns": 1793108351827843000,
+                "metadata_json": "{}"
+              },
+              {
+                "artifact_id": "a_98254ec8032b422e99cfe43ffdb46ae1",
+                "run_id": "r_4b16437079084d19ae1d09d6529c5eca",
+                "kind": "MSG",
+                "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P01_SYM\\SPIO_R057_P01_SYM.msg",
+                "exists_flag": 1,
+                "size_bytes": 2060530,
+                "mtime_ns": 1793108350658019700,
+                "metadata_json": "{}"
+              },
+              {
+                "artifact_id": "a_3afb6888ca4442a89811b55904c798c5",
+                "run_id": "r_4b16437079084d19ae1d09d6529c5eca",
+                "kind": "ODB",
+                "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P01_SYM\\SPIO_R057_P01_SYM.odb",
+                "exists_flag": 1,
+                "size_bytes": 77533044,
+                "mtime_ns": 1793108351028128400,
+                "metadata_json": "{}"
+              },
+              {
+                "artifact_id": "a_95c41e57260f4cf8876ed4a935c5c167",
+                "run_id": "r_4b16437079084d19ae1d09d6529c5eca",
+                "kind": "STA",
+                "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P01_SYM\\SPIO_R057_P01_SYM.sta",
+                "exists_flag": 1,
+                "size_bytes": 32064,
+                "mtime_ns": 1793108350658019700,
+                "metadata_json": "{}"
+              }
+            ]
+          }
+        ],
+        "errors": [],
+        "warnings": [],
+        "error_details": []
+      },
+      "public_status": {
+        "status": "COMPLETED",
+        "job_id": "q_d087362410bf496da1b8516aa36f7bdc",
+        "inp_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\candidates\\SPIO_R057_P01_SYM\\SPIO_R057_P01_SYM.inp",
+        "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P01_SYM",
+        "expected_odb_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P01_SYM\\SPIO_R057_P01_SYM.odb",
+        "odb_exists": true,
+        "lock_exists": false,
+        "status_sources": [
+          "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime\\queue.json"
+        ],
+        "last_log_lines": [
+          "10/27/2026 9:35:34 PM",
+          "End Abaqus/Standard Analysis",
+          "Begin SIM Wrap-up",
+          "10/27/2026 9:35:35 PM",
+          "Run SMASimUtility.exe",
+          "10/27/2026 9:35:35 PM",
+          "End SIM Wrap-up",
+          "Abaqus JOB SPIO_R057_P01_SYM COMPLETED",
+          "",
+          "[2026-10-27T21:35:36] END DATACHECK_RUNNING return_code=0",
+          "",
+          "[2026-10-27T21:35:36] START FULL_RUNNING",
+          "Command: cmd.exe /c D:\\ABAQUS2024\\Commands\\abq2024.bat job=SPIO_R057_P01_SYM input=E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\candidates\\SPIO_R057_P01_SYM\\SPIO_R057_P01_SYM.inp cpus=14 interactive ask_delete=OFF",
+          "",
+          "",
+          "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P01_SYM>call \"D:\\ONEAPI\\compiler\\2022.2.0\\env\\vars.bat\" intel64\tvs2022 ",
+          "Analysis initiated from SIMULIA established products",
+          "Abaqus JOB SPIO_R057_P01_SYM",
+          "Abaqus 2024",
+          "Abaqus License Manager checked out the following licenses:",
+          "Abaqus/Standard checked out 15 tokens from Flexnet server Boltzmann.",
+          "<9984 out of 9999 licenses remain available>.",
+          "Begin Analysis Input File Processor",
+          "10/27/2026 9:35:42 PM",
+          "Run pre.exe",
+          "10/27/2026 9:35:50 PM",
+          "End Analysis Input File Processor",
+          "Begin Abaqus/Standard Analysis",
+          "10/27/2026 9:35:50 PM",
+          "Run standard.exe",
+          "10/27/2026 9:39:11 PM",
+          "End Abaqus/Standard Analysis",
+          "Begin SIM Wrap-up",
+          "10/27/2026 9:39:11 PM",
+          "Run SMASimUtility.exe",
+          "10/27/2026 9:39:11 PM",
+          "End SIM Wrap-up",
+          "Abaqus JOB SPIO_R057_P01_SYM COMPLETED",
+          "",
+          "[2026-10-27T21:39:11] END FULL_RUNNING return_code=0"
+        ],
+        "errors": [],
+        "warnings": [],
+        "schema_version": "1.0",
+        "error_details": []
+      },
+      "public_outputs": {
+        "job_id": "q_d087362410bf496da1b8516aa36f7bdc",
+        "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P01_SYM",
+        "expected_odb_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P01_SYM\\SPIO_R057_P01_SYM.odb",
+        "odb_exists": true,
+        "lock_exists": false,
+        "log_paths": [
+          "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P01_SYM\\SPIO_R057_P01_SYM.log",
+          "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P01_SYM\\SPIO_R057_P01_SYM.sta",
+          "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P01_SYM\\SPIO_R057_P01_SYM.msg",
+          "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P01_SYM\\SPIO_R057_P01_SYM.dat"
+        ],
+        "sta_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P01_SYM\\SPIO_R057_P01_SYM.sta",
+        "msg_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P01_SYM\\SPIO_R057_P01_SYM.msg",
+        "dat_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P01_SYM\\SPIO_R057_P01_SYM.dat",
+        "lck_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P01_SYM\\SPIO_R057_P01_SYM.lck",
+        "path_sources": {
+          "odb_path": "recorded",
+          "sta_path": "recorded",
+          "msg_path": "recorded",
+          "dat_path": "recorded",
+          "log_path": "recorded",
+          "lck_path": "expected"
+        },
+        "errors": [],
+        "warnings": [],
+        "schema_version": "1.0",
+        "error_details": []
+      },
+      "software_completed": true,
+      "software_phase": "COMPLETED_WITH_WARNINGS",
+      "single_attempt_confirmed": true,
+      "started_attempt_count": 1,
+      "phase_evidence": {
+        "DATACHECK_RUNNING": {
+          "start_records": [
+            "2026-10-27T21:34:56"
+          ],
+          "end_records": [
+            [
+              "2026-10-27T21:35:36",
+              "0"
+            ]
+          ],
+          "one_successful_phase": true,
+          "duration_s": 40.0
+        },
+        "FULL_RUNNING": {
+          "start_records": [
+            "2026-10-27T21:35:36"
+          ],
+          "end_records": [
+            [
+              "2026-10-27T21:39:11",
+              "0"
+            ]
+          ],
+          "one_successful_phase": true,
+          "duration_s": 215.0
+        }
+      },
+      "actual_runtime_s": 256,
+      "sta_completion_verified": true,
+      "files": {
+        "odb": {
+          "path": "run/run_057/artifacts/solver/SPIO_R057_P01_SYM/SPIO_R057_P01_SYM.odb",
+          "exists": true,
+          "bytes": 77533044,
+          "sha256": "f4a14ffe77ced4ac8b888a70d33c12d019ae5957f4623f9e420f03468117ee32"
+        },
+        "sta": {
+          "path": "run/run_057/artifacts/solver/SPIO_R057_P01_SYM/SPIO_R057_P01_SYM.sta",
+          "exists": true,
+          "bytes": 32064,
+          "sha256": "3901adbb2cd046dc691d3756939813da4087be8eb7e168049c447f78287c2f5a"
+        },
+        "msg": {
+          "path": "run/run_057/artifacts/solver/SPIO_R057_P01_SYM/SPIO_R057_P01_SYM.msg",
+          "exists": true,
+          "bytes": 2060530,
+          "sha256": "a183743990fde5d4c720c03dfe488359feec354185c29ee5d5b1415e479f4659"
+        },
+        "dat": {
+          "path": "run/run_057/artifacts/solver/SPIO_R057_P01_SYM/SPIO_R057_P01_SYM.dat",
+          "exists": true,
+          "bytes": 14611,
+          "sha256": "5d6ca1846d36fc975b9679f761b58dc36070067a24837e6acfcc34b115b10ba3"
+        },
+        "log": {
+          "path": "run/run_057/artifacts/solver/SPIO_R057_P01_SYM/SPIO_R057_P01_SYM.log",
+          "exists": true,
+          "bytes": 2317,
+          "sha256": "20102efcded98afacce89ec41da43a4f8a50ee21b5dd69df89dbcc957daf2513"
+        }
+      },
+      "safe_for_readonly_odb": true,
+      "numerical_quality": "PENDING",
+      "scientific_scoreability": "PENDING",
+      "output_run": "run_059"
+    },
+    {
+      "candidate_id": "P02",
+      "design_id": "I06_SY_PLUS",
+      "job_name": "SPIO_R057_P02_SYP",
+      "sigma_y_mpa": 247.9859496916774,
+      "n": 0.0968,
+      "x": 0.265,
+      "y": 0.16,
+      "E_pa": 210000000000.0,
+      "nu": 0.3,
+      "material_model": "candidate-true-total-Hollomon-v1",
+      "stress_unit": "Pa",
+      "plastic_strain_unit": "dimensionless equivalent plastic strain",
+      "max_plastic_strain": 0.9,
+      "relative_tolerance": 0.001,
+      "source_inp": "run/run_030/artifacts/candidates/SPIO_R030_I06_L/SPIO_R030_I06_L.inp",
+      "source_inp_sha256": "0a544fd06f0c0de630946173314ba980085a8a464ef4027e715bfb46e3d3b45a",
+      "source_ODB": "run/run_030/artifacts/solver/SPIO_R030_I06_L/SPIO_R030_I06_L.odb",
+      "source_ODB_sha256": "9c8cfee50698b98e63215db665e5aa1e8afaabdd2d5f8e40eb0e4e690f89d7aa",
+      "generator": "inverse/hollomon.py",
+      "generator_sha256": "d937664f7fc7f845a9ed7a75a004275bf38d11a1b3f68975a05961adb9b16363",
+      "design_contract": "run/run_056/artifacts/private/prospective_design_contract.json",
+      "design_contract_sha256": "a3f8cae3896e2c5079d6796e95122109ecfa8075850dfb617778d023f7f828d0",
+      "numerical_contract": "run030-standard-m0025-hollomon-v1",
+      "numerics": {
+        "solver": "Abaqus/Standard2024",
+        "initial_increment": 0.001,
+        "maximum_increment": 0.0025,
+        "minimum_increment": 1e-12,
+        "total_time": 1.0,
+        "maximum_increments": 999999,
+        "CPU": 14,
+        "GPU": 0
+      },
+      "inp_path": "run/run_057/artifacts/candidates/SPIO_R057_P02_SYP/SPIO_R057_P02_SYP.inp",
+      "inp_absolute_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\candidates\\SPIO_R057_P02_SYP\\SPIO_R057_P02_SYP.inp",
+      "inp_sha256": "e56970741386561a0fe0fd12b4201633bd2e5276ae37e8f2950071ddf1313e8f",
+      "working_dir": "run/run_057/artifacts/solver/SPIO_R057_P02_SYP",
+      "working_dir_absolute": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P02_SYP",
+      "expected_odb": "run/run_057/artifacts/solver/SPIO_R057_P02_SYP/SPIO_R057_P02_SYP.odb",
+      "expected_odb_absolute": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P02_SYP\\SPIO_R057_P02_SYP.odb",
+      "material_rows": 34,
+      "table_path": "run/run_057/artifacts/candidates/SPIO_R057_P02_SYP/plastic_table.csv",
+      "table_sha256": "82997189edbd84bc83b8b77ff338c0a86deecead680b57b37c7e022df4a16079",
+      "plastic_rows_path": "run/run_057/artifacts/candidates/SPIO_R057_P02_SYP/plastic_rows.inc.txt",
+      "plastic_rows_sha256": "a02dcf21ed313b0ea0cae7217d7b514ac00f03914b145517f6cdd65b814d50c8",
+      "physical_skeleton_sha256": "9e68248c5ef7eed5f96e76d76ee76e52867a2f0df065c76eaeeb22b5bfb8f23d",
+      "nonplastic_bytes_identical_except_three_identity_comments": true,
+      "comment_replacements": [
+        {
+          "old": "** Job name: Job-1 Model name: Model-1",
+          "new": "** Job name: SPIO_R057_P02_SYP Model name: Model-1"
+        },
+        {
+          "old": "** RUN_030 POINT I06; job=SPIO_R030_I06_L; offline candidate only",
+          "new": "** RUN_057 POINT P02; job=SPIO_R057_P02_SYP; offline preparation only"
+        },
+        {
+          "old": "** sigma_y_MPa=236.49902622197678; n=0.096799999999999997; design_sha256=3e332c6733fa41a74d518c96cfd4fc9ac635bb7c4f60ecfee70423b8e542c9a6",
+          "new": "** sigma_y_MPa=247.9859496916774; n=0.096799999999999997; design_sha256=a3f8cae3896e2c5079d6796e95122109ecfa8075850dfb617778d023f7f828d0"
+        }
+      ],
+      "interpolation_conservative_relative_bound": 0.0009460776023607568,
+      "dense_15000_check_max_relative_error": 0.0009324847777445566,
+      "resources": {
+        "cpus": 14,
+        "gpus": 0,
+        "run_datacheck": true,
+        "run_full": true,
+        "automatic_retries": 0
+      },
+      "queue_id": "q_da9ef3b8834f48d5bb281813ade4f484",
+      "attempts": 0,
+      "execution_authorized": false,
+      "outside_observed_parameter_hull": false,
+      "parameters_path": "run/run_057/artifacts/candidates/SPIO_R057_P02_SYP/parameters.json",
+      "parameters_sha256": "0a4e03ad04b6bd04615c668233a868a3f415cb5be0504c1cdca3e829c9306bac",
+      "queue_record": {
+        "schema_version": "1.0",
+        "queue_id": "q_da9ef3b8834f48d5bb281813ade4f484",
+        "status": "COMPLETED",
+        "batch_name": "run058_four_prospective_identification",
+        "strategy_name": "frozen_run056_057_local_identification_no_retraining",
+        "job_name": "SPIO_R057_P02_SYP",
+        "inp_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\candidates\\SPIO_R057_P02_SYP\\SPIO_R057_P02_SYP.inp",
+        "work_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P02_SYP",
+        "cpus": 14,
+        "gpus": 0,
+        "run_datacheck": true,
+        "run_full": true,
+        "created_at": "2026-10-27T21:15:59",
+        "started_at": "2026-10-27T21:39:12",
+        "ended_at": "2026-10-27T21:42:59",
+        "duration_sec": 227,
+        "phase": "COMPLETED_WITH_WARNINGS",
+        "return_code": 0,
+        "final_verdict": "SUCCESS",
+        "fatal_reason": "",
+        "warning_count": 18,
+        "odb_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P02_SYP\\SPIO_R057_P02_SYP.odb",
+        "odb_size_bytes": 75132400,
+        "sta_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P02_SYP\\SPIO_R057_P02_SYP.sta",
+        "msg_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P02_SYP\\SPIO_R057_P02_SYP.msg",
+        "dat_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P02_SYP\\SPIO_R057_P02_SYP.dat",
+        "log_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P02_SYP\\SPIO_R057_P02_SYP.log",
+        "notes": "run058 P02; INP_SHA256=e56970741386561a0fe0fd12b4201633bd2e5276ae37e8f2950071ddf1313e8f; task_id=63918b23-72e5-4081-8ed7-ccedaa932e47; Project=b87d2cd6-8519-4ac3-bae6-7eb989fb2dae;14CPU0GPU;singleDCthenFull;zeroRetries;USER_GUI_ONLY;AUTO_STOP_UNAVAILABLE accepted",
+        "process_evidence_path": "reports/process_evidence/q_da9ef3b8834f48d5bb281813ade4f484.json",
+        "raw_status": "COMPLETED_WITH_WARNINGS"
+      },
+      "history_detail": {
+        "schema_version": "1.0",
+        "status": "OK",
+        "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+        "job": {
+          "job_id": "j_7f25b896f91748679a90304a7a2f5583",
+          "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+          "logical_key": "e26a252a99fab98f6507b6849f96d560599c832baf0cea4a6acafadcfa10190e",
+          "job_name": "SPIO_R057_P02_SYP",
+          "inp_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\candidates\\SPIO_R057_P02_SYP\\SPIO_R057_P02_SYP.inp",
+          "batch": "run058_four_prospective_identification",
+          "strategy": "frozen_run056_057_local_identification_no_retraining",
+          "created_at": "2026-10-27T21:15:59",
+          "updated_at": null,
+          "metadata_json": "{\"source\": \"runtime_json\", \"identity_basis\": \"inp_path\"}",
+          "latest_status": "COMPLETED"
+        },
+        "latest_run": {
+          "run_id": "r_14c067755bc844fb99fc06105a0f253a",
+          "job_id": "j_7f25b896f91748679a90304a7a2f5583",
+          "attempt_no": 1,
+          "queue_id": "q_da9ef3b8834f48d5bb281813ade4f484",
+          "status": "COMPLETED",
+          "raw_status": "COMPLETED_WITH_WARNINGS",
+          "cpus": 14,
+          "gpus": 0,
+          "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P02_SYP",
+          "expected_odb_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P02_SYP\\SPIO_R057_P02_SYP.odb",
+          "created_at": "2026-10-27T21:15:59",
+          "started_at": "2026-10-27T21:39:12",
+          "completed_at": "2026-10-27T21:42:59",
+          "exit_reason": "",
+          "error_code": null,
+          "metadata_json": "{\"source\": \"runtime_json\", \"process_evidence_path\": \"reports/process_evidence/q_da9ef3b8834f48d5bb281813ade4f484.json\"}"
+        },
+        "runs": [
+          {
+            "run_id": "r_14c067755bc844fb99fc06105a0f253a",
+            "job_id": "j_7f25b896f91748679a90304a7a2f5583",
+            "attempt_no": 1,
+            "queue_id": "q_da9ef3b8834f48d5bb281813ade4f484",
+            "status": "COMPLETED",
+            "raw_status": "COMPLETED_WITH_WARNINGS",
+            "cpus": 14,
+            "gpus": 0,
+            "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P02_SYP",
+            "expected_odb_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P02_SYP\\SPIO_R057_P02_SYP.odb",
+            "created_at": "2026-10-27T21:15:59",
+            "started_at": "2026-10-27T21:39:12",
+            "completed_at": "2026-10-27T21:42:59",
+            "exit_reason": "",
+            "error_code": null,
+            "metadata_json": "{\"source\": \"runtime_json\", \"process_evidence_path\": \"reports/process_evidence/q_da9ef3b8834f48d5bb281813ade4f484.json\"}"
+          }
+        ],
+        "artifacts": [
+          {
+            "run_id": "r_14c067755bc844fb99fc06105a0f253a",
+            "items": [
+              {
+                "artifact_id": "a_7b0559613a7d451ba0cb0200e3b3d791",
+                "run_id": "r_14c067755bc844fb99fc06105a0f253a",
+                "kind": "DAT",
+                "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P02_SYP\\SPIO_R057_P02_SYP.dat",
+                "exists_flag": 1,
+                "size_bytes": 14611,
+                "mtime_ns": 1793108576554157800,
+                "metadata_json": "{}"
+              },
+              {
+                "artifact_id": "a_dfd5282814024090967e92e9f96bda3f",
+                "run_id": "r_14c067755bc844fb99fc06105a0f253a",
+                "kind": "INP",
+                "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\candidates\\SPIO_R057_P02_SYP\\SPIO_R057_P02_SYP.inp",
+                "exists_flag": 1,
+                "size_bytes": 49910,
+                "mtime_ns": 1793104520615182000,
+                "metadata_json": "{}"
+              },
+              {
+                "artifact_id": "a_4c8dbc23411943ee8f4d589635dc3ac5",
+                "run_id": "r_14c067755bc844fb99fc06105a0f253a",
+                "kind": "LOG",
+                "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P02_SYP\\SPIO_R057_P02_SYP.log",
+                "exists_flag": 1,
+                "size_bytes": 2317,
+                "mtime_ns": 1793108579574275500,
+                "metadata_json": "{}"
+              },
+              {
+                "artifact_id": "a_3369d036662843b28209b1f47972b4ea",
+                "run_id": "r_14c067755bc844fb99fc06105a0f253a",
+                "kind": "MSG",
+                "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P02_SYP\\SPIO_R057_P02_SYP.msg",
+                "exists_flag": 1,
+                "size_bytes": 1892903,
+                "mtime_ns": 1793108576554157800,
+                "metadata_json": "{}"
+              },
+              {
+                "artifact_id": "a_08fc6f739459418994b0340eba0c7b00",
+                "run_id": "r_14c067755bc844fb99fc06105a0f253a",
+                "kind": "ODB",
+                "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P02_SYP\\SPIO_R057_P02_SYP.odb",
+                "exists_flag": 1,
+                "size_bytes": 75132400,
+                "mtime_ns": 1793108576948252300,
+                "metadata_json": "{}"
+              },
+              {
+                "artifact_id": "a_5fee5cea4e8844d586d9da9bdf7b64c2",
+                "run_id": "r_14c067755bc844fb99fc06105a0f253a",
+                "kind": "STA",
+                "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P02_SYP\\SPIO_R057_P02_SYP.sta",
+                "exists_flag": 1,
+                "size_bytes": 30840,
+                "mtime_ns": 1793108576554157800,
+                "metadata_json": "{}"
+              }
+            ]
+          }
+        ],
+        "errors": [],
+        "warnings": [],
+        "error_details": []
+      },
+      "public_status": {
+        "status": "COMPLETED",
+        "job_id": "q_da9ef3b8834f48d5bb281813ade4f484",
+        "inp_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\candidates\\SPIO_R057_P02_SYP\\SPIO_R057_P02_SYP.inp",
+        "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P02_SYP",
+        "expected_odb_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P02_SYP\\SPIO_R057_P02_SYP.odb",
+        "odb_exists": true,
+        "lock_exists": false,
+        "status_sources": [
+          "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime\\queue.json"
+        ],
+        "last_log_lines": [
+          "10/27/2026 9:39:33 PM",
+          "End Abaqus/Standard Analysis",
+          "Begin SIM Wrap-up",
+          "10/27/2026 9:39:34 PM",
+          "Run SMASimUtility.exe",
+          "10/27/2026 9:39:34 PM",
+          "End SIM Wrap-up",
+          "Abaqus JOB SPIO_R057_P02_SYP COMPLETED",
+          "",
+          "[2026-10-27T21:39:34] END DATACHECK_RUNNING return_code=0",
+          "",
+          "[2026-10-27T21:39:34] START FULL_RUNNING",
+          "Command: cmd.exe /c D:\\ABAQUS2024\\Commands\\abq2024.bat job=SPIO_R057_P02_SYP input=E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\candidates\\SPIO_R057_P02_SYP\\SPIO_R057_P02_SYP.inp cpus=14 interactive ask_delete=OFF",
+          "",
+          "",
+          "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P02_SYP>call \"D:\\ONEAPI\\compiler\\2022.2.0\\env\\vars.bat\" intel64\tvs2022 ",
+          "Analysis initiated from SIMULIA established products",
+          "Abaqus JOB SPIO_R057_P02_SYP",
+          "Abaqus 2024",
+          "Abaqus License Manager checked out the following licenses:",
+          "Abaqus/Standard checked out 15 tokens from Flexnet server Boltzmann.",
+          "<9984 out of 9999 licenses remain available>.",
+          "Begin Analysis Input File Processor",
+          "10/27/2026 9:39:39 PM",
+          "Run pre.exe",
+          "10/27/2026 9:39:47 PM",
+          "End Analysis Input File Processor",
+          "Begin Abaqus/Standard Analysis",
+          "10/27/2026 9:39:47 PM",
+          "Run standard.exe",
+          "10/27/2026 9:42:57 PM",
+          "End Abaqus/Standard Analysis",
+          "Begin SIM Wrap-up",
+          "10/27/2026 9:42:59 PM",
+          "Run SMASimUtility.exe",
+          "10/27/2026 9:42:59 PM",
+          "End SIM Wrap-up",
+          "Abaqus JOB SPIO_R057_P02_SYP COMPLETED",
+          "",
+          "[2026-10-27T21:42:59] END FULL_RUNNING return_code=0"
+        ],
+        "errors": [],
+        "warnings": [],
+        "schema_version": "1.0",
+        "error_details": []
+      },
+      "public_outputs": {
+        "job_id": "q_da9ef3b8834f48d5bb281813ade4f484",
+        "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P02_SYP",
+        "expected_odb_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P02_SYP\\SPIO_R057_P02_SYP.odb",
+        "odb_exists": true,
+        "lock_exists": false,
+        "log_paths": [
+          "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P02_SYP\\SPIO_R057_P02_SYP.log",
+          "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P02_SYP\\SPIO_R057_P02_SYP.sta",
+          "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P02_SYP\\SPIO_R057_P02_SYP.msg",
+          "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P02_SYP\\SPIO_R057_P02_SYP.dat"
+        ],
+        "sta_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P02_SYP\\SPIO_R057_P02_SYP.sta",
+        "msg_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P02_SYP\\SPIO_R057_P02_SYP.msg",
+        "dat_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P02_SYP\\SPIO_R057_P02_SYP.dat",
+        "lck_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P02_SYP\\SPIO_R057_P02_SYP.lck",
+        "path_sources": {
+          "odb_path": "recorded",
+          "sta_path": "recorded",
+          "msg_path": "recorded",
+          "dat_path": "recorded",
+          "log_path": "recorded",
+          "lck_path": "expected"
+        },
+        "errors": [],
+        "warnings": [],
+        "schema_version": "1.0",
+        "error_details": []
+      },
+      "software_completed": true,
+      "software_phase": "COMPLETED_WITH_WARNINGS",
+      "single_attempt_confirmed": true,
+      "started_attempt_count": 1,
+      "phase_evidence": {
+        "DATACHECK_RUNNING": {
+          "start_records": [
+            "2026-10-27T21:39:12"
+          ],
+          "end_records": [
+            [
+              "2026-10-27T21:39:34",
+              "0"
+            ]
+          ],
+          "one_successful_phase": true,
+          "duration_s": 22.0
+        },
+        "FULL_RUNNING": {
+          "start_records": [
+            "2026-10-27T21:39:34"
+          ],
+          "end_records": [
+            [
+              "2026-10-27T21:42:59",
+              "0"
+            ]
+          ],
+          "one_successful_phase": true,
+          "duration_s": 205.0
+        }
+      },
+      "actual_runtime_s": 227,
+      "sta_completion_verified": true,
+      "files": {
+        "odb": {
+          "path": "run/run_057/artifacts/solver/SPIO_R057_P02_SYP/SPIO_R057_P02_SYP.odb",
+          "exists": true,
+          "bytes": 75132400,
+          "sha256": "4ac969b10ec200d4e76953bf15a9de8512cd6151f5621193a5ab1c37121918d4"
+        },
+        "sta": {
+          "path": "run/run_057/artifacts/solver/SPIO_R057_P02_SYP/SPIO_R057_P02_SYP.sta",
+          "exists": true,
+          "bytes": 30840,
+          "sha256": "19d53afc990742a9d70d0e6baec7e1391924981058fd8b3bbf118b0b025dae97"
+        },
+        "msg": {
+          "path": "run/run_057/artifacts/solver/SPIO_R057_P02_SYP/SPIO_R057_P02_SYP.msg",
+          "exists": true,
+          "bytes": 1892903,
+          "sha256": "10efb195f72f2bc86fb22b92722074b0408efb10a717faea7aa21b507dd388be"
+        },
+        "dat": {
+          "path": "run/run_057/artifacts/solver/SPIO_R057_P02_SYP/SPIO_R057_P02_SYP.dat",
+          "exists": true,
+          "bytes": 14611,
+          "sha256": "cc8875e41b144267c3849a13c470537b1cdb8705ae5526f28a9535117e98ffd8"
+        },
+        "log": {
+          "path": "run/run_057/artifacts/solver/SPIO_R057_P02_SYP/SPIO_R057_P02_SYP.log",
+          "exists": true,
+          "bytes": 2317,
+          "sha256": "7f118dadf81a8b4494d07b4ff1144b199c0cf41c552b19561e656b27081fa498"
+        }
+      },
+      "safe_for_readonly_odb": true,
+      "numerical_quality": "PENDING",
+      "scientific_scoreability": "PENDING",
+      "output_run": "run_059"
+    },
+    {
+      "candidate_id": "P03",
+      "design_id": "I06_N_MINUS",
+      "job_name": "SPIO_R057_P03_NM",
+      "sigma_y_mpa": 236.49902622197678,
+      "n": 0.0848,
+      "x": 0.24000000000000002,
+      "y": 0.135,
+      "E_pa": 210000000000.0,
+      "nu": 0.3,
+      "material_model": "candidate-true-total-Hollomon-v1",
+      "stress_unit": "Pa",
+      "plastic_strain_unit": "dimensionless equivalent plastic strain",
+      "max_plastic_strain": 0.9,
+      "relative_tolerance": 0.001,
+      "source_inp": "run/run_030/artifacts/candidates/SPIO_R030_I06_L/SPIO_R030_I06_L.inp",
+      "source_inp_sha256": "0a544fd06f0c0de630946173314ba980085a8a464ef4027e715bfb46e3d3b45a",
+      "source_ODB": "run/run_030/artifacts/solver/SPIO_R030_I06_L/SPIO_R030_I06_L.odb",
+      "source_ODB_sha256": "9c8cfee50698b98e63215db665e5aa1e8afaabdd2d5f8e40eb0e4e690f89d7aa",
+      "generator": "inverse/hollomon.py",
+      "generator_sha256": "d937664f7fc7f845a9ed7a75a004275bf38d11a1b3f68975a05961adb9b16363",
+      "design_contract": "run/run_056/artifacts/private/prospective_design_contract.json",
+      "design_contract_sha256": "a3f8cae3896e2c5079d6796e95122109ecfa8075850dfb617778d023f7f828d0",
+      "numerical_contract": "run030-standard-m0025-hollomon-v1",
+      "numerics": {
+        "solver": "Abaqus/Standard2024",
+        "initial_increment": 0.001,
+        "maximum_increment": 0.0025,
+        "minimum_increment": 1e-12,
+        "total_time": 1.0,
+        "maximum_increments": 999999,
+        "CPU": 14,
+        "GPU": 0
+      },
+      "inp_path": "run/run_057/artifacts/candidates/SPIO_R057_P03_NM/SPIO_R057_P03_NM.inp",
+      "inp_absolute_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\candidates\\SPIO_R057_P03_NM\\SPIO_R057_P03_NM.inp",
+      "inp_sha256": "ec19b0ce1a6ff89a95268019b603733a7d6a56e7b37fecf4a6ae89333127936f",
+      "working_dir": "run/run_057/artifacts/solver/SPIO_R057_P03_NM",
+      "working_dir_absolute": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P03_NM",
+      "expected_odb": "run/run_057/artifacts/solver/SPIO_R057_P03_NM/SPIO_R057_P03_NM.odb",
+      "expected_odb_absolute": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P03_NM\\SPIO_R057_P03_NM.odb",
+      "material_rows": 31,
+      "table_path": "run/run_057/artifacts/candidates/SPIO_R057_P03_NM/plastic_table.csv",
+      "table_sha256": "341473c915332b4ef6ff9ab006c1d7e6ec52ff3513eefb4665624fe7661510d5",
+      "plastic_rows_path": "run/run_057/artifacts/candidates/SPIO_R057_P03_NM/plastic_rows.inc.txt",
+      "plastic_rows_sha256": "6584c0e4d7a4da918acd03ed3554a520288127174f6c7b144ea03667bf9e483d",
+      "physical_skeleton_sha256": "9e68248c5ef7eed5f96e76d76ee76e52867a2f0df065c76eaeeb22b5bfb8f23d",
+      "nonplastic_bytes_identical_except_three_identity_comments": true,
+      "comment_replacements": [
+        {
+          "old": "** Job name: Job-1 Model name: Model-1",
+          "new": "** Job name: SPIO_R057_P03_NM Model name: Model-1"
+        },
+        {
+          "old": "** RUN_030 POINT I06; job=SPIO_R030_I06_L; offline candidate only",
+          "new": "** RUN_057 POINT P03; job=SPIO_R057_P03_NM; offline preparation only"
+        },
+        {
+          "old": "** sigma_y_MPa=236.49902622197678; n=0.096799999999999997; design_sha256=3e332c6733fa41a74d518c96cfd4fc9ac635bb7c4f60ecfee70423b8e542c9a6",
+          "new": "** sigma_y_MPa=236.49902622197678; n=0.0848; design_sha256=a3f8cae3896e2c5079d6796e95122109ecfa8075850dfb617778d023f7f828d0"
+        }
+      ],
+      "interpolation_conservative_relative_bound": 0.0009895525247157798,
+      "dense_15000_check_max_relative_error": 0.0009760392943077647,
+      "resources": {
+        "cpus": 14,
+        "gpus": 0,
+        "run_datacheck": true,
+        "run_full": true,
+        "automatic_retries": 0
+      },
+      "queue_id": "q_6f2c429dc980462790409bbddd031c01",
+      "attempts": 0,
+      "execution_authorized": false,
+      "outside_observed_parameter_hull": true,
+      "parameters_path": "run/run_057/artifacts/candidates/SPIO_R057_P03_NM/parameters.json",
+      "parameters_sha256": "a86765accd6b173c5bc1aa2c9b670dc73fc8ce47f14c41f963b4e6f5ac11c6f1",
+      "queue_record": {
+        "schema_version": "1.0",
+        "queue_id": "q_6f2c429dc980462790409bbddd031c01",
+        "status": "COMPLETED",
+        "batch_name": "run058_four_prospective_identification",
+        "strategy_name": "frozen_run056_057_local_identification_no_retraining",
+        "job_name": "SPIO_R057_P03_NM",
+        "inp_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\candidates\\SPIO_R057_P03_NM\\SPIO_R057_P03_NM.inp",
+        "work_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P03_NM",
+        "cpus": 14,
+        "gpus": 0,
+        "run_datacheck": true,
+        "run_full": true,
+        "created_at": "2026-10-27T21:15:59",
+        "started_at": "2026-10-27T21:42:59",
+        "ended_at": "2026-10-27T21:46:41",
+        "duration_sec": 222,
+        "phase": "COMPLETED_WITH_WARNINGS",
+        "return_code": 0,
+        "final_verdict": "SUCCESS",
+        "fatal_reason": "",
+        "warning_count": 15,
+        "odb_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P03_NM\\SPIO_R057_P03_NM.odb",
+        "odb_size_bytes": 77879552,
+        "sta_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P03_NM\\SPIO_R057_P03_NM.sta",
+        "msg_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P03_NM\\SPIO_R057_P03_NM.msg",
+        "dat_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P03_NM\\SPIO_R057_P03_NM.dat",
+        "log_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P03_NM\\SPIO_R057_P03_NM.log",
+        "notes": "run058 P03; INP_SHA256=ec19b0ce1a6ff89a95268019b603733a7d6a56e7b37fecf4a6ae89333127936f; task_id=c2f12e1d-3570-4e86-9d7c-4579ab7a6a18; Project=b87d2cd6-8519-4ac3-bae6-7eb989fb2dae;14CPU0GPU;singleDCthenFull;zeroRetries;USER_GUI_ONLY;AUTO_STOP_UNAVAILABLE accepted",
+        "process_evidence_path": "reports/process_evidence/q_6f2c429dc980462790409bbddd031c01.json",
+        "raw_status": "COMPLETED_WITH_WARNINGS"
+      },
+      "history_detail": {
+        "schema_version": "1.0",
+        "status": "OK",
+        "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+        "job": {
+          "job_id": "j_89bd9bcfdf014dca84e967214883a4ae",
+          "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+          "logical_key": "d11afa56eec66e7e90dda75e9354385abc2de284a4f8c78cea7505893b4f5d65",
+          "job_name": "SPIO_R057_P03_NM",
+          "inp_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\candidates\\SPIO_R057_P03_NM\\SPIO_R057_P03_NM.inp",
+          "batch": "run058_four_prospective_identification",
+          "strategy": "frozen_run056_057_local_identification_no_retraining",
+          "created_at": "2026-10-27T21:15:59",
+          "updated_at": null,
+          "metadata_json": "{\"source\": \"runtime_json\", \"identity_basis\": \"inp_path\"}",
+          "latest_status": "COMPLETED"
+        },
+        "latest_run": {
+          "run_id": "r_f3b471e849d948c2ae8f9d3c81db62fc",
+          "job_id": "j_89bd9bcfdf014dca84e967214883a4ae",
+          "attempt_no": 1,
+          "queue_id": "q_6f2c429dc980462790409bbddd031c01",
+          "status": "COMPLETED",
+          "raw_status": "COMPLETED_WITH_WARNINGS",
+          "cpus": 14,
+          "gpus": 0,
+          "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P03_NM",
+          "expected_odb_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P03_NM\\SPIO_R057_P03_NM.odb",
+          "created_at": "2026-10-27T21:15:59",
+          "started_at": "2026-10-27T21:42:59",
+          "completed_at": "2026-10-27T21:46:41",
+          "exit_reason": "",
+          "error_code": null,
+          "metadata_json": "{\"source\": \"runtime_json\", \"process_evidence_path\": \"reports/process_evidence/q_6f2c429dc980462790409bbddd031c01.json\"}"
+        },
+        "runs": [
+          {
+            "run_id": "r_f3b471e849d948c2ae8f9d3c81db62fc",
+            "job_id": "j_89bd9bcfdf014dca84e967214883a4ae",
+            "attempt_no": 1,
+            "queue_id": "q_6f2c429dc980462790409bbddd031c01",
+            "status": "COMPLETED",
+            "raw_status": "COMPLETED_WITH_WARNINGS",
+            "cpus": 14,
+            "gpus": 0,
+            "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P03_NM",
+            "expected_odb_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P03_NM\\SPIO_R057_P03_NM.odb",
+            "created_at": "2026-10-27T21:15:59",
+            "started_at": "2026-10-27T21:42:59",
+            "completed_at": "2026-10-27T21:46:41",
+            "exit_reason": "",
+            "error_code": null,
+            "metadata_json": "{\"source\": \"runtime_json\", \"process_evidence_path\": \"reports/process_evidence/q_6f2c429dc980462790409bbddd031c01.json\"}"
+          }
+        ],
+        "artifacts": [
+          {
+            "run_id": "r_f3b471e849d948c2ae8f9d3c81db62fc",
+            "items": [
+              {
+                "artifact_id": "a_22b0b83513ca4723a6cb0093f3216f93",
+                "run_id": "r_f3b471e849d948c2ae8f9d3c81db62fc",
+                "kind": "DAT",
+                "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P03_NM\\SPIO_R057_P03_NM.dat",
+                "exists_flag": 1,
+                "size_bytes": 14611,
+                "mtime_ns": 1793108799458619900,
+                "metadata_json": "{}"
+              },
+              {
+                "artifact_id": "a_ffd7b5b4a81246ffa8d4e826b4ae366d",
+                "run_id": "r_f3b471e849d948c2ae8f9d3c81db62fc",
+                "kind": "INP",
+                "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\candidates\\SPIO_R057_P03_NM\\SPIO_R057_P03_NM.inp",
+                "exists_flag": 1,
+                "size_bytes": 49774,
+                "mtime_ns": 1793104522459713000,
+                "metadata_json": "{}"
+              },
+              {
+                "artifact_id": "a_2d77440de6084f9a883c79159468af40",
+                "run_id": "r_f3b471e849d948c2ae8f9d3c81db62fc",
+                "kind": "LOG",
+                "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P03_NM\\SPIO_R057_P03_NM.log",
+                "exists_flag": 1,
+                "size_bytes": 2305,
+                "mtime_ns": 1793108801238174100,
+                "metadata_json": "{}"
+              },
+              {
+                "artifact_id": "a_5be994b349ea46c4bccdf4ec778fd8a9",
+                "run_id": "r_f3b471e849d948c2ae8f9d3c81db62fc",
+                "kind": "MSG",
+                "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P03_NM\\SPIO_R057_P03_NM.msg",
+                "exists_flag": 1,
+                "size_bytes": 2016330,
+                "mtime_ns": 1793108799458619900,
+                "metadata_json": "{}"
+              },
+              {
+                "artifact_id": "a_80f4cd43b7e742089a0ca7613883ad1f",
+                "run_id": "r_f3b471e849d948c2ae8f9d3c81db62fc",
+                "kind": "ODB",
+                "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P03_NM\\SPIO_R057_P03_NM.odb",
+                "exists_flag": 1,
+                "size_bytes": 77879552,
+                "mtime_ns": 1793108799877405700,
+                "metadata_json": "{}"
+              },
+              {
+                "artifact_id": "a_fc6abdea516e4a50ab233266b816405b",
+                "run_id": "r_f3b471e849d948c2ae8f9d3c81db62fc",
+                "kind": "STA",
+                "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P03_NM\\SPIO_R057_P03_NM.sta",
+                "exists_flag": 1,
+                "size_bytes": 32268,
+                "mtime_ns": 1793108799458619900,
+                "metadata_json": "{}"
+              }
+            ]
+          }
+        ],
+        "errors": [],
+        "warnings": [],
+        "error_details": []
+      },
+      "public_status": {
+        "status": "COMPLETED",
+        "job_id": "q_6f2c429dc980462790409bbddd031c01",
+        "inp_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\candidates\\SPIO_R057_P03_NM\\SPIO_R057_P03_NM.inp",
+        "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P03_NM",
+        "expected_odb_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P03_NM\\SPIO_R057_P03_NM.odb",
+        "odb_exists": true,
+        "lock_exists": false,
+        "status_sources": [
+          "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime\\queue.json"
+        ],
+        "last_log_lines": [
+          "10/27/2026 9:43:21 PM",
+          "End Abaqus/Standard Analysis",
+          "Begin SIM Wrap-up",
+          "10/27/2026 9:43:21 PM",
+          "Run SMASimUtility.exe",
+          "10/27/2026 9:43:21 PM",
+          "End SIM Wrap-up",
+          "Abaqus JOB SPIO_R057_P03_NM COMPLETED",
+          "",
+          "[2026-10-27T21:43:22] END DATACHECK_RUNNING return_code=0",
+          "",
+          "[2026-10-27T21:43:22] START FULL_RUNNING",
+          "Command: cmd.exe /c D:\\ABAQUS2024\\Commands\\abq2024.bat job=SPIO_R057_P03_NM input=E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\candidates\\SPIO_R057_P03_NM\\SPIO_R057_P03_NM.inp cpus=14 interactive ask_delete=OFF",
+          "",
+          "",
+          "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P03_NM>call \"D:\\ONEAPI\\compiler\\2022.2.0\\env\\vars.bat\" intel64\tvs2022 ",
+          "Analysis initiated from SIMULIA established products",
+          "Abaqus JOB SPIO_R057_P03_NM",
+          "Abaqus 2024",
+          "Abaqus License Manager checked out the following licenses:",
+          "Abaqus/Standard checked out 15 tokens from Flexnet server Boltzmann.",
+          "<9984 out of 9999 licenses remain available>.",
+          "Begin Analysis Input File Processor",
+          "10/27/2026 9:43:27 PM",
+          "Run pre.exe",
+          "10/27/2026 9:43:35 PM",
+          "End Analysis Input File Processor",
+          "Begin Abaqus/Standard Analysis",
+          "10/27/2026 9:43:35 PM",
+          "Run standard.exe",
+          "10/27/2026 9:46:40 PM",
+          "End Abaqus/Standard Analysis",
+          "Begin SIM Wrap-up",
+          "10/27/2026 9:46:40 PM",
+          "Run SMASimUtility.exe",
+          "10/27/2026 9:46:40 PM",
+          "End SIM Wrap-up",
+          "Abaqus JOB SPIO_R057_P03_NM COMPLETED",
+          "",
+          "[2026-10-27T21:46:41] END FULL_RUNNING return_code=0"
+        ],
+        "errors": [],
+        "warnings": [],
+        "schema_version": "1.0",
+        "error_details": []
+      },
+      "public_outputs": {
+        "job_id": "q_6f2c429dc980462790409bbddd031c01",
+        "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P03_NM",
+        "expected_odb_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P03_NM\\SPIO_R057_P03_NM.odb",
+        "odb_exists": true,
+        "lock_exists": false,
+        "log_paths": [
+          "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P03_NM\\SPIO_R057_P03_NM.log",
+          "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P03_NM\\SPIO_R057_P03_NM.sta",
+          "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P03_NM\\SPIO_R057_P03_NM.msg",
+          "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P03_NM\\SPIO_R057_P03_NM.dat"
+        ],
+        "sta_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P03_NM\\SPIO_R057_P03_NM.sta",
+        "msg_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P03_NM\\SPIO_R057_P03_NM.msg",
+        "dat_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P03_NM\\SPIO_R057_P03_NM.dat",
+        "lck_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P03_NM\\SPIO_R057_P03_NM.lck",
+        "path_sources": {
+          "odb_path": "recorded",
+          "sta_path": "recorded",
+          "msg_path": "recorded",
+          "dat_path": "recorded",
+          "log_path": "recorded",
+          "lck_path": "expected"
+        },
+        "errors": [],
+        "warnings": [],
+        "schema_version": "1.0",
+        "error_details": []
+      },
+      "software_completed": true,
+      "software_phase": "COMPLETED_WITH_WARNINGS",
+      "single_attempt_confirmed": true,
+      "started_attempt_count": 1,
+      "phase_evidence": {
+        "DATACHECK_RUNNING": {
+          "start_records": [
+            "2026-10-27T21:43:00"
+          ],
+          "end_records": [
+            [
+              "2026-10-27T21:43:22",
+              "0"
+            ]
+          ],
+          "one_successful_phase": true,
+          "duration_s": 22.0
+        },
+        "FULL_RUNNING": {
+          "start_records": [
+            "2026-10-27T21:43:22"
+          ],
+          "end_records": [
+            [
+              "2026-10-27T21:46:41",
+              "0"
+            ]
+          ],
+          "one_successful_phase": true,
+          "duration_s": 199.0
+        }
+      },
+      "actual_runtime_s": 222,
+      "sta_completion_verified": true,
+      "files": {
+        "odb": {
+          "path": "run/run_057/artifacts/solver/SPIO_R057_P03_NM/SPIO_R057_P03_NM.odb",
+          "exists": true,
+          "bytes": 77879552,
+          "sha256": "ea308192bbc370058d05bf78215eef6d316dfee03f6495c2b674fe9fb0591946"
+        },
+        "sta": {
+          "path": "run/run_057/artifacts/solver/SPIO_R057_P03_NM/SPIO_R057_P03_NM.sta",
+          "exists": true,
+          "bytes": 32268,
+          "sha256": "ff60ce55e91db83826209ea0798e71dca6474426e8f0b9eb3e6a1407b1bc83d2"
+        },
+        "msg": {
+          "path": "run/run_057/artifacts/solver/SPIO_R057_P03_NM/SPIO_R057_P03_NM.msg",
+          "exists": true,
+          "bytes": 2016330,
+          "sha256": "79e17eed53846dfe2785c92e02cc62f4784fdfbf756a55a8388fe9594de838e8"
+        },
+        "dat": {
+          "path": "run/run_057/artifacts/solver/SPIO_R057_P03_NM/SPIO_R057_P03_NM.dat",
+          "exists": true,
+          "bytes": 14611,
+          "sha256": "e84245d43815d80b4941624516114beff1065f9676c5db443cba156d0a6456ee"
+        },
+        "log": {
+          "path": "run/run_057/artifacts/solver/SPIO_R057_P03_NM/SPIO_R057_P03_NM.log",
+          "exists": true,
+          "bytes": 2305,
+          "sha256": "2bb455a3f0bb648e3733591b9beb041462b6ff83bb43a62736eb2446295c67c1"
+        }
+      },
+      "safe_for_readonly_odb": true,
+      "numerical_quality": "PENDING",
+      "scientific_scoreability": "PENDING",
+      "output_run": "run_059"
+    },
+    {
+      "candidate_id": "P04",
+      "design_id": "I06_N_PLUS",
+      "job_name": "SPIO_R057_P04_NP",
+      "sigma_y_mpa": 236.49902622197678,
+      "n": 0.1088,
+      "x": 0.24000000000000002,
+      "y": 0.185,
+      "E_pa": 210000000000.0,
+      "nu": 0.3,
+      "material_model": "candidate-true-total-Hollomon-v1",
+      "stress_unit": "Pa",
+      "plastic_strain_unit": "dimensionless equivalent plastic strain",
+      "max_plastic_strain": 0.9,
+      "relative_tolerance": 0.001,
+      "source_inp": "run/run_030/artifacts/candidates/SPIO_R030_I06_L/SPIO_R030_I06_L.inp",
+      "source_inp_sha256": "0a544fd06f0c0de630946173314ba980085a8a464ef4027e715bfb46e3d3b45a",
+      "source_ODB": "run/run_030/artifacts/solver/SPIO_R030_I06_L/SPIO_R030_I06_L.odb",
+      "source_ODB_sha256": "9c8cfee50698b98e63215db665e5aa1e8afaabdd2d5f8e40eb0e4e690f89d7aa",
+      "generator": "inverse/hollomon.py",
+      "generator_sha256": "d937664f7fc7f845a9ed7a75a004275bf38d11a1b3f68975a05961adb9b16363",
+      "design_contract": "run/run_056/artifacts/private/prospective_design_contract.json",
+      "design_contract_sha256": "a3f8cae3896e2c5079d6796e95122109ecfa8075850dfb617778d023f7f828d0",
+      "numerical_contract": "run030-standard-m0025-hollomon-v1",
+      "numerics": {
+        "solver": "Abaqus/Standard2024",
+        "initial_increment": 0.001,
+        "maximum_increment": 0.0025,
+        "minimum_increment": 1e-12,
+        "total_time": 1.0,
+        "maximum_increments": 999999,
+        "CPU": 14,
+        "GPU": 0
+      },
+      "inp_path": "run/run_057/artifacts/candidates/SPIO_R057_P04_NP/SPIO_R057_P04_NP.inp",
+      "inp_absolute_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\candidates\\SPIO_R057_P04_NP\\SPIO_R057_P04_NP.inp",
+      "inp_sha256": "499ecb98f421595c54bcb2501efbbf1c212f6c8f18994ba001935b553dd85a23",
+      "working_dir": "run/run_057/artifacts/solver/SPIO_R057_P04_NP",
+      "working_dir_absolute": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P04_NP",
+      "expected_odb": "run/run_057/artifacts/solver/SPIO_R057_P04_NP/SPIO_R057_P04_NP.odb",
+      "expected_odb_absolute": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P04_NP\\SPIO_R057_P04_NP.odb",
+      "material_rows": 35,
+      "table_path": "run/run_057/artifacts/candidates/SPIO_R057_P04_NP/plastic_table.csv",
+      "table_sha256": "143b20a4238118faaaa40d1c32650062e82400dcab259829f720d82d06882bb8",
+      "plastic_rows_path": "run/run_057/artifacts/candidates/SPIO_R057_P04_NP/plastic_rows.inc.txt",
+      "plastic_rows_sha256": "36640986372e9e024df84b961905db9fa05e4c137ce9fc51cfe427fb8b5859bb",
+      "physical_skeleton_sha256": "9e68248c5ef7eed5f96e76d76ee76e52867a2f0df065c76eaeeb22b5bfb8f23d",
+      "nonplastic_bytes_identical_except_three_identity_comments": true,
+      "comment_replacements": [
+        {
+          "old": "** Job name: Job-1 Model name: Model-1",
+          "new": "** Job name: SPIO_R057_P04_NP Model name: Model-1"
+        },
+        {
+          "old": "** RUN_030 POINT I06; job=SPIO_R030_I06_L; offline candidate only",
+          "new": "** RUN_057 POINT P04; job=SPIO_R057_P04_NP; offline preparation only"
+        },
+        {
+          "old": "** sigma_y_MPa=236.49902622197678; n=0.096799999999999997; design_sha256=3e332c6733fa41a74d518c96cfd4fc9ac635bb7c4f60ecfee70423b8e542c9a6",
+          "new": "** sigma_y_MPa=236.49902622197678; n=0.10879999999999999; design_sha256=a3f8cae3896e2c5079d6796e95122109ecfa8075850dfb617778d023f7f828d0"
+        }
+      ],
+      "interpolation_conservative_relative_bound": 0.0009967431621068221,
+      "dense_15000_check_max_relative_error": 0.0009811093283688917,
+      "resources": {
+        "cpus": 14,
+        "gpus": 0,
+        "run_datacheck": true,
+        "run_full": true,
+        "automatic_retries": 0
+      },
+      "queue_id": "q_cd15c9b61d7e4005baedb79c9cf06110",
+      "attempts": 0,
+      "execution_authorized": false,
+      "outside_observed_parameter_hull": false,
+      "parameters_path": "run/run_057/artifacts/candidates/SPIO_R057_P04_NP/parameters.json",
+      "parameters_sha256": "f987ffb01c223c5c5f14c27f249b061130d5697f9959a950e100a48c1e957618",
+      "queue_record": {
+        "schema_version": "1.0",
+        "queue_id": "q_cd15c9b61d7e4005baedb79c9cf06110",
+        "status": "COMPLETED",
+        "batch_name": "run058_four_prospective_identification",
+        "strategy_name": "frozen_run056_057_local_identification_no_retraining",
+        "job_name": "SPIO_R057_P04_NP",
+        "inp_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\candidates\\SPIO_R057_P04_NP\\SPIO_R057_P04_NP.inp",
+        "work_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P04_NP",
+        "cpus": 14,
+        "gpus": 0,
+        "run_datacheck": true,
+        "run_full": true,
+        "created_at": "2026-10-27T21:16:00",
+        "started_at": "2026-10-27T21:46:41",
+        "ended_at": "2026-10-27T21:50:11",
+        "duration_sec": 210,
+        "phase": "COMPLETED_WITH_WARNINGS",
+        "return_code": 0,
+        "final_verdict": "SUCCESS",
+        "fatal_reason": "",
+        "warning_count": 11,
+        "odb_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P04_NP\\SPIO_R057_P04_NP.odb",
+        "odb_size_bytes": 74232780,
+        "sta_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P04_NP\\SPIO_R057_P04_NP.sta",
+        "msg_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P04_NP\\SPIO_R057_P04_NP.msg",
+        "dat_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P04_NP\\SPIO_R057_P04_NP.dat",
+        "log_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P04_NP\\SPIO_R057_P04_NP.log",
+        "notes": "run058 P04; INP_SHA256=499ecb98f421595c54bcb2501efbbf1c212f6c8f18994ba001935b553dd85a23; task_id=26a15e2d-da8e-4386-8857-2a61b6a3a5c0; Project=b87d2cd6-8519-4ac3-bae6-7eb989fb2dae;14CPU0GPU;singleDCthenFull;zeroRetries;USER_GUI_ONLY;AUTO_STOP_UNAVAILABLE accepted",
+        "process_evidence_path": "reports/process_evidence/q_cd15c9b61d7e4005baedb79c9cf06110.json",
+        "raw_status": "COMPLETED_WITH_WARNINGS"
+      },
+      "history_detail": {
+        "schema_version": "1.0",
+        "status": "OK",
+        "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+        "job": {
+          "job_id": "j_17759f6bda4e4a82bfab462b1aab1cae",
+          "project_id": "b87d2cd6-8519-4ac3-bae6-7eb989fb2dae",
+          "logical_key": "e6948c688117b3cfaeb81d2ebf217dc594b4651b77878afc86d26d0af2fefd28",
+          "job_name": "SPIO_R057_P04_NP",
+          "inp_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\candidates\\SPIO_R057_P04_NP\\SPIO_R057_P04_NP.inp",
+          "batch": "run058_four_prospective_identification",
+          "strategy": "frozen_run056_057_local_identification_no_retraining",
+          "created_at": "2026-10-27T21:16:00",
+          "updated_at": null,
+          "metadata_json": "{\"source\": \"runtime_json\", \"identity_basis\": \"inp_path\"}",
+          "latest_status": "COMPLETED"
+        },
+        "latest_run": {
+          "run_id": "r_0f71fa0ed32e46f58440310e38d96d58",
+          "job_id": "j_17759f6bda4e4a82bfab462b1aab1cae",
+          "attempt_no": 1,
+          "queue_id": "q_cd15c9b61d7e4005baedb79c9cf06110",
+          "status": "COMPLETED",
+          "raw_status": "COMPLETED_WITH_WARNINGS",
+          "cpus": 14,
+          "gpus": 0,
+          "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P04_NP",
+          "expected_odb_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P04_NP\\SPIO_R057_P04_NP.odb",
+          "created_at": "2026-10-27T21:16:00",
+          "started_at": "2026-10-27T21:46:41",
+          "completed_at": "2026-10-27T21:50:11",
+          "exit_reason": "",
+          "error_code": null,
+          "metadata_json": "{\"source\": \"runtime_json\", \"process_evidence_path\": \"reports/process_evidence/q_cd15c9b61d7e4005baedb79c9cf06110.json\"}"
+        },
+        "runs": [
+          {
+            "run_id": "r_0f71fa0ed32e46f58440310e38d96d58",
+            "job_id": "j_17759f6bda4e4a82bfab462b1aab1cae",
+            "attempt_no": 1,
+            "queue_id": "q_cd15c9b61d7e4005baedb79c9cf06110",
+            "status": "COMPLETED",
+            "raw_status": "COMPLETED_WITH_WARNINGS",
+            "cpus": 14,
+            "gpus": 0,
+            "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P04_NP",
+            "expected_odb_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P04_NP\\SPIO_R057_P04_NP.odb",
+            "created_at": "2026-10-27T21:16:00",
+            "started_at": "2026-10-27T21:46:41",
+            "completed_at": "2026-10-27T21:50:11",
+            "exit_reason": "",
+            "error_code": null,
+            "metadata_json": "{\"source\": \"runtime_json\", \"process_evidence_path\": \"reports/process_evidence/q_cd15c9b61d7e4005baedb79c9cf06110.json\"}"
+          }
+        ],
+        "artifacts": [
+          {
+            "run_id": "r_0f71fa0ed32e46f58440310e38d96d58",
+            "items": [
+              {
+                "artifact_id": "a_104ee0754c89436aa11d66f965e7a0cd",
+                "run_id": "r_0f71fa0ed32e46f58440310e38d96d58",
+                "kind": "DAT",
+                "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P04_NP\\SPIO_R057_P04_NP.dat",
+                "exists_flag": 1,
+                "size_bytes": 14530,
+                "mtime_ns": 1793109008295509300,
+                "metadata_json": "{}"
+              },
+              {
+                "artifact_id": "a_cc8b3f8763774153ab5974a8a0c89371",
+                "run_id": "r_0f71fa0ed32e46f58440310e38d96d58",
+                "kind": "INP",
+                "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\candidates\\SPIO_R057_P04_NP\\SPIO_R057_P04_NP.inp",
+                "exists_flag": 1,
+                "size_bytes": 49953,
+                "mtime_ns": 1793104524536777600,
+                "metadata_json": "{}"
+              },
+              {
+                "artifact_id": "a_6486289eea42449495137605a6889e2b",
+                "run_id": "r_0f71fa0ed32e46f58440310e38d96d58",
+                "kind": "LOG",
+                "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P04_NP\\SPIO_R057_P04_NP.log",
+                "exists_flag": 1,
+                "size_bytes": 2305,
+                "mtime_ns": 1793109010855203000,
+                "metadata_json": "{}"
+              },
+              {
+                "artifact_id": "a_9bce291f6f4c4c6eb621a8254cfe810e",
+                "run_id": "r_0f71fa0ed32e46f58440310e38d96d58",
+                "kind": "MSG",
+                "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P04_NP\\SPIO_R057_P04_NP.msg",
+                "exists_flag": 1,
+                "size_bytes": 1876852,
+                "mtime_ns": 1793109008295509300,
+                "metadata_json": "{}"
+              },
+              {
+                "artifact_id": "a_815d6901856d403c9c4ee845f09d6a8c",
+                "run_id": "r_0f71fa0ed32e46f58440310e38d96d58",
+                "kind": "ODB",
+                "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P04_NP\\SPIO_R057_P04_NP.odb",
+                "exists_flag": 1,
+                "size_bytes": 74232780,
+                "mtime_ns": 1793109008655418800,
+                "metadata_json": "{}"
+              },
+              {
+                "artifact_id": "a_361f7dd91d484a5496e80641d7b7cf9b",
+                "run_id": "r_0f71fa0ed32e46f58440310e38d96d58",
+                "kind": "STA",
+                "path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P04_NP\\SPIO_R057_P04_NP.sta",
+                "exists_flag": 1,
+                "size_bytes": 30364,
+                "mtime_ns": 1793109008295509300,
+                "metadata_json": "{}"
+              }
+            ]
+          }
+        ],
+        "errors": [],
+        "warnings": [],
+        "error_details": []
+      },
+      "public_status": {
+        "status": "COMPLETED",
+        "job_id": "q_cd15c9b61d7e4005baedb79c9cf06110",
+        "inp_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\candidates\\SPIO_R057_P04_NP\\SPIO_R057_P04_NP.inp",
+        "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P04_NP",
+        "expected_odb_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P04_NP\\SPIO_R057_P04_NP.odb",
+        "odb_exists": true,
+        "lock_exists": false,
+        "status_sources": [
+          "E:\\Projects\\SMALL-PUNCH\\agenthub_sp_invopt\\abqjobpilot_project\\runtime\\queue.json"
+        ],
+        "last_log_lines": [
+          "10/27/2026 9:47:02 PM",
+          "End Abaqus/Standard Analysis",
+          "Begin SIM Wrap-up",
+          "10/27/2026 9:47:03 PM",
+          "Run SMASimUtility.exe",
+          "10/27/2026 9:47:03 PM",
+          "End SIM Wrap-up",
+          "Abaqus JOB SPIO_R057_P04_NP COMPLETED",
+          "",
+          "[2026-10-27T21:47:03] END DATACHECK_RUNNING return_code=0",
+          "",
+          "[2026-10-27T21:47:03] START FULL_RUNNING",
+          "Command: cmd.exe /c D:\\ABAQUS2024\\Commands\\abq2024.bat job=SPIO_R057_P04_NP input=E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\candidates\\SPIO_R057_P04_NP\\SPIO_R057_P04_NP.inp cpus=14 interactive ask_delete=OFF",
+          "",
+          "",
+          "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P04_NP>call \"D:\\ONEAPI\\compiler\\2022.2.0\\env\\vars.bat\" intel64\tvs2022 ",
+          "Analysis initiated from SIMULIA established products",
+          "Abaqus JOB SPIO_R057_P04_NP",
+          "Abaqus 2024",
+          "Abaqus License Manager checked out the following licenses:",
+          "Abaqus/Standard checked out 15 tokens from Flexnet server Boltzmann.",
+          "<9984 out of 9999 licenses remain available>.",
+          "Begin Analysis Input File Processor",
+          "10/27/2026 9:47:09 PM",
+          "Run pre.exe",
+          "10/27/2026 9:47:16 PM",
+          "End Analysis Input File Processor",
+          "Begin Abaqus/Standard Analysis",
+          "10/27/2026 9:47:16 PM",
+          "Run standard.exe",
+          "10/27/2026 9:50:08 PM",
+          "End Abaqus/Standard Analysis",
+          "Begin SIM Wrap-up",
+          "10/27/2026 9:50:10 PM",
+          "Run SMASimUtility.exe",
+          "10/27/2026 9:50:10 PM",
+          "End SIM Wrap-up",
+          "Abaqus JOB SPIO_R057_P04_NP COMPLETED",
+          "",
+          "[2026-10-27T21:50:10] END FULL_RUNNING return_code=0"
+        ],
+        "errors": [],
+        "warnings": [],
+        "schema_version": "1.0",
+        "error_details": []
+      },
+      "public_outputs": {
+        "job_id": "q_cd15c9b61d7e4005baedb79c9cf06110",
+        "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P04_NP",
+        "expected_odb_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P04_NP\\SPIO_R057_P04_NP.odb",
+        "odb_exists": true,
+        "lock_exists": false,
+        "log_paths": [
+          "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P04_NP\\SPIO_R057_P04_NP.log",
+          "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P04_NP\\SPIO_R057_P04_NP.sta",
+          "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P04_NP\\SPIO_R057_P04_NP.msg",
+          "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P04_NP\\SPIO_R057_P04_NP.dat"
+        ],
+        "sta_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P04_NP\\SPIO_R057_P04_NP.sta",
+        "msg_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P04_NP\\SPIO_R057_P04_NP.msg",
+        "dat_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P04_NP\\SPIO_R057_P04_NP.dat",
+        "lck_path": "E:\\Projects\\SMALL-PUNCH\\run\\run_057\\artifacts\\solver\\SPIO_R057_P04_NP\\SPIO_R057_P04_NP.lck",
+        "path_sources": {
+          "odb_path": "recorded",
+          "sta_path": "recorded",
+          "msg_path": "recorded",
+          "dat_path": "recorded",
+          "log_path": "recorded",
+          "lck_path": "expected"
+        },
+        "errors": [],
+        "warnings": [],
+        "schema_version": "1.0",
+        "error_details": []
+      },
+      "software_completed": true,
+      "software_phase": "COMPLETED_WITH_WARNINGS",
+      "single_attempt_confirmed": true,
+      "started_attempt_count": 1,
+      "phase_evidence": {
+        "DATACHECK_RUNNING": {
+          "start_records": [
+            "2026-10-27T21:46:41"
+          ],
+          "end_records": [
+            [
+              "2026-10-27T21:47:03",
+              "0"
+            ]
+          ],
+          "one_successful_phase": true,
+          "duration_s": 22.0
+        },
+        "FULL_RUNNING": {
+          "start_records": [
+            "2026-10-27T21:47:03"
+          ],
+          "end_records": [
+            [
+              "2026-10-27T21:50:10",
+              "0"
+            ]
+          ],
+          "one_successful_phase": true,
+          "duration_s": 187.0
+        }
+      },
+      "actual_runtime_s": 210,
+      "sta_completion_verified": true,
+      "files": {
+        "odb": {
+          "path": "run/run_057/artifacts/solver/SPIO_R057_P04_NP/SPIO_R057_P04_NP.odb",
+          "exists": true,
+          "bytes": 74232780,
+          "sha256": "93adc6dcef9b843619c67ed33f4961e2c72ba5e395c3b5095bea3f1c3019596c"
+        },
+        "sta": {
+          "path": "run/run_057/artifacts/solver/SPIO_R057_P04_NP/SPIO_R057_P04_NP.sta",
+          "exists": true,
+          "bytes": 30364,
+          "sha256": "3b4a68ed8ba4225c2ff2ccb984c0449635d0043572b571662dc6bde5bc586e82"
+        },
+        "msg": {
+          "path": "run/run_057/artifacts/solver/SPIO_R057_P04_NP/SPIO_R057_P04_NP.msg",
+          "exists": true,
+          "bytes": 1876852,
+          "sha256": "e9139b370dade49f06b6f79d65331edff4eebaa993e2c7778dd96bb4dfb5363a"
+        },
+        "dat": {
+          "path": "run/run_057/artifacts/solver/SPIO_R057_P04_NP/SPIO_R057_P04_NP.dat",
+          "exists": true,
+          "bytes": 14530,
+          "sha256": "e78ed9184f61346cf16f00f851f4d0f8850de9069ce140613cef7443cd0090ca"
+        },
+        "log": {
+          "path": "run/run_057/artifacts/solver/SPIO_R057_P04_NP/SPIO_R057_P04_NP.log",
+          "exists": true,
+          "bytes": 2305,
+          "sha256": "26b10633b43272fe250b5e9b17240848443a195f414d6937b49bff9402365931"
+        }
+      },
+      "safe_for_readonly_odb": true,
+      "numerical_quality": "PENDING",
+      "scientific_scoreability": "PENDING",
+      "output_run": "run_059"
+    }
+  ],
+  "comparison_contract_path": "run/run_057/artifacts/private/comparison_contract.json",
+  "comparison_contract_sha256": "46b0224ae39d61ed8c9b79c336bf6d1b156e216a4577a58ced3cff1002572a8e",
+  "actual_output_root": "run/run_059/artifacts/private/odb",
+  "requirements": [
+    "real ODB Codex session must claim the four existing Hub tasks, finish and register evidence, no simulated worker",
+    "reuse verified Abaqus2024 Python extraction in readOnly=True; source INP/ODB hashes and RP Node ASM_SPT.1/Step must be checked",
+    "u=-U2,F=-RF2; no2pi/noabs/nozero shift/no smoothing/noextrapolation; full native history and Field/History comparison",
+    "raw_history.csv,force_displacement.csv, aligned241.csv, diagnostics.json, result.json, provenance and numerical warnings perpoint",
+    "max saved-frame PEEQ versus actual plastic table pmax.9; accepted/rejected warning mapping, cutback, local force recoil and contact events, available ALLPD energy",
+    "terminal/single-attempt/cost facts from MAIN audit; if failed or incomplete report null/UNSCOREABLE and preserve all remaining evidence",
+    "MAIN performs frozen inverse predictions later; ODB must not train or modify predictors; do not touch tensile data or sealed analyses",
+    "write only run059 artifacts (and formal Hub APIs), do not edit historical Runs/index/status or original models/results",
+    "no Solver/datacheck/enqueue/retry or new FE"
+  ],
+  "history_rule": "only output directory overlaid on old task payload; all immutable run058 task payloads/history retained"
+}

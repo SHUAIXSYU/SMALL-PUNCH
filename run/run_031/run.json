@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_031",
+  "stage": "authorized I01 queue-only; eight-job sequential budget",
+  "objective": "Record eight frozen authorizations and queue I01 only, awaiting manual GUI start",
+  "status": "WARNING",
+  "start_time": "2026-10-24T18:31:31.039018+08:00",
+  "end_time": "2026-10-24T18:32:38.883546+08:00",
+  "git": {
+    "branch": "main",
+    "head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+    "remote": "origin\thttps://github.com/SHUAIXSYU/SMALL-PUNCH.git (fetch)\norigin\thttps://github.com/SHUAIXSYU/SMALL-PUNCH.git (push)",
+    "working_tree": "M agenthub_sp_invopt/abqjobpilot_project/project.db\n M run/README.md\n M status/PROJECT_STATUS.md\n?? run/run_019/\n?? run/run_020/\n?? run/run_021/\n?? run/run_022/\n?? run/run_023/\n?? run/run_024/\n?? run/run_025/\n?? run/run_026/\n?? run/run_027/\n?? run/run_028/\n?? run/run_029/\n?? run/run_030/\n?? run/run_031/"
+  },
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "inputs": [
+    {
+      "path": "run/run_030/artifacts/prepared_batch.json",
+      "sha256": "962f9fa56893451330ad3d99689c4be45bb753b7d1e4999d13f62f5cccdb31fa"
+    },
+    {
+      "path": "run/run_030/artifacts/pilot_protocol.md",
+      "sha256": "4d92f6fa4516621715ca95b3e262b7287bf471d319cb521728c630e2f2d38ec6"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_031/artifacts/authorization.json",
+      "role": "Frozen eight-job authorization"
+    },
+    {
+      "path": "run/run_031/artifacts/admission.json",
+      "role": "I01 preflight and runtime admission"
+    },
+    {
+      "path": "run/run_031/artifacts/enqueue_result.json",
+      "role": "Queue-only result"
+    },
+    {
+      "path": "run/run_031/artifacts/budget_status.json",
+      "role": "Budget consumption snapshot"
+    },
+    {
+      "path": "run/run_031/summary.md",
+      "role": "Stop-point report"
+    }
+  ],
+  "validation": [
+    {
+      "check": "frozen_identity",
+      "status": "PASS",
+      "scope": "All eight INP and parameter hashes, unique empty workdirs"
+    },
+    {
+      "check": "project_settings",
+      "status": "PASS",
+      "scope": "AbqJobPilot 0.2.2, exact Project, PERSISTED settings, Abaqus command and resources"
+    },
+    {
+      "check": "runner_and_queue_admission",
+      "status": "PASS",
+      "scope": "No active/recovery conflict or other executable Job before enqueue"
+    },
+    {
+      "check": "i01_preview",
+      "status": "PASS",
+      "scope": "Public preflight/dry-run only; no datacheck or Solver"
+    },
+    {
+      "check": "i01_queue_only",
+      "status": "PASS",
+      "scope": "Single QUEUED I01, readback exact queue_id/resources/input/workdir"
+    },
+    {
+      "check": "numerical_result",
+      "status": "NOT_EVALUATED",
+      "scope": "Waiting for manual GUI Start Queue and actual ODB review"
+    }
+  ],
+  "errors": []
+}

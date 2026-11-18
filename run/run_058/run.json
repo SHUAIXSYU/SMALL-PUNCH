@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_058",
+  "stage": "Four-point prospective identification authorized queue-only handoff",
+  "objective": "verify frozen identities/predictors, register four-attempt authorization, enqueue P01-P04 only, stop before user GUI start",
+  "status": "WARNING",
+  "start_time": "2026-10-27T21:15:41.067368+08:00",
+  "end_time": "2026-10-27T21:18:00.320858+08:00",
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "git_branch": "main",
+  "git_head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+  "inputs": [
+    {
+      "path": "run/run_057/artifacts/prepared_batch.json",
+      "role": "frozen run057 manifest",
+      "sha256": "9017ada8c03afff78b0e0c89e0ba51c35a9ec0b21c27a4b3a90506c7ac310705"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_058/artifacts/private/queue_manifest.json",
+      "role": "phase1 queue-only evidence",
+      "sha256": "d538f43edf4f3654ac568adb76c4dc53a30d092b9ebe9886d5e7f65ed134590c"
+    },
+    {
+      "path": "run/run_058/artifacts/private/authorization_scope.json",
+      "role": "phase1 queue-only evidence",
+      "sha256": "7c808abea1ef28564fb7dc34d027183de7f7f34cec912395ab9fdb159febb0e4"
+    },
+    {
+      "path": "run/run_058/artifacts/private/authorization_ledger_queued.json",
+      "role": "phase1 queue-only evidence",
+      "sha256": "3ce3d713ca8ac4ac030572bbeb00b1c9ea3ec1496e98425fa65383254aebebb7"
+    },
+    {
+      "path": "run/run_058/artifacts/private/phase1_report.md",
+      "role": "phase1 queue-only evidence",
+      "sha256": "8f40671e487edc956b6ceccb831d479621ff538586d67faee867a85972ec9145"
+    },
+    {
+      "path": "run/run_058/artifacts/private/evidence_manifest.json",
+      "role": "phase1 queue-only evidence",
+      "sha256": "6cc0581873420a5a2fd8bda64a3fbeb0dd9739b69edc46cf9ea66f7e98f2c642"
+    },
+    {
+      "path": "run/run_058/artifacts/private/agenthub_completion_receipt.json",
+      "role": "phase1 queue-only evidence",
+      "sha256": "dbae8ce9c39cdd7e082975847914c2160fa67848e4e3949e3eb7a3a2e7f85e8a"
+    }
+  ],
+  "validation": [
+    {
+      "check": "frozen inputs and predictors",
+      "status": "PASS",
+      "evidence": "run/run_058/artifacts/private/predictor_identity_verified.json",
+      "scope": "4 source INPs, 25 sample model, frozen protocol; no retraining"
+    },
+    {
+      "check": "current public previews",
+      "status": "PASS",
+      "evidence": "run/run_058/artifacts/private/precheck.json",
+      "scope": "4/4 Preflight and 4/4 Dry-run; PERSISTED/14CPU0GPU"
+    },
+    {
+      "check": "queue consistency",
+      "status": "PASS",
+      "evidence": "run/run_058/artifacts/private/queue_manifest.json",
+      "scope": "4 unique QUEUED in frozen order, zero actual starts"
+    },
+    {
+      "check": "I06 precision reference",
+      "status": "QUALIFIED_WITH_LIMITATIONS",
+      "evidence": "run/run_057/artifacts/private/I06_baseline_audit.json",
+      "scope": "no independent time-step convergence claim"
+    }
+  ],
+  "errors": [],
+  "outcome": "FOUR_PROSPECTIVE_JOBS_QUEUED_AWAITING_MANUAL_START",
+  "authorized_attempts": 4,
+  "queued": 4,
+  "started": 0,
+  "consumed_FE_attempts": 0,
+  "automatic_retries": 0,
+  "new_INP": 0,
+  "agenthub_budget_task": "d48cfdaf-ca24-4faa-861a-842b2dcca9bb",
+  "agenthub_closeout_task": "daf0b586-4c23-4e96-ab24-cd7a274bd8dd",
+  "queue_ids": [
+    "q_d087362410bf496da1b8516aa36f7bdc",
+    "q_da9ef3b8834f48d5bb281813ade4f484",
+    "q_6f2c429dc980462790409bbddd031c01",
+    "q_cd15c9b61d7e4005baedb79c9cf06110"
+  ],
+  "phase2_status": "NOT_STARTED_AWAIT_USER_COMPLETION_NOTIFICATION",
+  "new_solver_datacheck_started": false,
+  "tensile_access": false
+}

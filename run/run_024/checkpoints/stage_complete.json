@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-24T16:21:33.353987+08:00",
+  "queue_id": "q_602fa04221884dc7b200d670c610c385",
+  "run_json_sha256": "3221075f550f24b89551e45615bcad391adef96cb60a18ddb6c86072e99aa195",
+  "manifest_sha256": "029af2f55c3cc1197bcbd92e4a688ba00154006ee3929c22fc85b22d6cd64ad0",
+  "report_message_id": "c1f04cd7-56c5-4603-975f-0aced96ee80a",
+  "study_complete": false,
+  "next_action": "USER_GUI_START_ONLY; stop automation"
+}

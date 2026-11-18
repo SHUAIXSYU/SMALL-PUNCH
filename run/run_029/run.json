@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0",
+  "run_id": "run_029",
+  "stage": "adjacent center refinement passed within frozen scope",
+  "objective": "Audit one completed GUI-started job, real ODB handoff, frozen V01 primary and run014 auxiliary comparison",
+  "status": "WARNING",
+  "start_time": "2026-10-24T17:48:32.254511+08:00",
+  "end_time": "2026-10-24T18:05:18.990130+08:00",
+  "python_interpreter": "D:\\XianLab\\envs\\torch-gpu\\python.exe",
+  "python_version": "3.11.13",
+  "git": {
+    "branch": "main",
+    "head": "a364ee41fa38d0690b94a40c8e11b99d7ccfbd27",
+    "remote": "origin\thttps://github.com/SHUAIXSYU/SMALL-PUNCH.git (fetch)\norigin\thttps://github.com/SHUAIXSYU/SMALL-PUNCH.git (push)",
+    "working_tree": "M agenthub_sp_invopt/abqjobpilot_project/project.db\n M run/README.md\n M status/PROJECT_STATUS.md\n?? run/run_019/\n?? run/run_020/\n?? run/run_021/\n?? run/run_022/\n?? run/run_023/\n?? run/run_024/\n?? run/run_025/\n?? run/run_026/\n?? run/run_027/\n?? run/run_028/\n?? run/run_029/"
+  },
+  "inputs": [
+    {
+      "path": "run/run_028/artifacts/enqueue_result.json",
+      "sha256": "3f799d4bb7b78df1284b813ccc1a22ba6499aa97fdb5fa177c1aac5d44618e57"
+    },
+    {
+      "path": "run/run_027/artifacts/comparison_contract.json",
+      "sha256": "e189ab1551f775f085fc0208e0550784db85fa3b258b6164db1f8a20c148d42a"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "run/run_029/summary.md",
+      "role": "Public report"
+    },
+    {
+      "path": "run/run_029/artifacts/private/main_report.md",
+      "role": "Private scientific report"
+    },
+    {
+      "path": "run/run_029/artifacts/private/main_review.json",
+      "role": "Frozen decision"
+    },
+    {
+      "path": "run/run_029/artifacts/private/comparison/frozen_comparison_exact.json",
+      "role": "Frozen metrics exact PEEQ"
+    },
+    {
+      "path": "run/run_029/artifacts/private/odb/REPORT.md",
+      "role": "Real ODB report"
+    },
+    {
+      "path": "run/run_029/artifacts/private/execution_audit.json",
+      "role": "Actual execution audit"
+    }
+  ],
+  "validation": [
+    {
+      "check": "execution_identity",
+      "status": "PASS",
+      "scope": "One actual Datacheck and Full Analysis, stable original files"
+    },
+    {
+      "check": "real_odb_handoff",
+      "status": "PASS",
+      "scope": "Generation2 real ODB task, 35 Hub artifacts, MAIN received message"
+    },
+    {
+      "check": "five_frozen_metrics",
+      "status": "PASS",
+      "scope": "All five adjacent V01 gates pass"
+    },
+    {
+      "check": "contact_mechanism",
+      "status": "WARNING",
+      "scope": "CPRESS and force transition correlated; unique cause unproven"
+    },
+    {
+      "check": "prior_run025",
+      "status": "BLOCKED_UNCHANGED",
+      "scope": "Historical run014-to-V01 qualification preserved"
+    }
+  ],
+  "errors": [
+    {
+      "severity": "INFO",
+      "code": "ODB_LEASE_RECOVERY",
+      "message": "Expired first ODB lease formally recovered after worker stopped; no ODB re-extraction or Solver retry",
+      "evidence": "run/run_029/artifacts/odb_recovery.json"
+    },
+    {
+      "severity": "INFO",
+      "code": "OFFLINE_PEEQ_ARGUMENT_PRECISION",
+      "message": "Initial CLI PEEQ last bit rounded; original offline comparison retained and exact value rebound from ODB JSON",
+      "evidence": "run/run_029/artifacts/private/comparison/frozen_comparison_exact.json"
+    }
+  ]
+}

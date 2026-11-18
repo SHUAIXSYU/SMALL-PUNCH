@@ -1,0 +1,23 @@
+{
+  "at": "2026-10-25T19:25:44.996796+08:00",
+  "status": "BLOCKED_RECOVERY_REQUIRED",
+  "retry_queue_id": "q_ed246bd7469b4701a8570326dfb73eb3",
+  "retry_job_name": "SPIO_R035_D09_RETRY1",
+  "queue_raw_status": "DATACHECK_RUNNING",
+  "live_phase": "DATACHECK_RUNNING",
+  "started_at": "2026-10-25T19:13:53",
+  "ended_at": null,
+  "public_status": "RUNNING",
+  "owner_state": "STALE",
+  "solver_probe": "CLEAR",
+  "recovery_can_apply": false,
+  "recovery_unresolved": [
+    "Tracked launcher/solver exit is not established: UNCONFIRMED",
+    "A solver .lck file exists; never remove it automatically",
+    "No exact queue/live identity, start time, phase and command-exit evidence match",
+    "No supported metadata-only transition; manual investigation is required"
+  ],
+  "old_d09_status": "UNKNOWN_INTERRUPTED",
+  "new_queue_record_created": false,
+  "solver_started_by_codex": false
+}

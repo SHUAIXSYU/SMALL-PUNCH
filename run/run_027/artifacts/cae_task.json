@@ -1,0 +1,14 @@
+{
+  "task_id": "551d73d5-ae9b-4ace-a9f6-30562b6e17a0",
+  "assigned_role": "CAE",
+  "approved_actions": [
+    "generate_inp",
+    "verify_inp"
+  ],
+  "job_name": "SPIO_R027_CTR_M0025",
+  "source_sha256": "14006d69c15e6fd4be021b889964e5add51e724d52fd03ff817b0f80b747c2ff",
+  "candidate_inp": "E:\\Projects\\SMALL-PUNCH\\run\\run_027\\artifacts\\candidates\\SPIO_R027_CTR_M0025\\SPIO_R027_CTR_M0025.inp",
+  "working_dir": "E:\\Projects\\SMALL-PUNCH\\run\\run_027\\artifacts\\solver\\SPIO_R027_CTR_M0025",
+  "enqueue_approved": false,
+  "solver_approved": false
+}
