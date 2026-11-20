@@ -1,0 +1,184 @@
+{
+  "run_id": "run_074",
+  "repository_visibility": "public",
+  "release_review": "PASS_FOR_LISTED_FE_ONLY_DERIVATIVES",
+  "authorization": "latest user explicitly requests public FE standardized curves, sensitivity matrix, target comparison, figures and code; long-term snapshot protocol",
+  "withheld": [
+    "all original INP/ODB/CAE",
+    "all protected private artifacts and full report",
+    "SPT and tensile experimental curves and recoverable experimental data",
+    "experimental Loss/residual figures",
+    "personal absolute paths and Hub/runtime databases"
+  ],
+  "scientific_review": "WARNING",
+  "files": [
+    {
+      "path": "b2_metrics.py",
+      "sha256": "d937d034a3b5e1a65e291a2d1fb403707c00d28a25152ccc4036ad59baa77350",
+      "bytes": 2628,
+      "classification": "reviewed FE/model derivative or generic method; protected original files not released"
+    },
+    {
+      "path": "fd_241.csv",
+      "sha256": "c8011a6e20e468b7dbe74c5db3e9d3bf8a2b9c9ef5011c30e364687796517faf",
+      "bytes": 41246,
+      "classification": "reviewed FE/model derivative or generic method; protected original files not released"
+    },
+    {
+      "path": "figures/01_fd_comparison.png",
+      "sha256": "4a5f93b20d25edf071e7c12d035c4ea05d1d4d1ca9238cdda2512212852815ee",
+      "bytes": 289526,
+      "classification": "reviewed FE/model derivative or generic method; protected original files not released"
+    },
+    {
+      "path": "figures/02_signed_response_differences.png",
+      "sha256": "f00371dd667d0574d34d32c0ac65c73fa4b9c1043f00248b9ed8e8869da203d0",
+      "bytes": 457821,
+      "classification": "reviewed FE/model derivative or generic method; protected original files not released"
+    },
+    {
+      "path": "figures/03_odd_even.png",
+      "sha256": "6521f680ccdc3bceff35c19332e60290549bd48bd68026b891df4ff0053a55fc",
+      "bytes": 430924,
+      "classification": "reviewed FE/model derivative or generic method; protected original files not released"
+    },
+    {
+      "path": "figures/04_response_matrix_and_cosine.png",
+      "sha256": "9b98402bb59a116e5878a58e5da07af36db56a0029ca6566ead4b7aca2e22795",
+      "bytes": 150495,
+      "classification": "reviewed FE/model derivative or generic method; protected original files not released"
+    },
+    {
+      "path": "figures/05_target_constitutive_changes.png",
+      "sha256": "9f84b67eefc4d34339d396dad3165bcc493298225e4d96353d7aacab8b6a5ebd",
+      "bytes": 230851,
+      "classification": "reviewed FE/model derivative or generic method; protected original files not released"
+    },
+    {
+      "path": "figures/08_plastic_material_tables.png",
+      "sha256": "efebb521e7c39b2e8c583e6dab568fc23eba73b8dbee2e5864d8a846c6207fbb",
+      "bytes": 248467,
+      "classification": "reviewed FE/model derivative or generic method; protected original files not released"
+    },
+    {
+      "path": "figures/09_numerical_signal_scale.png",
+      "sha256": "4b35a11204bf2da86f67dadc515ad2f817504eebbc7288e9026da54fed9c43bd",
+      "bytes": 113040,
+      "classification": "reviewed FE/model derivative or generic method; protected original files not released"
+    },
+    {
+      "path": "figures/10_actual_peeq_contact_energy.png",
+      "sha256": "1760b14ec523fadd17d39fb452d7259243df228f18f3d4249e16a375837a1cc9",
+      "bytes": 449343,
+      "classification": "reviewed FE/model derivative or generic method; protected original files not released"
+    },
+    {
+      "path": "figures/11_actual_PEEQ_spatial.png",
+      "sha256": "1eac7db44e057e077c7ef9a75d2e90e6aaa2c966cad3d81cc704fda917113b33",
+      "bytes": 620631,
+      "classification": "reviewed FE/model derivative or generic method; protected original files not released"
+    },
+    {
+      "path": "figures/12_actual_bottom_shapes.png",
+      "sha256": "a6563acf2e142c1000046f3e4f4cad7b6f55e3615f2c79480a6eb749fa154343",
+      "bytes": 177756,
+      "classification": "reviewed FE/model derivative or generic method; protected original files not released"
+    },
+    {
+      "path": "jobs.csv",
+      "sha256": "1edfd0e8e9e769b3484a8485b7d13fba13e8f1eba31f403bde6dfbf61e0bda48",
+      "bytes": 5583,
+      "classification": "reviewed FE/model derivative or generic method; protected original files not released"
+    },
+    {
+      "path": "metrics.json",
+      "sha256": "06ac946ad003095853578e833d8811d694af828c323354face55857be5da1bb8",
+      "bytes": 44300,
+      "classification": "reviewed FE/model derivative or generic method; protected original files not released"
+    },
+    {
+      "path": "README.md",
+      "sha256": "4277b17c376473cef499431e3452eb445c8842e73cc119cf582dafe7513fda89",
+      "bytes": 3640,
+      "classification": "reviewed FE/model derivative or generic method; protected original files not released"
+    },
+    {
+      "path": "reference_volume_stages.csv",
+      "sha256": "2414d36aafbddb6d0c35cf0c293be76b1080258da518a2f061db12822cff652f",
+      "bytes": 4992,
+      "classification": "reviewed FE/model derivative or generic method; protected original files not released"
+    },
+    {
+      "path": "reproduce.py",
+      "sha256": "4b412753fca338172bf5c40b9ff1b7c6abc390235451d36e905506ca264fce2e",
+      "bytes": 1550,
+      "classification": "reviewed FE/model derivative or generic method; protected original files not released"
+    },
+    {
+      "path": "sensitivity_241.csv",
+      "sha256": "b873651e0aacd853ef76eb361c911025c3f4a66c04cbcd8af1032c948f7c5f35",
+      "bytes": 53812,
+      "classification": "reviewed FE/model derivative or generic method; protected original files not released"
+    },
+    {
+      "path": "target_981.csv",
+      "sha256": "14c51d26223dbeb936dbc2db0e775ec19b7f837689701eaf02600df2328f490a",
+      "bytes": 175992,
+      "classification": "reviewed FE/model derivative or generic method; protected original files not released"
+    },
+    {
+      "path": "test_b2_metrics.py",
+      "sha256": "5272d52695b03bed2eab9951499c03f1c8cbcda063506feddd04275ba75d2de8",
+      "bytes": 1303,
+      "classification": "reviewed FE/model derivative or generic method; protected original files not released"
+    }
+  ],
+  "analysis_scripts": [
+    {
+      "name": "analyze_b2.py",
+      "sha256": "d90629b42aa6f5bf11cab3f10a0576401c13654e447ea644732e9d58d4d3c84c"
+    },
+    {
+      "name": "audit_execution.py",
+      "sha256": "717a9c36a25c147fa900ceb8fcf241ebaccc9b0870309edd943f49a8a44a560e"
+    },
+    {
+      "name": "b2_metrics.py",
+      "sha256": "d937d034a3b5e1a65e291a2d1fb403707c00d28a25152ccc4036ad59baa77350"
+    },
+    {
+      "name": "design_b4.py",
+      "sha256": "a7bb883d0cfce8c912412626d84c4a0262f017c0b2dfd3e97b80df80bb9a6e57"
+    },
+    {
+      "name": "extract_spatial_main.py",
+      "sha256": "c52880c7fd7808c78b25e6fe7a0025ef9e348dfe98d5871770e609ae3e5536ff"
+    },
+    {
+      "name": "main_extract.py",
+      "sha256": "6d4762a115fc3fd4b59b33f1aa0054eb14e6e5126699404648918a9ddef11868"
+    },
+    {
+      "name": "main_review.py",
+      "sha256": "49cc6175efc972fd5ab03a816a3d9278b5cb74fbb65697fad92b595cc953ed42"
+    },
+    {
+      "name": "plot_b2.py",
+      "sha256": "dc4181fb737392bbba3786d4865e4ecd27343dd638a5d310ceb822f5553058dc"
+    },
+    {
+      "name": "report_b2.py",
+      "sha256": "142c6bf36656608ca6951fce41422cf66f05ec66a2c84fb56f40f70b130fe824"
+    },
+    {
+      "name": "supplement_b2.py",
+      "sha256": "5bc428a7a312dc334c7a7023eab473ffa9564b6a1a78a7639415a51ba2c4f1ce"
+    },
+    {
+      "name": "test_b2_metrics.py",
+      "sha256": "5272d52695b03bed2eab9951499c03f1c8cbcda063506feddd04275ba75d2de8"
+    }
+  ],
+  "reproduction_test": "5 unit tests pass;20 RMS metrics independently reproduced <=1e-10N",
+  "reproduced_subdir": "local verification output excluded from allowlist"
+}
