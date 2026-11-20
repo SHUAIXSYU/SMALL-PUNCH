@@ -1,0 +1,1385 @@
+{
+  "run_id": "run_077",
+  "frozen_evaluation": {
+    "version": "run077-evaluation-of-frozen-run075-v1",
+    "primary": {
+      "candidates": {
+        "B4_01": {
+          "relative_reference": {
+            "RMS_N": 2.1423916658614512,
+            "max_abs_N": 9.131762695994667,
+            "at_mm": 1.125,
+            "mean_N": 1.6564420870001249,
+            "segments": [
+              {
+                "indices": [
+                  0,
+                  60
+                ],
+                "RMS_N": 0.6107560464266585,
+                "max_abs_N": 1.593786112760995
+              },
+              {
+                "indices": [
+                  60,
+                  120
+                ],
+                "RMS_N": 1.8092273895812105,
+                "max_abs_N": 6.413917672879165
+              },
+              {
+                "indices": [
+                  120,
+                  180
+                ],
+                "RMS_N": 3.0301239334701773,
+                "max_abs_N": 8.802442160731516
+              },
+              {
+                "indices": [
+                  180,
+                  241
+                ],
+                "RMS_N": 2.3486070834551467,
+                "max_abs_N": 9.131762695994667
+              }
+            ]
+          },
+          "primary_prediction_error": {
+            "RMS_N": 0.49753822165825967,
+            "max_abs_N": 3.662419829088549,
+            "at_mm": 1.125,
+            "mean_N": 0.2453826986540905,
+            "segments": [
+              {
+                "indices": [
+                  0,
+                  60
+                ],
+                "RMS_N": 0.2303951386716882,
+                "max_abs_N": 1.0907955550211454
+              },
+              {
+                "indices": [
+                  60,
+                  120
+                ],
+                "RMS_N": 0.421219508421973,
+                "max_abs_N": 2.9478593321969697
+              },
+              {
+                "indices": [
+                  120,
+                  180
+                ],
+                "RMS_N": 0.4312694743606492,
+                "max_abs_N": 1.7509621681634826
+              },
+              {
+                "indices": [
+                  180,
+                  241
+                ],
+                "RMS_N": 0.7538763513626088,
+                "max_abs_N": 3.662419829088549
+              }
+            ]
+          },
+          "prediction_error_ratio": 0.25939925407870246,
+          "prediction_ratio_label": "LE_0p5",
+          "RMS_reduction_vs_zero_N": 2.2808436737561735,
+          "directional_reference_margin": "EXCEEDS_EXPLORATORY_REFERENCE",
+          "actual_tau_membership": [
+            5,
+            10
+          ],
+          "tau_margin_flags": {
+            "1": false,
+            "2": true,
+            "5": false,
+            "10": false
+          }
+        },
+        "B4_02": {
+          "relative_reference": {
+            "RMS_N": 1.9349241474059542,
+            "max_abs_N": 11.962782374638437,
+            "at_mm": 0.865,
+            "mean_N": -1.1730483495049373,
+            "segments": [
+              {
+                "indices": [
+                  0,
+                  60
+                ],
+                "RMS_N": 0.4931240415555562,
+                "max_abs_N": 0.8505853567486383
+              },
+              {
+                "indices": [
+                  60,
+                  120
+                ],
+                "RMS_N": 1.4368503995291126,
+                "max_abs_N": 3.8881996619351753
+              },
+              {
+                "indices": [
+                  120,
+                  180
+                ],
+                "RMS_N": 3.121982374153721,
+                "max_abs_N": 11.962782374638437
+              },
+              {
+                "indices": [
+                  180,
+                  241
+                ],
+                "RMS_N": 1.7131048450440591,
+                "max_abs_N": 9.192016480853795
+              }
+            ]
+          },
+          "primary_prediction_error": {
+            "RMS_N": 0.6124006519807488,
+            "max_abs_N": 4.545415664073857,
+            "at_mm": 0.975,
+            "mean_N": 0.2380110388410968,
+            "segments": [
+              {
+                "indices": [
+                  0,
+                  60
+                ],
+                "RMS_N": 0.13981159036083676,
+                "max_abs_N": 0.6338591414954635
+              },
+              {
+                "indices": [
+                  60,
+                  120
+                ],
+                "RMS_N": 0.279923074478128,
+                "max_abs_N": 1.372512425416744
+              },
+              {
+                "indices": [
+                  120,
+                  180
+                ],
+                "RMS_N": 0.8524059559519988,
+                "max_abs_N": 3.214741160394169
+              },
+              {
+                "indices": [
+                  180,
+                  241
+                ],
+                "RMS_N": 0.8189689767706254,
+                "max_abs_N": 4.545415664073857
+              }
+            ]
+          },
+          "prediction_error_ratio": 0.3192845602728984,
+          "prediction_ratio_label": "LE_0p5",
+          "RMS_reduction_vs_zero_N": 2.100529479807085,
+          "directional_reference_margin": "EXCEEDS_EXPLORATORY_REFERENCE",
+          "actual_tau_membership": [
+            2,
+            5,
+            10
+          ],
+          "tau_margin_flags": {
+            "1": false,
+            "2": true,
+            "5": false,
+            "10": false
+          }
+        },
+        "B4_03": {
+          "relative_reference": {
+            "RMS_N": 7.58801369394559,
+            "max_abs_N": 14.315001816546214,
+            "at_mm": 1.2,
+            "mean_N": 5.661462447526329,
+            "segments": [
+              {
+                "indices": [
+                  0,
+                  60
+                ],
+                "RMS_N": 0.8917097069717288,
+                "max_abs_N": 1.8188767544900202
+              },
+              {
+                "indices": [
+                  60,
+                  120
+                ],
+                "RMS_N": 3.6177771825504688,
+                "max_abs_N": 5.898410175080926
+              },
+              {
+                "indices": [
+                  120,
+                  180
+                ],
+                "RMS_N": 7.911940266215891,
+                "max_abs_N": 10.662208647092257
+              },
+              {
+                "indices": [
+                  180,
+                  241
+                ],
+                "RMS_N": 12.3390297631735,
+                "max_abs_N": 14.315001816546214
+              }
+            ]
+          },
+          "primary_prediction_error": {
+            "RMS_N": 1.0550027407058098,
+            "max_abs_N": 7.365301593100753,
+            "at_mm": 1.125,
+            "mean_N": 0.24270168701237507,
+            "segments": [
+              {
+                "indices": [
+                  0,
+                  60
+                ],
+                "RMS_N": 0.39803425719078844,
+                "max_abs_N": 1.9751585332596164
+              },
+              {
+                "indices": [
+                  60,
+                  120
+                ],
+                "RMS_N": 1.216688068128724,
+                "max_abs_N": 5.717437301131099
+              },
+              {
+                "indices": [
+                  120,
+                  180
+                ],
+                "RMS_N": 0.8647476510740457,
+                "max_abs_N": 3.208756920134647
+              },
+              {
+                "indices": [
+                  180,
+                  241
+                ],
+                "RMS_N": 1.4317674573893164,
+                "max_abs_N": 7.365301593100753
+              }
+            ]
+          },
+          "prediction_error_ratio": 0.14556623567692056,
+          "prediction_ratio_label": "LE_0p25",
+          "RMS_reduction_vs_zero_N": -3.1647783543279653,
+          "directional_reference_margin": "EXCEEDS_EXPLORATORY_REFERENCE",
+          "actual_tau_membership": [
+            10
+          ],
+          "tau_margin_flags": {
+            "1": false,
+            "2": false,
+            "5": false,
+            "10": false
+          }
+        },
+        "B4_04": {
+          "relative_reference": {
+            "RMS_N": 6.9048873508247475,
+            "max_abs_N": 13.017516836242976,
+            "at_mm": 1.2,
+            "mean_N": -5.176596668031194,
+            "segments": [
+              {
+                "indices": [
+                  0,
+                  60
+                ],
+                "RMS_N": 1.0120287864214264,
+                "max_abs_N": 3.028024532538268
+              },
+              {
+                "indices": [
+                  60,
+                  120
+                ],
+                "RMS_N": 3.304568680974058,
+                "max_abs_N": 5.419224801008681
+              },
+              {
+                "indices": [
+                  120,
+                  180
+                ],
+                "RMS_N": 7.140433138883487,
+                "max_abs_N": 9.761843709965888
+              },
+              {
+                "indices": [
+                  180,
+                  241
+                ],
+                "RMS_N": 11.245735364642288,
+                "max_abs_N": 13.017516836242976
+              }
+            ]
+          },
+          "primary_prediction_error": {
+            "RMS_N": 1.1765479787359665,
+            "max_abs_N": 7.94492310019757,
+            "at_mm": 0.975,
+            "mean_N": 0.2421640924827609,
+            "segments": [
+              {
+                "indices": [
+                  0,
+                  60
+                ],
+                "RMS_N": 0.3658441512874871,
+                "max_abs_N": 2.029667498947447
+              },
+              {
+                "indices": [
+                  60,
+                  120
+                ],
+                "RMS_N": 1.065904087683113,
+                "max_abs_N": 5.366199800515062
+              },
+              {
+                "indices": [
+                  120,
+                  180
+                ],
+                "RMS_N": 1.6178460707047626,
+                "max_abs_N": 6.420676447347319
+              },
+              {
+                "indices": [
+                  180,
+                  241
+                ],
+                "RMS_N": 1.282688887509569,
+                "max_abs_N": 7.94492310019757
+              }
+            ]
+          },
+          "prediction_error_ratio": 0.16233669710024204,
+          "prediction_ratio_label": "LE_0p25",
+          "RMS_reduction_vs_zero_N": -2.8694337236117082,
+          "directional_reference_margin": "EXCEEDS_EXPLORATORY_REFERENCE",
+          "actual_tau_membership": [
+            10
+          ],
+          "tau_margin_flags": {
+            "1": false,
+            "2": false,
+            "5": false,
+            "10": false
+          }
+        }
+      },
+      "pairs": {
+        "opposed": {
+          "positive_c2": "B4_01",
+          "negative_c2": "B4_02",
+          "odd": {
+            "RMS_N": 1.9877736191202313,
+            "max_abs_N": 9.659828134484826,
+            "at_mm": 0.865,
+            "mean_N": 1.414745218252531,
+            "segments": [
+              {
+                "indices": [
+                  0,
+                  60
+                ],
+                "RMS_N": 0.5312373415702604,
+                "max_abs_N": 1.1370053002808902
+              },
+              {
+                "indices": [
+                  60,
+                  120
+                ],
+                "RMS_N": 1.6155424677316401,
+                "max_abs_N": 5.15105866740717
+              },
+              {
+                "indices": [
+                  120,
+                  180
+                ],
+                "RMS_N": 3.029437383167873,
+                "max_abs_N": 9.659828134484826
+              },
+              {
+                "indices": [
+                  180,
+                  241
+                ],
+                "RMS_N": 1.933606620656592,
+                "max_abs_N": 7.614562099086299
+              }
+            ]
+          },
+          "even": {
+            "RMS_N": 0.4643735481412463,
+            "max_abs_N": 2.6796690002643118,
+            "at_mm": 0.975,
+            "mean_N": 0.24169686874759244,
+            "segments": [
+              {
+                "indices": [
+                  0,
+                  60
+                ],
+                "RMS_N": 0.1608851180960111,
+                "max_abs_N": 0.6226652990464459
+              },
+              {
+                "indices": [
+                  60,
+                  120
+                ],
+                "RMS_N": 0.2427837389004231,
+                "max_abs_N": 1.2628590054720235
+              },
+              {
+                "indices": [
+                  120,
+                  180
+                ],
+                "RMS_N": 0.5354639482006611,
+                "max_abs_N": 2.3029542401536673
+              },
+              {
+                "indices": [
+                  180,
+                  241
+                ],
+                "RMS_N": 0.6975006507793002,
+                "max_abs_N": 2.6796690002643118
+              }
+            ]
+          },
+          "even_over_odd": 0.23361490648355288
+        },
+        "same_sign": {
+          "positive_c2": "B4_03",
+          "negative_c2": "B4_04",
+          "odd": {
+            "RMS_N": 7.1860913777922315,
+            "max_abs_N": 13.666259326394595,
+            "at_mm": 1.2,
+            "mean_N": 5.419029557778762,
+            "segments": [
+              {
+                "indices": [
+                  0,
+                  60
+                ],
+                "RMS_N": 0.8846811780936706,
+                "max_abs_N": 1.7716043633015204
+              },
+              {
+                "indices": [
+                  60,
+                  120
+                ],
+                "RMS_N": 3.3242035996469097,
+                "max_abs_N": 5.658817488044804
+              },
+              {
+                "indices": [
+                  120,
+                  180
+                ],
+                "RMS_N": 7.454390982108721,
+                "max_abs_N": 10.212026178529072
+              },
+              {
+                "indices": [
+                  180,
+                  241
+                ],
+                "RMS_N": 11.735585523616955,
+                "max_abs_N": 13.666259326394595
+              }
+            ]
+          },
+          "even": {
+            "RMS_N": 0.9938819263689431,
+            "max_abs_N": 6.935479869098117,
+            "at_mm": 0.975,
+            "mean_N": 0.24243288974756558,
+            "segments": [
+              {
+                "indices": [
+                  0,
+                  60
+                ],
+                "RMS_N": 0.3563894585329514,
+                "max_abs_N": 1.9117211533110208
+              },
+              {
+                "indices": [
+                  60,
+                  120
+                ],
+                "RMS_N": 0.9766848944379357,
+                "max_abs_N": 3.395304894214064
+              },
+              {
+                "indices": [
+                  120,
+                  180
+                ],
+                "RMS_N": 1.1065022274596266,
+                "max_abs_N": 4.814716683740926
+              },
+              {
+                "indices": [
+                  180,
+                  241
+                ],
+                "RMS_N": 1.2787267541957683,
+                "max_abs_N": 6.935479869098117
+              }
+            ]
+          },
+          "even_over_odd": 0.13830633011993393
+        }
+      },
+      "compatibility": [
+        {
+          "tau_N": 1,
+          "fixed": {
+            "members": [
+              "I06_REFINED"
+            ],
+            "count": 1,
+            "state": "SINGLETON",
+            "d_Q_diameter_MPa": null,
+            "diameter_pair": null,
+            "max_pointwise_envelope_width_MPa": null
+          },
+          "free": {
+            "members": [
+              "I06_REFINED"
+            ],
+            "count": 1,
+            "state": "SINGLETON",
+            "d_Q_diameter_MPa": null,
+            "diameter_pair": null,
+            "max_pointwise_envelope_width_MPa": null
+          },
+          "finite_diameter_increase_MPa": 0,
+          "not_global_uncertainty_bound": true
+        },
+        {
+          "tau_N": 2,
+          "fixed": {
+            "members": [
+              "I06_REFINED"
+            ],
+            "count": 1,
+            "state": "SINGLETON",
+            "d_Q_diameter_MPa": null,
+            "diameter_pair": null,
+            "max_pointwise_envelope_width_MPa": null
+          },
+          "free": {
+            "members": [
+              "I06_REFINED",
+              "B4_02"
+            ],
+            "count": 2,
+            "state": "MULTIPLE",
+            "d_Q_diameter_MPa": 1.7328055888309266,
+            "diameter_pair": [
+              "I06_REFINED",
+              "B4_02"
+            ],
+            "max_pointwise_envelope_width_MPa": 3.2059676461869344
+          },
+          "finite_diameter_increase_MPa": 1.7328055888309266,
+          "not_global_uncertainty_bound": true
+        },
+        {
+          "tau_N": 5,
+          "fixed": {
+            "members": [
+              "I06_REFINED",
+              "B2_S2_P",
+              "B2_S2_M"
+            ],
+            "count": 3,
+            "state": "MULTIPLE",
+            "d_Q_diameter_MPa": 3.63458668595878,
+            "diameter_pair": [
+              "B2_S2_P",
+              "B2_S2_M"
+            ],
+            "max_pointwise_envelope_width_MPa": 6.726012091628888
+          },
+          "free": {
+            "members": [
+              "I06_REFINED",
+              "B2_S2_P",
+              "B2_S2_M",
+              "B4_01",
+              "B4_02"
+            ],
+            "count": 5,
+            "state": "MULTIPLE",
+            "d_Q_diameter_MPa": 3.63458668595878,
+            "diameter_pair": [
+              "B2_S2_P",
+              "B2_S2_M"
+            ],
+            "max_pointwise_envelope_width_MPa": 6.726012091628888
+          },
+          "finite_diameter_increase_MPa": 0.0,
+          "not_global_uncertainty_bound": true
+        },
+        {
+          "tau_N": 10,
+          "fixed": {
+            "members": [
+              "I06_REFINED",
+              "B2_S2_P",
+              "B2_S2_M"
+            ],
+            "count": 3,
+            "state": "MULTIPLE",
+            "d_Q_diameter_MPa": 3.63458668595878,
+            "diameter_pair": [
+              "B2_S2_P",
+              "B2_S2_M"
+            ],
+            "max_pointwise_envelope_width_MPa": 6.726012091628888
+          },
+          "free": {
+            "members": [
+              "I06_REFINED",
+              "B2_S2_P",
+              "B2_S2_M",
+              "B4_01",
+              "B4_02",
+              "B4_03",
+              "B4_04"
+            ],
+            "count": 7,
+            "state": "MULTIPLE",
+            "d_Q_diameter_MPa": 3.63458668595878,
+            "diameter_pair": [
+              "B2_S2_P",
+              "B2_S2_M"
+            ],
+            "max_pointwise_envelope_width_MPa": 6.726012091628888
+          },
+          "finite_diameter_increase_MPa": 0.0,
+          "not_global_uncertainty_bound": true
+        }
+      ],
+      "numerical_reference_not_error_bound": true,
+      "actual_FE_only": true
+    },
+    "secondary_separately_reported": {
+      "B4_01": {
+        "RMS_N": 0.5544125248458034,
+        "max_abs_N": 4.8461197683762975,
+        "at_mm": 0.975,
+        "mean_N": 0.00911996992128259,
+        "segments": [
+          {
+            "indices": [
+              0,
+              60
+            ],
+            "RMS_N": 0.1948284137821755,
+            "max_abs_N": 0.9641539210518317
+          },
+          {
+            "indices": [
+              60,
+              120
+            ],
+            "RMS_N": 0.4937777296321079,
+            "max_abs_N": 1.645571109353341
+          },
+          {
+            "indices": [
+              120,
+              180
+            ],
+            "RMS_N": 0.7081773594434772,
+            "max_abs_N": 3.374678351092143
+          },
+          {
+            "indices": [
+              180,
+              241
+            ],
+            "RMS_N": 0.6662787400447198,
+            "max_abs_N": 4.8461197683762975
+          }
+        ]
+      },
+      "B4_02": {
+        "RMS_N": 0.5398420861470936,
+        "max_abs_N": 4.019707836805935,
+        "at_mm": 0.555,
+        "mean_N": 0.0017483101082963733,
+        "segments": [
+          {
+            "indices": [
+              0,
+              60
+            ],
+            "RMS_N": 0.21666005374579467,
+            "max_abs_N": 1.2640857003115116
+          },
+          {
+            "indices": [
+              60,
+              120
+            ],
+            "RMS_N": 0.8061633816048438,
+            "max_abs_N": 4.019707836805935
+          },
+          {
+            "indices": [
+              120,
+              180
+            ],
+            "RMS_N": 0.3723783722210902,
+            "max_abs_N": 1.3923612494036206
+          },
+          {
+            "indices": [
+              180,
+              241
+            ],
+            "RMS_N": 0.5740866796731648,
+            "max_abs_N": 3.8121130940850207
+          }
+        ]
+      },
+      "B4_03": {
+        "RMS_N": 0.5661043288792508,
+        "max_abs_N": 4.181207134287547,
+        "at_mm": 1.125,
+        "mean_N": 0.006438958279573299,
+        "segments": [
+          {
+            "indices": [
+              0,
+              60
+            ],
+            "RMS_N": 0.2221956937222127,
+            "max_abs_N": 1.363740881979652
+          },
+          {
+            "indices": [
+              60,
+              120
+            ],
+            "RMS_N": 0.6007472474914214,
+            "max_abs_N": 2.8071410825795056
+          },
+          {
+            "indices": [
+              120,
+              180
+            ],
+            "RMS_N": 0.7156907321967022,
+            "max_abs_N": 3.630445810463698
+          },
+          {
+            "indices": [
+              180,
+              241
+            ],
+            "RMS_N": 0.5989796849726534,
+            "max_abs_N": 4.181207134287547
+          }
+        ]
+      },
+      "B4_04": {
+        "RMS_N": 0.6701010500302935,
+        "max_abs_N": 3.934484137742004,
+        "at_mm": 0.495,
+        "mean_N": 0.005901363749949044,
+        "segments": [
+          {
+            "indices": [
+              0,
+              60
+            ],
+            "RMS_N": 0.13625468604182675,
+            "max_abs_N": 0.6352001006934529
+          },
+          {
+            "indices": [
+              60,
+              120
+            ],
+            "RMS_N": 0.8518289798026761,
+            "max_abs_N": 3.934484137742004
+          },
+          {
+            "indices": [
+              120,
+              180
+            ],
+            "RMS_N": 0.9094431436401292,
+            "max_abs_N": 3.3869089134174146
+          },
+          {
+            "indices": [
+              180,
+              241
+            ],
+            "RMS_N": 0.4780707240500183,
+            "max_abs_N": 2.636060734115631
+          }
+        ]
+      }
+    },
+    "independent_extra": {
+      "B4_01": {
+        "segment_reduction_vs_control_N": [
+          0.12532427586686157,
+          0.6725630262360001,
+          1.9813125478315383,
+          4.434003285791674
+        ],
+        "fraction_grid_points_abs_response_smaller_than_zero": 0.8879668049792531,
+        "direct_high_addition_effect": {
+          "RMS_N": 3.1137058561748967,
+          "max_abs_N": 7.1184693157150605,
+          "at_mm": 0.7699999999999999,
+          "mean_N": -1.9103755883060833,
+          "segments": [
+            {
+              "indices": [
+                0,
+                60
+              ],
+              "RMS_N": 0.18955252239196596,
+              "max_abs_N": 0.48097636055337034
+            },
+            {
+              "indices": [
+                60,
+                120
+              ],
+              "RMS_N": 1.3386403659150796,
+              "max_abs_N": 5.0240104748322665
+            },
+            {
+              "indices": [
+                120,
+                180
+              ],
+              "RMS_N": 3.1187116227211877,
+              "max_abs_N": 7.1184693157150605
+            },
+            {
+              "indices": [
+                180,
+                241
+              ],
+              "RMS_N": 5.190280228455313,
+              "max_abs_N": 6.240429647823817
+            }
+          ]
+        },
+        "spatial_stages": [
+          {
+            "target_u_mm": 0.3,
+            "actual_u_mm": 0.2995406393893063,
+            "mismatch_mm": -0.00045936061069368206,
+            "frame_index": 206,
+            "max_PEEQ": 0.2524910569190979,
+            "reference_volume_m3": 3.926990827959126e-08,
+            "reference_volume_fraction_PEEQ_gt_0.1": 0.015070739139863822,
+            "reference_volume_fraction_PEEQ_gt_0.3": 0.0,
+            "reference_volume_fraction_PEEQ_gt_0.5": 0.0
+          },
+          {
+            "target_u_mm": 0.6,
+            "actual_u_mm": 0.5995406536385417,
+            "mismatch_mm": -0.00045934636145827934,
+            "frame_index": 406,
+            "max_PEEQ": 0.4630400240421295,
+            "reference_volume_m3": 3.926990827959126e-08,
+            "reference_volume_fraction_PEEQ_gt_0.1": 0.04696140334353284,
+            "reference_volume_fraction_PEEQ_gt_0.3": 0.007175014144800286,
+            "reference_volume_fraction_PEEQ_gt_0.5": 0.0
+          },
+          {
+            "target_u_mm": 0.9,
+            "actual_u_mm": 0.8995406096801162,
+            "mismatch_mm": -0.0004593903198838456,
+            "frame_index": 606,
+            "max_PEEQ": 0.5818354487419128,
+            "reference_volume_m3": 3.926990827959126e-08,
+            "reference_volume_fraction_PEEQ_gt_0.1": 0.09531131640117245,
+            "reference_volume_fraction_PEEQ_gt_0.3": 0.02889017932467784,
+            "reference_volume_fraction_PEEQ_gt_0.5": 0.003199181064136491
+          },
+          {
+            "target_u_mm": 1.2,
+            "actual_u_mm": 1.2000000569969416,
+            "mismatch_mm": 5.6996941610876206e-08,
+            "frame_index": 807,
+            "max_PEEQ": 0.703957200050354,
+            "reference_volume_m3": 3.926990827959126e-08,
+            "reference_volume_fraction_PEEQ_gt_0.1": 0.1225038938720346,
+            "reference_volume_fraction_PEEQ_gt_0.3": 0.0614275032206171,
+            "reference_volume_fraction_PEEQ_gt_0.5": 0.017693576261382217
+          }
+        ]
+      },
+      "B4_02": {
+        "segment_reduction_vs_control_N": [
+          0.25830173146729263,
+          0.8136030737257771,
+          1.4842136105372217,
+          4.44583393666653
+        ],
+        "fraction_grid_points_abs_response_smaller_than_zero": 0.8879668049792531,
+        "direct_high_addition_effect": {
+          "RMS_N": 3.4560855234420136,
+          "max_abs_N": 8.4786171750211,
+          "at_mm": 0.865,
+          "mean_N": 2.0899541240488446,
+          "segments": [
+            {
+              "indices": [
+                0,
+                60
+              ],
+              "RMS_N": 0.316658109644444,
+              "max_abs_N": 1.223938817924875
+            },
+            {
+              "indices": [
+                60,
+                120
+              ],
+              "RMS_N": 1.4349121148780173,
+              "max_abs_N": 5.0398717731271745
+            },
+            {
+              "indices": [
+                120,
+                180
+              ],
+              "RMS_N": 3.6217824554833915,
+              "max_abs_N": 8.4786171750211
+            },
+            {
+              "indices": [
+                180,
+                241
+              ],
+              "RMS_N": 5.671380328395182,
+              "max_abs_N": 6.821105502654973
+            }
+          ]
+        },
+        "spatial_stages": [
+          {
+            "target_u_mm": 0.3,
+            "actual_u_mm": 0.2995406393893063,
+            "mismatch_mm": -0.00045936061069368206,
+            "frame_index": 206,
+            "max_PEEQ": 0.2509767711162567,
+            "reference_volume_m3": 3.926990827959126e-08,
+            "reference_volume_fraction_PEEQ_gt_0.1": 0.01513228326728753,
+            "reference_volume_fraction_PEEQ_gt_0.3": 0.0,
+            "reference_volume_fraction_PEEQ_gt_0.5": 0.0
+          },
+          {
+            "target_u_mm": 0.6,
+            "actual_u_mm": 0.5995406536385417,
+            "mismatch_mm": -0.00045934636145827934,
+            "frame_index": 406,
+            "max_PEEQ": 0.456452339887619,
+            "reference_volume_m3": 3.926990827959126e-08,
+            "reference_volume_fraction_PEEQ_gt_0.1": 0.04816396941231412,
+            "reference_volume_fraction_PEEQ_gt_0.3": 0.007141112511516831,
+            "reference_volume_fraction_PEEQ_gt_0.5": 0.0
+          },
+          {
+            "target_u_mm": 0.9,
+            "actual_u_mm": 0.8995406096801162,
+            "mismatch_mm": -0.0004593903198838456,
+            "frame_index": 606,
+            "max_PEEQ": 0.5791427493095398,
+            "reference_volume_m3": 3.926990827959126e-08,
+            "reference_volume_fraction_PEEQ_gt_0.1": 0.09646385452851242,
+            "reference_volume_fraction_PEEQ_gt_0.3": 0.029065817697005596,
+            "reference_volume_fraction_PEEQ_gt_0.5": 0.003083735091572098
+          },
+          {
+            "target_u_mm": 1.2,
+            "actual_u_mm": 1.2000000569969416,
+            "mismatch_mm": 5.6996941610876206e-08,
+            "frame_index": 807,
+            "max_PEEQ": 0.7018477320671082,
+            "reference_volume_m3": 3.926990827959126e-08,
+            "reference_volume_fraction_PEEQ_gt_0.1": 0.123146842193632,
+            "reference_volume_fraction_PEEQ_gt_0.3": 0.061973472581442465,
+            "reference_volume_fraction_PEEQ_gt_0.5": 0.01765177707023651
+          }
+        ]
+      },
+      "B4_03": {
+        "segment_reduction_vs_control_N": [
+          -0.15562938467820875,
+          -1.1359867667332582,
+          -2.900503784914175,
+          -5.556419393926679
+        ],
+        "fraction_grid_points_abs_response_smaller_than_zero": 0.08713692946058091,
+        "direct_high_addition_effect": {
+          "RMS_N": 3.380429820716601,
+          "max_abs_N": 7.917294698829892,
+          "at_mm": 0.865,
+          "mean_N": 2.094644772220122,
+          "segments": [
+            {
+              "indices": [
+                0,
+                60
+              ],
+              "RMS_N": 0.21281600757943242,
+              "max_abs_N": 0.5649647827840454
+            },
+            {
+              "indices": [
+                60,
+                120
+              ],
+              "RMS_N": 1.433387022969141,
+              "max_abs_N": 4.470468263916757
+            },
+            {
+              "indices": [
+                120,
+                180
+              ],
+              "RMS_N": 3.290340250805958,
+              "max_abs_N": 7.917294698829892
+            },
+            {
+              "indices": [
+                180,
+                241
+              ],
+              "RMS_N": 5.6949891875659455,
+              "max_abs_N": 6.949195921220166
+            }
+          ]
+        },
+        "spatial_stages": [
+          {
+            "target_u_mm": 0.3,
+            "actual_u_mm": 0.2995406393893063,
+            "mismatch_mm": -0.00045936061069368206,
+            "frame_index": 206,
+            "max_PEEQ": 0.24816152453422546,
+            "reference_volume_m3": 3.926990827959126e-08,
+            "reference_volume_fraction_PEEQ_gt_0.1": 0.015076017591106843,
+            "reference_volume_fraction_PEEQ_gt_0.3": 0.0,
+            "reference_volume_fraction_PEEQ_gt_0.5": 0.0
+          },
+          {
+            "target_u_mm": 0.6,
+            "actual_u_mm": 0.5995406536385417,
+            "mismatch_mm": -0.00045934636145827934,
+            "frame_index": 406,
+            "max_PEEQ": 0.45472028851509094,
+            "reference_volume_m3": 3.926990827959126e-08,
+            "reference_volume_fraction_PEEQ_gt_0.1": 0.047571057641783696,
+            "reference_volume_fraction_PEEQ_gt_0.3": 0.006870274542368899,
+            "reference_volume_fraction_PEEQ_gt_0.5": 0.0
+          },
+          {
+            "target_u_mm": 0.9,
+            "actual_u_mm": 0.8995406096801162,
+            "mismatch_mm": -0.0004593903198838456,
+            "frame_index": 606,
+            "max_PEEQ": 0.5763458609580994,
+            "reference_volume_m3": 3.926990827959126e-08,
+            "reference_volume_fraction_PEEQ_gt_0.1": 0.09726618478573612,
+            "reference_volume_fraction_PEEQ_gt_0.3": 0.0289705789094323,
+            "reference_volume_fraction_PEEQ_gt_0.5": 0.0027888591097790247
+          },
+          {
+            "target_u_mm": 1.2,
+            "actual_u_mm": 1.2000000569969416,
+            "mismatch_mm": 5.6996941610876206e-08,
+            "frame_index": 807,
+            "max_PEEQ": 0.6988659501075745,
+            "reference_volume_m3": 3.926990827959126e-08,
+            "reference_volume_fraction_PEEQ_gt_0.1": 0.12336711164672205,
+            "reference_volume_fraction_PEEQ_gt_0.3": 0.062001185467949714,
+            "reference_volume_fraction_PEEQ_gt_0.5": 0.01762637852174909
+          }
+        ]
+      },
+      "B4_04": {
+        "segment_reduction_vs_control_N": [
+          -0.2606030133985775,
+          -1.0541152077191684,
+          -2.534237154192544,
+          -5.086796582931699
+        ],
+        "fraction_grid_points_abs_response_smaller_than_zero": 0.1037344398340249,
+        "direct_high_addition_effect": {
+          "RMS_N": 3.0713434669668085,
+          "max_abs_N": 6.845361864359006,
+          "at_mm": 0.975,
+          "mean_N": -1.9135941944774117,
+          "segments": [
+            {
+              "indices": [
+                0,
+                60
+              ],
+              "RMS_N": 0.28578734357266755,
+              "max_abs_N": 1.2151164120866724
+            },
+            {
+              "indices": [
+                60,
+                120
+              ],
+              "RMS_N": 1.294703791745275,
+              "max_abs_N": 4.326221619295268
+            },
+            {
+              "indices": [
+                120,
+                180
+              ],
+              "RMS_N": 2.8853986629692896,
+              "max_abs_N": 4.58698363503845
+            },
+            {
+              "indices": [
+                180,
+                241
+              ],
+              "RMS_N": 5.229772667361167,
+              "max_abs_N": 6.845361864359006
+            }
+          ]
+        },
+        "spatial_stages": [
+          {
+            "target_u_mm": 0.3,
+            "actual_u_mm": 0.2995406393893063,
+            "mismatch_mm": -0.00045936061069368206,
+            "frame_index": 206,
+            "max_PEEQ": 0.25589126348495483,
+            "reference_volume_m3": 3.926990827959126e-08,
+            "reference_volume_fraction_PEEQ_gt_0.1": 0.015075962336437775,
+            "reference_volume_fraction_PEEQ_gt_0.3": 0.0,
+            "reference_volume_fraction_PEEQ_gt_0.5": 0.0
+          },
+          {
+            "target_u_mm": 0.6,
+            "actual_u_mm": 0.5995406536385417,
+            "mismatch_mm": -0.00045934636145827934,
+            "frame_index": 406,
+            "max_PEEQ": 0.4649348556995392,
+            "reference_volume_m3": 3.926990827959126e-08,
+            "reference_volume_fraction_PEEQ_gt_0.1": 0.047468938219799875,
+            "reference_volume_fraction_PEEQ_gt_0.3": 0.007443916867621624,
+            "reference_volume_fraction_PEEQ_gt_0.5": 0.0
+          },
+          {
+            "target_u_mm": 0.9,
+            "actual_u_mm": 0.8995406096801162,
+            "mismatch_mm": -0.0004593903198838456,
+            "frame_index": 606,
+            "max_PEEQ": 0.5847184658050537,
+            "reference_volume_m3": 3.926990827959126e-08,
+            "reference_volume_fraction_PEEQ_gt_0.1": 0.09531131640117245,
+            "reference_volume_fraction_PEEQ_gt_0.3": 0.02895925935110267,
+            "reference_volume_fraction_PEEQ_gt_0.5": 0.00314860487621599
+          },
+          {
+            "target_u_mm": 1.2,
+            "actual_u_mm": 1.2000000569969416,
+            "mismatch_mm": 5.6996941610876206e-08,
+            "frame_index": 807,
+            "max_PEEQ": 0.7070608139038086,
+            "reference_volume_m3": 3.926990827959126e-08,
+            "reference_volume_fraction_PEEQ_gt_0.1": 0.1225038938720346,
+            "reference_volume_fraction_PEEQ_gt_0.3": 0.06209589672573801,
+            "reference_volume_fraction_PEEQ_gt_0.5": 0.01792104341961667
+          }
+        ]
+      }
+    },
+    "pair_d_Q_MPa": 3.63458668595878,
+    "six_stresses_MPa": {
+      "I06_REFINED": [
+        250.00091469136242,
+        273.0694339307706,
+        292.16428641932214,
+        312.3849517720389,
+        341.2590085050348,
+        365.0331165573177
+      ],
+      "B2_S2_M": [
+        250.00091469136242,
+        273.0694339307706,
+        292.16428641932214,
+        312.3849517720389,
+        340.1357827943473,
+        361.8271489111308
+      ],
+      "B2_S2_P": [
+        250.00091469136242,
+        273.0694339307706,
+        292.16428641932214,
+        312.3849517720389,
+        342.4890372134916,
+        368.5531610027597
+      ],
+      "B4_01": [
+        250.00091469136242,
+        273.0694339307706,
+        292.16428641932214,
+        312.3849517720389,
+        342.4890372134916,
+        368.5531610027597
+      ],
+      "B4_02": [
+        250.00091469136242,
+        273.0694339307706,
+        292.16428641932214,
+        312.3849517720389,
+        340.1357827943473,
+        361.8271489111308
+      ],
+      "B4_03": [
+        250.00091469136242,
+        273.0694339307706,
+        292.16428641932214,
+        312.3849517720389,
+        342.4890372134916,
+        368.5531610027597
+      ],
+      "B4_04": [
+        250.00091469136242,
+        273.0694339307706,
+        292.16428641932214,
+        312.3849517720389,
+        340.1357827943473,
+        361.8271489111308
+      ]
+    },
+    "target_window": {
+      "range": [
+        0.002,
+        0.1
+      ],
+      "points": 981,
+      "definition": "true total strain; actual plastic table + elastic origin, no tensile calibration"
+    },
+    "frozen_protocol_sha256": "e01a203283e6e9ad0bde110b7cc5d5d8b063b227be4c92d481b9ab415ab8bd68",
+    "primary_prediction_seal_sha256": "18a7798e92c201aca3b9c23b314b760bcddef6ceab2600eb37a2cecccd3f3aa2"
+  },
+  "scientific_states": {
+    "EXECUTION": "PASS",
+    "NUMERICAL_QUALITY": "WARNING",
+    "NUMERICAL_RESOLUTION": "LIMITED",
+    "SCIENTIFIC_SCOREABILITY": "4/4_EXPLORATORY_SCOREABLE",
+    "H1": {
+      "status": "SUPPORTED",
+      "scope": "retain earlier local parameter compensation; B4 now confirms separate finite functional hardening compensation, not global Hollomon valley"
+    },
+    "H2_response_compensation": {
+      "status": "SUPPORTED",
+      "scope": "both opposed reduce complete-window RMS; both same-sign increase, same low-target protection"
+    },
+    "H2_target_ambiguity_expansion": {
+      "status": "UNRESOLVED",
+      "scope": "tau2 nominal one-sided finite expansion only; both endpoints close to threshold; tau5/10 no target envelope growth"
+    },
+    "H3": {
+      "status": "UNRESOLVED",
+      "scope": "response and target information are confounded; no stable identifiable flow-stress functional validated"
+    },
+    "H4": {
+      "status": "UNRESOLVED",
+      "scope": "virtual submicron shape differences observed; measurement and numerical discrimination unverified, no independent holdout"
+    },
+    "EXTERNAL_VALIDATION": "NOT_EVALUABLE",
+    "SCIENTIFIC_REVIEW": "WARNING",
+    "stage3_user_FE_consumed": 20,
+    "remaining_planned": 20,
+    "agent_new_solver": 0,
+    "agent_new_datacheck": 0,
+    "agent_new_queue": 0
+  },
+  "shape_screening": {
+    "feature": "w(reference r=.5mm)-w(reference r=1.5mm), downward positive",
+    "matching": "linear native-U field bracket at exact target punch displacement, then reference-radius nodal interpolation",
+    "rows": [
+      {
+        "punch_u_mm": 0.3,
+        "B4_01_minus_B4_02_shape_difference_um": -0.13432979808739032,
+        "B4_01_minus_I06_shape_um": -0.04018513809500579,
+        "B4_02_minus_I06_shape_um": 0.09414465999238453
+      },
+      {
+        "punch_u_mm": 0.6,
+        "B4_01_minus_B4_02_shape_difference_um": -0.4784958946144613,
+        "B4_01_minus_I06_shape_um": -0.2722252897157662,
+        "B4_02_minus_I06_shape_um": 0.2062706048986951
+      },
+      {
+        "punch_u_mm": 0.9,
+        "B4_01_minus_B4_02_shape_difference_um": 0.009350859594081662,
+        "B4_01_minus_I06_shape_um": -0.027444399339993097,
+        "B4_02_minus_I06_shape_um": -0.03679525893407476
+      },
+      {
+        "punch_u_mm": 1.2,
+        "B4_01_minus_B4_02_shape_difference_um": -0.06415149944205556,
+        "B4_01_minus_I06_shape_um": -0.06528730113630754,
+        "B4_02_minus_I06_shape_um": -0.001135801694251981
+      }
+    ],
+    "measurement_error": "UNKNOWN; differences virtual submicron, not independently numerically/experimentally qualified",
+    "maximum_examined_pair_separation_um": 0.4784958946144613,
+    "H4": "UNRESOLVED",
+    "not_holdout_validation": true
+  },
+  "source_prediction_seal_sha256": "18a7798e92c201aca3b9c23b314b760bcddef6ceab2600eb37a2cecccd3f3aa2",
+  "scientific_protocol": "run075 pre-frozen comparison, no changes after new data",
+  "code_baseline_HEAD": "4225c42af7cabfa180223ceeecb340af5ce00e62",
+  "private_source_evidence_withheld": true,
+  "response_compatibility": "full-window RMS, not maximum error; retain all points",
+  "data_type": "FE-only research derivatives, no partner measured curves"
+}

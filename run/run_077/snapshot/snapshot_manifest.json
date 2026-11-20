@@ -1,0 +1,162 @@
+{
+  "run_id": "run_077",
+  "created_at": "2026-11-21T00:10:38.752586+08:00",
+  "scientific_review": "WARNING",
+  "release_review": "PASS_FOR_LISTED_FE_ONLY_DERIVATIVES",
+  "repository": "SHUAIXSYU/SMALL-PUNCH",
+  "visibility": "public (current GitHub connector get_repo verified)",
+  "authority": "current user explicit public FE-only scientific snapshot and standing per-run reviewed commit/push authorization",
+  "hash_definition": "SHA256 of canonical-LF released text bytes or exact PNG bytes; all listed hashes must match Git blob content after commit",
+  "source_frozen_prediction_seal_sha256": "18a7798e92c201aca3b9c23b314b760bcddef6ceab2600eb37a2cecccd3f3aa2",
+  "frozen_comparator_original_SHA256": "dfcd4123310396d6f73781a4ea42ac8f598596d1d1828d7d1ad810f7ffa59490",
+  "released_comparator_SHA256": "dfcd4123310396d6f73781a4ea42ac8f598596d1d1828d7d1ad810f7ffa59490",
+  "analysis_sources": [
+    {
+      "name": "analyze_b4.py",
+      "sha256": "73afe942f8e4ab2150fafd2655560211d8a60f7ac50e8fcd902169d04dfea68c"
+    },
+    {
+      "name": "audit_b4.py",
+      "sha256": "409c669e4a51f37660deab69e375b82b7d5a1cfe98f3b00b3b857dc6d0f6a886"
+    },
+    {
+      "name": "build_reports_snapshot.py",
+      "sha256": "7caf25cc15c689e2fc0f5c2503c09e935affb4301b25f0b71b6ae492a109ee8f"
+    },
+    {
+      "name": "extract_aligned_shape.py",
+      "sha256": "1e957e602404e2cfb273325093934a9272b95612d84b03760bebfc941ad5f29a"
+    },
+    {
+      "name": "extract_spatial_main.py",
+      "sha256": "b57a2aacf08b18b90a4825b803cd75ca1606cb5ab0d67a81cc4112a9705b0b48"
+    },
+    {
+      "name": "main_review.py",
+      "sha256": "f4084a6cc40aa66434b937fc6fa67aaa085c32db0e25a0e49c3c72193082559f"
+    },
+    {
+      "name": "plot_b4.py",
+      "sha256": "8736272224ccff332b3c3ed6a38a8f87d5537899b54844c89fa52d6d70c2fe90"
+    }
+  ],
+  "files": [
+    {
+      "path": "fd_and_predictions_241.csv",
+      "sha256": "dd5be8110956b4e02097de0a1c88807b8bd7796fe5a44274e9b6187b09834f43",
+      "bytes": 49763,
+      "release_basis": "reviewed project FE/model derivative or generic method; no partner measured curves or source binary"
+    },
+    {
+      "path": "figures/01_actual_fd_and_controls.png",
+      "sha256": "79dafeac2f288375035142ff1f1a4afb579d4b813fb699279ffca86f32a6e677",
+      "bytes": 200924,
+      "release_basis": "reviewed project FE/model derivative or generic method; no partner measured curves or source binary"
+    },
+    {
+      "path": "figures/02_actual_vs_frozen_predictions.png",
+      "sha256": "f4dbc96eb3b18421000f3d71e442f59da868b2c699d79a69f1a3f326b1c26768",
+      "bytes": 652563,
+      "release_basis": "reviewed project FE/model derivative or generic method; no partner measured curves or source binary"
+    },
+    {
+      "path": "figures/03_compensation_and_numerical_scale.png",
+      "sha256": "d548d67984d29ef3acafb8e30142ee2aabb299c5da5fec7e5eef315cfce5d1e7",
+      "bytes": 87296,
+      "release_basis": "reviewed project FE/model derivative or generic method; no partner measured curves or source binary"
+    },
+    {
+      "path": "figures/04_actual_target_curves.png",
+      "sha256": "45fadf158ac96184c602982029a7b10cd3c84ddd3597aee093d983d3b572a88e",
+      "bytes": 198646,
+      "release_basis": "reviewed project FE/model derivative or generic method; no partner measured curves or source binary"
+    },
+    {
+      "path": "figures/05_finite_compatibility_ranges.png",
+      "sha256": "dc14f43f073c31d05df5e82abbe62bf13b81d29e462a1af2d50c9de0d57f93d8",
+      "bytes": 172479,
+      "release_basis": "reviewed project FE/model derivative or generic method; no partner measured curves or source binary"
+    },
+    {
+      "path": "figures/06_actual_mechanism_diagnostics.png",
+      "sha256": "855caadff2816074ea39c0c0a8a0d94daa99356a85030a3380569cdf2e5411f4",
+      "bytes": 393294,
+      "release_basis": "reviewed project FE/model derivative or generic method; no partner measured curves or source binary"
+    },
+    {
+      "path": "figures/07_virtual_shape_screening.png",
+      "sha256": "57000cdbfda87b88a4e3330a2ee07cd70d760f38bab875000e6b0e1a7a255a79",
+      "bytes": 237174,
+      "release_basis": "reviewed project FE/model derivative or generic method; no partner measured curves or source binary"
+    },
+    {
+      "path": "figures/08_actual_plastic_zones.png",
+      "sha256": "4345013146647dbf5694b7f340aba269a394a52cb7703a278958a27b20d06c1e",
+      "bytes": 526289,
+      "release_basis": "reviewed project FE/model derivative or generic method; no partner measured curves or source binary"
+    },
+    {
+      "path": "frozen_comparator.py",
+      "sha256": "dfcd4123310396d6f73781a4ea42ac8f598596d1d1828d7d1ad810f7ffa59490",
+      "bytes": 3450,
+      "release_basis": "reviewed project FE/model derivative or generic method; no partner measured curves or source binary"
+    },
+    {
+      "path": "jobs.csv",
+      "sha256": "bc4a37b55e0f7d0822acc80a2894b88a670ac887657dcafe637f9910f9869cbe",
+      "bytes": 4511,
+      "release_basis": "reviewed project FE/model derivative or generic method; no partner measured curves or source binary"
+    },
+    {
+      "path": "metrics.json",
+      "sha256": "4e5233898d835e81444c69e873596e96130fdb1b21b875369ee265621c5f9139",
+      "bytes": 41766,
+      "release_basis": "reviewed project FE/model derivative or generic method; no partner measured curves or source binary"
+    },
+    {
+      "path": "README.md",
+      "sha256": "a79eeb730584185d5a69a833ca27603c6d591f6ba85a1e5bc3274d544f1385c3",
+      "bytes": 4540,
+      "release_basis": "reviewed project FE/model derivative or generic method; no partner measured curves or source binary"
+    },
+    {
+      "path": "reproduce.py",
+      "sha256": "c32b09e04170f2553390d60e598439bae14cec1bac3a50ed6b299aaeef4aeaf3",
+      "bytes": 2404,
+      "release_basis": "reviewed project FE/model derivative or generic method; no partner measured curves or source binary"
+    },
+    {
+      "path": "shape_features.csv",
+      "sha256": "30ca47c90616e4d4a76f17ee166c649b9afa060804a8fa6620ce53885fbf9181",
+      "bytes": 4548,
+      "release_basis": "reviewed project FE/model derivative or generic method; no partner measured curves or source binary"
+    },
+    {
+      "path": "target_Q_981.csv",
+      "sha256": "c468f26ef5719f60f17c5d0b884940862ecb755164724076cb4492977a1b0537",
+      "bytes": 138999,
+      "release_basis": "reviewed project FE/model derivative or generic method; no partner measured curves or source binary"
+    },
+    {
+      "path": "test_frozen_comparator.py",
+      "sha256": "07654f889534af39ac7dc48df9a4f45a0eab29d1eebafeba28376163fdb0e5db",
+      "bytes": 1203,
+      "release_basis": "reviewed project FE/model derivative or generic method; no partner measured curves or source binary"
+    }
+  ],
+  "withheld": [
+    "all raw ODB/INP/CAE and source experimental data",
+    "protected private reports/artifacts and audit logs",
+    "AgentHub/runtime databases, personal paths or credentials",
+    "any SPT/tensile experimental curve or experiment-derived Loss/residual"
+  ],
+  "tests": "3 frozen arithmetic unit tests and25 public-data metric/membership/diameter checks PASS; not independent material validation",
+  "budget": {
+    "user_actual_FE": 20,
+    "planned_cap": 40,
+    "planned_remaining": 20,
+    "agent_new_solver": 0,
+    "agent_new_datacheck": 0,
+    "agent_queue_submissions": 0
+  }
+}
