@@ -1,0 +1,23 @@
+{
+  "EXECUTION": "PASS",
+  "NUMERICAL_QUALITY": "WARNING",
+  "NUMERICAL_RESOLUTION": "LIMITED",
+  "HYPOTHESIS_RESULT": "SUPPORTED_IN_REGISTERED_SAME_MODEL_HOLDOUT_SCOPE",
+  "TARGET_RECOVERABILITY": "LIMITED",
+  "EXTERNAL_VALIDATION": "NOT_EVALUABLE",
+  "H2_B": "SUPPORTED_FINITE_CANDIDATE_POOL",
+  "H4_A": "SUPPORTED_DEVELOPMENT_SET",
+  "H4_B": "SUPPORTED_WITH_NUMERICAL_LIMITATIONS",
+  "H4_C": "UNRESOLVED",
+  "scientific_review": "WARNING",
+  "forecast_accuracy": "DESCRIPTIVE_AGREEMENT_NO_NEW_ACCEPTANCE_THRESHOLD",
+  "budget": {
+    "completed_actual_FE": 45,
+    "cap": 100,
+    "remaining_planning": 55
+  },
+  "new_solver": 0,
+  "new_datacheck": 0,
+  "new_queue": 0,
+  "new_retry": 0
+}

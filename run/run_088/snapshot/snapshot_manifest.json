@@ -1,0 +1,375 @@
+{
+  "run_id": "run_088",
+  "version": "H4-independent-holdout-FE-only-v1",
+  "scientific_review": "WARNING",
+  "release_review": "PASS",
+  "repo": "SHUAIXSYU/SMALL-PUNCH",
+  "visibility": "public",
+  "baseline_HEAD": "13f318465ff78ff59b2b111bd76a999e7a109cc8",
+  "prior_protocol_commit": "13f318465ff78ff59b2b111bd76a999e7a109cc8",
+  "files": [
+    {
+      "path": "run/run_088/snapshot/analysis/candidate_margins.csv",
+      "sha256": "12193709a801a227b5cad5e8f9784a6835c76f254694aaa223c61ea1e17ddb04",
+      "bytes": 10503,
+      "release_status": "PASS",
+      "source_type": "authorized virtual FE scientific derivatives / frozen FE forecasts / offline deterministic analysis",
+      "authorization_basis": "current user explicitly authorizes public actual FD, shape, predictions, Q, findings and reproduction code; no experimental or complete model data"
+    },
+    {
+      "path": "run/run_088/snapshot/analysis/classification_comparison.csv",
+      "sha256": "153dc93172245a2ebee9c9a597a1a87b78f968f67a80aa105deaeba1541aff8c",
+      "bytes": 3387,
+      "release_status": "PASS",
+      "source_type": "authorized virtual FE scientific derivatives / frozen FE forecasts / offline deterministic analysis",
+      "authorization_basis": "current user explicitly authorizes public actual FD, shape, predictions, Q, findings and reproduction code; no experimental or complete model data"
+    },
+    {
+      "path": "run/run_088/snapshot/analysis/compatibility_scenarios.csv",
+      "sha256": "e105053a03229e78e876889ebf03cb8cfbab3a5f836c1b6e9de27ab6e290b07b",
+      "bytes": 6205,
+      "release_status": "PASS",
+      "source_type": "authorized virtual FE scientific derivatives / frozen FE forecasts / offline deterministic analysis",
+      "authorization_basis": "current user explicitly authorizes public actual FD, shape, predictions, Q, findings and reproduction code; no experimental or complete model data"
+    },
+    {
+      "path": "run/run_088/snapshot/analysis/membership.csv",
+      "sha256": "4fd78c1ed3f3a3591dc17cc4d88e2864d7a21f22068875d073d5807abd2db069",
+      "bytes": 8820,
+      "release_status": "PASS",
+      "source_type": "authorized virtual FE scientific derivatives / frozen FE forecasts / offline deterministic analysis",
+      "authorization_basis": "current user explicitly authorizes public actual FD, shape, predictions, Q, findings and reproduction code; no experimental or complete model data"
+    },
+    {
+      "path": "run/run_088/snapshot/analysis/metrics.json",
+      "sha256": "79a35ad8220e375c78d4c2d50102418df9a9b92f1ba5394952934e9a52fde37a",
+      "bytes": 925,
+      "release_status": "PASS",
+      "source_type": "authorized virtual FE scientific derivatives / frozen FE forecasts / offline deterministic analysis",
+      "authorization_basis": "current user explicitly authorizes public actual FD, shape, predictions, Q, findings and reproduction code; no experimental or complete model data"
+    },
+    {
+      "path": "run/run_088/snapshot/analysis/pairwise_distances.csv",
+      "sha256": "35e3d6c9ac4e9773afdb4451449aee02a334cb46e80c3b1dec91448a7850a328",
+      "bytes": 1950,
+      "release_status": "PASS",
+      "source_type": "authorized virtual FE scientific derivatives / frozen FE forecasts / offline deterministic analysis",
+      "authorization_basis": "current user explicitly authorizes public actual FD, shape, predictions, Q, findings and reproduction code; no experimental or complete model data"
+    },
+    {
+      "path": "run/run_088/snapshot/analysis/phase_absolute_vs_residual.csv",
+      "sha256": "e40b12a266351efc3ca5be3724c5c6828dcf56a323b72a3d3eeca29fe0b14c89",
+      "bytes": 1322,
+      "release_status": "PASS",
+      "source_type": "authorized virtual FE scientific derivatives / frozen FE forecasts / offline deterministic analysis",
+      "authorization_basis": "current user explicitly authorizes public actual FD, shape, predictions, Q, findings and reproduction code; no experimental or complete model data"
+    },
+    {
+      "path": "run/run_088/snapshot/analysis/position_absolute_vs_residual.csv",
+      "sha256": "10f9aec983a708f12a8c015ca1195abf277cec129bf2fe66857d54b9d3f4e04e",
+      "bytes": 2081,
+      "release_status": "PASS",
+      "source_type": "authorized virtual FE scientific derivatives / frozen FE forecasts / offline deterministic analysis",
+      "authorization_basis": "current user explicitly authorizes public actual FD, shape, predictions, Q, findings and reproduction code; no experimental or complete model data"
+    },
+    {
+      "path": "run/run_088/snapshot/analysis/prediction_peak_contact_proximity.csv",
+      "sha256": "5194340b7f2ffd7612f08b7379c7c371954fa5cd03e2ba020d712b7669f6650e",
+      "bytes": 466,
+      "release_status": "PASS",
+      "source_type": "authorized virtual FE scientific derivatives / frozen FE forecasts / offline deterministic analysis",
+      "authorization_basis": "current user explicitly authorizes public actual FD, shape, predictions, Q, findings and reproduction code; no experimental or complete model data"
+    },
+    {
+      "path": "run/run_088/snapshot/analysis/results.csv",
+      "sha256": "0ca2ba751c7e27c23cc6b915c245409e79ab8bbfa58c2bb4b692aa81dde3563a",
+      "bytes": 4168,
+      "release_status": "PASS",
+      "source_type": "authorized virtual FE scientific derivatives / frozen FE forecasts / offline deterministic analysis",
+      "authorization_basis": "current user explicitly authorizes public actual FD, shape, predictions, Q, findings and reproduction code; no experimental or complete model data"
+    },
+    {
+      "path": "run/run_088/snapshot/analysis/robustness_metrics.json",
+      "sha256": "5405cef96647f10a7fb763ca4e6525289be9c460eff1ad3f805a02fdf2d104a4",
+      "bytes": 568,
+      "release_status": "PASS",
+      "source_type": "authorized virtual FE scientific derivatives / frozen FE forecasts / offline deterministic analysis",
+      "authorization_basis": "current user explicitly authorizes public actual FD, shape, predictions, Q, findings and reproduction code; no experimental or complete model data"
+    },
+    {
+      "path": "run/run_088/snapshot/analysis/robustness_pool_scenarios.csv",
+      "sha256": "c4137ec13b0767a95fd1cadaa46c65fda57f6c2be728ee85e5c3d4a70a3db2c0",
+      "bytes": 55748,
+      "release_status": "PASS",
+      "source_type": "authorized virtual FE scientific derivatives / frozen FE forecasts / offline deterministic analysis",
+      "authorization_basis": "current user explicitly authorizes public actual FD, shape, predictions, Q, findings and reproduction code; no experimental or complete model data"
+    },
+    {
+      "path": "run/run_088/snapshot/analysis/segment_comparison.csv",
+      "sha256": "e5bb252a328c97ec55978e73f096ee109bc1fc05e0c2e3a67ab786c6f79f4e21",
+      "bytes": 2038,
+      "release_status": "PASS",
+      "source_type": "authorized virtual FE scientific derivatives / frozen FE forecasts / offline deterministic analysis",
+      "authorization_basis": "current user explicitly authorizes public actual FD, shape, predictions, Q, findings and reproduction code; no experimental or complete model data"
+    },
+    {
+      "path": "run/run_088/snapshot/analysis/shape_predictions_vs_actual.csv",
+      "sha256": "f26a2b2413eb4cedff5daa56bc26c343a3cca92f152b6c266cde3a74f9a9397a",
+      "bytes": 1967,
+      "release_status": "PASS",
+      "source_type": "authorized virtual FE scientific derivatives / frozen FE forecasts / offline deterministic analysis",
+      "authorization_basis": "current user explicitly authorizes public actual FD, shape, predictions, Q, findings and reproduction code; no experimental or complete model data"
+    },
+    {
+      "path": "run/run_088/snapshot/analysis/target_envelopes_981.csv",
+      "sha256": "ca0f9662c422aab683ff5d1dbaa8e70d0473b71066054a62504caa41ef05e47c",
+      "bytes": 2323702,
+      "release_status": "PASS",
+      "source_type": "authorized virtual FE scientific derivatives / frozen FE forecasts / offline deterministic analysis",
+      "authorization_basis": "current user explicitly authorizes public actual FD, shape, predictions, Q, findings and reproduction code; no experimental or complete model data"
+    },
+    {
+      "path": "run/run_088/snapshot/code/analyze_holdout.py",
+      "sha256": "2c8e6c62640edc2ff3c93517492af01d20931e113664f57a028c3468c30dec61",
+      "bytes": 9199,
+      "release_status": "PASS",
+      "source_type": "authorized virtual FE scientific derivatives / frozen FE forecasts / offline deterministic analysis",
+      "authorization_basis": "current user explicitly authorizes public actual FD, shape, predictions, Q, findings and reproduction code; no experimental or complete model data"
+    },
+    {
+      "path": "run/run_088/snapshot/code/analyze_robustness.py",
+      "sha256": "b1640ab8fdd07b1ad4a2b69f04a20e420d139f8dbca69693ec72817622c9efbc",
+      "bytes": 5131,
+      "release_status": "PASS",
+      "source_type": "authorized virtual FE scientific derivatives / frozen FE forecasts / offline deterministic analysis",
+      "authorization_basis": "current user explicitly authorizes public actual FD, shape, predictions, Q, findings and reproduction code; no experimental or complete model data"
+    },
+    {
+      "path": "run/run_088/snapshot/code/plot_holdout.py",
+      "sha256": "85e2546ddb116fc1961198668e017654da1105297e05e1bbfd997d07d0ce7f57",
+      "bytes": 7688,
+      "release_status": "PASS",
+      "source_type": "authorized virtual FE scientific derivatives / frozen FE forecasts / offline deterministic analysis",
+      "authorization_basis": "current user explicitly authorizes public actual FD, shape, predictions, Q, findings and reproduction code; no experimental or complete model data"
+    },
+    {
+      "path": "run/run_088/snapshot/code/robustness_functions.py",
+      "sha256": "2eee7fd53db7dcb8adf20de6755b5ebfaa9aaf72849d737bac9dd659fd24cf54",
+      "bytes": 4818,
+      "release_status": "PASS",
+      "source_type": "authorized virtual FE scientific derivatives / frozen FE forecasts / offline deterministic analysis",
+      "authorization_basis": "current user explicitly authorizes public actual FD, shape, predictions, Q, findings and reproduction code; no experimental or complete model data"
+    },
+    {
+      "path": "run/run_088/snapshot/data/bottom_profiles.csv",
+      "sha256": "d2c6c7d825f107107f9a33c12c38d88c97b6224e13fb4fd75579222bbfb8c6a3",
+      "bytes": 99514,
+      "release_status": "PASS",
+      "source_type": "authorized virtual FE scientific derivatives / frozen FE forecasts / offline deterministic analysis",
+      "authorization_basis": "current user explicitly authorizes public actual FD, shape, predictions, Q, findings and reproduction code; no experimental or complete model data"
+    },
+    {
+      "path": "run/run_088/snapshot/data/fd_actual_241.csv",
+      "sha256": "be37740932178b9fe47248ba5bc35209127a7c1fc86cbdcfed082eb35a6bc560",
+      "bytes": 23586,
+      "release_status": "PASS",
+      "source_type": "authorized virtual FE scientific derivatives / frozen FE forecasts / offline deterministic analysis",
+      "authorization_basis": "current user explicitly authorizes public actual FD, shape, predictions, Q, findings and reproduction code; no experimental or complete model data"
+    },
+    {
+      "path": "run/run_088/snapshot/data/frozen_FD_241.csv",
+      "sha256": "7d4558dfe1177bd3ea89f197a3bcd1100a940dc3970a5f0a1eeda6fd5ea931c9",
+      "bytes": 23601,
+      "release_status": "PASS",
+      "source_type": "authorized virtual FE scientific derivatives / frozen FE forecasts / offline deterministic analysis",
+      "authorization_basis": "current user explicitly authorizes public actual FD, shape, predictions, Q, findings and reproduction code; no experimental or complete model data"
+    },
+    {
+      "path": "run/run_088/snapshot/data/frozen_shape_stages.csv",
+      "sha256": "dac4f2624c2896a2cb22ac179190cf41412a4ba37e9f2a00071fd7ab6068d350",
+      "bytes": 1359,
+      "release_status": "PASS",
+      "source_type": "authorized virtual FE scientific derivatives / frozen FE forecasts / offline deterministic analysis",
+      "authorization_basis": "current user explicitly authorizes public actual FD, shape, predictions, Q, findings and reproduction code; no experimental or complete model data"
+    },
+    {
+      "path": "run/run_088/snapshot/data/frozen_summary.csv",
+      "sha256": "2588f1081ba975438af7c905fa5e9fe3a28896812032bd47c3b7b4babbdba0de",
+      "bytes": 1277,
+      "release_status": "PASS",
+      "source_type": "authorized virtual FE scientific derivatives / frozen FE forecasts / offline deterministic analysis",
+      "authorization_basis": "current user explicitly authorizes public actual FD, shape, predictions, Q, findings and reproduction code; no experimental or complete model data"
+    },
+    {
+      "path": "run/run_088/snapshot/data/historical_numerical_shape.csv",
+      "sha256": "859d13785eb882ded9f56f958f4c704729418bf622f5c2fef53afadecf6994c2",
+      "bytes": 433,
+      "release_status": "PASS",
+      "source_type": "authorized virtual FE scientific derivatives / frozen FE forecasts / offline deterministic analysis",
+      "authorization_basis": "current user explicitly authorizes public actual FD, shape, predictions, Q, findings and reproduction code; no experimental or complete model data"
+    },
+    {
+      "path": "run/run_088/snapshot/data/jobs.csv",
+      "sha256": "85944613e6efbab3b092bf0f572af8646601d50c1346e672851e65f06a651f73",
+      "bytes": 2816,
+      "release_status": "PASS",
+      "source_type": "authorized virtual FE scientific derivatives / frozen FE forecasts / offline deterministic analysis",
+      "authorization_basis": "current user explicitly authorizes public actual FD, shape, predictions, Q, findings and reproduction code; no experimental or complete model data"
+    },
+    {
+      "path": "run/run_088/snapshot/data/local_profiles.csv",
+      "sha256": "2e99fc26b40193fe046c450e204bd6ecba5b90197cc650160bf245ed71f73a1d",
+      "bytes": 463862,
+      "release_status": "PASS",
+      "source_type": "authorized virtual FE scientific derivatives / frozen FE forecasts / offline deterministic analysis",
+      "authorization_basis": "current user explicitly authorizes public actual FD, shape, predictions, Q, findings and reproduction code; no experimental or complete model data"
+    },
+    {
+      "path": "run/run_088/snapshot/data/shape_actual.csv",
+      "sha256": "0eea05e62ef2ddb1c3a3a6784f67ad7e3ea3ce23ae11bebb2e1e60e6ac80d199",
+      "bytes": 2119,
+      "release_status": "PASS",
+      "source_type": "authorized virtual FE scientific derivatives / frozen FE forecasts / offline deterministic analysis",
+      "authorization_basis": "current user explicitly authorizes public actual FD, shape, predictions, Q, findings and reproduction code; no experimental or complete model data"
+    },
+    {
+      "path": "run/run_088/snapshot/data/target_Q_981.csv",
+      "sha256": "fde9a2f13cee91fd576952cfd207a889536aa84509b19b50383733c341a24e2d",
+      "bytes": 102880,
+      "release_status": "PASS",
+      "source_type": "authorized virtual FE scientific derivatives / frozen FE forecasts / offline deterministic analysis",
+      "authorization_basis": "current user explicitly authorizes public actual FD, shape, predictions, Q, findings and reproduction code; no experimental or complete model data"
+    },
+    {
+      "path": "run/run_088/snapshot/evaluation_contract.json",
+      "sha256": "6ec6d8bccd5b32853675d20904dd69f7ac71b36e90467ede0094b8ce8eafb1e5",
+      "bytes": 3178,
+      "release_status": "PASS",
+      "source_type": "authorized virtual FE scientific derivatives / frozen FE forecasts / offline deterministic analysis",
+      "authorization_basis": "current user explicitly authorizes public actual FD, shape, predictions, Q, findings and reproduction code; no experimental or complete model data"
+    },
+    {
+      "path": "run/run_088/snapshot/figures/01_actual_FD_and_frozen_forecasts.png",
+      "sha256": "bc7c29eecc4682c657c7d8b2063445c60db815a2a3f49fc8a75fb63eaa3619fd",
+      "bytes": 368216,
+      "release_status": "PASS",
+      "source_type": "authorized virtual FE scientific derivatives / frozen FE forecasts / offline deterministic analysis",
+      "authorization_basis": "current user explicitly authorizes public actual FD, shape, predictions, Q, findings and reproduction code; no experimental or complete model data"
+    },
+    {
+      "path": "run/run_088/snapshot/figures/02_primary_shape_actual_vs_forecast.png",
+      "sha256": "1edc3e4d0f0eaa5b2d696e88545f296c9abc3f1a793a0c5542605054561798c0",
+      "bytes": 170725,
+      "release_status": "PASS",
+      "source_type": "authorized virtual FE scientific derivatives / frozen FE forecasts / offline deterministic analysis",
+      "authorization_basis": "current user explicitly authorizes public actual FD, shape, predictions, Q, findings and reproduction code; no experimental or complete model data"
+    },
+    {
+      "path": "run/run_088/snapshot/figures/03_fixed_free_compatibility_membership.png",
+      "sha256": "ba10b8a664c720ca9fb85227de0c71c0e95639d070418adb9e1a8c4983082b14",
+      "bytes": 120919,
+      "release_status": "PASS",
+      "source_type": "authorized virtual FE scientific derivatives / frozen FE forecasts / offline deterministic analysis",
+      "authorization_basis": "current user explicitly authorizes public actual FD, shape, predictions, Q, findings and reproduction code; no experimental or complete model data"
+    },
+    {
+      "path": "run/run_088/snapshot/figures/04_target_diameter_and_envelopes.png",
+      "sha256": "b2c39996da558ea08033e20e53478e6a61e2fef9d09cafff3a536d8df3dbd7a7",
+      "bytes": 273938,
+      "release_status": "PASS",
+      "source_type": "authorized virtual FE scientific derivatives / frozen FE forecasts / offline deterministic analysis",
+      "authorization_basis": "current user explicitly authorizes public actual FD, shape, predictions, Q, findings and reproduction code; no experimental or complete model data"
+    },
+    {
+      "path": "run/run_088/snapshot/figures/05_signal_numerical_and_measurement_limits.png",
+      "sha256": "d4ddd8d0f3c51c3dd0deb0d91de68916ca9a717f6b04892c89667d173e8de494",
+      "bytes": 255203,
+      "release_status": "PASS",
+      "source_type": "authorized virtual FE scientific derivatives / frozen FE forecasts / offline deterministic analysis",
+      "authorization_basis": "current user explicitly authorizes public actual FD, shape, predictions, Q, findings and reproduction code; no experimental or complete model data"
+    },
+    {
+      "path": "run/run_088/snapshot/figures/06_development_holdout_scope_and_counterexample.png",
+      "sha256": "4921dcd64e1177c31ae73860558d386cdd54c8492c9154176520068d71c2c084",
+      "bytes": 256880,
+      "release_status": "PASS",
+      "source_type": "authorized virtual FE scientific derivatives / frozen FE forecasts / offline deterministic analysis",
+      "authorization_basis": "current user explicitly authorizes public actual FD, shape, predictions, Q, findings and reproduction code; no experimental or complete model data"
+    },
+    {
+      "path": "run/run_088/snapshot/provenance.json",
+      "sha256": "1ea30e35a83fb697da7cfbdf8794651d2890f58c69a1d861fb33b926f517a43c",
+      "bytes": 4234,
+      "release_status": "PASS",
+      "source_type": "authorized virtual FE scientific derivatives / frozen FE forecasts / offline deterministic analysis",
+      "authorization_basis": "current user explicitly authorizes public actual FD, shape, predictions, Q, findings and reproduction code; no experimental or complete model data"
+    },
+    {
+      "path": "run/run_088/snapshot/README.md",
+      "sha256": "189b95fc05d180661b3f48231407881e84f25b64632f8b05d0d7b4eb1b3e3d89",
+      "bytes": 10325,
+      "release_status": "PASS",
+      "source_type": "authorized virtual FE scientific derivatives / frozen FE forecasts / offline deterministic analysis",
+      "authorization_basis": "current user explicitly authorizes public actual FD, shape, predictions, Q, findings and reproduction code; no experimental or complete model data"
+    },
+    {
+      "path": "run/run_088/snapshot/reproduce.py",
+      "sha256": "bcdf7f728be6e17d59e12fb0642bc7ef88ad8f75688943183e85ccaee1ba5bda",
+      "bytes": 486,
+      "release_status": "PASS",
+      "source_type": "authorized virtual FE scientific derivatives / frozen FE forecasts / offline deterministic analysis",
+      "authorization_basis": "current user explicitly authorizes public actual FD, shape, predictions, Q, findings and reproduction code; no experimental or complete model data"
+    },
+    {
+      "path": "run/run_088/snapshot/scientific_states.json",
+      "sha256": "0c74005728a310a801a6a6e40b3d84677c221831d2b5773ef2eb8a48c88b505c",
+      "bytes": 691,
+      "release_status": "PASS",
+      "source_type": "authorized virtual FE scientific derivatives / frozen FE forecasts / offline deterministic analysis",
+      "authorization_basis": "current user explicitly authorizes public actual FD, shape, predictions, Q, findings and reproduction code; no experimental or complete model data"
+    }
+  ],
+  "code_version": "Each new script has complete SHA-256 in this manifest; baseline HEAD alone is not new code identity",
+  "source_provenance": "provenance.json, evaluation_contract.json and data/jobs.csv; actual INP/ODB hashes, unchanged forecasts and same fine I06. No raw models, mesh IDs or partner experiments.",
+  "reproduction": {
+    "tables_exactly_matched": [
+      "candidate_margins.csv",
+      "classification_comparison.csv",
+      "compatibility_scenarios.csv",
+      "membership.csv",
+      "metrics.json",
+      "pairwise_distances.csv",
+      "phase_absolute_vs_residual.csv",
+      "position_absolute_vs_residual.csv",
+      "results.csv",
+      "robustness_metrics.json",
+      "robustness_pool_scenarios.csv",
+      "segment_comparison.csv",
+      "shape_predictions_vs_actual.csv",
+      "target_envelopes_981.csv"
+    ],
+    "figures_generated": 6,
+    "MAIN_actual_independent_scalar_checks": 12,
+    "CAE_actual_shape_checks": 20,
+    "evaluator_invariants": 98,
+    "robustness_invariants": 672
+  },
+  "claim_scope": "Four new same-model parameter holdouts; I06-centered finite-pool elimination. Numerical limitations and near-equal-shape counterexample retained. Not actual DIC, material uniqueness or external validation.",
+  "withheld": [
+    "all private scientific/professional reports and receipts",
+    "original INP/ODB/CAE/raw solver files and mesh topology",
+    "all partner experimental or sealed tensile data",
+    "personal paths, Hub database/sessions/leases",
+    "unrelated user worktree/index changes"
+  ],
+  "new_solver": 0,
+  "new_datacheck": 0,
+  "new_queue": 0,
+  "new_retry": 0,
+  "budget": {
+    "actual_FE_completed": 45,
+    "cap": 100,
+    "remaining_planning": 55
+  },
+  "text_encoding": "UTF-8 LF; staged exact blob verification required"
+}

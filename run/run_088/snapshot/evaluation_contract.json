@@ -1,0 +1,115 @@
+{
+  "run_id": "run_088",
+  "study": "four prospective parameter holdouts of unchanged same FE model/material family",
+  "historical_protocol_commit": "13f318465ff78ff59b2b111bd76a999e7a109cc8",
+  "historical_protocol_sha256": "b93bbe1ad1ddc1a9ba2f42b3503a24eb59d0ddca8c9ed9bff1d3466b6c40ad39",
+  "run085_manifest_sha256": "d24b710ae2bea7627b07655965169509f9b364817f94411cad1f2e8d045c848f",
+  "run085_prediction_seal_sha256": "647b96d7ccf192003d26ddaf4ba349c469e1b9635b0c1273b0d664d156053d99",
+  "F_D": {
+    "u": "-U2",
+    "F": "-RF2",
+    "units": [
+      "mm",
+      "N"
+    ],
+    "grid": [
+      0,
+      1.2,
+      241
+    ],
+    "interpolation": "piecewise linear; no smoothing, zero shift, extrapolation or deleted spikes",
+    "distance": "sqrt(mean((F_candidate-F_I06)**2)) over241points",
+    "four_segments_mm": [
+      [
+        0,
+        0.3
+      ],
+      [
+        0.3,
+        0.6
+      ],
+      [
+        0.6,
+        0.9
+      ],
+      [
+        0.9,
+        1.2
+      ]
+    ],
+    "segment_endpoints": "both closed; shared endpoint appears in adjacent segment diagnostics only"
+  },
+  "shape": {
+    "definition": "g=w(.5mm)-w(1mm), w=-U2",
+    "coordinates": "initial bottom material-reference radii, not deformed camera radii",
+    "punch_u_mm": 1.2,
+    "interpolation": "linear in reference radial location and actual punch displacement with stored bounding frames; no extrapolation",
+    "distance": "absolute difference from fine I06 g",
+    "tau_g_um": [
+      0.1,
+      0.25,
+      0.5,
+      1.0
+    ],
+    "threshold_scope": "difference-feature tolerance, not per-point device accuracy"
+  },
+  "target": {
+    "true_total_strain": [
+      0.002,
+      0.1,
+      981
+    ],
+    "stress_unit": "MPa",
+    "reconstruction": "actual deployed plastic table, epsilon=p+sigma(p)/E; monotone inverse with piecewise-linear table; elastic branch sigma=E*epsilon where applicable",
+    "d_Q": "RMS over981same strain points",
+    "D_Q": "maximum pairwise d_Q within finite compatible pool",
+    "singleton": "geometric diameter0; formal multi-target D_Q=null, not uniqueness"
+  },
+  "pools": {
+    "fixed": [
+      "I06_L2",
+      "H4_HO_M_FIXED",
+      "H4_HO_P_FIXED"
+    ],
+    "free": [
+      "I06_L2",
+      "H4_HO_M_FIXED",
+      "H4_HO_M_FREE",
+      "H4_HO_P_FIXED",
+      "H4_HO_P_FREE"
+    ]
+  },
+  "tau_F_N": [
+    2,
+    4.5,
+    5,
+    10
+  ],
+  "primary": [
+    5,
+    1.0
+  ],
+  "auxiliary": [
+    10,
+    1.0
+  ],
+  "nontrivial_requirement": "at least two distinct Q in FD-compatible pool; otherwise H4 gain NOT_EVALUABLE",
+  "nuisance_scenarios": "unchanged run085 deterministic shared/independent error operators; explicit supplementary scenarios, not measured noise or a substitute threshold",
+  "no_inference": [
+    "global uniqueness",
+    "Fisher confidence intervals",
+    "experimental DIC validation",
+    "converged endpoint/mesh error bounds"
+  ],
+  "numerical_contract": {
+    "initial_increment": 0.0005,
+    "maximum_increment": 0.000625,
+    "minimum_increment": 1e-12,
+    "step_time": 1,
+    "maximum_increments": 999999,
+    "CPUs": 14,
+    "GPUs": 0
+  },
+  "independent_FE_cases": 4,
+  "classification_rule_checks": 64
+}

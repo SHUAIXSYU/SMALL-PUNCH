@@ -1,0 +1,19 @@
+{
+  "scenario_count": 448,
+  "protocol": "run085 shared-versus-independent operator-error scenarios unchanged; candidate-relative residual, same shared reference across each feasible pool",
+  "position_bounds_um": [
+    1,
+    2.5,
+    5,
+    10
+  ],
+  "backward_punch_phase_bounds_um": [
+    1,
+    2.5,
+    5
+  ],
+  "same_nominal_frozen_feature": true,
+  "tau_g": "separate supplementary operator scenario contract; do not doublecountif1umalreadyincludesposition/timing uncertainty",
+  "not_error_bounds_or_measured_noise": true,
+  "no_new_feature_selection": true
+}

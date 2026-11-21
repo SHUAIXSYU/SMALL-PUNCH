@@ -1,0 +1,108 @@
+{
+  "run_id": "run_088",
+  "baseline_code_HEAD": "13f318465ff78ff59b2b111bd76a999e7a109cc8",
+  "actual_project_id": "b9c0d50f-2655-4091-ae49-1bf08940acf8",
+  "actual_jobs": "data/jobs.csv",
+  "sealed_forecasts_verified_before_new_response": true,
+  "seal_source_hashes": [
+    {
+      "source_identifier": "evaluation_protocol.json",
+      "sha256": "34f5f6703e490533087f6acac647e964970ab76c9157e2a40679951009e9944d",
+      "verified": true
+    },
+    {
+      "source_identifier": "inherited_holdout_protocol_unchanged.json",
+      "sha256": "b93bbe1ad1ddc1a9ba2f42b3503a24eb59d0ddca8c9ed9bff1d3466b6c40ad39",
+      "verified": true
+    },
+    {
+      "source_identifier": "predicted_FD_241.csv",
+      "sha256": "7d4558dfe1177bd3ea89f197a3bcd1100a940dc3970a5f0a1eeda6fd5ea931c9",
+      "verified": true
+    },
+    {
+      "source_identifier": "predicted_holdout_pools.csv",
+      "sha256": "497cd41ce7bf21c50a12909c30b033579a9501754550df925e8b9220e427eb44",
+      "verified": true
+    },
+    {
+      "source_identifier": "predicted_shape_stages.csv",
+      "sha256": "dac4f2624c2896a2cb22ac179190cf41412a4ba37e9f2a00071fd7ab6068d350",
+      "verified": true
+    },
+    {
+      "source_identifier": "predicted_summary.csv",
+      "sha256": "2588f1081ba975438af7c905fa5e9fe3a28896812032bd47c3b7b4babbdba0de",
+      "verified": true
+    }
+  ],
+  "center": {
+    "id": "I06_L2",
+    "job": "SPIO_R078_B3_I06_M000625",
+    "source_run": "run_078",
+    "ODB_sha256": "d201af6586e61c9aa7b603f9f9ee2b0c5f0efd3165e0976d2d75822ddec9d846",
+    "INP_sha256": "8440363c86bca77e72df6f71acf0b331a8ca2f9e5be4c7c6ea726267e410a8b5",
+    "sigma_y_MPa": 236.49902622197678,
+    "n": 0.0968,
+    "E_MPa": 210000,
+    "nu": 0.3,
+    "history_points": 1602
+  },
+  "material_generator_sha256": "f120409f11956e40b890dad1765e0e21445aa60878ff0a3039e5035facf48fe7",
+  "data_disclosure": "Only explicitly authorized virtual FE scientific derivatives. No partner experimental data or complete model files. Local paths omitted. Original geometry/mesh/node IDs and raw solver files withheld.",
+  "independent_review": {
+    "actual_professional_ODB_extraction": true,
+    "actual_professional_CAE_deployed_material_review": true,
+    "MAIN_native_FD_and_shape_and_Q_check": true,
+    "CAE_shape_checks": 20,
+    "MAIN_scalar_checks": 12,
+    "evaluator_invariants": 98,
+    "robustness_invariants": 672
+  },
+  "figure_sources": [
+    {
+      "file": "01_actual_FD_and_frozen_forecasts.png",
+      "width": 2970,
+      "height": 2066,
+      "decoded": true,
+      "scientific_sources": "actual FE and sealed FE forecasts; hypothetical nuisance scenarios separately labelled"
+    },
+    {
+      "file": "02_primary_shape_actual_vs_forecast.png",
+      "width": 2970,
+      "height": 1166,
+      "decoded": true,
+      "scientific_sources": "actual FE and sealed FE forecasts; hypothetical nuisance scenarios separately labelled"
+    },
+    {
+      "file": "03_fixed_free_compatibility_membership.png",
+      "width": 2970,
+      "height": 1279,
+      "decoded": true,
+      "scientific_sources": "actual FE and sealed FE forecasts; hypothetical nuisance scenarios separately labelled"
+    },
+    {
+      "file": "04_target_diameter_and_envelopes.png",
+      "width": 2970,
+      "height": 2073,
+      "decoded": true,
+      "scientific_sources": "actual FE and sealed FE forecasts; hypothetical nuisance scenarios separately labelled"
+    },
+    {
+      "file": "05_signal_numerical_and_measurement_limits.png",
+      "width": 3531,
+      "height": 1285,
+      "decoded": true,
+      "scientific_sources": "actual FE and sealed FE forecasts; hypothetical nuisance scenarios separately labelled"
+    },
+    {
+      "file": "06_development_holdout_scope_and_counterexample.png",
+      "width": 3570,
+      "height": 1308,
+      "decoded": true,
+      "scientific_sources": "actual FE and sealed FE forecasts; hypothetical nuisance scenarios separately labelled"
+    }
+  ],
+  "units_note": "N/mm for FD; Q MPa vs true total strain; raw shape mm, residual feature um; global plastic work J. PEEQ is not uniaxial total strain.",
+  "scientific_code_versions": "snapshot_manifest.json hashes every published script; baseline HEAD alone does not describe new analysis code"
+}

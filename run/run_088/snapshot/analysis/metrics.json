@@ -1,0 +1,36 @@
+{
+  "cases": 4,
+  "pool_total": 5,
+  "normalization": "no scalar mixing N/um/MPa; fullFD241 and sameprimaryshape block",
+  "forecast_accuracy_acceptance": "no frozen quantitativepass threshold; report descriptiveerror and frozenclassifications only",
+  "classification_rule_checks": 64,
+  "classification_matches": 64,
+  "curve_prediction_RMSE_range_N": [
+    0.07932391917364845,
+    0.18036108417884245
+  ],
+  "shape_prediction_abs_error_range_um": [
+    0.009187237762262157,
+    0.040815140411723405
+  ],
+  "checks_passed": 98,
+  "source": "actual qualifiedsame-tier FE only; no experimental data or parameter fitting",
+  "thresholds_F_N": [
+    2,
+    4.5,
+    5,
+    10
+  ],
+  "thresholds_g_um": [
+    0.1,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "main_shape": ".5/1mm materialreference radius atpunch1.2",
+  "all_singletons_not_uniqueness": true,
+  "new_solver": 0,
+  "new_datacheck": 0,
+  "new_queue": 0,
+  "new_retry": 0
+}
