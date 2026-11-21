@@ -1,0 +1,274 @@
+{
+  "run_id": "run_080",
+  "scope": "reviewed FE-only public snapshot; scientific WARNING, numerical resolution LIMITED",
+  "repo": "SHUAIXSYU/SMALL-PUNCH",
+  "visibility_verified": "public",
+  "baseline_HEAD": "49e051208fc0f8b179dd75001903c5a86718d2d0",
+  "release_review": "PASS",
+  "files": [
+    {
+      "path": "run/run_080/snapshot/fd_levels_241.csv",
+      "bytes": 27916,
+      "sha256": "889a917b0fe7d268f04f6e93e8571fc8d9dd97d63ccc1fdd9fada8a94816d000",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run080 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_080/snapshot/field_stage_summary.csv",
+      "bytes": 7546,
+      "sha256": "8932da03b5484cc0972f07e0c85609ae4ff77991dceb7422fc781df41b73b7b3",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run080 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_080/snapshot/figures/01_fd_levels.png",
+      "bytes": 132815,
+      "sha256": "a9eff5295c8257fe142162732262042f1246fdb979585a707f5b51b56c3d9ea5",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run080 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_080/snapshot/figures/02_same_point_refinement.png",
+      "bytes": 310489,
+      "sha256": "7623879bf20c43e1be38f0ae96b7685e49a0a94f70b7e74d843b53db5e5ab951",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run080 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_080/snapshot/figures/03_matched_center_residuals.png",
+      "bytes": 275430,
+      "sha256": "17d4cc27582d191455bc251d4792e0b97792f4b1e9b59476b0134a34c2680ac0",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run080 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_080/snapshot/figures/04_segment_rms.png",
+      "bytes": 278586,
+      "sha256": "5f40191cdcd846e8b21c570bbb659ce412e43b7304729e2985b5cc719b307a06",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run080 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_080/snapshot/figures/05_unchanged_material_targets.png",
+      "bytes": 170684,
+      "sha256": "f4a43fe21c1b46c9679964d4bab8ad82b0f5a9fd04f394e2ab19de1d19448c98",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run080 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_080/snapshot/figures/06_tolerance_and_resolution.png",
+      "bytes": 180826,
+      "sha256": "2d0fbebb72bd951b339aa8cd86375e45e4dded1739559a8c05b8d7617fc4894e",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run080 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_080/snapshot/figures/mechanism_contact_profiles.png",
+      "bytes": 142443,
+      "sha256": "25410859e9315f0a5c693b48774d48d93a5bac19990c6876e21897ecfcf35f87",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run080 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_080/snapshot/figures/mechanism_global_energy_force.png",
+      "bytes": 124888,
+      "sha256": "b9e22acc0e3e94018a53dc1b8e1fe2f32991250a69626740b05048afd15226e9",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run080 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_080/snapshot/figures/mechanism_PEEQ_binned_summary.png",
+      "bytes": 155427,
+      "sha256": "581e542bca6b35e666daa14a1df83e99dda7e92a78ede720c45cd0b6e1e17e35",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run080 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_080/snapshot/figures/mechanism_stress_surface_profiles.png",
+      "bytes": 368976,
+      "sha256": "8c0f18fd3723bcb4a3a868aa0cf2b46f628b769482f3b2b70c00e52518415e6f",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run080 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_080/snapshot/figures/mechanism_virtual_shape_differences.png",
+      "bytes": 130854,
+      "sha256": "f4f44ff436f8378bd64cdd7e3294e3bc1f6f0c1f5b8099a04d408bf0be98953b",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run080 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_080/snapshot/frozen_comparator.py",
+      "bytes": 3519,
+      "sha256": "c79c4cbaa04e3492c518b7d9f259269c12ae00c7c6fd7a02286d62c41ebb0ce0",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run080 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_080/snapshot/jobs.csv",
+      "bytes": 2977,
+      "sha256": "dd42c009b8395e961866f9ae77878235e67e84222284b8d1598d002be8e02ed6",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run080 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_080/snapshot/mechanism_data/constitutive_intervention.csv",
+      "bytes": 3389,
+      "sha256": "88c64adfeee761bce424a27d050a9761ca1ccbb43b8f2e8bdcdb021db7917de8",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run080 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_080/snapshot/mechanism_data/contact_peak_neighborhoods.csv",
+      "bytes": 19957,
+      "sha256": "6c3ba2beec0bde3e1bad5b663c8d6ba7f896619703b9e96702b92911b0d3dc0a",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run080 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_080/snapshot/mechanism_data/contact_profile_aggregate.csv",
+      "bytes": 33386,
+      "sha256": "2ca35ddb38a0ac2d02b386acc4f49927743f6e99a4fec4bcee45d22cee024394",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run080 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_080/snapshot/mechanism_data/PEEQ_spatial_binned.csv",
+      "bytes": 285662,
+      "sha256": "bf1274c29ed33b860bd7260383b3222734412a822f14bd14166b4702dd03f4af",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run080 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_080/snapshot/mechanism_data/PEEQ_volume_bins.csv",
+      "bytes": 11595,
+      "sha256": "047c52578ae11a695813ac6b770c9f964229eb399acef7bd255fd29a57dc0dda",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run080 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_080/snapshot/mechanism_data/radial_thickness_stats.csv",
+      "bytes": 203006,
+      "sha256": "d5d15c388f758b02c4c5d51fa9043df251558d564a8e0a5e333d79c5e144d8a9",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run080 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_080/snapshot/mechanism_data/shape_pair_differences.csv",
+      "bytes": 3886,
+      "sha256": "a313f02c07394132b1a6d9862abcb8c1e706d980f55b0abfd6cc3ea1b35d51e6",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run080 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_080/snapshot/mechanism_data/stage_metrics.csv",
+      "bytes": 16625,
+      "sha256": "9e805ab5f1d9065bb7728c3ba6e4dd95135d11bfbaccf2190dd360f46427bf59",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run080 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_080/snapshot/mechanism_data/surface_stress_proxies.csv",
+      "bytes": 120949,
+      "sha256": "416151ecd33af66ff6d62ac5064ddc44ef103d2386131bd75ebfc021aab50e74",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run080 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_080/snapshot/mechanisms.md",
+      "bytes": 4659,
+      "sha256": "3b638b2004c11e2daa9c6c6e57e69d8319d8e19d2971751c34726dbf6837f0cd",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run080 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_080/snapshot/mechanisms_replot.py",
+      "bytes": 3861,
+      "sha256": "827d19ae0f81af80a1d6ae3199e4ca05ac61f9fdf9d5d7b8bfa652a8e545a00b",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run080 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_080/snapshot/metrics.json",
+      "bytes": 22850,
+      "sha256": "3a53fbf034a0b68a501b0c706a8daa4fd9957e95e00f84e96cbbdcf548589d87",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run080 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_080/snapshot/README.md",
+      "bytes": 4167,
+      "sha256": "8b22633e3ba805ed6d2dc13299ed417fee6aed5bf67bf245d230def01500f403",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run080 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_080/snapshot/reproduce.py",
+      "bytes": 2494,
+      "sha256": "797103c0c003f3eae6b6d1251a022e6c10f2ffd3a310b9f5e31bb30faeca0e38",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run080 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_080/snapshot/target_Q_981.csv",
+      "bytes": 66787,
+      "sha256": "46fbb3a73cb8f9983174820857945bff347a4cbedfe53b247c752ba9b7ae07fd",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run080 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    }
+  ],
+  "code_source_hashes": {
+    "b3_compare.py": "c79c4cbaa04e3492c518b7d9f259269c12ae00c7c6fd7a02286d62c41ebb0ce0",
+    "analyze_b3.py": "d2680aabba8a07eca23fbb7fbb0f2c388f0a12b3b97f2070d516a7930d861c62",
+    "main_review.py": "c3828f4b051a8cbd18e49c494f14f18b9f3121ea2376626c497f5a0a4dddaf36",
+    "mechanisms_extract.py": "0cf495ba6bd7c015daa5064ebe0ab074d3ad96ccc1abe89a8824f05a53cb1b8d",
+    "review_mechanisms_MAIN.py": "e8cce13f5f0992b75f393b4fb34f9d465f1a9520a0df8eb9bbde556d89a3cfc1"
+  },
+  "withheld": [
+    "all original ODB/CAE/INP and solver files",
+    "all complete private reports, source paths, extractor raw IP tables, Hub data and leases",
+    "all partner measured SPT/tensile data and holdout content",
+    "unrelated user worktree and index changes"
+  ],
+  "provenance": "source input and ODB SHA in jobs.csv; readOnly extraction/current- and previous-level identity individually verified locally",
+  "canonical_text_encoding": "UTF-8 LF; exact staged bytes verified separately",
+  "reproduction": "49 independent frozen metrics checks and four frozen arithmetic unit tests passed; mechanism figures rebuilt from public aggregates",
+  "not_claimed": [
+    "strict temporal or mesh convergence",
+    "statistical confidence interval",
+    "full fine-tier fixed/free family comparison",
+    "unique material or force-causal identification",
+    "experimental DIC measurability",
+    "formal real-material independent validation"
+  ]
+}
