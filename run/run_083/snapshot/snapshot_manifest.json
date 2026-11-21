@@ -1,0 +1,226 @@
+{
+  "run_id": "run_083",
+  "scope": "reviewed FE-only public snapshot; scientific WARNING, numerical resolution LIMITED",
+  "repo": "SHUAIXSYU/SMALL-PUNCH",
+  "visibility_verified": "public",
+  "baseline_HEAD": "a153c95831139b2ef725e61c4dbaf81a1027f0d5",
+  "release_review": "PASS",
+  "files": [
+    {
+      "path": "run/run_083/snapshot/compatibility_membership.csv",
+      "bytes": 18913,
+      "sha256": "c33e60030d350cbbafc934cc4e8aec80b81a1efce9de7e8df65c832ddfac15d9",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run083 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_083/snapshot/compensation_groups.csv",
+      "bytes": 940,
+      "sha256": "644d3fe5f4a8544757c6a05541f588d3af60ad9d73369f9770ad42b5c8311cfd",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run083 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_083/snapshot/contact_events.csv",
+      "bytes": 73283,
+      "sha256": "3da5f0f35604d2dc7e001cb21d773c82c0c27722d90e156dfd593d0176e14330",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run083 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_083/snapshot/fd_predictions_241.csv",
+      "bytes": 242669,
+      "sha256": "f8b9bf2ca847bae44456f5d559ba370f5635a3976be06fb1a3e569f6481e8ec1",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run083 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_083/snapshot/field_stage_summary.csv",
+      "bytes": 14269,
+      "sha256": "93458b768b09a9dee12523fceac9def1b5f8892f8fb288cd3bf54dd768a1b474",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run083 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_083/snapshot/figures/01_actual_FE_curves.png",
+      "bytes": 366225,
+      "sha256": "1f46e9c7f5960fa31735e4b74bf1fa162745dd27f63cdda9797570a0ff89c9ac",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run083 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_083/snapshot/figures/02_actual_vs_frozen_predictions.png",
+      "bytes": 1054894,
+      "sha256": "77724a99015cc423a654e5627de20c667cb7ad739b41e598af2ea9345740b03e",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run083 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_083/snapshot/figures/03_compensation_by_amplitude.png",
+      "bytes": 258257,
+      "sha256": "46ba6fba8a61c67ae9c670c5636b19806735cd4b3fe6d427558f7462ad12d792",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run083 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_083/snapshot/figures/04_material_targets.png",
+      "bytes": 268674,
+      "sha256": "1636228113c24ed26d574a31c0cd601ae0ac1e9100abd76ed9907583827f303d",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run083 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_083/snapshot/figures/05_compatibility_membership.png",
+      "bytes": 275809,
+      "sha256": "aeff11cbdaa23921f9dbab0fe53987c5bb024af2adc3151bec35456421f3e9c3",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run083 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_083/snapshot/figures/06_finite_target_envelopes.png",
+      "bytes": 252971,
+      "sha256": "ba8c91dd783649270d837bd82f591d7e2046b283c3cb0ded184ebbccb00e3449",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run083 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_083/snapshot/figures/07_nonlinearity_and_numerical_margin.png",
+      "bytes": 217233,
+      "sha256": "9d4441d04ace7e02d81499356e43a6f9ee7ebf2b5526c4f7db3f0e1342f913eb",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run083 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_083/snapshot/figures/08_peeq_peaks_and_contact.png",
+      "bytes": 185057,
+      "sha256": "b0d13b36d39159d9bd05f1660ad1629f687835d3eafc190229485ec522edf9b3",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run083 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_083/snapshot/frozen_comparator.py",
+      "bytes": 5245,
+      "sha256": "2ae6d4cb6e6fd39fe069cbe42f8c3e8620edd5044cef9f73110f7b5b31060627",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run083 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_083/snapshot/jobs.csv",
+      "bytes": 17168,
+      "sha256": "26963693f0c6bb9ae3940de7538f1b978ee646fc869ecc60e7024c7c758d15b9",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run083 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_083/snapshot/material_flow_stress_901.csv",
+      "bytes": 321592,
+      "sha256": "9656b9465bc7cc2c9a533f67bdfb45ae864193f11179f5f34fb33af05bc61b1d",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run083 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_083/snapshot/metrics.json",
+      "bytes": 1193164,
+      "sha256": "33a44ea89c7871bb2ce4cf84e8d5ebed76db599666fe89e60493d9a364e82d9d",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run083 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_083/snapshot/pairwise_FD_Q.csv",
+      "bytes": 12289,
+      "sha256": "2bb81bfbda37c17366e1817cff5b3279829a89cf72e1d54c39298fdfde1ae7aa",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run083 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_083/snapshot/README.md",
+      "bytes": 6630,
+      "sha256": "ed20e90c002d932e0a3b30edbf2ec2ad2a55992b515ccdfb882446697a395ca8",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run083 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_083/snapshot/reproduce.py",
+      "bytes": 8422,
+      "sha256": "b30d0a9f6619b8c0b5211a05bd55d72b5216d232c5b3b87a884a3a620f9a3698",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run083 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_083/snapshot/scenario_diameter_pair_details.csv",
+      "bytes": 1016,
+      "sha256": "d42cfba867e80cf2be7ff5f4fa1f2b31541259b521efa1f410ec27b807de20b2",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run083 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_083/snapshot/segment_compensation.csv",
+      "bytes": 4696,
+      "sha256": "1b233556a360e673bc1ba51eb34c9dd08070ce1af2db63f13a9364eba9f0dd9a",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run083 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_083/snapshot/target_envelopes_981.csv",
+      "bytes": 662640,
+      "sha256": "805396477afc1864ae686e54f4c630a662cefca97c2406e917f2a7ec834d034d",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run083 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    },
+    {
+      "path": "run/run_083/snapshot/target_Q_981.csv",
+      "bytes": 355443,
+      "sha256": "6b8aa11a970a96ba0c069976e39aa85fb4cade9f8c7f4de18d6ee2f1d59cf74e",
+      "release_status": "PASS",
+      "source_type": "explicitly authorized FE-only research derivatives or offline reconstruction code; no partner measurements",
+      "license_basis": "user explicit run083 public FE scientific snapshot authorization; local frozen private/raw artifacts excluded"
+    }
+  ],
+  "code_source_hashes": {
+    "evaluate_r18.py": "2ae6d4cb6e6fd39fe069cbe42f8c3e8620edd5044cef9f73110f7b5b31060627",
+    "native_calculation.py": "81114922ee77351be7f3d396ba49f948af751b9c5995b59679dabc7c96b741a1",
+    "main_review.py": "3cd4d69f1f8864abb63af5e70ab8db88670e227af1564130f9b400bb82bd8a4d",
+    "extract_readonly_bulk.py": "20bd4edb36386561741e829ee83f20a8a3a229c9d9b3340567a8f0813c853f55",
+    "qualify_r18.py": "40f5521f13430d500c7479ed78fcb80e301d545a452280415f355647cc2b1efe"
+  },
+  "withheld": [
+    "all original ODB/CAE/INP and solver files",
+    "all complete private reports, source paths, extractor raw IP tables, Hub data and leases",
+    "all partner measured SPT/tensile data and holdout content",
+    "unrelated user worktree and index changes"
+  ],
+  "provenance": "source input and ODB SHA in jobs.csv; readOnly extraction/current- and previous-level identity individually verified locally",
+  "canonical_text_encoding": "UTF-8 LF; exact staged bytes verified separately",
+  "reproduction": "153 independent frozen metrics checks and four frozen arithmetic unit tests passed; all8 figures rebuilt from reviewed FE/prediction CSV",
+  "not_claimed": [
+    "strict temporal or mesh convergence",
+    "statistical confidence interval",
+    "global coverage beyond sampled material family",
+    "unique material or force-causal identification",
+    "experimental DIC measurability",
+    "formal real-material independent validation"
+  ]
+}

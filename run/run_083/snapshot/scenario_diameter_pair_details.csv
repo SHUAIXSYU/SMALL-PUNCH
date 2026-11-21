@@ -1,0 +1,7 @@
+tau_N,buffer_N,i,j,direct_FD_RMS_N,dQ_MPa,max_Q_stress_difference_MPa,max_Q_difference_at_true_total_strain,scope
+5.0,0.0,R18_02,R18_14,8.400474563512093,8.739697717005779,16.171529512887105,0.1,each member admitted relative to I06; direct pair FD need not <=tau
+5.0,0.25,R18_02,R18_15,8.141385218555273,8.739697717005779,16.171529512887105,0.1,each member admitted relative to I06; direct pair FD need not <=tau
+5.0,0.5,R18_05,R18_15,7.223735388785249,7.300862506819214,13.511409784193631,0.1,each member admitted relative to I06; direct pair FD need not <=tau
+10.0,0.0,R18_02,R18_17,11.204776512718086,11.030806192776833,20.41611499460322,0.1,each member admitted relative to I06; direct pair FD need not <=tau
+10.0,0.25,R18_02,R18_17,11.204776512718086,11.030806192776833,20.41611499460322,0.1,each member admitted relative to I06; direct pair FD need not <=tau
+10.0,0.5,R18_02,R18_17,11.204776512718086,11.030806192776833,20.41611499460322,0.1,each member admitted relative to I06; direct pair FD need not <=tau
