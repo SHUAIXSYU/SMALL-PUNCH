@@ -1,0 +1,301 @@
+{
+  "run_id": "run_084",
+  "version": "H4-FE-only-reviewed-v1",
+  "scientific_review": "WARNING",
+  "release_review": "PASS",
+  "repo": "SHUAIXSYU/SMALL-PUNCH",
+  "visibility": "public",
+  "baseline_HEAD": "e62250b4130f360eacb71d313261a1c5a9b83270",
+  "prior_snapshot_commit": "e62250b4130f360eacb71d313261a1c5a9b83270",
+  "files": [
+    {
+      "path": "run/run_084/snapshot/analyze_h4.py",
+      "sha256": "28a36af146f9f2227845d78db553104d605951a520bd949d0be5db0b400ea637",
+      "bytes": 10869,
+      "release_status": "PASS",
+      "source_type": "actual authorized FE-only derived displacement/force/target data or offline arithmetic; no experimental measurement",
+      "license_basis": "current user explicit H4 public scientific snapshot authorization; sources are prior FE-model science data, not partner measurements or raw model files"
+    },
+    {
+      "path": "run/run_084/snapshot/bottom_profiles.csv",
+      "sha256": "e75e73ecc26cf7dde7b46e685fc6bc78cc0822370339b94b975cc80ce744c78a",
+      "bytes": 446268,
+      "release_status": "PASS",
+      "source_type": "actual authorized FE-only derived displacement/force/target data or offline arithmetic; no experimental measurement",
+      "license_basis": "current user explicit H4 public scientific snapshot authorization; sources are prior FE-model science data, not partner measurements or raw model files"
+    },
+    {
+      "path": "run/run_084/snapshot/boundary_diagnostic.py",
+      "sha256": "c1563660e82413e1baf5c1ad71bf59fde5eb62ebf60e7ee8cb10d770ffed1dc0",
+      "bytes": 1354,
+      "release_status": "PASS",
+      "source_type": "actual authorized FE-only derived displacement/force/target data or offline arithmetic; no experimental measurement",
+      "license_basis": "current user explicit H4 public scientific snapshot authorization; sources are prior FE-model science data, not partner measurements or raw model files"
+    },
+    {
+      "path": "run/run_084/snapshot/boundary_sensitivity.csv",
+      "sha256": "9640c3071d0a4a7db49b0b6fb612f187a4e00e75e98e4db98ef7e74fb314cc55",
+      "bytes": 3322,
+      "release_status": "PASS",
+      "source_type": "actual authorized FE-only derived displacement/force/target data or offline arithmetic; no experimental measurement",
+      "license_basis": "current user explicit H4 public scientific snapshot authorization; sources are prior FE-model science data, not partner measurements or raw model files"
+    },
+    {
+      "path": "run/run_084/snapshot/compatibility_scenarios.csv",
+      "sha256": "6f3f9cd807624ae55a065c77609865e5cd9199920542366a6e306ee75e330dec",
+      "bytes": 83150,
+      "release_status": "PASS",
+      "source_type": "actual authorized FE-only derived displacement/force/target data or offline arithmetic; no experimental measurement",
+      "license_basis": "current user explicit H4 public scientific snapshot authorization; sources are prior FE-model science data, not partner measurements or raw model files"
+    },
+    {
+      "path": "run/run_084/snapshot/fd_actual_241.csv",
+      "sha256": "a37bdeee001da0289899346b73d8135563024e3e5ab7941682b20f46efb4951d",
+      "bytes": 84685,
+      "release_status": "PASS",
+      "source_type": "actual authorized FE-only derived displacement/force/target data or offline arithmetic; no experimental measurement",
+      "license_basis": "current user explicit H4 public scientific snapshot authorization; sources are prior FE-model science data, not partner measurements or raw model files"
+    },
+    {
+      "path": "run/run_084/snapshot/figures/01_bottom_profile_differences.png",
+      "sha256": "f2ee7191ea5a42c71f14d7bf150bef2daae2d7ced353746a85ed94a73bb94965",
+      "bytes": 571221,
+      "release_status": "PASS",
+      "source_type": "actual authorized FE-only derived displacement/force/target data or offline arithmetic; no experimental measurement",
+      "license_basis": "current user explicit H4 public scientific snapshot authorization; sources are prior FE-model science data, not partner measurements or raw model files"
+    },
+    {
+      "path": "run/run_084/snapshot/figures/02_priority_pair_shape_signals.png",
+      "sha256": "9dcc0c8dac385f111a99516738278b906aa1cf308e33c05b3fdf60b3af090520",
+      "bytes": 255925,
+      "release_status": "PASS",
+      "source_type": "actual authorized FE-only derived displacement/force/target data or offline arithmetic; no experimental measurement",
+      "license_basis": "current user explicit H4 public scientific snapshot authorization; sources are prior FE-model science data, not partner measurements or raw model files"
+    },
+    {
+      "path": "run/run_084/snapshot/figures/03_finite_target_contraction_screen.png",
+      "sha256": "79c247fcb76ec0bb3862e1a32783f6b5f914e5dd28815c7f2f070cf77af07d5a",
+      "bytes": 318986,
+      "release_status": "PASS",
+      "source_type": "actual authorized FE-only derived displacement/force/target data or offline arithmetic; no experimental measurement",
+      "license_basis": "current user explicit H4 public scientific snapshot authorization; sources are prior FE-model science data, not partner measurements or raw model files"
+    },
+    {
+      "path": "run/run_084/snapshot/figures/04_target_envelope_contraction.png",
+      "sha256": "97021ae530e0baad047259dd81d8fc57bee537a74b1a04c3b88e97413abbf11e",
+      "bytes": 221927,
+      "release_status": "PASS",
+      "source_type": "actual authorized FE-only derived displacement/force/target data or offline arithmetic; no experimental measurement",
+      "license_basis": "current user explicit H4 public scientific snapshot authorization; sources are prior FE-model science data, not partner measurements or raw model files"
+    },
+    {
+      "path": "run/run_084/snapshot/figures/05_one_vs_two_shape_features.png",
+      "sha256": "2407d7056a9e72a484c640e01bd79d26f77058e1b4de21b36755a96186918df0",
+      "bytes": 195943,
+      "release_status": "PASS",
+      "source_type": "actual authorized FE-only derived displacement/force/target data or offline arithmetic; no experimental measurement",
+      "license_basis": "current user explicit H4 public scientific snapshot authorization; sources are prior FE-model science data, not partner measurements or raw model files"
+    },
+    {
+      "path": "run/run_084/snapshot/figures/06_numerical_and_metrology_scales.png",
+      "sha256": "307cbd0e394ff686df1f36abf1fd2d1e748f5a0b3b6d26bfd73fb5e34461b6de",
+      "bytes": 213701,
+      "release_status": "PASS",
+      "source_type": "actual authorized FE-only derived displacement/force/target data or offline arithmetic; no experimental measurement",
+      "license_basis": "current user explicit H4 public scientific snapshot authorization; sources are prior FE-model science data, not partner measurements or raw model files"
+    },
+    {
+      "path": "run/run_084/snapshot/figures/07_boundary_sensitivity.png",
+      "sha256": "8127c59cc3c5c2a011915c5da8bc17d0a05fb70957a0b0b8e5fc02421980ef09",
+      "bytes": 158577,
+      "release_status": "PASS",
+      "source_type": "actual authorized FE-only derived displacement/force/target data or offline arithmetic; no experimental measurement",
+      "license_basis": "current user explicit H4 public scientific snapshot authorization; sources are prior FE-model science data, not partner measurements or raw model files"
+    },
+    {
+      "path": "run/run_084/snapshot/holdout_protocol.json",
+      "sha256": "b93bbe1ad1ddc1a9ba2f42b3503a24eb59d0ddca8c9ed9bff1d3466b6c40ad39",
+      "bytes": 6228,
+      "release_status": "PASS",
+      "source_type": "actual authorized FE-only derived displacement/force/target data or offline arithmetic; no experimental measurement",
+      "license_basis": "current user explicit H4 public scientific snapshot authorization; sources are prior FE-model science data, not partner measurements or raw model files"
+    },
+    {
+      "path": "run/run_084/snapshot/independent_scenario_crosscheck.csv",
+      "sha256": "8c24f1de256864f32ac45251c279d3645327ed5578f55c1f871e1323924dd7ae",
+      "bytes": 6042,
+      "release_status": "PASS",
+      "source_type": "actual authorized FE-only derived displacement/force/target data or offline arithmetic; no experimental measurement",
+      "license_basis": "current user explicit H4 public scientific snapshot authorization; sources are prior FE-model science data, not partner measurements or raw model files"
+    },
+    {
+      "path": "run/run_084/snapshot/jobs.csv",
+      "sha256": "26963693f0c6bb9ae3940de7538f1b978ee646fc869ecc60e7024c7c758d15b9",
+      "bytes": 17168,
+      "release_status": "PASS",
+      "source_type": "actual authorized FE-only derived displacement/force/target data or offline arithmetic; no experimental measurement",
+      "license_basis": "current user explicit H4 public scientific snapshot authorization; sources are prior FE-model science data, not partner measurements or raw model files"
+    },
+    {
+      "path": "run/run_084/snapshot/joint_membership.csv",
+      "sha256": "89dd1fe9166467181dc586da4bd7bdc16f1b74ed05ca536c65e35a5eed158800",
+      "bytes": 847259,
+      "release_status": "PASS",
+      "source_type": "actual authorized FE-only derived displacement/force/target data or offline arithmetic; no experimental measurement",
+      "license_basis": "current user explicit H4 public scientific snapshot authorization; sources are prior FE-model science data, not partner measurements or raw model files"
+    },
+    {
+      "path": "run/run_084/snapshot/metrics.json",
+      "sha256": "3ddb4b94fde0230aaa3e0d32f45ba8a867614c9491482952c4110d80b6b0d689",
+      "bytes": 6210,
+      "release_status": "PASS",
+      "source_type": "actual authorized FE-only derived displacement/force/target data or offline arithmetic; no experimental measurement",
+      "license_basis": "current user explicit H4 public scientific snapshot authorization; sources are prior FE-model science data, not partner measurements or raw model files"
+    },
+    {
+      "path": "run/run_084/snapshot/numerical_shape_changes.csv",
+      "sha256": "5cbf753742f0019a0feed962dfdb3ccfbf150c4fa4393d8ed245e974ad8485d1",
+      "bytes": 4334,
+      "release_status": "PASS",
+      "source_type": "actual authorized FE-only derived displacement/force/target data or offline arithmetic; no experimental measurement",
+      "license_basis": "current user explicit H4 public scientific snapshot authorization; sources are prior FE-model science data, not partner measurements or raw model files"
+    },
+    {
+      "path": "run/run_084/snapshot/observation_protocol.json",
+      "sha256": "b11d812455749e3612f505a9015df2e9f954d71ce8b3bdfa46560bfec4ed670c",
+      "bytes": 2135,
+      "release_status": "PASS",
+      "source_type": "actual authorized FE-only derived displacement/force/target data or offline arithmetic; no experimental measurement",
+      "license_basis": "current user explicit H4 public scientific snapshot authorization; sources are prior FE-model science data, not partner measurements or raw model files"
+    },
+    {
+      "path": "run/run_084/snapshot/observation_ranking.csv",
+      "sha256": "6147a48641f50825d1ddbe3ff25c1bb1581ec0b298505b0071bc9bc791fc4cbc",
+      "bytes": 1237,
+      "release_status": "PASS",
+      "source_type": "actual authorized FE-only derived displacement/force/target data or offline arithmetic; no experimental measurement",
+      "license_basis": "current user explicit H4 public scientific snapshot authorization; sources are prior FE-model science data, not partner measurements or raw model files"
+    },
+    {
+      "path": "run/run_084/snapshot/plot_h4.py",
+      "sha256": "50290074aeb14608d21234cdaef326b428017a7e4f56e819fe41c124b6c1d416",
+      "bytes": 8776,
+      "release_status": "PASS",
+      "source_type": "actual authorized FE-only derived displacement/force/target data or offline arithmetic; no experimental measurement",
+      "license_basis": "current user explicit H4 public scientific snapshot authorization; sources are prior FE-model science data, not partner measurements or raw model files"
+    },
+    {
+      "path": "run/run_084/snapshot/priority_pair_signals.csv",
+      "sha256": "cd67bb9178ba5a80cd19b6b625b9fc552687f1d28ed24ff2aaed4ae289ec34d1",
+      "bytes": 8151,
+      "release_status": "PASS",
+      "source_type": "actual authorized FE-only derived displacement/force/target data or offline arithmetic; no experimental measurement",
+      "license_basis": "current user explicit H4 public scientific snapshot authorization; sources are prior FE-model science data, not partner measurements or raw model files"
+    },
+    {
+      "path": "run/run_084/snapshot/radial_location_scenarios.csv",
+      "sha256": "5644e6e45eb4282e9ea13b3b4f5df3d826e8d3d54e6689041d13343e81c66b7d",
+      "bytes": 22713,
+      "release_status": "PASS",
+      "source_type": "actual authorized FE-only derived displacement/force/target data or offline arithmetic; no experimental measurement",
+      "license_basis": "current user explicit H4 public scientific snapshot authorization; sources are prior FE-model science data, not partner measurements or raw model files"
+    },
+    {
+      "path": "run/run_084/snapshot/README.md",
+      "sha256": "5c7eebd7c3eb61bb5fd27a3a46d0d16df1060ef7ae1a317b3034dcb07a5d0c31",
+      "bytes": 6307,
+      "release_status": "PASS",
+      "source_type": "actual authorized FE-only derived displacement/force/target data or offline arithmetic; no experimental measurement",
+      "license_basis": "current user explicit H4 public scientific snapshot authorization; sources are prior FE-model science data, not partner measurements or raw model files"
+    },
+    {
+      "path": "run/run_084/snapshot/reproduce.py",
+      "sha256": "d9c11dabe0b72f561c7c2372bc13573ea3a140a62a38214dada0716b3bd76997",
+      "bytes": 354,
+      "release_status": "PASS",
+      "source_type": "actual authorized FE-only derived displacement/force/target data or offline arithmetic; no experimental measurement",
+      "license_basis": "current user explicit H4 public scientific snapshot authorization; sources are prior FE-model science data, not partner measurements or raw model files"
+    },
+    {
+      "path": "run/run_084/snapshot/shape_features.csv",
+      "sha256": "5f415d0b48c48459f49a2986c95c948386a403713fa65d87c1d43a2b3569de00",
+      "bytes": 52499,
+      "release_status": "PASS",
+      "source_type": "actual authorized FE-only derived displacement/force/target data or offline arithmetic; no experimental measurement",
+      "license_basis": "current user explicit H4 public scientific snapshot authorization; sources are prior FE-model science data, not partner measurements or raw model files"
+    },
+    {
+      "path": "run/run_084/snapshot/shape_residuals.csv",
+      "sha256": "8a97394c7608a70ce0620d3e4dc4edc393fc254f479586e21fb48073ec1073d2",
+      "bytes": 20021,
+      "release_status": "PASS",
+      "source_type": "actual authorized FE-only derived displacement/force/target data or offline arithmetic; no experimental measurement",
+      "license_basis": "current user explicit H4 public scientific snapshot authorization; sources are prior FE-model science data, not partner measurements or raw model files"
+    },
+    {
+      "path": "run/run_084/snapshot/sources.csv",
+      "sha256": "e918ae1f35c62102990fdde8592ff035c2c7d32cc2659b5b3febf7a2c07d08e5",
+      "bytes": 6910,
+      "release_status": "PASS",
+      "source_type": "actual authorized FE-only derived displacement/force/target data or offline arithmetic; no experimental measurement",
+      "license_basis": "current user explicit H4 public scientific snapshot authorization; sources are prior FE-model science data, not partner measurements or raw model files"
+    },
+    {
+      "path": "run/run_084/snapshot/synchronization_scenarios.csv",
+      "sha256": "b963940900e1da165f79db2f59c1a0fdea80df7ad048146132f421593ff3cfb1",
+      "bytes": 15667,
+      "release_status": "PASS",
+      "source_type": "actual authorized FE-only derived displacement/force/target data or offline arithmetic; no experimental measurement",
+      "license_basis": "current user explicit H4 public scientific snapshot authorization; sources are prior FE-model science data, not partner measurements or raw model files"
+    },
+    {
+      "path": "run/run_084/snapshot/target_envelopes.csv",
+      "sha256": "1c7754b5ad7a92aaf22385967b768b6987cdbd7d4517faee8c5033aed36c76ad",
+      "bytes": 2039086,
+      "release_status": "PASS",
+      "source_type": "actual authorized FE-only derived displacement/force/target data or offline arithmetic; no experimental measurement",
+      "license_basis": "current user explicit H4 public scientific snapshot authorization; sources are prior FE-model science data, not partner measurements or raw model files"
+    },
+    {
+      "path": "run/run_084/snapshot/target_Q_981.csv",
+      "sha256": "6b8aa11a970a96ba0c069976e39aa85fb4cade9f8c7f4de18d6ee2f1d59cf74e",
+      "bytes": 355443,
+      "release_status": "PASS",
+      "source_type": "actual authorized FE-only derived displacement/force/target data or offline arithmetic; no experimental measurement",
+      "license_basis": "current user explicit H4 public scientific snapshot authorization; sources are prior FE-model science data, not partner measurements or raw model files"
+    }
+  ],
+  "private_code_hashes": {
+    "extract_h4.py": "8ab602010ae33cb788c0c5eaf48fbedec5299a3e239d7f9e3cca11e1218aad44",
+    "analyze_h4.py": "6f3bab5290c288db17e1f082c6000bf0aabac4d590e9015b359053a19e7b97e4",
+    "plot_h4.py": "4813146648ac39f71c37331df7f1cbe2c87a59d4784c3c188cc66231f8d6c3de",
+    "finish_diagnostics.py": "31f92430e53d47673930070ef177c0ee6e01fcaeba3f1bf757539346a7476a50",
+    "verify_MAIN.py": "68e1dd6c3380219d917cb942c2904ca9d204c5c5d5b7b1e10ee73830591bc802"
+  },
+  "source_provenance": "sources.csv records actual24 input/ODB SHA, numerical tier and scientific role. Main pools use fine19 only. Original meshes/node IDs/raw brackets/paths are not published. FE radial profile samples disclose only authorized virtual scientific displacement curves, not raw model mesh or experimental data",
+  "reproduction": "reproduce.py ->1079invariants and10table exact parsed-row comparison; independent36actualODBchecks and192poolchecks localrecorded",
+  "not_claimed": [
+    "prospective independent validation using R18",
+    "DIC experimental signal or known equipment precision",
+    "converged endpoint error bounds or mesh convergence",
+    "global unique material or confidence intervals",
+    "2N finite singleton proves recovery"
+  ],
+  "withheld": [
+    "private full scientific and professional reports",
+    "all original INP/ODB/CAE and exactmesh/topology/rawtypes/solverfiles",
+    "all partner experimental or holdout data",
+    "actual local source paths and Hub database/messages/leases",
+    "unrelated user worktree and index changes"
+  ],
+  "new_solver": 0,
+  "new_datacheck": 0,
+  "new_queue": 0,
+  "new_retry": 0,
+  "budget": {
+    "actual_FE_completed": 41,
+    "cap": 100,
+    "remaining_planning": 59
+  },
+  "text_encoding": "UTF-8 LF; staged exact blob verification required"
+}

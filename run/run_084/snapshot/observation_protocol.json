@@ -1,0 +1,64 @@
+{
+  "version": "H4-selection-v1-before-shape-read",
+  "time": "2026-11-21T15:42:37.287563+08:00",
+  "coordinate": "reference/Lagrangian radii tracked on initial bottom z_min; w=-U2 in mm",
+  "radii_mm": [
+    0.5,
+    1.0,
+    1.5
+  ],
+  "pairs_mm": [
+    [
+      0.5,
+      1.5
+    ],
+    [
+      0.5,
+      1.0
+    ],
+    [
+      1.0,
+      1.5
+    ]
+  ],
+  "stages_u_mm": [
+    0.3,
+    0.6,
+    0.9,
+    1.2
+  ],
+  "single_feature_count": 12,
+  "baseline": "w(.5)-w(1.5), u=1.2mm",
+  "two_feature_controls": [
+    [
+      "baseline at .6",
+      "baseline at 1.2"
+    ],
+    [
+      "same selected pair at .6",
+      "same selected pair at 1.2"
+    ]
+  ],
+  "tau_F_N": [
+    2,
+    4.5,
+    5,
+    10
+  ],
+  "tau_feature_um": [
+    0.1,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "error_contract": "tau_feature bounds error of the derived w(r1)-w(r2) against same I06; no quadrature combination. If each point bounded delta, derived feature bound <=2delta; no assumed independent Gaussian noise",
+  "compatibility": "intersection of full241 FD RMS <=tau_F and abs(each selected shape minus I06)<=tau_w; common synthetic I06 reference",
+  "radial": "piecewise linear on reference bottom radius, use physical coordinates not common node IDs",
+  "stage": "linear interpolation in measured punch displacement between bracketing saved U fields; no extrapolation",
+  "selection": "R18 are selection/development only. Primary baseline immutable. Exploratory 12 alternatives: rank by unweighted mean DQ reduction across tau_F=4.5,5,10 and tau_w=.25,.5,1; require real bracketing and matched-tier numerical review, tie smaller feature count then larger radii separation then earlier stage. Also report all12 and all errors, no independence claim",
+  "missing": "NULL, not fabricated zero",
+  "noise": "deterministic hypothetical feature-error bounds, not instrument accuracy or convergence criteria",
+  "fixed_free": "fixed center+6 c3zero subset of free19; preserve membership at eachFD threshold",
+  "target": "actual deployed981Q fromrun083 epsilon .002-.10; report singleton as singleton with diameter null and geometric0",
+  "no_new_FE": true
+}

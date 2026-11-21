@@ -1,0 +1,150 @@
+{
+  "version": "H4-independent-holdout-v1",
+  "frozen_at": "2026-11-21T15:54:47.229604+08:00",
+  "development_source": "all19 R18+I06 existing FE used for observation selection; none is holdout",
+  "primary": {
+    "feature": "g=w(r_ref=.5mm)-w(r_ref=1mm)",
+    "at_punch_u_mm": 1.2,
+    "tracking": "material/Lagrangian radius, initial bottom surface, actual physical positions interpolated",
+    "w_definition": "-U2, mm; no displacement-zero shift, no smoothing",
+    "spatial_interpolation": "linear between physical reference-radius bottom nodes; no matching by node ID across meshes",
+    "temporal_interpolation": "linear bracketing by actual punch u, no extrapolation",
+    "feature_count": 1,
+    "experimental_points": 2
+  },
+  "secondary_control": {
+    "features": [
+      "same g at .6mm punch",
+      "same g at1.2mm punch"
+    ],
+    "role": "prespecified extra-information comparison, cannot replace primary if it fails"
+  },
+  "reference": "reuse fineI06 fromB3 maxdt .000625, initial .0005",
+  "tau_F_N": [
+    2,
+    4.5,
+    5,
+    10
+  ],
+  "tau_derived_feature_um": [
+    0.1,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "primary_comparison": "joint constraints and Q finite diameter vs FD alone; report singleton as singleton, no unique material claim",
+  "main_non_singleton_scenario": {
+    "tau_F_N": 5,
+    "tau_feature_um": 1
+  },
+  "additional_main_scenario": {
+    "tau_F_N": 10,
+    "tau_feature_um": 1
+  },
+  "numerical_scenario": "observed3materialdrift .104986um only diagnostic; +/-this nominalbound as boundary-sensitivity stress-test, not error upper bound or experimental noise",
+  "target_grid": {
+    "min_true_total_strain": 0.002,
+    "max_true_total_strain": 0.1,
+    "points": 981
+  },
+  "numerical_control": {
+    "initial": 0.0005,
+    "maximum": 0.000625,
+    "minimum": 1e-12,
+    "step_time": 1.0,
+    "max_increments": 999999
+  },
+  "candidate_design": [
+    {
+      "candidate_id": "H4_HO_M_FIXED",
+      "source": "unseen c2=+-2.5a, not among R18 training/selection values",
+      "c2": -0.23827544951081234,
+      "c3": 0.0,
+      "c2_over_a": -2.5,
+      "high_compensation_ratio": 0.0,
+      "status": "DESIGN_ONLY_NO_INP",
+      "authorization": "NOT_AUTHORIZED",
+      "purpose": "same-new-low-Q fixed/free paired response and shape block; test extrapolation of selected observation, not optimize SPT loss"
+    },
+    {
+      "candidate_id": "H4_HO_M_FREE",
+      "source": "unseen c2=+-2.5a, not among R18 training/selection values",
+      "c2": -0.23827544951081234,
+      "c3": 0.23827544951081234,
+      "c2_over_a": -2.5,
+      "high_compensation_ratio": 1.0,
+      "status": "DESIGN_ONLY_NO_INP",
+      "authorization": "NOT_AUTHORIZED",
+      "purpose": "same-new-low-Q fixed/free paired response and shape block; test extrapolation of selected observation, not optimize SPT loss"
+    },
+    {
+      "candidate_id": "H4_HO_P_FIXED",
+      "source": "unseen c2=+-2.5a, not among R18 training/selection values",
+      "c2": 0.23827544951081234,
+      "c3": 0.0,
+      "c2_over_a": 2.5,
+      "high_compensation_ratio": 0.0,
+      "status": "DESIGN_ONLY_NO_INP",
+      "authorization": "NOT_AUTHORIZED",
+      "purpose": "same-new-low-Q fixed/free paired response and shape block; test extrapolation of selected observation, not optimize SPT loss"
+    },
+    {
+      "candidate_id": "H4_HO_P_FREE",
+      "source": "unseen c2=+-2.5a, not among R18 training/selection values",
+      "c2": 0.23827544951081234,
+      "c3": -0.2859305394129748,
+      "c2_over_a": 2.5,
+      "high_compensation_ratio": 1.2,
+      "status": "DESIGN_ONLY_NO_INP",
+      "authorization": "NOT_AUTHORIZED",
+      "purpose": "same-new-low-Q fixed/free paired response and shape block; test extrapolation of selected observation, not optimize SPT loss"
+    }
+  ],
+  "pool_rule": "fixed {I06,newM_fixed,newP_fixed}; free fixed union {newM_free,newP_free}, same physical/numerical contract. Independent pool primary; historicR18 combined pool secondary only clearly labelled development+holdout",
+  "reporting": "first frozen prediction/application without retraining or selecting radii/timing/tolerances; report all4, values, FDblock and shapeblock margins; fixed/free Q equal for samec2 must independently verify",
+  "support": "at leastone fixed-out/free-in lowQ and joint shape constraints shrink DQ vs FDon independent pool with identities/numerical qualifications; otherwise partial, refuted or unresolved depending actual pool",
+  "failure": "if no nontrivial FDcompatibleQ pool, additional-observation utility NOT_EVALUABLE on holdout, not PASS bysingleton; if apparent shrink comparable to numerical/measurement uncertainty reportUNRESOLVED",
+  "do_not_change_after_new_FE": [
+    "feature/radii/stage",
+    "tolerances",
+    "c2/c3",
+    "baseline",
+    "poolmembershiprules",
+    "material family"
+  ],
+  "measurement_gates": [
+    "actual bottom optical access and support occlusion",
+    "can track initial material radii despite U1 radial motion",
+    "out-of-plane displacement rather than in-plane image motion",
+    "radius localization and repeated calibration at required submicron-equivalent feature error",
+    "punch synchronization and load frame compliance",
+    "real repeatability and covariance needed before instrument claims"
+  ],
+  "recommended_immediate_new_FE": 0,
+  "conditional_max_new_FE": 4,
+  "why_not_now": "existing shape signal supports method development but actual device/position tracking capability unconfirmed; no scientific need to run4beforemeasuregate",
+  "resources_if_separately_authorized": {
+    "cpus": 14,
+    "gpus": 0,
+    "serial": true,
+    "datacheck_max": 1,
+    "full_max_after_DCsuccess": 1,
+    "automatic_retries": 0,
+    "user_manual_start": true
+  },
+  "backup": {
+    "name": "second-thickness SPT",
+    "status": "NOT_EVALUABLE_WITH_EXISTING_THICKNESS",
+    "needs": "actual secondthickness measurement, geometry/mesh/contact+loading contract, error and pairedexperiment design; no fabricated numerical response"
+  },
+  "FE_budget": {
+    "cap": 100,
+    "actual_existing": 41,
+    "remaining_planning": 59,
+    "after4_ifapproved_andexecuted": 45,
+    "remain_after4": 55
+  },
+  "new_solver": 0,
+  "new_datacheck": 0,
+  "new_queue": 0
+}
