@@ -1,0 +1,80 @@
+{
+  "run": "run_094",
+  "scope": "single user-run I06 FE only, no independent material validation",
+  "files": [
+    {
+      "path": "run/run_094/snapshot/data/energy_history.csv",
+      "sha256": "16ce6c36f268aa3e2ab70500f22741302e13b690ef8d9c9ffa67cc47ef767e47",
+      "bytes": 248653,
+      "release": "PASS",
+      "basis": "selected project-owned FE derivatives/new aggregate report and reproducible CSV analysis under explicit standing Stage3 snapshot authorization; no private artifact copied wholesale or experiment used"
+    },
+    {
+      "path": "run/run_094/snapshot/data/fd_241.csv",
+      "sha256": "5bbb29f9eca5d76ce24c6577f299f7fea74fe255cebb708b62e1972d4705f906",
+      "bytes": 6176,
+      "release": "PASS",
+      "basis": "selected project-owned FE derivatives/new aggregate report and reproducible CSV analysis under explicit standing Stage3 snapshot authorization; no private artifact copied wholesale or experiment used"
+    },
+    {
+      "path": "run/run_094/snapshot/data/fd_native.csv",
+      "sha256": "57515f9bc110506f13a0acbbd24f1be81c5f544ef9a12956c2a770a3d207d95c",
+      "bytes": 90364,
+      "release": "PASS",
+      "basis": "selected project-owned FE derivatives/new aggregate report and reproducible CSV analysis under explicit standing Stage3 snapshot authorization; no private artifact copied wholesale or experiment used"
+    },
+    {
+      "path": "run/run_094/snapshot/data/peeq_saved_frames.csv",
+      "sha256": "9a736253478c87202e975ab5ab9069092a7c6b4519242d1190c8760e61d853a8",
+      "bytes": 106164,
+      "release": "PASS",
+      "basis": "selected project-owned FE derivatives/new aggregate report and reproducible CSV analysis under explicit standing Stage3 snapshot authorization; no private artifact copied wholesale or experiment used"
+    },
+    {
+      "path": "run/run_094/snapshot/figures/fd.png",
+      "sha256": "6e8821476d1270160729ca4938eea3e4fa533fdc4e4903498115698e21788f7c",
+      "bytes": 121146,
+      "release": "PASS",
+      "basis": "selected project-owned FE derivatives/new aggregate report and reproducible CSV analysis under explicit standing Stage3 snapshot authorization; no private artifact copied wholesale or experiment used"
+    },
+    {
+      "path": "run/run_094/snapshot/figures/peeq.png",
+      "sha256": "33e1860ec6e384e1b99d2fbf86e3229bfeef3284a012f59ce7db83ff5ea360ef",
+      "bytes": 117817,
+      "release": "PASS",
+      "basis": "selected project-owned FE derivatives/new aggregate report and reproducible CSV analysis under explicit standing Stage3 snapshot authorization; no private artifact copied wholesale or experiment used"
+    },
+    {
+      "path": "run/run_094/snapshot/jobs.csv",
+      "sha256": "3589f5c68c0cda9a70d75dc1542a97a0cee6930f5a6a6885641e717bcf7e8985",
+      "bytes": 819,
+      "release": "PASS",
+      "basis": "selected project-owned FE derivatives/new aggregate report and reproducible CSV analysis under explicit standing Stage3 snapshot authorization; no private artifact copied wholesale or experiment used"
+    },
+    {
+      "path": "run/run_094/snapshot/metrics.json",
+      "sha256": "3b40115894a45445ad12c6e55552024b20ae402d8f797fe5f93586417a5d7051",
+      "bytes": 4776,
+      "release": "PASS",
+      "basis": "selected project-owned FE derivatives/new aggregate report and reproducible CSV analysis under explicit standing Stage3 snapshot authorization; no private artifact copied wholesale or experiment used"
+    },
+    {
+      "path": "run/run_094/snapshot/README.md",
+      "sha256": "41717c020731c9ab09052147dd126c7c7897f30c8233fbffeb6562b4c2013cf4",
+      "bytes": 2078,
+      "release": "PASS",
+      "basis": "selected project-owned FE derivatives/new aggregate report and reproducible CSV analysis under explicit standing Stage3 snapshot authorization; no private artifact copied wholesale or experiment used"
+    },
+    {
+      "path": "run/run_094/snapshot/reproduce.py",
+      "sha256": "e77caac8369d4e9b16af0427477a17ac094d6852b9ed5f6ce655c45424869362",
+      "bytes": 2491,
+      "release": "PASS",
+      "basis": "selected project-owned FE derivatives/new aggregate report and reproducible CSV analysis under explicit standing Stage3 snapshot authorization; no private artifact copied wholesale or experiment used"
+    }
+  ],
+  "source_INP_SHA256": "a61d6cbcecfdd1beb1859b7554fc94ad3d8eae54f591c825a386de1e780e6afe",
+  "source_ODB_SHA256": "6e6f088ae84e0575e8773c1d55fcff5192985ae937c393e3cca6c363000056d9",
+  "code_SHA256": "e77caac8369d4e9b16af0427477a17ac094d6852b9ed5f6ce655c45424869362",
+  "no_sensitive_raw_artifacts": true
+}

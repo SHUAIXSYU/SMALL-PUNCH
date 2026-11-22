@@ -1,0 +1,124 @@
+{
+  "run": "run_094",
+  "source": "user manually executed one frozen FE pilot; original ODB readOnly extraction and independent review",
+  "data_kind": "FE_ONLY_NO_EXPERIMENT",
+  "RP": "Node ASM_SPT.1, SET_PUNCH_RP",
+  "units": "native m/Pa/N; exported mm/N; energy J",
+  "signs": "u_mm=-1000*U2; force_N=-RF2, verified field/history; no abs or extra 2pi",
+  "FD_contract": {
+    "grid": [
+      0,
+      1.2,
+      241
+    ],
+    "interpolation": "bounded linear, no shift/smoothing/spike removal/extrapolation"
+  },
+  "job": {
+    "run_id": "run_094",
+    "job_name": "SPIO_R092_T10_I06",
+    "queue_id": "q_73d547c0aa8b49b2996b91247cc20616",
+    "project_id": "b9c0d50f-2655-4091-ae49-1bf08940acf8",
+    "material_family": "frozen I06 Hollomon table",
+    "sigma_y_MPa": 236.49902622197678,
+    "n": 0.0968,
+    "thickness_mm": 1.0,
+    "E_MPa": 210000,
+    "nu": 0.3,
+    "initial_increment": 0.0005,
+    "max_increment": 0.000625,
+    "cpus": 14,
+    "gpus": 0,
+    "datacheck_attempts": 1,
+    "full_attempts": 1,
+    "automatic_retries_observed": 0,
+    "raw_software_status": "COMPLETED_WITH_WARNINGS",
+    "software_verdict": "SUCCESS",
+    "numerical_quality": "WARNING",
+    "scoreability": "SCOREABLE_WITH_NUMERICAL_WARNING_FOR_EXPLORATORY_COMPARISON",
+    "INP_SHA256": "a61d6cbcecfdd1beb1859b7554fc94ad3d8eae54f591c825a386de1e780e6afe",
+    "ODB_SHA256": "6e6f088ae84e0575e8773c1d55fcff5192985ae937c393e3cca6c363000056d9",
+    "total_runtime_sec": 543,
+    "cutbacks": 0,
+    "max_saved_PEEQ": 0.7654250264167786,
+    "PEEQ_table_limit": 0.9,
+    "max_force_N": 1969.56005859375
+  },
+  "scalar_metrics": {
+    "raw_points": 1602,
+    "standard_points": 241,
+    "native_u_end_mm": 1.2000000569969416,
+    "max_force_N": 1969.56005859375,
+    "max_force_at_mm": 1.2000000569969416,
+    "standard_final_force_N": 1969.5600524710783,
+    "max_saved_PEEQ": 0.7654250264167786,
+    "table_margin_p": 0.13457497358322146,
+    "own_t2_reference_RMS_N": 1428.9193654770115,
+    "global_ALLPD_final_J": 1.5798120498657227,
+    "global_ALLWK_final_J": 1.6158292293548584,
+    "punch_work_trapz_raw_J": 1.6158293259853758,
+    "interpolation_error_N": 0.0
+  },
+  "sampled_mesh_stages": [
+    {
+      "target_u_mm": 0.3,
+      "actual_u_mm": 0.2997000119648874,
+      "min_detJ_ratio": 0.9045864383968811,
+      "max_detJ_ratio": 1.0602972388140037,
+      "nonpositive_detJ": 0
+    },
+    {
+      "target_u_mm": 0.6,
+      "actual_u_mm": 0.5997000262141228,
+      "min_detJ_ratio": 0.8731929266942101,
+      "max_detJ_ratio": 1.0865976902598575,
+      "nonpositive_detJ": 0
+    },
+    {
+      "target_u_mm": 0.9,
+      "actual_u_mm": 0.8996999822556973,
+      "min_detJ_ratio": 0.8519931077186402,
+      "max_detJ_ratio": 1.0932559054101016,
+      "nonpositive_detJ": 0
+    },
+    {
+      "target_u_mm": 1.2,
+      "actual_u_mm": 1.2000000569969416,
+      "min_detJ_ratio": 0.8286021041638834,
+      "max_detJ_ratio": 1.1581087460743367,
+      "nonpositive_detJ": 0
+    }
+  ],
+  "native_warning_count": 4,
+  "warning_interpretation": [
+    "DAT: analytical rigid main surface triggers path-based to state-based contact tracking fallback",
+    "MSG: zero-moment default-criterion warning in first increment",
+    "Queue warning count aggregates records; terminal warning blocks cannot uniquely map all phase counts",
+    "196 accepted increment rows have severe-discontinuity iterations, which are not 196 rejected increments"
+  ],
+  "negative_eigenvalue_warnings": 0,
+  "excessive_distortion_mentions": 0,
+  "material_domain_scope": "max over all 1602 saved PEEQ fields, not a continuous Newton-trial bound",
+  "energy_scope": "global energies and RP work, not regional RF contribution or complete balance certification",
+  "SCIENCE": {
+    "execution": "PASS",
+    "numerical_quality": "WARNING",
+    "numerical_resolution": "LIMITED_NO_1MM_ERROR_BOUND",
+    "H4_dual_thickness_gain_this_run": "NOT_EVALUATED_SINGLE_MATERIAL",
+    "target_recoverability": "NOT_EVALUATED_SINGLE_MATERIAL",
+    "external_validation": "NOT_EVALUABLE",
+    "M_FREE_request_eligible": true,
+    "M_FREE_execution_authorized": false
+  },
+  "postprocessing": "initial Repository.get API error corrected with preserved first log/partial FD; two readonly extraction attempts, zero new FE reruns; unchanged ODB SHA",
+  "budget": {
+    "actual_FE_attempts": 46,
+    "cap": 100,
+    "remaining": 54
+  },
+  "analysis_version": {
+    "baseline_git_HEAD": "a5e4e1ea1e9b1e4738557e0dcc995b05df023a1d",
+    "extractor_SHA256": "13ec555672ec0b6021b83e1eb60deef1dd5ccf9d16e174fb74f2c7ffb046a6ee",
+    "MAIN_reviewer_SHA256": "a9a86436e537d4fc42dec9f63f713148e808af78ba0c2d5fae9ef17d79e73633"
+  },
+  "withheld": "raw ODB/CAE/INP, private reports/process/runtime files, original collaborator or tensile data"
+}
