@@ -1,0 +1,442 @@
+{
+  "run_id": "run_095",
+  "data_kind": "FE_ONLY_SYNTHETIC_I06_REFERENCE_NO_EXPERIMENT",
+  "jobs": [
+    {
+      "case": "t05_I06",
+      "source_run": "run_080",
+      "job_name": "SPIO_R078_B3_I06_M000625",
+      "queue_id": "q_f2b2548919b547d19a2e175582db3dc5",
+      "project_id": "b9c0d50f-2655-4091-ae49-1bf08940acf8",
+      "thickness_mm": 0.5,
+      "material_family": "frozen I06 Hollomon",
+      "anchor_sigma_y_MPa": 236.49902622197678,
+      "anchor_n": 0.0968,
+      "c2": 0,
+      "c3": 0,
+      "initial_increment": 0.0005,
+      "max_increment": 0.000625,
+      "cpus": 14,
+      "gpus": 0,
+      "DC_attempts": "1",
+      "Full_attempts": "1",
+      "retry_count": "0",
+      "cutbacks": "0",
+      "raw_status": "COMPLETED_WITH_WARNINGS",
+      "numerical_quality": "WARNING",
+      "scoreability": "exploratory prior FE with warnings",
+      "INP_SHA256": "8440363c86bca77e72df6f71acf0b331a8ca2f9e5be4c7c6ea726267e410a8b5",
+      "ODB_SHA256": "d201af6586e61c9aa7b603f9f9ee2b0c5f0efd3165e0976d2d75822ddec9d846",
+      "max_saved_PEEQ": "0.7033470869064331",
+      "material_p_max": 0.9
+    },
+    {
+      "case": "t05_M_FREE",
+      "source_run": "run_088",
+      "job_name": "SPIO_R085_H4_M_FREE",
+      "queue_id": "q_ef1e75ec25274319ac23cc2de209f627",
+      "project_id": "b9c0d50f-2655-4091-ae49-1bf08940acf8",
+      "thickness_mm": 0.5,
+      "material_family": "frozen S2/S3 positive-rate extension",
+      "anchor_sigma_y_MPa": 236.49902622197678,
+      "anchor_n": 0.0968,
+      "c2": -0.23827544951081234,
+      "c3": 0.23827544951081234,
+      "initial_increment": 0.0005,
+      "max_increment": 0.000625,
+      "cpus": 14,
+      "gpus": 0,
+      "DC_attempts": "1",
+      "Full_attempts": "1",
+      "retry_count": "0",
+      "cutbacks": "0",
+      "raw_status": "COMPLETED_WITH_WARNINGS",
+      "numerical_quality": "WARNING",
+      "scoreability": "exploratory prior FE with warnings",
+      "INP_SHA256": "f82b098c2ff83c721951ce93b34f5fb59bf3c6845fa135cd44ff3b2ea678214e",
+      "ODB_SHA256": "e3d5177f1ac2680e3fd5d312eeb74ec12dfa34cd2dbba883f90920bf28e48a5b",
+      "max_saved_PEEQ": "0.6993004083633423",
+      "material_p_max": 0.9
+    },
+    {
+      "case": "t10_I06",
+      "source_run": "run_094",
+      "job_name": "SPIO_R092_T10_I06",
+      "queue_id": "q_73d547c0aa8b49b2996b91247cc20616",
+      "project_id": "b9c0d50f-2655-4091-ae49-1bf08940acf8",
+      "thickness_mm": 1.0,
+      "material_family": "frozen I06 Hollomon",
+      "anchor_sigma_y_MPa": 236.49902622197678,
+      "anchor_n": 0.0968,
+      "c2": 0,
+      "c3": 0,
+      "initial_increment": 0.0005,
+      "max_increment": 0.000625,
+      "cpus": 14,
+      "gpus": 0,
+      "DC_attempts": 1,
+      "Full_attempts": 1,
+      "retry_count": 0,
+      "cutbacks": 0,
+      "raw_status": "COMPLETED_WITH_WARNINGS",
+      "numerical_quality": "WARNING",
+      "scoreability": "descriptive pair only; not convergence certified",
+      "INP_SHA256": "a61d6cbcecfdd1beb1859b7554fc94ad3d8eae54f591c825a386de1e780e6afe",
+      "ODB_SHA256": "6e6f088ae84e0575e8773c1d55fcff5192985ae937c393e3cca6c363000056d9",
+      "max_saved_PEEQ": 0.7654250264167786,
+      "material_p_max": 0.9
+    },
+    {
+      "case": "t10_M_FREE",
+      "source_run": "run_095",
+      "job_name": "SPIO_R092_T10_MFREE",
+      "queue_id": "q_1d74d92cf40f4885abcf1b944d0d63fb",
+      "project_id": "b9c0d50f-2655-4091-ae49-1bf08940acf8",
+      "thickness_mm": 1.0,
+      "material_family": "frozen S2/S3 positive-rate extension",
+      "anchor_sigma_y_MPa": 236.49902622197678,
+      "anchor_n": 0.0968,
+      "c2": -0.23827544951081234,
+      "c3": 0.23827544951081234,
+      "initial_increment": 0.0005,
+      "max_increment": 0.000625,
+      "cpus": 14,
+      "gpus": 0,
+      "DC_attempts": 1,
+      "Full_attempts": 1,
+      "retry_count": 0,
+      "cutbacks": 0,
+      "raw_status": "COMPLETED_WITH_WARNINGS",
+      "numerical_quality": "WARNING",
+      "scoreability": "descriptive pair only; not convergence certified",
+      "INP_SHA256": "3ac09c4b00f3eb48037e2dd53e49f9f2a60c5372aee70ff87f38d3638443c457",
+      "ODB_SHA256": "fe87641d94882716f0c1df7f68b0f0b47120170c66ecd3707607c46052553c5b",
+      "max_saved_PEEQ": 0.7572342753410339,
+      "material_p_max": 0.9
+    }
+  ],
+  "observation_contract": {
+    "u_mm": "-1000*U2_m",
+    "F_N": "-RF2_N",
+    "grid": "0..1.2mm,241 points, bounded linear, no shift/smoothing/spike deletion/extrapolation",
+    "force_axisymmetric": "native RP total force; no extra 2pi factor",
+    "segments": "61 points each, shared endpoints diagnostic only; overall RMS uses 241 once"
+  },
+  "t1_pair": {
+    "rms_N": 3.945991204283632,
+    "max_abs_N": 19.187366735498358,
+    "max_abs_at_mm": 0.98,
+    "signed_at_max_N": -19.187366735498358,
+    "segments": [
+      {
+        "range_mm": [
+          0,
+          0.3
+        ],
+        "points": 61,
+        "rms_N": 1.1435725256274312,
+        "max_abs_N": 2.2906861675079426,
+        "mean_signed_N": -0.6844872892144672
+      },
+      {
+        "range_mm": [
+          0.3,
+          0.6
+        ],
+        "points": 61,
+        "rms_N": 3.3306648698887407,
+        "max_abs_N": 11.283188928350569,
+        "mean_signed_N": -2.787257487484536
+      },
+      {
+        "range_mm": [
+          0.6,
+          0.9
+        ],
+        "points": 61,
+        "rms_N": 5.896186804624515,
+        "max_abs_N": 18.624130139037902,
+        "mean_signed_N": -4.157933310496966
+      },
+      {
+        "range_mm": [
+          0.9,
+          1.2
+        ],
+        "points": 61,
+        "rms_N": 3.814056264317738,
+        "max_abs_N": 19.187366735498358,
+        "mean_signed_N": -0.05907917924339174
+      }
+    ]
+  },
+  "t2_pair": {
+    "rms_N": 9.359704502032931,
+    "max_abs_N": 52.93186196854094,
+    "max_abs_at_mm": 0.9500000000000001,
+    "signed_at_max_N": -52.93186196854094,
+    "segments": [
+      {
+        "range_mm": [
+          0,
+          0.3
+        ],
+        "points": 61,
+        "rms_N": 4.252873012338791,
+        "max_abs_N": 5.995402009427153,
+        "mean_signed_N": -3.7124177303356762
+      },
+      {
+        "range_mm": [
+          0.3,
+          0.6
+        ],
+        "points": 61,
+        "rms_N": 6.813051721720558,
+        "max_abs_N": 37.042551101893196,
+        "mean_signed_N": -4.946773010029935
+      },
+      {
+        "range_mm": [
+          0.6,
+          0.9
+        ],
+        "points": 61,
+        "rms_N": 12.350811758411695,
+        "max_abs_N": 52.92642050512654,
+        "mean_signed_N": -6.3638508589078775
+      },
+      {
+        "range_mm": [
+          0.9,
+          1.2
+        ],
+        "points": 61,
+        "rms_N": 11.376250438969098,
+        "max_abs_N": 52.93186196854094,
+        "mean_signed_N": -0.10554944227569425
+      }
+    ]
+  },
+  "direction": {
+    "S1_N": 568.5445379361402,
+    "S2_N": 1428.9193654770115,
+    "reference_RMS_ratio": 2.513293629843138,
+    "reference_best_scalar": 2.5044927222038935,
+    "reference_shape_residual_over_S2": 0.08361353486323192,
+    "normalized_d1": 0.0069405137873769385,
+    "normalized_d2": 0.006550197812532557,
+    "normalized_magnitude_ratio": 0.9437626684707018,
+    "normalized_direction_cosine": 0.29507570334403727,
+    "projection_ratio": 0.27848143318883783,
+    "orthogonal_residual_fraction": 0.9554738768255371
+  },
+  "pair_d_Q_MPa": 4.047861317839262,
+  "target_Q_grid": "true total strain .002..0.10,981points",
+  "frozen_scenarios": [
+    {
+      "tau2_absolute_N": 2.0,
+      "tau2_relative_fraction": 0.005,
+      "effective_cap_N": 2.0,
+      "d2_minus_cap_N": 7.3597045020329315,
+      "t1_member": true,
+      "joint_member_MFREE": false,
+      "pair_D_Q_MPa": null,
+      "robust_gain": "UNRESOLVED_NO_T2_ERROR_BOUND"
+    },
+    {
+      "tau2_absolute_N": 2.0,
+      "tau2_relative_fraction": 0.01,
+      "effective_cap_N": 2.0,
+      "d2_minus_cap_N": 7.3597045020329315,
+      "t1_member": true,
+      "joint_member_MFREE": false,
+      "pair_D_Q_MPa": null,
+      "robust_gain": "UNRESOLVED_NO_T2_ERROR_BOUND"
+    },
+    {
+      "tau2_absolute_N": 2.0,
+      "tau2_relative_fraction": 0.02,
+      "effective_cap_N": 2.0,
+      "d2_minus_cap_N": 7.3597045020329315,
+      "t1_member": true,
+      "joint_member_MFREE": false,
+      "pair_D_Q_MPa": null,
+      "robust_gain": "UNRESOLVED_NO_T2_ERROR_BOUND"
+    },
+    {
+      "tau2_absolute_N": 5.0,
+      "tau2_relative_fraction": 0.005,
+      "effective_cap_N": 5.0,
+      "d2_minus_cap_N": 4.3597045020329315,
+      "t1_member": true,
+      "joint_member_MFREE": false,
+      "pair_D_Q_MPa": null,
+      "robust_gain": "UNRESOLVED_NO_T2_ERROR_BOUND"
+    },
+    {
+      "tau2_absolute_N": 5.0,
+      "tau2_relative_fraction": 0.01,
+      "effective_cap_N": 5.0,
+      "d2_minus_cap_N": 4.3597045020329315,
+      "t1_member": true,
+      "joint_member_MFREE": false,
+      "pair_D_Q_MPa": null,
+      "robust_gain": "UNRESOLVED_NO_T2_ERROR_BOUND"
+    },
+    {
+      "tau2_absolute_N": 5.0,
+      "tau2_relative_fraction": 0.02,
+      "effective_cap_N": 5.0,
+      "d2_minus_cap_N": 4.3597045020329315,
+      "t1_member": true,
+      "joint_member_MFREE": false,
+      "pair_D_Q_MPa": null,
+      "robust_gain": "UNRESOLVED_NO_T2_ERROR_BOUND"
+    },
+    {
+      "tau2_absolute_N": 10.0,
+      "tau2_relative_fraction": 0.005,
+      "effective_cap_N": 7.144596827385058,
+      "d2_minus_cap_N": 2.2151076746478733,
+      "t1_member": true,
+      "joint_member_MFREE": false,
+      "pair_D_Q_MPa": null,
+      "robust_gain": "UNRESOLVED_NO_T2_ERROR_BOUND"
+    },
+    {
+      "tau2_absolute_N": 10.0,
+      "tau2_relative_fraction": 0.01,
+      "effective_cap_N": 10.0,
+      "d2_minus_cap_N": -0.6402954979670685,
+      "t1_member": true,
+      "joint_member_MFREE": true,
+      "pair_D_Q_MPa": 4.047861317839262,
+      "robust_gain": "UNRESOLVED_NO_T2_ERROR_BOUND"
+    },
+    {
+      "tau2_absolute_N": 10.0,
+      "tau2_relative_fraction": 0.02,
+      "effective_cap_N": 10.0,
+      "d2_minus_cap_N": -0.6402954979670685,
+      "t1_member": true,
+      "joint_member_MFREE": true,
+      "pair_D_Q_MPa": 4.047861317839262,
+      "robust_gain": "UNRESOLVED_NO_T2_ERROR_BOUND"
+    }
+  ],
+  "t2_pair_difference_bound_N": null,
+  "full_pool_D_Q_MPa": null,
+  "science": {
+    "EXECUTION": "PASS",
+    "NUMERICAL_QUALITY": "WARNING",
+    "NUMERICAL_RESOLUTION": "LIMITED_NO_T2_PAIR_ERROR_BOUND",
+    "PAIR_CONDITIONAL_DISCRIMINATION": "SUPPORTED_IN_7_OF_9_PRE_REGISTERED_SCENARIOS_ONLY",
+    "ROBUST_INFORMATION_GAIN": "UNRESOLVED",
+    "TARGET_RECOVERABILITY": "LIMITED_TWO_MATERIAL_SYNTHETIC_PAIR_NO_FULL_POOL",
+    "EXTERNAL_VALIDATION": "NOT_EVALUABLE"
+  },
+  "spike_diagnostics": {
+    "scope": "EXPLORATORY descriptive ranked point concentration and step locations only; all 241 points retained in frozen primary RMS and all membership decisions",
+    "concentration": [
+      {
+        "largest_point_count": 1,
+        "total_points": 241,
+        "fraction_of_total_squared_pair_difference": 0.1327067534276195
+      },
+      {
+        "largest_point_count": 5,
+        "total_points": 241,
+        "fraction_of_total_squared_pair_difference": 0.5394545412342102
+      },
+      {
+        "largest_point_count": 10,
+        "total_points": 241,
+        "fraction_of_total_squared_pair_difference": 0.7818153275100704
+      },
+      {
+        "largest_point_count": 24,
+        "total_points": 241,
+        "fraction_of_total_squared_pair_difference": 0.8440359419140021
+      }
+    ],
+    "largest_pair_difference_points": [
+      {
+        "u_mm": 0.9500000000000001,
+        "delta_N": -52.93186196854094
+      },
+      {
+        "u_mm": 0.8150000000000001,
+        "delta_N": -52.92642050512654
+      },
+      {
+        "u_mm": 0.705,
+        "delta_N": -46.32047090487049
+      },
+      {
+        "u_mm": 0.615,
+        "delta_N": -45.240219161866435
+      },
+      {
+        "u_mm": 1.1400000000000001,
+        "delta_N": -39.92525468141753
+      },
+      {
+        "u_mm": 0.535,
+        "delta_N": -37.042551101893196
+      },
+      {
+        "u_mm": 0.9550000000000001,
+        "delta_N": -36.10367880413173
+      },
+      {
+        "u_mm": 1.135,
+        "delta_N": -34.49741877411179
+      },
+      {
+        "u_mm": 0.71,
+        "delta_N": -25.491851523468085
+      },
+      {
+        "u_mm": 0.8200000000000001,
+        "delta_N": -24.52201037822806
+      }
+    ],
+    "causality": "Coincident step positions suggest contact/discretization event timing as a competing explanation; no field-level causal decomposition or numerical-error bound proved",
+    "no_data_removed": true
+  },
+  "warnings": [
+    "native COMPLETED_WITH_WARNINGS; contact tracker fallback and first-increment zero moment retained",
+    "no strict 1mm increment/mesh/contact convergence; positive four-stage detJ is sampled only",
+    "no proof stair-step timing differences are all physical or all numerical",
+    "only two material configurations, not a full-pool identifiability or material validation"
+  ],
+  "budget": {
+    "actual_FE": 47,
+    "cap": 100,
+    "remaining": 53
+  },
+  "analysis_identity": {
+    "baseline_git_HEAD": "11bab22b7f471f122e1f890b45d473b67d9c7c64",
+    "frozen_protocol_SHA256": "4b9fe14ca6e3325e44b587b55de72b0d900684a5ada6ec87439db7bcb1407e71",
+    "frozen_evaluator_SHA256": "3f46bf35ee84dea46fab8b475d1179f2dd2a3eb14290f0e05a06ef5ca5e4b53e",
+    "extractor_SHA256": "a80649307ddd638fce80b5734aef19547853d8dbd853fa899f99b6973cf42540",
+    "MAIN_independent_code_SHA256": "6f66ac00655586122ccb0f0a30c7e5a0cedd6e64ce166ead6b99ea307090f7a9",
+    "IV_qualification_SHA256": "ecd6b8e73d946b2574494e145b0e9f6206cf3cbf455b4e856c9b32d10d36b2fd"
+  },
+  "prior_public_sources": [
+    {
+      "path": "run/run_088/snapshot/data/fd_actual_241.csv",
+      "sha256": "be37740932178b9fe47248ba5bc35209127a7c1fc86cbdcfed082eb35a6bc560"
+    },
+    {
+      "path": "run/run_088/snapshot/data/target_Q_981.csv",
+      "sha256": "fde9a2f13cee91fd576952cfd207a889536aa84509b19b50383733c341a24e2d"
+    },
+    {
+      "path": "run/run_094/snapshot/data/fd_241.csv",
+      "sha256": "5bbb29f9eca5d76ce24c6577f299f7fea74fe255cebb708b62e1972d4705f906"
+    }
+  ],
+  "withheld": "raw INP/ODB/CAE, private reports, solver/runtime/Hub files, all collaborator experimental and held-out tensile data"
+}

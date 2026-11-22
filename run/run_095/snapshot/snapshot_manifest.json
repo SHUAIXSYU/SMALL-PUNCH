@@ -1,0 +1,107 @@
+{
+  "run": "run_095",
+  "files": [
+    {
+      "path": "run/run_095/snapshot/data/fd_four_curves.csv",
+      "sha256": "562014a5a19556a1be62cd575db89f1512223f71f2a02f685823d5ba960dc1bb",
+      "bytes": 19394,
+      "release": "PASS",
+      "basis": "selected project-owned FE-derived data/new figures/aggregate and reproducible exported-data code under standing Stage3 authorization; old FE-only sources previously public; no original experimental or private report copying"
+    },
+    {
+      "path": "run/run_095/snapshot/data/mfree_native.csv",
+      "sha256": "eb689352a4db6c31f3ee93eae28143268180d8a53dedfc996faacbcd6ca644ec",
+      "bytes": 90449,
+      "release": "PASS",
+      "basis": "selected project-owned FE-derived data/new figures/aggregate and reproducible exported-data code under standing Stage3 authorization; old FE-only sources previously public; no original experimental or private report copying"
+    },
+    {
+      "path": "run/run_095/snapshot/data/mfree_peeq_frames.csv",
+      "sha256": "e4fd433846be5206e4a117777475953d1b15ef7dca114fce776b69d79df6eac0",
+      "bytes": 106118,
+      "release": "PASS",
+      "basis": "selected project-owned FE-derived data/new figures/aggregate and reproducible exported-data code under standing Stage3 authorization; old FE-only sources previously public; no original experimental or private report copying"
+    },
+    {
+      "path": "run/run_095/snapshot/data/target_Q_pair.csv",
+      "sha256": "6b1d97b31871c836e0da442f239a5c582f2f0fac7287241d5c5f41c6d05ca450",
+      "bytes": 48725,
+      "release": "PASS",
+      "basis": "selected project-owned FE-derived data/new figures/aggregate and reproducible exported-data code under standing Stage3 authorization; old FE-only sources previously public; no original experimental or private report copying"
+    },
+    {
+      "path": "run/run_095/snapshot/figures/01_four_fd.png",
+      "sha256": "1e64b1dc111979d29e06b0361bd5d72601e125023ab93d86d0ae7a161b523282",
+      "bytes": 189241,
+      "release": "PASS",
+      "basis": "selected project-owned FE-derived data/new figures/aggregate and reproducible exported-data code under standing Stage3 authorization; old FE-only sources previously public; no original experimental or private report copying"
+    },
+    {
+      "path": "run/run_095/snapshot/figures/02_pair_differences.png",
+      "sha256": "86ea2f9577e6c09d256d9d7ee6dbf72dbe0de0eb8699ba417686347b79a92ac8",
+      "bytes": 413484,
+      "release": "PASS",
+      "basis": "selected project-owned FE-derived data/new figures/aggregate and reproducible exported-data code under standing Stage3 authorization; old FE-only sources previously public; no original experimental or private report copying"
+    },
+    {
+      "path": "run/run_095/snapshot/figures/03_scale_and_direction.png",
+      "sha256": "2d9e92fd6a68c9b3e67606f85c7b69aa7dc2f76ea756a6d2b6577adc06e03add",
+      "bytes": 322928,
+      "release": "PASS",
+      "basis": "selected project-owned FE-derived data/new figures/aggregate and reproducible exported-data code under standing Stage3 authorization; old FE-only sources previously public; no original experimental or private report copying"
+    },
+    {
+      "path": "run/run_095/snapshot/figures/04_scenarios_and_Q.png",
+      "sha256": "3eaaa7b5ae7af2402735dcac0a6b0318cb9e651e3749e1580b37e7da82ae9ec6",
+      "bytes": 184478,
+      "release": "PASS",
+      "basis": "selected project-owned FE-derived data/new figures/aggregate and reproducible exported-data code under standing Stage3 authorization; old FE-only sources previously public; no original experimental or private report copying"
+    },
+    {
+      "path": "run/run_095/snapshot/jobs.csv",
+      "sha256": "37c1162a1dda761f75f0f14d0e2ca88b3d6e9ae40c71f8e83eecb4ff35700503",
+      "bytes": 2080,
+      "release": "PASS",
+      "basis": "selected project-owned FE-derived data/new figures/aggregate and reproducible exported-data code under standing Stage3 authorization; old FE-only sources previously public; no original experimental or private report copying"
+    },
+    {
+      "path": "run/run_095/snapshot/metrics.json",
+      "sha256": "045601b6c440a34f1415e52fa346d66f613e13c6cc3f4fec59aaedb9bf7db340",
+      "bytes": 14233,
+      "release": "PASS",
+      "basis": "selected project-owned FE-derived data/new figures/aggregate and reproducible exported-data code under standing Stage3 authorization; old FE-only sources previously public; no original experimental or private report copying"
+    },
+    {
+      "path": "run/run_095/snapshot/README.md",
+      "sha256": "4d235afdd95fe6158ac1080e8c991a74ec40e4fef52ccf7c7043941a243d7a45",
+      "bytes": 2515,
+      "release": "PASS",
+      "basis": "selected project-owned FE-derived data/new figures/aggregate and reproducible exported-data code under standing Stage3 authorization; old FE-only sources previously public; no original experimental or private report copying"
+    },
+    {
+      "path": "run/run_095/snapshot/reproduce.py",
+      "sha256": "111704098e2c6a82b8bc8d8126e3c8a5e29d9bbbe023a6528a79384cb311c4e9",
+      "bytes": 4723,
+      "release": "PASS",
+      "basis": "selected project-owned FE-derived data/new figures/aggregate and reproducible exported-data code under standing Stage3 authorization; old FE-only sources previously public; no original experimental or private report copying"
+    },
+    {
+      "path": "run/run_095/snapshot/scenarios.csv",
+      "sha256": "3504ebab543ac3911c6f57e81d2595f9be2ffaf188495dba395b7f88452fac91",
+      "bytes": 781,
+      "release": "PASS",
+      "basis": "selected project-owned FE-derived data/new figures/aggregate and reproducible exported-data code under standing Stage3 authorization; old FE-only sources previously public; no original experimental or private report copying"
+    },
+    {
+      "path": "run/run_095/snapshot/segments.csv",
+      "sha256": "343d96b9aef9a1184ba9d6342b369cf388920fbf6806320466b0377890bb3971",
+      "bytes": 655,
+      "release": "PASS",
+      "basis": "selected project-owned FE-derived data/new figures/aggregate and reproducible exported-data code under standing Stage3 authorization; old FE-only sources previously public; no original experimental or private report copying"
+    }
+  ],
+  "code_SHA256": "111704098e2c6a82b8bc8d8126e3c8a5e29d9bbbe023a6528a79384cb311c4e9",
+  "source_INP_SHA256": "3ac09c4b00f3eb48037e2dd53e49f9f2a60c5372aee70ff87f38d3638443c457",
+  "source_ODB_SHA256": "fe87641d94882716f0c1df7f68b0f0b47120170c66ecd3707607c46052553c5b",
+  "scope": "FE-only limited two-material paired analysis; no experiment or full-pool recovery certification"
+}
