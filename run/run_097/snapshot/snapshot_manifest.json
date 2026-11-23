@@ -1,0 +1,105 @@
+{
+  "run_id": "run_097",
+  "files": [
+    {
+      "path": "run/run_097/snapshot/data/contact_timing.csv",
+      "sha256": "117451689dc3a82d49010dfeefab1849d187af3eff0ecf6a6de85400078e4047",
+      "bytes": 968,
+      "release": "PASS",
+      "basis": "project-owned FE-derived curves and limited scientific aggregates under standing Stage3 release authorization; no raw models, private report copying, experimental/holdout data or credentials"
+    },
+    {
+      "path": "run/run_097/snapshot/data/fd_four_curves.csv",
+      "sha256": "51c2cab5f9ae81c6ee459a078b4c279a00cb1468c65d01db8b7e6e059f8f5385",
+      "bytes": 19598,
+      "release": "PASS",
+      "basis": "project-owned FE-derived curves and limited scientific aggregates under standing Stage3 release authorization; no raw models, private report copying, experimental/holdout data or credentials"
+    },
+    {
+      "path": "run/run_097/snapshot/data/native_peaks.csv",
+      "sha256": "c18af1521f106dace768afd02dc3720d7b91d14767809ad3a16f721665437975",
+      "bytes": 2556,
+      "release": "PASS",
+      "basis": "project-owned FE-derived curves and limited scientific aggregates under standing Stage3 release authorization; no raw models, private report copying, experimental/holdout data or credentials"
+    },
+    {
+      "path": "run/run_097/snapshot/figures/01_four_curves.png",
+      "sha256": "3851c16f43592ee20feaa575a80208f4d79eacd8a1335bb27cc99baae088cf7b",
+      "bytes": 117797,
+      "release": "PASS",
+      "basis": "project-owned FE-derived curves and limited scientific aggregates under standing Stage3 release authorization; no raw models, private report copying, experimental/holdout data or credentials"
+    },
+    {
+      "path": "run/run_097/snapshot/figures/02_pair_residuals.png",
+      "sha256": "63507e263aeb16ad863714a0dec4f614f7bd88a998077dfdd983fc81105f8feb",
+      "bytes": 171445,
+      "release": "PASS",
+      "basis": "project-owned FE-derived curves and limited scientific aggregates under standing Stage3 release authorization; no raw models, private report copying, experimental/holdout data or credentials"
+    },
+    {
+      "path": "run/run_097/snapshot/figures/03_numerical_changes.png",
+      "sha256": "0608060bd14c4eceb6649b893653847e1da5ea68ccbfd4ea0f5348e9d4c01bd1",
+      "bytes": 225947,
+      "release": "PASS",
+      "basis": "project-owned FE-derived curves and limited scientific aggregates under standing Stage3 release authorization; no raw models, private report copying, experimental/holdout data or credentials"
+    },
+    {
+      "path": "run/run_097/snapshot/figures/04_fixed_window_zoom.png",
+      "sha256": "a977949d0adde2dbec75f1d13ce9f4d60cb4463e724741a2031cba6b86fa496a",
+      "bytes": 356448,
+      "release": "PASS",
+      "basis": "project-owned FE-derived curves and limited scientific aggregates under standing Stage3 release authorization; no raw models, private report copying, experimental/holdout data or credentials"
+    },
+    {
+      "path": "run/run_097/snapshot/figures/recomputed_metrics.json",
+      "sha256": "c6ac5ee902a56b120cd62a0a0639152d7e553e6d91781e5e5e2ea907a243cd64",
+      "bytes": 1737,
+      "release": "PASS",
+      "basis": "project-owned FE-derived curves and limited scientific aggregates under standing Stage3 release authorization; no raw models, private report copying, experimental/holdout data or credentials"
+    },
+    {
+      "path": "run/run_097/snapshot/jobs.csv",
+      "sha256": "a7afff3dbbcbd2ea4f6f3f65da0a5fe0d42c083ac0b5d901c59767017a6c1b1d",
+      "bytes": 2095,
+      "release": "PASS",
+      "basis": "project-owned FE-derived curves and limited scientific aggregates under standing Stage3 release authorization; no raw models, private report copying, experimental/holdout data or credentials"
+    },
+    {
+      "path": "run/run_097/snapshot/metrics.json",
+      "sha256": "289df5b5136abd04010a298e3bd3286fd0a0e84bfdbf8631860b68a091967758",
+      "bytes": 36747,
+      "release": "PASS",
+      "basis": "project-owned FE-derived curves and limited scientific aggregates under standing Stage3 release authorization; no raw models, private report copying, experimental/holdout data or credentials"
+    },
+    {
+      "path": "run/run_097/snapshot/README.md",
+      "sha256": "1de3a5804b11355482b2b41a1cc492b8d92c99eaa60431e73c14478ce014fafe",
+      "bytes": 10637,
+      "release": "PASS",
+      "basis": "project-owned FE-derived curves and limited scientific aggregates under standing Stage3 release authorization; no raw models, private report copying, experimental/holdout data or credentials"
+    },
+    {
+      "path": "run/run_097/snapshot/reproduce.py",
+      "sha256": "61579bc8930b9a7e24b4935a3b12b233f482970bcb6d5a590bce750678791291",
+      "bytes": 3938,
+      "release": "PASS",
+      "basis": "project-owned FE-derived curves and limited scientific aggregates under standing Stage3 release authorization; no raw models, private report copying, experimental/holdout data or credentials"
+    },
+    {
+      "path": "run/run_097/snapshot/scenarios.csv",
+      "sha256": "f439bd7711497f7dcfa35388b81d055a00f845cc288611685f2283940a6895f3",
+      "bytes": 2444,
+      "release": "PASS",
+      "basis": "project-owned FE-derived curves and limited scientific aggregates under standing Stage3 release authorization; no raw models, private report copying, experimental/holdout data or credentials"
+    },
+    {
+      "path": "run/run_097/snapshot/segments.csv",
+      "sha256": "437ae5fba5467f8741df647551b960111e2a1be1cea8bb0eebb4cffe77b98058",
+      "bytes": 2301,
+      "release": "PASS",
+      "basis": "project-owned FE-derived curves and limited scientific aggregates under standing Stage3 release authorization; no raw models, private report copying, experimental/holdout data or credentials"
+    }
+  ],
+  "scope": "one paired adjacent-time-level FE comparison, all limitations retained",
+  "code_SHA256": "61579bc8930b9a7e24b4935a3b12b233f482970bcb6d5a590bce750678791291"
+}

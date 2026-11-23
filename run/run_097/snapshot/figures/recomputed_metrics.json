@@ -1,0 +1,69 @@
+{
+  "I06_RMS_N": 0.2938718575428458,
+  "MFREE_RMS_N": 0.23925818119809714,
+  "coarse_pair_RMS_N": 9.359704502032931,
+  "fine_pair_RMS_N": 9.427931982067745,
+  "pair_change_RMS_N": 0.31646858621766416,
+  "pair_change_max_N": 3.574475734657085,
+  "pair_change_max_u_mm": 0.17500000000000002,
+  "six_window_points": 54,
+  "coarse_window_squared_fraction": 0.843128696236456,
+  "fine_window_squared_fraction": 0.8421905842966201,
+  "scenarios": [
+    {
+      "absolute_N": 2.0,
+      "relative": 0.005,
+      "coarse_compatible": false,
+      "fine_compatible": false
+    },
+    {
+      "absolute_N": 2.0,
+      "relative": 0.01,
+      "coarse_compatible": false,
+      "fine_compatible": false
+    },
+    {
+      "absolute_N": 2.0,
+      "relative": 0.02,
+      "coarse_compatible": false,
+      "fine_compatible": false
+    },
+    {
+      "absolute_N": 5.0,
+      "relative": 0.005,
+      "coarse_compatible": false,
+      "fine_compatible": false
+    },
+    {
+      "absolute_N": 5.0,
+      "relative": 0.01,
+      "coarse_compatible": false,
+      "fine_compatible": false
+    },
+    {
+      "absolute_N": 5.0,
+      "relative": 0.02,
+      "coarse_compatible": false,
+      "fine_compatible": false
+    },
+    {
+      "absolute_N": 10.0,
+      "relative": 0.005,
+      "coarse_compatible": false,
+      "fine_compatible": false
+    },
+    {
+      "absolute_N": 10.0,
+      "relative": 0.01,
+      "coarse_compatible": true,
+      "fine_compatible": true
+    },
+    {
+      "absolute_N": 10.0,
+      "relative": 0.02,
+      "coarse_compatible": true,
+      "fine_compatible": true
+    }
+  ],
+  "limitation": "One adjacent increment comparison is not a strict error bound; no smoothing or omission; synthetic two-material FE pair only."
+}
